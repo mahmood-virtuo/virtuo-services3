@@ -332,7 +332,7 @@ textarea {
     - Common Classes
 ===============================*/
 .fix {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .clear {
