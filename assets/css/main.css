@@ -23233,7 +23233,7 @@ blockquote cite {
   color: #878BA8;
 }
 /* Virtuo global website side spacing */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .tg-header__top,
   .tg-header__area,
   .main-area,
@@ -23266,4 +23266,4 @@ blockquote cite {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
-}
+} */
