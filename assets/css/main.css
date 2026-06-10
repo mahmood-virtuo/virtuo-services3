@@ -242,7 +242,11 @@ input[type=color] {
   padding: 0;
   border-radius: 50%;
 }
-
+/* .container,
+.custom-container {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+} */
 @media (max-width: 991.98px) {
   .mb-md-30 {
     margin-bottom: 30px;
@@ -337,8 +341,8 @@ textarea {
     - Bootstrap Custom
 =============================*/
 .container {
-  padding-left: 12px;
-  padding-right: 12px;
+  /* padding-left: 12px;
+  padding-right: 12px; */
 }
 
 .row {
@@ -23228,5 +23232,38 @@ blockquote cite {
   text-align: center;
   color: #878BA8;
 }
+/* Virtuo global website side spacing */
+@media (min-width: 992px) {
+  .tg-header__top,
+  .tg-header__area,
+  .main-area,
+  .footer__area {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
 
-/*# sourceMappingURL=main.css.map */
+  .tg-header__top .container,
+  .tg-header__area .container,
+  .main-area .container,
+  .footer__area .container,
+  .custom-container,
+  .custom-container-two,
+  .custom-container-three,
+  .custom-container-four,
+  .custom-container-five {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .tg-header__top,
+  .tg-header__area,
+  .main-area,
+  .footer__area {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
