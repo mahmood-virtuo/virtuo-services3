@@ -22914,7 +22914,7 @@ blockquote cite {
   line-height: 1;
 }
 .virtuo-phone-field__code {
-  font-size: 10px;
+  font-size: 16px;
 }
 .virtuo-phone-field__arrow {
   width: 0;
@@ -22983,7 +22983,7 @@ blockquote cite {
   background: transparent;
   color: var(--tg-color-white-default);
   text-align: left;
-  font-size: 15px;
+  font-size: 16px;
 }
 .virtuo-phone-field__list button:hover,
 .virtuo-phone-field__list button[aria-current="true"] {
@@ -22993,7 +22993,7 @@ blockquote cite {
   content: "●";
   margin-left: auto;
   color: #ee4c01;
-  font-size: 11px;
+  font-size: 16px;
 }
 .virtuo-reference-footer__lower {
   display: grid;
@@ -23215,7 +23215,7 @@ blockquote cite {
   }
 }
 .footer__top-two {
-  padding: 140px 0 100px;
+  padding: 58px 0 100px;
 }
 @media (max-width: 767.98px) {
   .footer__top-two {
