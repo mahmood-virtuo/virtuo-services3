@@ -1026,7 +1026,8 @@ textarea {
   height: 100%;
   padding: 55px 50px;
   position: fixed;
-  left: 0;
+  /* left: 0; */
+  right: 0;
   top: 0;
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   -moz-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -1036,11 +1037,11 @@ textarea {
   width: 400px;
   z-index: 999;
   overflow-y: scroll;
-  -webkit-transform: translateX(-100%);
-  -moz-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
-  -o-transform: translateX(-100%);
-  transform: translateX(-100%);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
 }
 .offCanvas__info.active {
   -webkit-transform: translateX(0);
@@ -5678,7 +5679,7 @@ textarea {
   font-size: 60px;
   font-weight: 600;
   color: var(--tg-color-white-default);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 @media (max-width: 1500px) {
   .slider__content .title {
@@ -5699,7 +5700,7 @@ textarea {
   margin-bottom: 30px;
   font-size: 18px;
   color: var(--tg-color-gray-4);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   width: 95%;
 }
 @media (max-width: 1199.98px) {
