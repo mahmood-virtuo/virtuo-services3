@@ -22753,14 +22753,16 @@ blockquote cite {
 }
 .virtuo-reference-footer__container {
   position: relative;
-  max-width: 1110px;
+  width: calc(100% - 180px);
+  max-width: 1740px;
   z-index: 2;
 }
 .virtuo-reference-footer__layout {
   display: grid;
-  grid-template-columns: 270px 120px 130px 450px;
-  gap: 42px;
+  grid-template-columns: minmax(300px, 420px) 165px 175px minmax(470px, 575px);
+  gap: clamp(58px, 5vw, 105px);
   align-items: start;
+  justify-content: center;
 }
 .virtuo-reference-footer__brand {
   padding-top: 0;
@@ -22816,7 +22818,7 @@ blockquote cite {
 .virtuo-reference-footer__form-card {
   background: var(--tg-color-white-default);
   border-radius: 12px;
-  padding: 24px 25px 25px;
+  padding: 28px 30px 30px;
   box-shadow: 0 22px 70px rgba(18, 12, 74, 0.18);
 }
 .virtuo-reference-footer__form-card h2 {
@@ -22840,7 +22842,6 @@ blockquote cite {
 .virtuo-reference-form input,
 .virtuo-reference-form textarea {
   width: 100%;
-  min-height: 28px;
   border: 1px solid #d1d1d1;
   border-radius: 5px;
   background: transparent;
@@ -22852,6 +22853,10 @@ blockquote cite {
   outline: none;
   transition: border-color 0.2s ease;
 }
+.virtuo-reference-form input {
+  height: 40px;
+  min-height: 40px;
+}
 .virtuo-reference-form input::placeholder,
 .virtuo-reference-form textarea::placeholder {
   color: rgba(17, 17, 17, 0.58);
@@ -22861,12 +22866,12 @@ blockquote cite {
   border-color: #ee4c01;
 }
 .virtuo-reference-form textarea {
-  min-height: 88px;
+  min-height: 110px;
   resize: none;
 }
 .virtuo-reference-form > button {
   width: 100%;
-  height: 32px;
+  height: 40px;
   margin-top: 9px;
   border: 0;
   border-radius: 5px;
@@ -22882,7 +22887,8 @@ blockquote cite {
 .virtuo-phone-field {
   position: relative;
   display: flex;
-  min-height: 28px;
+  height: 40px;
+  min-height: 40px;
   border: 1px solid #d1d1d1;
   border-radius: 5px;
   background: transparent;
@@ -22894,9 +22900,9 @@ blockquote cite {
   display: flex;
   align-items: center;
   gap: 7px;
-  flex: 0 0 70px;
-  height: 26px;
-  padding: 0 8px;
+  flex: 0 0 86px;
+  height: 38px;
+  padding: 0 10px;
   border: 0;
   border-right: 1px solid #d1d1d1;
   background: transparent;
@@ -22904,7 +22910,7 @@ blockquote cite {
   font-size: 10px;
 }
 .virtuo-phone-field__flag {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1;
 }
 .virtuo-phone-field__code {
@@ -22919,7 +22925,8 @@ blockquote cite {
   border-top: 5px solid #555;
 }
 .virtuo-phone-field > input {
-  min-height: 26px;
+  height: 38px;
+  min-height: 38px;
   border: 0;
   padding-left: 12px;
 }
@@ -22990,8 +22997,8 @@ blockquote cite {
 }
 .virtuo-reference-footer__lower {
   display: grid;
-  grid-template-columns: 330px 330px;
-  gap: 50px;
+  grid-template-columns: 360px 360px;
+  gap: 110px;
   margin-top: 56px;
 }
 .virtuo-reference-footer__quick > div {
@@ -23049,21 +23056,23 @@ blockquote cite {
 .virtuo-reference-footer__watermark {
   position: absolute;
   left: 50%;
-  bottom: 40px;
+  bottom: 4px;
   transform: translateX(-50%);
-  color: rgba(255, 255, 255, 0.07);
-  font-size: clamp(160px, 22vw, 360px);
-  line-height: 0.7;
-  font-weight: 800;
-  letter-spacing: -0.08em;
+  width: min(1260px, 68vw);
+  max-width: none;
+  height: auto;
+  opacity: 0.18;
   z-index: 1;
   user-select: none;
   pointer-events: none;
 }
 @media (max-width: 1399.98px) {
+  .virtuo-reference-footer__container {
+    width: calc(100% - 80px);
+  }
   .virtuo-reference-footer__layout {
-    grid-template-columns: minmax(245px, 330px) 145px 150px minmax(390px, 520px);
-    gap: 42px;
+    grid-template-columns: minmax(250px, 330px) 135px 145px minmax(390px, 500px);
+    gap: 34px;
   }
 }
 @media (min-width: 1200px) {
@@ -23085,6 +23094,9 @@ blockquote cite {
   .virtuo-reference-footer {
     padding-top: 80px;
   }
+  .virtuo-reference-footer__container {
+    width: calc(100% - 56px);
+  }
   .virtuo-reference-footer__layout {
     grid-template-columns: 1fr 1fr;
   }
@@ -23105,6 +23117,9 @@ blockquote cite {
   .virtuo-reference-footer__lower {
     grid-template-columns: 1fr;
     gap: 34px;
+  }
+  .virtuo-reference-footer__container {
+    width: calc(100% - 32px);
   }
   .virtuo-reference-footer__links a {
     margin-bottom: 14px;
@@ -23131,8 +23146,9 @@ blockquote cite {
     gap: 14px;
   }
   .virtuo-reference-footer__watermark {
-    font-size: 145px;
-    bottom: 70px;
+    width: 145%;
+    bottom: 90px;
+    opacity: 0.12;
   }
 }
 .footer__area {
