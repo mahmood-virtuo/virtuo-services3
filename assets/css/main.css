@@ -14785,7 +14785,7 @@ textarea {
   --virtuo-team-image-size: 257px;
   background: #fff;
   overflow: hidden;
-  padding-top: 0;
+  padding-top: 135px;
   padding-bottom: 120px;
   position: relative;
   z-index: 1;
@@ -14861,7 +14861,7 @@ textarea {
 @media (max-width: 991.98px) {
   .virtuo-team {
     --virtuo-team-image-size: 235px;
-    padding-top: 100px;
+    padding-top: 135px;
     padding-bottom: 100px;
   }
   .virtuo-team__grid {
@@ -14881,7 +14881,7 @@ textarea {
 @media (max-width: 575.98px) {
   .virtuo-team {
     --virtuo-team-image-size: min(257px, 78vw);
-    padding-top: 78px;
+    padding-top: 135px;
     padding-bottom: 78px;
   }
   .virtuo-team__grid {
