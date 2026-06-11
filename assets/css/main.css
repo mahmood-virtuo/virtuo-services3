@@ -2431,6 +2431,7 @@ textarea {
 .tg-header__top {
   background-color: var(--tg-theme-secondary);
   padding: 9px 0;
+  display: none !important;
 }
 @media (max-width: 991.98px) {
   .tg-header__top {
@@ -18586,7 +18587,7 @@ blockquote cite {
 }
 .marquee__item a svg {
   margin-right: 20px;
-  color: var(--tg-theme-primary);
+  color: white;
 }
 .marquee__item-two a {
   font-size: 32px;
@@ -23503,7 +23504,7 @@ blockquote cite {
   padding: 40px 0;
 }
 .footer__bottom-two {
-  border-top: 1px solid #232349;
+  border-top: 1px solid white;
   padding: 33px 0;
 }
 @media (max-width: 767.98px) {
