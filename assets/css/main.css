@@ -23392,10 +23392,10 @@ blockquote cite {
 }
 .footer-reference-left__top {
   display: grid;
-  grid-template-columns: minmax(270px, 320px) 165px 175px;
-  column-gap: 166px;
+  grid-template-columns: minmax(354px, 416px) 196px 175px;
+  column-gap: 139px;
   align-items: start;
-  margin-bottom: 86px;
+  margin-bottom: 58px;
 }
 .footer-reference-left__logo {
   margin-bottom: 24px;
@@ -23405,13 +23405,15 @@ blockquote cite {
   height: auto;
 }
 .footer-reference-left__brand p {
-  max-width: 315px;
+  max-width: 392px;
+  width: 500px;
   margin-bottom: 25px;
   color: rgba(255, 255, 255, 0.72);
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.55;
   font-weight: 300;
+  text-align: justify;
 }
 .footer-reference-left__social {
   display: flex;
@@ -23452,7 +23454,7 @@ blockquote cite {
 }
 .footer-reference-left__bottom {
   display: grid;
-  grid-template-columns: 360px 340px;
+  grid-template-columns: 424px 469px;
   column-gap: 72px;
   align-items: start;
 }
