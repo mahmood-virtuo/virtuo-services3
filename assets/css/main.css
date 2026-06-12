@@ -10380,7 +10380,7 @@ textarea {
   }
 }
 .cta__area-five {
-  background: var(--tg-theme-primary);
+  background: #564ABE;
   position: relative;
   z-index: 1;
   padding: 49px 0;
@@ -17168,7 +17168,7 @@ textarea {
   background: var(--tg-color-gray-2);
 }
 .blog__post-area-six {
-  background: var(--tg-color-gray-1);
+  background: none;
 }
 .blog__post-area-eight {
   background: var(--tg-color-gray-2);
@@ -18643,7 +18643,7 @@ blockquote cite {
   z-index: 1;
 }
 .choose__area-five {
-  background: var(--tg-color-gray-1);
+  background: none;
 }
 .choose__bg {
   background-size: cover;
