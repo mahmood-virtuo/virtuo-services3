@@ -1902,7 +1902,100 @@ It's about being the team people trust when something important needs to get don
 </script>
     <!-- ---------Rotate Code --------------- -->
 
-    
+<!------Marquee JS -->
+
+
+<script>
+(function () {
+    function fixBottomMarqueeIconSpacing() {
+        const marquee = document.querySelector("section.marquee__area > .slider__marquee.marquee-wrap");
+        if (!marquee) return;
+
+        const gap = window.innerWidth <= 575 ? 14 : window.innerWidth <= 991 ? 18 : 22;
+
+        marquee.querySelectorAll(".marquee__item").forEach(function (item) {
+            item.style.setProperty("margin", "0", "important");
+            item.style.setProperty("padding", "0", "important");
+            item.style.setProperty("display", "inline-block", "important");
+        });
+
+        marquee.querySelectorAll(".marquee__item a").forEach(function (link) {
+            link.childNodes.forEach(function (node) {
+                if (node.nodeType === 3) {
+                    node.nodeValue = node.nodeValue.replace(/\s+/g, " ").trim();
+                    if (!node.nodeValue) node.remove();
+                }
+            });
+
+            link.style.setProperty("display", "inline-flex", "important");
+            link.style.setProperty("align-items", "center", "important");
+            link.style.setProperty("white-space", "nowrap", "important");
+            link.style.setProperty("padding", "0", "important");
+        });
+
+        marquee.querySelectorAll(".marquee__item a svg").forEach(function (svg) {
+            svg.style.setProperty("width", "34px", "important");
+            svg.style.setProperty("height", "34px", "important");
+            svg.style.setProperty("margin-left", gap + "px", "important");
+            svg.style.setProperty("margin-right", gap + "px", "important");
+            svg.style.setProperty("top", "0", "important");
+            svg.style.setProperty("display", "inline-block", "important");
+            svg.style.setProperty("vertical-align", "middle", "important");
+            svg.style.setProperty("flex", "0 0 34px", "important");
+        });
+    }
+
+    window.addEventListener("load", function () {
+        fixBottomMarqueeIconSpacing();
+        setTimeout(fixBottomMarqueeIconSpacing, 300);
+        setTimeout(fixBottomMarqueeIconSpacing, 1200);
+    });
+
+    window.addEventListener("resize", fixBottomMarqueeIconSpacing);
+})();
+</script>
+
+
+<!-------Marquee JS Ends-->
+
+<!-- ---------------- Circle Text Last Solution ---------- -->
+<script>
+(function () {
+    function rebuildVirtuoCircleText() {
+        document.querySelectorAll(".circle__wrap-two .circle.rotateme").forEach(function (el) {
+            var rawText = el.getAttribute("data-circle-text") || el.textContent || "VIRTUO•ESTABLISH•OPERATE•INNOVATE•";
+
+            var text = rawText
+                .replace(/\s+/g, "")
+                .replace(/•+/g, "•")
+                .trim();
+
+            el.setAttribute("data-circle-text", text);
+            el.innerHTML = "";
+
+            var chars = text.split("");
+            var angle = 360 / chars.length;
+
+            chars.forEach(function (char, index) {
+                var span = document.createElement("span");
+                span.textContent = char;
+                span.style.transform = "rotate(" + (index * angle) + "deg)";
+                el.appendChild(span);
+            });
+        });
+    }
+
+    window.addEventListener("load", function () {
+        rebuildVirtuoCircleText();
+        setTimeout(rebuildVirtuoCircleText, 300);
+        setTimeout(rebuildVirtuoCircleText, 1200);
+    });
+})();
+</script>
+<!-- <!! ---------------- Circle Text Last Solution ---------- --> -->
+
+
+
 </body>
 
 </html>
