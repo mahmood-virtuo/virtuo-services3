@@ -18981,7 +18981,7 @@ blockquote cite {
 .choose__img-wrap-four {
   position: relative;
   z-index: 1;
-  padding-left: 105px;
+  /* padding-left: 105px; */
 }
 @media (max-width: 1199.98px) {
   .choose__img-wrap-four {
@@ -24618,4 +24618,37 @@ select {
 .tgmenu__navbar-wrap ul.navigation > li.virtuo-mega-menu-trigger .virtuo-services-mega__categories button, .tgmenu__navbar-wrap ul.navigation > li.virtuo-mega-menu-trigger .virtuo-services-mega__panel a {
   text-wrap: nowrap !important;;
 }
-/* -------Last Fix for Services Mega Menu - Centered and Responsive */
+
+.forFooterAddress:hover{
+  color: rgba(255, 255, 255, 0.74) !important;
+}
+
+/* ------------- Choose Area Section ------------- */
+
+@media (max-width: 991px) {
+    .choose__area-five .choose__img-wrap-four {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 100% !important;
+    }
+
+    .choose__area-five .choose__content-five {
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 40px;
+    }
+
+    .choose__area-five .circle__wrap.circle__wrap-two {
+        right: 15px !important;
+        left: auto !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .choose__area-five .circle__wrap.circle__wrap-two {
+        right: 10px !important;
+        top: -35px;
+    }
+}
+
+/* ---------Choose Area Section - Final Fix --------- */
