@@ -18705,7 +18705,7 @@ blockquote cite {
   width: 105%;
 }
 .marquee-wrap-three {
-  background: var(--tg-theme-secondary);
+  background: #564ABE;
   padding: 17px 0 8px;
   transform: rotate(3.864deg);
   position: absolute;
