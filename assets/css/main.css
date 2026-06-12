@@ -24102,3 +24102,18 @@ blockquote cite {
     padding-right: 20px !important;
   }
 } */
+select {
+    height: 40px;
+    min-height: 40px;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    background: transparent;
+    color: #1111118f;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 10px 6px;
+    outline: none;
+    transition: border-color 0.2s ease;
+    font-size: 15px;
+}
