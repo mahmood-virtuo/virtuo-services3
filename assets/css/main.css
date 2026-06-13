@@ -23413,7 +23413,7 @@ blockquote cite {
   font-size: 16px;
   line-height: 1.55;
   font-weight: 300;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .footer-reference-left__social {
   display: flex;
@@ -24680,4 +24680,79 @@ select {
     flex: 0 0 34px !important;
     vertical-align: middle !important;
 }
----------------- Last Marquee Code Final Fix ---------------- */
+/* ---------------- Last Marquee Code Final Fix ---------------- */ 
+
+/* ----------2nd Section Image Fix------------- */
+
+.about__area-four .about__img-four {
+    max-width: 620px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative;
+}
+
+.about__area-four .about__mask-img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+.about__area-four .about__mask-img img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .about__area-four .about__img-four {
+        max-width: 100%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+.about__area-four > .container > .row {
+    align-items: center !important;
+}
+
+.about__area-four > .container > .row > .col-lg-6.col-md-10 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-self: center !important;
+}
+
+.about__area-four .about__img-four {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto !important;
+    position: relative;
+    top: 0 !important;
+    transform: none !important;
+}
+
+.about__area-four .about__mask-img {
+    width: 100%;
+    margin: 0 auto !important;
+}
+
+.about__area-four .about__mask-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+}
+
+@media (max-width: 991px) {
+    .about__area-four > .container > .row > .col-lg-6.col-md-10 {
+        margin-bottom: 40px;
+    }
+
+    .about__area-four .about__img-four {
+        max-width: 100%;
+    }
+}
+
+/* ------------------2nd Section Image Fix Final ---------------- */
