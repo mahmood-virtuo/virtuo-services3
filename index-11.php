@@ -141,7 +141,7 @@
                                     <a href="javascript:void(0)" class="search-open-btn"><i class="flaticon-search"></i></a>
                                 </li>
                                 <li class="header-contact">
-                                    <a href="tel:0123456789" class="header-contact-info"><i class="flaticon-telephone"></i>+123 4880 4089</a>
+                                    <a href="tel:+971565151315" class="header-contact-info"><i class="flaticon-telephone"></i>+971 56 515 1315</a>
                                 </li>
                                 <li class="header-btn">
                                     <a href="contact.php" class="tg-btn tg-btn-eight">Get Started</a>
@@ -248,15 +248,15 @@
             <div class="offCanvas__side-info">
                 <div class="contact-list">
                     <i class="flaticon-placeholder"></i>
-                    <p>Sydney Harbour Circular City of Sydney,Australia.</p>
+                    <p><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
                 </div>
                 <div class="contact-list">
                     <i class="flaticon-telephone"></i>
-                    <a href="tel:0123456789">+123 888 9999</a>
+                    <a href="tel:+971565151315">+971 56 515 1315</a>
                 </div>
                 <div class="contact-list">
                     <i class="flaticon-envelope"></i>
-                    <a href="mailto:info@virtuo-services.com">info@virtuo-services.com</a>
+                    <a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
                 </div>
             </div>
             <div class="offCanvas__social">
@@ -1220,10 +1220,9 @@
                             </div>
                             <div class="footer__contact">
                                 <ul class="list-wrap">
-                                    <li><i class="flaticon-placeholder"></i>Sydney Harbour Circular City of
-                                        Sydney,Australia.</li>
-                                    <li><i class="flaticon-telephone"></i><a href="tel:0123456789">+123 888 9999</a></li>
-                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo-services.com">info@virtuo-services.com</a>
+                                    <li><i class="flaticon-placeholder"></i><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></li>
+                                    <li><i class="flaticon-telephone"></i><a href="tel:+971565151315">+971 56 515 1315</a></li>
+                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
                                     </li>
                                 </ul>
                             </div>

@@ -467,7 +467,7 @@
                                     </div>
                                     <div class="content">
                                         <span>Call For More Info</span>
-                                        <a href="tel:0123456789">+123 8989 444</a>
+                                        <a href="tel:+971565151315">+971 56 515 1315</a>
                                     </div>
                                 </div>
                                 <a href="services.php" class="tg-btn tg-btn-seven tg-hover-btn">Take Our Service <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
@@ -588,7 +588,7 @@
                                 </div>
                                 <div class="content">
                                     <span>Call For More Info</span>
-                                    <a href="tel:0123456789">+123 8989 444</a>
+                                    <a href="tel:+971565151315">+971 56 515 1315</a>
                                 </div>
                             </div>
                             <a href="services.php" class="tg-btn tg-btn tg-btn-seven tg-hover-btn">Take Our Service <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
@@ -969,7 +969,7 @@
                                 </div>
                                 <div class="content">
                                     <span>Call For More Info</span>
-                                    <a href="tel:0123456789">+123 8989 444</a>
+                                    <a href="tel:+971565151315">+971 56 515 1315</a>
                                 </div>
                             </div>
                             <a href="contact.php" class="tg-btn tg-btn-seven white-btn-two tg-hover-btn ">Let’s Talk With Us <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>

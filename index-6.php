@@ -53,8 +53,8 @@
                     <div class="col-lg-7">
                         <div class="tg-header__top-info">
                             <ul class="list-wrap">
-                                <li><i class="flaticon-placeholder"></i>Office - BLV - 6F - SF60959 A Building - Ajman Freezone, UAE</li>
-                                <li><i class="flaticon-envelope"></i><a href="mailto:mgmt@virtuo.ae">mgmt@virtuo.ae</a></li>
+                                <li><i class="flaticon-placeholder"></i><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></li>
+                                <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a></li>
                             </ul>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                             </div>
                             <div class="tgmenu__nav-left-contact">
                                 <span>Call Now</span>
-                                <a href="tel:0123456789">+971 56 515 1315</a>
+                                <a href="tel:+971565151315">+971 56 515 1315</a>
                             </div>
                         </div>
                         <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
@@ -810,7 +810,7 @@
                                 </div>
                                 <div class="content">
                                     <p>Facing any problem to get a quote!</p>
-                                    <a href="tel:0123456789">Call: +123.8585.256</a>
+                                    <a href="tel:+971565151315">Call: +971 56 515 1315</a>
                                 </div>
                             </div>
                         </div>
@@ -1407,10 +1407,9 @@
                             <h4 class="footer__widget-title footer__widget-title-two">Information</h4>
                             <div class="footer__contact">
                                 <ul class="list-wrap">
-                                    <li><i class="flaticon-placeholder"></i>Sydney Harbour Circular City of
-                                        Sydney,Australia.</li>
-                                    <li><i class="flaticon-telephone"></i><a href="tel:0123456789">+123 888 9999</a></li>
-                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo-services.com">info@virtuo-services.com</a>
+                                    <li><i class="flaticon-placeholder"></i><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></li>
+                                    <li><i class="flaticon-telephone"></i><a href="tel:+971565151315">+971 56 515 1315</a></li>
+                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
                                     </li>
                                 </ul>
                             </div>

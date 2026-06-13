@@ -40,7 +40,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/breadcrumb__bg.jpg"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/blogsPageBG.jpg"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -253,8 +253,8 @@
                             </div>
                             <div class="sidebar__widget">
                                 <div class="sidebar__contact">
-                                    <h4 class="title">We Have More Than Years Marketing Experience</h4>
-                                    <p>It is a long established fact that reader will be distracted.</p>
+                                    <h4 class="title">Your Gateway to Seamless Business Success in Dubai</h4>
+                                    <p>Navigating complex UAE regulations seamlessly so you can focus exclusively on scaling your corporate vision.</p>
                                     <a href="contact.php" class="tg-btn tg-btn-three">Contact With Us <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                                     <div class="shape">
                                         <img src="assets/img/images/sidebar_contact_shape01.svg" alt="shape" class="rotateme">

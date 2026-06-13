@@ -41,7 +41,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/breadcrumbContact__bg.jpg"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/contactPageBG.jpg"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -63,7 +63,7 @@
 
         <!-- contact-map -->
         <div class="contact-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.332792000835!2d144.96011341744386!3d-37.805673299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sbd!4v1685027435635!5m2!1sen!2sbd"
+            <iframe src="https://maps.app.goo.gl/PsjFHMFt8rWGjapf8"
                 allowfullscreen loading="lazy"></iframe>
         </div>
         <!-- contact-map-end -->
@@ -77,16 +77,12 @@
                             <div class="contact__info-item">
                                 <h4 class="title">Virtuo Services F.Z.C</h4>
                                 <p>
-                                    Virtuo Services F.Z.C
-                                    Office - BLV - 6F - SF60959
-                                    A Building - Ajman Blvd, Ajman Freezone
-                                    Sheikh Rashid Bin Saeed Al Maktoum St.
-                                    Ajman, United Arab Emirates
+                                    <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a>
 
                                     </p>
                                 <ul class="list-wrap">
                                     <li>
-                                        <a href="tel:+97156515135">+971 56 515 135</a>
+                                        <a href="tel:+971565151315">+971 56 515 1315</a>
                                     </li>
                                     <li>
                                         <a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
@@ -100,8 +96,8 @@
                                 </div>
                             </div>
                             <!-- <div class="contact__info-item">
-                                <h4 class="title">France</h4>
-                                <p>6580 Allison Turnpike, AL 32808-4509</p>
+                                <h4 class="title">Virtuo Services F.Z.C</h4>
+                                <p><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
                                 <ul class="list-wrap">
                                     <li>
                                         <a href="tel:+971565151315">+971 56 515 1315</a>
@@ -118,8 +114,8 @@
                                 </div>
                             </div>
                             <div class="contact__info-item">
-                                <h4 class="title">Italy City</h4>
-                                <p>14 West Arnold St. New York, NY 10002</p>
+                                <h4 class="title">Virtuo Services F.Z.C</h4>
+                                <p><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
                                 <ul class="list-wrap">
                                     <li>
                                         <a href="tel:+971565151315">+971 56 515 1315</a>

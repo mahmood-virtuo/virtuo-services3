@@ -837,7 +837,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="cta__content-three">
-                                <h2 class="title">Let’s Request a Schedule For Free Consultation</h2>
+                                <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -848,7 +848,7 @@
                                     </div>
                                     <div class="content">
                                         <span>Call For More Info</span>
-                                        <a href="tel:0123456789">+123 8989 444</a>
+                                        <a href="tel:+971565151315">+971 56 515 1315</a>
                                     </div>
                                 </div>
                                 <a href="contact.php" class="tg-btn tg-border-btn ">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
@@ -1086,9 +1086,9 @@
                             </div>
                             <div class="footer__contact">
                                 <ul class="list-wrap">
-                                    <li><i class="flaticon-placeholder"></i>Sydney Harbour Circular City of Sydney,Australia.</li>
-                                    <li><i class="flaticon-telephone"></i><a href="tel:0123456789">+123 888 9999</a></li>
-                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo-services.com">info@virtuo-services.com</a></li>
+                                    <li><i class="flaticon-placeholder"></i><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></li>
+                                    <li><i class="flaticon-telephone"></i><a href="tel:+971565151315">+971 56 515 1315</a></li>
+                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a></li>
                                 </ul>
                             </div>
                         </div>

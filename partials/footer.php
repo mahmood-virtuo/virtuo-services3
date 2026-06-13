@@ -88,9 +88,9 @@
 
                 <address class="virtuo-reference-footer__contact">
                     <h3>Get In Touch</h3>
-                    <p><i class="flaticon-placeholder"></i> Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</p>
+                    <p><i class="flaticon-placeholder"></i> <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
                     <a href="mailto:info@virtuo.ae"><i class="flaticon-envelope"></i> info@virtuo.ae</a>
-                    <a href="tel:+971500000000"><i class="flaticon-telephone"></i> +971 50 000 0000</a>
+                    <a href="tel:+971565151315"><i class="flaticon-telephone"></i> +971 56 515 1315</a>
                 </address>
             </div>
 

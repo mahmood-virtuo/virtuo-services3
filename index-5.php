@@ -220,23 +220,13 @@
                                 <h2 class="title">Building A Business In The UAE <strong>Shouldn't Feel Like</strong> Managing Five Different Companies.</h2>
                             </div>
                             <p style="margin-bottom:-20px !important; color: #EE4C01; text-transform: uppercase;">FOR MANY ENTREPRENURS, IT DOES</p><br>
-<p
-  style="
-    margin-bottom: 20px !important;
-    color: #ee4c01;
-    text-transform: uppercase;
-  "
->
-  FOR MANY ENTREPRENEURS, IT DOES
-</p>
+                                
 
 <p>
   One company handles incorporation. Another manages visas. A third takes care of
   government paperwork. Marketing lives somewhere else. Technology becomes yet
   another relationship to manage.
-</p>
 
-<p>
   Before long, you're spending more time coordinating providers than building
   your business.
 </p>
@@ -256,9 +246,7 @@
   We bring together company formation, PRO services, residency solutions,
   marketing, and AI-powered technology into one integrated ecosystem designed to
   support businesses from launch to long-term growth.
-</p>
 
-<p>
   From your first trade license to your next phase of expansion, we're built to
   be more than a service provider.
 </p>
@@ -882,7 +870,7 @@ That's why we've built our approach around responsiveness, transparency, and acc
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="cta__content-three">
-                                <h2 class="title">Let’s Request a Schedule For Free Consultation</h2>
+                                <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
                             </div>
                         </div>
                         <div class="col-lg-6">
