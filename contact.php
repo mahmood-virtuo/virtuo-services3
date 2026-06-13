@@ -41,7 +41,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/contactPageBG.jpg"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
