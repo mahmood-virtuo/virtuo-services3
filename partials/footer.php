@@ -108,7 +108,7 @@
     
     
     <footer class="footer__area-two footer__area-five fix"  style="background-image: url(/assets/img/services/footerBackgroundImage.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-        <div class="container">
+        <div class="container custom-container footer-reference-container">
             <div class="footer__top-two">
                 <div class="row">
                     <div class="col-xl-8 col-lg-8">
@@ -136,7 +136,7 @@
                                     <a href="services.php">MOHRE Services</a>
                                     <a href="services.php">Attestation Services</a>
                                 </nav>
-                                <nav style="margin-left: -70px !important;" class="footer-reference-left__services" aria-label="Visa services">
+                                <nav class="footer-reference-left__services" aria-label="Visa services">
                                     <h4 style="color: #EE4c01;">Visa Services</h4>
                                     <a href="services.php">Residence Visa</a>
                                     <a href="services.php">Golden Visa</a>
@@ -150,7 +150,7 @@
                             <div class="footer-reference-left__bottom">
                                 <address class="footer-reference-left__contact">
                                     <h4 style="color: #EE4c01;" >Get In Touch</h4>
-                                   <p class="forFooterAddress"><a class="forFooterAddress" href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span style="width: 360px !important; max-width: 360px !important;"><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;">Virtuo Services F.Z.C</b></span><br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></a></p>
+                                   <p class="forFooterAddress"><a class="forFooterAddress" href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;">Virtuo Services F.Z.C</b></span><br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></a></p>
                                      
                                     <a href="mailto:info@virtuo.ae"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>info@virtuo.ae</span></a>
                                     <a href="tel:+971565151315"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"><span>+971 56 515 1315</span></a>
@@ -241,7 +241,7 @@
                 </section> -->
                         
                 
-                <div style="margin-left: -20px !important;">
+                <div class="footer-reference-form-panel">
                     <h4 style="color: #EE4c01; font-size: 20px; font-weight: 600;" id="virtuo-footer-form-title" >Let's Discuss Your Business Goals</h4>
                     <p style="font-size:16px; font-weight: 300; font-family: poppins; color:#ffffffb8;">From company formation and immigration to marketing and AI solutions, our experts are ready to help you build, grow, and scale in the UAE.</p>
                     <form class="virtuo-reference-form" action="#">

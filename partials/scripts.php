@@ -40,3 +40,41 @@
         });
     });
 </script>
+
+<!-- for tabs  -->
+ <script>
+(function () {
+    const tabLinks = document.querySelectorAll(".service-tab-link");
+    const tabPanels = document.querySelectorAll(".service-tab-panel");
+
+    if (!tabLinks.length || !tabPanels.length) return;
+
+    function activateServiceTab(tabName) {
+        tabLinks.forEach(function (link) {
+            link.classList.toggle("is-active", link.getAttribute("data-service-tab") === tabName);
+        });
+
+        tabPanels.forEach(function (panel) {
+            panel.classList.toggle("is-active", panel.getAttribute("data-service-panel") === tabName);
+        });
+    }
+
+    tabLinks.forEach(function (link) {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const tabName = link.getAttribute("data-service-tab");
+
+            if (!tabName) return;
+
+            activateServiceTab(tabName);
+            history.replaceState(null, "", "#" + tabName);
+        });
+    });
+
+    const hashTab = window.location.hash.replace("#", "");
+    const defaultTab = document.querySelector(".service-tab-link.is-active")?.getAttribute("data-service-tab") || "mainland";
+
+    activateServiceTab(hashTab || defaultTab);
+})();
+</script>

@@ -42,6 +42,10 @@
           category.addEventListener("click", function (e) {
             e.preventDefault();
             activateCategory(category.dataset.megaCategory);
+
+            if (category.dataset.megaLink) {
+              window.location.href = category.dataset.megaLink;
+            }
           });
         });
 
