@@ -214,7 +214,7 @@
             <div class="offCanvas__side-info">
                 <div class="contact-list">
                     <i class="flaticon-placeholder"></i>
-                    <p><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
+                    <p><a>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
                 </div>
                 <div class="contact-list">
                     <i class="flaticon-telephone"></i>

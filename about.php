@@ -9,9 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
+    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -38,7 +36,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/breadcrumb__bg.jpg"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -96,65 +94,9 @@
                             <p>Virtuo Services is the premier strategic partner for entrepreneurs and corporations navigating the dynamic landscape of the UAE. Specializing in Business Setup in Dubai and comprehensive PRO Services, we bridge the gap between your commercial ambitions and the city’s complex regulatory requirements. Our mission is centered on absolute transparency, ensuring that your company formation and Residence Visa processes are not just successful, but entirely seamless.
 
 The journey to establishing a presence in Dubai involves a sophisticated web of government interactions; Virtuo Services serves as your expert advocate within this ecosystem. Our elite team of Public Relations Officers (PROs) and administrative specialists handle the time-consuming and challenging task of clearing paperwork with all major authorities, including the DED, Immigration, MOHRE, Dubai Municipality, RERA, SIRA, and the Notary Public. By managing these vital backend formalities with precision and speed, we liberate you from the burden of bureaucracy, allowing you to focus exclusively on scaling your business and building your legacy.</p>
-                            <!-- <div class="about__inner-wrap">
-                                <div class="about__list-box">
-                                    <div class="about__list-box-item">
-                                        <div class="icon">
-                                            <i class="flaticon-growth"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Investment <br> Planning</h4>
-                                        </div>
-                                    </div>
-                                    <div class="about__list-box-item">
-                                        <div class="icon">
-                                            <i class="flaticon-pie-chart-1"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Business <br> Statistics Rate</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="about__inner-content">
-                                    <p>Transform your siness with they are ative consng Weshfixes erm enu ring the sustainable succes.</p>
-                                    <ul class="list-wrap about__list-item">
-                                        <li>
-                                            <div class="icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M11.5252 3.5L5.30301 9.72222L2.47473 6.89394" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                            Business Competitive Analysis
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M11.5252 3.5L5.30301 9.72222L2.47473 6.89394" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                            Fast Growing Sells
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M11.5252 3.5L5.30301 9.72222L2.47473 6.89394" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                            Financing Project Investment
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> -->
+                           
                             <div class="about__content-bottom">
-                                <!-- <div class="author__wrap">
-                                    <div class="thumb">
-                                        <img src="assets/img/images/author01.png" alt="img">
-                                    </div>
-                                    <div class="content">
-                                        <img src="assets/img/images/author_sign.png" alt="img">
-                                        <h6 class="title">Martinaze <span>, CEO</span></h6>
-                                    </div>
-                                </div> -->
+                               
                                 <a href="contact.php" class="tg-btn">Speak with an expert <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                             </div>
                         </div>
@@ -278,183 +220,7 @@ The journey to establishing a presence in Dubai involves a sophisticated web of 
         <!-- team-area-end -->
         <!-- team-area-end -->
 
-        <!-- testimonial-area -->
-        <!-- <section class="testimonial__area testimonial__area-six fix">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="testimonial__wrap">
-                            <div class="swiper-container fix testimonial-active">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <div class="testimonial__icon">
-                                                <img src="assets/img/icons/quote.svg" alt="icon" class="injectable">
-                                            </div>
-                                            <div class="testimonial__content">
-                                                <p>“Excellent content and a real sense of community among the participant
-                                                all curated in a wonderful setting. It is clear effort goes into the organization and planning of the gatherings. ”</p>
-                                                <div class="testimonial__rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial__content-bottom">
-                                                    <h4 class="title">Mr.Robey Alexa</h4>
-                                                    <span>CEO, Virtuo Services Agency</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <div class="testimonial__icon">
-                                                <img src="assets/img/icons/quote.svg" alt="icon" class="injectable">
-                                            </div>
-                                            <div class="testimonial__content">
-                                                <p>“Excellent content and a real sense of community among the participant
-                                                all curated in a wonderful setting. It is clear effort goes into the organization and planning of the gatherings. ”</p>
-                                                <div class="testimonial__rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial__content-bottom">
-                                                    <h4 class="title">Mr.Robey Alexa</h4>
-                                                    <span>CEO, Virtuo Services Agency</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <div class="testimonial__icon">
-                                                <img src="assets/img/icons/quote.svg" alt="icon" class="injectable">
-                                            </div>
-                                            <div class="testimonial__content">
-                                                <p>“Excellent content and a real sense of community among the participant
-                                                all curated in a wonderful setting. It is clear effort goes into the organization and planning of the gatherings. ”</p>
-                                                <div class="testimonial__rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial__content-bottom">
-                                                    <h4 class="title">Mr.Robey Alexa</h4>
-                                                    <span>CEO, Virtuo Services Agency</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <div class="testimonial__icon">
-                                                <img src="assets/img/icons/quote.svg" alt="icon" class="injectable">
-                                            </div>
-                                            <div class="testimonial__content">
-                                                <p>“Excellent content and a real sense of community among the participant
-                                                all curated in a wonderful setting. It is clear effort goes into the organization and planning of the gatherings. ”</p>
-                                                <div class="testimonial__rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial__content-bottom">
-                                                    <h4 class="title">Mr.Robey Alexa</h4>
-                                                    <span>CEO, Virtuo Services Agency</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper testimonial__nav">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <button><img src="assets/img/images/testi_avatar01.png" alt="img"></button>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <button><img src="assets/img/images/testi_avatar02.png" alt="img"></button>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <button><img src="assets/img/images/testi_avatar03.png" alt="img"></button>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <button><img src="assets/img/images/testi_avatar04.png" alt="img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial__nav-two">
-                                    <button class="testimonial-button-prev"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
-                                    <button class="testimonial-button-next"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial__shape-wrap">
-                <img src="assets/img/images/testi_shape01.svg" alt="shape">
-                <img src="assets/img/images/testi_shape02.svg" alt="shape">
-                <img src="assets/img/images/testi_shape03.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="400">
-                <img src="assets/img/images/testi_shape04.svg" alt="shape">
-                <img src="assets/img/images/testi_shape05.svg" alt="shape">
-                <img src="assets/img/images/map.svg" alt="shape" class="big-shape">
-            </div>
-        </section> -->
-        <!-- testimonial-area-end -->
-
-        <!-- brand-area -->
-        <!-- <div class="brand__area-two brand__area-four">
-            <div class="container">
-                <div class="swiper-container brand-active fix">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img01.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img02.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img03.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img04.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img05.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img06.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img04.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+       
         <!-- brand-area-end -->
 
 
