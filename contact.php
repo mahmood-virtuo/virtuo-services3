@@ -76,8 +76,8 @@
                         <div class="contact__info-wrap">
                             <div class="contact__info-item">
                                 <h4 class="title">Virtuo Services F.Z.C</h4>
-                                <p>
-                                    <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a>
+                                <p style="line-height: 30px;">
+                                    <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer" style="font-weight: 400; font-size:16px;">Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a>
 
                                     </p>
                                 <ul class="list-wrap">

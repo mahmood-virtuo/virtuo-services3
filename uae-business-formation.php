@@ -3,10 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>
-            UAE Business Formation, Structuring & Compliance
-        </title>
-        <meta name="description" content="Virtuo Services -  Business Consulting HTML Template">
+        <title>UAE Business Formation, Structuring &amp; Compliance</title>
+        <meta name="description" content="Virtuo Services - Business Consulting HTML Template">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -27,31 +25,19 @@
     <body>
         <?php include __DIR__ . '/partials/header.php'; ?>
         <!-- main-area -->
-        <main class="main-area fix" style="margin-bottom: 100px;">
+        <main class="main-area fix">
             <!-- breadcrumb-area -->
             <section class="breadcrumb__area">
-                <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg" style="background-size:cover; background-repeat: no-repeat;">
-                </div>
+                <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg" style="background-size:cover; background-repeat: no-repeat;"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="breadcrumb__content">
-                                <h2 class="title">
-                                    UAE Business Formation, Structuring & Compliance
-                                </h2>
+                                <h2 class="title">UAE Business Formation, Structuring &amp; Compliance</h2>
                                 <nav class="breadcrumb">
-                                    <span property="itemListElement" typeof="ListItem">
-                                        <a href="index-5.php">
-                                            Home
-                                        </a>
-                                    </span>
-                                    <span class="breadcrumb-separator">
-                                        <i class="fas fa-angle-right">
-                                        </i>
-                                    </span>
-                                    <span property="itemListElement" typeof="ListItem">
-                                        UAE Business Formation, Structuring & Compliance
-                                    </span>
+                                    <span property="itemListElement" typeof="ListItem"><a href="index-5.php">Home</a></span>
+                                    <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
+                                    <span property="itemListElement" typeof="ListItem">UAE Business Formation, Structuring &amp; Compliance</span>
                                 </nav>
                             </div>
                         </div>
@@ -60,41 +46,40 @@
             </section>
             <!-- breadcrumb-area-end -->
             <!-- services-details-area -->
-            <!-- services-details-area -->
             <section class="services__details-area section-py-130">
                 <div class="container">
                     <div class="row">
                         <div class="col-70 order-0 order-lg-2">
-                            <!-- Mainland Tab Panel -->
+                            <!-- Mainland Business Setup Tab Panel -->
                             <div class="service-tab-panel is-active" id="mainland" data-service-panel="mainland">
                                 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Business Setup In Dubai Free Zones</p>
-                                        <h2 class="title">Build Your UAE Business With Confidence</h2>
-                                        <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency. Offering 100% foreign ownership, streamlined licensing procedures, and attractive tax advantages, Free Zones provide an ideal foundation for sustainable growth.</p>
-                                        <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey. From selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements, our experts handle every step with precision, allowing you to focus on growing your business from day one.</p>
+                                        <p style="margin-bottom: 15px;">Business Setup In Dubai Mainland</p>
+                                        <h2 class="title">Establish Your Dubai Enterprise With Confidence</h2>
+                                        <p>Mainland company formation gives businesses direct access to the UAE market, government contracts, retail locations, and flexible commercial activity across the Emirates.</p>
+                                        <p>Virtuo manages the full process from activity selection and Department of Economy and Tourism approvals to licensing, office guidance, immigration file opening, and launch support.</p>
                                     </div>
                                     <div class="services__details-thumb">
                                         <img src="assets/img/services/MainLandImage1_services_details.jpg" alt="Mainland Business Setup">
                                     </div>
                                     <div class="services__details-content">
-                                        <h2 class="title-two">Our Free Zone Setup Services Include</h2>
-                                        <p class="info-one"><b>1. Business Activity Selection And License Type</b></p>
-                                        <p class="info-two">Expert guidance on choosing the right commercial, professional, or industrial licenses to match your corporate goals and ensure full regulatory compliance.</p>
-                                        <p class="info-one"><b>2. Free Zone Selection &amp; Real Estate Procurement</b></p>
-                                        <p class="info-two">Identifying the ideal economic zone for your industry and setting up physical or virtual office spaces, flexi-desks, or premium corporate spaces tailored to your needs.</p>
-                                        <p class="info-one"><b>3. Name Approval &amp; Initial Documentation</b></p>
-                                        <p class="info-two">Managing trade name reservations and navigating initial structural approvals with local authorities to ensure a smooth legal launch.</p>
-                                        <p class="info-one"><b>4. Visa And Immigration Processing</b></p>
-                                        <p class="info-two">Fast-tracked management of investor, partner, employee, and family residency visas, including medical tests and Emirates ID assistance.</p>
-                                        <p class="info-one"><b>5. Corporate Bank Account Assistance</b></p>
-                                        <p class="info-two">Document compilation, profile positioning, and direct introductions to leading UAE local and international banks for swift account opening.</p>
-                                        <p class="info-one"><b>6. Corporate Governance &amp; Structure Advisory</b></p>
-                                        <p class="info-two">Custom selection of the right legal entity structure (FZE, FZCO, or Branch) to protect your equity and maximize operational efficiency.</p>
-                                        <p class="info-one"><b>7. Document Clearing &amp; Government Relations (PRO)</b></p>
-                                        <p class="info-two">Handling all interactions, submissions, and approvals with government bodies and ministries, minimizing administrative friction for your team.</p>
-                                        <p class="info-one"><b>8. Post-Incorporation Corporate Support</b></p>
-                                        <p class="info-two">Continued operational assistance post-incorporation, covering everything from annual license renewals to ongoing corporate compliance.</p>
+                                        <h2 class="title-two">Our Mainland Business Setup Services Include</h2>
+                                        <p class="info-one"><b>1. Business Activity Selection</b></p>
+                                        <p class="info-two">We align your planned operations with the correct commercial, professional, or industrial activity before filing with the relevant authority.</p>
+                                        <p class="info-one"><b>2. Trade Name Reservation</b></p>
+                                        <p class="info-two">We reserve a compliant company name and manage corrections quickly if the authority requests alternatives.</p>
+                                        <p class="info-one"><b>3. Initial Approval And Licensing</b></p>
+                                        <p class="info-two">We coordinate initial approval, license application, and final issuance steps with the mainland authority.</p>
+                                        <p class="info-one"><b>4. MOA And Legal Documentation</b></p>
+                                        <p class="info-two">We support memorandum drafting, signing coordination, and notarization requirements for your legal structure.</p>
+                                        <p class="info-one"><b>5. Office And Ejari Support</b></p>
+                                        <p class="info-two">We guide office, flexi desk, and Ejari requirements so the license remains compliant from day one.</p>
+                                        <p class="info-one"><b>6. Immigration And Establishment File</b></p>
+                                        <p class="info-two">We help open the establishment card and immigration file so investor and employee visas can be processed.</p>
+                                        <p class="info-one"><b>7. Bank Account Preparation</b></p>
+                                        <p class="info-two">We organize the company profile and documents required for corporate bank account review.</p>
+                                        <p class="info-one"><b>8. Renewal And Compliance Support</b></p>
+                                        <p class="info-two">We continue supporting license renewals, activity amendments, and government follow-ups after setup.</p>
                                         <div class="services__details-inner-images">
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -153,8 +138,8 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-03</span>
-                                                                <h3 class="title">Foreign Ownership Alignment</h3>
-                                                                <p>100% Guaranteed</p>
+                                                                <h3 class="title">Authority Submission</h3>
+                                                                <p>3-7 Working Days</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -163,21 +148,21 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-04</span>
-                                                                <h3 class="title">Corporate Tax Optimization</h3>
-                                                                <p>Complete 0% Structuring</p>
+                                                                <h3 class="title">License &amp; Launch Support</h3>
+                                                                <p>Complete Handover</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div style="margin: 100px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Setting up a company in a UAE Free Zone requires the right expertise, guidance, and support to ensure a smooth and compliant process. Virtuo Services F.Z.C provides professional assistance to entrepreneurs, startups, SMEs, and international businesses looking to establish their presence in the UAE. With in-depth knowledge of Free Zone regulations and strong industry connections, we make the company formation process simple, efficient, and transparent.</p>
+                                                        <p>Mainland setup can unlock broad UAE market access, but the licensing path must be structured correctly. Virtuo keeps the process clear, compliant, and coordinated across government touchpoints.</p>
                                                         <p>Our Advantages :</p>
                                                         <ul class="list-wrap about__list-item-two">
-                                                            <li>Expertise across all major UAE free zones (DMCC, IFZA, RAKEZ, SHAMS, JAFZA, and more)</li>
-                                                            <li>Fast and transparent processing</li>
-                                                            <li>Strong relationships with Free Zone authorities</li>
-                                                            <li>Tailored solutions for startups, SMEs, and multinational companies</li>
-                                                            <li>Cost-effective and efficient setup packages</li>
+                                                            <li>Direct UAE market access</li>
+                                                            <li>Guidance on DET activity selection</li>
+                                                            <li>MOA and legal document coordination</li>
+                                                            <li>Office and Ejari requirement support</li>
+                                                            <li>Post-licensing PRO and renewal assistance</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -199,44 +184,44 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-xl-8 col-lg-10" style="width: 100%;">
                                                     <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="mainland-accordionFreezone">
+                                                        <div class="accordion" id="mainland-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseOneFreezone" aria-expanded="true" aria-controls="mainland-collapseOneFreezone">1. What is the main difference between Free Zone and Mainland setup?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseOne" aria-expanded="true" aria-controls="mainland-collapseOne">1. Can a foreign investor own a mainland company?</button>
                                                                 </h2>
-                                                                <div id="mainland-collapseOneFreezone" class="accordion-collapse collapse" data-bs-parent="#mainland-accordionFreezone">
+                                                                <div id="mainland-collapseOne" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Free Zone companies allow for 100% foreign ownership without a local agent, but they are restricted from trading directly inside the UAE mainland market without a local distributor or mainland branch setup. Mainland companies can trade anywhere across the UAE but are subject to different regulatory structures.</p>
+                                                                        <p>Yes. Many mainland activities now allow 100% foreign ownership, subject to activity and authority approval.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseTwoFreezone" aria-expanded="false" aria-controls="mainland-collapseTwoFreezone">2. Can I open a corporate bank account with a Free Zone license?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseTwo" aria-expanded="false" aria-controls="mainland-collapseTwo">2. Do I need office space for mainland setup?</button>
                                                                 </h2>
-                                                                <div id="mainland-collapseTwoFreezone" class="accordion-collapse collapse" data-bs-parent="#mainland-accordionFreezone">
+                                                                <div id="mainland-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Yes. Once your Free Zone license is issued and your corporate documents are finalized, you can open a business bank account with any major local or international bank operating in the UAE. Virtuo provides complete documentation support to streamline this approval process.</p>
+                                                                        <p>Most mainland licenses require a compliant office or Ejari arrangement. We help identify the right option for the license type.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseThreeFreezone" aria-expanded="false" aria-controls="mainland-collapseThreeFreezone">3. How long does the entire setup process take?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseThree" aria-expanded="false" aria-controls="mainland-collapseThree">3. How long does mainland licensing take?</button>
                                                                 </h2>
-                                                                <div id="mainland-collapseThreeFreezone" class="accordion-collapse collapse" data-bs-parent="#mainland-accordionFreezone">
+                                                                <div id="mainland-collapseThree" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>The corporate incorporation phase typically takes 3 to 7 working days. Once the company registration documents are issued by the specific Free Zone authority, the residency visa processing takes an additional 1 to 2 weeks.</p>
+                                                                        <p>Timelines vary by activity and approval requirements, but a prepared file can often move through initial approval and licensing within a few working days.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseFourFreezone" aria-expanded="false" aria-controls="mainland-collapseFourFreezone">4. Are Free Zone companies exempt from corporate tax?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseFour" aria-expanded="false" aria-controls="mainland-collapseFour">4. Can a mainland company trade inside the UAE?</button>
                                                                 </h2>
-                                                                <div id="mainland-collapseFourFreezone" class="accordion-collapse collapse" data-bs-parent="#mainland-accordionFreezone">
+                                                                <div id="mainland-collapseFour" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>UAE Free Zone entities can benefit from a 0% corporate tax rate on qualified income, provided they maintain adequate substance in the UAE and comply with all statutory regulatory requirements. Our team will guide you on structuring your setup to maximize these tax incentives legally.</p>
+                                                                        <p>Yes. Mainland companies are designed for direct local UAE trading and can also operate internationally.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -250,18 +235,18 @@
                                     <!-- faq-area-end -->
                                 </div>
                             </div>
-                            <!-- Mainland Tab Panel End -->
-                            <!-- Freezone Tab Panel -->
+                            <!-- Mainland Business Setup Tab Panel End -->
+                            <!-- Free Zone Business Setup Tab Panel -->
                             <div class="service-tab-panel" id="freezone" data-service-panel="freezone">
                                 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
                                         <p style="margin-bottom: 15px;">Business Setup In Dubai Free Zones</p>
                                         <h2 class="title">Build Your UAE Business With Confidence</h2>
-                                        <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency. Offering 100% foreign ownership, streamlined licensing procedures, and attractive tax advantages, Free Zones provide an ideal foundation for sustainable growth.</p>
-                                        <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey. From selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements, our experts handle every step with precision, allowing you to focus on growing your business from day one.</p>
+                                        <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency.</p>
+                                        <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey from selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/services_details_img01.jpg" alt="Freezone Business Setup">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Free Zone Business Setup">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Free Zone Setup Services Include</h2>
@@ -276,21 +261,21 @@
                                         <p class="info-one"><b>5. Corporate Bank Account Assistance</b></p>
                                         <p class="info-two">Document compilation, profile positioning, and direct introductions to leading UAE local and international banks for swift account opening.</p>
                                         <p class="info-one"><b>6. Corporate Governance &amp; Structure Advisory</b></p>
-                                        <p class="info-two">Custom selection of the right legal entity structure (FZE, FZCO, or Branch) to protect your equity and maximize operational efficiency.</p>
-                                        <p class="info-one"><b>7. Document Clearing &amp; Government Relations (PRO)</b></p>
+                                        <p class="info-two">Custom selection of the right legal entity structure to protect your equity and maximize operational efficiency.</p>
+                                        <p class="info-one"><b>7. Document Clearing &amp; Government Relations</b></p>
                                         <p class="info-two">Handling all interactions, submissions, and approvals with government bodies and ministries, minimizing administrative friction for your team.</p>
                                         <p class="info-one"><b>8. Post-Incorporation Corporate Support</b></p>
-                                        <p class="info-two">Continued operational assistance post-incorporation, covering everything from annual license renewals to ongoing corporate compliance.</p>
+                                        <p class="info-two">Continued operational assistance after incorporation, covering annual license renewals and ongoing corporate compliance.</p>
                                         <div class="services__details-inner-images">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/services_img01.jpg" alt="Freezone Business Setup">
+                                                        <img src="assets/img/services/services_img01.jpg" alt="Free Zone Business Setup">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/services_img02.jpg" alt="Freezone Business Setup">
+                                                        <img src="assets/img/services/services_img02.jpg" alt="Free Zone Business Setup">
                                                     </div>
                                                 </div>
                                             </div>
@@ -339,8 +324,8 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-03</span>
-                                                                <h3 class="title">Foreign Ownership Alignment</h3>
-                                                                <p>100% Guaranteed</p>
+                                                                <h3 class="title">Authority Submission</h3>
+                                                                <p>3-7 Working Days</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -349,21 +334,21 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-04</span>
-                                                                <h3 class="title">Corporate Tax Optimization</h3>
-                                                                <p>Complete 0% Structuring</p>
+                                                                <h3 class="title">License &amp; Launch Support</h3>
+                                                                <p>Complete Handover</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div style="margin: 100px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Setting up a company in a UAE Free Zone requires the right expertise, guidance, and support to ensure a smooth and compliant process. Virtuo Services F.Z.C provides professional assistance to entrepreneurs, startups, SMEs, and international businesses looking to establish their presence in the UAE. With in-depth knowledge of Free Zone regulations and strong industry connections, we make the company formation process simple, efficient, and transparent.</p>
+                                                        <p>Setting up a company in a UAE Free Zone requires the right jurisdiction, activity, license package, visa allocation, and banking readiness. Virtuo helps compare options and move through the process transparently.</p>
                                                         <p>Our Advantages :</p>
                                                         <ul class="list-wrap about__list-item-two">
-                                                            <li>Expertise across all major UAE free zones (DMCC, IFZA, RAKEZ, SHAMS, JAFZA, and more)</li>
+                                                            <li>Expertise across major UAE Free Zones</li>
                                                             <li>Fast and transparent processing</li>
                                                             <li>Strong relationships with Free Zone authorities</li>
                                                             <li>Tailored solutions for startups, SMEs, and multinational companies</li>
-                                                            <li>Cost-effective and efficient setup packages</li>
+                                                            <li>Cost-effective setup packages</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -385,44 +370,44 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-xl-8 col-lg-10" style="width: 100%;">
                                                     <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="freezone-accordionFreezone">
+                                                        <div class="accordion" id="freezone-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseOneFreezone" aria-expanded="true" aria-controls="freezone-collapseOneFreezone">1. What is the main difference between Free Zone and Mainland setup?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseOne" aria-expanded="true" aria-controls="freezone-collapseOne">1. What is the main difference between Free Zone and Mainland setup?</button>
                                                                 </h2>
-                                                                <div id="freezone-collapseOneFreezone" class="accordion-collapse collapse" data-bs-parent="#freezone-accordionFreezone">
+                                                                <div id="freezone-collapseOne" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Free Zone companies allow for 100% foreign ownership without a local agent, but they are restricted from trading directly inside the UAE mainland market without a local distributor or mainland branch setup. Mainland companies can trade anywhere across the UAE but are subject to different regulatory structures.</p>
+                                                                        <p>Free Zone companies allow foreign ownership and simplified setup but may need additional arrangements to trade directly in the mainland market.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseTwoFreezone" aria-expanded="false" aria-controls="freezone-collapseTwoFreezone">2. Can I open a corporate bank account with a Free Zone license?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseTwo" aria-expanded="false" aria-controls="freezone-collapseTwo">2. Can I open a corporate bank account with a Free Zone license?</button>
                                                                 </h2>
-                                                                <div id="freezone-collapseTwoFreezone" class="accordion-collapse collapse" data-bs-parent="#freezone-accordionFreezone">
+                                                                <div id="freezone-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Yes. Once your Free Zone license is issued and your corporate documents are finalized, you can open a business bank account with any major local or international bank operating in the UAE. Virtuo provides complete documentation support to streamline this approval process.</p>
+                                                                        <p>Yes. Once your license and corporate documents are issued, you can apply for a UAE business bank account.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseThreeFreezone" aria-expanded="false" aria-controls="freezone-collapseThreeFreezone">3. How long does the entire setup process take?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseThree" aria-expanded="false" aria-controls="freezone-collapseThree">3. How long does the entire setup process take?</button>
                                                                 </h2>
-                                                                <div id="freezone-collapseThreeFreezone" class="accordion-collapse collapse" data-bs-parent="#freezone-accordionFreezone">
+                                                                <div id="freezone-collapseThree" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>The corporate incorporation phase typically takes 3 to 7 working days. Once the company registration documents are issued by the specific Free Zone authority, the residency visa processing takes an additional 1 to 2 weeks.</p>
+                                                                        <p>Many Free Zone setups can be completed within a few working days once documents and approvals are ready.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseFourFreezone" aria-expanded="false" aria-controls="freezone-collapseFourFreezone">4. Are Free Zone companies exempt from corporate tax?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseFour" aria-expanded="false" aria-controls="freezone-collapseFour">4. Are Free Zone companies exempt from corporate tax?</button>
                                                                 </h2>
-                                                                <div id="freezone-collapseFourFreezone" class="accordion-collapse collapse" data-bs-parent="#freezone-accordionFreezone">
+                                                                <div id="freezone-collapseFour" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>UAE Free Zone entities can benefit from a 0% corporate tax rate on qualified income, provided they maintain adequate substance in the UAE and comply with all statutory regulatory requirements. Our team will guide you on structuring your setup to maximize these tax incentives legally.</p>
+                                                                        <p>Qualifying Free Zone companies may benefit from a 0% rate on qualifying income if they meet UAE tax substance and compliance requirements.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -436,37 +421,39 @@
                                     <!-- faq-area-end -->
                                 </div>
                             </div>
-                            <!-- Freezone Tab Panel End -->
-                            <!-- Offshore Tab Panel -->
+                            <!-- Free Zone Business Setup Tab Panel End -->
+                            <!-- Offshore Business Setup Tab Panel -->
                             <div class="service-tab-panel" id="offshore" data-service-panel="offshore">
                                 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Business Setup In Dubai Free Zones</p>
-                                        <h2 class="title">Build Your UAE Business With Confidence</h2>
-                                        <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency. Offering 100% foreign ownership, streamlined licensing procedures, and attractive tax advantages, Free Zones provide an ideal foundation for sustainable growth.</p>
-                                        <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey. From selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements, our experts handle every step with precision, allowing you to focus on growing your business from day one.</p>
+                                        <p style="margin-bottom: 15px;">Business Setup In Offshore</p>
+                                        <h2 class="title">Expand Your Global Footprint With Confidence</h2>
+                                        <p>Setting up an offshore company in the UAE is the ultimate choice for international entrepreneurs looking to protect assets, manage global wealth, and minimize tax liabilities. Operating under highly secure regulatory frameworks like JAFZA or RAK ICC, an offshore entity allows you to manage international trade, hold global real estate investments, and operate multi-currency bank accounts with absolute confidentiality and complete legal backing.</p>
+                                        <p>At Virtuo, we navigate the complex international compliance and documentation pipelines on your behalf. Our experts streamline the incorporation framework so you can establish a secure, tax-optimized international vehicle efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
                                         <img src="assets/img/services/OffshoreBusinessSetup3_services_details.jpg" alt="Offshore Business Setup">
                                     </div>
                                     <div class="services__details-content">
-                                        <h2 class="title-two">Our Free Zone Setup Services Include</h2>
-                                        <p class="info-one"><b>1. Business Activity Selection And License Type</b></p>
-                                        <p class="info-two">Expert guidance on choosing the right commercial, professional, or industrial licenses to match your corporate goals and ensure full regulatory compliance.</p>
-                                        <p class="info-one"><b>2. Free Zone Selection &amp; Real Estate Procurement</b></p>
-                                        <p class="info-two">Identifying the ideal economic zone for your industry and setting up physical or virtual office spaces, flexi-desks, or premium corporate spaces tailored to your needs.</p>
-                                        <p class="info-one"><b>3. Name Approval &amp; Initial Documentation</b></p>
-                                        <p class="info-two">Managing trade name reservations and navigating initial structural approvals with local authorities to ensure a smooth legal launch.</p>
-                                        <p class="info-one"><b>4. Visa And Immigration Processing</b></p>
-                                        <p class="info-two">Fast-tracked management of investor, partner, employee, and family residency visas, including medical tests and Emirates ID assistance.</p>
-                                        <p class="info-one"><b>5. Corporate Bank Account Assistance</b></p>
-                                        <p class="info-two">Document compilation, profile positioning, and direct introductions to leading UAE local and international banks for swift account opening.</p>
-                                        <p class="info-one"><b>6. Corporate Governance &amp; Structure Advisory</b></p>
-                                        <p class="info-two">Custom selection of the right legal entity structure (FZE, FZCO, or Branch) to protect your equity and maximize operational efficiency.</p>
-                                        <p class="info-one"><b>7. Document Clearing &amp; Government Relations (PRO)</b></p>
-                                        <p class="info-two">Handling all interactions, submissions, and approvals with government bodies and ministries, minimizing administrative friction for your team.</p>
-                                        <p class="info-one"><b>8. Post-Incorporation Corporate Support</b></p>
-                                        <p class="info-two">Continued operational assistance post-incorporation, covering everything from annual license renewals to ongoing corporate compliance.</p>
+                                        <h2 class="title-two">What Offshore Business Setup Includes</h2>
+                                        <p class="info-one"><b>1. Offshore Company Incorporation &amp; Registration</b></p>
+                                        <p class="info-two">Complete management of the registration and filing processes with leading UAE offshore jurisdictions, ensuring absolute structural legitimacy.</p>
+                                        <p class="info-one"><b>2. Company Structure Advisory &amp; Legal Framework</b></p>
+                                        <p class="info-two">Expert guidance on tailoring your offshore entity's Articles of Association to match your specific asset protection, wealth management, or corporate holding goals.</p>
+                                        <p class="info-one"><b>3. Preparation And Submission Of Corporate Documents</b></p>
+                                        <p class="info-two">Drafting, organizing, and optimizing all necessary corporate compliance documents, shareholder certificates, and constitutional papers for swift regulatory approval.</p>
+                                        <p class="info-one"><b>4. Registered Office &amp; Legally Mandated Agent Services</b></p>
+                                        <p class="info-two">Providing the compulsory legal registered address and acting as your licensed registrar agent within the UAE offshore jurisdiction to manage regulatory correspondence.</p>
+                                        <p class="info-one"><b>5. Coordination With Relevant Government Authorities</b></p>
+                                        <p class="info-two">Direct management of all administrative touchpoints, verification checks, and final clearance approvals with individual offshore government registries.</p>
+                                        <p class="info-one"><b>6. Bank Account Selection And KYC Coordination</b></p>
+                                        <p class="info-two">Guiding you through rigorous Know Your Customer (KYC) compliance criteria and matching your global business model with the right premium banking institutions.</p>
+                                        <p class="info-one"><b>7. Post-Incorporation Ongoing Support</b></p>
+                                        <p class="info-two">Providing essential administrative assistance following your company launch to ensure your entity remains in perfect standing with zero friction.</p>
+                                        <p class="info-one"><b>8. Company Annual Compliance Maintenance</b></p>
+                                        <p class="info-two">Overseeing statutory requirements, mandatory legal document filings, and corporate transparency updates required by international financial oversight standards.</p>
+                                        <p class="info-one"><b>9. Annual Renewal And Statutory Filings</b></p>
+                                        <p class="info-two">Managing the yearly renewal of your offshore registration, registered office space maintenance, and associated governmental administration to avoid structural lapses.</p>
                                         <div class="services__details-inner-images">
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -504,9 +491,9 @@
                                                         <div class="work__item-two text-center">
                                                             <div class="work__icon-two"><i class="flaticon-health-insurance"></i></div>
                                                             <div class="work__content-two">
-                                                                <span class="work__step">Step-01</span>
-                                                                <h3 class="title">Free Consultation</h3>
-                                                                <p>15-30 Minutes</p>
+                                                                <span class="work__step">1/12</span>
+                                                                <h3 class="title">Select Business Activities</h3>
+                                                                <p>Select the primary and secondary activities that your business will be conducting. Please note that secondary activities are optional.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -514,9 +501,9 @@
                                                         <div class="work__item-two text-center">
                                                             <div class="work__icon-two"><i class="flaticon-growth"></i></div>
                                                             <div class="work__content-two">
-                                                                <span class="work__step">Step-02</span>
-                                                                <h3 class="title">Business Structure &amp; Proposal</h3>
-                                                                <p>1 Business Day</p>
+                                                                <span class="work__step">2/12</span>
+                                                                <h3 class="title">Initial Partner Details</h3>
+                                                                <p>Select the number and nationalities of your partners if you have any. If not, skip this step.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -524,9 +511,9 @@
                                                         <div class="work__item-two text-center">
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
-                                                                <span class="work__step">Step-03</span>
-                                                                <h3 class="title">Foreign Ownership Alignment</h3>
-                                                                <p>100% Guaranteed</p>
+                                                                <span class="work__step">3/12</span>
+                                                                <h3 class="title">Legal Type</h3>
+                                                                <p>Compare and select the legal type that is most suitable for you. If you notice a legal type is not available to you, it means you are not applicable to select them based on your previous selections.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -534,22 +521,22 @@
                                                         <div class="work__item-two text-center">
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
-                                                                <span class="work__step">Step-04</span>
-                                                                <h3 class="title">Corporate Tax Optimization</h3>
-                                                                <p>Complete 0% Structuring</p>
+                                                                <span class="work__step">4/12</span>
+                                                                <h3 class="title">License Type</h3>
+                                                                <p>Compare and select the license type that is most suitable for you. If you notice a license type is not available to you, it means you are not applicable to select them based on your previous selections.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div style="margin: 100px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Setting up a company in a UAE Free Zone requires the right expertise, guidance, and support to ensure a smooth and compliant process. Virtuo Services F.Z.C provides professional assistance to entrepreneurs, startups, SMEs, and international businesses looking to establish their presence in the UAE. With in-depth knowledge of Free Zone regulations and strong industry connections, we make the company formation process simple, efficient, and transparent.</p>
-                                                        <p>Our Advantages :</p>
+                                                        <p>Setting up an offshore company requires specialized knowledge, careful planning, and strict compliance with international regulations. Virtuo Services F.Z.C provides expert guidance for entrepreneurs, investors, and global companies looking to establish offshore entities in the UAE. Our team ensures a seamless, secure, and fully compliant setup process while protecting your business interests and maintaining the highest level of confidentiality.</p>
+                                                        <p>Benefits Of Business Setup In Offshore:</p>
                                                         <ul class="list-wrap about__list-item-two">
-                                                            <li>Expertise across all major UAE free zones (DMCC, IFZA, RAKEZ, SHAMS, JAFZA, and more)</li>
+                                                            <li>Expertise in major offshore jurisdictions (RAK ICC, JAFZA Offshore, Ajman Offshore)</li>
+                                                            <li>High confidentiality and secure documentation handling</li>
                                                             <li>Fast and transparent processing</li>
-                                                            <li>Strong relationships with Free Zone authorities</li>
-                                                            <li>Tailored solutions for startups, SMEs, and multinational companies</li>
-                                                            <li>Cost-effective and efficient setup packages</li>
+                                                            <li>Tailored solutions for international business structures</li>
+                                                            <li>Strong relationships with offshore authorities and banks</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -571,44 +558,44 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-xl-8 col-lg-10" style="width: 100%;">
                                                     <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="offshore-accordionFreezone">
+                                                        <div class="accordion" id="offshore-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseOneFreezone" aria-expanded="true" aria-controls="offshore-collapseOneFreezone">1. What is the main difference between Free Zone and Mainland setup?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseOne" aria-expanded="true" aria-controls="offshore-collapseOne">1. Can an offshore company conduct business inside the UAE?</button>
                                                                 </h2>
-                                                                <div id="offshore-collapseOneFreezone" class="accordion-collapse collapse" data-bs-parent="#offshore-accordionFreezone">
+                                                                <div id="offshore-collapseOne" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Free Zone companies allow for 100% foreign ownership without a local agent, but they are restricted from trading directly inside the UAE mainland market without a local distributor or mainland branch setup. Mainland companies can trade anywhere across the UAE but are subject to different regulatory structures.</p>
+                                                                        <p>No. An offshore company is specifically designed to conduct international business operations outside of the UAE. It cannot rent physical office space locally, apply for local employee residency visas, or trade directly within the UAE domestic market.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseTwoFreezone" aria-expanded="false" aria-controls="offshore-collapseTwoFreezone">2. Can I open a corporate bank account with a Free Zone license?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseTwo" aria-expanded="false" aria-controls="offshore-collapseTwo">2. What are the main uses for a UAE offshore company?</button>
                                                                 </h2>
-                                                                <div id="offshore-collapseTwoFreezone" class="accordion-collapse collapse" data-bs-parent="#offshore-accordionFreezone">
+                                                                <div id="offshore-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Yes. Once your Free Zone license is issued and your corporate documents are finalized, you can open a business bank account with any major local or international bank operating in the UAE. Virtuo provides complete documentation support to streamline this approval process.</p>
+                                                                        <p>Entrepreneurs primarily utilize UAE offshore setups as holding companies to own shares in other domestic or international entities, hold international real estate portfolios, manage global intellectual property, or facilitate tax-optimized international trade.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseThreeFreezone" aria-expanded="false" aria-controls="offshore-collapseThreeFreezone">3. How long does the entire setup process take?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseThree" aria-expanded="false" aria-controls="offshore-collapseThree">3. Does a UAE offshore company require a physical office space?</button>
                                                                 </h2>
-                                                                <div id="offshore-collapseThreeFreezone" class="accordion-collapse collapse" data-bs-parent="#offshore-accordionFreezone">
+                                                                <div id="offshore-collapseThree" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>The corporate incorporation phase typically takes 3 to 7 working days. Once the company registration documents are issued by the specific Free Zone authority, the residency visa processing takes an additional 1 to 2 weeks.</p>
+                                                                        <p>No. Offshore companies are not required to maintain physical premises or sign commercial lease agreements in the UAE. Instead, they utilize the legally mandated registered address provided by their licensed registration agent, such as Virtuo.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseFourFreezone" aria-expanded="false" aria-controls="offshore-collapseFourFreezone">4. Are Free Zone companies exempt from corporate tax?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseFour" aria-expanded="false" aria-controls="offshore-collapseFour">4. How long does the offshore incorporation process take?</button>
                                                                 </h2>
-                                                                <div id="offshore-collapseFourFreezone" class="accordion-collapse collapse" data-bs-parent="#offshore-accordionFreezone">
+                                                                <div id="offshore-collapseFour" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>UAE Free Zone entities can benefit from a 0% corporate tax rate on qualified income, provided they maintain adequate substance in the UAE and comply with all statutory regulatory requirements. Our team will guide you on structuring your setup to maximize these tax incentives legally.</p>
+                                                                        <p>The entire process is remarkably fast and can often be completed remotely. Once all required shareholder verification documents, bank references, and proof of address are compiled, registration typically takes between 3 to 5 working days.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -622,37 +609,35 @@
                                     <!-- faq-area-end -->
                                 </div>
                             </div>
-                            <!-- Offshore Tab Panel End -->
+                            <!-- Offshore Business Setup Tab Panel End -->
                             <!-- Virtual Office Tab Panel -->
                             <div class="service-tab-panel" id="virtual" data-service-panel="virtual">
                                 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Business Setup In Dubai Free Zones</p>
-                                        <h2 class="title">Build Your UAE Business With Confidence</h2>
-                                        <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency. Offering 100% foreign ownership, streamlined licensing procedures, and attractive tax advantages, Free Zones provide an ideal foundation for sustainable growth.</p>
-                                        <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey. From selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements, our experts handle every step with precision, allowing you to focus on growing your business from day one.</p>
+                                        <p style="margin-bottom: 15px;">Virtual Office In Dubai</p>
+                                        <h2 class="title">Prestigious Business Address. Zero Overheads. 100% UAE Compliance.</h2>
+                                        <p>In a dynamic global business ecosystem, establishing a premium corporate presence shouldn't require the massive financial burden of traditional long-term commercial leases. A virtual office offers international businesses, remote teams, and growing startups the perfect strategic solution: a prestigious, fully compliant business address in the heart of Dubai without the expensive overhead costs.</p>
+                                        <p>At Virtuo, we provide more than just a premium mailbox. Our virtual office packages supply your enterprise with an official, government-recognized corporate address necessary for business registration, Department of Economy and Tourism (DET) compliance, and immediate market trust, all while keeping your operations agile and lean.</p>
                                     </div>
                                     <div class="services__details-thumb">
                                         <img src="assets/img/services/VirtualOffice1_services_details.jpg" alt="Virtual Office">
                                     </div>
                                     <div class="services__details-content">
-                                        <h2 class="title-two">Our Free Zone Setup Services Include</h2>
-                                        <p class="info-one"><b>1. Business Activity Selection And License Type</b></p>
-                                        <p class="info-two">Expert guidance on choosing the right commercial, professional, or industrial licenses to match your corporate goals and ensure full regulatory compliance.</p>
-                                        <p class="info-one"><b>2. Free Zone Selection &amp; Real Estate Procurement</b></p>
-                                        <p class="info-two">Identifying the ideal economic zone for your industry and setting up physical or virtual office spaces, flexi-desks, or premium corporate spaces tailored to your needs.</p>
-                                        <p class="info-one"><b>3. Name Approval &amp; Initial Documentation</b></p>
-                                        <p class="info-two">Managing trade name reservations and navigating initial structural approvals with local authorities to ensure a smooth legal launch.</p>
-                                        <p class="info-one"><b>4. Visa And Immigration Processing</b></p>
-                                        <p class="info-two">Fast-tracked management of investor, partner, employee, and family residency visas, including medical tests and Emirates ID assistance.</p>
-                                        <p class="info-one"><b>5. Corporate Bank Account Assistance</b></p>
-                                        <p class="info-two">Document compilation, profile positioning, and direct introductions to leading UAE local and international banks for swift account opening.</p>
-                                        <p class="info-one"><b>6. Corporate Governance &amp; Structure Advisory</b></p>
-                                        <p class="info-two">Custom selection of the right legal entity structure (FZE, FZCO, or Branch) to protect your equity and maximize operational efficiency.</p>
-                                        <p class="info-one"><b>7. Document Clearing &amp; Government Relations (PRO)</b></p>
-                                        <p class="info-two">Handling all interactions, submissions, and approvals with government bodies and ministries, minimizing administrative friction for your team.</p>
-                                        <p class="info-one"><b>8. Post-Incorporation Corporate Support</b></p>
-                                        <p class="info-two">Continued operational assistance post-incorporation, covering everything from annual license renewals to ongoing corporate compliance.</p>
+                                        <h2 class="title-two">What Virtual Office Packages Include</h2>
+                                        <p class="info-one"><b>1. Premium Business &amp; Registration Address</b></p>
+                                        <p class="info-two">Gain an instant corporate presence with a high-profile, government-approved physical business address to feature on your official trade license, website, and legal contracts.</p>
+                                        <p class="info-one"><b>2. Dedicated Mail Handling And Forwarding</b></p>
+                                        <p class="info-two">Professional management of all incoming corporate mail, packages, and legal correspondence, featuring instant digital scanning and secure mail forwarding options.</p>
+                                        <p class="info-one"><b>3. Dedicated Local Telephone Line</b></p>
+                                        <p class="info-two">Allocation of a professional local UAE business telephone number to reinforce your brand legitimacy and establish a direct connection for regional clients.</p>
+                                        <p class="info-one"><b>4. Professional Reception &amp; Answering Services</b></p>
+                                        <p class="info-two">Access to professional reception services to answer incoming corporate calls under your company name, take accurate messages, or route critical inquiries smoothly.</p>
+                                        <p class="info-one"><b>5. Compliance And Statutory Support</b></p>
+                                        <p class="info-two">Complete alignment with modern UAE corporate and banking regulations, ensuring your documentation satisfies standard business verification procedures.</p>
+                                        <p class="info-one"><b>6. Flexible Workspace And Meeting Room Access</b></p>
+                                        <p class="info-two">On-demand booking access to premium, fully equipped conference rooms and corporate boardrooms to host vital face-to-face client pitches, investor meetings, or team huddles.</p>
+                                        <p class="info-one"><b>7. Complete Office Amenities &amp; Support Systems</b></p>
+                                        <p class="info-two">Full access to secure enterprise-grade Wi-Fi networks, high-end copying, scanning, and printing systems during your on-site corporate workspace sessions.</p>
                                         <div class="services__details-inner-images">
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -711,8 +696,8 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-03</span>
-                                                                <h3 class="title">Foreign Ownership Alignment</h3>
-                                                                <p>100% Guaranteed</p>
+                                                                <h3 class="title">Authority Submission</h3>
+                                                                <p>3-7 Working Days</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -721,22 +706,25 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-04</span>
-                                                                <h3 class="title">Corporate Tax Optimization</h3>
-                                                                <p>Complete 0% Structuring</p>
+                                                                <h3 class="title">License &amp; Launch Support</h3>
+                                                                <p>Complete Handover</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div style="margin: 100px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Setting up a company in a UAE Free Zone requires the right expertise, guidance, and support to ensure a smooth and compliant process. Virtuo Services F.Z.C provides professional assistance to entrepreneurs, startups, SMEs, and international businesses looking to establish their presence in the UAE. With in-depth knowledge of Free Zone regulations and strong industry connections, we make the company formation process simple, efficient, and transparent.</p>
-                                                        <p>Our Advantages :</p>
+                                                        <p>We provide professional virtual office solutions designed to give your business credibility, flexibility, and full regulatory compliance in the UAE. Our expert team ensures that your company gains a prestigious Dubai business address while handling all licensing approvals, government requirements, and operational support efficiently. By choosing Virtuo Services, you get a seamless, reliable, and cost-effective virtual office experience that strengthens your brand presence and allows you to focus on growing your business.</p>
+                                                        <p>A Virtual Office Is Ideal For:</p>
                                                         <ul class="list-wrap about__list-item-two">
-                                                            <li>Expertise across all major UAE free zones (DMCC, IFZA, RAKEZ, SHAMS, JAFZA, and more)</li>
-                                                            <li>Fast and transparent processing</li>
-                                                            <li>Strong relationships with Free Zone authorities</li>
-                                                            <li>Tailored solutions for startups, SMEs, and multinational companies</li>
-                                                            <li>Cost-effective and efficient setup packages</li>
+                                                            <li>Entrepreneurs launching a new business</li>
+                                                            <li>International companies expanding into the UAE</li>
+                                                            <li>Freelancers and consultants</li>
+                                                            <li>E-commerce businesses</li>
+                                                            <li>Startups looking to reduce overheads</li>
+                                                            <li>Businesses needing a legal address for licensing</li>
+                                                            <li>Companies requiring a UAE presence without physical space</li>
                                                         </ul>
+                                                        <p>With a virtual office from Virtuo Services, your business gains a prestigious Dubai address, full UAE compliance, and a professional presence without the cost of a physical office.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -757,44 +745,44 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-xl-8 col-lg-10" style="width: 100%;">
                                                     <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="virtual-accordionFreezone">
+                                                        <div class="accordion" id="virtual-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseOneFreezone" aria-expanded="true" aria-controls="virtual-collapseOneFreezone">1. What is the main difference between Free Zone and Mainland setup?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseOne" aria-expanded="true" aria-controls="virtual-collapseOne">1. What exactly is a virtual office, and is it fully legal in Dubai?</button>
                                                                 </h2>
-                                                                <div id="virtual-collapseOneFreezone" class="accordion-collapse collapse" data-bs-parent="#virtual-accordionFreezone">
+                                                                <div id="virtual-collapseOne" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Free Zone companies allow for 100% foreign ownership without a local agent, but they are restricted from trading directly inside the UAE mainland market without a local distributor or mainland branch setup. Mainland companies can trade anywhere across the UAE but are subject to different regulatory structures.</p>
+                                                                        <p>A virtual office is a service that provides businesses with a premium, physical corporate location and essential administrative support without requiring a full-time, dedicated commercial desk space. It is a completely legal, government-approved office solution in the UAE, highly favored by startups, consulting firms, and international companies looking to optimize operational costs.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseTwoFreezone" aria-expanded="false" aria-controls="virtual-collapseTwoFreezone">2. Can I open a corporate bank account with a Free Zone license?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseTwo" aria-expanded="false" aria-controls="virtual-collapseTwo">2. Can I use a virtual office address to secure a UAE trade license?</button>
                                                                 </h2>
-                                                                <div id="virtual-collapseTwoFreezone" class="accordion-collapse collapse" data-bs-parent="#virtual-accordionFreezone">
+                                                                <div id="virtual-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Yes. Once your Free Zone license is issued and your corporate documents are finalized, you can open a business bank account with any major local or international bank operating in the UAE. Virtuo provides complete documentation support to streamline this approval process.</p>
+                                                                        <p>Yes. Certain corporate setups and business activities across specific UAE jurisdictions and Free Zones explicitly permit the use of an approved virtual office or shared-desk contract to fulfill their physical office address licensing requirements. Our consultants will evaluate your business activity to ensure perfect compliance alignment.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseThreeFreezone" aria-expanded="false" aria-controls="virtual-collapseThreeFreezone">3. How long does the entire setup process take?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseThree" aria-expanded="false" aria-controls="virtual-collapseThree">3. How does the mail handling and communication system work?</button>
                                                                 </h2>
-                                                                <div id="virtual-collapseThreeFreezone" class="accordion-collapse collapse" data-bs-parent="#virtual-accordionFreezone">
+                                                                <div id="virtual-collapseThree" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>The corporate incorporation phase typically takes 3 to 7 working days. Once the company registration documents are issued by the specific Free Zone authority, the residency visa processing takes an additional 1 to 2 weeks.</p>
+                                                                        <p>Whenever couriers, clients, or government bodies deliver physical correspondence to your virtual office location, our team securely logs the delivery. We notify you immediately via email and can digitally scan the documents or forward the physical parcels directly to your preferred international location based on your instructions.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseFourFreezone" aria-expanded="false" aria-controls="virtual-collapseFourFreezone">4. Are Free Zone companies exempt from corporate tax?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseFour" aria-expanded="false" aria-controls="virtual-collapseFour">4. Can I host face-to-face client meetings at my virtual office address?</button>
                                                                 </h2>
-                                                                <div id="virtual-collapseFourFreezone" class="accordion-collapse collapse" data-bs-parent="#virtual-accordionFreezone">
+                                                                <div id="virtual-collapseFour" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>UAE Free Zone entities can benefit from a 0% corporate tax rate on qualified income, provided they maintain adequate substance in the UAE and comply with all statutory regulatory requirements. Our team will guide you on structuring your setup to maximize these tax incentives legally.</p>
+                                                                        <p>Absolutely. While you do not occupy a fixed physical room daily, our packages grant you flexible, on-demand reservation access to high-end, fully furnished meeting spaces, video conferencing rooms, and corporate boardrooms at the address location to ensure your professional client interactions remain elite.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -813,32 +801,31 @@
                             <div class="service-tab-panel" id="business-bank-account-opening" data-service-panel="business-bank-account-opening">
                                 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Business Setup In Dubai Free Zones</p>
-                                        <h2 class="title">Build Your UAE Business With Confidence</h2>
-                                        <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency. Offering 100% foreign ownership, streamlined licensing procedures, and attractive tax advantages, Free Zones provide an ideal foundation for sustainable growth.</p>
-                                        <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey. From selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements, our experts handle every step with precision, allowing you to focus on growing your business from day one.</p>
+                                        <p style="margin-bottom: 15px;">Business Bank Account Opening In Dubai</p>
+                                        <h2 class="title">Secure Corporate Banking: The Essential Foundation For Commercial Operations</h2>
+                                        <p>Securing a dedicated corporate bank account is the single most critical step an international entrepreneur must take after finalizing a UAE trade license. Without an active, fully verified business account, a newly incorporated company cannot execute commercial transactions, register for federal corporate tax systems, integrate digital merchant payment gateways, or legally distribute operational dividends to its shareholders.</p>
+                                        <p>At Virtuo, we untangle the complex compliance webs of corporate banking. Our specialized banking coordinators pre-audit your legal documentation, align your business activities with the precise preferences of various banking institutions, and manage the extensive due diligence questionnaires to streamline your account approvals smoothly and efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
                                         <img src="assets/img/services/BankAccountOpening1_services_details.jpg" alt="Business Bank Account Opening">
                                     </div>
                                     <div class="services__details-content">
-                                        <h2 class="title-two">Our Free Zone Setup Services Include</h2>
-                                        <p class="info-one"><b>1. Business Activity Selection And License Type</b></p>
-                                        <p class="info-two">Expert guidance on choosing the right commercial, professional, or industrial licenses to match your corporate goals and ensure full regulatory compliance.</p>
-                                        <p class="info-one"><b>2. Free Zone Selection &amp; Real Estate Procurement</b></p>
-                                        <p class="info-two">Identifying the ideal economic zone for your industry and setting up physical or virtual office spaces, flexi-desks, or premium corporate spaces tailored to your needs.</p>
-                                        <p class="info-one"><b>3. Name Approval &amp; Initial Documentation</b></p>
-                                        <p class="info-two">Managing trade name reservations and navigating initial structural approvals with local authorities to ensure a smooth legal launch.</p>
-                                        <p class="info-one"><b>4. Visa And Immigration Processing</b></p>
-                                        <p class="info-two">Fast-tracked management of investor, partner, employee, and family residency visas, including medical tests and Emirates ID assistance.</p>
-                                        <p class="info-one"><b>5. Corporate Bank Account Assistance</b></p>
-                                        <p class="info-two">Document compilation, profile positioning, and direct introductions to leading UAE local and international banks for swift account opening.</p>
-                                        <p class="info-one"><b>6. Corporate Governance &amp; Structure Advisory</b></p>
-                                        <p class="info-two">Custom selection of the right legal entity structure (FZE, FZCO, or Branch) to protect your equity and maximize operational efficiency.</p>
-                                        <p class="info-one"><b>7. Document Clearing &amp; Government Relations (PRO)</b></p>
-                                        <p class="info-two">Handling all interactions, submissions, and approvals with government bodies and ministries, minimizing administrative friction for your team.</p>
-                                        <p class="info-one"><b>8. Post-Incorporation Corporate Support</b></p>
-                                        <p class="info-two">Continued operational assistance post-incorporation, covering everything from annual license renewals to ongoing corporate compliance.</p>
+                                        <h2 class="title-two">What Our Bank Account Opening Services Include</h2>
+                                        <p>Our structured financial onboarding workflows are engineered to carry your corporate profiles through strict regulatory frameworks seamlessly. We manage end-to-end coordination across the following core banking fields:</p>
+                                        <p class="info-one"><b>1. Traditional Tier-1 Corporate Accounts</b></p>
+                                        <p class="info-two">Facilitating premium account setups with major national banking institutions that require dedicated relationship management.</p>
+                                        <p class="info-one"><b>2. Digital &amp; Fintech Business Accounts</b></p>
+                                        <p class="info-two">Streamlining fast-track onboarding via modern digital banking platforms that feature rapid identification steps.</p>
+                                        <p class="info-one"><b>3. Know Your Customer (KYC) Portfolio Audit</b></p>
+                                        <p class="info-two">Meticulously compiling and structuring your personal and corporate backgrounds to satisfy strict central bank guidelines.</p>
+                                        <p class="info-one"><b>4. Source Of Funds &amp; Wealth Declarations</b></p>
+                                        <p class="info-two">Formatting clear, verifiable documentation to elegantly prove the legal origin of your initial investment capital.</p>
+                                        <p class="info-one"><b>5. B2B Counterparty Risk Assessments</b></p>
+                                        <p class="info-two">Reviewing and listing your projected international suppliers and target client networks to satisfy compliance checklists.</p>
+                                        <p class="info-one"><b>6. Multi-Currency Account Configuration</b></p>
+                                        <p class="info-two">Setting up flexible corporate operational accounts capable of handling local and major international trade currencies.</p>
+                                        <p class="info-one"><b>7. In-Person Signatory Meeting Coordination</b></p>
+                                        <p class="info-two">Arranging and managing the mandatory face-to-face identity verifications between your authorized corporate signatories and bank managers.</p>
                                         <div class="services__details-inner-images">
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -897,8 +884,8 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-03</span>
-                                                                <h3 class="title">Foreign Ownership Alignment</h3>
-                                                                <p>100% Guaranteed</p>
+                                                                <h3 class="title">Authority Submission</h3>
+                                                                <p>3-7 Working Days</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -907,21 +894,21 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-04</span>
-                                                                <h3 class="title">Corporate Tax Optimization</h3>
-                                                                <p>Complete 0% Structuring</p>
+                                                                <h3 class="title">License &amp; Launch Support</h3>
+                                                                <p>Complete Handover</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div style="margin: 100px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Setting up a company in a UAE Free Zone requires the right expertise, guidance, and support to ensure a smooth and compliant process. Virtuo Services F.Z.C provides professional assistance to entrepreneurs, startups, SMEs, and international businesses looking to establish their presence in the UAE. With in-depth knowledge of Free Zone regulations and strong industry connections, we make the company formation process simple, efficient, and transparent.</p>
+                                                        <p>Virtuo secures your corporate financial setup by serving as your direct, expert interface with local and international banking networks. By pairing an intricate command of Central Bank anti-money laundering regulations with established relationships across multiple financial institutions, we guarantee that your corporate profiles, source-of-funds files, and business plans are presented with absolute legal precision. Our framework completely eliminates administrative friction and unexpected application rejections by pre-auditing your commercial files prior to submission, providing your enterprise with a dedicated financial liaison asset that protects your onboarding timelines while keeping your operational momentum moving smoothly.</p>
                                                         <p>Our Advantages :</p>
                                                         <ul class="list-wrap about__list-item-two">
-                                                            <li>Expertise across all major UAE free zones (DMCC, IFZA, RAKEZ, SHAMS, JAFZA, and more)</li>
-                                                            <li>Fast and transparent processing</li>
-                                                            <li>Strong relationships with Free Zone authorities</li>
-                                                            <li>Tailored solutions for startups, SMEs, and multinational companies</li>
-                                                            <li>Cost-effective and efficient setup packages</li>
+                                                            <li>Pre-audited corporate banking files</li>
+                                                            <li>Bank preference alignment by activity</li>
+                                                            <li>KYC and source-of-funds preparation</li>
+                                                            <li>Central Bank compliance awareness</li>
+                                                            <li>Relationship coordination with banking teams</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -943,44 +930,44 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-xl-8 col-lg-10" style="width: 100%;">
                                                     <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="business-bank-account-opening-accordionFreezone">
+                                                        <div class="accordion" id="business-bank-account-opening-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseOneFreezone" aria-expanded="true" aria-controls="business-bank-account-opening-collapseOneFreezone">1. What is the main difference between Free Zone and Mainland setup?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseOne" aria-expanded="true" aria-controls="business-bank-account-opening-collapseOne">1. What are the primary document requirements to open a corporate bank account in Dubai?</button>
                                                                 </h2>
-                                                                <div id="business-bank-account-opening-collapseOneFreezone" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordionFreezone">
+                                                                <div id="business-bank-account-opening-collapseOne" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Free Zone companies allow for 100% foreign ownership without a local agent, but they are restricted from trading directly inside the UAE mainland market without a local distributor or mainland branch setup. Mainland companies can trade anywhere across the UAE but are subject to different regulatory structures.</p>
+                                                                        <p>To launch a secure compliance review, banks strictly require your active corporate trade license, certified memorandum of association, clear shareholder certificates, and passport copies alongside proof of address. Virtuo acts as your documentation manager, reviewing your corporate files and formatting an optimized business plan to ensure your portfolio satisfies strict central bank checklists before submission.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseTwoFreezone" aria-expanded="false" aria-controls="business-bank-account-opening-collapseTwoFreezone">2. Can I open a corporate bank account with a Free Zone license?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseTwo" aria-expanded="false" aria-controls="business-bank-account-opening-collapseTwo">2. Does a company shareholder need a UAE residency visa to open a corporate bank account?</button>
                                                                 </h2>
-                                                                <div id="business-bank-account-opening-collapseTwoFreezone" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordionFreezone">
+                                                                <div id="business-bank-account-opening-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Yes. Once your Free Zone license is issued and your corporate documents are finalized, you can open a business bank account with any major local or international bank operating in the UAE. Virtuo provides complete documentation support to streamline this approval process.</p>
+                                                                        <p>While non-resident business owners can legally open specialized corporate accounts, local institutions place a strong preference on having at least one resident partner or authorized signatory holding a valid residency visa and physical identity credentials. Virtuo maps out your route correctly, helping you secure the foundational partner visa first to vastly expand your banking options and accelerate final approvals.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseThreeFreezone" aria-expanded="false" aria-controls="business-bank-account-opening-collapseThreeFreezone">3. How long does the entire setup process take?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseThree" aria-expanded="false" aria-controls="business-bank-account-opening-collapseThree">3. What is an office lease requirement for corporate bank compliance in the UAE?</button>
                                                                 </h2>
-                                                                <div id="business-bank-account-opening-collapseThreeFreezone" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordionFreezone">
+                                                                <div id="business-bank-account-opening-collapseThree" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>The corporate incorporation phase typically takes 3 to 7 working days. Once the company registration documents are issued by the specific Free Zone authority, the residency visa processing takes an additional 1 to 2 weeks.</p>
+                                                                        <p>To prevent the formation of shell corporations, financial compliance offices require clear evidence of economic substance, meaning they must verify that a company maintains a legitimate local physical workspace. Virtuo safeguards your setup options by ensuring your registered Free Zone lease or Mainland commercial tenancy contract is accurately paired with your banking files to easily pass anti-money laundering property audits.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseFourFreezone" aria-expanded="false" aria-controls="business-bank-account-opening-collapseFourFreezone">4. Are Free Zone companies exempt from corporate tax?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseFour" aria-expanded="false" aria-controls="business-bank-account-opening-collapseFour">4. How long does the corporate bank account opening process typically take?</button>
                                                                 </h2>
-                                                                <div id="business-bank-account-opening-collapseFourFreezone" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordionFreezone">
+                                                                <div id="business-bank-account-opening-collapseFour" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>UAE Free Zone entities can benefit from a 0% corporate tax rate on qualified income, provided they maintain adequate substance in the UAE and comply with all statutory regulatory requirements. Our team will guide you on structuring your setup to maximize these tax incentives legally.</p>
+                                                                        <p>Attempting to navigate compliance desks independently without clear trading descriptions or historical statements can stall your files for several months or result in sudden rejections. Virtuo protects your timeline by pre-screening your application with target risk assessment officers, routing your files through fast-track digital portals or traditional channels depending on the complexity of your business model.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1013,7 +1000,7 @@
                                             </li>
                                             <li>
                                                 <a href="#freezone" class="service-tab-link" data-service-tab="freezone">
-                                                    Freezone Business Setup
+                                                    Free Zone Business Setup
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
                                                             <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -1056,12 +1043,8 @@
                                 </div>
                                 <div class="sidebar__widget">
                                     <div class="sidebar__contact">
-                                        <h4 class="title">
-                                            Your Gateway to Seamless Business Success in Dubai
-                                        </h4>
-                                        <p>
-                                            Navigating complex UAE regulations seamlessly so you can focus exclusively on scaling your corporate vision.
-                                        </p>
+                                        <h4 class="title">Your Gateway to Seamless Business Success in Dubai</h4>
+                                        <p>Navigating complex UAE regulations and growth requirements so you can focus on scaling your corporate vision.</p>
                                         <a href="contact.php" class="tg-btn tg-btn-three">
                                             Contact With Us
                                             <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
@@ -1073,26 +1056,11 @@
                                     </div>
                                 </div>
                                 <div class="sidebar__widget">
-                                    <h4 class="sidebar__widget-title">
-                                        Service Brochure
-                                    </h4>
+                                    <h4 class="sidebar__widget-title">Service Brochure</h4>
                                     <div class="sidebar__brochure">
-                                        <p>
-                                            View our 2025 Business prospectus of brochure for an easy to read guide on all of the services offer.
-                                        </p>
+                                        <p>View our service overview for a clear guide to the support Virtuo provides.</p>
                                         <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                                            <span class="content">
-                                                <strong>
-                                                    PDF. Download
-                                                </strong>
-                                            </span>
-                                        </a>
-                                        <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                                            <span class="content">
-                                                <strong>
-                                                    PDF. Download
-                                                </strong>
-                                            </span>
+                                            <span class="content"><strong>PDF. Download</strong></span>
                                         </a>
                                     </div>
                                 </div>
