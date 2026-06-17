@@ -45,6 +45,86 @@
                 </div>
             </section>
             <!-- breadcrumb-area-end -->
+
+
+               <!-- marquee-area -->
+        <section class="marquee__area">
+            <div class="slider__marquee clearfix marquee-wrap">
+                <div class="marquee_mode marquee__group">
+                    <h6 class="marquee__item">
+                        <a href="government-relations-pro-services.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>PRO SERVICES</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="uae-business-formation.php"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>BUSINESS SETUP</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>GOLDEN VISA</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="uae-business-formation.php#business-bank-account-opening"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>BANK ACCOUNT OPENING</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg> BRAND DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg> INVEST IN DUBAI</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg> FREELANCE VISA</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>DIGITAL MARKETING</a>
+                    </h6>
+                     <h6 class="marquee__item">
+                        <a href="ai-automation-technology-solutions.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>AI AUTOMATION</a>
+                    </h6>
+                     <h6 class="marquee__item">
+                        <a href="government-relations-pro-services.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>GOVERNMENT RELATIONS</a>
+                    </h6>
+                     <h6 class="marquee__item">
+                        <a href="digital-marketing-brand-development.php#web-digital-solutions-website-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>WEB DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>RESIDENCY SOLUTION</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>MARKETING SOLUTION</a>
+                    </h6>
+                </div>
+            </div>
+        </section>
+        <!-- marquee-area-end -->
+
+
+
+
+
             <!-- services-details-area -->
             <section class="services__details-area section-py-130">
                 <div class="container">
@@ -60,7 +140,7 @@
                                         <p>At Virtuo, We Untangle The Complexities Of The Immigration Network. Our Corporate Immigration Experts Handle Your Entire Visa Issuance Pipeline Directly With The General Directorate Of Residency And Foreigners Affairs (GDRFA) And The Federal Authority For Identity, Citizenship, Customs And Port Security (ICP), Managing Everything From Initial Entry Permits To Final Biometric Cards Efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/services_details_img01.jpg" alt="Immigration Services">
+                                        <img src="assets/img/services/ImmigrationServicesImg1.jpg" alt="Immigration Services">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">What Our Immigration Services Include</h2>
@@ -1660,26 +1740,6 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#immigration-residency-solutions-dependent-visa" class="service-tab-link" data-service-tab="immigration-residency-solutions-dependent-visa">
-                                                    Dependent Visa
-                                                    <span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#immigration-residency-solutions-investor-visa-dubai" class="service-tab-link" data-service-tab="immigration-residency-solutions-investor-visa-dubai">
-                                                    Investor Visa Dubai
-                                                    <span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
                                                 <a href="#immigration-residency-solutions-gdrfa-services-dubai" class="service-tab-link" data-service-tab="immigration-residency-solutions-gdrfa-services-dubai">
                                                     GDRFA Services Dubai
                                                     <span>
@@ -1700,6 +1760,28 @@
                                                 </a>
                                             </li>
                                             <li>
+                                                <a href="#immigration-residency-solutions-dependent-visa" class="service-tab-link" data-service-tab="immigration-residency-solutions-dependent-visa">
+                                                    Dependent Visa
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#immigration-residency-solutions-investor-visa-dubai" class="service-tab-link" data-service-tab="immigration-residency-solutions-investor-visa-dubai">
+                                                    Investor Visa
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            
+                                            
+                                            <li>
                                                 <a href="#immigration-residency-solutions-freelance-visa" class="service-tab-link" data-service-tab="immigration-residency-solutions-freelance-visa">
                                                     Freelance Visa
                                                     <span>
@@ -1711,7 +1793,7 @@
                                             </li>
                                             <li>
                                                 <a href="#immigration-residency-solutions-golden-visa-uae" class="service-tab-link" data-service-tab="immigration-residency-solutions-golden-visa-uae">
-                                                    Golden Visa UAE
+                                                    Golden Visa
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
                                                             <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
