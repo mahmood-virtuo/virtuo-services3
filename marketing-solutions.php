@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>UAE Business Formation, Structuring &amp; Compliance</title>
+        <title>Marketing Solutions</title>
         <meta name="description" content="Virtuo Services - Business Consulting HTML Template">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -33,11 +33,11 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="breadcrumb__content">
-                                <h2 class="title">UAE Business Formation, Structuring &amp; Compliance</h2>
+                                <h2 class="title">Marketing Solutions</h2>
                                 <nav class="breadcrumb">
                                     <span property="itemListElement" typeof="ListItem"><a href="index-5.php">Home</a></span>
                                     <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
-                                    <span property="itemListElement" typeof="ListItem">UAE Business Formation, Structuring &amp; Compliance</span>
+                                    <span property="itemListElement" typeof="ListItem">Marketing Solutions</span>
                                 </nav>
                             </div>
                         </div>
@@ -50,46 +50,42 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-70 order-0 order-lg-2">
-                            <!-- Mainland Business Setup Tab Panel -->
-                            <div class="service-tab-panel is-active" id="mainland" data-service-panel="mainland">
+                            <!-- Paid Advertising (Meta &amp; Google Ads) Tab Panel -->
+                            <div class="service-tab-panel is-active" id="marketing-solutions-paid-advertising-meta-and-google-ads" data-service-panel="marketing-solutions-paid-advertising-meta-and-google-ads">
                                 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Business Setup In Dubai Mainland</p>
-                                        <h2 class="title">Establish Your Dubai Enterprise With Confidence</h2>
-                                        <p>Mainland company formation gives businesses direct access to the UAE market, government contracts, retail locations, and flexible commercial activity across the Emirates.</p>
-                                        <p>Virtuo manages the full process from activity selection and Department of Economy and Tourism approvals to licensing, office guidance, immigration file opening, and launch support.</p>
+                                        <p style="margin-bottom: 15px;">Paid Advertising (Meta &amp; Google Ads) In The UAE</p>
+                                        <h2 class="title">Paid Advertising (Meta &amp; Google Ads) Built Around Your Business Needs</h2>
+                                        <p>Paid Advertising (Meta &amp; Google Ads) requires careful planning, accurate documentation, and timely coordination with the right digital platforms, creative workflows, and business goals.</p>
+                                        <p>Virtuo supports every step of paid advertising (meta &amp; google ads), helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/MainLandImage1_services_details.jpg" alt="Mainland Business Setup">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Paid Advertising (Meta &amp; Google Ads)">
                                     </div>
                                     <div class="services__details-content">
-                                        <h2 class="title-two">Our Mainland Business Setup Services Include</h2>
-                                        <p class="info-one"><b>1. Business Activity Selection</b></p>
-                                        <p class="info-two">We align your planned operations with the correct commercial, professional, or industrial activity before filing with the relevant authority.</p>
-                                        <p class="info-one"><b>2. Trade Name Reservation</b></p>
-                                        <p class="info-two">We reserve a compliant company name and manage corrections quickly if the authority requests alternatives.</p>
-                                        <p class="info-one"><b>3. Initial Approval And Licensing</b></p>
-                                        <p class="info-two">We coordinate initial approval, license application, and final issuance steps with the mainland authority.</p>
-                                        <p class="info-one"><b>4. MOA And Legal Documentation</b></p>
-                                        <p class="info-two">We support memorandum drafting, signing coordination, and notarization requirements for your legal structure.</p>
-                                        <p class="info-one"><b>5. Office And Ejari Support</b></p>
-                                        <p class="info-two">We guide office, flexi desk, and Ejari requirements so the license remains compliant from day one.</p>
-                                        <p class="info-one"><b>6. Immigration And Establishment File</b></p>
-                                        <p class="info-two">We help open the establishment card and immigration file so investor and employee visas can be processed.</p>
-                                        <p class="info-one"><b>7. Bank Account Preparation</b></p>
-                                        <p class="info-two">We organize the company profile and documents required for corporate bank account review.</p>
-                                        <p class="info-one"><b>8. Renewal And Compliance Support</b></p>
-                                        <p class="info-two">We continue supporting license renewals, activity amendments, and government follow-ups after setup.</p>
+                                        <h2 class="title-two">Our Paid Advertising (Meta &amp; Google Ads) Support Includes</h2>
+                                        <p class="info-one"><b>1. Paid Advertising (Meta &amp; Google Ads) Discovery And Audit</b></p>
+                                        <p class="info-two">We review your current brand, website, audience, channels, and commercial goals before planning paid advertising (meta &amp; google ads).</p>
+                                        <p class="info-one"><b>2. Paid Advertising (Meta &amp; Google Ads) Strategy Development</b></p>
+                                        <p class="info-two">We define the message, offer, content direction, conversion path, and campaign priorities.</p>
+                                        <p class="info-one"><b>3. Paid Advertising (Meta &amp; Google Ads) Creative And Content Production</b></p>
+                                        <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p>
+                                        <p class="info-one"><b>4. Paid Advertising (Meta &amp; Google Ads) Implementation And Launch</b></p>
+                                        <p class="info-two">We build, configure, publish, and launch the required digital assets or campaigns.</p>
+                                        <p class="info-one"><b>5. Paid Advertising (Meta &amp; Google Ads) Tracking And Reporting</b></p>
+                                        <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
+                                        <p class="info-one"><b>6. Paid Advertising (Meta &amp; Google Ads) Optimization Support</b></p>
+                                        <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
                                         <div class="services__details-inner-images">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/MainLandImage2_services_details.jpg" alt="Mainland Business Setup">
+                                                        <img src="assets/img/services/services_img01.jpg" alt="Paid Advertising (Meta &amp; Google Ads)">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/MainLandImage3_services_details.jpg" alt="Mainland Business Setup">
+                                                        <img src="assets/img/services/services_img02.jpg" alt="Paid Advertising (Meta &amp; Google Ads)">
                                                     </div>
                                                 </div>
                                             </div>
@@ -102,273 +98,7 @@
                                                 <div class="col-xl-6 col-lg-8">
                                                     <div class="section__title text-center mb-60">
                                                         <span class="sub-title">Our Working Portfolio</span>
-                                                        <h2 class="title">Your UAE Business Setup Journey, Simplified</h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="work__item-wrap-two">
-                                                <div class="work__line-shape">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1151" height="81" viewBox="0 0 1151 81" fill="currentColor">
-                            <path class="dashed1" stroke-width="3" d="M0.666667 6C0.666667 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666667 0.666667 3.05448 0.666667 6ZM583 43L582.52 42.1227L583 43ZM1150.92 30.383C1151.14 29.8728 1150.89 29.2878 1150.38 29.0763L1142.07 25.6291C1141.56 25.4176 1140.97 25.6597 1140.76 26.1698C1140.55 26.68 1140.79 27.2651 1141.3 27.4766L1148.69 30.5407L1145.63 37.9307C1145.42 38.4408 1145.66 39.0259 1146.17 39.2374C1146.68 39.449 1147.27 39.2069 1147.48 38.6967L1150.92 30.383ZM5.7166 6.959C6.64171 7.23238 7.57599 7.50825 8.51932 7.78651L9.08517 5.86823C8.14218 5.59007 7.20822 5.31429 6.2834 5.041L5.7166 6.959ZM14.2869 9.4842C16.1947 10.0445 18.1359 10.6132 20.1096 11.1898L20.6704 9.27004C18.6977 8.69374 16.7574 8.12527 14.8505 7.56524L14.2869 9.4842ZM25.8481 12.8614C27.7816 13.4229 29.7436 13.991 31.7334 14.5651L32.2879 12.6435C30.2992 12.0698 28.3383 11.502 26.4059 10.9408L25.8481 12.8614ZM37.434 16.2043C39.3585 16.7558 41.3069 17.3121 43.2788 17.8729L43.8259 15.9492C41.8554 15.3888 39.9082 14.8328 37.985 14.2817L37.434 16.2043ZM49.0598 19.5107C50.9675 20.049 52.8956 20.5909 54.8434 21.1361L55.3825 19.2101C53.436 18.6653 51.5093 18.1238 49.603 17.5858L49.0598 19.5107ZM60.7344 22.7776C62.6271 23.3027 64.5374 23.8304 66.4646 24.3604L66.9949 22.432C65.0691 21.9024 63.1604 21.3751 61.269 20.8504L60.7344 22.7776ZM72.2966 25.9567C74.2306 26.4836 76.1807 27.0123 78.1463 27.5426L78.6673 25.6117C76.7033 25.0818 74.7548 24.5535 72.8223 24.027L72.2966 25.9567ZM83.92 29.0927C85.859 29.6106 87.8123 30.1298 89.7794 30.6498L90.2906 28.7162C88.3251 28.1966 86.3735 27.6779 84.4362 27.1604L83.92 29.0927ZM95.614 32.1841C97.5355 32.6867 99.4695 33.1898 101.416 33.6933L101.916 31.7571C99.9721 31.254 98.0399 30.7513 96.1201 30.2492L95.614 32.1841ZM107.29 35.2044C109.225 35.6993 111.171 36.1943 113.129 36.6891L113.619 34.7501C111.663 34.2557 109.719 33.7612 107.785 33.2668L107.29 35.2044ZM118.949 38.1515C120.899 38.6387 122.86 39.1254 124.831 39.6115L125.31 37.6697C123.341 37.1841 121.382 36.6978 119.433 36.2112L118.949 38.1515ZM130.686 41.0467C132.622 41.518 134.567 41.9884 136.52 42.4579L136.987 40.5132C135.036 40.0443 133.093 39.5743 131.16 39.1034L130.686 41.0467ZM142.406 43.8628C144.358 44.3254 146.318 44.7868 148.287 45.2468L148.742 43.2993C146.776 42.8398 144.818 42.3788 142.868 41.9167L142.406 43.8628ZM154.131 46.6029C156.087 47.0534 158.05 47.5022 160.021 47.9493L160.463 45.9989C158.495 45.5523 156.534 45.1039 154.58 44.6539L154.131 46.6029ZM165.929 49.2793C167.874 49.7138 169.826 50.1464 171.784 50.5768L172.213 48.6235C170.257 48.1935 168.308 47.7614 166.365 47.3274L165.929 49.2793ZM177.677 51.8616C179.648 52.2877 181.625 52.7114 183.607 53.1326L184.023 51.1763C182.043 50.7556 180.068 50.3323 178.1 49.9068L177.677 51.8616ZM189.479 54.3691C191.44 54.7785 193.406 55.1852 195.378 55.5892L195.779 53.6299C193.81 53.2264 191.846 52.8202 189.887 52.4113L189.479 54.3691ZM201.307 56.7925C203.272 57.1874 205.241 57.5794 207.215 57.9683L207.602 56.006C205.63 55.6176 203.663 55.2261 201.701 54.8318L201.307 56.7925ZM213.122 59.1202C215.095 59.501 217.073 59.8785 219.054 60.2527L219.425 58.2875C217.446 57.9138 215.472 57.5367 213.501 57.1564L213.122 59.1202ZM224.992 61.3617C226.961 61.7253 228.934 62.0854 230.91 62.4418L231.265 60.4735C229.292 60.1176 227.322 59.758 225.355 59.395L224.992 61.3617ZM236.847 63.4998C238.83 63.8487 240.815 64.1938 242.804 64.5349L243.142 62.5637C241.156 62.2231 239.174 61.8785 237.194 61.5301L236.847 63.4998ZM248.739 65.5396C250.719 65.8702 252.702 66.1968 254.686 66.519L255.007 64.5448C253.025 64.2231 251.046 63.8971 249.069 63.5669L248.739 65.5396ZM260.647 67.4727C262.632 67.7857 264.619 68.0941 266.608 68.398L266.91 66.421C264.925 66.1176 262.94 65.8096 260.958 65.4971L260.647 67.4727ZM272.568 69.2939C274.556 69.5879 276.546 69.8771 278.537 70.1615L278.82 68.1816C276.832 67.8977 274.845 67.6089 272.86 67.3154L272.568 69.2939ZM284.514 70.9997C286.504 71.2738 288.496 71.5428 290.489 71.8066L290.751 69.8239C288.762 69.5605 286.774 69.292 284.786 69.0184L284.514 70.9997ZM296.47 72.5823C298.464 72.8355 300.459 73.0835 302.454 73.3259L302.695 71.3405C300.704 71.0985 298.712 70.851 296.722 70.5982L296.47 72.5823ZM308.446 74.0369C310.444 74.2684 312.443 74.4942 314.441 74.7141L314.66 72.7261C312.665 72.5066 310.671 72.2812 308.676 72.0502L308.446 74.0369ZM320.437 75.3562C322.436 75.5645 324.436 75.7667 326.434 75.9627L326.63 73.9722C324.635 73.7766 322.639 73.5748 320.644 73.367L320.437 75.3562ZM332.447 76.5337C334.451 76.7178 336.454 76.8954 338.456 77.0665L338.626 75.0738C336.629 74.903 334.63 74.7258 332.63 74.5421L332.447 76.5337ZM344.458 77.5599C346.468 77.7185 348.476 77.8703 350.482 78.0152L350.626 76.0204C348.624 75.8758 346.621 75.7244 344.616 75.5661L344.458 77.5599ZM356.506 78.4294C358.512 78.5603 360.517 78.6842 362.519 78.8007L362.636 76.8041C360.638 76.6878 358.638 76.5643 356.636 76.4336L356.506 78.4294ZM368.54 79.1293C370.556 79.2319 372.57 79.3269 374.581 79.4141L374.667 77.416C372.661 77.329 370.653 77.2342 368.642 77.1318L368.54 79.1293ZM380.606 79.6524C382.612 79.7239 384.615 79.7875 386.615 79.843L386.67 77.8437C384.676 77.7884 382.678 77.725 380.677 77.6536L380.606 79.6524ZM392.672 79.9861C394.687 80.0254 396.7 80.0563 398.708 80.0785L398.73 78.0786C396.727 78.0565 394.721 78.0257 392.711 77.9865L392.672 79.9861ZM404.723 80.1188C406.743 80.1236 408.758 80.1193 410.77 80.1059L410.756 78.1059C408.751 78.1193 406.741 78.1236 404.728 78.1189L404.723 80.1188ZM416.816 80.0375C418.827 80.0053 420.834 79.9636 422.835 79.9124L422.784 77.913C420.789 77.9641 418.789 78.0056 416.784 78.0377L416.816 80.0375ZM428.863 79.7282C430.886 79.6563 432.904 79.5743 434.916 79.4819L434.824 77.484C432.819 77.5761 430.808 77.6578 428.792 77.7295L428.863 79.7282ZM440.935 79.1737C442.942 79.0602 444.943 78.9362 446.937 78.8013L446.802 76.8059C444.815 76.9402 442.822 77.0638 440.822 77.1769L440.935 79.1737ZM452.99 78.3574C455.001 78.1982 457.005 78.0277 459.003 77.8457L458.821 75.854C456.832 76.0352 454.835 76.205 452.832 76.3636L452.99 78.3574ZM464.975 77.2651C466.996 77.056 469.01 76.8347 471.016 76.6011L470.784 74.6145C468.787 74.8472 466.782 75.0675 464.769 75.2757L464.975 77.2651ZM477.012 75.8627C479.003 75.6041 480.986 75.3328 482.96 75.0487L482.675 73.0691C480.71 73.3519 478.736 73.6219 476.754 73.8794L477.012 75.8627ZM488.963 74.1411C490.961 73.8242 492.949 73.4938 494.928 73.1495L494.586 71.1791C492.617 71.5216 490.638 71.8504 488.65 72.1658L488.963 74.1411ZM500.837 72.075C502.832 71.6963 504.817 71.303 506.791 70.8948L506.386 68.9362C504.423 69.3421 502.448 69.7334 500.464 70.1102L500.837 72.075ZM512.706 69.6205C514.666 69.1806 516.616 68.7255 518.555 68.2551L518.083 66.3115C516.156 66.7792 514.217 67.2316 512.268 67.669L512.706 69.6205ZM524.443 66.7692C526.401 66.2557 528.347 65.7259 530.281 65.1793L529.737 63.2547C527.816 63.7977 525.882 64.3243 523.936 64.8346L524.443 66.7692ZM536.044 63.4895C537.991 62.8977 539.924 62.2882 541.843 61.6608L541.222 59.7598C539.316 60.3828 537.396 60.9881 535.462 61.576L536.044 63.4895ZM547.572 59.7203C549.469 59.0547 551.351 58.3708 553.219 57.6683L552.515 55.7963C550.661 56.4935 548.793 57.1724 546.91 57.8331L547.572 59.7203ZM558.892 55.4589C560.767 54.7029 562.626 53.9272 564.469 53.1315L563.676 51.2953C561.848 52.0845 560.004 52.854 558.144 53.604L558.892 55.4589ZM569.974 50.6722C571.819 49.8197 573.647 48.9461 575.457 48.051L574.57 46.2583C572.776 47.1454 570.965 48.0114 569.135 48.8566L569.974 50.6722ZM580.833 45.3014C581.72 44.8321 582.602 44.3575 583.48 43.8773L582.52 42.1227C581.651 42.5983 580.776 43.0685 579.897 43.5335L580.833 45.3014ZM583.48 43.8773C584.388 43.3809 585.294 42.8918 586.199 42.4101L585.259 40.6447C584.347 41.13 583.434 41.6226 582.52 42.1227L583.48 43.8773ZM591.611 39.6072C593.409 38.7018 595.202 37.8251 596.99 36.9766L596.132 35.1698C594.331 36.025 592.524 36.9085 590.711 37.8208L591.611 39.6072ZM602.448 34.4655C604.318 33.6322 606.183 32.8294 608.042 32.0564L607.274 30.2097C605.399 30.9892 603.519 31.7986 601.634 32.6386L602.448 34.4655ZM613.604 29.8256C615.489 29.0971 617.369 28.3987 619.244 27.7298L618.572 25.846C616.681 26.5208 614.785 27.2253 612.883 27.96L613.604 29.8256ZM624.99 25.766C626.9 25.1418 628.805 24.5475 630.705 23.9826L630.135 22.0655C628.218 22.6356 626.296 23.2352 624.369 23.865L624.99 25.766ZM636.519 22.3404C638.479 21.816 640.433 21.3221 642.383 20.8579L641.919 18.9123C639.952 19.3808 637.979 19.8792 636.002 20.4084L636.519 22.3404ZM648.219 19.553C650.207 19.137 652.192 18.7512 654.172 18.3945L653.818 16.4261C651.819 16.7861 649.816 17.1755 647.809 17.5954L648.219 19.553ZM660.118 17.4085C662.106 17.1071 664.089 16.8343 666.069 16.5892L665.824 14.6044C663.826 14.8517 661.824 15.1269 659.818 15.4311L660.118 17.4085ZM672.085 15.9275C674.087 15.7348 676.086 15.5694 678.082 15.4305L677.943 13.4353C675.93 13.5755 673.913 13.7423 671.893 13.9368L672.085 15.9275ZM684.106 15.09C686.119 15.0022 688.13 14.9404 690.139 14.9036L690.102 12.9039C688.077 12.9411 686.049 13.0034 684.018 13.0919L684.106 15.09ZM696.161 14.8667C698.176 14.8787 700.189 14.9148 702.2 14.974L702.259 12.9749C700.232 12.9153 698.204 12.8788 696.173 12.8667L696.161 14.8667ZM708.23 15.2195C710.239 15.3237 712.246 15.4498 714.252 15.5968L714.398 13.6021C712.378 13.4541 710.357 13.3271 708.334 13.2222L708.23 15.2195ZM720.268 16.0993C722.273 16.287 724.277 16.4945 726.282 16.7207L726.506 14.7333C724.49 14.5057 722.473 14.2969 720.455 14.108L720.268 16.0993ZM732.268 17.4512C734.263 17.7125 736.259 17.9913 738.255 18.2866L738.548 16.3081C736.541 16.0113 734.535 15.7309 732.528 15.4681L732.268 17.4512ZM744.228 19.2179C746.21 19.5425 748.193 19.8822 750.177 20.2361L750.529 18.2671C748.535 17.9117 746.543 17.5704 744.551 17.2442L744.228 19.2179ZM756.135 21.339C758.107 21.7171 760.08 22.1082 762.055 22.5111L762.455 20.5515C760.472 20.147 758.491 19.7545 756.511 19.3748L756.135 21.339ZM767.974 23.7518C769.946 24.1757 771.919 24.6104 773.896 25.0549L774.334 23.1037C772.352 22.6579 770.373 22.2218 768.395 21.7965L767.974 23.7518ZM779.776 26.4038C781.739 26.8623 783.704 27.3295 785.673 27.8043L786.142 25.8601C784.169 25.3842 782.199 24.9159 780.231 24.4562L779.776 26.4038ZM791.552 29.2416C793.503 29.7247 795.457 30.2144 797.416 30.7097L797.906 28.7707C795.945 28.2748 793.987 27.7843 792.032 27.3002L791.552 29.2416ZM803.302 32.2113C805.247 32.7114 807.195 33.2161 809.148 33.7244L809.652 31.7889C807.698 31.2801 805.747 30.775 803.8 30.2743L803.302 32.2113ZM815.008 35.2561C816.963 35.7689 818.921 36.2843 820.885 36.8015L821.394 34.8675C819.43 34.3502 817.471 33.8346 815.516 33.3216L815.008 35.2561ZM826.723 38.3402C828.674 38.8542 830.63 39.3691 832.591 39.8841L833.098 37.9496C831.138 37.4349 829.183 36.9202 827.233 36.4062L826.723 38.3402ZM838.46 41.4203C840.405 41.9277 842.356 42.4342 844.313 42.939L844.812 41.0024C842.858 40.4981 840.908 39.992 838.964 39.485L838.46 41.4203ZM850.199 44.4474C852.151 44.944 854.109 45.4382 856.073 45.929L856.558 43.9886C854.597 43.4986 852.642 43.0052 850.692 42.5092L850.199 44.4474ZM861.951 47.3826C863.916 47.8634 865.888 48.34 867.865 48.8118L868.329 46.8663C866.356 46.3955 864.388 45.9198 862.426 45.4399L861.951 47.3826ZM873.755 50.1967C875.718 50.6516 877.688 51.1009 879.665 51.5439L880.102 49.5923C878.13 49.1504 876.165 48.7022 874.206 48.2483L873.755 50.1967ZM885.615 52.8531C887.579 53.277 889.549 53.6939 891.527 54.1032L891.932 52.1447C889.961 51.7366 887.995 51.3208 886.037 50.8981L885.615 52.8531ZM897.474 55.3057C899.463 55.6983 901.459 56.0826 903.463 56.4578L903.831 54.4919C901.834 54.118 899.844 53.735 897.861 53.3435L897.474 55.3057ZM909.402 57.5383C911.389 57.8891 913.384 58.2304 915.386 58.5614L915.712 56.5882C913.717 56.2584 911.73 55.9183 909.75 55.5687L909.402 57.5383ZM921.411 59.5222C923.394 59.8266 925.384 60.1205 927.382 60.403L927.662 58.4227C925.672 58.1413 923.69 57.8486 921.715 57.5454L921.411 59.5222ZM933.401 61.2163C935.413 61.4754 937.433 61.7226 939.462 61.9573L939.692 59.9705C937.672 59.7369 935.66 59.4907 933.656 59.2326L933.401 61.2163ZM945.458 62.611C947.465 62.8164 949.481 63.009 951.504 63.1883L951.681 61.1961C949.666 61.0177 947.66 60.8259 945.662 60.6214L945.458 62.611ZM957.6 63.6853C959.596 63.8338 961.6 63.969 963.613 64.0901L963.733 62.0937C961.73 61.9731 959.735 61.8387 957.748 61.6908L957.6 63.6853ZM969.674 64.4107C971.703 64.5032 973.74 64.5812 975.786 64.6439L975.848 62.6448C973.812 62.5824 971.784 62.5049 969.765 62.4128L969.674 64.4107ZM981.819 64.7839C983.831 64.8155 985.851 64.8322 987.88 64.8333L987.881 62.8333C985.862 62.8322 983.852 62.8156 981.851 62.7841L981.819 64.7839ZM993.992 64.7896C996.002 64.7597 998.02 64.7143 1000.05 64.6529L999.986 62.6538C997.97 62.7149 995.962 62.7601 993.963 62.7898L993.992 64.7896ZM1006.09 64.423C1008.11 64.3304 1010.14 64.2216 1012.18 64.0961L1012.06 62.0999C1010.03 62.2247 1008.01 62.333 1006 62.4251L1006.09 64.423ZM1018.26 63.6741C1020.25 63.5202 1022.25 63.3502 1024.26 63.1637L1024.08 61.1723C1022.08 61.3578 1020.09 61.5269 1018.11 61.68L1018.26 63.6741ZM1030.31 62.5541C1032.34 62.334 1034.37 62.0969 1036.41 61.8424L1036.17 59.8578C1034.13 60.111 1032.11 60.3468 1030.1 60.5658L1030.31 62.5541ZM1042.37 61.0541C1044.36 60.7758 1046.35 60.4808 1048.35 60.1687L1048.05 58.1925C1046.05 58.503 1044.07 58.7965 1042.09 59.0735L1042.37 61.0541ZM1054.39 59.181C1056.38 58.8394 1058.38 58.4807 1060.39 58.1048L1060.02 56.1389C1058.02 56.513 1056.03 56.8699 1054.05 57.2098L1054.39 59.181ZM1066.29 56.9562C1068.26 56.5567 1070.24 56.1403 1072.23 55.7067L1071.8 53.7526C1069.82 54.1841 1067.85 54.5984 1065.89 54.996L1066.29 56.9562ZM1078.22 54.3541C1080.17 53.8992 1082.13 53.4278 1084.09 52.9394L1083.61 50.9985C1081.66 51.4845 1079.71 51.9537 1077.77 52.4065L1078.22 54.3541ZM1089.92 51.4468C1091.88 50.9327 1093.83 50.4018 1095.8 49.854L1095.27 47.9273C1093.31 48.4727 1091.36 49.001 1089.42 49.5128L1089.92 51.4468ZM1101.73 48.1591C1103.64 47.5986 1105.55 47.0221 1107.48 46.4292L1106.89 44.5179C1104.97 45.1081 1103.06 45.6821 1101.16 46.24L1101.73 48.1591ZM1113.22 44.619C1115.14 43.9994 1117.07 43.3635 1119 42.711L1118.36 40.8158C1116.44 41.4655 1114.52 42.0987 1112.6 42.7156L1113.22 44.619ZM1124.84 40.7035C1126.71 40.0432 1128.6 39.3673 1130.49 38.6756L1129.81 36.7971C1127.92 37.486 1126.04 38.1591 1124.17 38.8167L1124.84 40.7035ZM1136.12 36.5795C1138 35.8652 1139.9 35.1352 1141.79 34.3893L1141.06 32.5279C1139.17 33.2709 1137.29 33.998 1135.41 34.7095L1136.12 36.5795ZM1147.51 32.1034C1148.46 31.7143 1149.42 31.3212 1150.38 30.924L1149.62 29.076C1148.66 29.4717 1147.71 29.8633 1146.75 30.2509L1147.51 32.1034Z"/>
-                        </svg>
-                    </div>
-                                                <div class="row gutter-y-30 justify-content-center">
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-health-insurance"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-1/12</span>
-                                                                <h3 class="title">Select Business Activities</h3>
-                                                                <p>Select the primary and secondary activities that your business will be conducting. Please note that secondary activities are optional.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-growth"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-2/12</span>
-                                                                <h3 class="title">Initial Partner Details</h3>
-                                                                <p>Select the number and nationalities of your partners if you have any, if not skip this step.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-3/12</span>
-                                                                <h3 class="title">Legal type</h3>
-                                                                <p>Compare and select the legal type that is most suitable for you. If you notice a legal type is not available to you, it means that you are not applicable to select them based on your previous selections.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-4/12</span>
-                                                                <h3 class="title">License type</h3>
-                                                                <p>Compare and select the license type that is most suitable for you. If you notice a license type is not available to you, it means that you are not applicable to select them based on your previous selections.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-5/12</span>
-                                                                <h3 class="title">License Details</h3>
-                                                                <p>Compare and select the license type that is most suitable for you. If you notice a license type is not available to you, it means that you are not applicable to select them based on your previous selections.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-6/12</span>
-                                                                <h3 class="title">Partner Details</h3>
-                                                                <p>Enter the respective details of each of your partners, local service agents or managers. Be ready to input their address details, contact details, personal identification numbers (EID, Passport number, UID) their roles in their company, and the % ownership share.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-7/12</span>
-                                                                <h3 class="title">Initial Approval</h3>
-                                                                <p>For some licenses you will require an initial approval to proceed. Initial approval certificates are also required should you wish to register a new business location (Ejari) for your business.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-8/12</span>
-                                                                <h3 class="title">Get Business Name</h3>
-                                                                <p>Begin your journey by selecting a busines name you have previously reserved or begin with a new business name.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-9/12</span>
-                                                                <h3 class="title">Location</h3>
-                                                                <p>For some licenses you will need to input location details. These can be locations of existing businesses (shared) in which you need the license number or New locations which you need to register with your initial approval certificate.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-10/12</span>
-                                                                <h3 class="title">Legal Documents</h3>
-                                                                <p>Send your legal documents, either MOA, Service contracts, Civil contracts for signing by respective stakeholders. Please make sure they register on IID to sign virtually.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-11/12</span>
-                                                                <h3 class="title">Final License</h3>
-                                                                <p>Receive your final license and respective documents to operate your business. All documents you receive will then be stored in your document locker on your dashboard.a</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-                                                        <div class="work__item-two text-center">
-                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
-                                                            <div class="work__content-two">
-                                                                <span class="work__step">Step-12/12</span>
-                                                                <h3 class="title">Additional Approvals</h3>
-                                                                <p>For some licenses, external entities require additional approvals to operate. Submit the required documents and wait to get feedback from an agent when approved.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
-                                                        <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Mainland setup can unlock broad UAE market access, but the licensing path must be structured correctly. Virtuo keeps the process clear, compliant, and coordinated across government touchpoints.</p>
-                                                        <p>Our Advantages :</p>
-                                                        <ul class="list-wrap about__list-item-two">
-                                                            <li>Direct UAE market access</li>
-                                                            <li>Guidance on DET activity selection</li>
-                                                            <li>MOA and legal document coordination</li>
-                                                            <li>Office and Ejari requirement support</li>
-                                                            <li>Post-licensing PRO and renewal assistance</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- work-area-end -->
-                                    <!-- faq-area -->
-                                    <section class="faq__area-three">
-                                        <div class="container">
-                                            <div class="row justify-content-center">
-                                                <div class="col-lg-6">
-                                                    <div class="section__title text-center mb-50">
-                                                        <span class="sub-title">FREQUENTLY ASKED QUESTIONS</span>
-                                                        <h2 class="title">Got any questions?</h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
-                                                    <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="mainland-accordion">
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseOne" aria-expanded="true" aria-controls="mainland-collapseOne">1. Can a foreign investor own a mainland company?</button>
-                                                                </h2>
-                                                                <div id="mainland-collapseOne" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>Yes. Many mainland activities now allow 100% foreign ownership, subject to activity and authority approval.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseTwo" aria-expanded="false" aria-controls="mainland-collapseTwo">2. Do I need office space for mainland setup?</button>
-                                                                </h2>
-                                                                <div id="mainland-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>Most mainland licenses require a compliant office or Ejari arrangement. We help identify the right option for the license type.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseThree" aria-expanded="false" aria-controls="mainland-collapseThree">3. How long does mainland licensing take?</button>
-                                                                </h2>
-                                                                <div id="mainland-collapseThree" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>Timelines vary by activity and approval requirements, but a prepared file can often move through initial approval and licensing within a few working days.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseFour" aria-expanded="false" aria-controls="mainland-collapseFour">4. Can a mainland company trade inside the UAE?</button>
-                                                                </h2>
-                                                                <div id="mainland-collapseFour" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>Yes. Mainland companies are designed for direct local UAE trading and can also operate internationally.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="faq__shape-wrap"></div>
-                                    </section>
-                                    <!-- faq-area-end -->
-                                </div>
-                            </div>
-                            <!-- Mainland Business Setup Tab Panel End -->
-                            <!-- Free Zone Business Setup Tab Panel -->
-                            <div class="service-tab-panel" id="freezone" data-service-panel="freezone">
-                                <div class="services__details-wrap">
-                                    <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Business Setup In Dubai Free Zones</p>
-                                        <h2 class="title">Build Your UAE Business With Confidence</h2>
-                                        <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency.</p>
-                                        <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey from selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements.</p>
-                                    </div>
-                                    <div class="services__details-thumb">
-                                        <img src="assets/img/services/services_details_img01.jpg" alt="Free Zone Business Setup">
-                                    </div>
-                                    <div class="services__details-content">
-                                        <h2 class="title-two">Our Free Zone Setup Services Include</h2>
-                                        <p class="info-one"><b>1. Business Activity Selection And License Type</b></p>
-                                        <p class="info-two">Expert guidance on choosing the right commercial, professional, or industrial licenses to match your corporate goals and ensure full regulatory compliance.</p>
-                                        <p class="info-one"><b>2. Free Zone Selection &amp; Real Estate Procurement</b></p>
-                                        <p class="info-two">Identifying the ideal economic zone for your industry and setting up physical or virtual office spaces, flexi-desks, or premium corporate spaces tailored to your needs.</p>
-                                        <p class="info-one"><b>3. Name Approval &amp; Initial Documentation</b></p>
-                                        <p class="info-two">Managing trade name reservations and navigating initial structural approvals with local authorities to ensure a smooth legal launch.</p>
-                                        <p class="info-one"><b>4. Visa And Immigration Processing</b></p>
-                                        <p class="info-two">Fast-tracked management of investor, partner, employee, and family residency visas, including medical tests and Emirates ID assistance.</p>
-                                        <p class="info-one"><b>5. Corporate Bank Account Assistance</b></p>
-                                        <p class="info-two">Document compilation, profile positioning, and direct introductions to leading UAE local and international banks for swift account opening.</p>
-                                        <p class="info-one"><b>6. Corporate Governance &amp; Structure Advisory</b></p>
-                                        <p class="info-two">Custom selection of the right legal entity structure to protect your equity and maximize operational efficiency.</p>
-                                        <p class="info-one"><b>7. Document Clearing &amp; Government Relations</b></p>
-                                        <p class="info-two">Handling all interactions, submissions, and approvals with government bodies and ministries, minimizing administrative friction for your team.</p>
-                                        <p class="info-one"><b>8. Post-Incorporation Corporate Support</b></p>
-                                        <p class="info-two">Continued operational assistance after incorporation, covering annual license renewals and ongoing corporate compliance.</p>
-                                        <div class="services__details-inner-images">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="img-one">
-                                                        <img src="assets/img/services/services_img01.jpg" alt="Free Zone Business Setup">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="img-two">
-                                                        <img src="assets/img/services/services_img02.jpg" alt="Free Zone Business Setup">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- work-area -->
-                                    <section class="work__area-two has-animation" style="margin-top: 100px;">
-                                        <div class="container">
-                                            <div class="row justify-content-center">
-                                                <div class="col-xl-6 col-lg-8">
-                                                    <div class="section__title text-center mb-60">
-                                                        <span class="sub-title">Our Working Portfolio</span>
-                                                        <h2 class="title">Your UAE Business Setup Journey, Simplified</h2>
+                                                        <h2 class="title">Your Brand Growth Journey, Simplified</h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -384,8 +114,8 @@
                                                             <div class="work__icon-two"><i class="flaticon-health-insurance"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-01</span>
-                                                                <h3 class="title">Free Consultation</h3>
-                                                                <p>15-30 Minutes</p>
+                                                                <h3 class="title">Discovery</h3>
+                                                                <p>Audience Review</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -394,8 +124,8 @@
                                                             <div class="work__icon-two"><i class="flaticon-growth"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-02</span>
-                                                                <h3 class="title">Business Structure &amp; Proposal</h3>
-                                                                <p>1 Business Day</p>
+                                                                <h3 class="title">Strategy &amp; Content Plan</h3>
+                                                                <p>Clear Roadmap</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -404,8 +134,8 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-03</span>
-                                                                <h3 class="title">Authority Submission</h3>
-                                                                <p>3-7 Working Days</p>
+                                                                <h3 class="title">Build &amp; Launch</h3>
+                                                                <p>Campaign Delivery</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -414,21 +144,21 @@
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
                                                                 <span class="work__step">Step-04</span>
-                                                                <h3 class="title">License &amp; Launch Support</h3>
-                                                                <p>Complete Handover</p>
+                                                                <h3 class="title">Optimize &amp; Report</h3>
+                                                                <p>Measured Growth</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div style="margin: 100px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Setting up a company in a UAE Free Zone requires the right jurisdiction, activity, license package, visa allocation, and banking readiness. Virtuo helps compare options and move through the process transparently.</p>
+                                                        <p>Choosing Virtuo for paid advertising (meta &amp; google ads) gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
                                                         <ul class="list-wrap about__list-item-two">
-                                                            <li>Expertise across major UAE Free Zones</li>
-                                                            <li>Fast and transparent processing</li>
-                                                            <li>Strong relationships with Free Zone authorities</li>
-                                                            <li>Tailored solutions for startups, SMEs, and multinational companies</li>
-                                                            <li>Cost-effective setup packages</li>
+                                                            <li>Strategy before execution</li>
+                                                            <li>Brand-consistent content</li>
+                                                            <li>Conversion-focused digital assets</li>
+                                                            <li>Clear reporting and performance tracking</li>
+                                                            <li>Ongoing optimization support</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -450,44 +180,44 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-xl-8 col-lg-10" style="width: 100%;">
                                                     <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="freezone-accordion">
+                                                        <div class="accordion" id="marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseOne" aria-expanded="true" aria-controls="freezone-collapseOne">1. What is the main difference between Free Zone and Mainland setup?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne" aria-expanded="true" aria-controls="marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne">1. What is included in Paid Advertising (Meta &amp; Google Ads)?</button>
                                                                 </h2>
-                                                                <div id="freezone-collapseOne" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
+                                                                <div id="marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Free Zone companies allow foreign ownership and simplified setup but may need additional arrangements to trade directly in the mainland market.</p>
+                                                                        <p>Scope depends on the selected plan, but we define deliverables clearly before launch.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseTwo" aria-expanded="false" aria-controls="freezone-collapseTwo">2. Can I open a corporate bank account with a Free Zone license?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-paid-advertising-meta-and-google-ads-collapseTwo" aria-expanded="false" aria-controls="marketing-solutions-paid-advertising-meta-and-google-ads-collapseTwo">2. How do you measure performance?</button>
                                                                 </h2>
-                                                                <div id="freezone-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
+                                                                <div id="marketing-solutions-paid-advertising-meta-and-google-ads-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Yes. Once your license and corporate documents are issued, you can apply for a UAE business bank account.</p>
+                                                                        <p>We track relevant metrics such as leads, traffic, engagement, conversion rate, and campaign outcomes.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseThree" aria-expanded="false" aria-controls="freezone-collapseThree">3. How long does the entire setup process take?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-paid-advertising-meta-and-google-ads-collapseThree" aria-expanded="false" aria-controls="marketing-solutions-paid-advertising-meta-and-google-ads-collapseThree">3. Can you work with our existing brand?</button>
                                                                 </h2>
-                                                                <div id="freezone-collapseThree" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
+                                                                <div id="marketing-solutions-paid-advertising-meta-and-google-ads-collapseThree" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Many Free Zone setups can be completed within a few working days once documents and approvals are ready.</p>
+                                                                        <p>Yes. We can improve existing assets or develop a stronger direction when needed.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseFour" aria-expanded="false" aria-controls="freezone-collapseFour">4. Are Free Zone companies exempt from corporate tax?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-paid-advertising-meta-and-google-ads-collapseFour" aria-expanded="false" aria-controls="marketing-solutions-paid-advertising-meta-and-google-ads-collapseFour">4. Is ongoing support available?</button>
                                                                 </h2>
-                                                                <div id="freezone-collapseFour" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
+                                                                <div id="marketing-solutions-paid-advertising-meta-and-google-ads-collapseFour" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Qualifying Free Zone companies may benefit from a 0% rate on qualifying income if they meet UAE tax substance and compliance requirements.</p>
+                                                                        <p>Yes. We support monthly optimization, reporting, content updates, and campaign improvements.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -501,49 +231,43 @@
                                     <!-- faq-area-end -->
                                 </div>
                             </div>
-                            <!-- Free Zone Business Setup Tab Panel End -->
-                            <!-- Offshore Business Setup Tab Panel -->
-                            <div class="service-tab-panel" id="offshore" data-service-panel="offshore">
+                            <!-- Paid Advertising (Meta &amp; Google Ads) Tab Panel End --><!-- Paid Advertising (Meta &amp; Google Ads) Tab Panel End -->
+                            <!-- Content Marketing Tab Panel -->
+                            <div class="service-tab-panel" id="marketing-solutions-content-marketing" data-service-panel="marketing-solutions-content-marketing">
                                 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Business Setup In Offshore</p>
-                                        <h2 class="title">Expand Your Global Footprint With Confidence</h2>
-                                        <p>Setting up an offshore company in the UAE is the ultimate choice for international entrepreneurs looking to protect assets, manage global wealth, and minimize tax liabilities. Operating under highly secure regulatory frameworks like JAFZA or RAK ICC, an offshore entity allows you to manage international trade, hold global real estate investments, and operate multi-currency bank accounts with absolute confidentiality and complete legal backing.</p>
-                                        <p>At Virtuo, we navigate the complex international compliance and documentation pipelines on your behalf. Our experts streamline the incorporation framework so you can establish a secure, tax-optimized international vehicle efficiently.</p>
+                                        <p style="margin-bottom: 15px;">Content Marketing In The UAE</p>
+                                        <h2 class="title">Content Marketing Built Around Your Business Needs</h2>
+                                        <p>Content Marketing requires careful planning, accurate documentation, and timely coordination with the right digital platforms, creative workflows, and business goals.</p>
+                                        <p>Virtuo supports every step of content marketing, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/OffshoreBusinessSetup3_services_details.jpg" alt="Offshore Business Setup">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Content Marketing">
                                     </div>
                                     <div class="services__details-content">
-                                        <h2 class="title-two">What Offshore Business Setup Includes</h2>
-                                        <p class="info-one"><b>1. Offshore Company Incorporation &amp; Registration</b></p>
-                                        <p class="info-two">Complete management of the registration and filing processes with leading UAE offshore jurisdictions, ensuring absolute structural legitimacy.</p>
-                                        <p class="info-one"><b>2. Company Structure Advisory &amp; Legal Framework</b></p>
-                                        <p class="info-two">Expert guidance on tailoring your offshore entity's Articles of Association to match your specific asset protection, wealth management, or corporate holding goals.</p>
-                                        <p class="info-one"><b>3. Preparation And Submission Of Corporate Documents</b></p>
-                                        <p class="info-two">Drafting, organizing, and optimizing all necessary corporate compliance documents, shareholder certificates, and constitutional papers for swift regulatory approval.</p>
-                                        <p class="info-one"><b>4. Registered Office &amp; Legally Mandated Agent Services</b></p>
-                                        <p class="info-two">Providing the compulsory legal registered address and acting as your licensed registrar agent within the UAE offshore jurisdiction to manage regulatory correspondence.</p>
-                                        <p class="info-one"><b>5. Coordination With Relevant Government Authorities</b></p>
-                                        <p class="info-two">Direct management of all administrative touchpoints, verification checks, and final clearance approvals with individual offshore government registries.</p>
-                                        <p class="info-one"><b>6. Bank Account Selection And KYC Coordination</b></p>
-                                        <p class="info-two">Guiding you through rigorous Know Your Customer (KYC) compliance criteria and matching your global business model with the right premium banking institutions.</p>
-                                        <p class="info-one"><b>7. Post-Incorporation Ongoing Support</b></p>
-                                        <p class="info-two">Providing essential administrative assistance following your company launch to ensure your entity remains in perfect standing with zero friction.</p>
-                                        <p class="info-one"><b>8. Company Annual Compliance Maintenance</b></p>
-                                        <p class="info-two">Overseeing statutory requirements, mandatory legal document filings, and corporate transparency updates required by international financial oversight standards.</p>
-                                        <p class="info-one"><b>9. Annual Renewal And Statutory Filings</b></p>
-                                        <p class="info-two">Managing the yearly renewal of your offshore registration, registered office space maintenance, and associated governmental administration to avoid structural lapses.</p>
+                                        <h2 class="title-two">Our Content Marketing Support Includes</h2>
+                                        <p class="info-one"><b>1. Content Marketing Discovery And Audit</b></p>
+                                        <p class="info-two">We review your current brand, website, audience, channels, and commercial goals before planning content marketing.</p>
+                                        <p class="info-one"><b>2. Content Marketing Strategy Development</b></p>
+                                        <p class="info-two">We define the message, offer, content direction, conversion path, and campaign priorities.</p>
+                                        <p class="info-one"><b>3. Content Marketing Creative And Content Production</b></p>
+                                        <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p>
+                                        <p class="info-one"><b>4. Content Marketing Implementation And Launch</b></p>
+                                        <p class="info-two">We build, configure, publish, and launch the required digital assets or campaigns.</p>
+                                        <p class="info-one"><b>5. Content Marketing Tracking And Reporting</b></p>
+                                        <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
+                                        <p class="info-one"><b>6. Content Marketing Optimization Support</b></p>
+                                        <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
                                         <div class="services__details-inner-images">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/OffshoreBusinessSetup4_services_details.jpg" alt="Offshore Business Setup">
+                                                        <img src="assets/img/services/services_img01.jpg" alt="Content Marketing">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/OffshoreBusinessSetup5_services_details.jpg" alt="Offshore Business Setup">
+                                                        <img src="assets/img/services/services_img02.jpg" alt="Content Marketing">
                                                     </div>
                                                 </div>
                                             </div>
@@ -556,7 +280,7 @@
                                                 <div class="col-xl-6 col-lg-8">
                                                     <div class="section__title text-center mb-60">
                                                         <span class="sub-title">Our Working Portfolio</span>
-                                                        <h2 class="title">Your UAE Business Setup Journey, Simplified</h2>
+                                                        <h2 class="title">Your Brand Growth Journey, Simplified</h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -571,9 +295,9 @@
                                                         <div class="work__item-two text-center">
                                                             <div class="work__icon-two"><i class="flaticon-health-insurance"></i></div>
                                                             <div class="work__content-two">
-                                                                <span class="work__step">1/12</span>
-                                                                <h3 class="title">Select Business Activities</h3>
-                                                                <p>Select the primary and secondary activities that your business will be conducting. Please note that secondary activities are optional.</p>
+                                                                <span class="work__step">Step-01</span>
+                                                                <h3 class="title">Discovery</h3>
+                                                                <p>Audience Review</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -581,9 +305,9 @@
                                                         <div class="work__item-two text-center">
                                                             <div class="work__icon-two"><i class="flaticon-growth"></i></div>
                                                             <div class="work__content-two">
-                                                                <span class="work__step">2/12</span>
-                                                                <h3 class="title">Initial Partner Details</h3>
-                                                                <p>Select the number and nationalities of your partners if you have any. If not, skip this step.</p>
+                                                                <span class="work__step">Step-02</span>
+                                                                <h3 class="title">Strategy &amp; Content Plan</h3>
+                                                                <p>Clear Roadmap</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -591,9 +315,9 @@
                                                         <div class="work__item-two text-center">
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
-                                                                <span class="work__step">3/12</span>
-                                                                <h3 class="title">Legal Type</h3>
-                                                                <p>Compare and select the legal type that is most suitable for you. If you notice a legal type is not available to you, it means you are not applicable to select them based on your previous selections.</p>
+                                                                <span class="work__step">Step-03</span>
+                                                                <h3 class="title">Build &amp; Launch</h3>
+                                                                <p>Campaign Delivery</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -601,291 +325,22 @@
                                                         <div class="work__item-two text-center">
                                                             <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
                                                             <div class="work__content-two">
-                                                                <span class="work__step">4/12</span>
-                                                                <h3 class="title">License Type</h3>
-                                                                <p>Compare and select the license type that is most suitable for you. If you notice a license type is not available to you, it means you are not applicable to select them based on your previous selections.</p>
+                                                                <span class="work__step">Step-04</span>
+                                                                <h3 class="title">Optimize &amp; Report</h3>
+                                                                <p>Measured Growth</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div style="margin: 100px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Setting up an offshore company requires specialized knowledge, careful planning, and strict compliance with international regulations. Virtuo Services F.Z.C provides expert guidance for entrepreneurs, investors, and global companies looking to establish offshore entities in the UAE. Our team ensures a seamless, secure, and fully compliant setup process while protecting your business interests and maintaining the highest level of confidentiality.</p>
-                                                        <p>Benefits Of Business Setup In Offshore:</p>
-                                                        <ul class="list-wrap about__list-item-two">
-                                                            <li>Expertise in major offshore jurisdictions (RAK ICC, JAFZA Offshore, Ajman Offshore)</li>
-                                                            <li>High confidentiality and secure documentation handling</li>
-                                                            <li>Fast and transparent processing</li>
-                                                            <li>Tailored solutions for international business structures</li>
-                                                            <li>Strong relationships with offshore authorities and banks</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- work-area-end -->
-                                    <!-- faq-area -->
-                                    <section class="faq__area-three">
-                                        <div class="container">
-                                            <div class="row justify-content-center">
-                                                <div class="col-lg-6">
-                                                    <div class="section__title text-center mb-50">
-                                                        <span class="sub-title">FREQUENTLY ASKED QUESTIONS</span>
-                                                        <h2 class="title">Got any questions?</h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
-                                                    <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="offshore-accordion">
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseOne" aria-expanded="true" aria-controls="offshore-collapseOne">1. Can an offshore company conduct business inside the UAE?</button>
-                                                                </h2>
-                                                                <div id="offshore-collapseOne" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>No. An offshore company is specifically designed to conduct international business operations outside of the UAE. It cannot rent physical office space locally, apply for local employee residency visas, or trade directly within the UAE domestic market.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseTwo" aria-expanded="false" aria-controls="offshore-collapseTwo">2. What are the main uses for a UAE offshore company?</button>
-                                                                </h2>
-                                                                <div id="offshore-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>Entrepreneurs primarily utilize UAE offshore setups as holding companies to own shares in other domestic or international entities, hold international real estate portfolios, manage global intellectual property, or facilitate tax-optimized international trade.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseThree" aria-expanded="false" aria-controls="offshore-collapseThree">3. Does a UAE offshore company require a physical office space?</button>
-                                                                </h2>
-                                                                <div id="offshore-collapseThree" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>No. Offshore companies are not required to maintain physical premises or sign commercial lease agreements in the UAE. Instead, they utilize the legally mandated registered address provided by their licensed registration agent, such as Virtuo.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseFour" aria-expanded="false" aria-controls="offshore-collapseFour">4. How long does the offshore incorporation process take?</button>
-                                                                </h2>
-                                                                <div id="offshore-collapseFour" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>The entire process is remarkably fast and can often be completed remotely. Once all required shareholder verification documents, bank references, and proof of address are compiled, registration typically takes between 3 to 5 working days.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="faq__shape-wrap"></div>
-                                    </section>
-                                    <!-- faq-area-end -->
-                                </div>
-                            </div>
-                            <!-- Offshore Business Setup Tab Panel End -->
-                            <!-- Virtual Office Tab Panel -->
-                            <div class="service-tab-panel" id="virtual" data-service-panel="virtual">
-                                <div class="services__details-wrap">
-                                    <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Virtual Office In Dubai</p>
-                                        <h2 class="title">Prestigious Business Address. Zero Overheads. 100% UAE Compliance.</h2>
-                                        <p>In a dynamic global business ecosystem, establishing a premium corporate presence shouldn't require the massive financial burden of traditional long-term commercial leases. A virtual office offers international businesses, remote teams, and growing startups the perfect strategic solution: a prestigious, fully compliant business address in the heart of Dubai without the expensive overhead costs.</p>
-                                        <p>At Virtuo, we provide more than just a premium mailbox. Our virtual office packages supply your enterprise with an official, government-recognized corporate address necessary for business registration, Department of Economy and Tourism (DET) compliance, and immediate market trust, all while keeping your operations agile and lean.</p>
-                                    </div>
-                                    <div class="services__details-thumb">
-                                        <img src="assets/img/services/VirtualOffice1_services_details.jpg" alt="Virtual Office">
-                                    </div>
-                                    <div class="services__details-content">
-                                        <h2 class="title-two">What Virtual Office Packages Include</h2>
-                                        <p class="info-one"><b>1. Premium Business &amp; Registration Address</b></p>
-                                        <p class="info-two">Gain an instant corporate presence with a high-profile, government-approved physical business address to feature on your official trade license, website, and legal contracts.</p>
-                                        <p class="info-one"><b>2. Dedicated Mail Handling And Forwarding</b></p>
-                                        <p class="info-two">Professional management of all incoming corporate mail, packages, and legal correspondence, featuring instant digital scanning and secure mail forwarding options.</p>
-                                        <p class="info-one"><b>3. Dedicated Local Telephone Line</b></p>
-                                        <p class="info-two">Allocation of a professional local UAE business telephone number to reinforce your brand legitimacy and establish a direct connection for regional clients.</p>
-                                        <p class="info-one"><b>4. Professional Reception &amp; Answering Services</b></p>
-                                        <p class="info-two">Access to professional reception services to answer incoming corporate calls under your company name, take accurate messages, or route critical inquiries smoothly.</p>
-                                        <p class="info-one"><b>5. Compliance And Statutory Support</b></p>
-                                        <p class="info-two">Complete alignment with modern UAE corporate and banking regulations, ensuring your documentation satisfies standard business verification procedures.</p>
-                                        <p class="info-one"><b>6. Flexible Workspace And Meeting Room Access</b></p>
-                                        <p class="info-two">On-demand booking access to premium, fully equipped conference rooms and corporate boardrooms to host vital face-to-face client pitches, investor meetings, or team huddles.</p>
-                                        <p class="info-one"><b>7. Complete Office Amenities &amp; Support Systems</b></p>
-                                        <p class="info-two">Full access to secure enterprise-grade Wi-Fi networks, high-end copying, scanning, and printing systems during your on-site corporate workspace sessions.</p>
-                                        <div class="services__details-inner-images">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="img-one">
-                                                        <img src="assets/img/services/VirtualOffice2_services_details.jpg" alt="Virtual Office">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="img-two">
-                                                        <img src="assets/img/services/VirtualOffice3_services_details.jpg" alt="Virtual Office">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- work-area -->
-                                    <section class="work__area-two has-animation">
-                                        <div class="container">
-                                            
-                                            <div class="work__item-wrap-two">
-                                                
-                                                <div class="row gutter-y-30 justify-content-center">
-                                                   
-                                                   
-                                                    <div style="margin-bottom: 100px;" class="services__details-content-top">
-                                                        <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>We provide professional virtual office solutions designed to give your business credibility, flexibility, and full regulatory compliance in the UAE. Our expert team ensures that your company gains a prestigious Dubai business address while handling all licensing approvals, government requirements, and operational support efficiently. By choosing Virtuo Services, you get a seamless, reliable, and cost-effective virtual office experience that strengthens your brand presence and allows you to focus on growing your business.</p>
-                                                        <p>A Virtual Office Is Ideal For:</p>
-                                                        <ul class="list-wrap about__list-item-two">
-                                                            <li>Entrepreneurs launching a new business</li>
-                                                            <li>International companies expanding into the UAE</li>
-                                                            <li>Freelancers and consultants</li>
-                                                            <li>E-commerce businesses</li>
-                                                            <li>Startups looking to reduce overheads</li>
-                                                            <li>Businesses needing a legal address for licensing</li>
-                                                            <li>Companies requiring a UAE presence without physical space</li>
-                                                        </ul>
-                                                        <p>With a virtual office from Virtuo Services, your business gains a prestigious Dubai address, full UAE compliance, and a professional presence without the cost of a physical office.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- work-area-end -->
-                                    <!-- faq-area -->
-                                    <section class="faq__area-three">
-                                        <div class="container">
-                                            <div class="row justify-content-center">
-                                                <div class="col-lg-6">
-                                                    <div class="section__title text-center mb-50">
-                                                        <span class="sub-title">FREQUENTLY ASKED QUESTIONS</span>
-                                                        <h2 class="title">Got any questions?</h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
-                                                    <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="virtual-accordion">
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseOne" aria-expanded="true" aria-controls="virtual-collapseOne">1. What exactly is a virtual office, and is it fully legal in Dubai?</button>
-                                                                </h2>
-                                                                <div id="virtual-collapseOne" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>A virtual office is a service that provides businesses with a premium, physical corporate location and essential administrative support without requiring a full-time, dedicated commercial desk space. It is a completely legal, government-approved office solution in the UAE, highly favored by startups, consulting firms, and international companies looking to optimize operational costs.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseTwo" aria-expanded="false" aria-controls="virtual-collapseTwo">2. Can I use a virtual office address to secure a UAE trade license?</button>
-                                                                </h2>
-                                                                <div id="virtual-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>Yes. Certain corporate setups and business activities across specific UAE jurisdictions and Free Zones explicitly permit the use of an approved virtual office or shared-desk contract to fulfill their physical office address licensing requirements. Our consultants will evaluate your business activity to ensure perfect compliance alignment.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseThree" aria-expanded="false" aria-controls="virtual-collapseThree">3. How does the mail handling and communication system work?</button>
-                                                                </h2>
-                                                                <div id="virtual-collapseThree" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>Whenever couriers, clients, or government bodies deliver physical correspondence to your virtual office location, our team securely logs the delivery. We notify you immediately via email and can digitally scan the documents or forward the physical parcels directly to your preferred international location based on your instructions.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseFour" aria-expanded="false" aria-controls="virtual-collapseFour">4. Can I host face-to-face client meetings at my virtual office address?</button>
-                                                                </h2>
-                                                                <div id="virtual-collapseFour" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
-                                                                    <div class="accordion-body">
-                                                                        <p>Absolutely. While you do not occupy a fixed physical room daily, our packages grant you flexible, on-demand reservation access to high-end, fully furnished meeting spaces, video conferencing rooms, and corporate boardrooms at the address location to ensure your professional client interactions remain elite.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="faq__shape-wrap"></div>
-                                    </section>
-                                    <!-- faq-area-end -->
-                                </div>
-                            </div>
-                            <!-- Virtual Office Tab Panel End -->
-                            <!-- Business Bank Account Opening Tab Panel -->
-                            <div class="service-tab-panel" id="business-bank-account-opening" data-service-panel="business-bank-account-opening">
-                                <div class="services__details-wrap">
-                                    <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Business Bank Account Opening In Dubai</p>
-                                        <h2 class="title">Secure Corporate Banking: The Essential Foundation For Commercial Operations</h2>
-                                        <p>Securing a dedicated corporate bank account is the single most critical step an international entrepreneur must take after finalizing a UAE trade license. Without an active, fully verified business account, a newly incorporated company cannot execute commercial transactions, register for federal corporate tax systems, integrate digital merchant payment gateways, or legally distribute operational dividends to its shareholders.</p>
-                                        <p>At Virtuo, we untangle the complex compliance webs of corporate banking. Our specialized banking coordinators pre-audit your legal documentation, align your business activities with the precise preferences of various banking institutions, and manage the extensive due diligence questionnaires to streamline your account approvals smoothly and efficiently.</p>
-                                    </div>
-                                    <div class="services__details-thumb">
-                                        <img src="assets/img/services/BankAccountOpening1_services_details.jpg" alt="Business Bank Account Opening">
-                                    </div>
-                                    <div class="services__details-content">
-                                        <h2 class="title-two">What Our Bank Account Opening Services Include</h2>
-                                        <p>Our structured financial onboarding workflows are engineered to carry your corporate profiles through strict regulatory frameworks seamlessly. We manage end-to-end coordination across the following core banking fields:
-                                        Traditional Tier-1 Corporate Accounts: Facilitating premium account setups with major national banking institutions that require dedicated relationship management.
-                                        Digital & Fintech Business Accounts: Streamlining fast-track onboarding via modern digital banking platforms that feature rapid identification steps.
-                                        Know Your Customer (KYC) Portfolio Audit: Meticulously compiling and structuring your personal and corporate backgrounds to satisfy strict central bank guidelines.
-                                        Source of Funds & Wealth Declarations: Formatting clear, verifiable documentation to elegantly prove the legal origin of your initial investment capital.
-                                        B2B Counterparty Risk Assessments: Reviewing and listing your projected international suppliers and target client networks to satisfy compliance checklists.
-                                        Multi-Currency Account Configuration: Setting up flexible corporate operational accounts capable of handling local and major international trade currencies.
-                                        In-Person Signatory Meeting Coordination: Arranging and managing the mandatory face-to-face identity verifications between your authorized corporate signatories and bank managers.</p>
-                                        <div class="services__details-inner-images">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="img-one">
-                                                        <img src="assets/img/services/BankAccountOpening2_services_details.jpg" alt="Business Bank Account Opening">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="img-two">
-                                                        <img src="assets/img/services/BankAccountOpening3_services_details.jpg" alt="Business Bank Account Opening">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- work-area -->
-                                    <section class="work__area-two has-animation">
-                                        <div class="container">
-                                            
-                                            <div class="work__item-wrap-two">
-                                                
-                                                <div class="row gutter-y-30 justify-content-center">
-                                                    
-                                                    
-                                                    
-                                                   
-                                                    <div style="margin-bottom: 100px;" class="services__details-content-top">
-                                                        <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                        <p>Virtuo secures your corporate financial setup by serving as your direct, expert interface with local and international banking networks. By pairing an intricate command of Central Bank anti-money laundering regulations with established relationships across multiple financial institutions, we guarantee that your corporate profiles, source-of-funds files, and business plans are presented with absolute legal precision. Our framework completely eliminates administrative friction and unexpected application rejections by pre-auditing your commercial files prior to submission, providing your enterprise with a dedicated financial liaison asset that protects your onboarding timelines while keeping your operational momentum moving smoothly.</p>
+                                                        <p>Choosing Virtuo for content marketing gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
                                                         <ul class="list-wrap about__list-item-two">
-                                                            <li>Pre-audited corporate banking files</li>
-                                                            <li>Bank preference alignment by activity</li>
-                                                            <li>KYC and source-of-funds preparation</li>
-                                                            <li>Central Bank compliance awareness</li>
-                                                            <li>Relationship coordination with banking teams</li>
+                                                            <li>Strategy before execution</li>
+                                                            <li>Brand-consistent content</li>
+                                                            <li>Conversion-focused digital assets</li>
+                                                            <li>Clear reporting and performance tracking</li>
+                                                            <li>Ongoing optimization support</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -907,44 +362,44 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-xl-8 col-lg-10" style="width: 100%;">
                                                     <div class="faq__wrap faq__wrap-three">
-                                                        <div class="accordion" id="business-bank-account-opening-accordion">
+                                                        <div class="accordion" id="marketing-solutions-content-marketing-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseOne" aria-expanded="true" aria-controls="business-bank-account-opening-collapseOne">1. What are the primary document requirements to open a corporate bank account in Dubai?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-content-marketing-collapseOne" aria-expanded="true" aria-controls="marketing-solutions-content-marketing-collapseOne">1. What is included in Content Marketing?</button>
                                                                 </h2>
-                                                                <div id="business-bank-account-opening-collapseOne" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
+                                                                <div id="marketing-solutions-content-marketing-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#marketing-solutions-content-marketing-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>To launch a secure compliance review, banks strictly require your active corporate trade license, certified memorandum of association, clear shareholder certificates, and passport copies alongside proof of address. Virtuo acts as your documentation manager, reviewing your corporate files and formatting an optimized business plan to ensure your portfolio satisfies strict central bank checklists before submission.</p>
+                                                                        <p>Scope depends on the selected plan, but we define deliverables clearly before launch.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseTwo" aria-expanded="false" aria-controls="business-bank-account-opening-collapseTwo">2. Does a company shareholder need a UAE residency visa to open a corporate bank account?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-content-marketing-collapseTwo" aria-expanded="false" aria-controls="marketing-solutions-content-marketing-collapseTwo">2. How do you measure performance?</button>
                                                                 </h2>
-                                                                <div id="business-bank-account-opening-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
+                                                                <div id="marketing-solutions-content-marketing-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-content-marketing-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>While non-resident business owners can legally open specialized corporate accounts, local institutions place a strong preference on having at least one resident partner or authorized signatory holding a valid residency visa and physical identity credentials. Virtuo maps out your route correctly, helping you secure the foundational partner visa first to vastly expand your banking options and accelerate final approvals.</p>
+                                                                        <p>We track relevant metrics such as leads, traffic, engagement, conversion rate, and campaign outcomes.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseThree" aria-expanded="false" aria-controls="business-bank-account-opening-collapseThree">3. What is an office lease requirement for corporate bank compliance in the UAE?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-content-marketing-collapseThree" aria-expanded="false" aria-controls="marketing-solutions-content-marketing-collapseThree">3. Can you work with our existing brand?</button>
                                                                 </h2>
-                                                                <div id="business-bank-account-opening-collapseThree" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
+                                                                <div id="marketing-solutions-content-marketing-collapseThree" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-content-marketing-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>To prevent the formation of shell corporations, financial compliance offices require clear evidence of economic substance, meaning they must verify that a company maintains a legitimate local physical workspace. Virtuo safeguards your setup options by ensuring your registered Free Zone lease or Mainland commercial tenancy contract is accurately paired with your banking files to easily pass anti-money laundering property audits.</p>
+                                                                        <p>Yes. We can improve existing assets or develop a stronger direction when needed.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseFour" aria-expanded="false" aria-controls="business-bank-account-opening-collapseFour">4. How long does the corporate bank account opening process typically take?</button>
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-content-marketing-collapseFour" aria-expanded="false" aria-controls="marketing-solutions-content-marketing-collapseFour">4. Is ongoing support available?</button>
                                                                 </h2>
-                                                                <div id="business-bank-account-opening-collapseFour" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
+                                                                <div id="marketing-solutions-content-marketing-collapseFour" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-content-marketing-accordion">
                                                                     <div class="accordion-body">
-                                                                        <p>Attempting to navigate compliance desks independently without clear trading descriptions or historical statements can stall your files for several months or result in sudden rejections. Virtuo protects your timeline by pre-screening your application with target risk assessment officers, routing your files through fast-track digital portals or traditional channels depending on the complexity of your business model.</p>
+                                                                        <p>Yes. We support monthly optimization, reporting, content updates, and campaign improvements.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -958,7 +413,371 @@
                                     <!-- faq-area-end -->
                                 </div>
                             </div>
-                            <!-- Business Bank Account Opening Tab Panel End -->
+                            <!-- Content Marketing Tab Panel End --><!-- Content Marketing Tab Panel End -->
+                            <!-- Brand Strategy &amp; Positioning Tab Panel -->
+                            <div class="service-tab-panel" id="marketing-solutions-brand-strategy-and-positioning" data-service-panel="marketing-solutions-brand-strategy-and-positioning">
+                                <div class="services__details-wrap">
+                                    <div class="services__details-content-top">
+                                        <p style="margin-bottom: 15px;">Brand Strategy &amp; Positioning In The UAE</p>
+                                        <h2 class="title">Brand Strategy &amp; Positioning Built Around Your Business Needs</h2>
+                                        <p>Brand Strategy &amp; Positioning requires careful planning, accurate documentation, and timely coordination with the right digital platforms, creative workflows, and business goals.</p>
+                                        <p>Virtuo supports every step of brand strategy &amp; positioning, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
+                                    </div>
+                                    <div class="services__details-thumb">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Brand Strategy &amp; Positioning">
+                                    </div>
+                                    <div class="services__details-content">
+                                        <h2 class="title-two">Our Brand Strategy &amp; Positioning Support Includes</h2>
+                                        <p class="info-one"><b>1. Brand Strategy &amp; Positioning Discovery And Audit</b></p>
+                                        <p class="info-two">We review your current brand, website, audience, channels, and commercial goals before planning brand strategy &amp; positioning.</p>
+                                        <p class="info-one"><b>2. Brand Strategy &amp; Positioning Strategy Development</b></p>
+                                        <p class="info-two">We define the message, offer, content direction, conversion path, and campaign priorities.</p>
+                                        <p class="info-one"><b>3. Brand Strategy &amp; Positioning Creative And Content Production</b></p>
+                                        <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p>
+                                        <p class="info-one"><b>4. Brand Strategy &amp; Positioning Implementation And Launch</b></p>
+                                        <p class="info-two">We build, configure, publish, and launch the required digital assets or campaigns.</p>
+                                        <p class="info-one"><b>5. Brand Strategy &amp; Positioning Tracking And Reporting</b></p>
+                                        <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
+                                        <p class="info-one"><b>6. Brand Strategy &amp; Positioning Optimization Support</b></p>
+                                        <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
+                                        <div class="services__details-inner-images">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="img-one">
+                                                        <img src="assets/img/services/services_img01.jpg" alt="Brand Strategy &amp; Positioning">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="img-two">
+                                                        <img src="assets/img/services/services_img02.jpg" alt="Brand Strategy &amp; Positioning">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- work-area -->
+                                    <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xl-6 col-lg-8">
+                                                    <div class="section__title text-center mb-60">
+                                                        <span class="sub-title">Our Working Portfolio</span>
+                                                        <h2 class="title">Your Brand Growth Journey, Simplified</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="work__item-wrap-two">
+                                                <div class="work__line-shape">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1151" height="81" viewBox="0 0 1151 81" fill="currentColor">
+                            <path class="dashed1" stroke-width="3" d="M0.666667 6C0.666667 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666667 0.666667 3.05448 0.666667 6ZM583 43L582.52 42.1227L583 43ZM1150.92 30.383C1151.14 29.8728 1150.89 29.2878 1150.38 29.0763L1142.07 25.6291C1141.56 25.4176 1140.97 25.6597 1140.76 26.1698C1140.55 26.68 1140.79 27.2651 1141.3 27.4766L1148.69 30.5407L1145.63 37.9307C1145.42 38.4408 1145.66 39.0259 1146.17 39.2374C1146.68 39.449 1147.27 39.2069 1147.48 38.6967L1150.92 30.383ZM5.7166 6.959C6.64171 7.23238 7.57599 7.50825 8.51932 7.78651L9.08517 5.86823C8.14218 5.59007 7.20822 5.31429 6.2834 5.041L5.7166 6.959ZM14.2869 9.4842C16.1947 10.0445 18.1359 10.6132 20.1096 11.1898L20.6704 9.27004C18.6977 8.69374 16.7574 8.12527 14.8505 7.56524L14.2869 9.4842ZM25.8481 12.8614C27.7816 13.4229 29.7436 13.991 31.7334 14.5651L32.2879 12.6435C30.2992 12.0698 28.3383 11.502 26.4059 10.9408L25.8481 12.8614ZM37.434 16.2043C39.3585 16.7558 41.3069 17.3121 43.2788 17.8729L43.8259 15.9492C41.8554 15.3888 39.9082 14.8328 37.985 14.2817L37.434 16.2043ZM49.0598 19.5107C50.9675 20.049 52.8956 20.5909 54.8434 21.1361L55.3825 19.2101C53.436 18.6653 51.5093 18.1238 49.603 17.5858L49.0598 19.5107ZM60.7344 22.7776C62.6271 23.3027 64.5374 23.8304 66.4646 24.3604L66.9949 22.432C65.0691 21.9024 63.1604 21.3751 61.269 20.8504L60.7344 22.7776ZM72.2966 25.9567C74.2306 26.4836 76.1807 27.0123 78.1463 27.5426L78.6673 25.6117C76.7033 25.0818 74.7548 24.5535 72.8223 24.027L72.2966 25.9567ZM83.92 29.0927C85.859 29.6106 87.8123 30.1298 89.7794 30.6498L90.2906 28.7162C88.3251 28.1966 86.3735 27.6779 84.4362 27.1604L83.92 29.0927ZM95.614 32.1841C97.5355 32.6867 99.4695 33.1898 101.416 33.6933L101.916 31.7571C99.9721 31.254 98.0399 30.7513 96.1201 30.2492L95.614 32.1841ZM107.29 35.2044C109.225 35.6993 111.171 36.1943 113.129 36.6891L113.619 34.7501C111.663 34.2557 109.719 33.7612 107.785 33.2668L107.29 35.2044ZM118.949 38.1515C120.899 38.6387 122.86 39.1254 124.831 39.6115L125.31 37.6697C123.341 37.1841 121.382 36.6978 119.433 36.2112L118.949 38.1515ZM130.686 41.0467C132.622 41.518 134.567 41.9884 136.52 42.4579L136.987 40.5132C135.036 40.0443 133.093 39.5743 131.16 39.1034L130.686 41.0467ZM142.406 43.8628C144.358 44.3254 146.318 44.7868 148.287 45.2468L148.742 43.2993C146.776 42.8398 144.818 42.3788 142.868 41.9167L142.406 43.8628ZM154.131 46.6029C156.087 47.0534 158.05 47.5022 160.021 47.9493L160.463 45.9989C158.495 45.5523 156.534 45.1039 154.58 44.6539L154.131 46.6029ZM165.929 49.2793C167.874 49.7138 169.826 50.1464 171.784 50.5768L172.213 48.6235C170.257 48.1935 168.308 47.7614 166.365 47.3274L165.929 49.2793ZM177.677 51.8616C179.648 52.2877 181.625 52.7114 183.607 53.1326L184.023 51.1763C182.043 50.7556 180.068 50.3323 178.1 49.9068L177.677 51.8616ZM189.479 54.3691C191.44 54.7785 193.406 55.1852 195.378 55.5892L195.779 53.6299C193.81 53.2264 191.846 52.8202 189.887 52.4113L189.479 54.3691ZM201.307 56.7925C203.272 57.1874 205.241 57.5794 207.215 57.9683L207.602 56.006C205.63 55.6176 203.663 55.2261 201.701 54.8318L201.307 56.7925ZM213.122 59.1202C215.095 59.501 217.073 59.8785 219.054 60.2527L219.425 58.2875C217.446 57.9138 215.472 57.5367 213.501 57.1564L213.122 59.1202ZM224.992 61.3617C226.961 61.7253 228.934 62.0854 230.91 62.4418L231.265 60.4735C229.292 60.1176 227.322 59.758 225.355 59.395L224.992 61.3617ZM236.847 63.4998C238.83 63.8487 240.815 64.1938 242.804 64.5349L243.142 62.5637C241.156 62.2231 239.174 61.8785 237.194 61.5301L236.847 63.4998ZM248.739 65.5396C250.719 65.8702 252.702 66.1968 254.686 66.519L255.007 64.5448C253.025 64.2231 251.046 63.8971 249.069 63.5669L248.739 65.5396ZM260.647 67.4727C262.632 67.7857 264.619 68.0941 266.608 68.398L266.91 66.421C264.925 66.1176 262.94 65.8096 260.958 65.4971L260.647 67.4727ZM272.568 69.2939C274.556 69.5879 276.546 69.8771 278.537 70.1615L278.82 68.1816C276.832 67.8977 274.845 67.6089 272.86 67.3154L272.568 69.2939ZM284.514 70.9997C286.504 71.2738 288.496 71.5428 290.489 71.8066L290.751 69.8239C288.762 69.5605 286.774 69.292 284.786 69.0184L284.514 70.9997ZM296.47 72.5823C298.464 72.8355 300.459 73.0835 302.454 73.3259L302.695 71.3405C300.704 71.0985 298.712 70.851 296.722 70.5982L296.47 72.5823ZM308.446 74.0369C310.444 74.2684 312.443 74.4942 314.441 74.7141L314.66 72.7261C312.665 72.5066 310.671 72.2812 308.676 72.0502L308.446 74.0369ZM320.437 75.3562C322.436 75.5645 324.436 75.7667 326.434 75.9627L326.63 73.9722C324.635 73.7766 322.639 73.5748 320.644 73.367L320.437 75.3562ZM332.447 76.5337C334.451 76.7178 336.454 76.8954 338.456 77.0665L338.626 75.0738C336.629 74.903 334.63 74.7258 332.63 74.5421L332.447 76.5337ZM344.458 77.5599C346.468 77.7185 348.476 77.8703 350.482 78.0152L350.626 76.0204C348.624 75.8758 346.621 75.7244 344.616 75.5661L344.458 77.5599ZM356.506 78.4294C358.512 78.5603 360.517 78.6842 362.519 78.8007L362.636 76.8041C360.638 76.6878 358.638 76.5643 356.636 76.4336L356.506 78.4294ZM368.54 79.1293C370.556 79.2319 372.57 79.3269 374.581 79.4141L374.667 77.416C372.661 77.329 370.653 77.2342 368.642 77.1318L368.54 79.1293ZM380.606 79.6524C382.612 79.7239 384.615 79.7875 386.615 79.843L386.67 77.8437C384.676 77.7884 382.678 77.725 380.677 77.6536L380.606 79.6524ZM392.672 79.9861C394.687 80.0254 396.7 80.0563 398.708 80.0785L398.73 78.0786C396.727 78.0565 394.721 78.0257 392.711 77.9865L392.672 79.9861ZM404.723 80.1188C406.743 80.1236 408.758 80.1193 410.77 80.1059L410.756 78.1059C408.751 78.1193 406.741 78.1236 404.728 78.1189L404.723 80.1188ZM416.816 80.0375C418.827 80.0053 420.834 79.9636 422.835 79.9124L422.784 77.913C420.789 77.9641 418.789 78.0056 416.784 78.0377L416.816 80.0375ZM428.863 79.7282C430.886 79.6563 432.904 79.5743 434.916 79.4819L434.824 77.484C432.819 77.5761 430.808 77.6578 428.792 77.7295L428.863 79.7282ZM440.935 79.1737C442.942 79.0602 444.943 78.9362 446.937 78.8013L446.802 76.8059C444.815 76.9402 442.822 77.0638 440.822 77.1769L440.935 79.1737ZM452.99 78.3574C455.001 78.1982 457.005 78.0277 459.003 77.8457L458.821 75.854C456.832 76.0352 454.835 76.205 452.832 76.3636L452.99 78.3574ZM464.975 77.2651C466.996 77.056 469.01 76.8347 471.016 76.6011L470.784 74.6145C468.787 74.8472 466.782 75.0675 464.769 75.2757L464.975 77.2651ZM477.012 75.8627C479.003 75.6041 480.986 75.3328 482.96 75.0487L482.675 73.0691C480.71 73.3519 478.736 73.6219 476.754 73.8794L477.012 75.8627ZM488.963 74.1411C490.961 73.8242 492.949 73.4938 494.928 73.1495L494.586 71.1791C492.617 71.5216 490.638 71.8504 488.65 72.1658L488.963 74.1411ZM500.837 72.075C502.832 71.6963 504.817 71.303 506.791 70.8948L506.386 68.9362C504.423 69.3421 502.448 69.7334 500.464 70.1102L500.837 72.075ZM512.706 69.6205C514.666 69.1806 516.616 68.7255 518.555 68.2551L518.083 66.3115C516.156 66.7792 514.217 67.2316 512.268 67.669L512.706 69.6205ZM524.443 66.7692C526.401 66.2557 528.347 65.7259 530.281 65.1793L529.737 63.2547C527.816 63.7977 525.882 64.3243 523.936 64.8346L524.443 66.7692ZM536.044 63.4895C537.991 62.8977 539.924 62.2882 541.843 61.6608L541.222 59.7598C539.316 60.3828 537.396 60.9881 535.462 61.576L536.044 63.4895ZM547.572 59.7203C549.469 59.0547 551.351 58.3708 553.219 57.6683L552.515 55.7963C550.661 56.4935 548.793 57.1724 546.91 57.8331L547.572 59.7203ZM558.892 55.4589C560.767 54.7029 562.626 53.9272 564.469 53.1315L563.676 51.2953C561.848 52.0845 560.004 52.854 558.144 53.604L558.892 55.4589ZM569.974 50.6722C571.819 49.8197 573.647 48.9461 575.457 48.051L574.57 46.2583C572.776 47.1454 570.965 48.0114 569.135 48.8566L569.974 50.6722ZM580.833 45.3014C581.72 44.8321 582.602 44.3575 583.48 43.8773L582.52 42.1227C581.651 42.5983 580.776 43.0685 579.897 43.5335L580.833 45.3014ZM583.48 43.8773C584.388 43.3809 585.294 42.8918 586.199 42.4101L585.259 40.6447C584.347 41.13 583.434 41.6226 582.52 42.1227L583.48 43.8773ZM591.611 39.6072C593.409 38.7018 595.202 37.8251 596.99 36.9766L596.132 35.1698C594.331 36.025 592.524 36.9085 590.711 37.8208L591.611 39.6072ZM602.448 34.4655C604.318 33.6322 606.183 32.8294 608.042 32.0564L607.274 30.2097C605.399 30.9892 603.519 31.7986 601.634 32.6386L602.448 34.4655ZM613.604 29.8256C615.489 29.0971 617.369 28.3987 619.244 27.7298L618.572 25.846C616.681 26.5208 614.785 27.2253 612.883 27.96L613.604 29.8256ZM624.99 25.766C626.9 25.1418 628.805 24.5475 630.705 23.9826L630.135 22.0655C628.218 22.6356 626.296 23.2352 624.369 23.865L624.99 25.766ZM636.519 22.3404C638.479 21.816 640.433 21.3221 642.383 20.8579L641.919 18.9123C639.952 19.3808 637.979 19.8792 636.002 20.4084L636.519 22.3404ZM648.219 19.553C650.207 19.137 652.192 18.7512 654.172 18.3945L653.818 16.4261C651.819 16.7861 649.816 17.1755 647.809 17.5954L648.219 19.553ZM660.118 17.4085C662.106 17.1071 664.089 16.8343 666.069 16.5892L665.824 14.6044C663.826 14.8517 661.824 15.1269 659.818 15.4311L660.118 17.4085ZM672.085 15.9275C674.087 15.7348 676.086 15.5694 678.082 15.4305L677.943 13.4353C675.93 13.5755 673.913 13.7423 671.893 13.9368L672.085 15.9275ZM684.106 15.09C686.119 15.0022 688.13 14.9404 690.139 14.9036L690.102 12.9039C688.077 12.9411 686.049 13.0034 684.018 13.0919L684.106 15.09ZM696.161 14.8667C698.176 14.8787 700.189 14.9148 702.2 14.974L702.259 12.9749C700.232 12.9153 698.204 12.8788 696.173 12.8667L696.161 14.8667ZM708.23 15.2195C710.239 15.3237 712.246 15.4498 714.252 15.5968L714.398 13.6021C712.378 13.4541 710.357 13.3271 708.334 13.2222L708.23 15.2195ZM720.268 16.0993C722.273 16.287 724.277 16.4945 726.282 16.7207L726.506 14.7333C724.49 14.5057 722.473 14.2969 720.455 14.108L720.268 16.0993ZM732.268 17.4512C734.263 17.7125 736.259 17.9913 738.255 18.2866L738.548 16.3081C736.541 16.0113 734.535 15.7309 732.528 15.4681L732.268 17.4512ZM744.228 19.2179C746.21 19.5425 748.193 19.8822 750.177 20.2361L750.529 18.2671C748.535 17.9117 746.543 17.5704 744.551 17.2442L744.228 19.2179ZM756.135 21.339C758.107 21.7171 760.08 22.1082 762.055 22.5111L762.455 20.5515C760.472 20.147 758.491 19.7545 756.511 19.3748L756.135 21.339ZM767.974 23.7518C769.946 24.1757 771.919 24.6104 773.896 25.0549L774.334 23.1037C772.352 22.6579 770.373 22.2218 768.395 21.7965L767.974 23.7518ZM779.776 26.4038C781.739 26.8623 783.704 27.3295 785.673 27.8043L786.142 25.8601C784.169 25.3842 782.199 24.9159 780.231 24.4562L779.776 26.4038ZM791.552 29.2416C793.503 29.7247 795.457 30.2144 797.416 30.7097L797.906 28.7707C795.945 28.2748 793.987 27.7843 792.032 27.3002L791.552 29.2416ZM803.302 32.2113C805.247 32.7114 807.195 33.2161 809.148 33.7244L809.652 31.7889C807.698 31.2801 805.747 30.775 803.8 30.2743L803.302 32.2113ZM815.008 35.2561C816.963 35.7689 818.921 36.2843 820.885 36.8015L821.394 34.8675C819.43 34.3502 817.471 33.8346 815.516 33.3216L815.008 35.2561ZM826.723 38.3402C828.674 38.8542 830.63 39.3691 832.591 39.8841L833.098 37.9496C831.138 37.4349 829.183 36.9202 827.233 36.4062L826.723 38.3402ZM838.46 41.4203C840.405 41.9277 842.356 42.4342 844.313 42.939L844.812 41.0024C842.858 40.4981 840.908 39.992 838.964 39.485L838.46 41.4203ZM850.199 44.4474C852.151 44.944 854.109 45.4382 856.073 45.929L856.558 43.9886C854.597 43.4986 852.642 43.0052 850.692 42.5092L850.199 44.4474ZM861.951 47.3826C863.916 47.8634 865.888 48.34 867.865 48.8118L868.329 46.8663C866.356 46.3955 864.388 45.9198 862.426 45.4399L861.951 47.3826ZM873.755 50.1967C875.718 50.6516 877.688 51.1009 879.665 51.5439L880.102 49.5923C878.13 49.1504 876.165 48.7022 874.206 48.2483L873.755 50.1967ZM885.615 52.8531C887.579 53.277 889.549 53.6939 891.527 54.1032L891.932 52.1447C889.961 51.7366 887.995 51.3208 886.037 50.8981L885.615 52.8531ZM897.474 55.3057C899.463 55.6983 901.459 56.0826 903.463 56.4578L903.831 54.4919C901.834 54.118 899.844 53.735 897.861 53.3435L897.474 55.3057ZM909.402 57.5383C911.389 57.8891 913.384 58.2304 915.386 58.5614L915.712 56.5882C913.717 56.2584 911.73 55.9183 909.75 55.5687L909.402 57.5383ZM921.411 59.5222C923.394 59.8266 925.384 60.1205 927.382 60.403L927.662 58.4227C925.672 58.1413 923.69 57.8486 921.715 57.5454L921.411 59.5222ZM933.401 61.2163C935.413 61.4754 937.433 61.7226 939.462 61.9573L939.692 59.9705C937.672 59.7369 935.66 59.4907 933.656 59.2326L933.401 61.2163ZM945.458 62.611C947.465 62.8164 949.481 63.009 951.504 63.1883L951.681 61.1961C949.666 61.0177 947.66 60.8259 945.662 60.6214L945.458 62.611ZM957.6 63.6853C959.596 63.8338 961.6 63.969 963.613 64.0901L963.733 62.0937C961.73 61.9731 959.735 61.8387 957.748 61.6908L957.6 63.6853ZM969.674 64.4107C971.703 64.5032 973.74 64.5812 975.786 64.6439L975.848 62.6448C973.812 62.5824 971.784 62.5049 969.765 62.4128L969.674 64.4107ZM981.819 64.7839C983.831 64.8155 985.851 64.8322 987.88 64.8333L987.881 62.8333C985.862 62.8322 983.852 62.8156 981.851 62.7841L981.819 64.7839ZM993.992 64.7896C996.002 64.7597 998.02 64.7143 1000.05 64.6529L999.986 62.6538C997.97 62.7149 995.962 62.7601 993.963 62.7898L993.992 64.7896ZM1006.09 64.423C1008.11 64.3304 1010.14 64.2216 1012.18 64.0961L1012.06 62.0999C1010.03 62.2247 1008.01 62.333 1006 62.4251L1006.09 64.423ZM1018.26 63.6741C1020.25 63.5202 1022.25 63.3502 1024.26 63.1637L1024.08 61.1723C1022.08 61.3578 1020.09 61.5269 1018.11 61.68L1018.26 63.6741ZM1030.31 62.5541C1032.34 62.334 1034.37 62.0969 1036.41 61.8424L1036.17 59.8578C1034.13 60.111 1032.11 60.3468 1030.1 60.5658L1030.31 62.5541ZM1042.37 61.0541C1044.36 60.7758 1046.35 60.4808 1048.35 60.1687L1048.05 58.1925C1046.05 58.503 1044.07 58.7965 1042.09 59.0735L1042.37 61.0541ZM1054.39 59.181C1056.38 58.8394 1058.38 58.4807 1060.39 58.1048L1060.02 56.1389C1058.02 56.513 1056.03 56.8699 1054.05 57.2098L1054.39 59.181ZM1066.29 56.9562C1068.26 56.5567 1070.24 56.1403 1072.23 55.7067L1071.8 53.7526C1069.82 54.1841 1067.85 54.5984 1065.89 54.996L1066.29 56.9562ZM1078.22 54.3541C1080.17 53.8992 1082.13 53.4278 1084.09 52.9394L1083.61 50.9985C1081.66 51.4845 1079.71 51.9537 1077.77 52.4065L1078.22 54.3541ZM1089.92 51.4468C1091.88 50.9327 1093.83 50.4018 1095.8 49.854L1095.27 47.9273C1093.31 48.4727 1091.36 49.001 1089.42 49.5128L1089.92 51.4468ZM1101.73 48.1591C1103.64 47.5986 1105.55 47.0221 1107.48 46.4292L1106.89 44.5179C1104.97 45.1081 1103.06 45.6821 1101.16 46.24L1101.73 48.1591ZM1113.22 44.619C1115.14 43.9994 1117.07 43.3635 1119 42.711L1118.36 40.8158C1116.44 41.4655 1114.52 42.0987 1112.6 42.7156L1113.22 44.619ZM1124.84 40.7035C1126.71 40.0432 1128.6 39.3673 1130.49 38.6756L1129.81 36.7971C1127.92 37.486 1126.04 38.1591 1124.17 38.8167L1124.84 40.7035ZM1136.12 36.5795C1138 35.8652 1139.9 35.1352 1141.79 34.3893L1141.06 32.5279C1139.17 33.2709 1137.29 33.998 1135.41 34.7095L1136.12 36.5795ZM1147.51 32.1034C1148.46 31.7143 1149.42 31.3212 1150.38 30.924L1149.62 29.076C1148.66 29.4717 1147.71 29.8633 1146.75 30.2509L1147.51 32.1034Z"/>
+                        </svg>
+                    </div>
+                                                <div class="row gutter-y-30 justify-content-center">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="work__item-two text-center">
+                                                            <div class="work__icon-two"><i class="flaticon-health-insurance"></i></div>
+                                                            <div class="work__content-two">
+                                                                <span class="work__step">Step-01</span>
+                                                                <h3 class="title">Discovery</h3>
+                                                                <p>Audience Review</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="work__item-two text-center">
+                                                            <div class="work__icon-two"><i class="flaticon-growth"></i></div>
+                                                            <div class="work__content-two">
+                                                                <span class="work__step">Step-02</span>
+                                                                <h3 class="title">Strategy &amp; Content Plan</h3>
+                                                                <p>Clear Roadmap</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="work__item-two text-center">
+                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
+                                                            <div class="work__content-two">
+                                                                <span class="work__step">Step-03</span>
+                                                                <h3 class="title">Build &amp; Launch</h3>
+                                                                <p>Campaign Delivery</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="work__item-two text-center">
+                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
+                                                            <div class="work__content-two">
+                                                                <span class="work__step">Step-04</span>
+                                                                <h3 class="title">Optimize &amp; Report</h3>
+                                                                <p>Measured Growth</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                        <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
+                                                        <p>Choosing Virtuo for brand strategy &amp; positioning gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
+                                                        <p>Our Advantages :</p>
+                                                        <ul class="list-wrap about__list-item-two">
+                                                            <li>Strategy before execution</li>
+                                                            <li>Brand-consistent content</li>
+                                                            <li>Conversion-focused digital assets</li>
+                                                            <li>Clear reporting and performance tracking</li>
+                                                            <li>Ongoing optimization support</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- work-area-end -->
+                                    <!-- faq-area -->
+                                    <section class="faq__area-three">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-6">
+                                                    <div class="section__title text-center mb-50">
+                                                        <span class="sub-title">FREQUENTLY ASKED QUESTIONS</span>
+                                                        <h2 class="title">Got any questions?</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-center">
+                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                    <div class="faq__wrap faq__wrap-three">
+                                                        <div class="accordion" id="marketing-solutions-brand-strategy-and-positioning-accordion">
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-brand-strategy-and-positioning-collapseOne" aria-expanded="true" aria-controls="marketing-solutions-brand-strategy-and-positioning-collapseOne">1. What is included in Brand Strategy &amp; Positioning?</button>
+                                                                </h2>
+                                                                <div id="marketing-solutions-brand-strategy-and-positioning-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#marketing-solutions-brand-strategy-and-positioning-accordion">
+                                                                    <div class="accordion-body">
+                                                                        <p>Scope depends on the selected plan, but we define deliverables clearly before launch.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-brand-strategy-and-positioning-collapseTwo" aria-expanded="false" aria-controls="marketing-solutions-brand-strategy-and-positioning-collapseTwo">2. How do you measure performance?</button>
+                                                                </h2>
+                                                                <div id="marketing-solutions-brand-strategy-and-positioning-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-brand-strategy-and-positioning-accordion">
+                                                                    <div class="accordion-body">
+                                                                        <p>We track relevant metrics such as leads, traffic, engagement, conversion rate, and campaign outcomes.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-brand-strategy-and-positioning-collapseThree" aria-expanded="false" aria-controls="marketing-solutions-brand-strategy-and-positioning-collapseThree">3. Can you work with our existing brand?</button>
+                                                                </h2>
+                                                                <div id="marketing-solutions-brand-strategy-and-positioning-collapseThree" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-brand-strategy-and-positioning-accordion">
+                                                                    <div class="accordion-body">
+                                                                        <p>Yes. We can improve existing assets or develop a stronger direction when needed.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-brand-strategy-and-positioning-collapseFour" aria-expanded="false" aria-controls="marketing-solutions-brand-strategy-and-positioning-collapseFour">4. Is ongoing support available?</button>
+                                                                </h2>
+                                                                <div id="marketing-solutions-brand-strategy-and-positioning-collapseFour" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-brand-strategy-and-positioning-accordion">
+                                                                    <div class="accordion-body">
+                                                                        <p>Yes. We support monthly optimization, reporting, content updates, and campaign improvements.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="faq__shape-wrap"></div>
+                                    </section>
+                                    <!-- faq-area-end -->
+                                </div>
+                            </div>
+                            <!-- Brand Strategy &amp; Positioning Tab Panel End --><!-- Brand Strategy &amp; Positioning Tab Panel End -->
+                            <!-- Analytics &amp; Performance Marketing Tab Panel -->
+                            <div class="service-tab-panel" id="marketing-solutions-analytics-and-performance-marketing" data-service-panel="marketing-solutions-analytics-and-performance-marketing">
+                                <div class="services__details-wrap">
+                                    <div class="services__details-content-top">
+                                        <p style="margin-bottom: 15px;">Analytics &amp; Performance Marketing In The UAE</p>
+                                        <h2 class="title">Analytics &amp; Performance Marketing Built Around Your Business Needs</h2>
+                                        <p>Analytics &amp; Performance Marketing requires careful planning, accurate documentation, and timely coordination with the right digital platforms, creative workflows, and business goals.</p>
+                                        <p>Virtuo supports every step of analytics &amp; performance marketing, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
+                                    </div>
+                                    <div class="services__details-thumb">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Analytics &amp; Performance Marketing">
+                                    </div>
+                                    <div class="services__details-content">
+                                        <h2 class="title-two">Our Analytics &amp; Performance Marketing Support Includes</h2>
+                                        <p class="info-one"><b>1. Analytics &amp; Performance Marketing Discovery And Audit</b></p>
+                                        <p class="info-two">We review your current brand, website, audience, channels, and commercial goals before planning analytics &amp; performance marketing.</p>
+                                        <p class="info-one"><b>2. Analytics &amp; Performance Marketing Strategy Development</b></p>
+                                        <p class="info-two">We define the message, offer, content direction, conversion path, and campaign priorities.</p>
+                                        <p class="info-one"><b>3. Analytics &amp; Performance Marketing Creative And Content Production</b></p>
+                                        <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p>
+                                        <p class="info-one"><b>4. Analytics &amp; Performance Marketing Implementation And Launch</b></p>
+                                        <p class="info-two">We build, configure, publish, and launch the required digital assets or campaigns.</p>
+                                        <p class="info-one"><b>5. Analytics &amp; Performance Marketing Tracking And Reporting</b></p>
+                                        <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
+                                        <p class="info-one"><b>6. Analytics &amp; Performance Marketing Optimization Support</b></p>
+                                        <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
+                                        <div class="services__details-inner-images">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="img-one">
+                                                        <img src="assets/img/services/services_img01.jpg" alt="Analytics &amp; Performance Marketing">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="img-two">
+                                                        <img src="assets/img/services/services_img02.jpg" alt="Analytics &amp; Performance Marketing">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- work-area -->
+                                    <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xl-6 col-lg-8">
+                                                    <div class="section__title text-center mb-60">
+                                                        <span class="sub-title">Our Working Portfolio</span>
+                                                        <h2 class="title">Your Brand Growth Journey, Simplified</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="work__item-wrap-two">
+                                                <div class="work__line-shape">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1151" height="81" viewBox="0 0 1151 81" fill="currentColor">
+                            <path class="dashed1" stroke-width="3" d="M0.666667 6C0.666667 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666667 0.666667 3.05448 0.666667 6ZM583 43L582.52 42.1227L583 43ZM1150.92 30.383C1151.14 29.8728 1150.89 29.2878 1150.38 29.0763L1142.07 25.6291C1141.56 25.4176 1140.97 25.6597 1140.76 26.1698C1140.55 26.68 1140.79 27.2651 1141.3 27.4766L1148.69 30.5407L1145.63 37.9307C1145.42 38.4408 1145.66 39.0259 1146.17 39.2374C1146.68 39.449 1147.27 39.2069 1147.48 38.6967L1150.92 30.383ZM5.7166 6.959C6.64171 7.23238 7.57599 7.50825 8.51932 7.78651L9.08517 5.86823C8.14218 5.59007 7.20822 5.31429 6.2834 5.041L5.7166 6.959ZM14.2869 9.4842C16.1947 10.0445 18.1359 10.6132 20.1096 11.1898L20.6704 9.27004C18.6977 8.69374 16.7574 8.12527 14.8505 7.56524L14.2869 9.4842ZM25.8481 12.8614C27.7816 13.4229 29.7436 13.991 31.7334 14.5651L32.2879 12.6435C30.2992 12.0698 28.3383 11.502 26.4059 10.9408L25.8481 12.8614ZM37.434 16.2043C39.3585 16.7558 41.3069 17.3121 43.2788 17.8729L43.8259 15.9492C41.8554 15.3888 39.9082 14.8328 37.985 14.2817L37.434 16.2043ZM49.0598 19.5107C50.9675 20.049 52.8956 20.5909 54.8434 21.1361L55.3825 19.2101C53.436 18.6653 51.5093 18.1238 49.603 17.5858L49.0598 19.5107ZM60.7344 22.7776C62.6271 23.3027 64.5374 23.8304 66.4646 24.3604L66.9949 22.432C65.0691 21.9024 63.1604 21.3751 61.269 20.8504L60.7344 22.7776ZM72.2966 25.9567C74.2306 26.4836 76.1807 27.0123 78.1463 27.5426L78.6673 25.6117C76.7033 25.0818 74.7548 24.5535 72.8223 24.027L72.2966 25.9567ZM83.92 29.0927C85.859 29.6106 87.8123 30.1298 89.7794 30.6498L90.2906 28.7162C88.3251 28.1966 86.3735 27.6779 84.4362 27.1604L83.92 29.0927ZM95.614 32.1841C97.5355 32.6867 99.4695 33.1898 101.416 33.6933L101.916 31.7571C99.9721 31.254 98.0399 30.7513 96.1201 30.2492L95.614 32.1841ZM107.29 35.2044C109.225 35.6993 111.171 36.1943 113.129 36.6891L113.619 34.7501C111.663 34.2557 109.719 33.7612 107.785 33.2668L107.29 35.2044ZM118.949 38.1515C120.899 38.6387 122.86 39.1254 124.831 39.6115L125.31 37.6697C123.341 37.1841 121.382 36.6978 119.433 36.2112L118.949 38.1515ZM130.686 41.0467C132.622 41.518 134.567 41.9884 136.52 42.4579L136.987 40.5132C135.036 40.0443 133.093 39.5743 131.16 39.1034L130.686 41.0467ZM142.406 43.8628C144.358 44.3254 146.318 44.7868 148.287 45.2468L148.742 43.2993C146.776 42.8398 144.818 42.3788 142.868 41.9167L142.406 43.8628ZM154.131 46.6029C156.087 47.0534 158.05 47.5022 160.021 47.9493L160.463 45.9989C158.495 45.5523 156.534 45.1039 154.58 44.6539L154.131 46.6029ZM165.929 49.2793C167.874 49.7138 169.826 50.1464 171.784 50.5768L172.213 48.6235C170.257 48.1935 168.308 47.7614 166.365 47.3274L165.929 49.2793ZM177.677 51.8616C179.648 52.2877 181.625 52.7114 183.607 53.1326L184.023 51.1763C182.043 50.7556 180.068 50.3323 178.1 49.9068L177.677 51.8616ZM189.479 54.3691C191.44 54.7785 193.406 55.1852 195.378 55.5892L195.779 53.6299C193.81 53.2264 191.846 52.8202 189.887 52.4113L189.479 54.3691ZM201.307 56.7925C203.272 57.1874 205.241 57.5794 207.215 57.9683L207.602 56.006C205.63 55.6176 203.663 55.2261 201.701 54.8318L201.307 56.7925ZM213.122 59.1202C215.095 59.501 217.073 59.8785 219.054 60.2527L219.425 58.2875C217.446 57.9138 215.472 57.5367 213.501 57.1564L213.122 59.1202ZM224.992 61.3617C226.961 61.7253 228.934 62.0854 230.91 62.4418L231.265 60.4735C229.292 60.1176 227.322 59.758 225.355 59.395L224.992 61.3617ZM236.847 63.4998C238.83 63.8487 240.815 64.1938 242.804 64.5349L243.142 62.5637C241.156 62.2231 239.174 61.8785 237.194 61.5301L236.847 63.4998ZM248.739 65.5396C250.719 65.8702 252.702 66.1968 254.686 66.519L255.007 64.5448C253.025 64.2231 251.046 63.8971 249.069 63.5669L248.739 65.5396ZM260.647 67.4727C262.632 67.7857 264.619 68.0941 266.608 68.398L266.91 66.421C264.925 66.1176 262.94 65.8096 260.958 65.4971L260.647 67.4727ZM272.568 69.2939C274.556 69.5879 276.546 69.8771 278.537 70.1615L278.82 68.1816C276.832 67.8977 274.845 67.6089 272.86 67.3154L272.568 69.2939ZM284.514 70.9997C286.504 71.2738 288.496 71.5428 290.489 71.8066L290.751 69.8239C288.762 69.5605 286.774 69.292 284.786 69.0184L284.514 70.9997ZM296.47 72.5823C298.464 72.8355 300.459 73.0835 302.454 73.3259L302.695 71.3405C300.704 71.0985 298.712 70.851 296.722 70.5982L296.47 72.5823ZM308.446 74.0369C310.444 74.2684 312.443 74.4942 314.441 74.7141L314.66 72.7261C312.665 72.5066 310.671 72.2812 308.676 72.0502L308.446 74.0369ZM320.437 75.3562C322.436 75.5645 324.436 75.7667 326.434 75.9627L326.63 73.9722C324.635 73.7766 322.639 73.5748 320.644 73.367L320.437 75.3562ZM332.447 76.5337C334.451 76.7178 336.454 76.8954 338.456 77.0665L338.626 75.0738C336.629 74.903 334.63 74.7258 332.63 74.5421L332.447 76.5337ZM344.458 77.5599C346.468 77.7185 348.476 77.8703 350.482 78.0152L350.626 76.0204C348.624 75.8758 346.621 75.7244 344.616 75.5661L344.458 77.5599ZM356.506 78.4294C358.512 78.5603 360.517 78.6842 362.519 78.8007L362.636 76.8041C360.638 76.6878 358.638 76.5643 356.636 76.4336L356.506 78.4294ZM368.54 79.1293C370.556 79.2319 372.57 79.3269 374.581 79.4141L374.667 77.416C372.661 77.329 370.653 77.2342 368.642 77.1318L368.54 79.1293ZM380.606 79.6524C382.612 79.7239 384.615 79.7875 386.615 79.843L386.67 77.8437C384.676 77.7884 382.678 77.725 380.677 77.6536L380.606 79.6524ZM392.672 79.9861C394.687 80.0254 396.7 80.0563 398.708 80.0785L398.73 78.0786C396.727 78.0565 394.721 78.0257 392.711 77.9865L392.672 79.9861ZM404.723 80.1188C406.743 80.1236 408.758 80.1193 410.77 80.1059L410.756 78.1059C408.751 78.1193 406.741 78.1236 404.728 78.1189L404.723 80.1188ZM416.816 80.0375C418.827 80.0053 420.834 79.9636 422.835 79.9124L422.784 77.913C420.789 77.9641 418.789 78.0056 416.784 78.0377L416.816 80.0375ZM428.863 79.7282C430.886 79.6563 432.904 79.5743 434.916 79.4819L434.824 77.484C432.819 77.5761 430.808 77.6578 428.792 77.7295L428.863 79.7282ZM440.935 79.1737C442.942 79.0602 444.943 78.9362 446.937 78.8013L446.802 76.8059C444.815 76.9402 442.822 77.0638 440.822 77.1769L440.935 79.1737ZM452.99 78.3574C455.001 78.1982 457.005 78.0277 459.003 77.8457L458.821 75.854C456.832 76.0352 454.835 76.205 452.832 76.3636L452.99 78.3574ZM464.975 77.2651C466.996 77.056 469.01 76.8347 471.016 76.6011L470.784 74.6145C468.787 74.8472 466.782 75.0675 464.769 75.2757L464.975 77.2651ZM477.012 75.8627C479.003 75.6041 480.986 75.3328 482.96 75.0487L482.675 73.0691C480.71 73.3519 478.736 73.6219 476.754 73.8794L477.012 75.8627ZM488.963 74.1411C490.961 73.8242 492.949 73.4938 494.928 73.1495L494.586 71.1791C492.617 71.5216 490.638 71.8504 488.65 72.1658L488.963 74.1411ZM500.837 72.075C502.832 71.6963 504.817 71.303 506.791 70.8948L506.386 68.9362C504.423 69.3421 502.448 69.7334 500.464 70.1102L500.837 72.075ZM512.706 69.6205C514.666 69.1806 516.616 68.7255 518.555 68.2551L518.083 66.3115C516.156 66.7792 514.217 67.2316 512.268 67.669L512.706 69.6205ZM524.443 66.7692C526.401 66.2557 528.347 65.7259 530.281 65.1793L529.737 63.2547C527.816 63.7977 525.882 64.3243 523.936 64.8346L524.443 66.7692ZM536.044 63.4895C537.991 62.8977 539.924 62.2882 541.843 61.6608L541.222 59.7598C539.316 60.3828 537.396 60.9881 535.462 61.576L536.044 63.4895ZM547.572 59.7203C549.469 59.0547 551.351 58.3708 553.219 57.6683L552.515 55.7963C550.661 56.4935 548.793 57.1724 546.91 57.8331L547.572 59.7203ZM558.892 55.4589C560.767 54.7029 562.626 53.9272 564.469 53.1315L563.676 51.2953C561.848 52.0845 560.004 52.854 558.144 53.604L558.892 55.4589ZM569.974 50.6722C571.819 49.8197 573.647 48.9461 575.457 48.051L574.57 46.2583C572.776 47.1454 570.965 48.0114 569.135 48.8566L569.974 50.6722ZM580.833 45.3014C581.72 44.8321 582.602 44.3575 583.48 43.8773L582.52 42.1227C581.651 42.5983 580.776 43.0685 579.897 43.5335L580.833 45.3014ZM583.48 43.8773C584.388 43.3809 585.294 42.8918 586.199 42.4101L585.259 40.6447C584.347 41.13 583.434 41.6226 582.52 42.1227L583.48 43.8773ZM591.611 39.6072C593.409 38.7018 595.202 37.8251 596.99 36.9766L596.132 35.1698C594.331 36.025 592.524 36.9085 590.711 37.8208L591.611 39.6072ZM602.448 34.4655C604.318 33.6322 606.183 32.8294 608.042 32.0564L607.274 30.2097C605.399 30.9892 603.519 31.7986 601.634 32.6386L602.448 34.4655ZM613.604 29.8256C615.489 29.0971 617.369 28.3987 619.244 27.7298L618.572 25.846C616.681 26.5208 614.785 27.2253 612.883 27.96L613.604 29.8256ZM624.99 25.766C626.9 25.1418 628.805 24.5475 630.705 23.9826L630.135 22.0655C628.218 22.6356 626.296 23.2352 624.369 23.865L624.99 25.766ZM636.519 22.3404C638.479 21.816 640.433 21.3221 642.383 20.8579L641.919 18.9123C639.952 19.3808 637.979 19.8792 636.002 20.4084L636.519 22.3404ZM648.219 19.553C650.207 19.137 652.192 18.7512 654.172 18.3945L653.818 16.4261C651.819 16.7861 649.816 17.1755 647.809 17.5954L648.219 19.553ZM660.118 17.4085C662.106 17.1071 664.089 16.8343 666.069 16.5892L665.824 14.6044C663.826 14.8517 661.824 15.1269 659.818 15.4311L660.118 17.4085ZM672.085 15.9275C674.087 15.7348 676.086 15.5694 678.082 15.4305L677.943 13.4353C675.93 13.5755 673.913 13.7423 671.893 13.9368L672.085 15.9275ZM684.106 15.09C686.119 15.0022 688.13 14.9404 690.139 14.9036L690.102 12.9039C688.077 12.9411 686.049 13.0034 684.018 13.0919L684.106 15.09ZM696.161 14.8667C698.176 14.8787 700.189 14.9148 702.2 14.974L702.259 12.9749C700.232 12.9153 698.204 12.8788 696.173 12.8667L696.161 14.8667ZM708.23 15.2195C710.239 15.3237 712.246 15.4498 714.252 15.5968L714.398 13.6021C712.378 13.4541 710.357 13.3271 708.334 13.2222L708.23 15.2195ZM720.268 16.0993C722.273 16.287 724.277 16.4945 726.282 16.7207L726.506 14.7333C724.49 14.5057 722.473 14.2969 720.455 14.108L720.268 16.0993ZM732.268 17.4512C734.263 17.7125 736.259 17.9913 738.255 18.2866L738.548 16.3081C736.541 16.0113 734.535 15.7309 732.528 15.4681L732.268 17.4512ZM744.228 19.2179C746.21 19.5425 748.193 19.8822 750.177 20.2361L750.529 18.2671C748.535 17.9117 746.543 17.5704 744.551 17.2442L744.228 19.2179ZM756.135 21.339C758.107 21.7171 760.08 22.1082 762.055 22.5111L762.455 20.5515C760.472 20.147 758.491 19.7545 756.511 19.3748L756.135 21.339ZM767.974 23.7518C769.946 24.1757 771.919 24.6104 773.896 25.0549L774.334 23.1037C772.352 22.6579 770.373 22.2218 768.395 21.7965L767.974 23.7518ZM779.776 26.4038C781.739 26.8623 783.704 27.3295 785.673 27.8043L786.142 25.8601C784.169 25.3842 782.199 24.9159 780.231 24.4562L779.776 26.4038ZM791.552 29.2416C793.503 29.7247 795.457 30.2144 797.416 30.7097L797.906 28.7707C795.945 28.2748 793.987 27.7843 792.032 27.3002L791.552 29.2416ZM803.302 32.2113C805.247 32.7114 807.195 33.2161 809.148 33.7244L809.652 31.7889C807.698 31.2801 805.747 30.775 803.8 30.2743L803.302 32.2113ZM815.008 35.2561C816.963 35.7689 818.921 36.2843 820.885 36.8015L821.394 34.8675C819.43 34.3502 817.471 33.8346 815.516 33.3216L815.008 35.2561ZM826.723 38.3402C828.674 38.8542 830.63 39.3691 832.591 39.8841L833.098 37.9496C831.138 37.4349 829.183 36.9202 827.233 36.4062L826.723 38.3402ZM838.46 41.4203C840.405 41.9277 842.356 42.4342 844.313 42.939L844.812 41.0024C842.858 40.4981 840.908 39.992 838.964 39.485L838.46 41.4203ZM850.199 44.4474C852.151 44.944 854.109 45.4382 856.073 45.929L856.558 43.9886C854.597 43.4986 852.642 43.0052 850.692 42.5092L850.199 44.4474ZM861.951 47.3826C863.916 47.8634 865.888 48.34 867.865 48.8118L868.329 46.8663C866.356 46.3955 864.388 45.9198 862.426 45.4399L861.951 47.3826ZM873.755 50.1967C875.718 50.6516 877.688 51.1009 879.665 51.5439L880.102 49.5923C878.13 49.1504 876.165 48.7022 874.206 48.2483L873.755 50.1967ZM885.615 52.8531C887.579 53.277 889.549 53.6939 891.527 54.1032L891.932 52.1447C889.961 51.7366 887.995 51.3208 886.037 50.8981L885.615 52.8531ZM897.474 55.3057C899.463 55.6983 901.459 56.0826 903.463 56.4578L903.831 54.4919C901.834 54.118 899.844 53.735 897.861 53.3435L897.474 55.3057ZM909.402 57.5383C911.389 57.8891 913.384 58.2304 915.386 58.5614L915.712 56.5882C913.717 56.2584 911.73 55.9183 909.75 55.5687L909.402 57.5383ZM921.411 59.5222C923.394 59.8266 925.384 60.1205 927.382 60.403L927.662 58.4227C925.672 58.1413 923.69 57.8486 921.715 57.5454L921.411 59.5222ZM933.401 61.2163C935.413 61.4754 937.433 61.7226 939.462 61.9573L939.692 59.9705C937.672 59.7369 935.66 59.4907 933.656 59.2326L933.401 61.2163ZM945.458 62.611C947.465 62.8164 949.481 63.009 951.504 63.1883L951.681 61.1961C949.666 61.0177 947.66 60.8259 945.662 60.6214L945.458 62.611ZM957.6 63.6853C959.596 63.8338 961.6 63.969 963.613 64.0901L963.733 62.0937C961.73 61.9731 959.735 61.8387 957.748 61.6908L957.6 63.6853ZM969.674 64.4107C971.703 64.5032 973.74 64.5812 975.786 64.6439L975.848 62.6448C973.812 62.5824 971.784 62.5049 969.765 62.4128L969.674 64.4107ZM981.819 64.7839C983.831 64.8155 985.851 64.8322 987.88 64.8333L987.881 62.8333C985.862 62.8322 983.852 62.8156 981.851 62.7841L981.819 64.7839ZM993.992 64.7896C996.002 64.7597 998.02 64.7143 1000.05 64.6529L999.986 62.6538C997.97 62.7149 995.962 62.7601 993.963 62.7898L993.992 64.7896ZM1006.09 64.423C1008.11 64.3304 1010.14 64.2216 1012.18 64.0961L1012.06 62.0999C1010.03 62.2247 1008.01 62.333 1006 62.4251L1006.09 64.423ZM1018.26 63.6741C1020.25 63.5202 1022.25 63.3502 1024.26 63.1637L1024.08 61.1723C1022.08 61.3578 1020.09 61.5269 1018.11 61.68L1018.26 63.6741ZM1030.31 62.5541C1032.34 62.334 1034.37 62.0969 1036.41 61.8424L1036.17 59.8578C1034.13 60.111 1032.11 60.3468 1030.1 60.5658L1030.31 62.5541ZM1042.37 61.0541C1044.36 60.7758 1046.35 60.4808 1048.35 60.1687L1048.05 58.1925C1046.05 58.503 1044.07 58.7965 1042.09 59.0735L1042.37 61.0541ZM1054.39 59.181C1056.38 58.8394 1058.38 58.4807 1060.39 58.1048L1060.02 56.1389C1058.02 56.513 1056.03 56.8699 1054.05 57.2098L1054.39 59.181ZM1066.29 56.9562C1068.26 56.5567 1070.24 56.1403 1072.23 55.7067L1071.8 53.7526C1069.82 54.1841 1067.85 54.5984 1065.89 54.996L1066.29 56.9562ZM1078.22 54.3541C1080.17 53.8992 1082.13 53.4278 1084.09 52.9394L1083.61 50.9985C1081.66 51.4845 1079.71 51.9537 1077.77 52.4065L1078.22 54.3541ZM1089.92 51.4468C1091.88 50.9327 1093.83 50.4018 1095.8 49.854L1095.27 47.9273C1093.31 48.4727 1091.36 49.001 1089.42 49.5128L1089.92 51.4468ZM1101.73 48.1591C1103.64 47.5986 1105.55 47.0221 1107.48 46.4292L1106.89 44.5179C1104.97 45.1081 1103.06 45.6821 1101.16 46.24L1101.73 48.1591ZM1113.22 44.619C1115.14 43.9994 1117.07 43.3635 1119 42.711L1118.36 40.8158C1116.44 41.4655 1114.52 42.0987 1112.6 42.7156L1113.22 44.619ZM1124.84 40.7035C1126.71 40.0432 1128.6 39.3673 1130.49 38.6756L1129.81 36.7971C1127.92 37.486 1126.04 38.1591 1124.17 38.8167L1124.84 40.7035ZM1136.12 36.5795C1138 35.8652 1139.9 35.1352 1141.79 34.3893L1141.06 32.5279C1139.17 33.2709 1137.29 33.998 1135.41 34.7095L1136.12 36.5795ZM1147.51 32.1034C1148.46 31.7143 1149.42 31.3212 1150.38 30.924L1149.62 29.076C1148.66 29.4717 1147.71 29.8633 1146.75 30.2509L1147.51 32.1034Z"/>
+                        </svg>
+                    </div>
+                                                <div class="row gutter-y-30 justify-content-center">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="work__item-two text-center">
+                                                            <div class="work__icon-two"><i class="flaticon-health-insurance"></i></div>
+                                                            <div class="work__content-two">
+                                                                <span class="work__step">Step-01</span>
+                                                                <h3 class="title">Discovery</h3>
+                                                                <p>Audience Review</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="work__item-two text-center">
+                                                            <div class="work__icon-two"><i class="flaticon-growth"></i></div>
+                                                            <div class="work__content-two">
+                                                                <span class="work__step">Step-02</span>
+                                                                <h3 class="title">Strategy &amp; Content Plan</h3>
+                                                                <p>Clear Roadmap</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="work__item-two text-center">
+                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
+                                                            <div class="work__content-two">
+                                                                <span class="work__step">Step-03</span>
+                                                                <h3 class="title">Build &amp; Launch</h3>
+                                                                <p>Campaign Delivery</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="work__item-two text-center">
+                                                            <div class="work__icon-two"><i class="flaticon-handshake"></i></div>
+                                                            <div class="work__content-two">
+                                                                <span class="work__step">Step-04</span>
+                                                                <h3 class="title">Optimize &amp; Report</h3>
+                                                                <p>Measured Growth</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                        <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
+                                                        <p>Choosing Virtuo for analytics &amp; performance marketing gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
+                                                        <p>Our Advantages :</p>
+                                                        <ul class="list-wrap about__list-item-two">
+                                                            <li>Strategy before execution</li>
+                                                            <li>Brand-consistent content</li>
+                                                            <li>Conversion-focused digital assets</li>
+                                                            <li>Clear reporting and performance tracking</li>
+                                                            <li>Ongoing optimization support</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- work-area-end -->
+                                    <!-- faq-area -->
+                                    <section class="faq__area-three">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-6">
+                                                    <div class="section__title text-center mb-50">
+                                                        <span class="sub-title">FREQUENTLY ASKED QUESTIONS</span>
+                                                        <h2 class="title">Got any questions?</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-center">
+                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                    <div class="faq__wrap faq__wrap-three">
+                                                        <div class="accordion" id="marketing-solutions-analytics-and-performance-marketing-accordion">
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-analytics-and-performance-marketing-collapseOne" aria-expanded="true" aria-controls="marketing-solutions-analytics-and-performance-marketing-collapseOne">1. What is included in Analytics &amp; Performance Marketing?</button>
+                                                                </h2>
+                                                                <div id="marketing-solutions-analytics-and-performance-marketing-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#marketing-solutions-analytics-and-performance-marketing-accordion">
+                                                                    <div class="accordion-body">
+                                                                        <p>Scope depends on the selected plan, but we define deliverables clearly before launch.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-analytics-and-performance-marketing-collapseTwo" aria-expanded="false" aria-controls="marketing-solutions-analytics-and-performance-marketing-collapseTwo">2. How do you measure performance?</button>
+                                                                </h2>
+                                                                <div id="marketing-solutions-analytics-and-performance-marketing-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-analytics-and-performance-marketing-accordion">
+                                                                    <div class="accordion-body">
+                                                                        <p>We track relevant metrics such as leads, traffic, engagement, conversion rate, and campaign outcomes.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-analytics-and-performance-marketing-collapseThree" aria-expanded="false" aria-controls="marketing-solutions-analytics-and-performance-marketing-collapseThree">3. Can you work with our existing brand?</button>
+                                                                </h2>
+                                                                <div id="marketing-solutions-analytics-and-performance-marketing-collapseThree" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-analytics-and-performance-marketing-accordion">
+                                                                    <div class="accordion-body">
+                                                                        <p>Yes. We can improve existing assets or develop a stronger direction when needed.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-analytics-and-performance-marketing-collapseFour" aria-expanded="false" aria-controls="marketing-solutions-analytics-and-performance-marketing-collapseFour">4. Is ongoing support available?</button>
+                                                                </h2>
+                                                                <div id="marketing-solutions-analytics-and-performance-marketing-collapseFour" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-analytics-and-performance-marketing-accordion">
+                                                                    <div class="accordion-body">
+                                                                        <p>Yes. We support monthly optimization, reporting, content updates, and campaign improvements.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="faq__shape-wrap"></div>
+                                    </section>
+                                    <!-- faq-area-end -->
+                                </div>
+                            </div>
+                            <!-- Analytics &amp; Performance Marketing Tab Panel End --><!-- Analytics &amp; Performance Marketing Tab Panel End -->
                         </div>
                         <div class="col-30">
                             <aside class="services__sidebar">
@@ -966,8 +785,8 @@
                                     <div class="sidebar__cat-list">
                                         <ul class="list-wrap">
                                             <li>
-                                                <a href="#mainland" class="service-tab-link is-active" data-service-tab="mainland">
-                                                    Mainland Business Setup
+                                                <a href="#marketing-solutions-paid-advertising-meta-and-google-ads" class="service-tab-link is-active" data-service-tab="marketing-solutions-paid-advertising-meta-and-google-ads">
+                                                    Paid Advertising (Meta &amp; Google Ads)
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
                                                             <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -976,8 +795,8 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#freezone" class="service-tab-link" data-service-tab="freezone">
-                                                    Free Zone Business Setup
+                                                <a href="#marketing-solutions-content-marketing" class="service-tab-link" data-service-tab="marketing-solutions-content-marketing">
+                                                    Content Marketing
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
                                                             <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -986,8 +805,8 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#offshore" class="service-tab-link" data-service-tab="offshore">
-                                                    Offshore Business Setup
+                                                <a href="#marketing-solutions-brand-strategy-and-positioning" class="service-tab-link" data-service-tab="marketing-solutions-brand-strategy-and-positioning">
+                                                    Brand Strategy &amp; Positioning
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
                                                             <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -996,18 +815,8 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#virtual" class="service-tab-link" data-service-tab="virtual">
-                                                    Virtual Office
-                                                    <span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#business-bank-account-opening" class="service-tab-link" data-service-tab="business-bank-account-opening">
-                                                    Business Bank Account Opening
+                                                <a href="#marketing-solutions-analytics-and-performance-marketing" class="service-tab-link" data-service-tab="marketing-solutions-analytics-and-performance-marketing">
+                                                    Analytics &amp; Performance Marketing
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
                                                             <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
