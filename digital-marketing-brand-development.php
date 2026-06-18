@@ -27,23 +27,13 @@
         <!-- main-area -->
         <main class="main-area fix">
             <!-- breadcrumb-area -->
-            <section class="breadcrumb__area">
-                <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg" style="background-size:cover; background-repeat: no-repeat;"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="breadcrumb__content">
-                                <h2 class="title">Digital Marketing &amp; Brand Development</h2>
-                                <nav class="breadcrumb">
-                                    <span property="itemListElement" typeof="ListItem"><a href="index-5.php">Home</a></span>
-                                    <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
-                                    <span property="itemListElement" typeof="ListItem">Digital Marketing &amp; Brand Development</span>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <?php
+    $breadcrumbPageTitle = 'Digital Marketing & Brand Development';
+    $breadcrumbPageUrl = 'digital-marketing-brand-development.php';
+    $breadcrumbDefaultMain = 'Web & Digital Solutions';
+
+    include __DIR__ . '/partials/service-breadcrumb.php';
+    ?>
             <!-- breadcrumb-area-end -->
 
 
@@ -860,50 +850,168 @@
                         <div class="col-30">
                             <aside class="services__sidebar">
                                 <div class="sidebar__widget">
-                                    <div class="sidebar__cat-list">
-                                        <ul class="list-wrap">
-                                            <li>
-                                                <a href="#digital-marketing-brand-development-web-and-digital-solutions" class="service-tab-link is-active" data-service-tab="digital-marketing-brand-development-web-and-digital-solutions">
-                                                    Web &amp; Digital Solutions
-                                                    <span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#digital-marketing-brand-development-brand-development" class="service-tab-link" data-service-tab="digital-marketing-brand-development-brand-development">
-                                                    Brand Development
-                                                    <span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#digital-marketing-brand-development-social-media-management" class="service-tab-link" data-service-tab="digital-marketing-brand-development-social-media-management">
-                                                    Social Media Management
-                                                    <span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#digital-marketing-brand-development-marketing-solutions" class="service-tab-link" data-service-tab="digital-marketing-brand-development-marketing-solutions">
-                                                    Marketing Solutions
-                                                    <span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-                                                            <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <!-- SideBar Starts Here   -->
+                                <div class="sidebar__cat-list digital-service-tabs">
+    <ul class="list-wrap digital-service-main-list">
+
+        <!-- Web & Digital Solutions -->
+        <li class="digital-service-main-item">
+            <a href="#digital-marketing-brand-development-web-and-digital-solutions"
+               class="digital-service-main-link"
+               data-service-tab="digital-marketing-brand-development-web-and-digital-solutions">
+                Web &amp; Digital Solutions
+                <span class="digital-service-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                        <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </a>
+
+            <ul class="digital-service-sub-list">
+                <li>
+                    <a href="#web-digital-solutions-website-design"
+                       class="digital-service-sub-link"
+                       data-parent-tab="digital-marketing-brand-development-web-and-digital-solutions">
+                        Website Design (UI/UX)
+                        <span class="digital-service-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#web-digital-solutions-website-development"
+                       class="digital-service-sub-link"
+                       data-parent-tab="digital-marketing-brand-development-web-and-digital-solutions">
+                        Website Development
+                        <span class="digital-service-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#web-digital-solutions-ecommerce-solutions"
+                       class="digital-service-sub-link"
+                       data-parent-tab="digital-marketing-brand-development-web-and-digital-solutions">
+                        E-Commerce Solutions
+                        <span class="digital-service-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#web-digital-solutions-landing-page-development"
+                       class="digital-service-sub-link"
+                       data-parent-tab="digital-marketing-brand-development-web-and-digital-solutions">
+                        Landing Page Development
+                        <span class="digital-service-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#web-digital-solutions-seo-performance-optimization"
+                       class="digital-service-sub-link"
+                       data-parent-tab="digital-marketing-brand-development-web-and-digital-solutions">
+                        SEO &amp; Performance Optimization
+                        <span class="digital-service-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#web-digital-solutions-website-maintenance-support"
+                       class="digital-service-sub-link"
+                       data-parent-tab="digital-marketing-brand-development-web-and-digital-solutions">
+                        Website Maintenance &amp; Support
+                        <span class="digital-service-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Social Media Management -->
+        <li class="digital-service-main-item">
+            <a href="#digital-marketing-brand-development-social-media-management"
+               class="digital-service-main-link"
+               data-service-tab="digital-marketing-brand-development-social-media-management">
+                Social Media Management
+                <span class="digital-service-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                        <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </a>
+
+            <ul class="digital-service-sub-list">
+                <li><a href="#social-media-management-service" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-social-media-management">Social Media Management <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#social-media-content-plan-strategy" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-social-media-management">Content Plan &amp; Strategy <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#social-media-content-creation" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-social-media-management">Content Creation <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#social-media-community-management" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-social-media-management">Community Management <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#social-media-influencer-marketing" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-social-media-management">Influencer Marketing <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+            </ul>
+        </li>
+
+        <!-- Brand Development -->
+        <li class="digital-service-main-item">
+            <a href="#digital-marketing-brand-development-brand-development"
+               class="digital-service-main-link"
+               data-service-tab="digital-marketing-brand-development-brand-development">
+                Brand Development
+                <span class="digital-service-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                        <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </a>
+
+            <ul class="digital-service-sub-list">
+                <li><a href="#brand-development-brand-identity-design" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-brand-development">Brand Identity Design <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#brand-development-graphic-design" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-brand-development">Graphic Design <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#brand-development-video-production-motion-graphics" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-brand-development">Video Production &amp; Motion Graphics <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#brand-development-marketing-collateral-design" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-brand-development">Marketing Collateral Design <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#brand-development-creative-direction-concept-development" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-brand-development">Creative Direction &amp; Concept Development <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+            </ul>
+        </li>
+
+        <!-- Marketing Solutions -->
+        <li class="digital-service-main-item">
+            <a href="#digital-marketing-brand-development-marketing-solutions"
+               class="digital-service-main-link"
+               data-service-tab="digital-marketing-brand-development-marketing-solutions">
+                Marketing Solutions
+                <span class="digital-service-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                        <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </a>
+
+            <ul class="digital-service-sub-list">
+                <li><a href="#marketing-solutions-paid-advertising" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-marketing-solutions">Paid Advertising (Meta &amp; Google Ads) <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#marketing-solutions-content-marketing" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-marketing-solutions">Content Marketing <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#marketing-solutions-brand-strategy-positioning" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-marketing-solutions">Brand Strategy &amp; Positioning <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+                <li><a href="#marketing-solutions-analytics-performance-marketing" class="digital-service-sub-link" data-parent-tab="digital-marketing-brand-development-marketing-solutions">Analytics &amp; Performance Marketing <span class="digital-service-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none"><path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span></a></li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+
+<!-- SideBar Ends Here -->
                                 </div>
                                 <div class="sidebar__widget">
                                     <div class="sidebar__contact">
@@ -940,5 +1048,8 @@
         <?php include __DIR__ . '/partials/footer.php'; ?>
         <?php include __DIR__ . '/partials/scripts.php'; ?>
         <!-- footer-area-end -->
+
+
+
     </body>
 </html>

@@ -25932,3 +25932,338 @@ select {
     flex-basis: 38px !important;
   }
 }
+
+/* For Smooth tabs Change Test Page */
+/* ===== Final Breadcrumb + Smooth Nested Tabs Fix ===== */
+
+/* Keep every arrow pointing forward */
+.digital-service-tabs
+  .digital-service-main-item.is-open
+  > .digital-service-main-link
+  .digital-service-arrow,
+.digital-service-tabs
+  .digital-service-main-link.is-active
+  .digital-service-arrow,
+.digital-service-tabs
+  .digital-service-sub-link.is-active
+  .digital-service-arrow,
+.digital-service-tabs .digital-service-sub-link:hover .digital-service-arrow {
+  transform: rotate(0deg) !important;
+}
+
+/* Smooth submenu open/close */
+.digital-service-tabs .digital-service-sub-list {
+  display: block !important;
+  max-height: 0 !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  transform: translateY(-6px) !important;
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    margin 0.25s ease !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 20px !important;
+}
+
+.digital-service-tabs
+  .digital-service-main-item.is-open
+  > .digital-service-sub-list {
+  max-height: 600px !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  margin-top: 8px !important;
+  margin-bottom: 9px !important;
+}
+
+/* Smooth tab button feeling */
+.digital-service-tabs .digital-service-main-link,
+.digital-service-tabs .digital-service-sub-link,
+.digital-service-tabs .digital-service-arrow {
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease !important;
+}
+
+/* Smooth content fade */
+.service-tab-panel.is-active {
+  animation: digitalPanelFadeIn 0.28s ease both;
+}
+
+.service-tab-panel.digital-panel-changing {
+  opacity: 0.35 !important;
+  transform: translateY(6px) !important;
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease !important;
+}
+
+.service-tab-panel.digital-panel-ready {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition:
+    opacity 0.24s ease,
+    transform 0.24s ease !important;
+}
+
+@keyframes digitalPanelFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional: make breadcrumb current item transition softly */
+#serviceBreadcrumbCurrent {
+  transition:
+    color 0.25s ease,
+    opacity 0.25s ease;
+}
+
+/* ===== Breadcrumb Main + Sub Tab Hierarchy Fix ===== */
+
+#serviceBreadcrumbMain,
+#serviceBreadcrumbSub {
+  color: #ee4c01 !important;
+  font-weight: 600 !important;
+  transition:
+    opacity 0.25s ease,
+    color 0.25s ease !important;
+}
+
+#serviceBreadcrumbSubSeparator {
+  display: none;
+}
+/* ===== Digital Marketing Nested Sidebar Tabs - Theme Consistent Final ===== */
+
+/* Panels */
+.service-tab-panel {
+  display: none;
+}
+
+.service-tab-panel.is-active {
+  display: block;
+}
+
+/* Root nested list reset only */
+.digital-service-tabs .digital-service-main-list,
+.digital-service-tabs .digital-service-sub-list {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+/* Sub menu animation */
+.digital-service-tabs .digital-service-sub-list {
+  display: block !important;
+  max-height: 0 !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  transform: translateY(-6px) !important;
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    margin 0.25s ease !important;
+  padding-left: 24px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.digital-service-tabs
+  .digital-service-main-item.is-open
+  > .digital-service-sub-list {
+  max-height: 800px !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  margin-top: 9px !important;
+  margin-bottom: 9px !important;
+}
+
+/* Force main and sub tabs to use same theme style as other service pages */
+.digital-service-tabs .digital-service-main-link,
+.digital-service-tabs .digital-service-sub-link {
+  display: flex !important;
+  align-items: center !important;
+  border-radius: 8px !important;
+  border: 1px solid #e8ebf5 !important;
+  background: var(--tg-color-gray-2) !important;
+  color: var(--tg-body-color) !important;
+  font-family: var(--tg-body-font-family) !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 1.45 !important;
+  text-transform: capitalize !important;
+  padding: 8px 9px 8px 30px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease-out 0s !important;
+}
+
+/* Sub tabs stay same theme style, only slightly indented by parent ul */
+.digital-service-tabs .digital-service-sub-link {
+  font-size: 17px !important;
+}
+
+/* Arrow box same as original sidebar tabs */
+.digital-service-tabs .digital-service-arrow {
+  width: 46px !important;
+  height: 46px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: var(--tg-color-white-default) !important;
+  flex: 0 0 auto !important;
+  border-radius: 6px !important;
+  margin-left: auto !important;
+  color: var(--tg-body-color) !important;
+  transform: rotate(0deg) !important;
+  transition: all 0.3s ease-out 0s !important;
+}
+
+/* Active and hover states match the site theme */
+.digital-service-tabs .digital-service-main-link:hover,
+.digital-service-tabs .digital-service-main-link.is-active,
+.digital-service-tabs
+  .digital-service-main-item.is-open
+  > .digital-service-main-link,
+.digital-service-tabs .digital-service-sub-link:hover,
+.digital-service-tabs .digital-service-sub-link.is-active {
+  background: var(--tg-theme-primary) !important;
+  border-color: var(--tg-theme-primary) !important;
+  color: var(--tg-color-white-default) !important;
+}
+
+.digital-service-tabs .digital-service-main-link:hover .digital-service-arrow,
+.digital-service-tabs
+  .digital-service-main-link.is-active
+  .digital-service-arrow,
+.digital-service-tabs
+  .digital-service-main-item.is-open
+  > .digital-service-main-link
+  .digital-service-arrow,
+.digital-service-tabs .digital-service-sub-link:hover .digital-service-arrow,
+.digital-service-tabs
+  .digital-service-sub-link.is-active
+  .digital-service-arrow {
+  color: var(--tg-theme-primary) !important;
+  background: var(--tg-color-white-default) !important;
+  transform: rotate(0deg) !important;
+}
+
+/* Smooth panel change */
+.service-tab-panel.is-active {
+  animation: digitalPanelFadeIn 0.25s ease both;
+}
+
+.service-tab-panel.digital-panel-changing {
+  opacity: 0.35 !important;
+  transform: translateY(6px) !important;
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease !important;
+}
+
+.service-tab-panel.digital-panel-ready {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition:
+    opacity 0.24s ease,
+    transform 0.24s ease !important;
+}
+
+@keyframes digitalPanelFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Breadcrumb hierarchy */
+#serviceBreadcrumbMain,
+#serviceBreadcrumbSub {
+  color: var(--tg-theme-primary) !important;
+  font-weight: 600 !important;
+  transition:
+    opacity 0.25s ease,
+    color 0.25s ease !important;
+}
+
+/* Mobile consistency */
+@media (max-width: 991.98px) {
+  .digital-service-tabs .digital-service-main-link,
+  .digital-service-tabs .digital-service-sub-link {
+    font-size: 16px !important;
+    padding: 8px 9px 8px 22px !important;
+  }
+
+  .digital-service-tabs .digital-service-sub-list {
+    padding-left: 16px !important;
+  }
+
+  .digital-service-tabs .digital-service-arrow {
+    width: 42px !important;
+    height: 42px !important;
+  }
+}
+/* ===== Service Breadcrumb Dynamic Levels ===== */
+
+.service-breadcrumb .js-service-breadcrumb-main,
+.service-breadcrumb .js-service-breadcrumb-sub {
+  color: var(--tg-theme-primary) !important;
+  font-weight: 600 !important;
+}
+
+.service-tab-panel {
+  display: none;
+}
+
+.service-tab-panel.is-active {
+  display: block;
+}
+
+.service-tab-panel.is-active {
+  animation: digitalPanelFadeIn 0.25s ease both;
+}
+
+.service-tab-panel.digital-panel-changing {
+  opacity: 0.35 !important;
+  transform: translateY(6px) !important;
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease !important;
+}
+
+.service-tab-panel.digital-panel-ready {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition:
+    opacity 0.24s ease,
+    transform 0.24s ease !important;
+}
+
+@keyframes digitalPanelFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -27,23 +27,14 @@
         <!-- main-area -->
         <main class="main-area fix">
             <!-- breadcrumb-area -->
-            <section class="breadcrumb__area">
-                <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg" style="background-size:cover; background-repeat: no-repeat;"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="breadcrumb__content">
-                                <h2 class="title">UAE Business Formation, Structuring &amp; Compliance</h2>
-                                <nav class="breadcrumb">
-                                    <span property="itemListElement" typeof="ListItem"><a href="index-5.php">Home</a></span>
-                                    <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
-                                    <span property="itemListElement" typeof="ListItem">UAE Business Formation, Structuring &amp; Compliance</span>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <?php
+    $breadcrumbPageTitle = 'UAE Business Formation, Structuring & Compliance';
+    $breadcrumbPageUrl = 'uae-business-formation.php';
+    $breadcrumbDefaultMain = 'Mainland Business Setup';
+
+    include __DIR__ . '/partials/service-breadcrumb.php';
+    ?>
+            <!-- breadcrumb-area-end -->
             <!-- breadcrumb-area-end -->
 
 
