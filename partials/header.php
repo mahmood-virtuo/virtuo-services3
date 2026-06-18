@@ -106,11 +106,17 @@
                                                     <a href="immigration-residency-solutions.php#immigration-residency-solutions-employment-visa">Employment Visa</a>
                                                     <a href="immigration-residency-solutions.php#immigration-residency-solutions-consulate-services-dubai">Consulate Services Dubai</a>
                                                 </div>
-                                                <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
+                                                <!-- <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
                                                     <a href="web-digital-solutions.php">WEB & DIGITAL SOLUTIONS</a>
                                                     <a href="social-media-management.php">SOCIAL MEDIA MANAGEMENT</a>
                                                     <a href="brand-development.php">BRAND DEVELOPMENT</a>
                                                     <a href="marketing-solutions.php">MARKETING SOLUTIONS</a>
+                                                </div> -->
+                                                <div class="virtuo-services-mega__panel is-active" data-mega-panel="marketing">
+                                                    <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions">WEB &amp; DIGITAL SOLUTIONS</a>
+                                                    <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
+                                                    <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development">BRAND DEVELOPMENT</a>
+                                                    <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions">MARKETING SOLUTIONS</a>
                                                 </div>
                                                 <div class="virtuo-services-mega__panel" data-mega-panel="ai">
                                                     <a href="ai-automation-technology-solutions.php#ai-automation-technology-solutions-ai-automation">AI Automation</a>

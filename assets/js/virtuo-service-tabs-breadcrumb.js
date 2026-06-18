@@ -317,7 +317,28 @@
       document.querySelectorAll(".digital-service-sub-link[data-parent-tab]"),
     );
     const panels = Array.from(document.querySelectorAll(".service-tab-panel"));
+    //NewlyAddedCodeStartsHere
+    const mainPanelOriginalContent = new Map();
 
+    panels.forEach(function (panel) {
+      const panelId = panel.getAttribute("data-service-panel") || panel.id;
+
+      if (panelId) {
+        mainPanelOriginalContent.set(panelId, panel.innerHTML);
+      }
+    });
+
+    function restoreMainPanelContent(panelId) {
+      const panel = getServicePanel(panelId);
+      const originalContent = mainPanelOriginalContent.get(panelId);
+
+      if (panel && typeof originalContent === "string") {
+        panel.innerHTML = originalContent;
+      }
+
+      return panel;
+    }
+    //NewlyAddedCodeEndsHere
     if (!mainLinks.length || !panels.length) return;
 
     function closeAllMainItems() {
@@ -350,8 +371,11 @@
 
         mainLink.classList.add("is-active");
 
+        // const panel = showOnlyPanel(panelId);
+        //NewlyAddedCodeStartsHere
         const panel = showOnlyPanel(panelId);
-
+        restoreMainPanelContent(panelId);
+        //NewlyAddedCodeEndsHere
         fadePanel(panel, function () {
           updateServiceBreadcrumb(mainTitle, "");
         });
@@ -372,8 +396,11 @@
 
       mainLink.classList.add("is-active");
 
+      //   const panel = showOnlyPanel(panelId);
+      //NewlyAddedCodeStartsHere
       const panel = showOnlyPanel(panelId);
-
+      restoreMainPanelContent(panelId);
+      //NewlyAddedCodeEndsHere
       fadePanel(panel, function () {
         updateServiceBreadcrumb(mainTitle, "");
       });
@@ -421,11 +448,34 @@
 
       const panel = showOnlyPanel(parentPanelId);
 
+      //   fadePanel(panel, function () {
+      //     updatePanelContent(panel, mainTitle, subTitle);
+      //     updateServiceBreadcrumb(mainTitle, subTitle);
+      //   });
+      //ReplaceOneStartshere
       fadePanel(panel, function () {
-        updatePanelContent(panel, mainTitle, subTitle);
+        const subHash = subLink.getAttribute("href") || "";
+        const templateId = subHash.replace("#", "");
+        const template = document.querySelector(
+          '.digital-sub-template[data-sub-template="' + templateId + '"]',
+        );
+
+        if (template) {
+          const templateContent = template.querySelector(
+            ".services__details-wrap",
+          );
+
+          if (templateContent) {
+            panel.innerHTML = "";
+            panel.appendChild(templateContent.cloneNode(true));
+          }
+        } else {
+          updatePanelContent(panel, mainTitle, subTitle);
+        }
+
         updateServiceBreadcrumb(mainTitle, subTitle);
       });
-
+      //ReplaceOneEndshere
       const subHash = subLink.getAttribute("href");
 
       if (subHash && history.replaceState) {
