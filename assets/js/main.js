@@ -133,6 +133,10 @@ var sliderSwiper = new Swiper('.slider-active', {
         nextEl: ".slider-button-next",
         prevEl: ".slider-button-prev"
     },
+    pagination: {
+        el: ".slider__bar-pagination",
+        clickable: true,
+    },
 });
 
 

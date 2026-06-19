@@ -166,7 +166,7 @@
                                         </div>
                                     </div>
                                     <!-- work-area -->
-                                    <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                    <section class="work__area-two has-animation" style="margin-top: 70px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-xl-6 col-lg-8">

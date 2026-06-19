@@ -219,7 +219,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Choosing Virtuo for ai automation gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
@@ -401,7 +401,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Choosing Virtuo for workflow automation gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
@@ -583,7 +583,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Choosing Virtuo for technology solutions gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
@@ -765,7 +765,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Choosing Virtuo for business process automation gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
