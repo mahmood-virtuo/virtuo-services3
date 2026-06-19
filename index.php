@@ -27,1310 +27,830 @@
 </head>
 
 <body>
-
-    <!-- preloader -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-    <!-- preloader-end -->
-
-    <!-- Scroll-top -->
-    <button class="scroll__top scroll-to-target" data-target="html">
-        <i class="fas fa-chevron-up"></i>
-    </button>
-    <!-- Scroll-top-end-->
-
-    <!-- header-area -->
-    <header>
-        <div class="tg-header__top">
-            <div class="container custom-container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="tg-header__top-info">
-                            <ul class="list-wrap">
-                                <li><i class="flaticon-placeholder"></i><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></li>
-                                <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="tg-header__top-right">
-                            <ul class="list-wrap">
-                                <li><i class="flaticon-telephone"></i><a href="tel:+971565151315">+971 56 515 1315</a></li>
-                                <li>
-                                    <div class="tg-header__top-social">
-                                        <ul class="list-wrap">
-                                            <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                            <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
-                                            <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                            <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="header-fixed-height"></div>
-        <div id="sticky-header" class="tg-header__area">
-            <div class="container custom-container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="tgmenu__wrap">
-                            <nav class="tgmenu__nav">
-                                <div class="logo">
-                                    <a href="index-5.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
-                                </div>
-                                <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
-                                    <ul class="navigation">
-                                        <li class="active menu-item-has-children tg-mega-menu-has-children"><a href="#">Home</a>
-                                            <div class="tg-mega-menu-wrap">
-                                                <div class="row row-cols-1 row-cols-lg-6 row-cols-xl-6">
-                                                    <div class="col">
-                                                        <div class="mega-menu-item active">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_01.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Business Consulting</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_02.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Marketing Agency</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_03.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">SEO Agency</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_04.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Creative Agency</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_05.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Digital Agency</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_06.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Insurance</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_07.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">It Business</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_08.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Online Banking</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_09.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Web Design Agency</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_10.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Business Strategy</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_11.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Loan Specialist</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="mega-menu-item">
-                                                            <div class="mega-menu-thumb">
-                                                                <a href="index-5.php"><img src="assets/img/menu-images/home_12.jpg" alt="img"></a>
-                                                            </div>
-                                                            <div class="mega-menu-content">
-                                                                <h4 class="title"><a href="index-5.php">Finance Advisor</a></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.php">About Us</a></li>
-                                                <li><a href="team.php">Team page</a></li>
-                                                <li><a href="team-details.php">Team Details</a></li>
-                                                <li class="menu-item-has-children"><a href="shop.php">Shop</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="shop.php">Shop Page</a></li>
-                                                        <li><a href="shop-details.php">Shop Details</a></li>
-                                                        <li><a href="cart.php">Cart Page</a></li>
-                                                        <li><a href="check-out.php">Checkout Page</a></li>
-                                                        <li><a href="error.php">Error Page</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="pricing.php">Pricing Page</a></li>
-                                                <li><a href="blog.php">Blog post</a></li>
-                                                <li><a href="blog-details.php">Blog post Details</a></li>
-                                                <li><a href="career.php">Career Page</a></li>
-                                                <li><a href="career-details.php">Career Details</a></li>
-                                                <li><a href="login.php">Login Page</a></li>
-                                                <li><a href="register.php">Register Page</a></li>
-                                                <li><a href="reset.php">Reset Page</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#">Services</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="services.php">Our Services</a></li>
-                                                <li><a href="services-details.php">Services Details One</a></li>
-                                                <li><a href="services-details-2.php">Services Details Two</a></li>
-                                                <li><a href="services-details-3.php">Services Details Three</a></li>
-                                                <li><a href="services-details-4.php">Services Details Four</a></li>
-                                                <li><a href="services-details-5.php">Services Details Five</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#">Portfolio</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="project.php">Portfolio Page</a></li>
-                                                <li><a href="project-details.php">Portfolio Details One</a></li>
-                                                <li><a href="project-details-2.php">Portfolio Details Two</a></li>
-                                                <li><a href="project-details-3.php">Portfolio Details Three</a></li>
-                                                <li><a href="project-details-4.php">Portfolio Details Four</a></li>
-                                                <li><a href="project-details-5.php">Portfolio Details Five</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.php">Contact</a></li>
-                                    </ul>
-                                </div>
-                                <div class="tgmenu__action">
-                                    <ul class="list-wrap">
-                                        <li class="header-search">
-                                            <a href="javascript:void(0)" class="search-open-btn"><i class="flaticon-search"></i></a>
-                                        </li>
-                                        <li class="offCanvas-menu">
-                                            <a href="shop.php" class="menu-tigger">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li class="header-btn">
-                                            <a href="contact.php" class="tg-btn"><img src="assets/img/icons/comment.svg" alt="" class="injectable"> Start Consult</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="mobile-nav-toggler"><i class="tg-flaticon-menu"></i></div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mobile Menu  -->
-        <div class="tgmobile__menu">
-            <nav class="tgmobile__menu-box">
-                <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
-                <div class="nav-logo">
-                    <a href="index-5.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
-                </div>
-                <div class="tgmobile__search">
-                    <form action="#">
-                        <input type="text" placeholder="Search here...">
-                        <button><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
-                <div class="tgmobile__menu-outer">
-                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-                </div>
-                <div class="social-links">
-                    <ul class="list-wrap">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="tgmobile__menu-backdrop"></div>
-        <!-- End Mobile Menu -->
-
-        <!-- header-search -->
-        <div class="search__popup">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="search__wrapper">
-                            <div class="search__close">
-                                <button type="button" class="search-close-btn">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                    </svg>
-                                </button>
-                            </div>
-                            <div class="search__form">
-                                <form action="#">
-                                    <div class="search__input">
-                                        <input class="search-input-field" type="text" placeholder="Type keywords here">
-                                        <span class="search-focus-border"></span>
-                                        <button>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="search-popup-overlay"></div>
-        <!-- header-search-end -->
-
-        <!-- offCanvas-menu -->
-        <div class="offCanvas__info">
-            <div class="offCanvas__close-icon menu-close">
-                <button><img src="assets/img/icons/times.svg" alt="" class="injectable"></button>
-            </div>
-            <div class="offCanvas__logo mb-30">
-                <a href="index-5.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
-            </div>
-            <div class="offCanvas__content">
-                <p>Businorem ipsum dolor sit amet cons interdum quam duis variuy time honored tradition etting .</p>
-            </div>
-            <div class="offCanvas__img">
-                <ul class="list-wrap">
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta01.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta02.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta03.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta04.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta05.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta06.jpg" alt="img"></a></li>
-                </ul>
-            </div>
-            <div class="offCanvas__side-info">
-                <div class="contact-list">
-                    <i class="flaticon-placeholder"></i>
-                    <p><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
-                </div>
-                <div class="contact-list">
-                    <i class="flaticon-telephone"></i>
-                    <a href="tel:+971565151315">+971 56 515 1315</a>
-                </div>
-                <div class="contact-list">
-                    <i class="flaticon-envelope"></i>
-                    <a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
-                </div>
-            </div>
-            <div class="offCanvas__social">
-                <h6 class="title">Follow us</h6>
-                <ul class="list-wrap">
-                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                    <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                    <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="offCanvas__overly"></div>
-        <!-- offCanvas-menu-end -->
-
-    </header>
-    <!-- header-area-end -->
-
+    
+<?php include __DIR__ . '/partials/header.php'; ?>
 
 
     <!-- main-area -->
-    <main class="main-area fix">
+    <div class="main-area fix">
+ 
 
-
-        <!-- banner-area -->
-        <section class="banner__area fix">
-            <div class="banner__bg" data-background="assets/img/banner/hero_bg.jpg"></div>
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-7">
-                        <div class="banner__content">
-                            <span class="sub-title" data-aos="fade-up" data-aos-delay="0">More Profitability we Focus</span>
-                            <h2 class="title" data-aos="fade-up" data-aos-delay="300">Comprehensive Business Consulting</h2>
-                            <p data-aos="fade-up" data-aos-delay="500">Agilos helps you to convert your data into a strategic asset hernd get top-notch business insights.</p>
-                            <div class="banner__btn" data-aos="fade-up" data-aos-delay="700">
-                                <a href="contact.php" class="tg-btn">As For Consultation <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+        <!-- slider-area -->
+        <section class="slider__area">
+            <div class="swiper-container slider-active">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="slider__content">
+                                        <h1 class="title">Build Your Business On <br/>a Strong Foundation</h1>
+                                        <p>We provide end-to-end company formation and corporate structuring solutions across the UAE, specializing in Mainland, Free Zone, and Offshore setups. From licensing and compliance to ongoing corporate support, we help businesses launch and grow with confidence.</p>
+                                        <a href="about.php" class="tg-btn tg-btn-four">Learn more <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-8">
-                        <div class="banner__img">
-                            <img src="assets/img/banner/hero_img.png" alt="img" class="main-img">
-                            <img src="assets/img/banner/hero_shape01.svg" alt="shape" class="shape">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/2nd.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="slider__content">
+                                        <h1 class="title">Navigating Government Processes, Seamlessly</h1>
+                                        <p>Our dedicated PRO specialists manage government approvals, document processing, labor and immigration requirements, and regulatory procedures, ensuring your business remains compliant and operational without administrative burdens.</p>
+                                        <a href="about.php" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/3rd.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="slider__content">
+                                        <h1 class="title">Your Pathway to Living<br/> and Working in the UAE</h1>
+                                        <p>We offer comprehensive immigration and residency services, assisting individuals, families, and businesses with visa applications, residency permits, sponsorships, and related government procedures through a streamlined process.</p>
+                                        <a href="about.php" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/4th.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="slider__content">
+                                        <h1 class="title">Turning Visibility into Measurable Growth</h1>
+                                        <p>We help businesses strengthen their digital presence through strategic marketing, branding, content creation, social media management, performance advertising, and lead generation campaigns designed to drive sustainable growth.</p>
+                                        <a href="about.php" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/5th.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="slider__content">
+                                        <h1 class="title">Empowering Businesses Through Intelligent Automation</h1>
+                                        <p>Leverage the power of artificial intelligence to optimize operations, automate workflows, enhance customer experiences, and improve decision-making with tailored technology solutions built for modern businesses.</p>
+                                        <a href="about.php" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="banner__shape">
-                <img src="assets/img/banner/hero_shape02.svg" alt="shape" data-aos="fade-right" data-aos-delay="800">
+            <div class="slider__nav">
+                <button class="slider-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                        <path d="M5.81475 19.1665L5.81475 1.11095M5.81475 1.11095L0.999999 5.85956M5.81475 1.11095L10.6296 5.85956" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="slider-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                        <path d="M6.18525 0.833496L6.18525 18.8891M6.18525 18.8891L11 14.1404M6.18525 18.8891L1.37037 14.1404" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
             </div>
         </section>
-        <!-- banner-area-end -->
+        <!-- slider-area-end -->
 
-        <!-- brand-area -->
-        <div class="brand__area">
-            <div class="container">
-                <div class="swiper-container brand-active fix">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img01.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img02.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img03.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img04.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img05.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img06.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <img src="assets/img/brand/brand_img04.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
+           <!-- marquee-area -->
+        <section class="marquee__area-three">
+            <div class="slider__marquee clearfix marquee-wrap-two marquee-wrap-four">
+                <div class="marquee_mode marquee__group">
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="government-relations-pro-services.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>PRO SERVICES</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="uae-business-formation.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BUSINESS SETUP</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>GOLDEN VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="uae-business-formation.php#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BANK ACCOUNT OPENING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BRAND DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>INVEST IN DUBAI</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>FREELANCE VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>DIGITAL MARKETING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="ai-automation-technology-solutions.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>AI AUTOMATION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="government-relations-pro-services.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>GOVERNMENT RELATIONS</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>WEB DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>RESIDENCY SOLUTION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>MARKETING SOLUTION</a>
+                    </h6>
                 </div>
             </div>
-        </div>
-        <!-- brand-area-end -->
+        </section>
+       
+       
+       
+        <!-- marquee-area-end -->
 
-        <!-- about-area -->
-        <section class="about__area section-py-130">
+        <!-- 2nd section -->
+
+        <section class="about__area-four section-py-130">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-6 col-md-9">
-                        <div class="about__img-wrap">
-                            <div class="about__images">
-                                <img src="assets/img/images/about_img01.jpg" alt="img">
-                                <img src="assets/img/images/about_img02.jpg" alt="img" data-aos="fade-up" data-aos-delay="200">
-                            </div>
-                            <div class="experience__wrap" data-aos="fade-left" data-aos-delay="200">
-                                <h2 class="count">25+</h2>
-                                <span>Of Experience <br> in This Field</span>
-                            </div>
-                            <div class="profit__wrap" data-parallax='{"x" : 50 }'>
-                                <div class="thumb">
-                                    <img src="assets/img/images/profit_grap.svg" alt="img">
-                                </div>
-                                <div class="content">
-                                    <h5 class="title">98% Profit</h5>
-                                    <span>Earning This Year</span>
-                                </div>
+                    <div class="col-lg-6 col-md-10 order-0 order-lg-2">
+                        <div class="about__img-four">
+                            <div class="about__mask-img">
+                                <img src="assets/img/images/h4_about_img.jpg" alt="img">
                             </div>
                             <div class="shape">
-                                <img src="assets/img/images/about_shape01.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="600">
-                                <img src="assets/img/images/about_shape02.svg" alt="shape" class="alltuchtopdown">
+                                <img src="assets/img/images/h4_about_shape.svg" alt="shape" class="alltuchtopdown">
                             </div>
+                            <!-- <div class="author__wrap-two"> -->
+                                <!-- <div class="thumb">
+                                    <img src="assets/img/images/author_img02.jpg" alt="img">
+                                </div>
+                                <div class="content">
+                                    <img src="assets/img/images/author_sign.png" alt="img">
+                                    <h6 class="title">Jonaid Ali <span>, CEO</span></h6>
+                                </div> -->
+                                
+                                <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -291px; top:-159px;">
+                        <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="29" height="27" viewBox="0 0 29 27" fill="none">
+                                <path d="M1.24669 25.5326L27.3173 2.42458M27.3173 2.42458L14.9937 1.68215M27.3173 2.42458L26.5748 14.7481" stroke="currentColor" stroke-width="2.18247" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg> -->
+                            <img
+                            src="/assets/img/icons/Virtuo.svg" 
+                            width="55" 
+                            height="55" 
+                            alt=""
+                            style="rotate: 25deg;"
+                            />
+                        </div>
+                        <div class="content">
+                            <h6 class="circle rotateme">VIRTUO • ESTABLISH • OPERATE • INNOVATE •</h6>
+                        </div>
+                    </div>
+
+
+                            <!-- </div> -->
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="about__content">
-                            <div class="section__title mb-15">
-                                <span class="sub-title">Behind Our History</span>
-                                <h2 class="title">A Leading Consulting Company Serving Since <span>1970 With Global Expertise</span> And Strategies.</h2>
+                        <div class="about__content-four">
+                            <div class="section__title mb-20">
+                                <span class="sub-title">Who we are</span>
+                                <h2 class="title">Building A Business In The UAE <strong>Shouldn't Feel Like</strong> Managing Five Different Companies.</h2>
                             </div>
-                            <p>Transform your business with our transformative consulting solutions. We go beyond short-term fixes to deliver sustainable growth strategies that future-proof your enterprise.</p>
-                            <div class="about__inner-wrap">
-                                <div class="about__list-box">
-                                    <div class="about__list-box-item">
-                                        <div class="icon">
-                                            <i class="flaticon-growth"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Investment <br> Planning</h4>
-                                        </div>
-                                    </div>
-                                    <div class="about__list-box-item">
-                                        <div class="icon">
-                                            <i class="flaticon-pie-chart-1"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Business <br> Statistics Rate</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="about__inner-content">
-                                    <p>Transform your siness with they are ative consng Weshfixes erm enu ring the sustainable succes.</p>
-                                    <ul class="list-wrap about__list-item">
-                                        <li>
-                                            <div class="icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M11.5252 3.5L5.30301 9.72222L2.47473 6.89394" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                            Business Competitive Analysis
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M11.5252 3.5L5.30301 9.72222L2.47473 6.89394" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                            Fast Growing Sells
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M11.5252 3.5L5.30301 9.72222L2.47473 6.89394" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                            Financing Project Investment
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="about__content-bottom">
-                                <div class="author__wrap">
-                                    <div class="thumb">
-                                        <img src="assets/img/images/author01.png" alt="img">
-                                    </div>
-                                    <div class="content">
-                                        <img src="assets/img/images/author_sign.png" alt="img">
-                                        <h6 class="title">Martinaze <span>, CEO</span></h6>
-                                    </div>
-                                </div>
-                                <a href="about.php" class="tg-btn">Explore Our Company <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                            </div>
+                            <p style="margin-bottom:-20px !important; color: #EE4C01; text-transform: uppercase;">FOR MANY ENTREPRENURS, IT DOES</p><br>
+                                
+
+<p>
+  One company handles incorporation. Another manages visas. A third takes care of
+  government paperwork. Marketing lives somewhere else. Technology becomes yet
+  another relationship to manage.
+
+  Before long, you're spending more time coordinating providers than building
+  your business.
+</p>
+
+<p
+  style="
+    margin-top: 10px;
+    margin-bottom: 20px !important;
+    color: #ee4c01;
+    text-transform: uppercase;
+  "
+>
+  That's why Virtuo was built differently.
+</p>
+
+<p>
+  We bring together company formation, PRO services, residency solutions,
+  marketing, and AI-powered technology into one integrated ecosystem designed to
+  support businesses from launch to long-term growth.
+
+  From your first trade license to your next phase of expansion, we're built to
+  be more than a service provider.
+</p>
+
+<p style="margin-top: 10px; margin-bottom: 10px; color: #ee4c01">
+  <i><b>We're built to become part of your team.</b></i>
+</p>
+
+<p>
+  <b>One Team. One Relationship. Every Solution Under One Roof.</b>
+</p>
+                            
+                            <a href="contact.php" class="tg-btn tg-btn-three"> Build With Virtuo <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="about__shape-two">
+                <img src="assets/img/images/h4_about_shape01.svg" alt="shape">
+            </div>
+        </section>
+
+        <!-- 2nd Section Ends -->
+
+        <!-- 3rd Section -->
+        
+        <!-- marquee-area -->
+        <section class="marquee__area-two">
+            <div class="slider__marquee clearfix marquee-wrap-two">
+                <div class="marquee_mode marquee__group">
+                   <h6 class="marquee__item marquee__item-two">
+                        <a href="government-relations-pro-services.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>PRO SERVICES</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="uae-business-formation.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BUSINESS SETUP</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>GOLDEN VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="uae-business-formation.php#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BANK ACCOUNT OPENING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BRAND DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>INVEST IN DUBAI</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>FREELANCE VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>DIGITAL MARKETING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="ai-automation-technology-solutions.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>AI AUTOMATION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="government-relations-pro-services.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>GOVERNMENT RELATIONS</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>WEB DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>RESIDENCY SOLUTION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>MARKETING SOLUTION</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="slider__marquee clearfix marquee-wrap-three">
+                <div class="marquee_mode marquee__group-two">
+                   <h6 class="marquee__item marquee__item-two">
+                        <a href="government-relations-pro-services.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>PRO SERVICES</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="uae-business-formation.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BUSINESS SETUP</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>GOLDEN VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="uae-business-formation.php#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BANK ACCOUNT OPENING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>BRAND DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>INVEST IN DUBAI</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>FREELANCE VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>DIGITAL MARKETING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="ai-automation-technology-solutions.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>AI AUTOMATION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="government-relations-pro-services.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>GOVERNMENT RELATIONS</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>WEB DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>RESIDENCY SOLUTION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"/>
+  </svg>MARKETING SOLUTION</a>
+                    </h6>
                 </div>
             </div>
         </section>
-        <!-- about-area-end -->
+        <!-- marquee-area-end -->
 
-        <!-- services-area -->
-        <section class="services__area fix section-py-130 services__bg" data-background="assets/img/bg/services_bg.png">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-8">
-                        <div class="section__title text-center mb-50">
-                            <span class="sub-title">Our Dedicated Services</span>
-                            <h2 class="title">High Quality Business Services To Grow your Business</h2>
+
+
+
+        <!-- 3rd Section Ends -->
+
+        
+
+             <!-- choose-area -->
+              
+        <section class="choose__area-five section-py-130">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-5 col-md-9">
+                <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
+                    <img src="assets/img/images/h8_choose_img.jpg" alt="img" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;">
+                    <!-- <img src="assets/img/images/h8_choose_shape.svg" alt="shape" class="shape"> -->
+                    <!-- <div class="chart__wrap" data-aos="fade-up" data-aos-delay="400"> -->
+                        <!-- <div class="content">
+                            <span>Profitability</span>
+                            <h2 class="count">59%</h2>
+                        </div> -->
+                        <!-- <img src="assets/img/images/chart.svg" alt="shape"> -->
+                    <!-- </div> -->
+                    <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -80px; top:-63px;">
+                        <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="29" height="27" viewBox="0 0 29 27" fill="none">
+                                <path d="M1.24669 25.5326L27.3173 2.42458M27.3173 2.42458L14.9937 1.68215M27.3173 2.42458L26.5748 14.7481" stroke="currentColor" stroke-width="2.18247" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg> -->
+                            <img
+                            src="/assets/img/icons/Virtuo.svg" 
+                            width="55" 
+                            height="55" 
+                            alt=""
+                            style="rotate: 25deg;"
+                            />
+                        </div>
+                        <div class="content">
+                            <h6 class="circle rotateme">VIRTUO • ESTABLISH • OPERATE • INNOVATE •</h6>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-container services-active fix">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="services__item shine__animate-item">
-                                <div class="services__thumb shine__animate-link">
-                                    <a href="services-details.php"><img src="assets/img/services/services_img01.jpg" alt="img"></a>
-                                    <div class="services__icon">
-                                        <i class="flaticon-investment"></i>
-                                    </div>
-                                </div>
-                                <div class="services__content">
-                                    <h3 class="title"><a href="services-details.php">Innovation Idea</a></h3>
-                                    <p>Transform your business with our trane ormative consulting solutione go beyo sustainable growth.</p>
-                                    <a href="services-detrails.php" class="link-btn">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                                <div class="services__item-shape">
-                                    <img src="assets/img/services/services_item_shape.svg" alt="shape">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="services__item shine__animate-item">
-                                <div class="services__thumb shine__animate-link">
-                                    <a href="services-details.php"><img src="assets/img/services/services_img02.jpg" alt="img"></a>
-                                    <div class="services__icon">
-                                        <i class="flaticon-report"></i>
-                                    </div>
-                                </div>
-                                <div class="services__content">
-                                    <h3 class="title"><a href="services-details.php">Insights & analytics</a></h3>
-                                    <p>Transform your business with our trane ormative consulting solutione go beyo sustainable growth.</p>
-                                    <a href="services-detrails.php" class="link-btn">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                                <div class="services__item-shape">
-                                    <img src="assets/img/services/services_item_shape.svg" alt="shape">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="services__item shine__animate-item">
-                                <div class="services__thumb shine__animate-link">
-                                    <a href="services-details.php"><img src="assets/img/services/services_img03.jpg" alt="img"></a>
-                                    <div class="services__icon">
-                                        <i class="flaticon-target"></i>
-                                    </div>
-                                </div>
-                                <div class="services__content">
-                                    <h3 class="title"><a href="services-details.php">Strategic Planning</a></h3>
-                                    <p>Transform your business with our trane ormative consulting solutione go beyo sustainable growth.</p>
-                                    <a href="services-detrails.php" class="link-btn">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                                <div class="services__item-shape">
-                                    <img src="assets/img/services/services_item_shape.svg" alt="shape">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="services__item shine__animate-item">
-                                <div class="services__thumb shine__animate-link">
-                                    <a href="services-details.php"><img src="assets/img/services/services_img04.jpg" alt="img"></a>
-                                    <div class="services__icon">
-                                        <i class="flaticon-accountant"></i>
-                                    </div>
-                                </div>
-                                <div class="services__content">
-                                    <h3 class="title"><a href="services-details.php">Tax Advisory</a></h3>
-                                    <p>Transform your business with our trane ormative consulting solutione go beyo sustainable growth.</p>
-                                    <a href="services-detrails.php" class="link-btn">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                                <div class="services__item-shape">
-                                    <img src="assets/img/services/services_item_shape.svg" alt="shape">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="services__item shine__animate-item">
-                                <div class="services__thumb shine__animate-link">
-                                    <a href="services-details.php"><img src="assets/img/services/services_img02.jpg" alt="img"></a>
-                                    <div class="services__icon">
-                                        <i class="flaticon-report"></i>
-                                    </div>
-                                </div>
-                                <div class="services__content">
-                                    <h3 class="title"><a href="services-details.php">Insights & analytics</a></h3>
-                                    <p>Transform your business with our trane ormative consulting solutione go beyo sustainable growth.</p>
-                                    <a href="services-detrails.php" class="link-btn">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                                <div class="services__item-shape">
-                                    <img src="assets/img/services/services_item_shape.svg" alt="shape">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="services__bottom-content text-center mt-70">
-                    <p>Discover Our Financial Services. <a href="services.php">Explore All Services</a></p>
                 </div>
             </div>
-            <div class="services__shape-wrap">
-                <img src="assets/img/services/services_shape01.svg" alt="shape" data-aos="fade-down-left" data-aos-delay="400">
-                <img src="assets/img/services/services_shape02.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="400">
+            
+            <div class="col-lg-6">
+                <div class="choose__content-five" style="max-width: auto; margin-left: -21px;">
+                    <div class="section__title mb-15">
+                        <span class="sub-title">Why Choose us</span>
+                        <h2 class="title">Businesses Don't <span style="font-weight: 400;"><i>Grow On Paper</i></span>. They Grow On Trust.</h2>
+                    </div>
+                    <p style="margin-bottom:10px !important; color: #EE4C01; text-transform: uppercase;">Anyone can process paperwork.</p>
+
+<p>What clients remember—and what ultimately determines the success of a long-term relationship—is how they're treated along the way.
+
+<p style="margin-bottom:10px !important; margin-top: -25px;">At Virtuo, we believe that business owners deserve more than generic support and one-size-fits-all solutions. They deserve a team that listens, communicates clearly, and takes ownership from start to finish.
+
+That's why we've built our approach around responsiveness, transparency, and accountability. Every client engagement is handled with the same level of care and attention we would expect for our own businesses. </p>
+<p style="margin-bottom:10px !important; color: #EE4C01; text-transform: uppercase;">Deadlines matter. Communication matters. Trust matters.</p>
+
+
+<p style="margin-bottom:10px !important; margin-top: 0px;">Whether we're helping a founder launch their first venture, supporting an established company with compliance, or implementing solutions to help a business grow, we approach every relationship with the same commitment—to deliver reliable advice, responsive service, and results that create lasting value.</p>
+
+<p style="margin-bottom:10px !important; margin-top: 10px; color: #EE4C01;"><b><i>Because in the end, exceptional service isn't about promises.</i></b></p>
+
+<p><b>It's about being the team people trust when something important needs to get done.</b></p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- choose-area-end -->
+
+                <!-- services-area -->
+        <section class=" section-py-130" style="background-image: url(/assets/img/services/footerBackgroundImage.jpg); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.png">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-5 col-lg-8">
+                        <div class="section__title white-title text-center mb-50">
+                            <span class="sub-title" style="color: #EE4c01">Core Services</span>
+                            <h2 class="title">Expert Solutions for Accelerated Business Growth</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__item-wrap-two">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="itemOne-tab" data-bs-toggle="tab" data-bs-target="#itemOne-tab-pane" type="button" role="tab" aria-controls="itemOne-tab-pane" aria-selected="true">
+                                <span class="content__left">
+                                    <!-- <i class="flaticon-money-1"></i> -->
+                                    <strong >UAE Business Formation, <br>Structuring & Compliance</strong>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
+                                    <path d="M1 7H21M21 7L15.1421 1.14214M21 7L15.1421 12.8579" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="itemTwo-tab" data-bs-toggle="tab" data-bs-target="#itemTwo-tab-pane" type="button" role="tab" aria-controls="itemTwo-tab-pane" aria-selected="false">
+                                <span class="content__left">
+                                    <!-- <i class="flaticon-accountant"></i> -->
+                                    <strong>Government Relations<br/> & PRO Services</strong>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
+                                    <path d="M1 7H21M21 7L15.1421 1.14214M21 7L15.1421 12.8579" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="itemThree-tab" data-bs-toggle="tab" data-bs-target="#itemThree-tab-pane" type="button" role="tab" aria-controls="itemThree-tab-pane" aria-selected="false">
+                                <span class="content__left">
+                                    <!-- <i class="flaticon-personal"></i> -->
+                                    <strong>Immigration & Residency<br /> Solutions</strong>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
+                                    <path d="M1 7H21M21 7L15.1421 1.14214M21 7L15.1421 12.8579" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="itemFour-tab" data-bs-toggle="tab" data-bs-target="#itemFour-tab-pane" type="button" role="tab" aria-controls="itemFour-tab-pane" aria-selected="false">
+                                <span class="content__left">
+                                    <!-- <i class="flaticon-live-chat"></i> -->
+                                    <strong>Digital Marketing &<br/> Brand Development</strong>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
+                                    <path d="M1 7H21M21 7L15.1421 1.14214M21 7L15.1421 12.8579" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="itemFive-tab" data-bs-toggle="tab" data-bs-target="#itemFive-tab-pane" type="button" role="tab" aria-controls="itemFive-tab-pane" aria-selected="false">
+                                <span class="content__left">
+                                    <!-- <i class="flaticon-money"></i> -->
+                                    <strong>AI Automation & Technology<br/> Solutions</strong>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
+                                    <path d="M1 7H21M21 7L15.1421 1.14214M21 7L15.1421 12.8579" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="itemOne-tab-pane" role="tabpanel" aria-labelledby="itemOne-tab" tabindex="0">
+                            <div class="services__item-nine shine__animate-item">
+                                <div class="services__thumb-seven shine__animate-link">
+                                    <a href="uae-business-formation.php"><img src="assets/img/services/h8_services_img011.jpg" alt="img"></a>
+                                </div>
+                                <div class="services__content-nine">
+                                    <h2 class="title"><a href="uae-business-formation.php">UAE Business Formation, Structuring & Compliance</a></h2>
+                                    <p>Establish your business with the right structure, licensing, and regulatory framework for long-term success.</p>
+                                    <a href="uae-business-formation.php" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="itemTwo-tab-pane" role="tabpanel" aria-labelledby="itemTwo-tab" tabindex="0">
+                            <div class="services__item-nine shine__animate-item">
+                                <div class="services__thumb-seven shine__animate-link">
+                                    <a href="government-relations-pro-services.php"><img src="assets/img/services/h8_services_img022.jpg" alt="img"></a>
+                                </div>
+                                <div class="services__content-nine">
+                                    <h2  class="title"><a href="government-relations-pro-services.php">Government Relations & PRO Services</a></h2>
+                                    <p>Simplify approvals, renewals, document processing, and corporate administration through dedicated PRO support.</p>
+                                    <a href="government-relations-pro-services.php" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="itemThree-tab-pane" role="tabpanel" aria-labelledby="itemThree-tab" tabindex="0">
+                            <div class="services__item-nine shine__animate-item">
+                                <div class="services__thumb-seven shine__animate-link">
+                                    <a href="immigration-residency-solutions.php"><img src="assets/img/services/h8_services_img03.jpg" alt="img"></a>
+                                </div>
+                                <div class="services__content-nine">
+                                    <h2 class="title"><a href="immigration-residency-solutions.php">Immigration & Residency Solutions</a></h2>
+                                    <p>Comprehensive visa and residency services for entrepreneurs, investors, executives, employees, and families.</p>
+                                    <a href="immigration-residency-solutions.php" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="itemFour-tab-pane" role="tabpanel" aria-labelledby="itemFour-tab" tabindex="0">
+                            <div class="services__item-nine shine__animate-item">
+                                <div class="services__thumb-seven shine__animate-link">
+                                    <a href="digital-marketing-brand-development.php"><img src="assets/img/services/h8_services_img01.jpg" alt="img"></a>
+                                </div>
+                                <div class="services__content-nine">
+                                    <h2 class="title"><a href="digital-marketing-brand-development.php">Digital Marketing & Brand Development</a></h2>
+                                    <p>Build your presence, generate leads, and grow your brand through strategic marketing and digital solutions.</p>
+                                    <a href="digital-marketing-brand-development.php" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="itemFive-tab-pane" role="tabpanel" aria-labelledby="itemFive-tab" tabindex="0">
+                            <div class="services__item-nine shine__animate-item">
+                                <div class="services__thumb-seven shine__animate-link">
+                                    <a href="ai-automation-technology-solutions.php"><img src="assets/img/services/h8_services_img02.jpg" alt="img"></a>
+                                </div>
+                                <div class="services__content-nine">
+                                    <h2 class="title"><a href="ai-automation-technology-solutions.php">AI Automation & Technology Solutions</a></h2>
+                                    <p>Leverage AI, automation, and modern technology to improve efficiency, reduce costs, and scale intelligently.</p>
+                                    <a href="ai-automation-technology-solutions.php" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- services-area-end -->
 
-        <!-- cta-area -->
-        <section class="cta__area">
+              <!-- marquee-area -->
+        <section class="marquee__area">
+            <div class="slider__marquee clearfix marquee-wrap">
+                <div class="marquee_mode marquee__group">
+                    <h6 class="marquee__item">
+                        <a href="government-relations-pro-services.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>PRO SERVICES</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="uae-business-formation.php"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>BUSINESS SETUP</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>GOLDEN VISA</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="uae-business-formation.php#business-bank-account-opening"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>BANK ACCOUNT OPENING</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg> BRAND DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg> INVEST IN DUBAI</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg> FREELANCE VISA</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>DIGITAL MARKETING</a>
+                    </h6>
+                     <h6 class="marquee__item">
+                        <a href="ai-automation-technology-solutions.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>AI AUTOMATION</a>
+                    </h6>
+                     <h6 class="marquee__item">
+                        <a href="government-relations-pro-services.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>GOVERNMENT RELATIONS</a>
+                    </h6>
+                     <h6 class="marquee__item">
+                        <a href="digital-marketing-brand-development.php#web-digital-solutions-website-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>WEB DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>RESIDENCY SOLUTION</a>
+                    </h6>
+                    <h6 class="marquee__item">
+                        <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+  </svg>MARKETING SOLUTION</a>
+                    </h6>
+                </div>
+            </div>
+        </section>
+        <!-- marquee-area-end -->
+
+        <!-- team-area -->
+        <section class="virtuo-team section-py-130" aria-labelledby="virtuo-team-title">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">
-                        <div class="cta__content">
-                            <div class="section__title white-title">
-                                <h2 class="title">Let’s discuss about how we can help make your business better!</h2>
-                            </div>
+            <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section__title text-center mb-50">
+                            <span class="sub-title">Expert Team</span>
+                            <h2 class="title">Our expert team will help you to Grow Business</h2>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="cta__btn">
-                            <a href="contact.php" class="tg-btn tg-hover-btn">Let’s Make a Schedule <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                </div>
+            <div class="container virtuo-team__container">
+                <div class="virtuo-team__intro">
+                    <span class="sub-title">Core Team</span>
+                    <h2 class="title" id="virtuo-team-title">Meet the Virtuo Services team</h2>
+                </div>
+                <div class="virtuo-team__grid">
+                    <figure class="virtuo-team__member">
+                        <img src="assets/img/team/jonaid.png" alt="Jonaid">
+                        <figcaption>
+                            <h3>Jonaid Ali Mohammad</h3>
+                            <span>Business Consultant</span>
+                            <div class="virtuo-team__social" aria-label="Jonaid Ali Mohammad social links">
+                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Jonaid Ali Mohammad on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="virtuo-team__member">
+                        <img src="assets/img/team/hasan.png" alt="Hasan">
+                        <figcaption>
+                            <h3>Hasan Rauf</h3>
+                            <span>Technology Advisor</span>
+                            <div class="virtuo-team__social" aria-label="Hasan Rauf social links">
+                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Hasan Rauf on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="virtuo-team__member">
+                        <img src="assets/img/team/affan.png" alt="Affan">
+                        <figcaption>
+                            <h3>Mohammad Affan</h3>
+                            <span>Public Relations Manager</span>
+                            <div class="virtuo-team__social" aria-label="Mohammad Affan social links">
+                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Mohammad Affan on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="virtuo-team__member">
+                        <img src="assets/img/team/junaid.png" alt="Junaid">
+                        <figcaption>
+                            <h3>Junaid Mahmood</h3>
+                            <span>Sr. IT Developer</span>
+                            <div class="virtuo-team__social" aria-label="Junaid Mahmood social links">
+                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Junaid Mahmood on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="virtuo-team__member">
+                        <img src="assets/img/team/zayn.png" alt="Zayn">
+                        <figcaption>
+                            <h3>Zayn Ali</h3>
+                            <span>Sr. Product Designer</span>
+                            <div class="virtuo-team__social" aria-label="Zayn Ali social links">
+                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Zayn Ali on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- team-area-end -->
+
+
+        <!-- cta-area -->
+        <section class="cta__area-five">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-5">
+                        <div class="cta__content-five">
+                            <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="cta__content-right-two">
+                            <div class="cta__contact">
+                                <div class="icon">
+                                    <i class="flaticon-telephone"></i>
+                                </div>
+                                <div class="content">
+                                    <span>Get in touch with us </span>
+                                    <a href="tel:+971565151315">+971 56 515 1315</a>
+                                </div>
+                            </div>
+                            <a href="services.php" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender">Take Our Service <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="cta__shape-wrap">
-                <img src="assets/img/images/cta_shape01.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="400">
-                <img src="assets/img/images/cta_shape02.svg" alt="shape" data-aos="fade-up" data-aos-delay="400">
-                <img src="assets/img/images/cta_shape03.svg" alt="shape">
+            <div class="cta__shape-wrap-two">
+                <img src="assets/img/images/h7_cta_shape01.svg" alt="shape">
+                <img src="assets/img/images/h7_cta_shape02.svg" alt="shape">
             </div>
         </section>
         <!-- cta-area-end -->
 
-        <!-- history-area -->
-        <section class="history__area section-py-130">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-10">
-                        <div class="history__img-wrap">
-                            <img src="assets/img/images/history_img01.jpg" alt="img">
-                            <img src="assets/img/images/history_img02.jpg" alt="img" data-aos="fade-up" data-aos-delay="400">
-                            <img src="assets/img/images/history_shape.svg" alt="shape" class="shape" data-aos="fade-down-right" data-aos-delay="400">
-                            <div class="satisfied__clients-wrap" data-parallax='{"x" : -30 }'>
-                                <span class="title">Satisfied Clients</span>
-                                <img src="assets/img/images/cleint_img.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="history__content">
-                            <div class="section__title mb-20">
-                                <span class="sub-title">Behind Our History</span>
-                                <h2 class="title">We Do Consultancy For Developing A New Business Culture Company</h2>
-                            </div>
-                            <p>Transform your business with our transforeive consulting solution We go beyond short-term fixes to deliver sustainable growth strategies that future-proof your enterprise.</p>
-                            <div class="progress__wrap">
-                                <div class="progress__item">
-                                    <h6 class="title">Consulting</h6>
-                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 50%"><span>50%</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress__item">
-                                    <h6 class="title">Investment</h6>
-                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 76%"><span>76%</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress__item">
-                                    <h6 class="title">Project Completed Rate</h6>
-                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 90%"><span>90%</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- history-area-end -->
-
-        <!-- counter-area -->
-        <section class="counter__area">
-            <div class="container">
-                <div class="counter__wrap">
-                    <div class="row">
-                        <div class="col-lg-3 col-6">
-                            <div class="counter__item">
-                                <h2 class="count"><span class="odometer" data-count="95"></span>%</h2>
-                                <p>Success Rate</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="counter__item">
-                                <h2 class="count"><span class="odometer" data-count="23"></span>K</h2>
-                                <p>Complete Projects</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="counter__item">
-                                <h2 class="count"><span class="odometer" data-count="11"></span>K</h2>
-                                <p>Satisfied Clients</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="counter__item">
-                                <h2 class="count"><span class="odometer" data-count="620"></span>+</h2>
-                                <p>Trade In The World</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="counter__shape">
-                <img src="assets/img/images/counter__shape.svg" alt="shape" data-aos="fade-up-left" data-aos-delay="400">
-            </div>
-        </section>
-        <!-- counter-area-end -->
-
-        <!-- video-area -->
-        <section class="video__area">
-            <div class="video__bg" data-background="assets/img/bg/video_bg.webp"></div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 order-0 order-lg-2">
-                        <div class="video__btn">
-                            <a href="https://www.youtube.com/watch?v=6mkoGSqTqFI" class="play__btn popup-video"><img src="assets/img/images/play_video.svg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="video__content">
-                            <span class="sub-title">Let’s Make A Tour</span>
-                            <h2 class="title">Offering The Best Experience Of Business Consulting</h2>
-                            <p>Transform your business with our transforeive consulting solution We go beyond short-term fixes to deliver.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- video-area-end -->
-
-        <!-- project-area -->
-        <section class="project__area section-py-130 project__bg" data-background="assets/img/bg/project_bg.jpg">
+        <!-- blog-post-area -->
+        <section class="blog__post-area-six section-py-130">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8">
                         <div class="section__title text-center mb-50">
-                            <span class="sub-title">Our Working Portfolio</span>
-                            <h2 class="title">Exploring Our Most Impactful Case Studies For You</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-container project-active fix">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="project__item">
-                            <div class="project__thumb">
-                                <img src="assets/img/project/project_img01.jpg" alt="img">
-                            </div>
-                            <div class="project__content">
-                                <div class="project__content-left">
-                                    <span>Business Strategy</span>
-                                    <h2 class="title"><a href="project-details.php">10x Business Growth</a></h2>
-                                </div>
-                                <div class="project__content-arrow">
-                                    <a href="project-details.php"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="project__item">
-                            <div class="project__thumb">
-                                <img src="assets/img/project/project_img02.jpg" alt="img">
-                            </div>
-                            <div class="project__content">
-                                <div class="project__content-left">
-                                    <span>Business Strategy</span>
-                                    <h2 class="title"><a href="project-details.php">Build Financial Company</a></h2>
-                                </div>
-                                <div class="project__content-arrow">
-                                    <a href="project-details.php"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="project__item">
-                            <div class="project__thumb">
-                                <img src="assets/img/project/project_img03.jpg" alt="img">
-                            </div>
-                            <div class="project__content">
-                                <div class="project__content-left">
-                                    <span>Finance Strategy</span>
-                                    <h2 class="title"><a href="project-details.php">Finance Success</a></h2>
-                                </div>
-                                <div class="project__content-arrow">
-                                    <a href="project-details.php"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="project__item">
-                            <div class="project__thumb">
-                                <img src="assets/img/project/project_img04.jpg" alt="img">
-                            </div>
-                            <div class="project__content">
-                                <div class="project__content-left">
-                                    <span>Business Strategy</span>
-                                    <h2 class="title"><a href="project-details.php">Custom UX Design</a></h2>
-                                </div>
-                                <div class="project__content-arrow">
-                                    <a href="project-details.php"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="project__nav-wrap">
-                    <button class="project-button-prev">
-                        <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
-                    </button>
-                    <button class="project-button-next">
-                        <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
-                    </button>
-                </div>
-            </div>
-        </section>
-        <!-- project-area-end -->
-
-        <!-- team-area -->
-        <section class="team__area fix section-py-130">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="section__title white-title mb-50 mb-md-30">
-                            <span class="sub-title">MEET OUR TEAM</span>
-                            <h2 class="title">Meet our Specialized <br> team of experts</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="section__content white-content mb-50">
-                            <p>Our power of choice is untrammelled and when nothing tsbeing able to do what we like best every pleasure.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row gutter-y-30 justify-content-center">
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="team__item">
-                            <div class="team__thumb">
-                                <img src="assets/img/team/team_img01.png" alt="img">
-                            </div>
-                            <div class="team__content">
-                                <h2 class="title"><a href="team-details.php">Jone Cooper</a></h2>
-                                <span>Finance Advisor</span>
-                            </div>
-                            <div class="team__social">
-                                <div class="social-toggle-icon">
-                                    <i class="fas fa-share-alt"></i>
-                                </div>
-                                <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                </ul>
-                            </div>
-                            <div class="team__shape">
-                                <img src="assets/img/team/team_shape.svg" alt="shape">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="team__item">
-                            <div class="team__thumb">
-                                <img src="assets/img/team/team_img02.png" alt="img">
-                            </div>
-                            <div class="team__content">
-                                <h2 class="title"><a href="team-details.php">Ralph Edwards</a></h2>
-                                <span>Finance Advisor</span>
-                            </div>
-                            <div class="team__social">
-                                <div class="social-toggle-icon">
-                                    <i class="fas fa-share-alt"></i>
-                                </div>
-                                <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                </ul>
-                            </div>
-                            <div class="team__shape">
-                                <img src="assets/img/team/team_shape.svg" alt="shape">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="team__item">
-                            <div class="team__thumb">
-                                <img src="assets/img/team/team_img03.png" alt="img">
-                            </div>
-                            <div class="team__content">
-                                <h2 class="title"><a href="team-details.php">Floyd Miles</a></h2>
-                                <span>Finance Advisor</span>
-                            </div>
-                            <div class="team__social">
-                                <div class="social-toggle-icon">
-                                    <i class="fas fa-share-alt"></i>
-                                </div>
-                                <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                </ul>
-                            </div>
-                            <div class="team__shape">
-                                <img src="assets/img/team/team_shape.svg" alt="shape">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="team__item">
-                            <div class="team__thumb">
-                                <img src="assets/img/team/team_img04.png" alt="img">
-                            </div>
-                            <div class="team__content">
-                                <h2 class="title"><a href="team-details.php">Eleanor Pena</a></h2>
-                                <span>Finance Advisor</span>
-                            </div>
-                            <div class="team__social">
-                                <div class="social-toggle-icon">
-                                    <i class="fas fa-share-alt"></i>
-                                </div>
-                                <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                </ul>
-                            </div>
-                            <div class="team__shape">
-                                <img src="assets/img/team/team_shape.svg" alt="shape">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team__bottom-content text-center">
-                    <p>Backbone Of Our Company. <a href="team.php">See All Members</a></p>
-                </div>
-            </div>
-            <div class="team__shape-wrap">
-                <img src="assets/img/team/team_shape01.svg" alt="shape" data-aos="fade-down-left" data-aos-delay="400">
-                <img src="assets/img/team/team_shape02.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="400">
-                <img src="assets/img/team/team_shape03.svg" alt="shape" class="rightToLeft">
-            </div>
-        </section>
-        <!-- team-area-end -->
-
-        <!-- faq-area -->
-        <section class="faq__area section-py-130">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="faq__content">
-                            <div class="section__title mb-20">
-                                <span class="sub-title">Don’t find the answer? We can help</span>
-                                <h2 class="title">Have questions? <br> We’ve got answers.</h2>
-                            </div>
-                            <p>ellent content and a real sense of community among all curated in a wonderful setting is clear effort goes into the organization area.</p>
-                            <div class="faq__img">
-                                <img src="assets/img/images/faq_img.jpg" alt="img">
-                            </div>
-                            <div class="shape">
-                                <img src="assets/img/images/faq_shape.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="400">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="faq__wrap">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            How does the free trial work?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            How do you find different criteria in your process?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            What do I get for $0 with my plan?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            What do you look for in a founding team?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            Can you provide the references work ?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- faq-area-end -->
-
-        <!-- cta-area -->
-        <section class="cta__area-two">
-            <div class="container">
-                <div class="cta__inner-wrap">
-                    <div class="row align-items-center">
-                        <div class="col-lg-8">
-                            <div class="cta__content-two">
-                                <h2 class="title">Still have questions?</h2>
-                                <p>Can’t find the answer you’re looking for? Please get in touch with our team.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="cta__btn-two">
-                                <a href="contact.php" class="tg-btn tg-hover-btn">Contact With Us <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cta__shape-two">
-                <img src="assets/img/images/cta_shape04.svg" alt="shape">
-            </div>
-        </section>
-        <!-- cta-area-end -->
-
-        <!-- testimonial-area -->
-        <section class="testimonial__area fix">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="testimonial__wrap">
-                            <div class="swiper-container fix testimonial-active">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <div class="testimonial__icon">
-                                                <img src="assets/img/icons/quote.svg" alt="icon" class="injectable">
-                                            </div>
-                                            <div class="testimonial__content">
-                                                <p>“Excellent content and a real sense of community among the participant
-                                                all curated in a wonderful setting. It is clear effort goes into the organization and planning of the gatherings. ”</p>
-                                                <div class="testimonial__rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial__content-bottom">
-                                                    <h4 class="title">Mr.Robey Alexa</h4>
-                                                    <span>CEO, Virtuo Services Agency</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <div class="testimonial__icon">
-                                                <img src="assets/img/icons/quote.svg" alt="icon" class="injectable">
-                                            </div>
-                                            <div class="testimonial__content">
-                                                <p>“Excellent content and a real sense of community among the participant
-                                                all curated in a wonderful setting. It is clear effort goes into the organization and planning of the gatherings. ”</p>
-                                                <div class="testimonial__rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial__content-bottom">
-                                                    <h4 class="title">Mr.Robey Alexa</h4>
-                                                    <span>CEO, Virtuo Services Agency</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <div class="testimonial__icon">
-                                                <img src="assets/img/icons/quote.svg" alt="icon" class="injectable">
-                                            </div>
-                                            <div class="testimonial__content">
-                                                <p>“Excellent content and a real sense of community among the participant
-                                                all curated in a wonderful setting. It is clear effort goes into the organization and planning of the gatherings. ”</p>
-                                                <div class="testimonial__rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial__content-bottom">
-                                                    <h4 class="title">Mr.Robey Alexa</h4>
-                                                    <span>CEO, Virtuo Services Agency</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <div class="testimonial__icon">
-                                                <img src="assets/img/icons/quote.svg" alt="icon" class="injectable">
-                                            </div>
-                                            <div class="testimonial__content">
-                                                <p>“Excellent content and a real sense of community among the participant
-                                                all curated in a wonderful setting. It is clear effort goes into the organization and planning of the gatherings. ”</p>
-                                                <div class="testimonial__rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <div class="testimonial__content-bottom">
-                                                    <h4 class="title">Mr.Robey Alexa</h4>
-                                                    <span>CEO, Virtuo Services Agency</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper testimonial__nav">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <button><img src="assets/img/images/testi_avatar01.png" alt="img"></button>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <button><img src="assets/img/images/testi_avatar02.png" alt="img"></button>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <button><img src="assets/img/images/testi_avatar03.png" alt="img"></button>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <button><img src="assets/img/images/testi_avatar04.png" alt="img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial__nav-two">
-                                    <button class="testimonial-button-prev"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
-                                    <button class="testimonial-button-next"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial__shape-wrap">
-                <img src="assets/img/images/testi_shape01.svg" alt="shape">
-                <img src="assets/img/images/testi_shape02.svg" alt="shape">
-                <img src="assets/img/images/testi_shape03.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="400">
-                <img src="assets/img/images/testi_shape04.svg" alt="shape">
-                <img src="assets/img/images/testi_shape05.svg" alt="shape">
-                <img src="assets/img/images/map.svg" alt="shape" class="big-shape">
-            </div>
-        </section>
-        <!-- testimonial-area-end -->
-
-        <!-- blog-post-area -->
-        <section class="blog__post-area section-py-130">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="section__title mb-50 mb-md-30">
-                            <span class="sub-title">Flexible Pricing Plan</span>
-                            <h2 class="title">We’ve offered the best <br> pricing for you</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-50">
-                        <div class="section__content">
-                            <p>Ever find yourself staring at your computer screen a good consulting slogan to come to mind? Oftentimes.</p>
+                            <span class="sub-title">Our Latest Blogs</span>
+                            <h2 class="title">Our expert team will help you to Grow Business</h2>
                         </div>
                     </div>
                 </div>
@@ -1339,15 +859,10 @@
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
                                 <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="img"></a>
-                                <div class="blog__post-date">
+                                <div class="blog__post-date-two">
                                     <span>
                                         <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
                                     </span>
-                                    <div class="shape">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159 46" fill="none" preserveAspectRatio="none">
-                                            <path d="M14.5854 6.5335C16.0365 2.60713 19.7795 0 23.9654 0H159V46H0L14.5854 6.5335Z" fill="currentColor" />
-                                        </svg>
-                                    </div>
                                 </div>
                             </div>
                             <div class="blog__post-content">
@@ -1364,15 +879,10 @@
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
                                 <a href="blog-details.php"><img src="assets/img/blog/blog_post02.jpg" alt="img"></a>
-                                <div class="blog__post-date">
+                                <div class="blog__post-date-two">
                                     <span>
                                         <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
                                     </span>
-                                    <div class="shape">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159 46" fill="none" preserveAspectRatio="none">
-                                            <path d="M14.5854 6.5335C16.0365 2.60713 19.7795 0 23.9654 0H159V46H0L14.5854 6.5335Z" fill="currentColor" />
-                                        </svg>
-                                    </div>
                                 </div>
                             </div>
                             <div class="blog__post-content">
@@ -1389,15 +899,10 @@
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
                                 <a href="blog-details.php"><img src="assets/img/blog/blog_post03.jpg" alt="img"></a>
-                                <div class="blog__post-date">
+                                <div class="blog__post-date-two">
                                     <span>
                                         <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
                                     </span>
-                                    <div class="shape">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159 46" fill="none" preserveAspectRatio="none">
-                                            <path d="M14.5854 6.5335C16.0365 2.60713 19.7795 0 23.9654 0H159V46H0L14.5854 6.5335Z" fill="currentColor" />
-                                        </svg>
-                                    </div>
                                 </div>
                             </div>
                             <div class="blog__post-content">
@@ -1415,137 +920,103 @@
         </section>
         <!-- blog-post-area-end -->
 
-        <!-- call-back-area -->
-        <section class="call__back-area fix section-py-130">
+        
+
+              <!-- call-back-area -->
+        <!-- <section class="call__back-area-two" style="margin-bottom: -212px; z-index: 100; position: relative;">
             <div class="container">
-                <div class="call__back-wrap">
-                    <div class="row align-items-center">
-                        <div class="col-lg-7">
-                            <div class="call__back-img">
-                                <img src="assets/img/images/call_back-img.jpg" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="call__back-content">
+                <div class="call__back-wrap-two">
+                    <div class="row  align-items-center">
+                        <div class="col-lg-6">
+                            <div class="call__back-content-two">
                                 <div class="section__title white-title mb-15">
-                                    <h2 class="title">Get free business consultation today!</h2>
+                                    <h2 class="title">Get free marketing consultation today</h2>
                                 </div>
-                                <p>Ever find yourself staring at your computer screen a consulting to come to mind?Oftentimes.</p>
-                                <form action="#" class="call__back-form">
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Name *">
-                                    </div>
-                                    <div class="form-grp">
-                                        <input type="email" placeholder="E-mail *">
-                                    </div>
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Subject *">
-                                    </div>
-                                    <div class="form-grp">
-                                        <textarea name="comments" placeholder="Comments"></textarea>
-                                    </div>
-                                    <button type="submit">Submit Now</button>
-                                </form>
+                                <p>Vestibulum lectus mauris ultrices eros in. Cursus sit amet dictum sit amet. Adipiscing.</p>
+                                <a href="contact.php" class="tg-btn tg-border-btn">Contact With Us <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                             </div>
                         </div>
+                        <div class="col-lg-6">
+                            <form action="#" class="call__back-form-two">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input type="text" placeholder="Name *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input type="email" placeholder="E-mail *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input type="number" placeholder="Phone *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input type="text" placeholder="Service">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-grp">
+                                    <textarea name="comment" placeholder="Comments"></textarea>
+                                </div>
+                                <button type="submit">Submit Now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="call__back-shape-two">
+                        <img src="assets/img/images/h2_call_back_shape01.svg" alt="shape">
+                        <img src="assets/img/images/h2_call_back_shape02.svg" alt="shape">
+                        <img src="assets/img/images/h2_call_back_shape03.svg" alt="shape">
                     </div>
                 </div>
             </div>
-            <div class="call__back-shape">
-                <img src="assets/img/images/call_back_shape01.svg" alt="shape" data-aos="fade-down-right" data-aos-delay="400">
-                <img src="assets/img/images/call_back_shape02.svg" alt="shape">
-                <img src="assets/img/images/call_back_shape03.svg" alt="shape" class="alltuchtopdown">
-                <img src="assets/img/images/call_back_shape04.svg" alt="shape" class="rightToLeft">
-                <img src="assets/img/images/call_back_shape05.svg" alt="shape" data-aos="fade-up-left" data-aos-delay="400">
-            </div>
-        </section>
+        </section> -->
         <!-- call-back-area-end -->
 
+         <!-- cta-area -->
+        <section class="cta__area-two">
+            <div class="container">
+                <div class="cta__inner-wrap-two">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="cta__content-three">
+                                <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="cta__content-right">
+                                <div class="cta__contact">
+                                    <div class="icon">
+                                        <i class="flaticon-telephone"></i>
+                                    </div>
+                                    <div class="content">
+                                        <span>Call For More Info</span>
+                                        <a href="tel:+971565151315">+971 56 515 1315</a>
+                                    </div>
+                                </div>
+                                <a href="contact.php" class="tg-btn tg-btn-three tg-border-btn ">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta__shape-three">
+                        <img src="assets/img/images/h2_cta_shape.svg" alt="shape">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta-area-end -->
 
-    </main>
+
+    </div>
+    <!-- </main> -->
     <!-- main-area-end -->
 
-    <!-- footer-area -->
-    <footer class="footer__area fix">
-        <div class="footer__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="footer__widget">
-                            <div class="footer__logo">
-                                <a href="index-5.php"><img src="assets/img/logo/logo.svg" alt="logo"></a>
-                            </div>
-                            <div class="footer__content">
-                                <p>Felis consquat magnis fames sagittis ultrices plasodales porttitor quisque ultrice tempor turpis.</p>
-                            </div>
-                            <div class="footer__social">
-                                <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer__widget">
-                            <h4 class="footer__widget-title">About Company</h4>
-                            <ul class="footer__widget-link list-wrap">
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="about.php">Sustainability</a></li>
-                                <li><a href="about.php">Leadership</a></li>
-                                <li><a href="about.php">Team News & Media</a></li>
-                                <li><a href="about.php">Careers</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-                        <div class="footer__widget">
-                            <h4 class="footer__widget-title">Quick links</h4>
-                            <ul class="footer__widget-link list-wrap">
-                                <li><a href="about.php">How it’s Work</a></li>
-                                <li><a href="contact.php">Partners</a></li>
-                                <li><a href="contact.php">Testimonials</a></li>
-                                <li><a href="project.php">Case Studiesa</a></li>
-                                <li><a href="contact.php">Pricing</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-8">
-                        <div class="footer__widget">
-                            <h4 class="footer__widget-title">Subscribe Newsletter</h4>
-                            <div class="footer__newsletter">
-                                <span>*Only valuable resource no bullshit</span>
-                                <form action="#" class="footer__newsletter-form">
-                                    <input type="text" placeholder="Enter your e-mail">
-                                    <button type="submit"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer__bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright__content">
-                            <p>Copyright © Virtuo Services | All Right Reserved</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer__shape-wrap">
-            <img src="assets/img/images/footer_shape01.svg" alt="shape" data-aos="fade-down-left" data-aos-delay="400">
-            <img src="assets/img/images/footer_shape02.svg" alt="shape">
-            <img src="assets/img/images/footer_shape03.svg" alt="shape" class="rotateme">
-        </div>
-    </footer>
-    <!-- footer-area-end -->
+   <?php include __DIR__ . '/partials/footer.php'; ?>
+<?php include __DIR__ . '/partials/scripts.php'; ?>
 
 
 
@@ -1553,24 +1024,8 @@
 
 
 
-    <!-- JS here -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.odometer.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/jquery.parallaxScroll.min.js"></script>
-    <script src="assets/js/jquery.marquee.min.js"></script>
-    <script src="assets/js/tg-cursor.min.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/svg-inject.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-        SVGInject(document.querySelectorAll("img.injectable"));
-    </script>
+
+
 </body>
 
 </html>
