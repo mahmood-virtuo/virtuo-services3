@@ -293,7 +293,7 @@
         if (!activateServiceTab(tabName, false)) return;
 
         if (history.replaceState) {
-          history.replaceState(null, "", "#" + tabName);
+          // history.replaceState(null, "", "#" + tabName);
         }
       });
     });
@@ -381,7 +381,7 @@
         });
 
         if (history.replaceState) {
-          history.replaceState(null, "", "#" + panelId);
+          // history.replaceState(null, "", "#" + panelId);
         }
 
         return;
@@ -406,7 +406,7 @@
       });
 
       if (history.replaceState) {
-        history.replaceState(null, "", "#" + panelId);
+        // history.replaceState(null, "", "#" + panelId);
       }
 
       if (shouldScroll && panel) {

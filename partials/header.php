@@ -74,7 +74,8 @@
                                             <button type="button" class="is-active" data-mega-category="formation" data-mega-link="uae-business-formation.php">UAE Business Formation, Structuring &amp; Compliance</button>
                                             <button type="button" data-mega-category="pro" data-mega-link="government-relations-pro-services.php">Government Relations &amp; PRO Services</button>
                                             <button type="button" data-mega-category="immigration" data-mega-link="immigration-residency-solutions.php">Immigration &amp; Residency Solutions</button>
-                                            <button type="button" data-mega-category="marketing" data-mega-link="digital-marketing-brand-development.php">Digital Marketing &amp; Brand Development</button>
+                                            <!-- <button type="button" data-mega-category="marketing" data-mega-link="digital-marketing-brand-development.php">Digital Marketing &amp; Brand Development</button> -->
+                                           <button type="button" data-mega-category="marketing" data-mega-link="digital-marketing-brand-development.php">Digital Marketing &amp; Brand Development</button>
                                             <button type="button" data-mega-category="ai" data-mega-link="ai-automation-technology-solutions.php">AI Automation &amp; Technology Solutions</button>
                                         </div>
                                         <div class="virtuo-services-mega__divider" aria-hidden="true"></div>
@@ -112,8 +113,10 @@
                                                     <a href="brand-development.php">BRAND DEVELOPMENT</a>
                                                     <a href="marketing-solutions.php">MARKETING SOLUTIONS</a>
                                                 </div> -->
-                                            <div class="virtuo-services-mega__panel is-active" data-mega-panel="marketing">
-                                                <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions">WEB &amp; DIGITAL SOLUTIONS</a>
+                                            <!-- <div class="virtuo-services-mega__panel is-active" data-mega-panel="marketing"> -->
+                                                <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
+                                                <!-- <a href="digital-marketing-brand-development.php">WEB &amp; DIGITAL SOLUTIONS</a> -->
+                                                 <a href="digital-marketing-brand-development.php">WEB &amp; DIGITAL SOLUTIONS</a>
                                                 <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
                                                 <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development">BRAND DEVELOPMENT</a>
                                                 <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions">MARKETING SOLUTIONS</a>
@@ -150,7 +153,7 @@
                     <div class="tgmenu__action tgmenu__action-five">
                         <ul class="list-wrap">
                             <li class="header-contact">
-                                <a href="tel:+971565151315" class="header-contact-info"><i class="flaticon-telephone"></i>+971 56 515 1315</a>
+                                <a href="https://wa.me/971565151315" class="header-whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
                             </li>
                             <li class="offCanvas-menu">
                                 <a href="shop.php" class="menu-tigger">
@@ -223,8 +226,7 @@
                 <p><span>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
             </div>
             <div class="contact-list">
-                <i class="flaticon-telephone"></i>
-                <a href="tel:+971565151315">+971 56 515 1315</a>
+                <a href="https://wa.me/971565151315" class="header-whatsapp-btn offcanvas-whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
             </div>
             <div class="contact-list">
                 <i class="flaticon-envelope"></i>
