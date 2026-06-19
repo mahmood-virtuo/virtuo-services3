@@ -528,7 +528,7 @@
                                 <h2 class="title">Empowering Businesses Demonstrating SEO Impact</h2>
                             </div>
                             <p>Things go wrong have questions. We’ve understand we areaa have peopleam viverra.ting is marketing and advertising of a business service using online channels.</p>
-                             <ul class="list-wrap about__list-item-two">
+                            <ul class="list-wrap about__list-item-two">
                                 <li>
                                     <div class="icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none">
@@ -641,10 +641,8 @@
                         </div>
                     </div>
                     <div class="project__nav-two">
-                        <button class="project-button-prev"><img src="assets/img/icons/right_arrow.svg" alt=""
-                        class="injectable"></button>
-                        <button class="project-button-next"><img src="assets/img/icons/right_arrow.svg" alt=""
-                        class="injectable"></button>
+                        <button class="project-button-prev"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
+                        <button class="project-button-next"><img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
                     </div>
                 </div>
             </div>

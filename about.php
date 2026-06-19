@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-    
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -56,74 +56,74 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-         <!-- marquee-area -->
+        <!-- marquee-area -->
         <section class="marquee__area">
             <div class="slider__marquee clearfix marquee-wrap">
                 <div class="marquee_mode marquee__group">
                     <h6 class="marquee__item">
                         <a href="government-relations-pro-services.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>PRO SERVICES</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>PRO SERVICES</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="uae-business-formation.php"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>BUSINESS SETUP</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>BUSINESS SETUP</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>GOLDEN VISA</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>GOLDEN VISA</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="uae-business-formation.php#business-bank-account-opening"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>BANK ACCOUNT OPENING</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>BANK ACCOUNT OPENING</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg> BRAND DEVELOPMENT</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg> BRAND DEVELOPMENT</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg> INVEST IN DUBAI</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg> INVEST IN DUBAI</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg> FREELANCE VISA</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg> FREELANCE VISA</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>DIGITAL MARKETING</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>DIGITAL MARKETING</a>
                     </h6>
-                     <h6 class="marquee__item">
+                    <h6 class="marquee__item">
                         <a href="ai-automation-technology-solutions.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>AI AUTOMATION</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>AI AUTOMATION</a>
                     </h6>
-                     <h6 class="marquee__item">
+                    <h6 class="marquee__item">
                         <a href="government-relations-pro-services.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>GOVERNMENT RELATIONS</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>GOVERNMENT RELATIONS</a>
                     </h6>
-                     <h6 class="marquee__item">
+                    <h6 class="marquee__item">
                         <a href="digital-marketing-brand-development.php#web-digital-solutions-website-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>WEB DEVELOPMENT</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>WEB DEVELOPMENT</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>RESIDENCY SOLUTION</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>RESIDENCY SOLUTION</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>MARKETING SOLUTION</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>MARKETING SOLUTION</a>
                     </h6>
                 </div>
             </div>
@@ -168,10 +168,10 @@
                             </div>
                             <p>Virtuo Services is the premier strategic partner for entrepreneurs and corporations navigating the dynamic landscape of the UAE. Specializing in Business Setup in Dubai and comprehensive PRO Services, we bridge the gap between your commercial ambitions and the city’s complex regulatory requirements. Our mission is centered on absolute transparency, ensuring that your company formation and Residence Visa processes are not just successful, but entirely seamless.
 
-The journey to establishing a presence in Dubai involves a sophisticated web of government interactions; Virtuo Services serves as your expert advocate within this ecosystem. Our elite team of Public Relations Officers (PROs) and administrative specialists handle the time-consuming and challenging task of clearing paperwork with all major authorities, including the DED, Immigration, MOHRE, Dubai Municipality, RERA, SIRA, and the Notary Public. By managing these vital backend formalities with precision and speed, we liberate you from the burden of bureaucracy, allowing you to focus exclusively on scaling your business and building your legacy.</p>
-                           
+                                The journey to establishing a presence in Dubai involves a sophisticated web of government interactions; Virtuo Services serves as your expert advocate within this ecosystem. Our elite team of Public Relations Officers (PROs) and administrative specialists handle the time-consuming and challenging task of clearing paperwork with all major authorities, including the DED, Immigration, MOHRE, Dubai Municipality, RERA, SIRA, and the Notary Public. By managing these vital backend formalities with precision and speed, we liberate you from the burden of bureaucracy, allowing you to focus exclusively on scaling your business and building your legacy.</p>
+
                             <div class="about__content-bottom">
-                               
+
                                 <a href="contact.php" class="tg-btn">Speak with an expert <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                             </div>
                         </div>
@@ -218,7 +218,7 @@ The journey to establishing a presence in Dubai involves a sophisticated web of 
         <!-- team-area -->
         <section class="virtuo-team section-py-130" aria-labelledby="virtuo-team-title" style="margin-bottom: 80px;">
             <div class="container">
-            <div class="row justify-content-center">
+                <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section__title text-center mb-50">
                             <span class="sub-title">Expert Team</span>
@@ -226,76 +226,76 @@ The journey to establishing a presence in Dubai involves a sophisticated web of 
                         </div>
                     </div>
                 </div>
-            <div class="container virtuo-team__container">
-                <div class="virtuo-team__intro">
-                    <span class="sub-title">Core Team</span>
-                    <h2 class="title" id="virtuo-team-title">Meet the Virtuo Services team</h2>
+                <div class="container virtuo-team__container">
+                    <div class="virtuo-team__intro">
+                        <span class="sub-title">Core Team</span>
+                        <h2 class="title" id="virtuo-team-title">Meet the Virtuo Services team</h2>
+                    </div>
+                    <div class="virtuo-team__grid">
+                        <figure class="virtuo-team__member">
+                            <img src="assets/img/team/jonaid.png" alt="Jonaid">
+                            <figcaption>
+                                <h3>Jonaid Ali Mohammad</h3>
+                                <span>Business Consultant</span>
+                                <div class="virtuo-team__social" aria-label="Jonaid Ali Mohammad social links">
+                                    <a href="https://www.linkedin.com/" target="_blank" aria-label="Jonaid Ali Mohammad on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                    <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="virtuo-team__member">
+                            <img src="assets/img/team/hasan.png" alt="Hasan">
+                            <figcaption>
+                                <h3>Hasan Rauf</h3>
+                                <span>Technology Advisor</span>
+                                <div class="virtuo-team__social" aria-label="Hasan Rauf social links">
+                                    <a href="https://www.linkedin.com/" target="_blank" aria-label="Hasan Rauf on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                    <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="virtuo-team__member">
+                            <img src="assets/img/team/affan.png" alt="Affan">
+                            <figcaption>
+                                <h3>Mohammad Affan</h3>
+                                <span>Public Relations Manager</span>
+                                <div class="virtuo-team__social" aria-label="Mohammad Affan social links">
+                                    <a href="https://www.linkedin.com/" target="_blank" aria-label="Mohammad Affan on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                    <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="virtuo-team__member">
+                            <img src="assets/img/team/junaid.png" alt="Junaid">
+                            <figcaption>
+                                <h3>Junaid Mahmood</h3>
+                                <span>Sr. IT Developer</span>
+                                <div class="virtuo-team__social" aria-label="Junaid Mahmood social links">
+                                    <a href="https://www.linkedin.com/" target="_blank" aria-label="Junaid Mahmood on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                    <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="virtuo-team__member">
+                            <img src="assets/img/team/zayn.png" alt="Zayn">
+                            <figcaption>
+                                <h3>Zayn Ali</h3>
+                                <span>Sr. Product Designer</span>
+                                <div class="virtuo-team__social" aria-label="Zayn Ali social links">
+                                    <a href="https://www.linkedin.com/" target="_blank" aria-label="Zayn Ali on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
+                                    <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div class="virtuo-team__grid">
-                    <figure class="virtuo-team__member">
-                        <img src="assets/img/team/jonaid.png" alt="Jonaid">
-                        <figcaption>
-                            <h3>Jonaid Ali Mohammad</h3>
-                            <span>Business Consultant</span>
-                            <div class="virtuo-team__social" aria-label="Jonaid Ali Mohammad social links">
-                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Jonaid Ali Mohammad on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
-                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <figure class="virtuo-team__member">
-                        <img src="assets/img/team/hasan.png" alt="Hasan">
-                        <figcaption>
-                            <h3>Hasan Rauf</h3>
-                            <span>Technology Advisor</span>
-                            <div class="virtuo-team__social" aria-label="Hasan Rauf social links">
-                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Hasan Rauf on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
-                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <figure class="virtuo-team__member">
-                        <img src="assets/img/team/affan.png" alt="Affan">
-                        <figcaption>
-                            <h3>Mohammad Affan</h3>
-                            <span>Public Relations Manager</span>
-                            <div class="virtuo-team__social" aria-label="Mohammad Affan social links">
-                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Mohammad Affan on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
-                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <figure class="virtuo-team__member">
-                        <img src="assets/img/team/junaid.png" alt="Junaid">
-                        <figcaption>
-                            <h3>Junaid Mahmood</h3>
-                            <span>Sr. IT Developer</span>
-                            <div class="virtuo-team__social" aria-label="Junaid Mahmood social links">
-                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Junaid Mahmood on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
-                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <figure class="virtuo-team__member">
-                        <img src="assets/img/team/zayn.png" alt="Zayn">
-                        <figcaption>
-                            <h3>Zayn Ali</h3>
-                            <span>Sr. Product Designer</span>
-                            <div class="virtuo-team__social" aria-label="Zayn Ali social links">
-                                <a href="https://www.linkedin.com/" target="_blank" aria-label="Zayn Ali on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a>
-                                <a href="https://wa.me/971500000000" target="_blank" aria-label="Zayn Ali on WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
             </div>
         </section>
 
         <!-- team-area-end -->
         <!-- team-area-end -->
 
-       
+
         <!-- brand-area-end -->
 
 
@@ -311,7 +311,7 @@ The journey to establishing a presence in Dubai involves a sophisticated web of 
 
 
 
-    
+
 </body>
 
 </html>

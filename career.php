@@ -324,12 +324,9 @@
                         <div class="search__wrapper">
                             <div class="search__close">
                                 <button type="button" class="search-close-btn">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                 </button>
                             </div>
@@ -339,8 +336,7 @@
                                         <input class="search-input-field" type="text" placeholder="Type keywords here">
                                         <span class="search-focus-border"></span>
                                         <button>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -471,55 +467,55 @@
                             <ul class="work__list-wrap list-wrap">
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Innovative Environment
                                 </li>
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Work-Life Balance
                                 </li>
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Career Development
                                 </li>
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Community Involvement
                                 </li>
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Collaborative Culture
                                 </li>
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Engaging Company Events
                                 </li>
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Innovative Environment
                                 </li>
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Opportunities for Advancement
                                 </li>
                                 <li>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor"/>
+                                        <path d="M6.93841 15.8911C8.7676 13.0791 15.4953 5.84106 21.0746 2.08087C21.3116 1.92117 21.5791 2.23465 21.3827 2.44213C16.0823 8.03965 10.4168 14.3711 7.16296 19.846C7.07232 19.9985 6.85351 20.0038 6.7588 19.8538C5.12145 17.2603 3.71716 13.5322 0.70718 12.3898C0.483573 12.3049 0.505064 11.9888 0.73758 11.9328C3.62207 11.2378 4.97369 13.7047 6.93841 15.8907V15.8911Z" fill="currentColor" />
                                     </svg>
                                     Recognition and Rewards
                                 </li>
@@ -637,7 +633,7 @@
                             <div class="career__item-content">
                                 <h4 class="title">Junior Project Manager</h4>
                                 <p><span>Job Summary:</span> A Junior Project Manager assists in planning, executing, and completing projects under the supervision of a senior project manager. </p>
-                                <p><span>Requirements:</span> Requirements:  Bachelor’s degree in Business, Management, IT, or a related field. 1-3 years of experience in project coordination or a related role. Certification (e.g., PMP, PRINCE2) is a bonus but not mandatory.</p>
+                                <p><span>Requirements:</span> Requirements: Bachelor’s degree in Business, Management, IT, or a related field. 1-3 years of experience in project coordination or a related role. Certification (e.g., PMP, PRINCE2) is a bonus but not mandatory.</p>
                             </div>
                             <ul class="list-wrap">
                                 <li><a href="#!">Business Analyst</a></li>
@@ -799,28 +795,22 @@
                             <div class="footer__instagram">
                                 <ul class="list-wrap">
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta01.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta01.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta02.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta02.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta03.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta03.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta04.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta04.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta05.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta05.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta06.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta06.jpg" alt="img"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -838,16 +828,11 @@
                     <div class="col-md-6">
                         <div class="footer__social footer__social-two">
                             <ul class="list-wrap">
-                                <li><a href="https://www.facebook.com/" target="_blank"><img
-                                            src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg"
-                                            alt="" class="injectable"></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><img
-                                            src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://www.pinterest.com/" target="_blank"><img
-                                            src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://www.youtube.com/" target="_blank"><img
-                                            src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
                             </ul>
                         </div>
                     </div>

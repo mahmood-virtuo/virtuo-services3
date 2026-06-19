@@ -516,8 +516,7 @@
                             <img src="assets/img/images/h2_history_img.jpg" alt="img">
                             <div class="shape">
                                 <img src="assets/img/images/h2_history_chart.svg" alt="shape" data-parallax='{"x" : -50 }'>
-                                <img src="assets/img/images/h2_history_shape.svg" alt="shape" data-aos="fade-down-left"
-                                data-aos-delay="400">
+                                <img src="assets/img/images/h2_history_shape.svg" alt="shape" data-aos="fade-down-left" data-aos-delay="400">
                             </div>
                         </div>
                     </div>
@@ -531,22 +530,19 @@
                             <div class="progress__wrap">
                                 <div class="progress__item">
                                     <h6 class="title">Consulting</h6>
-                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0"
-                                        aria-valuemax="100">
+                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                                         <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 50%"><span>50%</span></div>
                                     </div>
                                 </div>
                                 <div class="progress__item">
                                     <h6 class="title">Investment</h6>
-                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="76" aria-valuemin="0"
-                                        aria-valuemax="100">
+                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100">
                                         <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 76%"><span>76%</span></div>
                                     </div>
                                 </div>
                                 <div class="progress__item">
                                     <h6 class="title">Project Completed Rate</h6>
-                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0"
-                                        aria-valuemax="100">
+                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                         <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 90%"><span>90%</span></div>
                                     </div>
                                 </div>
@@ -1014,7 +1010,7 @@
                                     </ul>
                                 </div>
                                 <h2 class="title"><a href="blog-details.php">Participate In Staff Meetings Dedicated
-                                To Strategically Marketing</a></h2>
+                                        To Strategically Marketing</a></h2>
                                 <div class="blog__post-author">
                                     <a href="blog-details.php"><img src="assets/img/images/testi_avatar01.png" alt="img"></a>
                                     <span>By <a href="blog-details.php">Doman Smith</a></span>

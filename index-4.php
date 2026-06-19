@@ -399,7 +399,7 @@
                         <div class="about__content-four">
                             <div class="section__title mb-20">
                                 <span class="sub-title">Who we are</span>
-                                <h2 class="title">We are an innovative digital agency <strong>based in</strong>  Malborne Australia since 2001</h2>
+                                <h2 class="title">We are an innovative digital agency <strong>based in</strong> Malborne Australia since 2001</h2>
                             </div>
                             <p>Transform your business with our transformative consultin gear solutions. e go beyond short-term fixes to deliver sustainable growth gies your enterprise.</p>
                             <div class="about__inner-wrap-three">
@@ -832,8 +832,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             What do I get for $0 with my plan?
                                         </button>
                                     </h2>
@@ -845,8 +844,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             How do you find different criteria in your process?
                                         </button>
                                     </h2>
@@ -858,8 +856,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                             What do you look for in a founding team?
                                         </button>
                                     </h2>
@@ -871,8 +868,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                             Can you provide the references work ?
                                         </button>
                                     </h2>
@@ -895,7 +891,7 @@
             <div class="video__bg-two" data-background="assets/img/bg/h4_video_bg.webp"></div>
             <div class="container">
                 <div class="video__btn video__btn-two">
-                    <a href="https://www.youtube.com/watch?v=6mkoGSqTqFI" class="play__btn popup-video"><img  src="assets/img/images/play_video.svg" alt=""></a>
+                    <a href="https://www.youtube.com/watch?v=6mkoGSqTqFI" class="play__btn popup-video"><img src="assets/img/images/play_video.svg" alt=""></a>
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@
         SVGInject(document.querySelectorAll("img.injectable"));
     }
 
-    document.querySelectorAll(".circle.rotateme, .circle-two.rotateme").forEach(function (el) {
+    document.querySelectorAll(".circle.rotateme, .circle-two.rotateme").forEach(function(el) {
         const originalText = (el.getAttribute("data-circle-text") || el.textContent || "").trim();
 
         if (!originalText) return;
@@ -33,7 +33,7 @@
         const chars = originalText.split("");
         const angle = 360 / chars.length;
 
-        chars.forEach(function (char, index) {
+        chars.forEach(function(char, index) {
             const span = document.createElement("span");
             span.textContent = char;
             span.style.transform = "rotate(" + index * angle + "deg)";
@@ -43,4 +43,3 @@
 </script>
 
 <!-- for tabs  -->
- 

@@ -46,7 +46,7 @@
     <!-- Scroll-top-end-->
 
     <!-- header-area -->
-   <header class="transparent-header">
+    <header class="transparent-header">
         <div class="tg-header__top">
             <div class="container custom-container virtuo-px-100">
                 <div class="row align-items-center">
@@ -93,12 +93,12 @@
                         </div>
                         <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                             <ul class="navigation">
-                                
+
                                 <li>
                                     <a href="about.php">About</a>
                                 </li>
                                 <li class="menu-item-has-children virtuo-mega-menu-trigger"><a href="#">Services</a>
-                                     <div class="virtuo-services-mega" data-virtuo-mega-menu>
+                                    <div class="virtuo-services-mega" data-virtuo-mega-menu>
                                         <div class="virtuo-services-mega__inner">
                                             <div class="virtuo-services-mega__categories" role="list">
                                                 <button type="button" class="is-active" data-mega-category="formation">UAE Business Formation, Structuring &amp; Compliance</button>
@@ -160,10 +160,10 @@
                                 </li>
                                 <li>
                                     <a href="blog.php">Blog</a>
-                                </li>                               
-                                
-                               
-                                
+                                </li>
+
+
+
                                 <li>
                                     <a href="contact.php">Contact</a>
                                 </li>
@@ -391,7 +391,7 @@
     <!-- main-area-end -->
 
     <!-- footer-area -->
-    <footer class="footer__area-two footer__area-five fix"  style="background-image: url(/assets/img/services/footerBackgroundImage.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
         <div class="container">
             <div class="footer__top-two">
                 <div class="row">
@@ -433,9 +433,9 @@
 
                             <div class="footer-reference-left__bottom">
                                 <address class="footer-reference-left__contact">
-                                    <h4 style="color: #EE4c01;" >Get In Touch</h4>
-                                   <p class="forFooterAddress"><a class="forFooterAddress" href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span style="width: 360px !important; max-width: 360px !important;"><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;">Virtuo Services F.Z.C</b></span><br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></a></p>
-                                     
+                                    <h4 style="color: #EE4c01;">Get In Touch</h4>
+                                    <p class="forFooterAddress"><a class="forFooterAddress" href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span style="width: 360px !important; max-width: 360px !important;"><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;">Virtuo Services F.Z.C</b></span><br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></a></p>
+
                                     <a href="mailto:info@virtuo.ae"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>info@virtuo.ae</span></a>
                                     <a href="tel:+971565151315"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"><span>+971 56 515 1315</span></a>
                                 </address>
@@ -485,9 +485,9 @@
                                 </ul>
                             </div>
                         </div> -->
-                    
+
                         <!--Form -->
-                    <!-- <section class="virtuo-reference-footer__form-card" aria-labelledby="virtuo-footer-form-title">
+                        <!-- <section class="virtuo-reference-footer__form-card" aria-labelledby="virtuo-footer-form-title">
                     <h2 id="virtuo-footer-form-title" >Get in touch with us</h2>
                     <p style="font-size:16px; font-weight: 300; font-family: poppins;">Contact our dedicated team today to discuss your business requirements and explore your options</p>
                     <form class="virtuo-reference-form" action="#">
@@ -523,17 +523,17 @@
                         <button type="submit" style="font-size:16px; font-weight: 400; font-family: poppins;">Send it to the moon</button>
                     </form>
                 </section> -->
-                        
-                
-                <div style="margin-left: -20px !important;">
-                    <h4 style="color: #EE4c01; font-size: 20px; font-weight: 600;" id="virtuo-footer-form-title" >Let's Discuss Your Business Goals</h4>
-                    <p style="font-size:16px; font-weight: 300; font-family: poppins; color:#ffffffb8;">From company formation and immigration to marketing and AI solutions, our experts are ready to help you build, grow, and scale in the UAE.</p>
-                    <form class="virtuo-reference-form" action="#">
-                        <div class="estimate__tab-wrap" data-aos="fade-left" data-aos-delay="200">
-                            
-                            <div class="estimate__tab-inner">
-                                
-                                <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+
+                        <div style="margin-left: -20px !important;">
+                            <h4 style="color: #EE4c01; font-size: 20px; font-weight: 600;" id="virtuo-footer-form-title">Let's Discuss Your Business Goals</h4>
+                            <p style="font-size:16px; font-weight: 300; font-family: poppins; color:#ffffffb8;">From company formation and immigration to marketing and AI solutions, our experts are ready to help you build, grow, and scale in the UAE.</p>
+                            <form class="virtuo-reference-form" action="#">
+                                <div class="estimate__tab-wrap" data-aos="fade-left" data-aos-delay="200">
+
+                                    <div class="estimate__tab-inner">
+
+                                        <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Business Setup</button>
                                     </li>
@@ -547,46 +547,45 @@
                                         <button class="nav-link" id="life-tab" data-bs-toggle="tab" data-bs-target="#life-tab-pane" type="button" role="tab" aria-controls="life-tab-pane" aria-selected="false">Marketing</button>
                                     </li>
                                 </ul> -->
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-                                        tabindex="0">
-                                        <div class="estimate-form-wrap">
-                                            <form action="#">
-                                                <div class="form-grp">
-                                                    <input type="text" placeholder="Full Name">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="email" placeholder="E-mail">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="number" placeholder="Phone">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <select type="dropdown" placeholder="Select Service">
-                                                        <option value="" disabled selected>Select Service</option>
-                                                        <option value="">UAE Business Formation, Structuring & Compliance</option>
-                                                        <option value="">Government Relations & PRO Services</option>
-                                                        <option value="1">Immigration & Residency Solutions</option>
-                                                        <option value="">Digital Marketing & Brand Development</option>
-                                                        <option value="2">AI Automation & Technology Solutions</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-grp">
-                                                    <select type="dropdown" placeholder="Select Emirate">
-                                                        <option value="" disabled selected>Select Emirate</option>
-                                                        <option value="">Abu Dhabi</option>
-                                                        <option value="">Dubai</option>
-                                                        <option value="1">Sharjah</option>
-                                                        <option value="">Ajman</option>
-                                                        <option value="2">Fujairah</option>
-                                                        <option value="2">Ras Al Khaimah</option>
-                                                        <option value="2">Umm Al Quwain</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
-                                                </div>
-                                                <!-- <div class="range-slider-wrap">
+                                        <div class="tab-content" id="myTabContent">
+                                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                                <div class="estimate-form-wrap">
+                                                    <form action="#">
+                                                        <div class="form-grp">
+                                                            <input type="text" placeholder="Full Name">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="email" placeholder="E-mail">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="number" placeholder="Phone">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <select type="dropdown" placeholder="Select Service">
+                                                                <option value="" disabled selected>Select Service</option>
+                                                                <option value="">UAE Business Formation, Structuring & Compliance</option>
+                                                                <option value="">Government Relations & PRO Services</option>
+                                                                <option value="1">Immigration & Residency Solutions</option>
+                                                                <option value="">Digital Marketing & Brand Development</option>
+                                                                <option value="2">AI Automation & Technology Solutions</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <select type="dropdown" placeholder="Select Emirate">
+                                                                <option value="" disabled selected>Select Emirate</option>
+                                                                <option value="">Abu Dhabi</option>
+                                                                <option value="">Dubai</option>
+                                                                <option value="1">Sharjah</option>
+                                                                <option value="">Ajman</option>
+                                                                <option value="2">Fujairah</option>
+                                                                <option value="2">Ras Al Khaimah</option>
+                                                                <option value="2">Umm Al Quwain</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                        </div>
+                                                        <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
                                                         <p>Limits of balance:</p>
                                                         <span>$<strong id="rangeValue">400000</strong></span>
@@ -594,26 +593,26 @@
                                                     <Input class="range" type="range" value="400000" min="0" max="600000"
                                                         onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
                                                 </div> -->
-                                                <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="vehicles-tab-pane" role="tabpanel" aria-labelledby="vehicles-tab" tabindex="0">
-                                        <div class="estimate-form-wrap">
-                                            <form action="#">
-                                                <div class="form-grp">
-                                                    <input type="text" placeholder="Full Name">
+                                                        <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                    </form>
                                                 </div>
-                                                <div class="form-grp">
-                                                    <input type="email" placeholder="E-mail">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="number" placeholder="Phone">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
-                                                </div>
-                                                <!-- <div class="range-slider-wrap">
+                                            </div>
+                                            <div class="tab-pane fade" id="vehicles-tab-pane" role="tabpanel" aria-labelledby="vehicles-tab" tabindex="0">
+                                                <div class="estimate-form-wrap">
+                                                    <form action="#">
+                                                        <div class="form-grp">
+                                                            <input type="text" placeholder="Full Name">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="email" placeholder="E-mail">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="number" placeholder="Phone">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                        </div>
+                                                        <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
                                                         <p>Limits of balance:</p>
                                                         <span>$<strong id="rangeValueTwo">400000</strong></span>
@@ -621,26 +620,26 @@
                                                     <Input class="range" type="range" value="400000" min="0" max="600000"
                                                         onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
                                                 </div> -->
-                                                <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="health-tab-pane" role="tabpanel" aria-labelledby="health-tab" tabindex="0">
-                                        <div class="estimate-form-wrap">
-                                            <form action="#">
-                                                <div class="form-grp">
-                                                    <input type="text" placeholder="Full Name">
+                                                        <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                    </form>
                                                 </div>
-                                                <div class="form-grp">
-                                                    <input type="email" placeholder="E-mail">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="number" placeholder="Phone">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
-                                                </div>
-                                                <!-- <div class="range-slider-wrap">
+                                            </div>
+                                            <div class="tab-pane fade" id="health-tab-pane" role="tabpanel" aria-labelledby="health-tab" tabindex="0">
+                                                <div class="estimate-form-wrap">
+                                                    <form action="#">
+                                                        <div class="form-grp">
+                                                            <input type="text" placeholder="Full Name">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="email" placeholder="E-mail">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="number" placeholder="Phone">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                        </div>
+                                                        <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
                                                         <p>Limits of balance:</p>
                                                         <span>$<strong id="rangeValueThree">400000</strong></span>
@@ -648,26 +647,26 @@
                                                     <Input class="range" type="range" value="400000" min="0" max="600000"
                                                         onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
                                                 </div> -->
-                                                <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="life-tab-pane" role="tabpanel" aria-labelledby="life-tab" tabindex="0">
-                                        <div class="estimate-form-wrap">
-                                            <form action="#">
-                                                <div class="form-grp">
-                                                    <input type="text" placeholder="Full Name">
+                                                        <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                    </form>
                                                 </div>
-                                                <div class="form-grp">
-                                                    <input type="email" placeholder="E-mail">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="number" placeholder="Phone">
-                                                </div>
-                                                <div class="form-grp">
-                                                    <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
-                                                </div>
-                                                <!-- <div class="range-slider-wrap">
+                                            </div>
+                                            <div class="tab-pane fade" id="life-tab-pane" role="tabpanel" aria-labelledby="life-tab" tabindex="0">
+                                                <div class="estimate-form-wrap">
+                                                    <form action="#">
+                                                        <div class="form-grp">
+                                                            <input type="text" placeholder="Full Name">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="email" placeholder="E-mail">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="number" placeholder="Phone">
+                                                        </div>
+                                                        <div class="form-grp">
+                                                            <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                        </div>
+                                                        <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
                                                         <p>Limits of balance:</p>
                                                         <span>$<strong id="rangeValueFour">400000</strong></span>
@@ -675,17 +674,17 @@
                                                     <Input class="range" type="range" value="400000" min="0" max="600000"
                                                         onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
                                                 </div> -->
-                                                <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
-                                            </form>
+                                                        <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                    </form>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                         </div>
-                    </div>
-                
-                
-                <!--Form End-->
+
+
+                        <!--Form End-->
 
                     </div>
                 </div>
@@ -701,7 +700,7 @@
                         <div class="footer__social footer__social-two">
                             <ul class="list-wrap">
                                 <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="privacy-policy.php" target="_blank">Privacy Policy</a></p>
-                                <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="terms-conditions.php" target="_blank">Terms and Conditions</a></p>               
+                                <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="terms-conditions.php" target="_blank">Terms and Conditions</a></p>
                             </ul>
                         </div>
                     </div>

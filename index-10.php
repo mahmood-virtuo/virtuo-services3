@@ -231,12 +231,9 @@
                         <div class="search__wrapper">
                             <div class="search__close">
                                 <button type="button" class="search-close-btn">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                 </button>
                             </div>
@@ -246,8 +243,7 @@
                                         <input class="search-input-field" type="text" placeholder="Type keywords here">
                                         <span class="search-focus-border"></span>
                                         <button>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -449,7 +445,7 @@
                                 <div class="content__left">
                                     <p class="info-one">We provide all aspects offer medical practice whole family general with injuries.</p>
                                     <p class="info-two">We will work with you to develop individualised care plansuding management of chronic disea provide referrals about practitioner.</p>
-                                     <ul class="list-wrap about__list-item">
+                                    <ul class="list-wrap about__list-item">
                                         <li>
                                             <div class="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -598,7 +594,7 @@
         </section>
         <!-- services-area-end -->
 
-         <!-- marquee-area -->
+        <!-- marquee-area -->
         <section class="marquee__area-three">
             <div class="slider__marquee clearfix marquee-wrap-two marquee-wrap-four">
                 <div class="marquee_mode marquee__group">
@@ -1079,8 +1075,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             What do I get for $0 with my plan?
                                         </button>
                                     </h2>
@@ -1092,8 +1087,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             How do you find different criteria in your process?
                                         </button>
                                     </h2>
@@ -1105,8 +1099,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                             What do you look for in a founding team?
                                         </button>
                                     </h2>
@@ -1118,8 +1111,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                             Can you provide the references work ?
                                         </button>
                                     </h2>
@@ -1137,7 +1129,7 @@
         </section>
         <!-- faq-area-end -->
 
-         <!-- blog-post-area -->
+        <!-- blog-post-area -->
         <section class="blog__post-area-eight section-py-130">
             <div class="container">
                 <div class="row align-items-center">
@@ -1173,7 +1165,7 @@
                                     </ul>
                                 </div>
                                 <h2 class="title"><a href="blog-details.php">Participate In Staff Meetings Dedicated
-                                To Strategically Marketing</a></h2>
+                                        To Strategically Marketing</a></h2>
                                 <div class="blog__post-author">
                                     <a href="blog-details.php"><img src="assets/img/images/testi_avatar01.png" alt="img"></a>
                                     <span>By <a href="blog-details.php">Doman Smith</a></span>

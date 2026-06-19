@@ -27,50 +27,330 @@
 
     <!-- vx interactive blocks (scoped) -->
     <style id="vx-style">
-      .blog__details-content .vx-widget,.blog__details-content .vx-calc,.blog__details-content .vx-stats{--vx-accent:#564ABE;--vx-accent-bright:#6F63D6;--vx-energy:#EE4C01;--vx-energy-bright:#FF6B2C;--vx-ink:#353535;--vx-line:#E7E5EC;--vx-paper2:#F5F4F9;font-family:inherit;}
-      .vx-widget{margin:34px 0;background:#353535;color:#ececec;border-radius:16px;overflow:hidden;box-shadow:0 22px 46px -30px rgba(53,53,53,.55);}
-      .vx-w-head{padding:22px 24px 2px;}
-      .vx-kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#FF6B2C;font-weight:600;}
-      .vx-kicker.light{color:#CDC6F2;}
-      .vx-w-title{font-size:22px;font-weight:700;color:#fff;margin:6px 0 4px;}
-      .vx-w-sub{font-size:14px;color:#b4b4b8;line-height:1.5;margin-bottom:18px;}
-      .vx-toggle{display:inline-flex;background:rgba(255,255,255,.08);border-radius:999px;padding:4px;gap:4px;margin:0 24px;}
-      .vx-toggle button{font:inherit;font-size:13px;font-weight:600;border:0;background:transparent;color:#bcbcc0;padding:8px 19px;border-radius:999px;cursor:pointer;transition:.25s;}
-      .vx-toggle button[aria-selected="true"]{background:#EE4C01;color:#fff;}
-      .vx-toggle button:focus-visible{outline:2px solid #FF6B2C;outline-offset:2px;}
-      .vx-panel{padding:20px 24px 26px;}
-      .vx-panel[hidden]{display:none;}
-      .vx-ledger{list-style:none;margin:0;padding:0;}
-      .vx-ledger li{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:15px;}
-      .vx-ledger li:last-child{border-bottom:0;}
-      .vx-ledger .k{color:#c7c7cb;}
-      .vx-ledger .v{font-weight:600;text-align:right;}
-      .vx-ledger .v.good{color:#6FC8A0;}.vx-ledger .v.warn{color:#F0A24C;}.vx-ledger .v.bad{color:#E8856B;}
-      .vx-w-note{font-size:12px;color:#8e8e94;line-height:1.5;padding:0 24px 24px;}
-      .vx-stats{margin:34px 0;display:grid;gap:1px;background:#E7E5EC;border:1px solid #E7E5EC;border-radius:14px;overflow:hidden;grid-template-columns:repeat(3,1fr);}
-      .vx-stat{background:#fff;padding:22px 20px;}
-      .vx-num{font-size:38px;font-weight:700;color:#353535;line-height:1;}
-      .vx-num .suf{color:#EE4C01;}
-      .vx-cap{font-size:12.5px;color:#6e6e72;line-height:1.45;margin-top:9px;}
-      .vx-src{font-size:10.5px;color:#a0a0a6;margin-top:7px;}
-      @media(max-width:560px){.vx-stats{grid-template-columns:1fr;}}
-      .vx-calc{margin:36px 0;background:linear-gradient(155deg,#564ABE,#353535);color:#efedf8;border-radius:16px;padding:26px 26px 30px;box-shadow:0 22px 46px -30px rgba(86,74,190,.55);}
-      .vx-calc-title{font-size:23px;font-weight:700;color:#fff;margin:6px 0 4px;}
-      .vx-calc-sub{font-size:14px;color:#cfc9ec;line-height:1.5;margin-bottom:20px;}
-      .vx-readout{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:6px;}
-      .vx-aed{font-size:42px;font-weight:700;line-height:1;color:#fff;}
-      .vx-usd{font-size:15px;color:#c6bfea;}
-      .vx-calc input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:5px;border-radius:5px;margin:16px 0 6px;background:rgba(255,255,255,.22);outline:none;cursor:pointer;}
-      .vx-calc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:24px;height:24px;border-radius:50%;background:#fff;border:4px solid #EE4C01;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);}
-      .vx-calc input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:#fff;border:4px solid #EE4C01;cursor:pointer;}
-      .vx-scale{display:flex;justify-content:space-between;font-size:11px;color:#b0a8dc;margin-bottom:18px;}
-      .vx-verdict{display:flex;align-items:center;gap:13px;background:rgba(255,255,255,.1);border-radius:12px;padding:15px 17px;font-size:15px;line-height:1.4;border:1px solid rgba(255,255,255,.12);}
-      .vx-badge{flex:none;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:6px;}
-      .vx-verdict.is-yes .vx-badge{background:#6FC8A0;color:#0c2a20;}
-      .vx-verdict.is-no .vx-badge{background:#EE4C01;color:#fff;}
-      .vx-calc-note{font-size:12px;color:#b6afdf;line-height:1.55;margin-top:16px;}
-      .vx-disclaimer{font-size:13px;line-height:1.65;color:#6e6e72;background:#F5F4F9;border:1px solid #E7E5EC;border-radius:12px;padding:18px 20px;margin:30px 0;}
-      .blog__details-content blockquote{border-left-color:#EE4C01;}
+        .blog__details-content .vx-widget,
+        .blog__details-content .vx-calc,
+        .blog__details-content .vx-stats {
+            --vx-accent: #564ABE;
+            --vx-accent-bright: #6F63D6;
+            --vx-energy: #EE4C01;
+            --vx-energy-bright: #FF6B2C;
+            --vx-ink: #353535;
+            --vx-line: #E7E5EC;
+            --vx-paper2: #F5F4F9;
+            font-family: inherit;
+        }
+
+        .vx-widget {
+            margin: 34px 0;
+            background: #353535;
+            color: #ececec;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 22px 46px -30px rgba(53, 53, 53, .55);
+        }
+
+        .vx-w-head {
+            padding: 22px 24px 2px;
+        }
+
+        .vx-kicker {
+            font-size: 11px;
+            letter-spacing: .2em;
+            text-transform: uppercase;
+            color: #FF6B2C;
+            font-weight: 600;
+        }
+
+        .vx-kicker.light {
+            color: #CDC6F2;
+        }
+
+        .vx-w-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #fff;
+            margin: 6px 0 4px;
+        }
+
+        .vx-w-sub {
+            font-size: 14px;
+            color: #b4b4b8;
+            line-height: 1.5;
+            margin-bottom: 18px;
+        }
+
+        .vx-toggle {
+            display: inline-flex;
+            background: rgba(255, 255, 255, .08);
+            border-radius: 999px;
+            padding: 4px;
+            gap: 4px;
+            margin: 0 24px;
+        }
+
+        .vx-toggle button {
+            font: inherit;
+            font-size: 13px;
+            font-weight: 600;
+            border: 0;
+            background: transparent;
+            color: #bcbcc0;
+            padding: 8px 19px;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: .25s;
+        }
+
+        .vx-toggle button[aria-selected="true"] {
+            background: #EE4C01;
+            color: #fff;
+        }
+
+        .vx-toggle button:focus-visible {
+            outline: 2px solid #FF6B2C;
+            outline-offset: 2px;
+        }
+
+        .vx-panel {
+            padding: 20px 24px 26px;
+        }
+
+        .vx-panel[hidden] {
+            display: none;
+        }
+
+        .vx-ledger {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .vx-ledger li {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 12px;
+            align-items: baseline;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, .1);
+            font-size: 15px;
+        }
+
+        .vx-ledger li:last-child {
+            border-bottom: 0;
+        }
+
+        .vx-ledger .k {
+            color: #c7c7cb;
+        }
+
+        .vx-ledger .v {
+            font-weight: 600;
+            text-align: right;
+        }
+
+        .vx-ledger .v.good {
+            color: #6FC8A0;
+        }
+
+        .vx-ledger .v.warn {
+            color: #F0A24C;
+        }
+
+        .vx-ledger .v.bad {
+            color: #E8856B;
+        }
+
+        .vx-w-note {
+            font-size: 12px;
+            color: #8e8e94;
+            line-height: 1.5;
+            padding: 0 24px 24px;
+        }
+
+        .vx-stats {
+            margin: 34px 0;
+            display: grid;
+            gap: 1px;
+            background: #E7E5EC;
+            border: 1px solid #E7E5EC;
+            border-radius: 14px;
+            overflow: hidden;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .vx-stat {
+            background: #fff;
+            padding: 22px 20px;
+        }
+
+        .vx-num {
+            font-size: 38px;
+            font-weight: 700;
+            color: #353535;
+            line-height: 1;
+        }
+
+        .vx-num .suf {
+            color: #EE4C01;
+        }
+
+        .vx-cap {
+            font-size: 12.5px;
+            color: #6e6e72;
+            line-height: 1.45;
+            margin-top: 9px;
+        }
+
+        .vx-src {
+            font-size: 10.5px;
+            color: #a0a0a6;
+            margin-top: 7px;
+        }
+
+        @media(max-width:560px) {
+            .vx-stats {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .vx-calc {
+            margin: 36px 0;
+            background: linear-gradient(155deg, #564ABE, #353535);
+            color: #efedf8;
+            border-radius: 16px;
+            padding: 26px 26px 30px;
+            box-shadow: 0 22px 46px -30px rgba(86, 74, 190, .55);
+        }
+
+        .vx-calc-title {
+            font-size: 23px;
+            font-weight: 700;
+            color: #fff;
+            margin: 6px 0 4px;
+        }
+
+        .vx-calc-sub {
+            font-size: 14px;
+            color: #cfc9ec;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .vx-readout {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 6px;
+        }
+
+        .vx-aed {
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 1;
+            color: #fff;
+        }
+
+        .vx-usd {
+            font-size: 15px;
+            color: #c6bfea;
+        }
+
+        .vx-calc input[type=range] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 5px;
+            border-radius: 5px;
+            margin: 16px 0 6px;
+            background: rgba(255, 255, 255, .22);
+            outline: none;
+            cursor: pointer;
+        }
+
+        .vx-calc input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: #fff;
+            border: 4px solid #EE4C01;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+        }
+
+        .vx-calc input[type=range]::-moz-range-thumb {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: #fff;
+            border: 4px solid #EE4C01;
+            cursor: pointer;
+        }
+
+        .vx-scale {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #b0a8dc;
+            margin-bottom: 18px;
+        }
+
+        .vx-verdict {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            background: rgba(255, 255, 255, .1);
+            border-radius: 12px;
+            padding: 15px 17px;
+            font-size: 15px;
+            line-height: 1.4;
+            border: 1px solid rgba(255, 255, 255, .12);
+        }
+
+        .vx-badge {
+            flex: none;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            border-radius: 6px;
+        }
+
+        .vx-verdict.is-yes .vx-badge {
+            background: #6FC8A0;
+            color: #0c2a20;
+        }
+
+        .vx-verdict.is-no .vx-badge {
+            background: #EE4C01;
+            color: #fff;
+        }
+
+        .vx-calc-note {
+            font-size: 12px;
+            color: #b6afdf;
+            line-height: 1.55;
+            margin-top: 16px;
+        }
+
+        .vx-disclaimer {
+            font-size: 13px;
+            line-height: 1.65;
+            color: #6e6e72;
+            background: #F5F4F9;
+            border: 1px solid #E7E5EC;
+            border-radius: 12px;
+            padding: 18px 20px;
+            margin: 30px 0;
+        }
+
+        .blog__details-content blockquote {
+            border-left-color: #EE4C01;
+        }
     </style>
 </head>
 
@@ -372,12 +652,9 @@
                         <div class="search__wrapper">
                             <div class="search__close">
                                 <button type="button" class="search-close-btn">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                 </button>
                             </div>
@@ -387,8 +664,7 @@
                                         <input class="search-input-field" type="text" placeholder="Type keywords here">
                                         <span class="search-focus-border"></span>
                                         <button>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -551,10 +827,26 @@
                                 <h4 class="title-two">The tax advantage, stated honestly</h4>
                                 <p>This is the area where bad advice does the most damage, so I have to be precise. As of today, the UAE imposes:</p>
                                 <ul class="list-wrap about__list-item-two">
-                                    <li><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M12.091 2L5.091 9L1.90918 5.81818" stroke="currentColor" stroke-width="2.1875" stroke-linecap="round" stroke-linejoin="round"/></svg></div> No personal income tax.</li>
-                                    <li><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M12.091 2L5.091 9L1.90918 5.81818" stroke="currentColor" stroke-width="2.1875" stroke-linecap="round" stroke-linejoin="round"/></svg></div> No tax on an individual&rsquo;s personal capital gains.</li>
-                                    <li><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M12.091 2L5.091 9L1.90918 5.81818" stroke="currentColor" stroke-width="2.1875" stroke-linecap="round" stroke-linejoin="round"/></svg></div> No inheritance tax.</li>
-                                    <li><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M12.091 2L5.091 9L1.90918 5.81818" stroke="currentColor" stroke-width="2.1875" stroke-linecap="round" stroke-linejoin="round"/></svg></div> No wealth tax.</li>
+                                    <li>
+                                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none">
+                                                <path d="M12.091 2L5.091 9L1.90918 5.81818" stroke="currentColor" stroke-width="2.1875" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg></div> No personal income tax.
+                                    </li>
+                                    <li>
+                                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none">
+                                                <path d="M12.091 2L5.091 9L1.90918 5.81818" stroke="currentColor" stroke-width="2.1875" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg></div> No tax on an individual&rsquo;s personal capital gains.
+                                    </li>
+                                    <li>
+                                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none">
+                                                <path d="M12.091 2L5.091 9L1.90918 5.81818" stroke="currentColor" stroke-width="2.1875" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg></div> No inheritance tax.
+                                    </li>
+                                    <li>
+                                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none">
+                                                <path d="M12.091 2L5.091 9L1.90918 5.81818" stroke="currentColor" stroke-width="2.1875" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg></div> No wealth tax.
+                                    </li>
                                 </ul>
                                 <p>But the headline is not the whole story. The UAE introduced a 9% federal corporate tax in 2023; free-zone companies qualify for preferential treatment only if they meet specific conditions. It has signed the OECD&rsquo;s Crypto-Asset Reporting Framework, so transparency is increasing, not decreasing. And most important for American readers: the United States taxes its citizens on worldwide income regardless of where they live. Establishing UAE residency does not, by itself, end your U.S. obligations. Residency and citizenship are different things &mdash; conflating them is the most expensive mistake an American can make here.</p>
 
@@ -584,9 +876,21 @@
                                 <p>The wealthiest families have understood for generations what most investors are only now discovering: you do not diversify only your assets &mdash; you diversify your jurisdictions. Crypto investors, of all people, should grasp this instinctively. The premise of self-custody is avoiding a single point of failure; jurisdictional diversification is that same instinct applied to your life rather than your wallet.</p>
 
                                 <div class="vx-stats" aria-label="Wealth migration figures">
-                                    <div class="vx-stat"><div class="vx-num"><span data-count="142000">0</span><span class="suf">+</span></div><div class="vx-cap">millionaires projected to relocate internationally in 2025 &mdash; a record</div><div class="vx-src">Henley &amp; Partners, 2025</div></div>
-                                    <div class="vx-stat"><div class="vx-num">#<span data-count="1">0</span></div><div class="vx-cap">net destination worldwide for relocating HNWIs: the UAE</div><div class="vx-src">Henley &amp; Partners, 2025</div></div>
-                                    <div class="vx-stat"><div class="vx-num"><span data-count="9800">0</span></div><div class="vx-cap">estimated net HNWI inflow to the UAE in 2025, up from ~6,700</div><div class="vx-src">Henley &amp; Partners, 2025</div></div>
+                                    <div class="vx-stat">
+                                        <div class="vx-num"><span data-count="142000">0</span><span class="suf">+</span></div>
+                                        <div class="vx-cap">millionaires projected to relocate internationally in 2025 &mdash; a record</div>
+                                        <div class="vx-src">Henley &amp; Partners, 2025</div>
+                                    </div>
+                                    <div class="vx-stat">
+                                        <div class="vx-num">#<span data-count="1">0</span></div>
+                                        <div class="vx-cap">net destination worldwide for relocating HNWIs: the UAE</div>
+                                        <div class="vx-src">Henley &amp; Partners, 2025</div>
+                                    </div>
+                                    <div class="vx-stat">
+                                        <div class="vx-num"><span data-count="9800">0</span></div>
+                                        <div class="vx-cap">estimated net HNWI inflow to the UAE in 2025, up from ~6,700</div>
+                                        <div class="vx-src">Henley &amp; Partners, 2025</div>
+                                    </div>
                                 </div>
 
                                 <h4 class="title-two">The question that actually matters</h4>
@@ -796,28 +1100,22 @@
                             <div class="footer__instagram">
                                 <ul class="list-wrap">
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta01.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta01.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta02.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta02.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta03.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta03.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta04.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta04.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta05.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta05.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta06.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta06.jpg" alt="img"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -835,16 +1133,11 @@
                     <div class="col-md-6">
                         <div class="footer__social footer__social-two">
                             <ul class="list-wrap">
-                                <li><a href="https://www.facebook.com/" target="_blank"><img
-                                            src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg"
-                                            alt="" class="injectable"></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><img
-                                            src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://www.pinterest.com/" target="_blank"><img
-                                            src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://www.youtube.com/" target="_blank"><img
-                                            src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -884,27 +1177,104 @@
 
     <!-- vx interactive logic -->
     <script>
-    (function(){
-      "use strict";
-      var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      var tabs=[document.getElementById("vx-tab-us"),document.getElementById("vx-tab-uae")];
-      if(tabs[0]&&tabs[1]){
-        function sel(w){tabs.forEach(function(t){var on=t===w;t.setAttribute("aria-selected",on?"true":"false");var p=document.getElementById(t.getAttribute("aria-controls"));if(p)p.hidden=!on;});}
-        tabs.forEach(function(t){t.addEventListener("click",function(){sel(t);});t.addEventListener("keydown",function(e){if(e.key==="ArrowLeft"||e.key==="ArrowRight"){e.preventDefault();var o=t===tabs[0]?tabs[1]:tabs[0];sel(o);o.focus();}});});
-      }
-      function fmt(n){return n.toLocaleString("en-US");}
-      function ac(el){var t=parseInt(el.getAttribute("data-count"),10)||0;if(reduce){el.textContent=fmt(t);return;}var d=1400,s=null;function st(ts){if(!s)s=ts;var p=Math.min((ts-s)/d,1);el.textContent=fmt(Math.round(t*(1-Math.pow(1-p,3))));if(p<1)requestAnimationFrame(st);}requestAnimationFrame(st);}
-      var cs=[].slice.call(document.querySelectorAll(".vx-stats [data-count]"));
-      if("IntersectionObserver" in window && !reduce){var co=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){ac(e.target);co.unobserve(e.target);}});},{threshold:0.6});cs.forEach(function(c){co.observe(c);});}else{cs.forEach(ac);}
-      var sl=document.getElementById("vx-slider");
-      if(sl){
-        var ao=document.getElementById("vx-aedOut"),uo=document.getElementById("vx-usdOut"),vd=document.getElementById("vx-verdict"),vb=document.getElementById("vx-vBadge"),vt=document.getElementById("vx-vText"),PEG=3.6725,TH=2000000;
-        function uc(){var v=parseInt(sl.value,10);ao.textContent="AED "+v.toLocaleString("en-US");uo.textContent="\u2248 USD "+Math.round(v/PEG).toLocaleString("en-US");sl.setAttribute("aria-valuetext","AED "+v.toLocaleString("en-US"));
-          if(v>=TH){vd.classList.add("is-yes");vd.classList.remove("is-no");vb.textContent="Qualifies";vt.textContent="Meets the AED 2M threshold for the 10-year Golden Visa property route.";}
-          else{vd.classList.add("is-no");vd.classList.remove("is-yes");vb.textContent="Short";vt.textContent="AED "+(TH-v).toLocaleString("en-US")+" below the AED 2M ten-year threshold. Combining multiple properties may close the gap.";}}
-        sl.addEventListener("input",uc);uc();
-      }
-    })();
+        (function() {
+            "use strict";
+            var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+            var tabs = [document.getElementById("vx-tab-us"), document.getElementById("vx-tab-uae")];
+            if (tabs[0] && tabs[1]) {
+                function sel(w) {
+                    tabs.forEach(function(t) {
+                        var on = t === w;
+                        t.setAttribute("aria-selected", on ? "true" : "false");
+                        var p = document.getElementById(t.getAttribute("aria-controls"));
+                        if (p) p.hidden = !on;
+                    });
+                }
+                tabs.forEach(function(t) {
+                    t.addEventListener("click", function() {
+                        sel(t);
+                    });
+                    t.addEventListener("keydown", function(e) {
+                        if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+                            e.preventDefault();
+                            var o = t === tabs[0] ? tabs[1] : tabs[0];
+                            sel(o);
+                            o.focus();
+                        }
+                    });
+                });
+            }
+
+            function fmt(n) {
+                return n.toLocaleString("en-US");
+            }
+
+            function ac(el) {
+                var t = parseInt(el.getAttribute("data-count"), 10) || 0;
+                if (reduce) {
+                    el.textContent = fmt(t);
+                    return;
+                }
+                var d = 1400,
+                    s = null;
+
+                function st(ts) {
+                    if (!s) s = ts;
+                    var p = Math.min((ts - s) / d, 1);
+                    el.textContent = fmt(Math.round(t * (1 - Math.pow(1 - p, 3))));
+                    if (p < 1) requestAnimationFrame(st);
+                }
+                requestAnimationFrame(st);
+            }
+            var cs = [].slice.call(document.querySelectorAll(".vx-stats [data-count]"));
+            if ("IntersectionObserver" in window && !reduce) {
+                var co = new IntersectionObserver(function(es) {
+                    es.forEach(function(e) {
+                        if (e.isIntersecting) {
+                            ac(e.target);
+                            co.unobserve(e.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.6
+                });
+                cs.forEach(function(c) {
+                    co.observe(c);
+                });
+            } else {
+                cs.forEach(ac);
+            }
+            var sl = document.getElementById("vx-slider");
+            if (sl) {
+                var ao = document.getElementById("vx-aedOut"),
+                    uo = document.getElementById("vx-usdOut"),
+                    vd = document.getElementById("vx-verdict"),
+                    vb = document.getElementById("vx-vBadge"),
+                    vt = document.getElementById("vx-vText"),
+                    PEG = 3.6725,
+                    TH = 2000000;
+
+                function uc() {
+                    var v = parseInt(sl.value, 10);
+                    ao.textContent = "AED " + v.toLocaleString("en-US");
+                    uo.textContent = "\u2248 USD " + Math.round(v / PEG).toLocaleString("en-US");
+                    sl.setAttribute("aria-valuetext", "AED " + v.toLocaleString("en-US"));
+                    if (v >= TH) {
+                        vd.classList.add("is-yes");
+                        vd.classList.remove("is-no");
+                        vb.textContent = "Qualifies";
+                        vt.textContent = "Meets the AED 2M threshold for the 10-year Golden Visa property route.";
+                    } else {
+                        vd.classList.add("is-no");
+                        vd.classList.remove("is-yes");
+                        vb.textContent = "Short";
+                        vt.textContent = "AED " + (TH - v).toLocaleString("en-US") + " below the AED 2M ten-year threshold. Combining multiple properties may close the gap.";
+                    }
+                }
+                sl.addEventListener("input", uc);
+                uc();
+            }
+        })();
     </script>
 </body>
 

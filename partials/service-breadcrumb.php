@@ -6,9 +6,7 @@ $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
 
 <!-- breadcrumb-area -->
 <section class="breadcrumb__area">
-    <div class="breadcrumb__bg"
-         data-background="assets/img/bg/HEADER.jpg"
-         style="background-size: cover; background-repeat: no-repeat;"></div>
+    <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg" style="background-size: cover; background-repeat: no-repeat;"></div>
 
     <div class="container">
         <div class="row">
@@ -16,9 +14,7 @@ $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
                 <div class="breadcrumb__content">
                     <h2 class="title"><?php echo htmlspecialchars($breadcrumbPageTitle); ?></h2>
 
-                    <nav class="breadcrumb service-breadcrumb"
-                         data-page-title="<?php echo htmlspecialchars($breadcrumbPageTitle); ?>"
-                         data-page-url="<?php echo htmlspecialchars($breadcrumbPageUrl); ?>">
+                    <nav class="breadcrumb service-breadcrumb" data-page-title="<?php echo htmlspecialchars($breadcrumbPageTitle); ?>" data-page-url="<?php echo htmlspecialchars($breadcrumbPageUrl); ?>">
 
                         <span property="itemListElement" typeof="ListItem">
                             <a href="index-5.php">Home</a>
@@ -38,10 +34,7 @@ $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
                             <i class="fas fa-angle-right"></i>
                         </span>
 
-                        <span class="js-service-breadcrumb-main"
-                              property="itemListElement"
-                              typeof="ListItem"
-                              aria-current="page">
+                        <span class="js-service-breadcrumb-main" property="itemListElement" typeof="ListItem" aria-current="page">
                             <?php echo htmlspecialchars($breadcrumbDefaultMain); ?>
                         </span>
 
@@ -49,11 +42,7 @@ $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
                             <i class="fas fa-angle-right"></i>
                         </span>
 
-                        <span class="js-service-breadcrumb-sub"
-                              property="itemListElement"
-                              typeof="ListItem"
-                              aria-current="page"
-                              style="display: none;"></span>
+                        <span class="js-service-breadcrumb-sub" property="itemListElement" typeof="ListItem" aria-current="page" style="display: none;"></span>
                     </nav>
                 </div>
             </div>

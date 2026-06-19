@@ -324,12 +324,9 @@
                         <div class="search__wrapper">
                             <div class="search__close">
                                 <button type="button" class="search-close-btn">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                 </button>
                             </div>
@@ -339,8 +336,7 @@
                                         <input class="search-input-field" type="text" placeholder="Type keywords here">
                                         <span class="search-focus-border"></span>
                                         <button>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -449,7 +445,7 @@
                                 <p>eed a little help from our friends from time to time. Although we offer the one-stop convenience of annery integrated range of legal, financial services under one roof, there are occasions when our clients areaneed specia- list advice beyond the scope of our own expertise.</p>
                                 <div class="project__details-challenge">
                                     <h2 class="title-two">Project Challenges</h2>
-                                    <p>when an unknown printer took a galley offer typey anddey scrambled  make a type specimen bookhas survived not only five when an unknown printer took a galley of type and scrambled it to make a type specimenscrambled  make a type specimen bookha.</p>
+                                    <p>when an unknown printer took a galley offer typey anddey scrambled make a type specimen bookhas survived not only five when an unknown printer took a galley of type and scrambled it to make a type specimenscrambled make a type specimen bookha.</p>
                                     <ul class="list-wrap about__list-item-two about__list-item-three">
                                         <li>
                                             <div class="icon">
@@ -624,28 +620,22 @@
                             <div class="footer__instagram">
                                 <ul class="list-wrap">
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta01.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta01.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta02.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta02.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta03.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta03.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta04.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta04.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta05.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta05.jpg" alt="img"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta06.jpg" alt="img"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/images/footer_insta06.jpg" alt="img"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -663,16 +653,11 @@
                     <div class="col-md-6">
                         <div class="footer__social footer__social-two">
                             <ul class="list-wrap">
-                                <li><a href="https://www.facebook.com/" target="_blank"><img
-                                            src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg"
-                                            alt="" class="injectable"></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><img
-                                            src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://www.pinterest.com/" target="_blank"><img
-                                            src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://www.youtube.com/" target="_blank"><img
-                                            src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
+                                <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
                             </ul>
                         </div>
                     </div>

@@ -6184,7 +6184,9 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.25s ease, transform 0.25s ease;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
 }
 .slider__area > .slider__nav button svg {
   display: none;
@@ -6199,7 +6201,9 @@ textarea {
     currentColor 0 2px,
     transparent 2px 10px
   );
-  transition: width 0.25s ease, color 0.25s ease;
+  transition:
+    width 0.25s ease,
+    color 0.25s ease;
 }
 .slider__area > .slider__nav button.slider-button-prev {
   color: rgba(255, 255, 255, 0.95);
@@ -6241,7 +6245,9 @@ textarea {
   background: rgba(255, 255, 255, 0.52);
   opacity: 1;
   cursor: pointer;
-  transition: background 0.25s ease, transform 0.25s ease;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
 }
 .slider__area > .slider__bar-pagination .swiper-pagination-bullet-active {
   background: var(--tg-color-white-default);

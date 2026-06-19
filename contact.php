@@ -30,7 +30,7 @@
 
     <!-- header-area -->
     <?php include __DIR__ . '/partials/header.php'; ?>
-   
+
     <!-- header-area-end -->
 
 
@@ -62,74 +62,74 @@
         <!-- breadcrumb-area-end -->
 
 
-         <!-- marquee-area -->
+        <!-- marquee-area -->
         <section class="marquee__area">
             <div class="slider__marquee clearfix marquee-wrap">
                 <div class="marquee_mode marquee__group">
                     <h6 class="marquee__item">
                         <a href="government-relations-pro-services.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>PRO SERVICES</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>PRO SERVICES</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="uae-business-formation.php"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>BUSINESS SETUP</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>BUSINESS SETUP</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>GOLDEN VISA</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>GOLDEN VISA</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="uae-business-formation.php#business-bank-account-opening"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>BANK ACCOUNT OPENING</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>BANK ACCOUNT OPENING</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg> BRAND DEVELOPMENT</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg> BRAND DEVELOPMENT</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg> INVEST IN DUBAI</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg> INVEST IN DUBAI</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg> FREELANCE VISA</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg> FREELANCE VISA</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-web-and-digital-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>DIGITAL MARKETING</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>DIGITAL MARKETING</a>
                     </h6>
-                     <h6 class="marquee__item">
+                    <h6 class="marquee__item">
                         <a href="ai-automation-technology-solutions.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>AI AUTOMATION</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>AI AUTOMATION</a>
                     </h6>
-                     <h6 class="marquee__item">
+                    <h6 class="marquee__item">
                         <a href="government-relations-pro-services.php"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>GOVERNMENT RELATIONS</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>GOVERNMENT RELATIONS</a>
                     </h6>
-                     <h6 class="marquee__item">
+                    <h6 class="marquee__item">
                         <a href="digital-marketing-brand-development.php#web-digital-solutions-website-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>WEB DEVELOPMENT</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>WEB DEVELOPMENT</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>RESIDENCY SOLUTION</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>RESIDENCY SOLUTION</a>
                     </h6>
                     <h6 class="marquee__item">
                         <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-    <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-  </svg>MARKETING SOLUTION</a>
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
+                            </svg>MARKETING SOLUTION</a>
                     </h6>
                 </div>
             </div>
@@ -144,16 +144,9 @@
         </div> -->
 
         <div class="contact-map">
-    <iframe
-        src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed"
-        width="100%"
-        height="450"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-</div>
+            <iframe src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
 
         <!-- contact-map-end -->
 
@@ -168,7 +161,7 @@
                                 <p style="line-height: 30px;">
                                     <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer" style="font-weight: 400; font-size:16px;">Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a>
 
-                                    </p>
+                                </p>
                                 <ul class="list-wrap">
                                     <li>
                                         <a href="tel:+971565151315">+971 56 515 1315</a>
@@ -294,7 +287,7 @@
     <!-- main-area-end -->
 
     <!-- footer-area -->
-   <?php include __DIR__ . '/partials/footer.php'; ?>
+    <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
     <!-- footer-area-end -->
 

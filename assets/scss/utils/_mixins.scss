@@ -1,125 +1,123 @@
+// bg color
+@mixin bg-color($color, $opacity) {
+  background-color: rgba($color, $opacity);
+}
 
+// placeholder input
+@mixin tg-placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
 
-    // bg color
-    @mixin bg-color($color, $opacity) {
-        background-color: rgba($color, $opacity);
-    }
+// filter
+@mixin filter($value) {
+  -webkit-filter: $value;
+  filter: $value;
+}
 
-    // placeholder input
-    @mixin tg-placeholder {
-        &::-webkit-input-placeholder {
-            @content;
-        }
-        &:-moz-placeholder {
-            @content;
-        }
-        &::-moz-placeholder {
-            @content;
-        }
-        &:-ms-input-placeholder {
-            @content;
-        }
-    }
+// appearance for select
+@mixin appearance($value) {
+  -webkit-appearance: $value;
+  -moz-appearance: $value;
+  -ms-appearance: $value;
+  -o-appearance: $value;
+  appearance: $value;
+}
 
-    // filter
-    @mixin filter($value) {
-        -webkit-filter: $value;
-            filter: $value;
-    }
+// keyframes
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
 
-    // appearance for select
-    @mixin appearance($value) {
-        -webkit-appearance: $value;
-        -moz-appearance: $value;
-        -ms-appearance: $value;
-        -o-appearance: $value;
-        appearance: $value;
-    }
+//Background
+@mixin background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-    // keyframes
-    @mixin keyframes($name) {
-        @-webkit-keyframes #{$name} {
-            @content;
-        }
-        @-moz-keyframes #{$name} {
-            @content;
-        }
-        @-ms-keyframes #{$name} {
-            @content;
-        }
-        @keyframes #{$name} {
-            @content;
-        }
-    }
+//Transition
+@mixin transition($time) {
+  -webkit-transition: all $time ease-out 0s;
+  -moz-transition: all $time ease-out 0s;
+  -ms-transition: all $time ease-out 0s;
+  -o-transition: all $time ease-out 0s;
+  transition: all $time ease-out 0s;
+}
 
-    //Background
-    @mixin background {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+// Transform
+@mixin transform($transforms) {
+  -webkit-transform: $transforms;
+  -moz-transform: $transforms;
+  -ms-transform: $transforms;
+  -o-transform: $transforms;
+  transform: $transforms;
+}
 
-    //Transition
-    @mixin transition($time) {
-        -webkit-transition: all $time ease-out 0s;
-        -moz-transition: all $time ease-out 0s;
-        -ms-transition: all $time ease-out 0s;
-        -o-transition: all $time ease-out 0s;
-        transition: all $time ease-out 0s;
-    }
+//Border
+@mixin border-radius($man) {
+  -webkit-border-radius: $man;
+  -moz-border-radius: $man;
+  -o-border-radius: $man;
+  -ms-border-radius: $man;
+  border-radius: $man;
+}
 
-    // Transform
-    @mixin transform($transforms) {
-        -webkit-transform: $transforms;
-        -moz-transform: $transforms;
-        -ms-transform: $transforms;
-        -o-transform: $transforms;
-        transform: $transforms;
-    }
+// Sentence case
+@mixin sentence-case() {
+  text-transform: lowercase;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
 
-    //Border
-    @mixin border-radius($man) {
-        -webkit-border-radius: $man;
-        -moz-border-radius: $man;
-        -o-border-radius: $man;
-        -ms-border-radius: $man;
-        border-radius: $man;
-    }
+// Flexbox display
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
 
-    // Sentence case
-    @mixin sentence-case() {
-        text-transform: lowercase;
-        &:first-letter {
-            text-transform: uppercase;
-        }
-    }
+// Box shadows
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  -ms-box-shadow: $shadow;
+  -o-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
 
-    // Flexbox display
-    @mixin flexbox() {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-    }
+// Radius Box
+@mixin square-box($size, $circle: false) {
+  width: $size;
+  height: $size;
+  line-height: $size;
+  text-align: center;
 
-    // Box shadows
-    @mixin box-shadow($shadow) {
-        -webkit-box-shadow: $shadow;
-        -moz-box-shadow: $shadow;
-        -ms-box-shadow: $shadow;
-        -o-box-shadow: $shadow;
-        box-shadow: $shadow;
-    }
-
-    // Radius Box
-	@mixin square-box($size, $circle: false) {
-	    width: $size;
-	    height: $size;
-	    line-height: $size;
-	    text-align: center;
-
-	    @if $circle {
-	        border-radius: 50%;
-	    }
-	}
+  @if $circle {
+    border-radius: 50%;
+  }
+}
