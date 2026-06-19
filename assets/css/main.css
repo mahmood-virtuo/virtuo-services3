@@ -6236,8 +6236,8 @@ textarea {
 }
 .slider__area > .slider__bar-pagination .swiper-pagination-bullet {
   display: block;
-  width: 70px;
-  height: 10px;
+  width: 25px;
+  height: 3px;
   margin: 0 !important;
   padding: 0;
   border: 0;
@@ -10299,15 +10299,34 @@ textarea {
   margin-right: 26px;
 }
 @media (min-width: 992px) {
+  body:has(.services__details-area) {
+    overflow-x: clip;
+  }
+
   body:has(.services__details-area) .main-area.fix {
     overflow: visible;
+  }
+
+  .services__details-area,
+  .services__details-area .container,
+  .services__details-area .row,
+  .services__details-area .col-30 {
+    overflow: visible;
+  }
+
+  .services__details-area .row {
+    align-items: stretch;
+  }
+
+  .services__details-area .col-30 {
+    align-self: stretch;
   }
 
   .services__details-area .services__sidebar {
     position: sticky;
     top: 120px;
-    max-height: calc(100vh - 140px);
-    overflow-y: auto;
+    max-height: none;
+    overflow: visible;
     z-index: 2;
   }
 }
@@ -26158,6 +26177,92 @@ select {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.tgmenu__action .header-whatsapp-btn,
+.header-whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 9px 18px;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  background: #fffdfd00;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.tgmenu__action .header-whatsapp-btn i,
+.header-whatsapp-btn i {
+  color: inherit;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.tgmenu__action .header-whatsapp-btn:hover,
+.tgmenu__action .header-whatsapp-btn:focus,
+.header-whatsapp-btn:hover,
+.header-whatsapp-btn:focus {
+  /* border-color: #ee4c01; */
+  background: #ee4c01;
+  border: none;
+  color: #ffffff;
+}
+
+.sticky-menu .tgmenu__action .header-whatsapp-btn,
+.sticky-menu .header-whatsapp-btn,
+.sticky-menu .tgmenu__action .header-whatsapp-btn:hover,
+.sticky-menu .tgmenu__action .header-whatsapp-btn:focus,
+.sticky-menu .header-whatsapp-btn:hover,
+.sticky-menu .header-whatsapp-btn:focus {
+  border: 1px solid #ee4c01;
+  background: #ee4c01;
+  color: #ffffff;
+}
+
+.header-whatsapp-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.offCanvas__side-info .contact-list .offcanvas-whatsapp-btn {
+  margin-top: 6px;
+}
+
+@media (max-width: 575.98px) {
+  .tgmenu__action .header-whatsapp-btn,
+  .header-whatsapp-btn {
+    width: 38px;
+    min-width: 38px;
+    min-height: 38px;
+    padding: 0;
+    gap: 0;
+    border-radius: 50%;
+    font-size: 0;
+  }
+
+  .tgmenu__action .header-whatsapp-btn i,
+  .header-whatsapp-btn i {
+    font-size: 18px;
+  }
+
+  .offCanvas__side-info .contact-list .offcanvas-whatsapp-btn {
+    width: auto;
+    min-width: 0;
+    padding: 9px 18px;
+    gap: 8px;
+    border-radius: 999px;
+    font-size: 14px;
   }
 }
 

@@ -1395,6 +1395,13 @@
   }
   &__sidebar {
     margin-right: 26px;
+    @media (min-width: 992px) {
+      position: sticky;
+      top: 120px;
+      max-height: none;
+      overflow: visible;
+      z-index: 2;
+    }
     @media #{$lg} {
       margin-right: 0;
     }
@@ -1489,6 +1496,28 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 992px) {
+  body:has(.services__details-area) {
+    overflow-x: clip;
+  }
+
+  body:has(.services__details-area) .main-area.fix,
+  .services__details-area,
+  .services__details-area .container,
+  .services__details-area .row,
+  .services__details-area .col-30 {
+    overflow: visible;
+  }
+
+  .services__details-area .row {
+    align-items: stretch;
+  }
+
+  .services__details-area .col-30 {
+    align-self: stretch;
   }
 }
 
