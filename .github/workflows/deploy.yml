@@ -1,4 +1,4 @@
-name: Deploy Virtuo Services 3
+name: Deploy Virtuo Services
 
 on:
   push:
@@ -17,6 +17,25 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            git config --global --add safe.directory /home/mahmood/web/virtuo-services3.167-233-103-0.sslip.io/public_html
-            cd /home/mahmood/web/virtuo-services3.167-233-103-0.sslip.io/public_html
+            set -e
+
+            STAGING="/home/mahmood/web/virtuo-services3.167-233-103-0.sslip.io/public_html"
+            PRODUCTION="/home/mahmood/web/virtuo.ae/public_html"
+
+            git config --global --add safe.directory "$STAGING"
+
+            cd "$STAGING"
+
+            git reset --hard HEAD
             git pull origin main
+
+            rsync -av --delete \
+              --exclude='.git' \
+              --exclude='.github' \
+              --exclude='.gitignore' \
+              "$STAGING/" "$PRODUCTION/"
+
+            chown -R mahmood:mahmood "$PRODUCTION"
+
+            find "$PRODUCTION" -type d -exec chmod 755 {} \;
+            find "$PRODUCTION" -type f -exec chmod 644 {} \;
