@@ -116,7 +116,7 @@
                             <div class="footer-reference-left__top">
                                 <div class="footer-reference-left__brand">
                                     <div class="footer__logo-two footer-reference-left__logo">
-                                        <a href="index-5.php"><img src="assets/img/logo/w_logo.svg" alt="Virtuo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/w_logo.svg" alt="Virtuo"></a>
                                     </div>
                                     <p>Empowering businesses to establish, operate, and scale in the UAE. Virtuo Services delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
                                     <div class="footer-reference-left__social">
@@ -158,7 +158,7 @@
                                 <nav class="footer-reference-left__quick" aria-label="Quick links">
                                     <h4 style="color: #EE4c01;">Quick Links</h4>
                                     <div>
-                                        <a href="index-5.php">Home <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                        <a href="index.php">Home <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                         <!-- <a href="faq.php">F.A.Q's <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
                                         <a href="about.php">About Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                         <a href="contact.php">Contact Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>

@@ -56,10 +56,10 @@
                 <div class="tgmenu__wrap">
                     <nav class="tgmenu__nav">
                         <div class="logo">
-                            <a href="index-5.php"><img src="assets/img/logo/w_logo.svg" alt="Logo"></a>
+                            <a href="index.php"><img src="assets/img/logo/w_logo.svg" alt="Logo"></a>
                         </div>
                         <div class="logo d-none">
-                            <a href="index-5.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                            <a href="index.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
                         </div>
                         <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                             <ul class="navigation">
@@ -173,7 +173,7 @@
             <nav class="tgmobile__menu-box">
                 <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
                 <div class="nav-logo">
-                    <a href="index-5.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                    <a href="index.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
                 </div>
                 <div class="tgmobile__search">
                     <form action="#">
@@ -202,7 +202,7 @@
                 <button><img src="assets/img/icons/times.svg" alt="" class="injectable"></button>
             </div>
             <div class="offCanvas__logo mb-30">
-                <a href="index-5.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                <a href="index.php"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
             </div>
             <div class="offCanvas__content">
                 <p style="text-align: left;">Empowering businesses to establish, operate, and scale in the UAE. Virtuo Services delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
