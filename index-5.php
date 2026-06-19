@@ -246,7 +246,7 @@
                         <div class="about__content-four">
                             <div class="section__title mb-20">
                                 <span class="sub-title">Who we are</span>
-                                <h2 class="title">Building A Business In The UAE <strong>Shouldn't Feel Like</strong> Managing Five Different Companies.</h2>
+                                <h2 class="title">Building A Business In The UAE "CheckGitHubNow"<strong>Shouldn't Feel Like</strong> Managing Five Different Companies.</h2>
                             </div>
                             <p style="margin-bottom:-20px !important; color: #EE4C01; text-transform: uppercase;">FOR MANY ENTREPRENURS, IT DOES</p><br>
                                 
