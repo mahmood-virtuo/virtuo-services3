@@ -841,15 +841,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="sidebar__widget">
-                                    <h4 class="sidebar__widget-title">Service Brochure</h4>
-                                    <div class="sidebar__brochure">
-                                        <p>View our service overview for a clear guide to the support Virtuo provides.</p>
-                                        <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                                            <span class="content"><strong>PDF. Download</strong></span>
-                                        </a>
-                                    </div>
-                                </div>
                             </aside>
                         </div>
                     </div>

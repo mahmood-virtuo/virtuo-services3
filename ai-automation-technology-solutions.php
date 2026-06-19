@@ -130,7 +130,7 @@
                                         <p>Virtuo supports every step of ai automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/services_details_img01.jpg" alt="AI Automation">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="AI Automation" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our AI Automation Services Include</h2>
@@ -146,7 +146,7 @@
                                         <p class="info-two">We train your team to use, monitor, and adjust the new workflow with confidence.</p>
                                         <p class="info-one"><b>6. AI Automation Optimization And Support</b></p>
                                         <p class="info-two">We improve automation performance after launch and add new steps as the business grows.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -237,7 +237,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -312,7 +312,7 @@
                                         <p>Virtuo supports every step of workflow automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/services_details_img01.jpg" alt="Workflow Automation">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Workflow Automation" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Workflow Automation Services Include</h2>
@@ -328,7 +328,7 @@
                                         <p class="info-two">We train your team to use, monitor, and adjust the new workflow with confidence.</p>
                                         <p class="info-one"><b>6. Workflow Automation Optimization And Support</b></p>
                                         <p class="info-two">We improve automation performance after launch and add new steps as the business grows.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -419,7 +419,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -494,7 +494,7 @@
                                         <p>Virtuo supports every step of technology solutions, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/services_details_img01.jpg" alt="Technology Solutions">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Technology Solutions" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Technology Solution Support Includes</h2>
@@ -510,7 +510,7 @@
                                         <p class="info-two">We train your team to use, monitor, and adjust the new workflow with confidence.</p>
                                         <p class="info-one"><b>6. Technology Solutions Optimization And Support</b></p>
                                         <p class="info-two">We improve automation performance after launch and add new steps as the business grows.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -601,7 +601,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -676,7 +676,7 @@
                                         <p>Virtuo supports every step of business process automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/services_details_img01.jpg" alt="Business Process Automation">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Business Process Automation" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Business Process Automation Services Include</h2>
@@ -692,7 +692,7 @@
                                         <p class="info-two">We train your team to use, monitor, and adjust the new workflow with confidence.</p>
                                         <p class="info-one"><b>6. Business Process Automation Optimization And Support</b></p>
                                         <p class="info-two">We improve automation performance after launch and add new steps as the business grows.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -783,7 +783,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -909,15 +909,6 @@
                                             <img src="assets/img/images/sidebar_contact_shape01.svg" alt="shape" class="rotateme">
                                             <img src="assets/img/images/sidebar_contact_shape02.svg" alt="shape" class="alltuchtopdown">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar__widget">
-                                    <h4 class="sidebar__widget-title">Service Brochure</h4>
-                                    <div class="sidebar__brochure">
-                                        <p>View our service overview for a clear guide to the support Virtuo provides.</p>
-                                        <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                                            <span class="content"><strong>PDF. Download</strong></span>
-                                        </a>
                                     </div>
                                 </div>
                             </aside>

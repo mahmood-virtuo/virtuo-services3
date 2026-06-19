@@ -138,10 +138,23 @@
 
 
         <!-- contact-map -->
-        <div class="contact-map">
+        <!-- <div class="contact-map">
             <iframe src="https://maps.app.goo.gl/PsjFHMFt8rWGjapf8"
                 allowfullscreen loading="lazy"></iframe>
-        </div>
+        </div> -->
+
+        <div class="contact-map">
+    <iframe
+        src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
         <!-- contact-map-end -->
 
         <!-- contact-area -->

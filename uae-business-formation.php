@@ -130,7 +130,7 @@
                                         <p>Virtuo manages the full process from activity selection and Department of Economy and Tourism approvals to licensing, office guidance, immigration file opening, and launch support.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/MainLandImage1_services_details.jpg" alt="Mainland Business Setup">
+                                        <img src="assets/img/services/MainLandImage1_services_details.jpg" alt="Mainland Business Setup" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Mainland Business Setup Services Include</h2>
@@ -150,7 +150,7 @@
                                         <p class="info-two">We organize the company profile and documents required for corporate bank account review.</p>
                                         <p class="info-one"><b>8. Renewal And Compliance Support</b></p>
                                         <p class="info-two">We continue supporting license renewals, activity amendments, and government follow-ups after setup.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -303,7 +303,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Mainland setup can unlock broad UAE market access, but the licensing path must be structured correctly. Virtuo keeps the process clear, compliant, and coordinated across government touchpoints.</p>
                                                         <p>Our Advantages :</p>
@@ -321,7 +321,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -396,7 +396,7 @@
                                         <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey from selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/services_details_img01.jpg" alt="Free Zone Business Setup">
+                                        <img src="assets/img/services/services_details_img01.jpg" alt="Free Zone Business Setup" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Free Zone Setup Services Include</h2>
@@ -416,7 +416,7 @@
                                         <p class="info-two">Handling all interactions, submissions, and approvals with government bodies and ministries, minimizing administrative friction for your team.</p>
                                         <p class="info-one"><b>8. Post-Incorporation Corporate Support</b></p>
                                         <p class="info-two">Continued operational assistance after incorporation, covering annual license renewals and ongoing corporate compliance.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -489,7 +489,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Setting up a company in a UAE Free Zone requires the right jurisdiction, activity, license package, visa allocation, and banking readiness. Virtuo helps compare options and move through the process transparently.</p>
                                                         <p>Our Advantages :</p>
@@ -507,7 +507,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -582,7 +582,7 @@
                                         <p>At Virtuo, we navigate the complex international compliance and documentation pipelines on your behalf. Our experts streamline the incorporation framework so you can establish a secure, tax-optimized international vehicle efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/OffshoreBusinessSetup3_services_details.jpg" alt="Offshore Business Setup">
+                                        <img src="assets/img/services/OffshoreBusinessSetup3_services_details.jpg" alt="Offshore Business Setup" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">What Offshore Business Setup Includes</h2>
@@ -604,7 +604,7 @@
                                         <p class="info-two">Overseeing statutory requirements, mandatory legal document filings, and corporate transparency updates required by international financial oversight standards.</p>
                                         <p class="info-one"><b>9. Annual Renewal And Statutory Filings</b></p>
                                         <p class="info-two">Managing the yearly renewal of your offshore registration, registered office space maintenance, and associated governmental administration to avoid structural lapses.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -677,7 +677,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Setting up an offshore company requires specialized knowledge, careful planning, and strict compliance with international regulations. Virtuo Services F.Z.C provides expert guidance for entrepreneurs, investors, and global companies looking to establish offshore entities in the UAE. Our team ensures a seamless, secure, and fully compliant setup process while protecting your business interests and maintaining the highest level of confidentiality.</p>
                                                         <p>Benefits Of Business Setup In Offshore:</p>
@@ -695,7 +695,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -770,7 +770,7 @@
                                         <p>At Virtuo, we provide more than just a premium mailbox. Our virtual office packages supply your enterprise with an official, government-recognized corporate address necessary for business registration, Department of Economy and Tourism (DET) compliance, and immediate market trust, all while keeping your operations agile and lean.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/VirtualOffice1_services_details.jpg" alt="Virtual Office">
+                                        <img src="assets/img/services/VirtualOffice1_services_details.jpg" alt="Virtual Office" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">What Virtual Office Packages Include</h2>
@@ -788,7 +788,7 @@
                                         <p class="info-two">On-demand booking access to premium, fully equipped conference rooms and corporate boardrooms to host vital face-to-face client pitches, investor meetings, or team huddles.</p>
                                         <p class="info-one"><b>7. Complete Office Amenities &amp; Support Systems</b></p>
                                         <p class="info-two">Full access to secure enterprise-grade Wi-Fi networks, high-end copying, scanning, and printing systems during your on-site corporate workspace sessions.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -812,7 +812,7 @@
                                                 <div class="row gutter-y-30 justify-content-center">
                                                    
                                                    
-                                                    <div style="margin-bottom: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>We provide professional virtual office solutions designed to give your business credibility, flexibility, and full regulatory compliance in the UAE. Our expert team ensures that your company gains a prestigious Dubai business address while handling all licensing approvals, government requirements, and operational support efficiently. By choosing Virtuo Services, you get a seamless, reliable, and cost-effective virtual office experience that strengthens your brand presence and allows you to focus on growing your business.</p>
                                                         <p>A Virtual Office Is Ideal For:</p>
@@ -833,7 +833,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -908,7 +908,7 @@
                                         <p>At Virtuo, we untangle the complex compliance webs of corporate banking. Our specialized banking coordinators pre-audit your legal documentation, align your business activities with the precise preferences of various banking institutions, and manage the extensive due diligence questionnaires to streamline your account approvals smoothly and efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/BankAccountOpening1_services_details.jpg" alt="Business Bank Account Opening">
+                                        <img src="assets/img/services/BankAccountOpening1_services_details.jpg" alt="Business Bank Account Opening" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">What Our Bank Account Opening Services Include</h2>
@@ -920,7 +920,7 @@
                                         B2B Counterparty Risk Assessments: Reviewing and listing your projected international suppliers and target client networks to satisfy compliance checklists.
                                         Multi-Currency Account Configuration: Setting up flexible corporate operational accounts capable of handling local and major international trade currencies.
                                         In-Person Signatory Meeting Coordination: Arranging and managing the mandatory face-to-face identity verifications between your authorized corporate signatories and bank managers.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -946,7 +946,7 @@
                                                     
                                                     
                                                    
-                                                    <div style="margin-bottom: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Virtuo secures your corporate financial setup by serving as your direct, expert interface with local and international banking networks. By pairing an intricate command of Central Bank anti-money laundering regulations with established relationships across multiple financial institutions, we guarantee that your corporate profiles, source-of-funds files, and business plans are presented with absolute legal precision. Our framework completely eliminates administrative friction and unexpected application rejections by pre-auditing your commercial files prior to submission, providing your enterprise with a dedicated financial liaison asset that protects your onboarding timelines while keeping your operational momentum moving smoothly.</p>
                                                         <p>Our Advantages :</p>
@@ -964,7 +964,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1100,15 +1100,6 @@
                                             <img src="assets/img/images/sidebar_contact_shape01.svg" alt="shape" class="rotateme">
                                             <img src="assets/img/images/sidebar_contact_shape02.svg" alt="shape" class="alltuchtopdown">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar__widget">
-                                    <h4 class="sidebar__widget-title">Service Brochure</h4>
-                                    <div class="sidebar__brochure">
-                                        <p>View our service overview for a clear guide to the support Virtuo provides.</p>
-                                        <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                                            <span class="content"><strong>PDF. Download</strong></span>
-                                        </a>
                                     </div>
                                 </div>
                             </aside>

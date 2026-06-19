@@ -10200,6 +10200,19 @@ textarea {
 .services__sidebar {
   margin-right: 26px;
 }
+@media (min-width: 992px) {
+  body:has(.services__details-area) .main-area.fix {
+    overflow: visible;
+  }
+
+  .services__details-area .services__sidebar {
+    position: sticky;
+    top: 120px;
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+    z-index: 2;
+  }
+}
 @media (max-width: 1199.98px) {
   .services__sidebar {
     margin-right: 0;
@@ -25003,16 +25016,16 @@ select {
 .marquee__area .marquee__item a {
   display: inline-flex !important;
   align-items: center !important;
-  gap: 16px !important;
-  padding: 0 22px !important;
+  gap: 0 !important;
+  padding: 0 !important;
   white-space: nowrap !important;
 }
 
 .marquee__area .marquee__item a svg {
   width: 34px !important;
   height: 34px !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: 22px !important;
+  margin-right: 25px !important;
   top: 0 !important;
   display: inline-block !important;
   flex: 0 0 34px !important;
@@ -25242,6 +25255,13 @@ select {
   display: block;
 }
 
+.footer__area-five .footer-reference-left__contact p.forFooterAddress {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  column-gap: 14px;
+  align-items: start;
+}
+
 .footer__area-five .footer-reference-left__contact p > a,
 .footer__area-five .footer-reference-left__contact > a {
   display: grid;
@@ -25291,7 +25311,10 @@ select {
 }
 
 .footer__area-five .footer__bottom-two .row {
+  --bs-gutter-x: clamp(32px, 3vw, 72px);
   align-items: center;
+  margin-left: 0;
+  margin-right: 0;
   row-gap: 16px;
 }
 

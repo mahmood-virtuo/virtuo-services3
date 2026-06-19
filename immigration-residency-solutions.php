@@ -131,7 +131,7 @@
                                         <p>At Virtuo, We Untangle The Complexities Of The Immigration Network. Our Corporate Immigration Experts Handle Your Entire Visa Issuance Pipeline Directly With The General Directorate Of Residency And Foreigners Affairs (GDRFA) And The Federal Authority For Identity, Citizenship, Customs And Port Security (ICP), Managing Everything From Initial Entry Permits To Final Biometric Cards Efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ImmigrationServicesImg1.jpg" alt="Immigration Services">
+                                        <img src="assets/img/services/ImmigrationServicesImg1.jpg" alt="Immigration Services" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">What Our Immigration Services Include</h2>
@@ -150,7 +150,8 @@
                                         <p class="info-two">Streamlining Your Mandatory Local Health Screenings And Legal Fingerprint Registrations At Official Government Testing Centers.</p>
                                         <p class="info-one"><b>7. Residency Card (Emirates ID) Issuance</b></p>
                                         <p class="info-two">Overseeing File Tracking, Card Approvals, And Secure Shipping For Your Physical Identity Credentials.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;"
+                                        >
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -223,7 +224,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo Secures Your Corporate And Personal Relocation Pathways By Serving As Your Direct, Expert Interface With UAE Immigration Authorities And Federal Identity Networks. By Pairing An Intricate Command Of Changing Residency Legislations With Streamlined Processing Models, We Guarantee That Your Entry Clearances, Medical Bookings, And Identity Cards Are Executed With Absolute Legal Accuracy. Our Framework Completely Eliminates Administrative Friction And Unexpected Processing Blocks By Coordinating All The Red Tape On Your Behalf, Providing Your Enterprise And Family With A Dedicated Immigration Asset That Protects Your Legal Standing While Keeping Your Onboarding Timelines Moving Smoothly.</p>
                                                             </div>
@@ -233,7 +234,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -308,7 +309,7 @@
                                         <p>At Virtuo, we treat your family's relocation with maximum care and efficiency. Our dedicated public relations officers manage your entire dependency pipeline directly with immigration authorities and medical boards, handling everything from initial entry permits to final identity cards so your loved ones transition into their new life with complete peace of mind.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/DependentVisaImg1.jpg" alt="Dependent Visa">
+                                        <img src="assets/img/services/DependentVisaImg1.jpg" alt="Dependent Visa" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Who Can Sponsor Dependents in the UAE?</h2>
@@ -327,7 +328,7 @@
                                         <p class="info-two">Scheduling and coordinating mandatory blood tests, chest x-rays, and physical fingerprint captures at official government hubs.</p>
                                         <p class="info-one"><b>7. Dependent Emirates ID Collections</b></p>
                                         <p class="info-two">Tracking the processing queues and managing the final delivery of physical identity cards to secure your family's local access.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -400,7 +401,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo secures your corporate and personal relocation pathways by serving as your direct, expert interface with UAE immigration authorities and federal identity networks. By pairing an intricate command of changing residency legislations with streamlined processing models, we guarantee that your entry clearances, medical bookings, and identity cards are executed with absolute legal accuracy. Our framework completely eliminates administrative friction and unexpected processing blocks by coordinating all the red tape on your behalf, providing your enterprise and family with a dedicated immigration asset that protects your legal standing while keeping your onboarding timelines moving smoothly.</p>
                                                             </div>
@@ -410,7 +411,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -485,7 +486,7 @@
                                         <p>At Virtuo, we navigate the specialized regulatory pathways of high-value investment immigration. Our corporate advisors manage your entire application lifecycle, coordinating files across federal immigration frameworks, economic zones, and land registries to secure your residency credentials cleanly and efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/InvestorVisaImg1.jpg" alt="Investor Visa Dubai">
+                                        <img src="assets/img/services/InvestorVisaImg1.jpg" alt="Investor Visa Dubai" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Why Choose an Investor Visa in the UAE?</h2>
@@ -504,7 +505,7 @@
                                         <p class="info-two">Seamlessly adding spouses, children, and domestic service staff to your active self-sponsored framework.</p>
                                         <p class="info-one"><b>7. Residency Card (Emirates ID) Issuance</b></p>
                                         <p class="info-two">Overseeing file tracking, card approvals, and secure delivery for your physical identity credentials.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -577,7 +578,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo secures your premium investment residency pathway by serving as your direct, expert interface with UAE immigration authorities and property registries. By pairing an intricate command of changing immigration legislation with streamlined processing models, we guarantee that your entry clearances, asset verifications, and identity cards are executed with absolute legal accuracy. Our framework completely eliminates administrative friction and unexpected processing blocks by coordinating all the red tape on your behalf, providing your enterprise and family with a dedicated immigration asset that protects your legal standing while keeping your onboarding timelines moving smoothly.</p>
                                                             </div>
@@ -587,7 +588,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -662,7 +663,7 @@
                                         <p>At Virtuo, we operate as your trusted direct link to Dubai's entry and residency administration. Our public relations specialists manage your entire immigration pipeline across digital smart channels and dedicated center networks, ensuring your corporate and personal files clear security gates with absolute structural accuracy.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/GDRFA_ServicesImg1.jpg" alt="GDRFA Services Dubai">
+                                        <img src="assets/img/services/GDRFA_ServicesImg1.jpg" alt="GDRFA Services Dubai" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Why GDRFA Services Are Essential in Dubai</h2>
@@ -681,7 +682,7 @@
                                         <p class="info-two">Managing proper profile synchronization with airport data hubs to ensure seamless international travel access.</p>
                                         <p class="info-one"><b>7. Residency Cancellations &amp; Outpasses</b></p>
                                         <p class="info-two">Structuring legal visa revocations cleanly when business entities dissolve or personnel positions shift.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -754,7 +755,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo secures your company's operational growth by serving as your direct, expert interface with the General Directorate of Residency and Foreigners Affairs in Dubai. By combining a continuous mastery of changing immigration laws with continuous tracking of digital registry portals, we ensure your corporate establishment records and employee files are maintained with total compliance accuracy. Our framework completely eliminates the risk of unexpected administrative blocks or system processing friction by identifying record variations before they turn into violations, providing your enterprise with a dedicated labor relations asset that protects your hiring capabilities while you focus on scaling your business.</p>
                                                             </div>
@@ -764,7 +765,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -839,7 +840,7 @@
                                         <p>At Virtuo, we serve as your direct professional interface with the diplomatic community. Our specialized public relations officers manage your entire cross-border documentation lifecycle, coordinating applications directly across local foreign missions and federal departments so your international papers secure absolute domestic validity efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ConsulateServicesImg1.jpg" alt="Consulate Services Dubai">
+                                        <img src="assets/img/services/ConsulateServicesImg1.jpg" alt="Consulate Services Dubai" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">What Our Consulate Services Include</h2>
@@ -858,7 +859,7 @@
                                         <p class="info-two">Executing court-approved legal translations of foreign-language instruments to meet strict consular and local judicial evaluation checklists.</p>
                                         <p class="info-one"><b>7. Federal Ministry of Foreign Affairs (MOFA) Routing</b></p>
                                         <p class="info-two">Managing the essential final legalization steps within federal databases to secure complete local enforceability.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -931,7 +932,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo removes the logistical complexities and administrative friction from international document legalization by serving as your single point of contact for cross-border consular processing. By pairing an intricate knowledge of changing diplomatic and sovereign mission rules with direct, daily pipelines to the Ministry of Foreign Affairs and foreign embassies, we guarantee that your commercial or personal certificates are validated with absolute legal precision. Our framework operates on a foundation of complete fee clarity with zero surprise handling charges or hidden submission fees, providing your enterprise with a highly secure administrative asset that manages the international red tape seamlessly while completely protecting your sensitive corporate data.</p>
                                                             </div>
@@ -941,7 +942,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1016,7 +1017,7 @@
                                         <p>At Virtuo, we untangle the modern regulatory frameworks of independent residency. Our corporate registration team manages your entire onboarding pipeline, guiding your applications through human resources ministries and specialized economic zone registries to secure your independent working credentials cleanly and efficiently.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/FreeLanceVisaImg1.jpg" alt="Freelance Visa">
+                                        <img src="assets/img/services/FreeLanceVisaImg1.jpg" alt="Freelance Visa" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">What Our Freelance Visa Services Include</h2>
@@ -1035,7 +1036,7 @@
                                         <p class="info-two">Organizing priority health screenings, blood tests, and official digital fingerprint captures at local testing hubs.</p>
                                         <p class="info-one"><b>7. Dependent &amp; Family Sponsorship loops</b></p>
                                         <p class="info-two">Seamlessly adding spouses, children, and parents to your active self-sponsored framework under relaxed dependency rules.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1108,7 +1109,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo secures your independent professional pathway by serving as your direct, expert interface with UAE labor ministries and economic zone registries. By pairing an intricate command of changing freelance legislation with streamlined processing models, we guarantee that your working permits, asset verifications, and identity cards are executed with absolute legal accuracy. Our framework completely eliminates administrative friction and unexpected processing blocks by coordinating all the red tape on your behalf, providing your freelance enterprise with a dedicated corporate asset that protects your legal standing while keeping your onboarding timelines moving smoothly.</p>
                                                             </div>
@@ -1118,7 +1119,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1193,7 +1194,7 @@
                                         <p>At Virtuo, we unlock the elite pathways of long-term self-sponsorship. Our corporate immigration strategists seamlessly manage your entire submission pipeline across federal databases, ensuring your professional credentials, business revenues, or real estate assets align perfectly with strict ministerial clearance codes.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/GoldenVisaImg1.jpg" alt="Golden Visa UAE">
+                                        <img src="assets/img/services/GoldenVisaImg1.jpg" alt="Golden Visa UAE" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Why the UAE Golden Visa Is the Ultimate Residency Program</h2>
@@ -1212,7 +1213,7 @@
                                         <p class="info-two">Managing priority long-term visas for top-tier university graduates and high-performing secondary school achievers.</p>
                                         <p class="info-one"><b>7. Family &amp; Household Sponsorship loops</b></p>
                                         <p class="info-two">Seamlessly adding spouses, children, and domestic service staff to your active self-sponsored framework.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1285,7 +1286,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo secures your premium long-term residency status by serving as your expert interface with federal identity systems and immigration registries. By blending an intricate knowledge of changing immigration regulations with direct processing channels across municipal land boards and labor ministries, we ensure your asset validations, salary mappings, and embassy clearings are completed with flawless accuracy. Our framework eliminates administrative friction and unexpected system rejections by cross-auditing all credential portfolios prior to portal filing, providing your enterprise and family with an elite residency asset that protects your long-term lifestyle stability while keeping your operational timelines completely undisturbed.</p>
                                                             </div>
@@ -1295,7 +1296,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1370,7 +1371,7 @@
                                         <p>At Virtuo, we eliminate the operational stress and administrative delays out of the immigration lifecycle. Our dedicated public relations officers coordinate your entire onboarding pipeline directly with immigration authorities and medical testing hubs, executing your file setups smoothly so your family transitions into the UAE market with absolute peace of mind.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ResidenceVisaImg1.jpg" alt="Residence Visa">
+                                        <img src="assets/img/services/ResidenceVisaImg1.jpg" alt="Residence Visa" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Unlock the Full Benefits of a Valid UAE Residence Visa</h2>
@@ -1389,7 +1390,7 @@
                                         <p class="info-two">Managing priority long-term visas for top-tier university graduates and high-performing secondary school achievers.</p>
                                         <p class="info-one"><b>7. Family &amp; Household Sponsorship loops</b></p>
                                         <p class="info-two">Seamlessly adding spouses, children, and domestic service staff to your active self-sponsored framework.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1462,7 +1463,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo secures your corporate and personal relocation pathways by serving as your direct, expert interface with UAE immigration authorities and federal labor networks. By pairing an intricate command of changing residency legislations with streamlined processing models, we guarantee that your entry clearances, medical bookings, and identity cards are executed with absolute legal accuracy. Our framework completely eliminates administrative friction and unexpected processing blocks by coordinating all the red tape on your behalf, providing your enterprise and family with a dedicated immigration asset that protects your legal standing while keeping your onboarding timelines moving smoothly.</p>
                                                             </div>
@@ -1472,7 +1473,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1547,7 +1548,7 @@
                                         <p>At Virtuo, we untangle the stringent administrative steps required to sponsor talent. Our labor relations specialists manage your entire personnel pipeline, driving submissions across federal ministries and unified digital immigration dashboards to keep your hiring workflows fast, fully compliant, and completely free from unexpected processing blocks.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/EmploymentVisaImg1.jpg" alt="Employment Visa">
+                                        <img src="assets/img/services/EmploymentVisaImg1.jpg" alt="Employment Visa" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">What Our Employment Visa Services Include</h2>
@@ -1566,7 +1567,7 @@
                                         <p class="info-two">Structuring company payroll pipelines to perfectly match federal salary distribution regulations.</p>
                                         <p class="info-one"><b>7. Employment Residency Cancellations &amp; Transitions</b></p>
                                         <p class="info-two">Managing formal work permit revocations and structural handovers cleanly when staff roles change.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1639,7 +1640,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                                 <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                                 <p>Virtuo secures your company's operational growth by serving as your direct, expert interface with federal labor ministries and immigration registries. By blending an intricate mastery of changing labor legislation with direct processing pipelines across unified government dashboards, we ensure your job offers, work permits, and employee identity cards are processed with absolute legal accuracy. Our framework completely eliminates corporate risk and sudden administrative freezes by cross-auditing all personnel portfolios before submission, providing your enterprise with a dedicated workforce relations asset that protects your scaling capabilities while keeping your team onboarding timelines moving smoothly.</p>
                                                             </div>
@@ -1649,7 +1650,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1827,15 +1828,6 @@
                                             <img src="assets/img/images/sidebar_contact_shape01.svg" alt="shape" class="rotateme">
                                             <img src="assets/img/images/sidebar_contact_shape02.svg" alt="shape" class="alltuchtopdown">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar__widget">
-                                    <h4 class="sidebar__widget-title">Service Brochure</h4>
-                                    <div class="sidebar__brochure">
-                                        <p>View our service overview for a clear guide to the support Virtuo provides.</p>
-                                        <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                                            <span class="content"><strong>PDF. Download</strong></span>
-                                        </a>
                                     </div>
                                 </div>
                             </aside>

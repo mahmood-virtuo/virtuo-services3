@@ -353,30 +353,6 @@ if (!function_exists('virtuo_render_service_sidebar')) {
                     </div>
                 </div>
             </div>
-            <div class="sidebar__widget">
-                <h4 class="sidebar__widget-title">
-                    Service Brochure
-                </h4>
-                <div class="sidebar__brochure">
-                    <p>
-                        View our 2025 Business prospectus of brochure for an easy to read guide on all of the services offer.
-                    </p>
-                    <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                        <span class="content">
-                            <strong>
-                                PDF. Download
-                            </strong>
-                        </span>
-                    </a>
-                    <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                        <span class="content">
-                            <strong>
-                                PDF. Download
-                            </strong>
-                        </span>
-                    </a>
-                </div>
-            </div>
         </aside>
         <?php
     }

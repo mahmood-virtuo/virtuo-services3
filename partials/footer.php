@@ -129,28 +129,28 @@
                                 </div>
                                 <nav class="footer-reference-left__services" aria-label="PRO services">
                                     <h4 style="color: #EE4c01;">PRO Services</h4>
-                                    <a href="services.php">GDRFA</a>
-                                    <a href="services.php">Virtual Office</a>
-                                    <a href="services.php">Power Of Attorney</a>
-                                    <a href="services.php">Legal Translation</a>
-                                    <a href="services.php">MOHRE Services</a>
-                                    <a href="services.php">Attestation Services</a>
+                                    <a href="immigration-residency-solutions.php#immigration-residency-solutions-gdrfa-services-dubai">GDRFA</a>
+                                    <a href="uae-business-formation.php#virtual">Virtual Office</a>
+                                    <a href="government-relations-pro-services.php#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
+                                    <a href="government-relations-pro-services.php#government-relations-pro-services-translation-services">Legal Translation</a>
+                                    <a href="government-relations-pro-services.php#government-relations-pro-services-mohre-services">MOHRE Services</a>
+                                    <a href="government-relations-pro-services.php#government-relations-pro-services-legal-attestation-services">Attestation Services</a>
                                 </nav>
                                 <nav class="footer-reference-left__services" aria-label="Visa services">
                                     <h4 style="color: #EE4c01;">Visa Services</h4>
-                                    <a href="services.php">Residence Visa</a>
-                                    <a href="services.php">Golden Visa</a>
-                                    <a href="services.php">Investor Visa</a>
-                                    <a href="services.php">Employment Visa</a>
-                                    <a href="services.php">Dependent Visa</a>
-                                    <a href="services.php">Freelance Visa</a>
+                                    <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa">Residence Visa</a>
+                                    <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
+                                    <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai">Investor Visa</a>
+                                    <a href="immigration-residency-solutions.php#immigration-residency-solutions-employment-visa">Employment Visa</a>
+                                    <a href="immigration-residency-solutions.php#immigration-residency-solutions-dependent-visa">Dependent Visa</a>
+                                    <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
                                 </nav>
                             </div>
 
                             <div class="footer-reference-left__bottom">
                                 <address class="footer-reference-left__contact">
                                     <h4 style="color: #EE4c01;" >Get In Touch</h4>
-                                   <p class="forFooterAddress"><span class="forFooterAddress" ><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;">Virtuo Services F.Z.C</b></span><br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></span></p>
+                                   <p class="forFooterAddress"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;">Virtuo Services F.Z.C</b></span><br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
                                      
                                     <a href="mailto:info@virtuo.ae"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>info@virtuo.ae</span></a>
                                     <a href="tel:+971565151315"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"><span>+971 56 515 1315</span></a>

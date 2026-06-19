@@ -128,7 +128,7 @@
                                         <p>Virtuo supports every step of web &amp; digital solutions, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/Web&DigitalSolutionsImg1.jpg" alt="Web &amp; Digital Solutions">
+                                        <img src="assets/img/services/Web&DigitalSolutionsImg1.jpg" alt="Web &amp; Digital Solutions" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Web &amp; Digital Solution Support Includes</h2>
@@ -144,7 +144,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Web &amp; Digital Solutions Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -235,7 +235,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -310,7 +310,7 @@
                                         <p>Virtuo supports every step of brand development, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/BrandDevelopmentImg1.jpg" alt="Brand Development">
+                                        <img src="assets/img/services/BrandDevelopmentImg1.jpg" alt="Brand Development" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Brand Development Services Include</h2>
@@ -326,7 +326,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Brand Development Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -417,7 +417,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -492,7 +492,7 @@
                                         <p>Virtuo supports every step of social media management, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/SocialMediaManagementImg1.jpg" alt="Social Media Management">
+                                        <img src="assets/img/services/SocialMediaManagementImg1.jpg" alt="Social Media Management" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Social Media Management Services Include</h2>
@@ -508,7 +508,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Social Media Management Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -599,7 +599,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -674,7 +674,7 @@
                                         <p>Virtuo supports every step of marketing solutions, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/MarketingSolutionsImg1.jpg" alt="Marketing Solutions">
+                                        <img src="assets/img/services/MarketingSolutionsImg1.jpg" alt="Marketing Solutions" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Marketing Solution Support Includes</h2>
@@ -690,7 +690,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Marketing Solutions Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -781,7 +781,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -861,7 +861,7 @@
                                         <p>Virtuo supports every step of website design (ui/ux), helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img1.jpg" alt="Website Design (UI/UX)">
+                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img1.jpg" alt="Website Design (UI/UX)" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Website Design (UI/UX) Support Includes</h2>
@@ -877,7 +877,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Website Design (UI/UX) Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -968,7 +968,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1042,7 +1042,7 @@
                                         <p>Virtuo supports every step of website development, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteDevelopmentImg1.jpg" alt="Website Development">
+                                        <img src="assets/img/services/WebsiteDevelopmentImg1.jpg" alt="Website Development" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Website Development Support Includes</h2>
@@ -1058,7 +1058,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Website Development Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1149,7 +1149,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1223,7 +1223,7 @@
                                         <p>Virtuo supports every step of e-commerce solutions, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/EcommerceSolutionsImg1.jpg" alt="E-Commerce Solutions">
+                                        <img src="assets/img/services/EcommerceSolutionsImg1.jpg" alt="E-Commerce Solutions" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our E-Commerce Solutions Support Includes</h2>
@@ -1239,7 +1239,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. E-Commerce Solutions Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1330,7 +1330,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1404,7 +1404,7 @@
                                         <p>Virtuo supports every step of landing page development, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/LandingPageDevelopmentImg1.jpg" alt="Landing Page Development">
+                                        <img src="assets/img/services/LandingPageDevelopmentImg1.jpg" alt="Landing Page Development" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Landing Page Development Support Includes</h2>
@@ -1420,7 +1420,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Landing Page Development Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1511,7 +1511,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1585,7 +1585,7 @@
                                         <p>Virtuo supports every step of seo &amp; performance optimization, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg1.jpg" alt="SEO &amp; Performance Optimization">
+                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg1.jpg" alt="SEO &amp; Performance Optimization" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our SEO &amp; Performance Optimization Support Includes</h2>
@@ -1601,7 +1601,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. SEO &amp; Performance Optimization And Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1692,7 +1692,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1766,7 +1766,7 @@
                                         <p>Virtuo supports every step of website maintenance &amp; support, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg1.jpg" alt="Website Maintenance &amp; Support">
+                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg1.jpg" alt="Website Maintenance &amp; Support" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Website Maintenance &amp; Support Support Includes</h2>
@@ -1782,7 +1782,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Website Maintenance &amp; Support Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -1873,7 +1873,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -1953,7 +1953,7 @@
                                         <p>Virtuo supports every step of content plan &amp; stratergy, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentPlan&StrategyImg1.jpg" alt="Content Plan &amp; Stratergy">
+                                        <img src="assets/img/services/ContentPlan&StrategyImg1.jpg" alt="Content Plan &amp; Stratergy" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Content Plan &amp; Stratergy Support Includes</h2>
@@ -1969,7 +1969,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Content Plan &amp; Stratergy Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -2060,7 +2060,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -2134,7 +2134,7 @@
                                         <p>Virtuo supports every step of content creation, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentCreationImg1.jpg" alt="Content Creation">
+                                        <img src="assets/img/services/ContentCreationImg1.jpg" alt="Content Creation" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Content Creation Support Includes</h2>
@@ -2150,7 +2150,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Content Creation Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -2241,7 +2241,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -2315,7 +2315,7 @@
                                         <p>Virtuo supports every step of community management, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/CommunityManagementImg1.jpg" alt="Community Management">
+                                        <img src="assets/img/services/CommunityManagementImg1.jpg" alt="Community Management" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Community Management Support Includes</h2>
@@ -2331,7 +2331,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Community Management Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -2422,7 +2422,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -2496,7 +2496,7 @@
                                         <p>Virtuo supports every step of influencer marketing, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/InfluencerMarketingImg1.jpg" alt="Influencer Marketing">
+                                        <img src="assets/img/services/InfluencerMarketingImg1.jpg" alt="Influencer Marketing" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Influencer Marketing Support Includes</h2>
@@ -2512,7 +2512,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Influencer Marketing Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -2603,7 +2603,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -2679,7 +2679,7 @@
                                         <p>Virtuo supports every step of brand identity design, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/BrandIdentityDesignImg1.jpg" alt="Brand Identity Design">
+                                        <img src="assets/img/services/BrandIdentityDesignImg1.jpg" alt="Brand Identity Design" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Brand Identity Design Support Includes</h2>
@@ -2695,7 +2695,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Brand Identity Design Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -2768,7 +2768,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Choosing Virtuo for brand identity design gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
@@ -2786,7 +2786,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -2860,7 +2860,7 @@
                                         <p>Virtuo supports every step of graphic design, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/GraphicDesignImg1.jpg" alt="Graphic Design">
+                                        <img src="assets/img/services/GraphicDesignImg1.jpg" alt="Graphic Design" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Graphic Design Support Includes</h2>
@@ -2876,7 +2876,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Graphic Design Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;"> 
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -2949,7 +2949,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Choosing Virtuo for graphic design gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
@@ -2967,7 +2967,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -3041,7 +3041,7 @@
                                         <p>Virtuo supports every step of video production &amp; motion graphics, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg1.jpg" alt="Video Production &amp; Motion Graphics">
+                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg1.jpg" alt="Video Production &amp; Motion Graphics" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Video Production &amp; Motion Graphics Support Includes</h2>
@@ -3057,7 +3057,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Video Production &amp; Motion Graphics Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -3130,7 +3130,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Choosing Virtuo for video production &amp; motion graphics gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
@@ -3148,7 +3148,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -3222,7 +3222,7 @@
                                         <p>Virtuo supports every step of marketing collateral design, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/MarketingCollateralDesignImg1.jpg" alt="Marketing Collateral Design">
+                                        <img src="assets/img/services/MarketingCollateralDesignImg1.jpg" alt="Marketing Collateral Design" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Marketing Collateral Design Support Includes</h2>
@@ -3238,7 +3238,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Marketing Collateral Design Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -3311,7 +3311,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="margin: 100px;" class="services__details-content-top">
+                                                    <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                         <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                         <p>Choosing Virtuo for marketing collateral design gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                         <p>Our Advantages :</p>
@@ -3329,7 +3329,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -3403,7 +3403,7 @@
                                         <p>Virtuo supports every step of creative direction &amp; concept development, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg1.jpg" alt="Creative Direction &amp; Concept Development">
+                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg1.jpg" alt="Creative Direction &amp; Concept Development" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Creative Direction &amp; Concept Development Support Includes</h2>
@@ -3419,7 +3419,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Creative Direction &amp; Concept Development Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -3510,7 +3510,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -3586,7 +3586,7 @@
                                         <p>Virtuo supports every step of paid advertising (meta &amp; google ads), helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img1.jpg" alt="Paid Advertising (Meta &amp; Google Ads)">
+                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img1.jpg" alt="Paid Advertising (Meta &amp; Google Ads)" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Paid Advertising (Meta &amp; Google Ads) Support Includes</h2>
@@ -3602,7 +3602,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Paid Advertising (Meta &amp; Google Ads) Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -3693,7 +3693,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -3767,7 +3767,7 @@
                                         <p>Virtuo supports every step of content marketing, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentMarketingImg1.jpg" alt="Content Marketing">
+                                        <img src="assets/img/services/ContentMarketingImg1.jpg" alt="Content Marketing" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Content Marketing Support Includes</h2>
@@ -3783,7 +3783,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Content Marketing Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -3874,7 +3874,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -3948,7 +3948,7 @@
                                         <p>Virtuo supports every step of brand strategy &amp; positioning, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/BrandStrategy&PositioningImg1.jpg" alt="Brand Strategy &amp; Positioning">
+                                        <img src="assets/img/services/BrandStrategy&PositioningImg1.jpg" alt="Brand Strategy &amp; Positioning" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Brand Strategy &amp; Positioning Support Includes</h2>
@@ -3964,7 +3964,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Brand Strategy &amp; Positioning Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -4055,7 +4055,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -4129,7 +4129,7 @@
                                         <p>Virtuo supports every step of analytics &amp; performance marketing, helping your team build stronger digital assets, clearer campaigns, and measurable brand growth.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg1.jpg" alt="Analytics &amp; Performance Marketing">
+                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg1.jpg" alt="Analytics &amp; Performance Marketing" style="margin-top:20px; margin-bottom: 10px;">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Our Analytics &amp; Performance Marketing Support Includes</h2>
@@ -4145,7 +4145,7 @@
                                         <p class="info-two">We set up reporting around traffic, leads, engagement, and performance indicators.</p>
                                         <p class="info-one"><b>6. Analytics &amp; Performance Marketing Optimization Support</b></p>
                                         <p class="info-two">We improve content, pages, campaigns, and calls-to-action based on real performance data.</p>
-                                        <div class="services__details-inner-images">
+                                        <div class="services__details-inner-images" style="margin-top:45px;">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -4236,7 +4236,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three">
+                                    <section class="faq__area-three" style="margin-bottom: 50px;">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -4484,15 +4484,6 @@
                                             <img src="assets/img/images/sidebar_contact_shape01.svg" alt="shape" class="rotateme">
                                             <img src="assets/img/images/sidebar_contact_shape02.svg" alt="shape" class="alltuchtopdown">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar__widget">
-                                    <h4 class="sidebar__widget-title">Service Brochure</h4>
-                                    <div class="sidebar__brochure">
-                                        <p>View our service overview for a clear guide to the support Virtuo provides.</p>
-                                        <a href="assets/img/services/services_details_img01.jpg" target="_blank" download>
-                                            <span class="content"><strong>PDF. Download</strong></span>
-                                        </a>
                                     </div>
                                 </div>
                             </aside>
