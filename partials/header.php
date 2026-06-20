@@ -17,13 +17,22 @@
 
 <!-- header-area -->
 <header class="transparent-header">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1BKW1VKNBX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1BKW1VKNBX');
+</script>
     <div class="tg-header__top">
         <div class="container custom-container virtuo-px-100">
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="tg-header__top-info">
                         <ul class="list-wrap">
-                            <li><i class="flaticon-placeholder"></i>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</li>
+                            <li><i class="flaticon-placeholder"></i>Virtuo<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</li>
                             <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a></li>
                         </ul>
                     </div>
@@ -56,10 +65,10 @@
             <div class="tgmenu__wrap">
                 <nav class="tgmenu__nav">
                     <div class="logo">
-                        <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Logo"></a>
+                        <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
                     </div>
                     <div class="logo d-none">
-                        <a href="/"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                        <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
                     </div>
                     <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                         <ul class="navigation">
@@ -176,7 +185,7 @@
         <nav class="tgmobile__menu-box">
             <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
             <div class="nav-logo">
-                <a href="/"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
             </div>
             <div class="tgmobile__search">
                 <form action="#">
@@ -205,28 +214,28 @@
             <button><img src="assets/img/icons/times.svg" alt="" class="injectable"></button>
         </div>
         <div class="offCanvas__logo mb-30">
-            <a href="/"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+            <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
         </div>
         <div class="offCanvas__content">
             <p style="text-align: left;">Empowering businesses to establish, operate, and scale in the UAE. Virtuo Services delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
         </div>
         <!-- <div class="offCanvas__img">
                 <ul class="list-wrap">
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta01.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta02.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta03.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta04.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta05.jpg" alt="img"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta06.jpg" alt="img"></a></li>
+                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta01.jpg" alt="Virtuo Services Instagram image 01" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta02.jpg" alt="Virtuo Services Instagram image 02" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta03.jpg" alt="Virtuo Services Instagram image 03" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta04.jpg" alt="Virtuo Services Instagram image 04" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta05.jpg" alt="Virtuo Services Instagram image 05" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta06.jpg" alt="Virtuo Services Instagram image 06" loading="lazy" decoding="async"></a></li>
                 </ul>
             </div> -->
         <div class="offCanvas__side-info">
             <div class="contact-list">
                 <i class="flaticon-placeholder"></i>
-                <p><span>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
+                <p><span>Virtuo<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
             </div>
             <div class="contact-list">
-                <a href="https://wa.me/971565151315" class="header-whatsapp-btn offcanvas-whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
+                <a href="https://wa.me/971565151315" class="target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" style="padding-right: 18px;" aria-hidden="true"></i><span>WhatsApp</span></a>
             </div>
             <div class="contact-list">
                 <i class="flaticon-envelope"></i>

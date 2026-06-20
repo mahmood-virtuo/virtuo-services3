@@ -15308,7 +15308,7 @@ textarea {
   line-height: 1;
 }
 .virtuo-team__social a:hover {
-  background: #ff4b00;
+  /* background: #ff4b00; */
   color: #fff;
 }
 @media (max-width: 1199.98px) {

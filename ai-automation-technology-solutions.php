@@ -4,8 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>AI Automation &amp; Technology Solutions</title>
-    <meta name="description" content="Virtuo Services - Business Consulting HTML Template">
+    <?php
+    $seoPage = array(
+        'title' => 'AI Automation & Technology Solutions in UAE | Virtuo',
+        'description' => 'Virtuo helps UAE businesses streamline operations with AI automation, workflow automation, technology solutions and business process automation.',
+        'path' => '/ai-automation-technology-solutions',
+        'type' => 'article',
+        'breadcrumbTitle' => 'AI Automation & Technology Solutions',
+        'schemaType' => 'Service',
+        'serviceType' => 'AI automation and technology solutions',
+        'image' => '/assets/img/bg/HEADER.jpg',
+        'heroImage' => '/assets/img/bg/HEADER.jpg'
+    );
+    include __DIR__ . '/partials/seo.php';
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -132,7 +144,7 @@
                                     <p>Virtuo supports every step of ai automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.jpg" alt="AI Automation" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/services_details_img01.jpg" alt="AI Automation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our AI Automation Services Include</h2>
@@ -152,12 +164,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="AI Automation">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="AI Automation" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="AI Automation">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="AI Automation" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>
@@ -314,7 +326,7 @@
                                     <p>Virtuo supports every step of workflow automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.jpg" alt="Workflow Automation" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/services_details_img01.jpg" alt="Workflow Automation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Workflow Automation Services Include</h2>
@@ -334,12 +346,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="Workflow Automation">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="Workflow Automation" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="Workflow Automation">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="Workflow Automation" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>
@@ -496,7 +508,7 @@
                                     <p>Virtuo supports every step of technology solutions, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.jpg" alt="Technology Solutions" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/services_details_img01.jpg" alt="Technology Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Technology Solution Support Includes</h2>
@@ -516,12 +528,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="Technology Solutions">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="Technology Solutions" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="Technology Solutions">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="Technology Solutions" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>
@@ -678,7 +690,7 @@
                                     <p>Virtuo supports every step of business process automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.jpg" alt="Business Process Automation" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/services_details_img01.jpg" alt="Business Process Automation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Business Process Automation Services Include</h2>
@@ -698,12 +710,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="Business Process Automation">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="Business Process Automation" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="Business Process Automation">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="Business Process Automation" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>

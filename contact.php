@@ -4,8 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Virtuo Services - Business Consulting HTML Template</title>
-    <meta name="description" content="Virtuo Services -  Business Consulting HTML Template">
+    <?php
+    $seoPage = array(
+        'title' => 'Contact Virtuo Services F.Z.C | UAE Business Consultants',
+        'description' => 'Contact Virtuo Services F.Z.C in Ajman Freezone for UAE company formation, PRO services, visas, digital marketing and AI automation support.',
+        'path' => '/contact',
+        'type' => 'article',
+        'breadcrumbTitle' => 'Contact Us',
+        'schemaType' => 'ContactPage',
+        'image' => '/assets/img/bg/HEADER.jpg',
+        'heroImage' => '/assets/img/bg/HEADER.jpg'
+    );
+    include __DIR__ . '/partials/seo.php';
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -46,10 +57,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
-                            <h2 class="title">Contact With Us</h2>
+                            <h1 class="title">Contact With Us</h1>
                             <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
-                                    <a href="index-5.php">Home</a>
+                                    <a href="/">Home</a>
                                 </span>
                                 <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
                                 <span property="itemListElement" typeof="ListItem">Contact</span>
@@ -157,7 +168,7 @@
                     <div class="col-lg-6">
                         <div class="contact__info-wrap">
                             <div class="contact__info-item">
-                                <h4 class="title">Virtuo Services F.Z.C</h4>
+                                <h4 class="title">Virtuo</h4>
                                 <p style="line-height: 30px;">
                                     <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer" style="font-weight: 400; font-size:16px;">Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a>
 

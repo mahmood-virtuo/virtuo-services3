@@ -3,8 +3,8 @@
         <div class="container virtuo-reference-footer__container">
             <div class="virtuo-reference-footer__layout">
                 <div class="virtuo-reference-footer__brand">
-                    <a href="index-5.php" class="virtuo-reference-footer__logo">
-                        <img src="assets/img/logo/w_logo.svg" alt="Virtuo">
+                    <a href="/" class="virtuo-reference-footer__logo">
+                        <img src="assets/img/logo/w_logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39">
                     </a>
                     <p>Virtuo Services provides expert business setup and PRO solutions in the UAE. We offer premium, end-to-end support to ensure your company remains compliant and stress-free in one of the world's leading business hubs.</p>
                     <div class="virtuo-reference-footer__social">
@@ -77,7 +77,7 @@
                 <nav class="virtuo-reference-footer__quick" aria-label="Quick links">
                     <h3>Quick Links</h3>
                     <div>
-                        <a href="index-5.php">Home <span>↗</span></a>
+                        <a href="/">Home <span>↗</span></a>
                         <a href="about.php">About Us <span>↗</span></a>
                         <a href="blog.php">Blogs <span>↗</span></a>
                         <a href="faq.php">F.A.Q's <span>↗</span></a>
@@ -116,7 +116,7 @@
                          <div class="footer-reference-left__top">
                              <div class="footer-reference-left__brand">
                                  <div class="footer__logo-two footer-reference-left__logo">
-                                     <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo"></a>
+                                     <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
                                  </div>
                                  <p>Empowering businesses to establish, operate, and scale in the UAE. Virtuo Services delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
                                  <div class="footer-reference-left__social">
@@ -163,7 +163,7 @@
                                      <a href="about.php">About Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <a href="contact.php">Contact Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <a href="blog.php">Blogs <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
-                                     <a href="pricing.php">Cost Calculator <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <!-- <a href="pricing.php">Cost Calculator <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
                                  </div>
                              </nav>
                          </div>
@@ -176,27 +176,27 @@
                                 <ul class="list-wrap">
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta01.jpg" alt="img"></a>
+                                                src="assets/img/images/footer_insta01.jpg" alt="Virtuo Services Instagram image 01" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta02.jpg" alt="img"></a>
+                                                src="assets/img/images/footer_insta02.jpg" alt="Virtuo Services Instagram image 02" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta03.jpg" alt="img"></a>
+                                                src="assets/img/images/footer_insta03.jpg" alt="Virtuo Services Instagram image 03" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta04.jpg" alt="img"></a>
+                                                src="assets/img/images/footer_insta04.jpg" alt="Virtuo Services Instagram image 04" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta05.jpg" alt="img"></a>
+                                                src="assets/img/images/footer_insta05.jpg" alt="Virtuo Services Instagram image 05" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta06.jpg" alt="img"></a>
+                                                src="assets/img/images/footer_insta06.jpg" alt="Virtuo Services Instagram image 06" loading="lazy" decoding="async"></a>
                                     </li>
                                 </ul>
                             </div>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://virtuo.ae/</loc></url>
-  <url><loc>https://virtuo.ae/about.php</loc></url>
-  <url><loc>https://virtuo.ae/contact.php</loc></url>
-  <url><loc>https://virtuo.ae/uae-business-formation.php</loc></url>
-  <url><loc>https://virtuo.ae/government-relations-pro-services.php</loc></url>
-  <url><loc>https://virtuo.ae/immigration-residency-solutions.php</loc></url>
-  <url><loc>https://virtuo.ae/digital-marketing-brand-development.php</loc></url>
-  <url><loc>https://virtuo.ae/ai-automation-technology-solutions.php</loc></url>
-  <url><loc>https://virtuo.ae/blog.php</loc></url>
+  <url><loc>https://virtuo.ae/about</loc></url>
+  <url><loc>https://virtuo.ae/contact</loc></url>
+  <url><loc>https://virtuo.ae/blog</loc></url>
+  <url><loc>https://virtuo.ae/uae-business-formation</loc></url>
+  <url><loc>https://virtuo.ae/government-relations-pro-services</loc></url>
+  <url><loc>https://virtuo.ae/immigration-residency-solutions</loc></url>
+  <url><loc>https://virtuo.ae/digital-marketing-brand-development</loc></url>
+  <url><loc>https://virtuo.ae/ai-automation-technology-solutions</loc></url>
 </urlset>

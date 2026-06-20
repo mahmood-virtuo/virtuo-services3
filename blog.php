@@ -4,8 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Virtuo Services - Business Consulting HTML Template</title>
-    <meta name="description" content="Virtuo Services -  Business Consulting HTML Template">
+    <?php
+    $seoPage = array(
+        'title' => 'Virtuo Blog | UAE Business Setup, Visa & Growth Insights',
+        'description' => 'Read Virtuo insights on UAE business setup, PRO services, immigration, residency, digital marketing, brand development and AI automation trends.',
+        'path' => '/blog',
+        'type' => 'article',
+        'breadcrumbTitle' => 'Blogs',
+        'schemaType' => 'Blog',
+        'image' => '/assets/img/bg/HEADER.jpg',
+        'heroImage' => '/assets/img/bg/HEADER.jpg'
+    );
+    include __DIR__ . '/partials/seo.php';
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -45,10 +56,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
-                            <h2 class="title">Blogs</h2>
+                            <h1 class="title">Blogs</h1>
                             <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
-                                    <a href="index-5.php">Home</a>
+                                    <a href="/">Home</a>
                                 </span>
                                 <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
                                 <span property="itemListElement" typeof="ListItem">Latest Blogs</span>
@@ -145,7 +156,7 @@
                         <div class="inner-blog-post-wrap">
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="img"></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="Blog Post01" loading="lazy" decoding="async" width="900" height="643"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -166,7 +177,7 @@
                             </div>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post02.jpg" alt="img"></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post02.jpg" alt="Blog Post02" loading="lazy" decoding="async" width="900" height="643"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -187,7 +198,7 @@
                             </div>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post03.jpg" alt="img"></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post03.jpg" alt="Blog Post03" loading="lazy" decoding="async" width="900" height="637"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -208,7 +219,7 @@
                             </div>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post04.jpg" alt="img"></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post04.jpg" alt="Blog Post04" loading="lazy" decoding="async" width="900" height="708"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -254,7 +265,7 @@
                                 <div class="rc-post-wrap">
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post01.jpg" alt=""></a>
+                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post01.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">
@@ -266,7 +277,7 @@
                                     </div>
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post02.jpg" alt=""></a>
+                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post02.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">
@@ -278,7 +289,7 @@
                                     </div>
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post03.jpg" alt=""></a>
+                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post03.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">
@@ -290,7 +301,7 @@
                                     </div>
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post04.jpg" alt=""></a>
+                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post04.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">

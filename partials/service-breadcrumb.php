@@ -12,12 +12,12 @@ $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
         <div class="row">
             <div class="col-12">
                 <div class="breadcrumb__content">
-                    <h2 class="title"><?php echo htmlspecialchars($breadcrumbPageTitle); ?></h2>
+                    <h1 class="title"><?php echo htmlspecialchars($breadcrumbPageTitle); ?></h1>
 
                     <nav class="breadcrumb service-breadcrumb" data-page-title="<?php echo htmlspecialchars($breadcrumbPageTitle); ?>" data-page-url="<?php echo htmlspecialchars($breadcrumbPageUrl); ?>">
 
                         <span property="itemListElement" typeof="ListItem">
-                            <a href="index-5.php">Home</a>
+                            <a href="/">Home</a>
                         </span>
 
                         <span class="breadcrumb-separator">

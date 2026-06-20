@@ -4,8 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>UAE Business Formation, Structuring &amp; Compliance</title>
-    <meta name="description" content="Virtuo Services - Business Consulting HTML Template">
+    <?php
+    $seoPage = array(
+        'title' => 'UAE Business Formation & Compliance | Virtuo Services',
+        'description' => 'Set up and structure your UAE business with Virtuo, covering mainland, free zone, offshore, virtual office and corporate bank account support.',
+        'path' => '/uae-business-formation',
+        'type' => 'article',
+        'breadcrumbTitle' => 'UAE Business Formation, Structuring & Compliance',
+        'schemaType' => 'Service',
+        'serviceType' => 'UAE business formation and compliance',
+        'image' => '/assets/img/bg/HEADER.jpg',
+        'heroImage' => '/assets/img/bg/HEADER.jpg'
+    );
+    include __DIR__ . '/partials/seo.php';
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -132,7 +144,7 @@
                                     <p>Virtuo manages the full process from activity selection and Department of Economy and Tourism approvals to licensing, office guidance, immigration file opening, and launch support.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/MainLandImage1_services_details.jpg" alt="Mainland Business Setup" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/MainLandImage1_services_details.jpg" alt="Mainland Business Setup" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Mainland Business Setup Services Include</h2>
@@ -156,12 +168,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/MainLandImage2_services_details.jpg" alt="Mainland Business Setup">
+                                                    <img src="assets/img/services/MainLandImage2_services_details.jpg" alt="Mainland Business Setup" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/MainLandImage3_services_details.jpg" alt="Mainland Business Setup">
+                                                    <img src="assets/img/services/MainLandImage3_services_details.jpg" alt="Mainland Business Setup" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>
@@ -398,7 +410,7 @@
                                     <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey from selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.jpg" alt="Free Zone Business Setup" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/services_details_img01.jpg" alt="Free Zone Business Setup" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Free Zone Setup Services Include</h2>
@@ -422,12 +434,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="Free Zone Business Setup">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="Free Zone Business Setup" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="Free Zone Business Setup">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="Free Zone Business Setup" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>
@@ -584,7 +596,7 @@
                                     <p>At Virtuo, we navigate the complex international compliance and documentation pipelines on your behalf. Our experts streamline the incorporation framework so you can establish a secure, tax-optimized international vehicle efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/OffshoreBusinessSetup3_services_details.jpg" alt="Offshore Business Setup" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/OffshoreBusinessSetup3_services_details.jpg" alt="Offshore Business Setup" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Offshore Business Setup Includes</h2>
@@ -610,12 +622,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/OffshoreBusinessSetup4_services_details.jpg" alt="Offshore Business Setup">
+                                                    <img src="assets/img/services/OffshoreBusinessSetup4_services_details.jpg" alt="Offshore Business Setup" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/OffshoreBusinessSetup5_services_details.jpg" alt="Offshore Business Setup">
+                                                    <img src="assets/img/services/OffshoreBusinessSetup5_services_details.jpg" alt="Offshore Business Setup" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>
@@ -772,7 +784,7 @@
                                     <p>At Virtuo, we provide more than just a premium mailbox. Our virtual office packages supply your enterprise with an official, government-recognized corporate address necessary for business registration, Department of Economy and Tourism (DET) compliance, and immediate market trust, all while keeping your operations agile and lean.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/VirtualOffice1_services_details.jpg" alt="Virtual Office" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/VirtualOffice1_services_details.jpg" alt="Virtual Office" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Virtual Office Packages Include</h2>
@@ -794,12 +806,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/VirtualOffice2_services_details.jpg" alt="Virtual Office">
+                                                    <img src="assets/img/services/VirtualOffice2_services_details.jpg" alt="Virtual Office" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/VirtualOffice3_services_details.jpg" alt="Virtual Office">
+                                                    <img src="assets/img/services/VirtualOffice3_services_details.jpg" alt="Virtual Office" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>
@@ -910,7 +922,7 @@
                                     <p>At Virtuo, we untangle the complex compliance webs of corporate banking. Our specialized banking coordinators pre-audit your legal documentation, align your business activities with the precise preferences of various banking institutions, and manage the extensive due diligence questionnaires to streamline your account approvals smoothly and efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/BankAccountOpening1_services_details.jpg" alt="Business Bank Account Opening" style="margin-top:20px; margin-bottom: 10px;">
+                                    <img src="assets/img/services/BankAccountOpening1_services_details.jpg" alt="Business Bank Account Opening" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Bank Account Opening Services Include</h2>
@@ -926,12 +938,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/BankAccountOpening2_services_details.jpg" alt="Business Bank Account Opening">
+                                                    <img src="assets/img/services/BankAccountOpening2_services_details.jpg" alt="Business Bank Account Opening" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/BankAccountOpening3_services_details.jpg" alt="Business Bank Account Opening">
+                                                    <img src="assets/img/services/BankAccountOpening3_services_details.jpg" alt="Business Bank Account Opening" loading="lazy" decoding="async" width="600" height="383">
                                                 </div>
                                             </div>
                                         </div>
