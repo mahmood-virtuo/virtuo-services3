@@ -334,13 +334,19 @@ if (!function_exists('schema_extract_faqs_from_php_source')) {
 if (!function_exists('schema_extract_faqs_from_files')) {
     function schema_extract_faqs_from_files()
     {
-        global $page_type;
+        global $page_type, $schema_page_file;
 
         $files = array();
         $script_file = $_SERVER['SCRIPT_FILENAME'] ?? '';
 
         if ($script_file !== '' && is_readable($script_file)) {
             $files[] = $script_file;
+        }
+
+        $resolved_file = dirname(__DIR__) . '/' . ($schema_page_file ?? '');
+
+        if (!empty($schema_page_file) && is_readable($resolved_file) && !in_array($resolved_file, $files, true)) {
+            $files[] = $resolved_file;
         }
 
         $renderer_file = dirname(__DIR__) . '/partials/service-category-renderer.php';

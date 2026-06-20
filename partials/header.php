@@ -32,7 +32,7 @@
                 <div class="col-lg-7">
                     <div class="tg-header__top-info">
                         <ul class="list-wrap">
-                            <li><i class="flaticon-placeholder"></i>Virtuo<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</li>
+                            <li><i class="flaticon-placeholder"></i>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</li>
                             <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a></li>
                         </ul>
                     </div>
@@ -217,7 +217,7 @@
             <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
         </div>
         <div class="offCanvas__content">
-            <p style="text-align: left;">Empowering businesses to establish, operate, and scale in the UAE. Virtuo Services delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
+            <p style="text-align: left;">Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
         </div>
         <!-- <div class="offCanvas__img">
                 <ul class="list-wrap">
@@ -232,7 +232,7 @@
         <div class="offCanvas__side-info">
             <div class="contact-list">
                 <i class="flaticon-placeholder"></i>
-                <p><span>Virtuo<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
+                <p><span>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
             </div>
             <div class="contact-list">
                 <a href="https://wa.me/971565151315" class="target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" style="padding-right: 18px;" aria-hidden="true"></i><span>WhatsApp</span></a>

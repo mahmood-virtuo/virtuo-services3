@@ -118,7 +118,7 @@
                                  <div class="footer__logo-two footer-reference-left__logo">
                                      <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
                                  </div>
-                                 <p>Empowering businesses to establish, operate, and scale in the UAE. Virtuo Services delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
+                                 <p>Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
                                  <div class="footer-reference-left__social">
                                      <span>Follow Us :</span>
                                      <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -244,7 +244,7 @@
                      <div class="footer-reference-form-panel">
                          <h4 style="color: #EE4c01; font-size: 20px; font-weight: 600;" id="virtuo-footer-form-title">Let's Discuss Your Business Goals</h4>
                          <p style="font-size:16px; font-weight: 300; font-family: poppins; color:#ffffffb8;">From company formation and immigration to marketing and AI solutions, our experts are ready to help you build, grow, and scale in the UAE.</p>
-                         <form class="virtuo-reference-form" action="#">
+                         <div class="virtuo-reference-form">
                              <div class="estimate__tab-wrap" data-aos="fade-left" data-aos-delay="200">
 
                                  <div class="estimate__tab-inner">
@@ -266,40 +266,41 @@
                                      <div class="tab-content" id="myTabContent">
                                          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                                              <div class="estimate-form-wrap">
-                                                 <form action="#">
+                                                 <form id="footer-quote-form" action="assets/mail.php" method="POST">
+                                                     <input type="hidden" name="form_type" value="footer_quote">
                                                      <div class="form-grp">
-                                                         <input type="text" placeholder="Full Name">
+                                                         <input type="text" name="name" placeholder="Full Name" required>
                                                      </div>
                                                      <div class="form-grp">
-                                                         <input type="email" placeholder="E-mail">
+                                                         <input type="email" name="email" placeholder="E-mail" required>
                                                      </div>
                                                      <div class="form-grp">
-                                                         <input type="number" placeholder="Phone">
+                                                         <input type="tel" name="phone" placeholder="Phone" required>
                                                      </div>
                                                      <div class="form-grp">
-                                                         <select type="dropdown" placeholder="Select Service">
+                                                         <select name="service" required>
                                                              <option value="" disabled selected>Select Service</option>
-                                                             <option value="">UAE Business Formation, Structuring & Compliance</option>
-                                                             <option value="">Government Relations & PRO Services</option>
-                                                             <option value="1">Immigration & Residency Solutions</option>
-                                                             <option value="">Digital Marketing & Brand Development</option>
-                                                             <option value="2">AI Automation & Technology Solutions</option>
+                                                             <option value="UAE Business Formation, Structuring & Compliance">UAE Business Formation, Structuring & Compliance</option>
+                                                             <option value="Government Relations & PRO Services">Government Relations & PRO Services</option>
+                                                             <option value="Immigration & Residency Solutions">Immigration & Residency Solutions</option>
+                                                             <option value="Digital Marketing & Brand Development">Digital Marketing & Brand Development</option>
+                                                             <option value="AI Automation & Technology Solutions">AI Automation & Technology Solutions</option>
                                                          </select>
                                                      </div>
                                                      <div class="form-grp">
-                                                         <select type="dropdown" placeholder="Select Emirate">
+                                                         <select name="emirate" required>
                                                              <option value="" disabled selected>Select Emirate</option>
-                                                             <option value="">Abu Dhabi</option>
-                                                             <option value="">Dubai</option>
-                                                             <option value="1">Sharjah</option>
-                                                             <option value="">Ajman</option>
-                                                             <option value="2">Fujairah</option>
-                                                             <option value="2">Ras Al Khaimah</option>
-                                                             <option value="2">Umm Al Quwain</option>
+                                                             <option value="Abu Dhabi">Abu Dhabi</option>
+                                                             <option value="Dubai">Dubai</option>
+                                                             <option value="Sharjah">Sharjah</option>
+                                                             <option value="Ajman">Ajman</option>
+                                                             <option value="Fujairah">Fujairah</option>
+                                                             <option value="Ras Al Khaimah">Ras Al Khaimah</option>
+                                                             <option value="Umm Al Quwain">Umm Al Quwain</option>
                                                          </select>
                                                      </div>
                                                      <div class="form-grp">
-                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                         <input type="text" name="message" style="padding: 18px 10px 100px 10px;" placeholder="Message" required>
                                                      </div>
                                                      <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
@@ -310,6 +311,7 @@
                                                         onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
                                                 </div> -->
                                                      <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                     <p class="ajax-response mb-0"></p>
                                                  </form>
                                              </div>
                                          </div>
@@ -397,6 +399,7 @@
                                      </div>
                                  </div>
                              </div>
+                         </div>
                      </div>
 
 
@@ -409,8 +412,8 @@
              <div class="row align-items-center">
                  <div class="col-md-6">
                      <div class="copyright__content-two">
-                         <p>Copyright © Virtuo Services | All Right Reserved</p>
-                     </div>
+                         <p>Copyright © 2026 Virtuo Services F.Z.C | All Right Reserved</p>
+                    </div>
                  </div>
                  <div class="col-md-6">
                      <div class="footer__social footer__social-two">

@@ -263,9 +263,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-immigration-services-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-immigration-services-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-immigration-services-collapseOne">1. What Types Of Corporate And Family Residencies Can Virtuo Process?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-immigration-services-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-immigration-services-collapseOne">1. What Types Of Corporate And Family Residencies Can Virtuo Process?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-immigration-services-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-immigration-services-accordion">
+                                                            <div id="immigration-residency-solutions-immigration-services-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-immigration-services-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>Our Immigration Experts Manage Every Primary Visa Pathway Across The Emirates, Including Corporate Employment Permits, Investor Statuses, Partner Residencies, And Complete Family Dependants Portfolios. Virtuo Acts As Your Direct Administrative Proxy, Organizing The Specific Documentation Balances Needed To Secure Legal Files Across Local Economic And Federal Immigration Registries.</p>
                                                                 </div>
@@ -440,9 +440,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-dependent-visa-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-dependent-visa-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-dependent-visa-collapseOne">1. What is the minimum salary required to sponsor a spouse and children in Dubai?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-dependent-visa-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-dependent-visa-collapseOne">1. What is the minimum salary required to sponsor a spouse and children in Dubai?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-dependent-visa-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-dependent-visa-accordion">
+                                                            <div id="immigration-residency-solutions-dependent-visa-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-dependent-visa-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>To act as a family sponsor, a male resident must demonstrate a baseline monthly salary threshold, which can be slightly adjusted if the employer officially provides housing within the employment contract package. Virtuo's compliance team reviews your labor papers and tenancy contracts beforehand, verifying that your documented income satisfies federal guidelines to ensure a flawless application.</p>
                                                                 </div>
@@ -617,9 +617,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-investor-visa-dubai-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-investor-visa-dubai-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-investor-visa-dubai-collapseOne">1. What are the primary routes to obtaining an investor visa in Dubai?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-investor-visa-dubai-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-investor-visa-dubai-collapseOne">1. What are the primary routes to obtaining an investor visa in Dubai?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-investor-visa-dubai-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-investor-visa-dubai-accordion">
+                                                            <div id="immigration-residency-solutions-investor-visa-dubai-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-investor-visa-dubai-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>Residency by investment is primarily achieved through two distinct legal pathways: either by establishing or holding documented share capital within a registered mainland or free zone company, or by acquiring residential real estate in your personal name within a freehold area. Virtuo's corporate team evaluates your capital setup to position your application under the optimal framework, ensuring your assets clear ministry guidelines smoothly.</p>
                                                                 </div>
@@ -794,9 +794,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-gdrfa-services-dubai-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-gdrfa-services-dubai-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-gdrfa-services-dubai-collapseOne">1. What is the fundamental difference between GDRFA and ICP smart services?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-gdrfa-services-dubai-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-gdrfa-services-dubai-collapseOne">1. What is the fundamental difference between GDRFA and ICP smart services?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-gdrfa-services-dubai-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-gdrfa-services-dubai-accordion">
+                                                            <div id="immigration-residency-solutions-gdrfa-services-dubai-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-gdrfa-services-dubai-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>The primary difference lies in the specific local geographic jurisdiction responsible for generating your entry clearance or residence file. Virtuo maps out your route correctly because the GDRFA platform handles visas and company profiles issued strictly within the Emirate of Dubai, whereas the federal ICP network regulates residency data for the remaining six Emirates.</p>
                                                                 </div>
@@ -971,9 +971,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-consulate-services-dubai-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-consulate-services-dubai-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-consulate-services-dubai-collapseOne">1. What is the main difference between embassy attestation and local MOFA validation?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-consulate-services-dubai-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-consulate-services-dubai-collapseOne">1. What is the main difference between embassy attestation and local MOFA validation?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-consulate-services-dubai-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-consulate-services-dubai-accordion">
+                                                            <div id="immigration-residency-solutions-consulate-services-dubai-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-consulate-services-dubai-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>The variations lie in the explicit sovereign authority verifying the document at individual stages of the validation chain. Virtuo manages this sequence correctly because an embassy or consulate confirms that a document issued in their home country is authentic, whereas the local Ministry of Foreign Affairs provides the final federal stamp required to make that document legally binding and enforceable inside the UAE.</p>
                                                                 </div>
@@ -1148,9 +1148,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-freelance-visa-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-freelance-visa-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-freelance-visa-collapseOne">1. What is the fundamental difference between a Free Zone freelance permit and a Green Visa?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-freelance-visa-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-freelance-visa-collapseOne">1. What is the fundamental difference between a Free Zone freelance permit and a Green Visa?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-freelance-visa-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-freelance-visa-accordion">
+                                                            <div id="immigration-residency-solutions-freelance-visa-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-freelance-visa-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>The primary variations lie in your overall residency duration, sponsorship independence, and historical financial benchmarks. Virtuo maps out your route correctly because a standard free zone permit grants a renewable multi-year residency tied directly to that specific economic zone's infrastructure, whereas the five-year Green Visa operates as a prestigious, fully federal, self-sponsored track for established independent workers who satisfy distinct qualification criteria.</p>
                                                                 </div>
@@ -1325,9 +1325,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-golden-visa-uae-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-golden-visa-uae-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-golden-visa-uae-collapseOne">1. What is the fundamental difference between a Golden Visa and a standard residency permit?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-golden-visa-uae-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-golden-visa-uae-collapseOne">1. What is the fundamental difference between a Golden Visa and a standard residency permit?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-golden-visa-uae-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-golden-visa-uae-accordion">
+                                                            <div id="immigration-residency-solutions-golden-visa-uae-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-golden-visa-uae-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>A Golden Visa grants premium long-term stability entirely independent of an employer or local national sponsor, allowing holders to stay outside the country for extended periods without risking automatic cancellation. Virtuo's immigration team maps out this self-sponsored path so you can seamlessly pivot between new ventures, hold direct corporate equities, and secure absolute peace of mind without annual renewal hassles.</p>
                                                                 </div>
@@ -1502,9 +1502,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-residence-visa-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-residence-visa-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-residence-visa-collapseOne">1. What exactly is a UAE residence visa, and why does my family need it?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-residence-visa-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-residence-visa-collapseOne">1. What exactly is a UAE residence visa, and why does my family need it?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-residence-visa-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-residence-visa-accordion">
+                                                            <div id="immigration-residency-solutions-residence-visa-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-residence-visa-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>A residence visa is an official government permit that grants foreign nationals the legal right to reside in the country for an extended duration. Virtuo's immigration team manages this mandatory transition because maintaining an active residency file is the exact legal prerequisite required to lease residential homes, open local personal bank accounts, and enroll your children in regional school systems.</p>
                                                                 </div>
@@ -1679,9 +1679,9 @@
                                                     <div class="accordion" id="immigration-residency-solutions-employment-visa-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-employment-visa-collapseOne" aria-expanded="true" aria-controls="immigration-residency-solutions-employment-visa-collapseOne">1. What exactly is a UAE Employment Visa, and who is legally responsible for it?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#immigration-residency-solutions-employment-visa-collapseOne" aria-expanded="false" aria-controls="immigration-residency-solutions-employment-visa-collapseOne">1. What exactly is a UAE Employment Visa, and who is legally responsible for it?</button>
                                                             </h2>
-                                                            <div id="immigration-residency-solutions-employment-visa-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#immigration-residency-solutions-employment-visa-accordion">
+                                                            <div id="immigration-residency-solutions-employment-visa-collapseOne" class="accordion-collapse collapse" data-bs-parent="#immigration-residency-solutions-employment-visa-accordion">
                                                                 <div class="accordion-body">
                                                                     <p>An employment visa is an official government permit that grants a foreign national the legal right to work for a specific registered corporate entity inside the country. Virtuo's compliance specialists manage this framework on your behalf because local labor codes mandate that the sponsoring business must oversee the entire pipeline and carry the logistical burden, prohibiting companies from passing processing costs down to the worker.</p>
                                                                 </div>

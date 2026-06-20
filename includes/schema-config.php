@@ -15,6 +15,15 @@ $schema_same_as = array(
 );
 
 $schema_current_file = basename($_SERVER['PHP_SELF'] ?? 'index.php');
+$schema_request_path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+$schema_request_slug = trim((string) $schema_request_path, '/');
+$schema_request_file = $schema_request_slug === '' ? 'index.php' : basename($schema_request_slug);
+
+if ($schema_request_file !== 'index.php' && strpos($schema_request_file, '.') === false) {
+    $schema_request_file .= '.php';
+}
+
+$schema_page_file = $schema_request_file !== 'index.php' ? $schema_request_file : $schema_current_file;
 $schema_page_map = array(
     'index.php' => 'home',
     'about.php' => 'about',
@@ -30,7 +39,7 @@ $schema_page_map = array(
 );
 
 $seoPage = isset($seoPage) && is_array($seoPage) ? $seoPage : array();
-$page_type = $schema_page_map[$schema_current_file] ?? 'page';
+$page_type = $schema_page_map[$schema_page_file] ?? $schema_page_map[$schema_current_file] ?? 'page';
 
 if (!empty($seoPage['schemaType'])) {
     if ($seoPage['schemaType'] === 'Service') {
@@ -50,10 +59,10 @@ $page_title = $seoPage['title'] ?? 'Virtuo Services | UAE Business Setup & PRO S
 $page_description = $seoPage['description'] ?? 'Virtuo Services F.Z.C helps UAE businesses establish, operate and scale with company formation, PRO services, visas, marketing and AI automation.';
 
 if (function_exists('virtuo_seo_url')) {
-    $page_url = virtuo_seo_url($seoPage['path'] ?? ($schema_current_file === 'index.php' ? '/' : '/' . preg_replace('/\.php$/', '', $schema_current_file)));
+    $page_url = virtuo_seo_url($seoPage['path'] ?? ($schema_page_file === 'index.php' ? '/' : '/' . preg_replace('/\.php$/', '', $schema_page_file)));
     $page_image = virtuo_seo_url($seoPage['image'] ?? $schema_logo);
 } else {
-    $schema_path = $seoPage['path'] ?? ($schema_current_file === 'index.php' ? '/' : '/' . preg_replace('/\.php$/', '', $schema_current_file));
+    $schema_path = $seoPage['path'] ?? ($schema_page_file === 'index.php' ? '/' : '/' . preg_replace('/\.php$/', '', $schema_page_file));
     $schema_path = '/' . ltrim((string) $schema_path, '/');
     $page_url = $schema_path === '/' ? $schema_site_url : rtrim($schema_site_url, '/') . $schema_path;
     $page_image = $seoPage['image'] ?? $schema_logo;
@@ -65,4 +74,4 @@ $service_name = $seoPage['serviceType'] ?? $page_breadcrumb_title;
 $service_description = $page_content_excerpt;
 $article_author = $seoPage['author'] ?? $schema_organization_name;
 $article_date_published = $seoPage['datePublished'] ?? '';
-$include_local_business_schema = in_array($schema_current_file, array('index.php', 'services.php', 'contact.php'), true);
+$include_local_business_schema = in_array($schema_page_file, array('index.php', 'services.php', 'contact.php'), true);

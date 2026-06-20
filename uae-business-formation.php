@@ -351,7 +351,7 @@
                                                     <div class="accordion" id="mainland-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseOne" aria-expanded="true" aria-controls="mainland-collapseOne">1. Can a foreign investor own a mainland company?</button>
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseOne" aria-expanded="false" aria-controls="mainland-collapseOne">1. Can a foreign investor own a mainland company?</button>
                                                             </h2>
                                                             <div id="mainland-collapseOne" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
                                                                 <div class="accordion-body">

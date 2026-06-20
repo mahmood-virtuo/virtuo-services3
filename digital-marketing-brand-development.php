@@ -676,9 +676,9 @@
                                                         <div class="accordion" id="web-digital-solutions-website-design-ui-ux-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-website-design-ui-ux-collapseOne" aria-expanded="true" aria-controls="web-digital-solutions-website-design-ui-ux-collapseOne">1. What is the difference between UI and UX? </button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-website-design-ui-ux-collapseOne" aria-expanded="false" aria-controls="web-digital-solutions-website-design-ui-ux-collapseOne">1. What is the difference between UI and UX? </button>
                                                                 </h2>
-                                                                <div id="web-digital-solutions-website-design-ui-ux-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#web-digital-solutions-website-design-ui-ux-accordion">
+                                                                <div id="web-digital-solutions-website-design-ui-ux-collapseOne" class="accordion-collapse collapse" data-bs-parent="#web-digital-solutions-website-design-ui-ux-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>UX design builds the functional blueprint, focusing on journey flow and usability, while UI handles the aesthetic presentation layer, including colors, buttons, and visual layouts.</p>
                                                                     </div>
@@ -788,9 +788,9 @@
                                                         <div class="accordion" id="web-digital-solutions-website-development-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-website-development-collapseOne" aria-expanded="true" aria-controls="web-digital-solutions-website-development-collapseOne">1. Why should a new company invest in professional web development? </button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-website-development-collapseOne" aria-expanded="false" aria-controls="web-digital-solutions-website-development-collapseOne">1. Why should a new company invest in professional web development? </button>
                                                                 </h2>
-                                                                <div id="web-digital-solutions-website-development-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#web-digital-solutions-website-development-accordion">
+                                                                <div id="web-digital-solutions-website-development-collapseOne" class="accordion-collapse collapse" data-bs-parent="#web-digital-solutions-website-development-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>An active, legally compliant website serves as a primary verification milestone that commercial banking compliance teams, corporate regulators, and institutional vendors check to confirm your physical business substance. Establishing a high-end web presence simultaneously with your incorporation avoids unnecessary account opening freezes and delays.</p>
                                                                     </div>
@@ -903,9 +903,9 @@
                                                         <div class="accordion" id="web-digital-solutions-e-commerce-solutions-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-e-commerce-solutions-collapseOne" aria-expanded="true" aria-controls="web-digital-solutions-e-commerce-solutions-collapseOne">1. Which digital retail platforms do you use to build e-commerce solutions?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-e-commerce-solutions-collapseOne" aria-expanded="false" aria-controls="web-digital-solutions-e-commerce-solutions-collapseOne">1. Which digital retail platforms do you use to build e-commerce solutions?</button>
                                                                 </h2>
-                                                                <div id="web-digital-solutions-e-commerce-solutions-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#web-digital-solutions-e-commerce-solutions-accordion">
+                                                                <div id="web-digital-solutions-e-commerce-solutions-collapseOne" class="accordion-collapse collapse" data-bs-parent="#web-digital-solutions-e-commerce-solutions-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>We select and customize premium, industry-leading architectures based entirely on your overall scaling goals, operational complexity, and inventory size. Whether you require a highly flexible headless commerce structure for custom enterprise builds or a robust, plug-and-play global platform, we engineer the code to match your business workflows.</p>
                                                                     </div>
@@ -1018,9 +1018,9 @@
                                                         <div class="accordion" id="web-digital-solutions-landing-page-development-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-landing-page-development-collapseOne" aria-expanded="true" aria-controls="web-digital-solutions-landing-page-development-collapseOne">1. What is the fundamental operational difference between a website and a landing page?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-landing-page-development-collapseOne" aria-expanded="false" aria-controls="web-digital-solutions-landing-page-development-collapseOne">1. What is the fundamental operational difference between a website and a landing page?</button>
                                                                 </h2>
-                                                                <div id="web-digital-solutions-landing-page-development-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#web-digital-solutions-landing-page-development-accordion">
+                                                                <div id="web-digital-solutions-landing-page-development-collapseOne" class="accordion-collapse collapse" data-bs-parent="#web-digital-solutions-landing-page-development-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>A standard corporate website is engineered to encourage multi-page discovery, offering various information pathways and navigation links. A landing page strips away all menu bars and external links, channeling 100% of the arriving user focus into a singular data form or purchase link to achieve the highest possible conversion efficiency.</p>
                                                                     </div>
@@ -1133,9 +1133,9 @@
                                                         <div class="accordion" id="web-digital-solutions-seo-and-performance-optimization-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-seo-and-performance-optimization-collapseOne" aria-expanded="true" aria-controls="web-digital-solutions-seo-and-performance-optimization-collapseOne">1. What is the difference between standard SEO and technical performance optimization?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-seo-and-performance-optimization-collapseOne" aria-expanded="false" aria-controls="web-digital-solutions-seo-and-performance-optimization-collapseOne">1. What is the difference between standard SEO and technical performance optimization?</button>
                                                                 </h2>
-                                                                <div id="web-digital-solutions-seo-and-performance-optimization-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#web-digital-solutions-seo-and-performance-optimization-accordion">
+                                                                <div id="web-digital-solutions-seo-and-performance-optimization-collapseOne" class="accordion-collapse collapse" data-bs-parent="#web-digital-solutions-seo-and-performance-optimization-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Standard search optimization primarily focuses on customer-facing visual copy, keyword densities, and article creation. Technical performance optimization goes deep under the surface layer to engineer server response times, script layouts, mobile responsive frameworks, and database caching patterns, creating a fast, crawlable infrastructure that search algorithms explicitly reward with superior ranks.</p>
                                                                     </div>
@@ -1248,9 +1248,9 @@
                                                         <div class="accordion" id="web-digital-solutions-website-maintenance-and-support-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-website-maintenance-and-support-collapseOne" aria-expanded="true" aria-controls="web-digital-solutions-website-maintenance-and-support-collapseOne">1. Why do we need professional web maintenance if our site is already running smoothly?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#web-digital-solutions-website-maintenance-and-support-collapseOne" aria-expanded="false" aria-controls="web-digital-solutions-website-maintenance-and-support-collapseOne">1. Why do we need professional web maintenance if our site is already running smoothly?</button>
                                                                 </h2>
-                                                                <div id="web-digital-solutions-website-maintenance-and-support-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#web-digital-solutions-website-maintenance-and-support-accordion">
+                                                                <div id="web-digital-solutions-website-maintenance-and-support-collapseOne" class="accordion-collapse collapse" data-bs-parent="#web-digital-solutions-website-maintenance-and-support-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Web technologies change rapidly; underlying server environments, database scripts, and internet browser configurations continuously update their protocols. Left without expert maintenance, active platforms quickly accumulate system code decay, layout conflicts, and hidden security gaps that lead to broken user forms or sudden site crashes. Proactive management stops these infrastructure failures before they affect your users.</p>
                                                                     </div>
@@ -1366,9 +1366,9 @@
                                                         <div class="accordion" id="social-media-management-content-plan-and-stratergy-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-management-content-plan-and-stratergy-collapseOne" aria-expanded="true" aria-controls="social-media-management-content-plan-and-stratergy-collapseOne">1. What is the operational distinction between a content plan and a content strategy? </button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-management-content-plan-and-stratergy-collapseOne" aria-expanded="false" aria-controls="social-media-management-content-plan-and-stratergy-collapseOne">1. What is the operational distinction between a content plan and a content strategy? </button>
                                                                 </h2>
-                                                                <div id="social-media-management-content-plan-and-stratergy-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#social-media-management-content-plan-and-stratergy-accordion">
+                                                                <div id="social-media-management-content-plan-and-stratergy-collapseOne" class="accordion-collapse collapse" data-bs-parent="#social-media-management-content-plan-and-stratergy-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>A content strategy defines the underlying commercial logic, target audience psychology, brand positioning guidelines, and core performance goals—answering exactly why and for whom your company creates media. A content plan is the tactical execution matrix mapped out from that strategy, outlining the specific topics, formats, distribution channels, and publishing timelines required to launch campaigns smoothly.</p>
                                                                     </div>
@@ -1478,9 +1478,9 @@
                                                         <div class="accordion" id="social-media-management-content-creation-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-management-content-creation-collapseOne" aria-expanded="true" aria-controls="social-media-management-content-creation-collapseOne">1. Why should a business partner with an agency for content creation instead of using AI tools?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-management-content-creation-collapseOne" aria-expanded="false" aria-controls="social-media-management-content-creation-collapseOne">1. Why should a business partner with an agency for content creation instead of using AI tools?</button>
                                                                 </h2>
-                                                                <div id="social-media-management-content-creation-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#social-media-management-content-creation-accordion">
+                                                                <div id="social-media-management-content-creation-collapseOne" class="accordion-collapse collapse" data-bs-parent="#social-media-management-content-creation-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Generic automated tools frequently output unvetted information, hollow messaging, and flat language styles that directly dilute corporate brand authority and lead to audience disconnects. Professional content engineering guarantees deep research data validation, custom visual asset property rights, and a highly polished, human touch that safely guides institutional buyers through your commercial funnels.</p>
                                                                     </div>
@@ -1590,9 +1590,9 @@
                                                         <div class="accordion" id="social-media-management-community-management-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-management-community-management-collapseOne" aria-expanded="true" aria-controls="social-media-management-community-management-collapseOne">1. What is the difference between social media management and community management?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-management-community-management-collapseOne" aria-expanded="false" aria-controls="social-media-management-community-management-collapseOne">1. What is the difference between social media management and community management?</button>
                                                                 </h2>
-                                                                <div id="social-media-management-community-management-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#social-media-management-community-management-accordion">
+                                                                <div id="social-media-management-community-management-collapseOne" class="accordion-collapse collapse" data-bs-parent="#social-media-management-community-management-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Social media management focuses primarily on front-facing media deployment, including content schedules, ad budget optimization, layout graphics, and outward brand messaging. Community management operates entirely on the interpersonal level within the comment sections and direct message feeds, actively listening to readers, driving conversations, answering product inquiries, and protecting public brand sentiment.</p>
                                                                     </div>
@@ -1702,9 +1702,9 @@
                                                         <div class="accordion" id="social-media-management-influencer-marketing-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-management-influencer-marketing-collapseOne" aria-expanded="true" aria-controls="social-media-management-influencer-marketing-collapseOne">1. Why should a business focus on niche micro-creators rather than major celebrity accounts?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-management-influencer-marketing-collapseOne" aria-expanded="false" aria-controls="social-media-management-influencer-marketing-collapseOne">1. Why should a business focus on niche micro-creators rather than major celebrity accounts?</button>
                                                                 </h2>
-                                                                <div id="social-media-management-influencer-marketing-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#social-media-management-influencer-marketing-accordion">
+                                                                <div id="social-media-management-influencer-marketing-collapseOne" class="accordion-collapse collapse" data-bs-parent="#social-media-management-influencer-marketing-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Large accounts offer high impressions but suffer from low engagement rates and generic audiences, making them high-risk choices for targeted returns. Niche creators maintain real, conversational relationships with their followers, which yields superior engagement metrics and higher conversion velocities at a fraction of the upfront placement cost.</p>
                                                                     </div>
@@ -1816,9 +1816,9 @@
                                                         <div class="accordion" id="brand-development-brand-identity-design-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-brand-identity-design-collapseOne" aria-expanded="true" aria-controls="brand-development-brand-identity-design-collapseOne">1. What is the fundamental difference between a logo and a complete brand identity?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-brand-identity-design-collapseOne" aria-expanded="false" aria-controls="brand-development-brand-identity-design-collapseOne">1. What is the fundamental difference between a logo and a complete brand identity?</button>
                                                                 </h2>
-                                                                <div id="brand-development-brand-identity-design-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#brand-development-brand-identity-design-accordion">
+                                                                <div id="brand-development-brand-identity-design-collapseOne" class="accordion-collapse collapse" data-bs-parent="#brand-development-brand-identity-design-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>A logo is a single graphic mark or text treatment used to identify your business at a basic glance. A complete brand identity is an entire unified visual ecosystem—encompassing your custom color psychology, explicit typography matrices, graphic pattern sets, specific photography styles, and strict application rules that collectively establish an emotional consumer connection and institutional authority.</p>
                                                                     </div>
@@ -1928,9 +1928,9 @@
                                                         <div class="accordion" id="brand-development-graphic-design-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-graphic-design-collapseOne" aria-expanded="true" aria-controls="brand-development-graphic-design-collapseOne">1. What is the operational difference between Graphic Design and Brand Identity Design?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-graphic-design-collapseOne" aria-expanded="false" aria-controls="brand-development-graphic-design-collapseOne">1. What is the operational difference between Graphic Design and Brand Identity Design?</button>
                                                                 </h2>
-                                                                <div id="brand-development-graphic-design-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#brand-development-graphic-design-accordion">
+                                                                <div id="brand-development-graphic-design-collapseOne" class="accordion-collapse collapse" data-bs-parent="#brand-development-graphic-design-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Brand Identity Design is a high-level strategic process that builds your company's core visual DNA—establishing the permanent logo, color rules, and typography guidelines. Graphic Design is the ongoing tactical execution that applies that established DNA to create specific marketing materials, such as ad banners, presentation decks, or event brochures, for active campaigns.</p>
                                                                     </div>
@@ -2040,9 +2040,9 @@
                                                         <div class="accordion" id="brand-development-video-production-and-motion-graphics-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-video-production-and-motion-graphics-collapseOne" aria-expanded="true" aria-controls="brand-development-video-production-and-motion-graphics-collapseOne">1. Why is platform-native content creation important compared to cross-posting the exact same file?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-video-production-and-motion-graphics-collapseOne" aria-expanded="false" aria-controls="brand-development-video-production-and-motion-graphics-collapseOne">1. Why is platform-native content creation important compared to cross-posting the exact same file?</button>
                                                                 </h2>
-                                                                <div id="brand-development-video-production-and-motion-graphics-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#brand-development-video-production-and-motion-graphics-accordion">
+                                                                <div id="brand-development-video-production-and-motion-graphics-collapseOne" class="accordion-collapse collapse" data-bs-parent="#brand-development-video-production-and-motion-graphics-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Every social platform possesses a unique user psychology, structural aspect ratio, and internal ranking algorithm. Reposting an unoptimized, non-native file across multiple channels looks disorganized and often gets actively demoted by platform algorithms. We engineer your creative assets from the ground up to fit the native behaviors and technical rules of each individual network, maximizing your organic reach.</p>
                                                                     </div>
@@ -2152,9 +2152,9 @@
                                                         <div class="accordion" id="brand-development-marketing-collateral-design-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-marketing-collateral-design-collapseOne" aria-expanded="true" aria-controls="brand-development-marketing-collateral-design-collapseOne">1. What is included under the term "Marketing Collateral" compared to general graphic design?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-marketing-collateral-design-collapseOne" aria-expanded="false" aria-controls="brand-development-marketing-collateral-design-collapseOne">1. What is included under the term "Marketing Collateral" compared to general graphic design?</button>
                                                                 </h2>
-                                                                <div id="brand-development-marketing-collateral-design-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#brand-development-marketing-collateral-design-accordion">
+                                                                <div id="brand-development-marketing-collateral-design-collapseOne" class="accordion-collapse collapse" data-bs-parent="#brand-development-marketing-collateral-design-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>General graphic design encompasses all day-to-day visual creative requests, including quick social media graphics, ad banners, and basic website assets. Marketing Collateral Design specifically refers to the high-value structural assets used directly by your business development and sales teams to educate prospects and close deals, such as company profiles, data sheets, and exhibition graphics.</p>
                                                                     </div>
@@ -2264,9 +2264,9 @@
                                                         <div class="accordion" id="brand-development-creative-direction-and-concept-development-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-creative-direction-and-concept-development-collapseOne" aria-expanded="true" aria-controls="brand-development-creative-direction-and-concept-development-collapseOne">1. What is the exact role of Creative Direction compared to general Graphic Design?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#brand-development-creative-direction-and-concept-development-collapseOne" aria-expanded="false" aria-controls="brand-development-creative-direction-and-concept-development-collapseOne">1. What is the exact role of Creative Direction compared to general Graphic Design?</button>
                                                                 </h2>
-                                                                <div id="brand-development-creative-direction-and-concept-development-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#brand-development-creative-direction-and-concept-development-accordion">
+                                                                <div id="brand-development-creative-direction-and-concept-development-collapseOne" class="accordion-collapse collapse" data-bs-parent="#brand-development-creative-direction-and-concept-development-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Graphic Design is the tactical execution—the specialized building of specific individual assets like banners, brochures, or presentation decks. Creative Direction is the high-level strategic umbrella; it is the structural vision, concept development, and psychological positioning that dictates exactly how those individual design pieces must look, feel, and speak to tell a unified story.</p>
                                                                     </div>
@@ -2377,9 +2377,9 @@
                                                         <div class="accordion" id="marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne" aria-expanded="true" aria-controls="marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne">1. What is the structural difference between Google Ads and Meta Ads for lead generation?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne" aria-expanded="false" aria-controls="marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne">1. What is the structural difference between Google Ads and Meta Ads for lead generation?</button>
                                                                 </h2>
-                                                                <div id="marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
+                                                                <div id="marketing-solutions-paid-advertising-meta-and-google-ads-collapseOne" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Google Ads operates primarily on explicit user intent—capturing prospects who are actively searching for your specific solutions right now. Meta Ads leverages deep behavioral, interest-based, and demographic targeting, which allows you to surface hyper-focused creative messaging to prospective buyers who fit your ideal profile but aren't actively searching yet.</p>
                                                                     </div>
@@ -2488,9 +2488,9 @@
                                                         <div class="accordion" id="marketing-solutions-content-marketing-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-content-marketing-collapseOne" aria-expanded="true" aria-controls="marketing-solutions-content-marketing-collapseOne">1. How does content marketing compare to short-term paid advertising campaigns?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-content-marketing-collapseOne" aria-expanded="false" aria-controls="marketing-solutions-content-marketing-collapseOne">1. How does content marketing compare to short-term paid advertising campaigns?</button>
                                                                 </h2>
-                                                                <div id="marketing-solutions-content-marketing-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#marketing-solutions-content-marketing-accordion">
+                                                                <div id="marketing-solutions-content-marketing-collapseOne" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-content-marketing-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Paid advertising creates short-term, immediate spikes in web traffic that dry up the moment your daily funding stops. Content marketing functions as a long-term compound asset; a professionally written, search-optimized information engine continues to capture organic traffic and register leads years after its initial publication.</p>
                                                                     </div>
@@ -2599,9 +2599,9 @@
                                                         <div class="accordion" id="marketing-solutions-brand-strategy-and-positioning-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-brand-strategy-and-positioning-collapseOne" aria-expanded="true" aria-controls="marketing-solutions-brand-strategy-and-positioning-collapseOne">1. What is the true financial value of investing in brand strategy and market positioning?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-brand-strategy-and-positioning-collapseOne" aria-expanded="false" aria-controls="marketing-solutions-brand-strategy-and-positioning-collapseOne">1. What is the true financial value of investing in brand strategy and market positioning?</button>
                                                                 </h2>
-                                                                <div id="marketing-solutions-brand-strategy-and-positioning-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#marketing-solutions-brand-strategy-and-positioning-accordion">
+                                                                <div id="marketing-solutions-brand-strategy-and-positioning-collapseOne" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-brand-strategy-and-positioning-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Without a definitive strategy, your corporate messaging remains fragmented, resulting in high customer acquisition costs and a complete lack of premium pricing leverage. An expert positioning framework acts as an immediate force multiplier, enabling your brand to attract higher-tier enterprise accounts, outpace commoditized rivals, and capture maximum valuation.</p>
                                                                     </div>
@@ -2717,9 +2717,9 @@
                                                         <div class="accordion" id="marketing-solutions-analytics-and-performance-marketing-accordion">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-analytics-and-performance-marketing-collapseOne" aria-expanded="true" aria-controls="marketing-solutions-analytics-and-performance-marketing-collapseOne">1. Why is server-side tracking necessary compared to traditional browser-based pixels?</button>
+                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#marketing-solutions-analytics-and-performance-marketing-collapseOne" aria-expanded="false" aria-controls="marketing-solutions-analytics-and-performance-marketing-collapseOne">1. Why is server-side tracking necessary compared to traditional browser-based pixels?</button>
                                                                 </h2>
-                                                                <div id="marketing-solutions-analytics-and-performance-marketing-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#marketing-solutions-analytics-and-performance-marketing-accordion">
+                                                                <div id="marketing-solutions-analytics-and-performance-marketing-collapseOne" class="accordion-collapse collapse" data-bs-parent="#marketing-solutions-analytics-and-performance-marketing-accordion">
                                                                     <div class="accordion-body">
                                                                         <p>Modern privacy updates, ad-blockers, and browser limitations frequently block standard client-side cookies, causing businesses to lose up to 30% of their actual conversion data. Server-side tracking routes data directly from your website's server to marketing platforms, giving you accurate attribution data and significantly cleaner optimization loops.</p>
                                                                     </div>

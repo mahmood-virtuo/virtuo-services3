@@ -230,21 +230,22 @@
                         <div class="contact__form-wrap">
                             <h2 class="title">Leave Us A Message</h2>
                             <form id="contact-form" action="assets/mail.php" class="contact__form" method="POST">
+                                <input type="hidden" name="form_type" value="contact">
                                 <div class="form-grp">
                                     <label for="name">Name *</label>
-                                    <input id="name" name="name" type="text">
+                                    <input id="name" name="name" type="text" required>
                                 </div>
                                 <div class="form-grp">
                                     <label for="email">Email *</label>
-                                    <input id="email" name="email" type="email">
+                                    <input id="email" name="email" type="email" required>
                                 </div>
                                 <div class="form-grp">
                                     <label for="website">Website *</label>
-                                    <input id="website" name="website" type="url">
+                                    <input id="website" name="website" type="url" required>
                                 </div>
                                 <div class="form-grp">
                                     <label for="comment">Comment *</label>
-                                    <textarea name="message" id="comment"></textarea>
+                                    <textarea name="message" id="comment" required></textarea>
                                 </div>
                                 <div class="form-grp checkbox-grp">
                                     <input type="checkbox" id="checkbox">
