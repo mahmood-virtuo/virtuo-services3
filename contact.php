@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
-        'title' => 'Contact Virtuo Services F.Z.C | UAE Business Consultants',
+        'title' => 'Contact Virtuo | Get a Free Consultation in the UAE',
         'description' => 'Contact Virtuo Services F.Z.C in Ajman Freezone for UAE company formation, PRO services, visas, digital marketing and AI automation support.',
         'path' => '/contact',
         'type' => 'article',

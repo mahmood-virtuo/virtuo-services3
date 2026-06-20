@@ -296,6 +296,83 @@ if (!function_exists('schema_extract_faqs_from_html')) {
     }
 }
 
+if (!function_exists('schema_extract_faqs_from_php_source')) {
+    function schema_extract_faqs_from_php_source($source)
+    {
+        if (empty($source)) {
+            return array();
+        }
+
+        $faqs = array();
+
+        if (preg_match_all('/<button[^>]*class=["\'][^"\']*accordion-button[^"\']*["\'][^>]*>(.*?)<\/button>\s*<\/h2>\s*<div[^>]*class=["\'][^"\']*accordion-collapse[^"\']*["\'][^>]*>\s*<div[^>]*class=["\'][^"\']*accordion-body[^"\']*["\'][^>]*>(.*?)<\/div>/is', $source, $matches, PREG_SET_ORDER)) {
+            foreach ($matches as $match) {
+                $question = schema_trim_text(html_entity_decode($match[1], ENT_QUOTES, 'UTF-8'), 300);
+                $answer = schema_trim_text(html_entity_decode($match[2], ENT_QUOTES, 'UTF-8'), 1000);
+
+                if ($question !== '' && $answer !== '') {
+                    $faqs[] = array('question' => $question, 'answer' => $answer);
+                }
+            }
+        }
+
+        if (preg_match_all('/array\s*\(\s*[\'"][^\'"]*[\'"]\s*,\s*[\'"]([^\'"]+)[\'"]\s*,\s*[\'"]([^\'"]+)[\'"]\s*\)/', $source, $matches, PREG_SET_ORDER)) {
+            foreach ($matches as $match) {
+                $question = schema_trim_text(html_entity_decode($match[1], ENT_QUOTES, 'UTF-8'), 300);
+                $answer = schema_trim_text(html_entity_decode($match[2], ENT_QUOTES, 'UTF-8'), 1000);
+
+                if ($question !== '' && $answer !== '') {
+                    $faqs[] = array('question' => $question, 'answer' => $answer);
+                }
+            }
+        }
+
+        return $faqs;
+    }
+}
+
+if (!function_exists('schema_extract_faqs_from_files')) {
+    function schema_extract_faqs_from_files()
+    {
+        global $page_type;
+
+        $files = array();
+        $script_file = $_SERVER['SCRIPT_FILENAME'] ?? '';
+
+        if ($script_file !== '' && is_readable($script_file)) {
+            $files[] = $script_file;
+        }
+
+        $renderer_file = dirname(__DIR__) . '/partials/service-category-renderer.php';
+
+        if (($page_type ?? '') === 'services' && is_readable($renderer_file)) {
+            $files[] = $renderer_file;
+        }
+
+        $faqs = array();
+        $seen = array();
+
+        foreach ($files as $file) {
+            $source = file_get_contents($file);
+
+            if ($source === false) {
+                continue;
+            }
+
+            foreach (schema_extract_faqs_from_php_source($source) as $faq) {
+                $key = md5($faq['question'] . '|' . $faq['answer']);
+
+                if (!isset($seen[$key])) {
+                    $seen[$key] = true;
+                    $faqs[] = $faq;
+                }
+            }
+        }
+
+        return $faqs;
+    }
+}
+
 if (!function_exists('schema_faq')) {
     function schema_faq()
     {
@@ -321,6 +398,17 @@ if (!function_exists('schema_faq')) {
             }
         } elseif (!empty($schema_html)) {
             foreach (schema_extract_faqs_from_html($schema_html) as $faq) {
+                $faq_items[] = array(
+                    '@type' => 'Question',
+                    'name' => $faq['question'],
+                    'acceptedAnswer' => array(
+                        '@type' => 'Answer',
+                        'text' => $faq['answer'],
+                    ),
+                );
+            }
+        } else {
+            foreach (schema_extract_faqs_from_files() as $faq) {
                 $faq_items[] = array(
                     '@type' => 'Question',
                     'name' => $faq['question'],

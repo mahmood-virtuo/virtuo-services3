@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
-        'title' => 'Digital Marketing & Brand Development in UAE | Virtuo',
+        'title' => 'Digital Marketing & Brand Development UAE | Virtuo',
         'description' => 'Grow your UAE business with Virtuo digital marketing, web solutions, brand development, social media management and performance marketing services.',
         'path' => '/digital-marketing-brand-development',
         'type' => 'article',

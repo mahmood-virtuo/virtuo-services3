@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
-        'title' => 'AI Automation & Technology Solutions in UAE | Virtuo',
+        'title' => 'AI Automation & Business Process Solutions UAE | Virtuo',
         'description' => 'Virtuo helps UAE businesses streamline operations with AI automation, workflow automation, technology solutions and business process automation.',
         'path' => '/ai-automation-technology-solutions',
         'type' => 'article',

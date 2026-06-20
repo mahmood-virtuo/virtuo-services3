@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
-        'title' => 'UAE Immigration & Residency Solutions | Virtuo Services',
+        'title' => 'UAE Visa & Residency Solutions | Virtuo',
         'description' => 'Virtuo supports UAE immigration and residency services including investor, dependent, employment, freelance, golden and residence visa solutions.',
         'path' => '/immigration-residency-solutions',
         'type' => 'article',
@@ -42,7 +42,7 @@
     <main class="main-area fix">
         <!-- breadcrumb-area -->
         <?php
-    $breadcrumbPageTitle = 'Immigration & Residency Soltions';
+    $breadcrumbPageTitle = 'Immigration & Residency Solutions';
     $breadcrumbPageUrl = 'immigration-residency-solutions.php';
     $breadcrumbDefaultMain = 'Immigration Services';
 

@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
-        'title' => 'Virtuo Blog | UAE Business Setup, Visa & Growth Insights',
+        'title' => 'Insights & Resources for UAE Business Setup | Virtuo',
         'description' => 'Read Virtuo insights on UAE business setup, PRO services, immigration, residency, digital marketing, brand development and AI automation trends.',
         'path' => '/blog',
         'type' => 'article',

@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
-        'title' => 'UAE Business Formation & Compliance | Virtuo Services',
+        'title' => 'UAE Business Formation & Company Setup | Virtuo',
         'description' => 'Set up and structure your UAE business with Virtuo, covering mainland, free zone, offshore, virtual office and corporate bank account support.',
         'path' => '/uae-business-formation',
         'type' => 'article',

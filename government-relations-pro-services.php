@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
-        'title' => 'Government Relations & PRO Services in UAE | Virtuo',
+        'title' => 'PRO Services & Government Relations UAE | Virtuo',
         'description' => 'Virtuo manages UAE PRO services, trade licenses, document clearance, attestations, translations, MOHRE services and notary public support in Dubai.',
         'path' => '/government-relations-pro-services',
         'type' => 'article',

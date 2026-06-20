@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
-        'title' => 'Virtuo Services | UAE Business Setup & PRO Services',
+        'title' => 'UAE Business Setup & Consulting Services | Virtuo ',
         'description' => 'Virtuo Services F.Z.C helps UAE businesses establish, operate and scale with company formation, PRO services, visas, marketing and AI automation.',
         'path' => '/',
         'type' => 'website',
