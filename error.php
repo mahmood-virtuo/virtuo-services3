@@ -46,11 +46,12 @@
         <!-- breadcrumb-area -->
         <?php
     $breadcrumbPageTitle = 'Page Not Found';
+    // $breadcrumbPageUrl = 'page-not-found.php';
+    // $breadcrumbDefaultMain = 'Page Not Found';
 
     include __DIR__ . '/partials/service-breadcrumb.php';
     ?>
         <!-- breadcrumb-area-end -->
-         
         <!-- breadcrumb-area-end -->
 
 
