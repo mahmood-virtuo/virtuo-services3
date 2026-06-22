@@ -45,30 +45,12 @@
     <main class="main-area fix">
         <!-- breadcrumb-area -->
         <?php
-    // $breadcrumbPageTitle = 'Page Not Found';
+    $breadcrumbPageTitle = 'Page Not Found';
 
-    // include __DIR__ . '/partials/service-breadcrumb.php';
+    include __DIR__ . '/partials/service-breadcrumb.php';
     ?>
         <!-- breadcrumb-area-end -->
-         <section class="breadcrumb__area">
-    <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="breadcrumb__content">
-                    <h1 class="title">Page Not Found</h1>
-                    <nav class="breadcrumb">
-                        <span property="itemListElement" typeof="ListItem">
-                            <a href="/">Home</a>
-                        </span>
-                        <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
-                        <span property="itemListElement" typeof="ListItem">Page Not Found</span>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+         
         <!-- breadcrumb-area-end -->
 
 
