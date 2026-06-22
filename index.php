@@ -7,7 +7,7 @@
     <?php
     $seoPage = array(
         'title' => 'UAE Business Setup & Consulting Services | Virtuo ',
-        'description' => 'Virtuo Services F.Z.C helps UAE businesses establish, operate and scale with company formation, PRO services, visas, marketing and AI automation.',
+        'description' => 'Virtuo helps UAE businesses establish, operate and scale with company formation, PRO services, visas, marketing and AI automation.',
         'path' => '/',
         'type' => 'website',
         'breadcrumbTitle' => 'Home',
@@ -366,7 +366,7 @@
                 </div>
             </div>
             <div class="slider__marquee clearfix marquee-wrap-three">
-                <div class="marquee_mode marquee__group-two">
+                <div class="marquee_mode marquee__group-two" data-direction="right">
                     <h6 class="marquee__item marquee__item-two">
                         <a href="government-relations-pro-services.php"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
                                 <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
@@ -731,7 +731,7 @@
                 <div class="container virtuo-team__container">
                     <div class="virtuo-team__intro">
                         <span class="sub-title">Core Team</span>
-                        <h2 class="title" id="virtuo-team-title">Meet the Virtuo Services team</h2>
+                        <h2 class="title" id="virtuo-team-title">Meet the Virtuo team</h2>
                     </div>
                     <div class="virtuo-team__grid">
                         <figure class="virtuo-team__member">

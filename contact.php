@@ -7,7 +7,7 @@
     <?php
     $seoPage = array(
         'title' => 'Contact Virtuo | Get a Free Consultation in the UAE',
-        'description' => 'Contact Virtuo Services F.Z.C in Ajman Freezone for UAE company formation, PRO services, visas, digital marketing and AI automation support.',
+        'description' => 'Contact Virtuo, in Ajman Freezone for UAE company formation, PRO services, visas, digital marketing and AI automation support.',
         'path' => '/contact',
         'type' => 'article',
         'breadcrumbTitle' => 'Contact Us',
@@ -233,7 +233,7 @@
                                 <input type="hidden" name="form_type" value="contact">
                                 <div class="form-grp">
                                     <label for="name">Name *</label>
-                                    <input id="name" name="name" type="text" required>
+                                    <input id="name" name="name" class="virtuo-name-input" type="text" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>
                                 </div>
                                 <div class="form-grp">
                                     <label for="email">Email *</label>

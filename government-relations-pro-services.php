@@ -147,7 +147,7 @@
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Trade License Is Essential In The UAE</h2>
-                                    <p>A trade license is the legal foundation for any business operating in Dubai or across the UAE. It is a mandatory requirement that allows companies to operate lawfully, gain credibility, and access a full range of business opportunities. Virtuo Services F.Z.C provides end-to-end support for trade license applications, ensuring your business is fully compliant, approved, and ready to operate efficiently.</p>
+                                    <p>A trade license is the legal foundation for any business operating in Dubai or across the UAE. It is a mandatory requirement that allows companies to operate lawfully, gain credibility, and access a full range of business opportunities. Virtuo provides end-to-end support for trade license applications, ensuring your business is fully compliant, approved, and ready to operate efficiently.</p>
                                     <p>Our team guides you through the entire process, from selecting the right license type and preparing documentation to obtaining approvals and final issuance. By handling all administrative and regulatory requirements, we ensure a seamless experience, freeing you to focus on launching your business, expanding operations, and achieving long-term growth with confidence.</p>
                                     <p>A Trade License Is Required For:</p>
                                     <p class="info-one"><b>1. Legally operating a business in Dubai or any UAE Emirate</b></p>
@@ -157,7 +157,7 @@
                                     <p class="info-one"><b>5. Import/export activities</b></p>
                                     <p class="info-one"><b>6. Hiring employees</b></p>
                                     <p class="info-one"><b>7. Participating in tenders or government contracts</b></p>
-                                    <p>Without a valid trade license, a business cannot legally function in the UAE. With Virtuo Services F.Z.C, obtaining your trade license is smooth, compliant, and stress-free, giving you the foundation you need to build and grow your business successfully.</p>
+                                    <p>Without a valid trade license, a business cannot legally function in the UAE. With Virtuo, obtaining your trade license is smooth, compliant, and stress-free, giving you the foundation you need to build and grow your business successfully.</p>
                                     <div class="services__details-inner-images" style="margin-top:45px;">
                                         <div class="row">
                                             <div class="col-md-6">
@@ -320,7 +320,7 @@
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Document Clearance Matters in the UAE</h2>
-                                    <p>Proper document clearance is a critical step for both businesses and individuals in the UAE. It ensures that all paperwork complies with government regulations and is legally valid, preventing delays, fines, or rejections. From company formation and visa applications to property transactions and personal document updates, each process requires accurate handling, submission, and approval by the relevant authorities. Incorrect or incomplete documentation can disrupt operations, cause financial losses, or lead to legal complications. At Virtuo Services F.Z.C, we provide comprehensive document clearance services that ensure all your documents are processed accurately, efficiently, and in full compliance with UAE laws.</p>
+                                    <p>Proper document clearance is a critical step for both businesses and individuals in the UAE. It ensures that all paperwork complies with government regulations and is legally valid, preventing delays, fines, or rejections. From company formation and visa applications to property transactions and personal document updates, each process requires accurate handling, submission, and approval by the relevant authorities. Incorrect or incomplete documentation can disrupt operations, cause financial losses, or lead to legal complications. At Virtuo, we provide comprehensive document clearance services that ensure all your documents are processed accurately, efficiently, and in full compliance with UAE laws.</p>
                                     <p>Key Document Clearance Services Include:</p>
                                     <p class="info-one"><b>1. Company Formation</b></p>
                                     <p class="info-one"><b>2. Trade License Issuance &amp; Renewal</b></p>
@@ -332,7 +332,7 @@
                                     <p class="info-one"><b>8. Bank Account Opening</b></p>
                                     <p class="info-one"><b>9. Government Approvals</b></p>
                                     <p class="info-one"><b>10. Personal Documentation Updates</b></p>
-                                    <p>With Virtuo Services, you can be confident that every document is handled correctly the first time, avoiding delays, errors, and potential legal issues.</p>
+                                    <p>With Virtuo, you can be confident that every document is handled correctly the first time, avoiding delays, errors, and potential legal issues.</p>
                                     <div class="services__details-inner-images" style="margin-top:45px;">
                                         <div class="row">
                                             <div class="col-md-6">
@@ -447,7 +447,7 @@
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why a Power of Attorney (POA) Is Essential in the UAE</h2>
-                                    <p>A Power of Attorney (POA) is a legally binding document that allows a trusted individual to act on your behalf in personal, financial, or business matters. In the UAE, having a properly drafted, legally translated, notarized, and, if required, attested POA is crucial to ensure it is fully recognized by authorities and third parties. Without a valid POA, your representative may be unable to carry out important transactions, which could result in legal complications, delays, or disputes. At Virtuo Services F.Z.C, we provide end-to-end POA services that ensure your document is accurate, compliant, and legally enforceable both within the UAE and internationally.</p>
+                                    <p>A Power of Attorney (POA) is a legally binding document that allows a trusted individual to act on your behalf in personal, financial, or business matters. In the UAE, having a properly drafted, legally translated, notarized, and, if required, attested POA is crucial to ensure it is fully recognized by authorities and third parties. Without a valid POA, your representative may be unable to carry out important transactions, which could result in legal complications, delays, or disputes. At Virtuo, we provide end-to-end POA services that ensure your document is accurate, compliant, and legally enforceable both within the UAE and internationally.</p>
                                     <p>POA Services Are Commonly Required For:</p>
                                     <p class="info-one"><b>1. Business Representation</b></p>
                                     <p class="info-one"><b>2. Company Formation</b></p>
@@ -584,7 +584,7 @@
                                     <p class="info-one"><b>8. Legal declarations &amp; affidavits</b></p>
                                     <p class="info-one"><b>9. Contract authentication</b></p>
                                     <p class="info-one"><b>10. Commercial agreements</b></p>
-                                    <p>At Virtuo Services F.Z.C, we provide comprehensive notarization services in Dubai and across the UAE. Our team works closely with Dubai Courts Notary Public, Private Notary Offices, and other judicial authorities, managing every step of the process efficiently and accurately. By handling documentation, approvals, and compliance requirements, we ensure a seamless experience, helping businesses and individuals save time, avoid delays, and maintain full legal compliance for all critical documents.</p>
+                                    <p>At Virtuo, we provide comprehensive notarization services in Dubai and across the UAE. Our team works closely with Dubai Courts Notary Public, Private Notary Offices, and other judicial authorities, managing every step of the process efficiently and accurately. By handling documentation, approvals, and compliance requirements, we ensure a seamless experience, helping businesses and individuals save time, avoid delays, and maintain full legal compliance for all critical documents.</p>
                                     <div class="services__details-inner-images" style="margin-top:45px;">
                                         <div class="row">
                                             <div class="col-md-6">
@@ -695,14 +695,14 @@
                                     <p style="margin-bottom: 15px;">Attestation Services in Dubai</p>
                                     <h2 class="title">Build True Global Validity for Your Documents</h2>
                                     <p>Document attestation is an absolute legal prerequisite to ensuring your personal, educational, and commercial papers are formally recognized by UAE government authorities. Whether processing global corporate records, setting up local commercial entities, or validating certificates for executive employment visas, your international documents have no legal standing locally until they clear a structured multi-layered validation chain.</p>
-                                    <p>At Virtuo Services F.Z.C., we eliminate the immense administrative burden and logistical delays of cross-border paperwork. Our dedicated document clearing specialists manage your entire validation pipeline globally and locally, navigating embassies, foreign ministries, and local judicial bodies so your certificates achieve flawless legal status efficiently.</p>
+                                    <p>At Virtuo, we eliminate the immense administrative burden and logistical delays of cross-border paperwork. Our dedicated document clearing specialists manage your entire validation pipeline globally and locally, navigating embassies, foreign ministries, and local judicial bodies so your certificates achieve flawless legal status efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
                                     <img src="assets/img/services/LegalAttestationImg1.jpg" alt="Legal Attestation Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Complete Range of Attestation Services</h2>
-                                    <p>At Virtuo Services F.Z.C, we provide end-to-end attestation services to ensure your documents are legally recognized in the UAE and internationally. Our team handles every type of document with precision, confidentiality, and efficiency, making the attestation process smooth and hassle-free for both individuals and businesses.</p>
+                                    <p>At Virtuo, we provide end-to-end attestation services to ensure your documents are legally recognized in the UAE and internationally. Our team handles every type of document with precision, confidentiality, and efficiency, making the attestation process smooth and hassle-free for both individuals and businesses.</p>
                                     <p>Attestation advantages:</p>
                                     <p class="info-one"><b>1. MOFA (Ministry of Foreign Affairs) attestation</b></p>
                                     <p class="info-one"><b>2. Embassy and consulate attestation</b></p>
@@ -1006,7 +1006,7 @@
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why MOHRE Inquiry Services Are Essential</h2>
                                     <p>Compliance with the Ministry of Human Resources &amp; Emiratisation UAE (MOHRE) is mandatory for all businesses operating in the UAE. Proper management of labor regulations is critical not only to meet legal requirements but also to ensure smooth operations, protect employee rights, and avoid costly penalties. MOHRE compliance covers a wide range of processes, from hiring and issuing work permits to managing labor contracts and resolving disputes. Companies that fail to meet these obligations risk fines, visa delays, and legal complications that can disrupt business operations.</p>
-                                    <p>At Virtuo Services F.Z.C, we provide comprehensive MOHRE services that help your organization stay fully compliant with UAE labor laws. Our team handles all administrative, legal, and procedural requirements efficiently, giving you peace of mind and allowing your business to focus on growth and productivity.</p>
+                                    <p>At Virtuo, we provide comprehensive MOHRE services that help your organization stay fully compliant with UAE labor laws. Our team handles all administrative, legal, and procedural requirements efficiently, giving you peace of mind and allowing your business to focus on growth and productivity.</p>
                                     <p>Key MOHRE Compliance Services Include:</p>
                                     <p class="info-one"><b>1. Hiring Employees</b></p>
                                     <p class="info-one"><b>2. Issuing Work Permits</b></p>
@@ -1016,7 +1016,7 @@
                                     <p class="info-one"><b>6. Maintaining Company Compliance</b></p>
                                     <p class="info-one"><b>7. Avoiding Fines &amp; Penalties</b></p>
                                     <p class="info-one"><b>8. Ensuring Smooth Visa Processing</b></p>
-                                    <p>With Virtuo Services, your company stays fully compliant, legally secure, and prepared for every MOHRE requirement.</p>
+                                    <p>With Virtuo, your company stays fully compliant, legally secure, and prepared for every MOHRE requirement.</p>
                                     <div class="services__details-inner-images" style="margin-top:45px;">
                                         <div class="row">
                                             <div class="col-md-6">

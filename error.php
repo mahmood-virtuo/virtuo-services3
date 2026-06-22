@@ -45,13 +45,30 @@
     <main class="main-area fix">
         <!-- breadcrumb-area -->
         <?php
-    $breadcrumbPageTitle = 'Page Not Found';
-    // $breadcrumbPageUrl = 'page-not-found.php';
-    // $breadcrumbDefaultMain = 'Page Not Found';
+    // $breadcrumbPageTitle = 'Page Not Found';
 
-    include __DIR__ . '/partials/service-breadcrumb.php';
+    // include __DIR__ . '/partials/service-breadcrumb.php';
     ?>
         <!-- breadcrumb-area-end -->
+         <section class="breadcrumb__area">
+    <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb__content">
+                    <h1 class="title">Page Not Found</h1>
+                    <nav class="breadcrumb">
+                        <span property="itemListElement" typeof="ListItem">
+                            <a href="/">Home</a>
+                        </span>
+                        <span class="breadcrumb-separator"><i class="fas fa-angle-right"></i></span>
+                        <span property="itemListElement" typeof="ListItem">Page Not Found</span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- breadcrumb-area-end -->
 
 
@@ -134,10 +151,10 @@
         <!-- error-area -->
         <section class="error-area section-py-130">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" style="margin-bottom: 100px;">
                     <div class="col-lg-8">
                         <div class="error-wrap text-center">
-                            <div class="error-img">
+                            <!-- <div class="error-img">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 649 323" fill="none" data-inject-url="https://html.themegenix.com/skillgro/assets/img/others/error_img.svg" class="injectable">
                                     <path d="M39.3651 6.43777C47.246 -5.80467 96.8509 7.09739 94.8741 25.6194C92.8973 44.1413 58.6061 132.108 67.146 142.028C75.6858 151.949 119.966 150.629 120.625 148.651C121.284 146.672 131.195 88.4674 133.172 79.2064C135.148 69.9454 182.724 71.9243 185.36 89.127C187.995 106.33 171.495 210.813 169.492 239.915C167.489 269.017 172.128 294.795 166.198 300.758C160.241 306.721 110.689 307.38 106.735 297.46C102.781 287.539 117.594 203.557 112.481 198.913C107.394 194.296 22.1537 203.531 4.96856 187.014C-12.1638 170.471 18.8853 38.1784 39.3651 6.43777Z" fill="currentcolor"></path>
                                     <path d="M488.498 6.41139C493.4 -4.06329 550.78 -2.95514 546.932 19.1551C543.084 41.2654 513.985 143.268 520.258 148.149C526.531 153.031 567.017 154.376 570.891 152.793C574.766 151.21 585.098 76.3041 586.969 64.2464C588.841 52.1886 647.065 51.7137 648.013 66.2252C648.962 80.7368 626.585 308.198 620.707 318.541C614.829 328.857 560.559 319.148 557.317 310.098C554.075 301.048 573.052 206.327 568.282 204.006C563.511 201.684 472.868 212.897 459.083 194.56C445.298 176.223 479.193 26.2262 488.498 6.41139Z" fill="currentcolor"></path>
@@ -150,9 +167,9 @@
                                     <path d="M363.932 113.902C355.919 113.902 349.303 111.791 348.803 111.633C347.01 111.053 346.035 109.1 346.615 107.306C347.195 105.512 349.145 104.536 350.938 105.116C351.148 105.169 371.048 111.501 380.827 100.895C382.119 99.4962 384.28 99.417 385.677 100.71C387.074 102.003 387.153 104.166 385.861 105.565C379.746 112.134 371.259 113.902 363.932 113.902Z" fill="#01022E"></path>
                                     <path d="M319.414 84.4042C318.096 84.4042 316.831 83.6391 316.277 82.3462C316.198 82.1615 308.265 64.3519 295.244 61.4496C288.945 60.0512 282.197 62.4258 275.212 68.5735C273.789 69.8135 271.628 69.6816 270.389 68.2568C269.15 66.8321 269.282 64.6685 270.705 63.4285C279.43 55.7769 288.207 52.8746 296.773 54.8007C313.194 58.4945 322.208 78.7843 322.577 79.6286C323.341 81.37 322.551 83.3752 320.811 84.1404C320.337 84.2987 319.862 84.4042 319.414 84.4042Z" fill="#01022E"></path>
                                 </svg>
-                            </div>
+                            </div> -->
                             <div class="error-content">
-                                <h2 class="title">ERROR PAGE! <span>Sorry! This Page is Not Available!</span></h2>
+                                <h2 class="title">ERROR PAGE 404! <span>Sorry! This Page is Not Available!</span></h2>
                                 <div class="tg-button-wrap">
                                     <a href="index-5.php" class="tg-btn">Go To Home Page <img src="assets/img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                                 </div>

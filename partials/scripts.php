@@ -14,6 +14,8 @@
 <script src="assets/js/aos.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/virtuo-mega-menu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
+<script src="assets/js/virtuo-footer-phone.js"></script>
 <script src="assets/js/virtuo-phone-field.js"></script>
 <script src="assets/js/virtuo-service-tabs-breadcrumb.js"></script>
 

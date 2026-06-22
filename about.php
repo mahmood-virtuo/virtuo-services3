@@ -7,7 +7,7 @@
     <?php
     $seoPage = array(
         'title' => 'About Virtuo | UAE Business Consultants',
-        'description' => 'Learn about Virtuo Services F.Z.C, an Ajman Freezone partner helping UAE businesses with setup, PRO, residency, marketing and AI solutions today.',
+        'description' => 'Learn about Virtuo, an Ajman Freezone partner helping UAE businesses with setup, PRO, residency, marketing and AI solutions today.',
         'path' => '/about',
         'type' => 'article',
         'breadcrumbTitle' => 'About Us',
@@ -240,7 +240,7 @@
                 <div class="container virtuo-team__container">
                     <div class="virtuo-team__intro">
                         <span class="sub-title">Core Team</span>
-                        <h2 class="title" id="virtuo-team-title">Meet the Virtuo Services team</h2>
+                        <h2 class="title" id="virtuo-team-title">Meet the Virtuo team</h2>
                     </div>
                     <div class="virtuo-team__grid">
                         <figure class="virtuo-team__member">

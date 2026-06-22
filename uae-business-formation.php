@@ -407,7 +407,7 @@
                                     <p style="margin-bottom: 15px;">Business Setup In Dubai Free Zones</p>
                                     <h2 class="title">Build Your UAE Business With Confidence</h2>
                                     <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency.</p>
-                                    <p>At Virtuo Services F.Z.C., we simplify the entire company formation journey from selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements.</p>
+                                    <p>At Virtuo, we simplify the entire company formation journey from selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements.</p>
                                 </div>
                                 <div class="services__details-thumb">
                                     <img src="assets/img/services/services_details_img01.jpg" alt="Free Zone Business Setup" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
@@ -693,7 +693,7 @@
                                                 </div>
                                                 <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                    <p>Setting up an offshore company requires specialized knowledge, careful planning, and strict compliance with international regulations. Virtuo Services F.Z.C provides expert guidance for entrepreneurs, investors, and global companies looking to establish offshore entities in the UAE. Our team ensures a seamless, secure, and fully compliant setup process while protecting your business interests and maintaining the highest level of confidentiality.</p>
+                                                    <p>Setting up an offshore company requires specialized knowledge, careful planning, and strict compliance with international regulations. Virtuo  provides expert guidance for entrepreneurs, investors, and global companies looking to establish offshore entities in the UAE. Our team ensures a seamless, secure, and fully compliant setup process while protecting your business interests and maintaining the highest level of confidentiality.</p>
                                                     <p>Benefits Of Business Setup In Offshore:</p>
                                                     <ul class="list-wrap about__list-item-two">
                                                         <li>Expertise in major offshore jurisdictions (RAK ICC, JAFZA Offshore, Ajman Offshore)</li>
@@ -828,7 +828,7 @@
 
                                                 <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
-                                                    <p>We provide professional virtual office solutions designed to give your business credibility, flexibility, and full regulatory compliance in the UAE. Our expert team ensures that your company gains a prestigious Dubai business address while handling all licensing approvals, government requirements, and operational support efficiently. By choosing Virtuo Services, you get a seamless, reliable, and cost-effective virtual office experience that strengthens your brand presence and allows you to focus on growing your business.</p>
+                                                    <p>We provide professional virtual office solutions designed to give your business credibility, flexibility, and full regulatory compliance in the UAE. Our expert team ensures that your company gains a prestigious Dubai business address while handling all licensing approvals, government requirements, and operational support efficiently. By choosing Virtuo, you get a seamless, reliable, and cost-effective virtual office experience that strengthens your brand presence and allows you to focus on growing your business.</p>
                                                     <p>A Virtual Office Is Ideal For:</p>
                                                     <ul class="list-wrap about__list-item-two">
                                                         <li>Entrepreneurs launching a new business</li>
@@ -839,7 +839,7 @@
                                                         <li>Businesses needing a legal address for licensing</li>
                                                         <li>Companies requiring a UAE presence without physical space</li>
                                                     </ul>
-                                                    <p>With a virtual office from Virtuo Services, your business gains a prestigious Dubai address, full UAE compliance, and a professional presence without the cost of a physical office.</p>
+                                                    <p>With a virtual office from Virtuo, your business gains a prestigious Dubai address, full UAE compliance, and a professional presence without the cost of a physical office.</p>
                                                 </div>
                                             </div>
                                         </div>

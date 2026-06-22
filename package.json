@@ -1,0 +1,26 @@
+{
+  "name": "virtuo-serivces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmood-virtuo/virtuo-services3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mahmood-virtuo/virtuo-services3/issues"
+  },
+  "homepage": "https://github.com/mahmood-virtuo/virtuo-services3#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "eslint": "^10.5.0",
+    "prettier": "^3.8.4"
+  }
+}

@@ -7,6 +7,8 @@
    Version: 1.0
 
 ==============================================*/
+@import url("https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css");
+
 /* CSS Index
 ==============================================
 
@@ -25438,6 +25440,40 @@ select {
 .footer__area-five .estimate-form-wrap .form-grp input,
 .footer__area-five .estimate-form-wrap .form-grp select {
   width: 100%;
+}
+
+.footer__area-five .estimate__tab-inner,
+.footer__area-five .estimate-form-wrap,
+.footer__area-five .estimate-form-wrap .form-grp {
+  overflow: visible;
+}
+
+.footer__area-five .estimate-form-wrap .iti {
+  display: block;
+  width: 100%;
+}
+
+.footer__area-five .estimate-form-wrap .iti input.virtuo-footer-phone-input {
+  width: 100%;
+  padding-left: 98px !important;
+}
+
+.footer__area-five .estimate-form-wrap .iti__country-list,
+.footer__area-five .estimate-form-wrap .iti__dropdown-content {
+  z-index: 99999;
+  width: min(420px, calc(100vw - 48px));
+  max-width: min(420px, calc(100vw - 48px));
+  color: #222;
+}
+
+.footer__area-five .estimate-form-wrap .iti__country {
+  color: #222;
+  font-size: 14px;
+}
+
+.footer__area-five .estimate-form-wrap .iti__selected-country,
+.footer__area-five .estimate-form-wrap .iti__selected-flag {
+  background: transparent;
 }
 
 .footer__area-five .footer__bottom-two {

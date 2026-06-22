@@ -269,13 +269,15 @@
                                                  <form id="footer-quote-form" action="assets/mail.php" method="POST">
                                                      <input type="hidden" name="form_type" value="footer_quote">
                                                      <div class="form-grp">
-                                                         <input type="text" name="name" placeholder="Full Name" required>
+                                                         <input type="text" name="name" class="virtuo-name-input" placeholder="Full Name" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>
                                                      </div>
                                                      <div class="form-grp">
                                                          <input type="email" name="email" placeholder="E-mail" required>
                                                      </div>
                                                      <div class="form-grp">
-                                                         <input type="tel" name="phone" placeholder="Phone" required>
+                                                         <input type="tel" name="phone_display" class="virtuo-footer-phone-input" placeholder="Phone" autocomplete="tel" inputmode="numeric" maxlength="15" pattern="[0-9]{5,15}" title="Please enter numbers only." required>
+                                                         <input type="hidden" name="phone" value="">
+                                                         <input type="hidden" name="phone_country" value="AE">
                                                      </div>
                                                      <div class="form-grp">
                                                          <select name="service" required>
