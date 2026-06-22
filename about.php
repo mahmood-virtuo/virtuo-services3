@@ -12,8 +12,8 @@
         'type' => 'article',
         'breadcrumbTitle' => 'About Us',
         'schemaType' => 'AboutPage',
-        'image' => '/assets/img/bg/HEADER.jpg',
-        'heroImage' => '/assets/img/bg/HEADER.jpg'
+        'image' => '/assets/img/bg/HEADER.webp',
+        'heroImage' => '/assets/img/bg/HEADER.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>
@@ -47,7 +47,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -166,8 +166,8 @@
                                 </div>
                             </div>
                             <div class="shape">
-                                <img src="assets/img/images/about_shape01.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="600">
-                                <img src="assets/img/images/about_shape02.svg" alt="shape" class="alltuchtopdown">
+                                <img src="assets/img/images/about_shape01.svg" alt="" aria-hidden="true" data-aos="fade-up-right" data-aos-delay="600">
+                                <img src="assets/img/images/about_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown">
                             </div>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                         </div>
                     </div>
                     <div class="cta__shape-three">
-                        <img src="assets/img/images/h2_cta_shape.svg" alt="shape">
+                        <img src="assets/img/images/h2_cta_shape.svg" alt="" aria-hidden="true">
                     </div>
                 </div>
             </div>

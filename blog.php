@@ -12,8 +12,8 @@
         'type' => 'article',
         'breadcrumbTitle' => 'Blogs',
         'schemaType' => 'Blog',
-        'image' => '/assets/img/bg/HEADER.jpg',
-        'heroImage' => '/assets/img/bg/HEADER.jpg'
+        'image' => '/assets/img/bg/HEADER.webp',
+        'heroImage' => '/assets/img/bg/HEADER.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>
@@ -51,7 +51,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -156,7 +156,7 @@
                         <div class="inner-blog-post-wrap">
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="Blog Post01" loading="lazy" decoding="async" width="900" height="643"></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="Business consultant reviewing growth strategy documents" loading="lazy" decoding="async" width="900" height="643"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -177,7 +177,7 @@
                             </div>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post02.jpg" alt="Blog Post02" loading="lazy" decoding="async" width="900" height="643"></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post02.jpg" alt="Corporate team discussing business consulting plans" loading="lazy" decoding="async" width="900" height="643"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -198,7 +198,7 @@
                             </div>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post03.jpg" alt="Blog Post03" loading="lazy" decoding="async" width="900" height="637"></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post03.jpg" alt="Consultants planning a business development project" loading="lazy" decoding="async" width="900" height="637"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -219,7 +219,7 @@
                             </div>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post04.jpg" alt="Blog Post04" loading="lazy" decoding="async" width="900" height="708"></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post04.jpg" alt="Professional team reviewing company growth reports" loading="lazy" decoding="async" width="900" height="708"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -345,8 +345,8 @@
                                     <p>Navigating complex UAE regulations seamlessly so you can focus exclusively on scaling your corporate vision.</p>
                                     <a href="contact.php" class="tg-btn tg-btn-three">Contact With Us <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                                     <div class="shape">
-                                        <img src="assets/img/images/sidebar_contact_shape01.svg" alt="shape" class="rotateme">
-                                        <img src="assets/img/images/sidebar_contact_shape02.svg" alt="shape" class="alltuchtopdown">
+                                        <img src="assets/img/images/sidebar_contact_shape01.svg" alt="" aria-hidden="true" class="rotateme">
+                                        <img src="assets/img/images/sidebar_contact_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown">
                                     </div>
                                 </div>
                             </div>

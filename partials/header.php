@@ -10,8 +10,8 @@
 <!-- preloader-end -->
 
 <!-- Scroll-top -->
-<button class="scroll__top scroll-to-target" data-target="html">
-    <i class="fas fa-chevron-up"></i>
+<button type="button" class="scroll__top scroll-to-target" data-target="html" aria-label="Back to top">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
 </button>
 <!-- Scroll-top-end-->
 
@@ -46,10 +46,10 @@
                             <li>
                                 <div class="tg-header__top-social">
                                     <ul class="list-wrap">
-                                        <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
                                         <!-- <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
-                                        <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                        <li><a href="https://www.linkedin.com/" target="_blank"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                                        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                                        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -65,10 +65,10 @@
             <div class="tgmenu__wrap">
                 <nav class="tgmenu__nav">
                     <div class="logo">
-                        <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
+                        <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39"></a>
                     </div>
                     <div class="logo d-none">
-                        <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
+                        <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
                     </div>
                     <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                         <ul class="navigation">
@@ -162,10 +162,12 @@
                     <div class="tgmenu__action tgmenu__action-five">
                         <ul class="list-wrap">
                             <li class="header-contact">
-                                <a href="https://wa.me/971565151315" class="header-whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
+                                <a href="https://wa.me/971565151315" class="header-whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                <!-- <span>WhatsApp</span> -->
+                            </a>
                             </li>
                             <li class="offCanvas-menu">
-                                <a href="shop.php" class="menu-tigger">
+                                <a href="shop.php" class="menu-tigger" role="button" aria-label="Open menu">
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -173,7 +175,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="mobile-nav-toggler"><i class="tg-flaticon-menu"></i></div>
+                    <div class="mobile-nav-toggler" role="button" tabindex="0" aria-label="Open mobile menu"><i class="tg-flaticon-menu" aria-hidden="true"></i></div>
                 </nav>
             </div>
         </div>
@@ -185,7 +187,7 @@
         <nav class="tgmobile__menu-box">
             <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
             <div class="nav-logo">
-                <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
+                <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
             </div>
             <div class="tgmobile__search">
                 <form action="#">
@@ -198,9 +200,9 @@
             </div>
             <div class="social-links">
                 <ul class="list-wrap">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f" class="injectable"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram" class="injectable"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in" class="injectable"></i></a></li>
                 </ul>
             </div>
         </nav>
@@ -211,10 +213,10 @@
     <!-- offCanvas-menu -->
     <div class="offCanvas__info">
         <div class="offCanvas__close-icon menu-close">
-            <button><img src="assets/img/icons/times.svg" alt="" class="injectable"></button>
+            <button type="button" aria-label="Close menu"><img src="assets/img/icons/times.svg" alt="" class="injectable"></button>
         </div>
         <div class="offCanvas__logo mb-30">
-            <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
+            <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
         </div>
         <div class="offCanvas__content">
             <p style="text-align: left;">Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
@@ -235,7 +237,7 @@
                 <p><span>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
             </div>
             <div class="contact-list">
-                <a href="https://wa.me/971565151315" class="target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" style="padding-right: 18px;" aria-hidden="true"></i><span>WhatsApp</span></a>
+                <a href="https://wa.me/971565151315" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" style="padding-right: 18px;" aria-hidden="true"></i><span>+971 56 515 1315</span></a>
             </div>
             <div class="contact-list">
                 <i class="flaticon-envelope"></i>
@@ -245,10 +247,10 @@
         <div class="offCanvas__social">
             <h6 class="title">Follow us</h6>
             <ul class="list-wrap">
-                <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
                 <!-- <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
-                <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                <li><a href="https://www.linkedin.com/" target="_blank"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
             </ul>
         </div>
     </div>

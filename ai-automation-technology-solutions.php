@@ -13,8 +13,8 @@
         'breadcrumbTitle' => 'AI Automation & Technology Solutions',
         'schemaType' => 'Service',
         'serviceType' => 'AI automation and technology solutions',
-        'image' => '/assets/img/bg/HEADER.jpg',
-        'heroImage' => '/assets/img/bg/HEADER.jpg'
+        'image' => '/assets/img/bg/HEADER.webp',
+        'heroImage' => '/assets/img/bg/HEADER.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>
@@ -920,8 +920,8 @@
                                         <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
                                     </a>
                                     <div class="shape">
-                                        <img src="assets/img/images/sidebar_contact_shape01.svg" alt="shape" class="rotateme">
-                                        <img src="assets/img/images/sidebar_contact_shape02.svg" alt="shape" class="alltuchtopdown">
+                                        <img src="assets/img/images/sidebar_contact_shape01.svg" alt="" aria-hidden="true" class="rotateme">
+                                        <img src="assets/img/images/sidebar_contact_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown">
                                     </div>
                                 </div>
                             </div>

@@ -12,8 +12,8 @@
         'type' => 'article',
         'breadcrumbTitle' => 'Contact Us',
         'schemaType' => 'ContactPage',
-        'image' => '/assets/img/bg/HEADER.jpg',
-        'heroImage' => '/assets/img/bg/HEADER.jpg'
+        'image' => '/assets/img/bg/HEADER.webp',
+        'heroImage' => '/assets/img/bg/HEADER.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>
@@ -52,7 +52,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.jpg" style="background-size:cover; background-repeat: no-repeat;"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp" style="background-size:cover; background-repeat: no-repeat;"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -168,7 +168,8 @@
                     <div class="col-lg-6">
                         <div class="contact__info-wrap">
                             <div class="contact__info-item">
-                                <h4 class="title">Virtuo</h4>
+                                <!-- <h4 class="title">Virtuo</h4> -->
+                                <img src="assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39" style="margin-bottom: 15px;">
                                 <p style="line-height: 30px;">
                                     <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer" style="font-weight: 400; font-size:16px;">Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a>
 
@@ -287,7 +288,7 @@
                         </div>
                     </div>
                     <div class="cta__shape-three">
-                        <img src="assets/img/images/h2_cta_shape.svg" alt="shape">
+                        <img src="assets/img/images/h2_cta_shape.svg" alt="" aria-hidden="true">
                     </div>
                 </div>
             </div>

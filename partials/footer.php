@@ -4,7 +4,7 @@
             <div class="virtuo-reference-footer__layout">
                 <div class="virtuo-reference-footer__brand">
                     <a href="/" class="virtuo-reference-footer__logo">
-                        <img src="assets/img/logo/w_logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39">
+                        <img src="assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39">
                     </a>
                     <p>Virtuo Services provides expert business setup and PRO solutions in the UAE. We offer premium, end-to-end support to ensure your company remains compliant and stress-free in one of the world's leading business hubs.</p>
                     <div class="virtuo-reference-footer__social">
@@ -107,7 +107,7 @@
     </footer> -->
 
 
- <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+ <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage.webp); background-repeat: no-repeat; background-size: cover; background-position: center center;">
      <div class="container custom-container footer-reference-container">
          <div class="footer__top-two">
              <div class="row">
@@ -116,14 +116,14 @@
                          <div class="footer-reference-left__top">
                              <div class="footer-reference-left__brand">
                                  <div class="footer__logo-two footer-reference-left__logo">
-                                     <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services F.Z.C logo" width="145" height="39"></a>
+                                     <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39"></a>
                                  </div>
                                  <p>Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
                                  <div class="footer-reference-left__social">
                                      <span>Follow Us :</span>
-                                     <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                                     <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                                     <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                     <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                                     <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                     <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
                                      <!-- <a href="https://x.com/home" target="_blank" aria-label="X">X</a> -->
                                  </div>
                              </div>
@@ -429,9 +429,9 @@
          </div>
      </div>
      <div class="footer__shape-wrap-two">
-         <img src="assets/img/images/h2_footer_shape01.svg" alt="shape">
-         <img src="assets/img/images/h2_footer_shape02.svg" alt="shape">
-         <img src="assets/img/images/h2_footer_shape03.svg" alt="shape">
+         <img src="assets/img/images/h2_footer_shape01.svg" alt="" aria-hidden="true">
+         <img src="assets/img/images/h2_footer_shape02.svg" alt="" aria-hidden="true">
+         <img src="assets/img/images/h2_footer_shape03.svg" alt="" aria-hidden="true">
      </div>
  </footer>
 

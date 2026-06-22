@@ -12,14 +12,16 @@
         'type' => 'website',
         'breadcrumbTitle' => 'Home',
         'schemaType' => 'WebPage',
-        'image' => '/assets/img/slider/1st.jpg',
-        'heroImage' => '/assets/img/slider/1st.jpg'
+        'image' => '/assets/img/slider/1st.webp',
+        'heroImage' => '/assets/img/slider/1st.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="preload" as="image" href="assets/img/slider/1st-mobile.webp" media="(max-width: 767px)" fetchpriority="high">
+    <link rel="preload" as="image" href="assets/img/slider/1st.webp" media="(min-width: 768px)" fetchpriority="high">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -50,7 +52,7 @@
         <section class="slider__area">
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.jpg">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.webp" data-background-mobile="assets/img/slider/1st-mobile.webp">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -63,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/2nd.jpg">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/2nd.webp" data-lazy-background-mobile="assets/img/slider/2nd-mobile.webp">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -76,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/3rd.jpg">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/3rd.webp" data-lazy-background-mobile="assets/img/slider/3rd-mobile.webp">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -89,7 +91,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/4th.jpg">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/4th.webp" data-lazy-background-mobile="assets/img/slider/4th-mobile.webp">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -102,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/5th.jpg">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/5th.webp" data-lazy-background-mobile="assets/img/slider/5th-mobile.webp">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -206,10 +208,10 @@
                     <div class="col-lg-6 col-md-10 order-0 order-lg-2">
                         <div class="about__img-four">
                             <div class="about__mask-img">
-                                <img src="assets/img/images/h4_about_img.jpg" alt="H4 About Img" loading="lazy" decoding="async" width="623" height="566">
+                                <img src="assets/img/images/h4_about_img.webp" alt="Business consultants discussing company formation in Dubai" loading="lazy" decoding="async" width="623" height="566">
                             </div>
                             <div class="shape">
-                                <img src="assets/img/images/h4_about_shape.svg" alt="shape" class="alltuchtopdown">
+                                <img src="assets/img/images/h4_about_shape.svg" alt="" aria-hidden="true" class="alltuchtopdown">
                             </div>
                             <!-- <div class="author__wrap-two"> -->
                             <!-- <div class="thumb">
@@ -286,7 +288,7 @@
                 </div>
             </div>
             <div class="about__shape-two">
-                <img src="assets/img/images/h4_about_shape01.svg" alt="shape">
+                <img src="assets/img/images/h4_about_shape01.svg" alt="" aria-hidden="true">
             </div>
         </section>
 
@@ -451,7 +453,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-9">
                         <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
-                            <img src="assets/img/images/h8_choose_img.jpg" alt="H8 Choose Img" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
+                            <img src="assets/img/images/h8_choose_img.jpg" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
                             <!-- <img src="assets/img/images/h8_choose_shape.svg" alt="shape" class="shape"> -->
                             <!-- <div class="chart__wrap" data-aos="fade-up" data-aos-delay="400"> -->
                             <!-- <div class="content">
@@ -508,7 +510,7 @@
         <!-- choose-area-end -->
 
         <!-- services-area -->
-        <section class=" section-py-130" style="background-image: url(/assets/img/services/footerBackgroundImage.jpg); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.png">
+        <section class=" section-py-130" style="background-image: url(/assets/img/services/footerBackgroundImage.webp); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.webp">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-8">
@@ -580,7 +582,7 @@
                         <div class="tab-pane fade show active" id="itemOne-tab-pane" role="tabpanel" aria-labelledby="itemOne-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="uae-business-formation.php"><img src="assets/img/services/h8_services_img011.jpg" alt="H8 Services Img011" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="uae-business-formation.php"><img src="assets/img/services/h8_services_img011.jpg" alt="UAE business formation consultants" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="uae-business-formation.php">UAE Business Formation, Structuring & Compliance</a></h2>
@@ -592,7 +594,7 @@
                         <div class="tab-pane fade" id="itemTwo-tab-pane" role="tabpanel" aria-labelledby="itemTwo-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="government-relations-pro-services.php"><img src="assets/img/services/h8_services_img022.jpg" alt="H8 Services Img022" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="government-relations-pro-services.php"><img src="assets/img/services/h8_services_img022.jpg" alt="Government relations and PRO services support" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="government-relations-pro-services.php">Government Relations & PRO Services</a></h2>
@@ -604,7 +606,7 @@
                         <div class="tab-pane fade" id="itemThree-tab-pane" role="tabpanel" aria-labelledby="itemThree-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="immigration-residency-solutions.php"><img src="assets/img/services/h8_services_img03.jpg" alt="H8 Services Img03" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="immigration-residency-solutions.php"><img src="assets/img/services/h8_services_img03.jpg" alt="UAE immigration and residency services" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="immigration-residency-solutions.php">Immigration & Residency Solutions</a></h2>
@@ -616,7 +618,7 @@
                         <div class="tab-pane fade" id="itemFour-tab-pane" role="tabpanel" aria-labelledby="itemFour-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="digital-marketing-brand-development.php"><img src="assets/img/services/h8_services_img01.jpg" alt="H8 Services Img01" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="digital-marketing-brand-development.php"><img src="assets/img/services/h8_services_img01.jpg" alt="Digital marketing and brand development team" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="digital-marketing-brand-development.php">Digital Marketing & Brand Development</a></h2>
@@ -628,7 +630,7 @@
                         <div class="tab-pane fade" id="itemFive-tab-pane" role="tabpanel" aria-labelledby="itemFive-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="ai-automation-technology-solutions.php"><img src="assets/img/services/h8_services_img02.jpg" alt="H8 Services Img02" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="ai-automation-technology-solutions.php"><img src="assets/img/services/h8_services_img02.jpg" alt="AI automation and technology solutions" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="ai-automation-technology-solutions.php">AI Automation & Technology Solutions</a></h2>
@@ -858,8 +860,8 @@
                 </div>
             </div>
             <div class="cta__shape-wrap-two">
-                <img src="assets/img/images/h7_cta_shape01.svg" alt="shape">
-                <img src="assets/img/images/h7_cta_shape02.svg" alt="shape">
+                <img src="assets/img/images/h7_cta_shape01.svg" alt="" aria-hidden="true">
+                <img src="assets/img/images/h7_cta_shape02.svg" alt="" aria-hidden="true">
             </div>
         </section>
         <!-- cta-area-end -->
@@ -879,7 +881,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
-                                <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="Blog Post01" loading="lazy" decoding="async" width="900" height="643"></a>
+                                <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="Business consultant reviewing growth strategy documents" loading="lazy" decoding="async" width="900" height="643"></a>
                                 <div class="blog__post-date-two">
                                     <span>
                                         <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
@@ -890,7 +892,7 @@
                                 <a href="blog.php" class="blog__post-tag">Business</a>
                                 <h2 class="title"><a href="blog-details.php">How To Monitor And Google Core Web Vitals</a></h2>
                                 <div class="blog__post-author">
-                                    <a href="blog-details.php"><img src="assets/img/images/testi_avatar01.png" alt="Testi Avatar01" loading="lazy" decoding="async" width="100" height="100"></a>
+                                    <a href="blog-details.php"><img src="assets/img/images/testi_avatar01.png" alt="Doman Smith author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
                                     <span>By <a href="blog-details.php">Doman Smith</a></span>
                                 </div>
                             </div>
@@ -899,7 +901,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
-                                <a href="blog-details.php"><img src="assets/img/blog/blog_post02.jpg" alt="Blog Post02" loading="lazy" decoding="async" width="900" height="643"></a>
+                                <a href="blog-details.php"><img src="assets/img/blog/blog_post02.jpg" alt="Corporate team discussing business consulting plans" loading="lazy" decoding="async" width="900" height="643"></a>
                                 <div class="blog__post-date-two">
                                     <span>
                                         <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
@@ -910,7 +912,7 @@
                                 <a href="blog.php" class="blog__post-tag">Corporate Work</a>
                                 <h2 class="title"><a href="blog-details.php">How To Monitor And Google Core Web Vitals</a></h2>
                                 <div class="blog__post-author">
-                                    <a href="blog-details.php"><img src="assets/img/images/testi_avatar02.png" alt="Testi Avatar02" loading="lazy" decoding="async" width="100" height="100"></a>
+                                    <a href="blog-details.php"><img src="assets/img/images/testi_avatar02.png" alt="Doman Smith author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
                                     <span>By <a href="blog-details.php">Doman Smith</a></span>
                                 </div>
                             </div>
@@ -919,7 +921,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
-                                <a href="blog-details.php"><img src="assets/img/blog/blog_post03.jpg" alt="Blog Post03" loading="lazy" decoding="async" width="900" height="637"></a>
+                                <a href="blog-details.php"><img src="assets/img/blog/blog_post03.jpg" alt="Consultants planning a business development project" loading="lazy" decoding="async" width="900" height="637"></a>
                                 <div class="blog__post-date-two">
                                     <span>
                                         <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
@@ -930,7 +932,7 @@
                                 <a href="blog.php" class="blog__post-tag">consulting</a>
                                 <h2 class="title"><a href="blog-details.php">How To Monitor And Google Core Web Vitals</a></h2>
                                 <div class="blog__post-author">
-                                    <a href="blog-details.php"><img src="assets/img/images/testi_avatar03.png" alt="Testi Avatar03" loading="lazy" decoding="async" width="100" height="100"></a>
+                                    <a href="blog-details.php"><img src="assets/img/images/testi_avatar03.png" alt="Doman Smith author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
                                     <span>By <a href="blog-details.php">Doman Smith</a></span>
                                 </div>
                             </div>
@@ -989,9 +991,9 @@
                         </div>
                     </div>
                     <div class="call__back-shape-two">
-                        <img src="assets/img/images/h2_call_back_shape01.svg" alt="shape">
-                        <img src="assets/img/images/h2_call_back_shape02.svg" alt="shape">
-                        <img src="assets/img/images/h2_call_back_shape03.svg" alt="shape">
+                        <img src="assets/img/images/h2_call_back_shape01.svg" alt="" aria-hidden="true">
+                        <img src="assets/img/images/h2_call_back_shape02.svg" alt="" aria-hidden="true">
+                        <img src="assets/img/images/h2_call_back_shape03.svg" alt="" aria-hidden="true">
                     </div>
                 </div>
             </div>
@@ -1024,7 +1026,7 @@
                         </div>
                     </div>
                     <div class="cta__shape-three">
-                        <img src="assets/img/images/h2_cta_shape.svg" alt="shape">
+                        <img src="assets/img/images/h2_cta_shape.svg" alt="" aria-hidden="true">
                     </div>
                 </div>
             </div>
