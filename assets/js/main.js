@@ -91,11 +91,31 @@
   /*===========================================
 	=          Data Background    =
 =============================================*/
+  function tgResponsiveBackground($element, backgroundAttr, mobileAttr) {
+    var mobileBackground = $element.attr(mobileAttr);
+
+    if (
+      mobileBackground &&
+      window.matchMedia &&
+      window.matchMedia("(max-width: 767px)").matches
+    ) {
+      return mobileBackground;
+    }
+
+    return $element.attr(backgroundAttr);
+  }
+
   $("[data-background]").each(function () {
-    $(this).css(
-      "background-image",
-      "url(" + $(this).attr("data-background") + ")",
+    var $this = $(this);
+    var background = tgResponsiveBackground(
+      $this,
+      "data-background",
+      "data-background-mobile",
     );
+
+    if (background) {
+      $this.css("background-image", "url(" + background + ")");
+    }
   });
 
   $("[data-bg-color]").each(function () {
