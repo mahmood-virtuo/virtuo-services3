@@ -49,4 +49,5 @@ $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
         </div>
     </div>
 </section>
+
 <!-- breadcrumb-area-end -->
