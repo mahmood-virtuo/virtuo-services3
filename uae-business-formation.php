@@ -1215,11 +1215,25 @@
                                                 <input type="email" name="email" placeholder="Email" autocomplete="email" required>
                                             </div>
 
-                                            <div class="form-grp phone-grp">
-                                                <span class="phone-code">🇦🇪 +971</span>
-                                                <input type="tel" name="phone_display" class="virtuo-footer-phone-input" placeholder="Phone" autocomplete="tel" inputmode="numeric" maxlength="15" pattern="[0-9]{5,15}" required>
+                                            <div class="form-grp phone-field-wrap">
+                                                <input type="tel"
+                                                       name="phone_display"
+                                                       class="virtuo-footer-phone-input"
+                                                       autocomplete="tel"
+                                                       required>
                                                 <input type="hidden" name="phone" value="">
                                                 <input type="hidden" name="phone_country" value="AE">
+                                            </div>
+
+                                            <div class="form-grp">
+                                                         <select name="service" required>
+                                                             <option value="" disabled selected>Select Service</option>
+                                                             <option value="UAE Business Formation, Structuring & Compliance">UAE Business Formation, Structuring & Compliance</option>
+                                                             <option value="Government Relations & PRO Services">Government Relations & PRO Services</option>
+                                                             <option value="Immigration & Residency Solutions">Immigration & Residency Solutions</option>
+                                                             <option value="Digital Marketing & Brand Development">Digital Marketing & Brand Development</option>
+                                                             <option value="AI Automation & Technology Solutions">AI Automation & Technology Solutions</option>
+                                                         </select>
                                             </div>
 
                                             <div class="form-grp">
@@ -1234,10 +1248,9 @@
                                                     <option value="Umm Al Quwain">Umm Al Quwain</option>
                                                 </select>
                                             </div>
-
-                                            <div class="form-grp">
+                                            <!-- <div class="form-grp">
                                                 <textarea name="message" placeholder="How can we help you?" required></textarea>
-                                            </div>
+                                            </div> -->
 
                                             <div class="sidebar-form-benefits">
                                                 <h5>Our team can help you with :</h5>
