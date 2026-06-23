@@ -32,7 +32,7 @@
                 <div class="col-lg-7">
                     <div class="tg-header__top-info">
                         <ul class="list-wrap">
-                            <li><i class="flaticon-placeholder"></i>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</li>
+                            <li><i class="flaticon-placeholder"></i>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</li>
                             <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a></li>
                         </ul>
                     </div>
@@ -163,7 +163,7 @@
                         <ul class="list-wrap">
                             <li class="header-contact">
                                 <a href="https://wa.me/971565151315" class="header-whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i>
-                                <!-- <span>WhatsApp</span> -->
+                                <span>WhatsApp</span>
                             </a>
                             </li>
                             <li class="offCanvas-menu">
@@ -234,7 +234,7 @@
         <div class="offCanvas__side-info">
             <div class="contact-list">
                 <i class="flaticon-placeholder"></i>
-                <p><span>Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
+                <p><span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
             </div>
             <div class="contact-list">
                 <a href="https://wa.me/971565151315" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" style="padding-right: 18px;" aria-hidden="true"></i><span>+971 56 515 1315</span></a>

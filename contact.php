@@ -148,118 +148,52 @@
         <!-- marquee-area-end -->
 
 
-        <!-- contact-map -->
-        <!-- <div class="contact-map">
-            <iframe src="https://maps.app.goo.gl/PsjFHMFt8rWGjapf8"
-                allowfullscreen loading="lazy"></iframe>
-        </div> -->
+       
 
-        <div class="contact-map">
-            <iframe src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
+        
 
         <!-- contact-map-end -->
-
-        <!-- contact-area -->
+        <!-- ---New code------- -->
         <section class="contact__area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="contact__info-wrap">
-                            <div class="contact__info-item">
-                                <!-- <h4 class="title">Virtuo</h4> -->
-                                <img src="assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39" style="margin-bottom: 15px;">
-                                <p style="line-height: 30px;">
-                                    <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer" style="font-weight: 400; font-size:16px;">Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a>
-
-                                </p>
-                                <ul class="list-wrap">
-                                    <li>
-                                        <a href="tel:+971565151315">+971 56 515 1315</a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
-                                    </li>
-                                </ul>
-                                <div class="shape">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="174" height="210" viewBox="0 0 174 210" fill="none">
-                                        <path d="M168.636 86.8182C168.636 150.455 86.8182 205 86.8182 205C86.8182 205 5 150.455 5 86.8182C5 65.1187 13.6201 44.3079 28.964 28.964C44.3079 13.6201 65.1187 5 86.8182 5C108.518 5 129.328 13.6201 144.672 28.964C160.016 44.3079 168.636 65.1187 168.636 86.8182Z" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M86.8182 114.091C101.88 114.091 114.091 101.88 114.091 86.8182C114.091 71.7559 101.88 59.5455 86.8182 59.5455C71.7559 59.5455 59.5455 71.7559 59.5455 86.8182C59.5455 101.88 71.7559 114.091 86.8182 114.091Z" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <!-- <div class="contact__info-item">
-                                <h4 class="title">Virtuo Services F.Z.C</h4>
-                                <p><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
-                                <ul class="list-wrap">
-                                    <li>
-                                        <a href="tel:+971565151315">+971 56 515 1315</a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
-                                    </li>
-                                </ul>
-                                <div class="shape">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="174" height="210" viewBox="0 0 174 210" fill="none">
-                                        <path d="M168.636 86.8182C168.636 150.455 86.8182 205 86.8182 205C86.8182 205 5 150.455 5 86.8182C5 65.1187 13.6201 44.3079 28.964 28.964C44.3079 13.6201 65.1187 5 86.8182 5C108.518 5 129.328 13.6201 144.672 28.964C160.016 44.3079 168.636 65.1187 168.636 86.8182Z" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M86.8182 114.091C101.88 114.091 114.091 101.88 114.091 86.8182C114.091 71.7559 101.88 59.5455 86.8182 59.5455C71.7559 59.5455 59.5455 71.7559 59.5455 86.8182C59.5455 101.88 71.7559 114.091 86.8182 114.091Z" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="contact__info-item">
-                                <h4 class="title">Virtuo Services F.Z.C</h4>
-                                <p><a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
-                                <ul class="list-wrap">
-                                    <li>
-                                        <a href="tel:+971565151315">+971 56 515 1315</a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
-                                    </li>
-                                </ul>
-                                <div class="shape">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="174" height="210" viewBox="0 0 174 210" fill="none">
-                                        <path d="M168.636 86.8182C168.636 150.455 86.8182 205 86.8182 205C86.8182 205 5 150.455 5 86.8182C5 65.1187 13.6201 44.3079 28.964 28.964C44.3079 13.6201 65.1187 5 86.8182 5C108.518 5 129.328 13.6201 144.672 28.964C160.016 44.3079 168.636 65.1187 168.636 86.8182Z" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M86.8182 114.091C101.88 114.091 114.091 101.88 114.091 86.8182C114.091 71.7559 101.88 59.5455 86.8182 59.5455C71.7559 59.5455 59.5455 71.7559 59.5455 86.8182C59.5455 101.88 71.7559 114.091 86.8182 114.091Z" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="contact__form-wrap">
-                            <h2 class="title">Leave Us A Message</h2>
-                            <form id="contact-form" action="assets/mail.php" class="contact__form" method="POST">
-                                <input type="hidden" name="form_type" value="contact">
-                                <div class="form-grp">
-                                    <label for="name">Name *</label>
-                                    <input id="name" name="name" class="virtuo-name-input" type="text" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>
-                                </div>
-                                <div class="form-grp">
-                                    <label for="email">Email *</label>
-                                    <input id="email" name="email" type="email" required>
-                                </div>
-                                <div class="form-grp">
-                                    <label for="website">Website *</label>
-                                    <input id="website" name="website" type="url" required>
-                                </div>
-                                <div class="form-grp">
-                                    <label for="comment">Comment *</label>
-                                    <textarea name="message" id="comment" required></textarea>
-                                </div>
-                                <div class="form-grp checkbox-grp">
-                                    <input type="checkbox" id="checkbox">
-                                    <label for="checkbox">Save my name, email, and website in this browser for the next time I comment.</label>
-                                </div>
-                                <button type="submit" class="tg-btn tg-btn-three">Submit Message</button>
-                            </form>
-                            <p class="ajax-response mb-0"></p>
-                        </div>
-                    </div>
+    <div class="container">
+        <div class="row mb-5 align-items-stretch">
+            <div class="col-lg-7">
+                <div class="contact-map-box">
+                    <iframe src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </section>
+
+            <div class="col-lg-5">
+                <div class="contact-box-wrap">
+                    <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="contact-box">
+                        <span class="front"><i class="fab fa-whatsapp"></i> WhatsApp</span>
+                        <span class="back">+971 56 515 1315</span>
+                    </a>
+
+                    <a href="mailto:info@virtuo.ae" class="contact-box">
+                        <span class="front"><i class="far fa-envelope"></i> Email</span>
+                        <span class="back">info@virtuo.ae</span>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener" class="contact-box">
+                        <span class="front"><i class="fas fa-map-marker-alt"></i> Head Office</span>
+                        <span class="back">Office - BLV - 6F - SF60959
+                            A Building - Ajman Blvd,<br/> Ajman Freezone
+                            Sheikh Rashid Bin Saeed Al Maktoum St.
+                            <br/>Ajman, United Arab Emirates
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+         <!-- ------End New Code------ -->
+        <!-- contact-area -->
+        
         <!-- contact-area-end -->
 
         <!-- cta-area -->
