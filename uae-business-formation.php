@@ -1201,7 +1201,7 @@
                             </div>
                             <div class="sidebar__widget">
                                 <div class="sidebar__contact">
-                                    <h4 class="title">Your Gateway to Seamless Business Success in Dubai</h4>
+                                    <h4 class="title">Book a Free Consultation with Virtuo’s UAE Business Setup Experts</h4>
                                     <p>Navigating complex UAE regulations and growth requirements so you can focus on scaling your corporate vision.</p>
                                     <a href="/contact" class="tg-btn tg-btn-three">
                                         Contact With Us

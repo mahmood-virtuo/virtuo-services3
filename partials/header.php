@@ -90,20 +90,20 @@
                                         <div class="virtuo-services-mega__divider" aria-hidden="true"></div>
                                         <div class="virtuo-services-mega__panels">
                                             <div class="virtuo-services-mega__panel is-active" data-mega-panel="formation">
-                                                <a href="//uae-business-formation#mainland">Mainland Business Setup</a>
-                                                <a href="//uae-business-formation#freezone">Free Zone Business Setup</a>
-                                                <a href="//uae-business-formation#offshore">Offshore Business Setup</a>
-                                                <a href="//uae-business-formation#virtual">Virtual Office</a>
-                                                <a href="//uae-business-formation#business-bank-account-opening">BUSINESS BANK ACCOUNT OPENING</a>
+                                                <a href="/uae-business-formation#mainland">Mainland Business Setup</a>
+                                                <a href="/uae-business-formation#freezone">Free Zone Business Setup</a>
+                                                <a href="/uae-business-formation#offshore">Offshore Business Setup</a>
+                                                <a href="/uae-business-formation#virtual">Virtual Office</a>
+                                                <a href="/uae-business-formation#business-bank-account-opening">BUSINESS BANK ACCOUNT OPENING</a>
                                             </div>
                                             <div class="virtuo-services-mega__panel" data-mega-panel="pro">
-                                                <a href="///government-relations-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a>
-                                                <a href="///government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Legal Attestation Services</a>
-                                                <a href="///government-relations-pro-services#government-relations-pro-services-document-clearance-services">Document Clearance Services</a>
-                                                <a href="///government-relations-pro-services#government-relations-pro-services-translation-services">Translation Services</a>
-                                                <a href="///government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
-                                                <a href="///government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
-                                                <a href="///government-relations-pro-services#government-relations-pro-services-notary-public-services-dubai">Notary Public Services Dubai</a>
+                                                <a href="/government-relations-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a>
+                                                <a href="/government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Legal Attestation Services</a>
+                                                <a href="/government-relations-pro-services#government-relations-pro-services-document-clearance-services">Document Clearance Services</a>
+                                                <a href="/government-relations-pro-services#government-relations-pro-services-translation-services">Translation Services</a>
+                                                <a href="/government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
+                                                <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
+                                                <a href="/government-relations-pro-services#government-relations-pro-services-notary-public-services-dubai">Notary Public Services Dubai</a>
                                             </div>
                                             <div class="virtuo-services-mega__panel" data-mega-panel="immigration">
                                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a>
