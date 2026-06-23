@@ -582,24 +582,24 @@
                         <div class="tab-pane fade show active" id="itemOne-tab-pane" role="tabpanel" aria-labelledby="itemOne-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="//uae-business-formation"><img src="assets/img/services/h8_services_img011.jpg" alt="UAE business formation consultants" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="/uae-business-formation"><img src="assets/img/services/h8_services_img011.jpg" alt="UAE business formation consultants" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
-                                    <h2 class="title"><a href="//uae-business-formation">UAE Business Formation, Structuring & Compliance</a></h2>
+                                    <h2 class="title"><a href="/uae-business-formation">UAE Business Formation, Structuring & Compliance</a></h2>
                                     <p>Establish your business with the right structure, licensing, and regulatory framework for long-term success.</p>
-                                    <a href="//uae-business-formation" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    <a href="/uae-business-formation" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="itemTwo-tab-pane" role="tabpanel" aria-labelledby="itemTwo-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="///government-relations-pro-services"><img src="assets/img/services/h8_services_img022.jpg" alt="Government relations and PRO services support" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="/government-relations-pro-services"><img src="assets/img/services/h8_services_img022.jpg" alt="Government relations and PRO services support" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
-                                    <h2 class="title"><a href="///government-relations-pro-services">Government Relations & PRO Services</a></h2>
+                                    <h2 class="title"><a href="/government-relations-pro-services">Government Relations & PRO Services</a></h2>
                                     <p>Simplify approvals, renewals, document processing, and corporate administration through dedicated PRO support.</p>
-                                    <a href="///government-relations-pro-services" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    <a href="/government-relations-pro-services" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                 </div>
                             </div>
                         </div>
@@ -618,12 +618,12 @@
                         <div class="tab-pane fade" id="itemFour-tab-pane" role="tabpanel" aria-labelledby="itemFour-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="/immigration-residency-solutions"><img src="assets/img/services/h8_services_img01.jpg" alt="Digital marketing and brand development team" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="/digital-marketing-brand-development"><img src="assets/img/services/h8_services_img01.jpg" alt="Digital marketing and brand development team" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
-                                    <h2 class="title"><a href="/immigration-residency-solutions">Digital Marketing & Brand Development</a></h2>
+                                    <h2 class="title"><a href="/digital-marketing-brand-development">Digital Marketing & Brand Development</a></h2>
                                     <p>Build your presence, generate leads, and grow your brand through strategic marketing and digital solutions.</p>
-                                    <a href="/immigration-residency-solutions" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    <a href="/digital-marketing-brand-development" class="tg-btn tg-btn-four"><img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                 </div>
                             </div>
                         </div>
