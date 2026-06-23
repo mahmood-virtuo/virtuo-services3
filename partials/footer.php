@@ -130,11 +130,11 @@
                              <nav class="footer-reference-left__services" aria-label="PRO services">
                                  <h4 style="color: #EE4c01;">PRO Services</h4>
                                  <a href="/immigration-residency-solutions#immigration-residency-solutions-gdrfa-services-dubai">GDRFA</a>
-                                 <a href="//uae-business-formation#virtual">Virtual Office</a>
-                                 <a href="///government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
-                                 <a href="///government-relations-pro-services#government-relations-pro-services-translation-services">Legal Translation</a>
-                                 <a href="///government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
-                                 <a href="///government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Attestation Services</a>
+                                 <a href="/uae-business-formation#virtual">Virtual Office</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-translation-services">Legal Translation</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Attestation Services</a>
                              </nav>
                              <nav class="footer-reference-left__services" aria-label="Visa services">
                                  <h4 style="color: #EE4c01;">Visa Services</h4>
