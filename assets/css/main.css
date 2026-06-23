@@ -5519,7 +5519,7 @@ textarea {
   }
 }
 .circle__wrap-two .icon {
-  background: var(--tg-theme-primary);
+  background: linear-gradient(90deg, #09194e 0%, #175ab1 100%);
   color: var(--tg-color-white-default);
 }
 .circle__wrap-two .content .circle {
@@ -9121,6 +9121,7 @@ textarea {
   padding: 30px 45px 30px 35px;
   border-left: 4px solid #10113e;
   background: var(--tg-theme-secondary);
+  /* background: white; */
   color: #c1c6e3;
 }
 @media (max-width: 1199.98px) {
@@ -10783,7 +10784,7 @@ textarea {
   }
 }
 .cta__area-five {
-  background: #564abe;
+  background: linear-gradient(90deg, #09194e 0%, #175ab1 100%);
   position: relative;
   z-index: 1;
   padding: 49px 0;
@@ -15294,7 +15295,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 7px;
+  gap: 12px;
   margin-top: 15px;
 }
 .virtuo-team__social a {
@@ -19035,22 +19036,24 @@ blockquote cite {
   }
 }
 .marquee-wrap-two {
-  background: var(--tg-theme-primary);
-  padding: 17px 0 8px;
+  background: linear-gradient(90deg, #09194e 0%, #175ab1 100%);
+  padding: 27px 0 8px;
   transform: rotate(-4.333deg);
   position: relative;
   left: -5px;
   right: -5px;
+  height: 75px;
   width: 105%;
 }
 .marquee-wrap-three {
-  background: #564abe;
-  padding: 17px 0 8px;
+  background: linear-gradient(90deg, #09194e 0%, #175ab1 100%);
+  padding: 27px 0 8px;
   transform: rotate(3.864deg);
   position: absolute;
   z-index: 1;
   left: -5px;
   right: -5px;
+  height: 75px;
   top: 0;
 }
 @media (max-width: 1199.98px) {
@@ -19096,8 +19099,9 @@ blockquote cite {
   color: white;
 }
 .marquee__item-two a {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "Alexandria", sans-serif;
   color: var(--tg-color-white-default);
   -webkit-text-stroke: unset;
   letter-spacing: 3.2px;
@@ -19109,9 +19113,9 @@ blockquote cite {
   }
 }
 .marquee__item-two a svg {
-  color: var(--tg-color-white-default);
-  width: 36px;
-  height: 36px;
+  color: var(--tg-theme-primary);
+  width: 15px;
+  height: 15px;
 }
 
 /*=============================

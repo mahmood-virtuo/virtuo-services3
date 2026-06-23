@@ -401,7 +401,7 @@
         <!-- choose-area-end -->
 
         <!-- services-area -->
-        <section class=" section-py-130" style="background-image: url(/assets/img/services/footerBackgroundImage.webp); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.webp">
+        <section class=" section-py-130" style="background-color: url(/assets/img/services/footerBackgroundImage.jgp); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-8">
@@ -783,36 +783,7 @@
         <!-- call-back-area-end -->
 
         <!-- cta-area -->
-        <section class="cta__area-two">
-            <div class="container">
-                <div class="cta__inner-wrap-two">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="cta__content-three">
-                                <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="cta__content-right">
-                                <div class="cta__contact">
-                                    <div class="icon">
-                                        <i class="flaticon-telephone"></i>
-                                    </div>
-                                    <div class="content">
-                                        <span>Call For More Info</span>
-                                        <a href="tel:+971565151315">+971 56 515 1315</a>
-                                    </div>
-                                </div>
-                                <a href="/contact" class="tg-btn tg-btn-three tg-border-btn ">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cta__shape-three">
-                        <img src="assets/img/images/h2_cta_shape.svg" alt="" aria-hidden="true">
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <!-- cta-area-end -->
 
 
