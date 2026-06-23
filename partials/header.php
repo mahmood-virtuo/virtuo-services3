@@ -84,7 +84,7 @@
                                             <button type="button" data-mega-category="pro" data-mega-link="/government-relations-pro-services">Government Relations &amp; PRO Services</button>
                                             <button type="button" data-mega-category="immigration" data-mega-link="/immigration-residency-solutions">Immigration &amp; Residency Solutions</button>
                                             <!-- <button type="button" data-mega-category="marketing" data-mega-link="/immigration-residency-solutions">Digital Marketing &amp; Brand Development</button> -->
-                                           <button type="button" data-mega-category="marketing" data-mega-link="/uae-business-formation">Digital Marketing &amp; Brand Development</button>
+                                           <button type="button" data-mega-category="marketing" data-mega-link="/digital-marketing-brand-development">Digital Marketing &amp; Brand Development</button>
                                             <button type="button" data-mega-category="ai" data-mega-link="/ai-automation-technology-solutions">AI Automation &amp; Technology Solutions</button>
                                         </div>
                                         <div class="virtuo-services-mega__divider" aria-hidden="true"></div>
@@ -125,10 +125,10 @@
                                             <!-- <div class="virtuo-services-mega__panel is-active" data-mega-panel="marketing"> -->
                                                 <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
                                                 <!-- <a href="/immigration-residency-solutions">WEB &amp; DIGITAL SOLUTIONS</a> -->
-                                                 <a href="/uae-business-formation">WEB &amp; DIGITAL SOLUTIONS</a>
-                                                <a href="/uae-business-formation#digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
-                                                <a href="/uae-business-formation#digital-marketing-brand-development-brand-development">BRAND DEVELOPMENT</a>
-                                                <a href="/uae-business-formation#digital-marketing-brand-development-marketing-solutions">MARKETING SOLUTIONS</a>
+                                                 <a href="/digital-marketing-brand-development">WEB &amp; DIGITAL SOLUTIONS</a>
+                                                <a href="/digital-marketing-brand-development#digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
+                                                <a href="/digital-marketing-brand-development#digital-marketing-brand-development-brand-development">BRAND DEVELOPMENT</a>
+                                                <a href="/digital-marketing-brand-development#digital-marketing-brand-development-marketing-solutions">MARKETING SOLUTIONS</a>
                                             </div>
                                             <div class="virtuo-services-mega__panel" data-mega-panel="ai">
                                                 <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
