@@ -41,7 +41,7 @@ if (!function_exists('virtuo_render_work_line_shape')) {
         static $workLineShape = null;
 
         if ($workLineShape === null) {
-            $templatePath = __DIR__ . '/../uae-business-formation.php';
+            $templatePath = __DIR__ . '/..///uae-business-formation';
             $template = is_readable($templatePath) ? file_get_contents($templatePath) : '';
 
             if ($template && preg_match('/<div class="work__line-shape">\s*(<svg[\s\S]*?<\/svg>)\s*<\/div>/', $template, $matches)) {
@@ -343,7 +343,7 @@ if (!function_exists('virtuo_render_service_sidebar')) {
                     <p>
                         Navigating complex UAE regulations seamlessly so you can focus exclusively on scaling your corporate vision.
                     </p>
-                    <a href="contact.php" class="tg-btn tg-btn-three">
+                    <a href="/contact" class="tg-btn tg-btn-three">
                         Contact With Us
                         <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
                     </a>

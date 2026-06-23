@@ -317,11 +317,11 @@
                                 <h4 class="sidebar__widget-title">Categories</h4>
                                 <div class="bs-cat-list">
                                     <ul class="list-wrap">
-                                        <li><a href="blog.php">Business Strategy <span>(02)</span></a></li>
-                                        <li><a href="blog.php">Finance Advisory <span>(08)</span></a></li>
-                                        <li><a href="blog.php">Marketing Analysis <span>(05)</span></a></li>
-                                        <li><a href="blog.php">Investment Planning <span>(02)</span></a></li>
-                                        <li><a href="blog.php">Data Analysis <span>(11)</span></a></li>
+                                        <li><a href="/blog">Business Strategy <span>(02)</span></a></li>
+                                        <li><a href="/blog">Finance Advisory <span>(08)</span></a></li>
+                                        <li><a href="/blog">Marketing Analysis <span>(05)</span></a></li>
+                                        <li><a href="/blog">Investment Planning <span>(02)</span></a></li>
+                                        <li><a href="/blog">Data Analysis <span>(11)</span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -329,13 +329,13 @@
                                 <h4 class="sidebar__widget-title">Popular Tags</h4>
                                 <div class="sidebar__tag-list">
                                     <ul class="list-wrap">
-                                        <li><a href="blog.php">Finance</a></li>
-                                        <li><a href="blog.php">Investment</a></li>
-                                        <li><a href="blog.php">TAX</a></li>
-                                        <li><a href="blog.php">Banking</a></li>
-                                        <li><a href="blog.php">Finance Advisor</a></li>
-                                        <li><a href="blog.php">Tax Consultancy</a></li>
-                                        <li><a href="blog.php">Security</a></li>
+                                        <li><a href="/blog">Finance</a></li>
+                                        <li><a href="/blog">Investment</a></li>
+                                        <li><a href="/blog">TAX</a></li>
+                                        <li><a href="/blog">Banking</a></li>
+                                        <li><a href="/blog">Finance Advisor</a></li>
+                                        <li><a href="/blog">Tax Consultancy</a></li>
+                                        <li><a href="/blog">Security</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -343,7 +343,7 @@
                                 <div class="sidebar__contact">
                                     <h4 class="title">Your Gateway to Seamless Business Success in Dubai</h4>
                                     <p>Navigating complex UAE regulations seamlessly so you can focus exclusively on scaling your corporate vision.</p>
-                                    <a href="contact.php" class="tg-btn tg-btn-three">Contact With Us <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                                    <a href="/contact" class="tg-btn tg-btn-three">Contact With Us <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                                     <div class="shape">
                                         <img src="assets/img/images/sidebar_contact_shape01.svg" alt="" aria-hidden="true" class="rotateme">
                                         <img src="assets/img/images/sidebar_contact_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown">

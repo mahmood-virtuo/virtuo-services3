@@ -26,16 +26,16 @@ if ($schema_request_file !== 'index.php' && strpos($schema_request_file, '.') ==
 $schema_page_file = $schema_request_file !== 'index.php' ? $schema_request_file : $schema_current_file;
 $schema_page_map = array(
     'index.php' => 'home',
-    'about.php' => 'about',
+    'about' => 'about',
     'services.php' => 'services',
-    'contact.php' => 'contact',
-    'blog.php' => 'blog',
+    '/contact' => 'contact',
+    '/blog' => 'blog',
     'post.php' => 'article',
-    'uae-business-formation.php' => 'services',
-    'government-relations-pro-services.php' => 'services',
-    'immigration-residency-solutions.php' => 'services',
-    'digital-marketing-brand-development.php' => 'services',
-    'ai-automation-technology-solutions.php' => 'services',
+    '//uae-business-formation' => 'services',
+    '///government-relations-pro-services' => 'services',
+    '/immigration-residency-solutions' => 'services',
+    '/immigration-residency-solutions' => 'services',
+    '/ai-automation-technology-solutions' => 'services',
 );
 
 $seoPage = isset($seoPage) && is_array($seoPage) ? $seoPage : array();
@@ -74,4 +74,4 @@ $service_name = $seoPage['serviceType'] ?? $page_breadcrumb_title;
 $service_description = $page_content_excerpt;
 $article_author = $seoPage['author'] ?? $schema_organization_name;
 $article_date_published = $seoPage['datePublished'] ?? '';
-$include_local_business_schema = in_array($schema_page_file, array('index.php', 'services.php', 'contact.php'), true);
+$include_local_business_schema = in_array($schema_page_file, array('index.php', 'services.php', '/contact'), true);

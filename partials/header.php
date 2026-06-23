@@ -41,7 +41,7 @@
                     <div class="tg-header__top-right">
                         <ul class="list-wrap">
                             <li class="log-in">
-                                <a href="contact.php"><img src="assets/img/icons/lock.svg" alt="" class="injectable">Log in</a>
+                                <a href="/contact"><img src="assets/img/icons/lock.svg" alt="" class="injectable">Log in</a>
                             </li>
                             <li>
                                 <div class="tg-header__top-social">
@@ -74,47 +74,47 @@
                         <ul class="navigation">
 
                             <li>
-                                <a href="about.php">About</a>
+                                <a href="about">About</a>
                             </li>
                             <li class="menu-item-has-children virtuo-mega-menu-trigger"><a href="#">Services</a>
                                 <div class="virtuo-services-mega" data-virtuo-mega-menu>
                                     <div class="virtuo-services-mega__inner">
                                         <div class="virtuo-services-mega__categories" role="list">
-                                            <button type="button" class="is-active" data-mega-category="formation" data-mega-link="uae-business-formation.php">UAE Business Formation, Structuring &amp; Compliance</button>
-                                            <button type="button" data-mega-category="pro" data-mega-link="government-relations-pro-services.php">Government Relations &amp; PRO Services</button>
-                                            <button type="button" data-mega-category="immigration" data-mega-link="immigration-residency-solutions.php">Immigration &amp; Residency Solutions</button>
-                                            <!-- <button type="button" data-mega-category="marketing" data-mega-link="digital-marketing-brand-development.php">Digital Marketing &amp; Brand Development</button> -->
-                                           <button type="button" data-mega-category="marketing" data-mega-link="digital-marketing-brand-development.php">Digital Marketing &amp; Brand Development</button>
-                                            <button type="button" data-mega-category="ai" data-mega-link="ai-automation-technology-solutions.php">AI Automation &amp; Technology Solutions</button>
+                                            <button type="button" class="is-active" data-mega-category="formation" data-mega-link="/uae-business-formation">UAE Business Formation, Structuring &amp; Compliance</button>
+                                            <button type="button" data-mega-category="pro" data-mega-link="/government-relations-pro-services">Government Relations &amp; PRO Services</button>
+                                            <button type="button" data-mega-category="immigration" data-mega-link="/immigration-residency-solutions">Immigration &amp; Residency Solutions</button>
+                                            <!-- <button type="button" data-mega-category="marketing" data-mega-link="/immigration-residency-solutions">Digital Marketing &amp; Brand Development</button> -->
+                                           <button type="button" data-mega-category="marketing" data-mega-link="/immigration-residency-solutions">Digital Marketing &amp; Brand Development</button>
+                                            <button type="button" data-mega-category="ai" data-mega-link="/ai-automation-technology-solutions">AI Automation &amp; Technology Solutions</button>
                                         </div>
                                         <div class="virtuo-services-mega__divider" aria-hidden="true"></div>
                                         <div class="virtuo-services-mega__panels">
                                             <div class="virtuo-services-mega__panel is-active" data-mega-panel="formation">
-                                                <a href="uae-business-formation.php#mainland">Mainland Business Setup</a>
-                                                <a href="uae-business-formation.php#freezone">Free Zone Business Setup</a>
-                                                <a href="uae-business-formation.php#offshore">Offshore Business Setup</a>
-                                                <a href="uae-business-formation.php#virtual">Virtual Office</a>
-                                                <a href="uae-business-formation.php#business-bank-account-opening">BUSINESS BANK ACCOUNT OPENING</a>
+                                                <a href="//uae-business-formation#mainland">Mainland Business Setup</a>
+                                                <a href="//uae-business-formation#freezone">Free Zone Business Setup</a>
+                                                <a href="//uae-business-formation#offshore">Offshore Business Setup</a>
+                                                <a href="//uae-business-formation#virtual">Virtual Office</a>
+                                                <a href="//uae-business-formation#business-bank-account-opening">BUSINESS BANK ACCOUNT OPENING</a>
                                             </div>
                                             <div class="virtuo-services-mega__panel" data-mega-panel="pro">
-                                                <a href="government-relations-pro-services.php#government-relations-pro-services-trade-license-services">Trade License Services</a>
-                                                <a href="government-relations-pro-services.php#government-relations-pro-services-legal-attestation-services">Legal Attestation Services</a>
-                                                <a href="government-relations-pro-services.php#government-relations-pro-services-document-clearance-services">Document Clearance Services</a>
-                                                <a href="government-relations-pro-services.php#government-relations-pro-services-translation-services">Translation Services</a>
-                                                <a href="government-relations-pro-services.php#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
-                                                <a href="government-relations-pro-services.php#government-relations-pro-services-mohre-services">MOHRE Services</a>
-                                                <a href="government-relations-pro-services.php#government-relations-pro-services-notary-public-services-dubai">Notary Public Services Dubai</a>
+                                                <a href="///government-relations-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a>
+                                                <a href="///government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Legal Attestation Services</a>
+                                                <a href="///government-relations-pro-services#government-relations-pro-services-document-clearance-services">Document Clearance Services</a>
+                                                <a href="///government-relations-pro-services#government-relations-pro-services-translation-services">Translation Services</a>
+                                                <a href="///government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
+                                                <a href="///government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
+                                                <a href="///government-relations-pro-services#government-relations-pro-services-notary-public-services-dubai">Notary Public Services Dubai</a>
                                             </div>
                                             <div class="virtuo-services-mega__panel" data-mega-panel="immigration">
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-immigration-services">Immigration Services</a>
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa">FREELANCE VISA</a>
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-dependent-visa">Dependent Visa</a>
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae">Golden Visa UAE</a>
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai">Investor Visa Dubai</a>
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa">Residence Visa</a>
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-gdrfa-services-dubai">GDRFA Services Dubai</a>
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-employment-visa">Employment Visa</a>
-                                                <a href="immigration-residency-solutions.php#immigration-residency-solutions-consulate-services-dubai">Consulate Services Dubai</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">FREELANCE VISA</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-dependent-visa">Dependent Visa</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa UAE</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai">Investor Visa Dubai</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa">Residence Visa</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-gdrfa-services-dubai">GDRFA Services Dubai</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-employment-visa">Employment Visa</a>
+                                                <a href="/immigration-residency-solutions#immigration-residency-solutions-consulate-services-dubai">Consulate Services Dubai</a>
                                             </div>
                                             <!-- <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
                                                     <a href="web-digital-solutions.php">WEB & DIGITAL SOLUTIONS</a>
@@ -124,17 +124,17 @@
                                                 </div> -->
                                             <!-- <div class="virtuo-services-mega__panel is-active" data-mega-panel="marketing"> -->
                                                 <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
-                                                <!-- <a href="digital-marketing-brand-development.php">WEB &amp; DIGITAL SOLUTIONS</a> -->
-                                                 <a href="digital-marketing-brand-development.php">WEB &amp; DIGITAL SOLUTIONS</a>
-                                                <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
-                                                <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-brand-development">BRAND DEVELOPMENT</a>
-                                                <a href="digital-marketing-brand-development.php#digital-marketing-brand-development-marketing-solutions">MARKETING SOLUTIONS</a>
+                                                <!-- <a href="/immigration-residency-solutions">WEB &amp; DIGITAL SOLUTIONS</a> -->
+                                                 <a href="/immigration-residency-solutions">WEB &amp; DIGITAL SOLUTIONS</a>
+                                                <a href="/immigration-residency-solutions#digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
+                                                <a href="/immigration-residency-solutions#digital-marketing-brand-development-brand-development">BRAND DEVELOPMENT</a>
+                                                <a href="/immigration-residency-solutions#digital-marketing-brand-development-marketing-solutions">MARKETING SOLUTIONS</a>
                                             </div>
                                             <div class="virtuo-services-mega__panel" data-mega-panel="ai">
-                                                <a href="ai-automation-technology-solutions.php#ai-automation-technology-solutions-ai-automation">AI Automation</a>
-                                                <a href="ai-automation-technology-solutions.php#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
-                                                <a href="ai-automation-technology-solutions.php#ai-automation-technology-solutions-workflow-automation">Workflow Automation</a>
-                                                <a href="ai-automation-technology-solutions.php#ai-automation-technology-solutions-business-process-automation">Business Process Automation</a>
+                                                <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
+                                                <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
+                                                <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-workflow-automation">Workflow Automation</a>
+                                                <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-business-process-automation">Business Process Automation</a>
                                             </div>
                                         </div>
                                     </div>
@@ -149,13 +149,13 @@
                                     </ul> -->
                             </li>
                             <li>
-                                <a href="blog.php">Blog</a>
+                                <a href="/blog">Blog</a>
                             </li>
 
 
 
                             <li>
-                                <a href="contact.php">Contact</a>
+                                <a href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>

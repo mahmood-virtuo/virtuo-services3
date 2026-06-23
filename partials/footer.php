@@ -78,10 +78,10 @@
                     <h3>Quick Links</h3>
                     <div>
                         <a href="/">Home <span>↗</span></a>
-                        <a href="about.php">About Us <span>↗</span></a>
-                        <a href="blog.php">Blogs <span>↗</span></a>
+                        <a href="about">About Us <span>↗</span></a>
+                        <a href="/blog">Blogs <span>↗</span></a>
                         <a href="faq.php">F.A.Q's <span>↗</span></a>
-                        <a href="contact.php">Contact Us <span>↗</span></a>
+                        <a href="/contact">Contact Us <span>↗</span></a>
                         <a href="pricing.php">Cost Calculator <span>↗</span></a>
                     </div>
                 </nav>
@@ -129,21 +129,21 @@
                              </div>
                              <nav class="footer-reference-left__services" aria-label="PRO services">
                                  <h4 style="color: #EE4c01;">PRO Services</h4>
-                                 <a href="immigration-residency-solutions.php#immigration-residency-solutions-gdrfa-services-dubai">GDRFA</a>
-                                 <a href="uae-business-formation.php#virtual">Virtual Office</a>
-                                 <a href="government-relations-pro-services.php#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
-                                 <a href="government-relations-pro-services.php#government-relations-pro-services-translation-services">Legal Translation</a>
-                                 <a href="government-relations-pro-services.php#government-relations-pro-services-mohre-services">MOHRE Services</a>
-                                 <a href="government-relations-pro-services.php#government-relations-pro-services-legal-attestation-services">Attestation Services</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-gdrfa-services-dubai">GDRFA</a>
+                                 <a href="//uae-business-formation#virtual">Virtual Office</a>
+                                 <a href="///government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
+                                 <a href="///government-relations-pro-services#government-relations-pro-services-translation-services">Legal Translation</a>
+                                 <a href="///government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
+                                 <a href="///government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Attestation Services</a>
                              </nav>
                              <nav class="footer-reference-left__services" aria-label="Visa services">
                                  <h4 style="color: #EE4c01;">Visa Services</h4>
-                                 <a href="immigration-residency-solutions.php#immigration-residency-solutions-residence-visa">Residence Visa</a>
-                                 <a href="immigration-residency-solutions.php#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
-                                 <a href="immigration-residency-solutions.php#immigration-residency-solutions-investor-visa-dubai">Investor Visa</a>
-                                 <a href="immigration-residency-solutions.php#immigration-residency-solutions-employment-visa">Employment Visa</a>
-                                 <a href="immigration-residency-solutions.php#immigration-residency-solutions-dependent-visa">Dependent Visa</a>
-                                 <a href="immigration-residency-solutions.php#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa">Residence Visa</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai">Investor Visa</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-employment-visa">Employment Visa</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-dependent-visa">Dependent Visa</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
                              </nav>
                          </div>
 
@@ -160,9 +160,9 @@
                                  <div>
                                      <a href="/">Home <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <!-- <a href="faq.php">F.A.Q's <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
-                                     <a href="about.php">About Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
-                                     <a href="contact.php">Contact Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
-                                     <a href="blog.php">Blogs <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <a href="about">About Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <a href="/contact">Contact Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <a href="/blog">Blogs <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <!-- <a href="pricing.php">Cost Calculator <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
                                  </div>
                              </nav>
