@@ -192,40 +192,149 @@
         </section>
         <!-- about-area-end -->
 
-        <!-- cta-area -->
-        <section class="cta__area-two">
-            <div class="container">
-                <div class="cta__inner-wrap-two">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="cta__content-three">
-                                <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="cta__content-right">
-                                <div class="cta__contact">
-                                    <div class="icon">
-                                        <i class="flaticon-telephone"></i>
-                                    </div>
-                                    <div class="content">
-                                        <span>Call For More Info</span>
-                                        <a href="tel:+971565151315">+971 56 515 1315</a>
-                                    </div>
-                                </div>
-                                <a href="/contact" class="tg-btn tg-border-btn ">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cta__shape-three">
-                        <img src="assets/img/images/h2_cta_shape.svg" alt="" aria-hidden="true">
-                    </div>
+        
+
+        <!-- team-area -->
+         <section class="marquee__area-two" style="z-index: 1000;">
+            <div class="slider__marquee clearfix marquee-wrap-two">
+                <div class="marquee_mode marquee__group">
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>PRO SERVICES</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/uae-business-formation"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>BUSINESS SETUP</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>GOLDEN VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/uae-business-formation#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>BANK ACCOUNT OPENING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/digital-marketing-brand-development#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>BRAND DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>INVEST IN DUBAI</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>FREELANCE VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/digital-marketing-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>DIGITAL MARKETING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/ai-automation-technology-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>AI AUTOMATION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>GOVERNMENT RELATIONS</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/digital-marketing-brand-development#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>WEB DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>RESIDENCY SOLUTION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/digital-marketing-brand-development#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>MARKETING SOLUTION</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="slider__marquee clearfix marquee-wrap-three">
+                <div class="marquee_mode marquee__group-two" data-direction="right">
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>PRO SERVICES</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/uae-business-formation"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>BUSINESS SETUP</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>GOLDEN VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/uae-business-formation#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>BANK ACCOUNT OPENING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/digital-marketing-brand-development#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>BRAND DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>INVEST IN DUBAI</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>FREELANCE VISA</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/digital-marketing-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>DIGITAL MARKETING</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/ai-automation-technology-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>AI AUTOMATION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>GOVERNMENT RELATIONS</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/digital-marketing-brand-development#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>WEB DEVELOPMENT</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>RESIDENCY SOLUTION</a>
+                    </h6>
+                    <h6 class="marquee__item marquee__item-two">
+                        <a href="/digital-marketing-brand-development#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
+                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
+                            </svg>MARKETING SOLUTION</a>
+                    </h6>
                 </div>
             </div>
         </section>
-        <!-- cta-area-end -->
-
-        <!-- team-area -->
         <!-- team-area -->
         <section class="virtuo-team section-py-130" aria-labelledby="virtuo-team-title" style="margin-bottom: 80px;">
             <div class="container">
@@ -343,11 +452,42 @@
 
 
         <!-- brand-area-end -->
-
+        <section class="cta__area-two">
+            <div class="container">
+                <div class="cta__inner-wrap-two">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="cta__content-three">
+                                <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="cta__content-right">
+                                <div class="cta__contact">
+                                    <div class="icon">
+                                        <i class="flaticon-telephone"></i>
+                                    </div>
+                                    <div class="content">
+                                        <span>Call For More Info</span>
+                                        <a href="tel:+971565151315">+971 56 515 1315</a>
+                                    </div>
+                                </div>
+                                <a href="/contact" class="tg-btn tg-border-btn ">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta__shape-three">
+                        <img src="assets/img/images/h2_cta_shape.svg" alt="" aria-hidden="true">
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!-- main-area-end -->
-
+                            <!-- cta-area -->
+        
+        <!-- cta-area-end -->
     <!-- footer-area -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>

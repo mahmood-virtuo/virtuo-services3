@@ -297,144 +297,35 @@
         <!-- 3rd Section -->
 
         <!-- marquee-area -->
-        <section class="marquee__area-two">
-            <div class="slider__marquee clearfix marquee-wrap-two">
-                <div class="marquee_mode marquee__group">
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>PRO SERVICES</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/uae-business-formation"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>BUSINESS SETUP</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>GOLDEN VISA</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/uae-business-formation#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>BANK ACCOUNT OPENING</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/digital-marketing-brand-development#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>BRAND DEVELOPMENT</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>INVEST IN DUBAI</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>FREELANCE VISA</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/digital-marketing-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>DIGITAL MARKETING</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/ai-automation-technology-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>AI AUTOMATION</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>GOVERNMENT RELATIONS</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/digital-marketing-brand-development#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>WEB DEVELOPMENT</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>RESIDENCY SOLUTION</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/digital-marketing-brand-development#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>MARKETING SOLUTION</a>
-                    </h6>
+        
+
+        <section class="cta__area-five">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-5">
+                        <div class="cta__content-five">
+                            <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="cta__content-right-two">
+                            <div class="cta__contact">
+                                <div class="icon">
+                                    <i class="flaticon-telephone"></i>
+                                </div>
+                                <div class="content">
+                                    <span>Get in touch with us </span>
+                                    <a href="tel:+971565151315">+971 56 515 1315</a>
+                                </div>
+                            </div>
+                            <a href="services.php" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender">Take Our Service <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="slider__marquee clearfix marquee-wrap-three">
-                <div class="marquee_mode marquee__group-two" data-direction="right">
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>PRO SERVICES</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/uae-business-formation"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>BUSINESS SETUP</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>GOLDEN VISA</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/uae-business-formation#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>BANK ACCOUNT OPENING</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/digital-marketing-brand-development#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>BRAND DEVELOPMENT</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>INVEST IN DUBAI</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>FREELANCE VISA</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/digital-marketing-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>DIGITAL MARKETING</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/ai-automation-technology-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>AI AUTOMATION</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>GOVERNMENT RELATIONS</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/digital-marketing-brand-development#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>WEB DEVELOPMENT</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>RESIDENCY SOLUTION</a>
-                    </h6>
-                    <h6 class="marquee__item marquee__item-two">
-                        <a href="/digital-marketing-brand-development#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
-                            </svg>MARKETING SOLUTION</a>
-                    </h6>
-                </div>
+            <div class="cta__shape-wrap-two">
+                <img src="assets/img/images/h7_cta_shape01.svg" alt="" aria-hidden="true">
+                <img src="assets/img/images/h7_cta_shape02.svg" alt="" aria-hidden="true">
             </div>
         </section>
         <!-- marquee-area-end -->
@@ -720,122 +611,13 @@
         <!-- marquee-area-end -->
 
         <!-- team-area -->
-        <section class="virtuo-team section-py-130" aria-labelledby="virtuo-team-title">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="section__title text-center mb-50">
-                            <span class="sub-title">Expert Team</span>
-                            <h2 class="title">Our expert team will help you to Grow Business</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="container virtuo-team__container">
-                    <div class="virtuo-team__intro">
-                        <span class="sub-title">Core Team</span>
-                        <h2 class="title" id="virtuo-team-title">Meet the Virtuo team</h2>
-                    </div>
-                    <div class="virtuo-team__grid">
-                        <figure class="virtuo-team__member">
-                            <img src="assets/img/team/jonaid.png" alt="Jonaid" loading="lazy" decoding="async" width="300" height="329">
-                            <figcaption>
-                                <h3>Jonaid Ali Mohammad</h3>
-                                <span>Business Consultant</span>
-                                <div class="virtuo-team__social" aria-label="Jonaid Ali Mohammad social links">
-                                    <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" aria-label="Jonaid Ali Mohammad on LinkedIn" class="injectable">
-                                    <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
-                                    </a>
-                                    <a href="https://wa.me/971565151315" target="_blank" aria-label="Jonaid Ali Mohammad on WhatsApp" class="injectable">
-                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512.459" style="width: 1em; height: 1em; display: inline-block; vertical-align: middle;">
-                                            <<path fill="currentColor" d="M435.689 74.468C387.754 26.471 324 .025 256.071 0 116.098 0 2.18 113.906 2.131 253.916c-.024 44.758 11.677 88.445 33.898 126.946L0 512.459l134.617-35.311c37.087 20.238 78.85 30.891 121.345 30.903h.109c139.949 0 253.88-113.917 253.928-253.928.024-67.855-26.361-131.645-74.31-179.643v-.012zm-179.618 390.7h-.085c-37.868-.011-75.016-10.192-107.428-29.417l-7.707-4.577-79.886 20.953 21.32-77.889-5.017-7.987c-21.125-33.605-32.29-72.447-32.266-112.322.049-116.366 94.729-211.046 211.155-211.046 56.373.025 109.364 22.003 149.214 61.903 39.853 39.888 61.781 92.927 61.757 149.313-.05 116.377-94.728 211.058-211.057 211.058v.011zm115.768-158.067c-6.344-3.178-37.537-18.52-43.358-20.639-5.82-2.119-10.044-3.177-14.27 3.178-4.225 6.357-16.388 20.651-20.09 24.875-3.702 4.238-7.403 4.762-13.747 1.583-6.343-3.178-26.787-9.874-51.029-31.487-18.86-16.827-31.597-37.598-35.297-43.955-3.702-6.355-.39-9.789 2.775-12.943 2.849-2.848 6.344-7.414 9.522-11.116s4.225-6.355 6.343-10.581c2.12-4.238 1.06-7.937-.522-11.117-1.584-3.177-14.271-34.409-19.568-47.108-5.151-12.37-10.385-10.69-14.269-10.897-3.703-.183-7.927-.219-12.164-.219s-11.105 1.582-16.925 7.939c-5.82 6.354-22.209 21.709-22.209 52.927 0 31.22 22.733 61.405 25.911 65.642 3.177 4.237 44.745 68.318 108.389 95.812 15.135 6.538 26.957 10.446 36.175 13.368 15.196 4.834 29.027 4.153 39.96 2.52 12.19-1.825 37.54-15.353 42.824-30.172 5.283-14.818 5.283-27.529 3.701-30.172-1.582-2.641-5.819-4.237-12.163-7.414l.011-.024z"></path>
-                                        </svg>
-                                        <!-- <i class="fab fa-whatsapp"></i> -->
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <figure class="virtuo-team__member">
-                            <img src="assets/img/team/hasan.png" alt="Hasan" loading="lazy" decoding="async" width="300" height="329">
-                            <figcaption>
-                                <h3>Hasan Rauf</h3>
-                                <span>Technology Advisor</span>
-                                <div class="virtuo-team__social" aria-label="Hasan Rauf social links">
-                                    <a href="https://www.linkedin.com/in/hassan-rauof-28941b3aa" target="_blank" aria-label="Hasan Rauf on LinkedIn" class="injectable">
-                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
-                                    </a>
-                                    <a href="https://wa.me/971504805240" target="_blank" aria-label="Hasan Rauf on WhatsApp" class="injectable">
-                                         <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512.459" style="width: 1em; height: 1em; display: inline-block; vertical-align: middle;">
-                                            <<path fill="currentColor" d="M435.689 74.468C387.754 26.471 324 .025 256.071 0 116.098 0 2.18 113.906 2.131 253.916c-.024 44.758 11.677 88.445 33.898 126.946L0 512.459l134.617-35.311c37.087 20.238 78.85 30.891 121.345 30.903h.109c139.949 0 253.88-113.917 253.928-253.928.024-67.855-26.361-131.645-74.31-179.643v-.012zm-179.618 390.7h-.085c-37.868-.011-75.016-10.192-107.428-29.417l-7.707-4.577-79.886 20.953 21.32-77.889-5.017-7.987c-21.125-33.605-32.29-72.447-32.266-112.322.049-116.366 94.729-211.046 211.155-211.046 56.373.025 109.364 22.003 149.214 61.903 39.853 39.888 61.781 92.927 61.757 149.313-.05 116.377-94.728 211.058-211.057 211.058v.011zm115.768-158.067c-6.344-3.178-37.537-18.52-43.358-20.639-5.82-2.119-10.044-3.177-14.27 3.178-4.225 6.357-16.388 20.651-20.09 24.875-3.702 4.238-7.403 4.762-13.747 1.583-6.343-3.178-26.787-9.874-51.029-31.487-18.86-16.827-31.597-37.598-35.297-43.955-3.702-6.355-.39-9.789 2.775-12.943 2.849-2.848 6.344-7.414 9.522-11.116s4.225-6.355 6.343-10.581c2.12-4.238 1.06-7.937-.522-11.117-1.584-3.177-14.271-34.409-19.568-47.108-5.151-12.37-10.385-10.69-14.269-10.897-3.703-.183-7.927-.219-12.164-.219s-11.105 1.582-16.925 7.939c-5.82 6.354-22.209 21.709-22.209 52.927 0 31.22 22.733 61.405 25.911 65.642 3.177 4.237 44.745 68.318 108.389 95.812 15.135 6.538 26.957 10.446 36.175 13.368 15.196 4.834 29.027 4.153 39.96 2.52 12.19-1.825 37.54-15.353 42.824-30.172 5.283-14.818 5.283-27.529 3.701-30.172-1.582-2.641-5.819-4.237-12.163-7.414l.011-.024z"></path>
-                                        </svg>
-                                        <!-- <i class="fab fa-whatsapp"></i> -->
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <figure class="virtuo-team__member">
-                            <img src="assets/img/team/affan.png" alt="Affan" loading="lazy" decoding="async" width="300" height="338">
-                            <figcaption>
-                                <h3>Mohammad Affan</h3>
-                                <span>Public Relations Manager</span>
-                                <div class="virtuo-team__social" aria-label="Mohammad Affan social links" class="injectable">
-                                    <a href="https://www.linkedin.com/in/affan-mohammad-5482201b6" target="_blank" aria-label="Mohammad Affan on LinkedIn">
-                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
-                                    </a>
-                                    <a href="https://wa.me/971569928422" target="_blank" aria-label="Mohammad Affan on WhatsApp" class="injectable">
-                                         <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512.459" style="width: 1em; height: 1em; display: inline-block; vertical-align: middle;">
-                                            <<path fill="currentColor" d="M435.689 74.468C387.754 26.471 324 .025 256.071 0 116.098 0 2.18 113.906 2.131 253.916c-.024 44.758 11.677 88.445 33.898 126.946L0 512.459l134.617-35.311c37.087 20.238 78.85 30.891 121.345 30.903h.109c139.949 0 253.88-113.917 253.928-253.928.024-67.855-26.361-131.645-74.31-179.643v-.012zm-179.618 390.7h-.085c-37.868-.011-75.016-10.192-107.428-29.417l-7.707-4.577-79.886 20.953 21.32-77.889-5.017-7.987c-21.125-33.605-32.29-72.447-32.266-112.322.049-116.366 94.729-211.046 211.155-211.046 56.373.025 109.364 22.003 149.214 61.903 39.853 39.888 61.781 92.927 61.757 149.313-.05 116.377-94.728 211.058-211.057 211.058v.011zm115.768-158.067c-6.344-3.178-37.537-18.52-43.358-20.639-5.82-2.119-10.044-3.177-14.27 3.178-4.225 6.357-16.388 20.651-20.09 24.875-3.702 4.238-7.403 4.762-13.747 1.583-6.343-3.178-26.787-9.874-51.029-31.487-18.86-16.827-31.597-37.598-35.297-43.955-3.702-6.355-.39-9.789 2.775-12.943 2.849-2.848 6.344-7.414 9.522-11.116s4.225-6.355 6.343-10.581c2.12-4.238 1.06-7.937-.522-11.117-1.584-3.177-14.271-34.409-19.568-47.108-5.151-12.37-10.385-10.69-14.269-10.897-3.703-.183-7.927-.219-12.164-.219s-11.105 1.582-16.925 7.939c-5.82 6.354-22.209 21.709-22.209 52.927 0 31.22 22.733 61.405 25.911 65.642 3.177 4.237 44.745 68.318 108.389 95.812 15.135 6.538 26.957 10.446 36.175 13.368 15.196 4.834 29.027 4.153 39.96 2.52 12.19-1.825 37.54-15.353 42.824-30.172 5.283-14.818 5.283-27.529 3.701-30.172-1.582-2.641-5.819-4.237-12.163-7.414l.011-.024z"></path>
-                                        </svg>
-                                        <!-- <i class="fab fa-whatsapp"></i> -->
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <figure class="virtuo-team__member">
-                            <img src="assets/img/team/junaid.png" alt="Junaid" loading="lazy" decoding="async" width="300" height="338">
-                            <figcaption>
-                                <h3>Junaid Mahmood</h3>
-                                <span>Sr. IT Developer</span>
-                                <div class="virtuo-team__social" aria-label="Junaid Mahmood social links">
-                                    <a href="https://ae.linkedin.com/in/junaid-mahmood-khokhar" target="_blank" aria-label="Junaid Mahmood on LinkedIn" class="injectable">
-                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
-                                    </a>
-                                    <a href="https://wa.me/971543851668" target="_blank" aria-label="Junaid Mahmood on WhatsApp" class="injectable">
-                                          <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512.459" style="width: 1em; height: 1em; display: inline-block; vertical-align: middle;">
-                                            <<path fill="currentColor" d="M435.689 74.468C387.754 26.471 324 .025 256.071 0 116.098 0 2.18 113.906 2.131 253.916c-.024 44.758 11.677 88.445 33.898 126.946L0 512.459l134.617-35.311c37.087 20.238 78.85 30.891 121.345 30.903h.109c139.949 0 253.88-113.917 253.928-253.928.024-67.855-26.361-131.645-74.31-179.643v-.012zm-179.618 390.7h-.085c-37.868-.011-75.016-10.192-107.428-29.417l-7.707-4.577-79.886 20.953 21.32-77.889-5.017-7.987c-21.125-33.605-32.29-72.447-32.266-112.322.049-116.366 94.729-211.046 211.155-211.046 56.373.025 109.364 22.003 149.214 61.903 39.853 39.888 61.781 92.927 61.757 149.313-.05 116.377-94.728 211.058-211.057 211.058v.011zm115.768-158.067c-6.344-3.178-37.537-18.52-43.358-20.639-5.82-2.119-10.044-3.177-14.27 3.178-4.225 6.357-16.388 20.651-20.09 24.875-3.702 4.238-7.403 4.762-13.747 1.583-6.343-3.178-26.787-9.874-51.029-31.487-18.86-16.827-31.597-37.598-35.297-43.955-3.702-6.355-.39-9.789 2.775-12.943 2.849-2.848 6.344-7.414 9.522-11.116s4.225-6.355 6.343-10.581c2.12-4.238 1.06-7.937-.522-11.117-1.584-3.177-14.271-34.409-19.568-47.108-5.151-12.37-10.385-10.69-14.269-10.897-3.703-.183-7.927-.219-12.164-.219s-11.105 1.582-16.925 7.939c-5.82 6.354-22.209 21.709-22.209 52.927 0 31.22 22.733 61.405 25.911 65.642 3.177 4.237 44.745 68.318 108.389 95.812 15.135 6.538 26.957 10.446 36.175 13.368 15.196 4.834 29.027 4.153 39.96 2.52 12.19-1.825 37.54-15.353 42.824-30.172 5.283-14.818 5.283-27.529 3.701-30.172-1.582-2.641-5.819-4.237-12.163-7.414l.011-.024z"></path>
-                                        </svg>
-                                        <!-- <i class="fab fa-whatsapp"></i> -->
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <figure class="virtuo-team__member">
-                            <img src="assets/img/team/zayn.png" alt="Zayn" loading="lazy" decoding="async" width="300" height="338">
-                            <figcaption>
-                                <h3>Zayn Ali</h3>
-                                <span>Sr. Product Designer</span>
-                                <div class="virtuo-team__social" aria-label="Zayn Ali social links">
-                                    <a href="https://www.linkedin.com/in/iiinzayn" target="_blank" aria-label="Zayn Ali on LinkedIn">
-                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
-                                    </a>
-                                    <a href="https://wa.me/971523746030" target="_blank" aria-label="Zayn Ali on WhatsApp">
-                                         <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512.459" style="width: 1em; height: 1em; display: inline-block; vertical-align: middle;">
-                                            <<path fill="currentColor" d="M435.689 74.468C387.754 26.471 324 .025 256.071 0 116.098 0 2.18 113.906 2.131 253.916c-.024 44.758 11.677 88.445 33.898 126.946L0 512.459l134.617-35.311c37.087 20.238 78.85 30.891 121.345 30.903h.109c139.949 0 253.88-113.917 253.928-253.928.024-67.855-26.361-131.645-74.31-179.643v-.012zm-179.618 390.7h-.085c-37.868-.011-75.016-10.192-107.428-29.417l-7.707-4.577-79.886 20.953 21.32-77.889-5.017-7.987c-21.125-33.605-32.29-72.447-32.266-112.322.049-116.366 94.729-211.046 211.155-211.046 56.373.025 109.364 22.003 149.214 61.903 39.853 39.888 61.781 92.927 61.757 149.313-.05 116.377-94.728 211.058-211.057 211.058v.011zm115.768-158.067c-6.344-3.178-37.537-18.52-43.358-20.639-5.82-2.119-10.044-3.177-14.27 3.178-4.225 6.357-16.388 20.651-20.09 24.875-3.702 4.238-7.403 4.762-13.747 1.583-6.343-3.178-26.787-9.874-51.029-31.487-18.86-16.827-31.597-37.598-35.297-43.955-3.702-6.355-.39-9.789 2.775-12.943 2.849-2.848 6.344-7.414 9.522-11.116s4.225-6.355 6.343-10.581c2.12-4.238 1.06-7.937-.522-11.117-1.584-3.177-14.271-34.409-19.568-47.108-5.151-12.37-10.385-10.69-14.269-10.897-3.703-.183-7.927-.219-12.164-.219s-11.105 1.582-16.925 7.939c-5.82 6.354-22.209 21.709-22.209 52.927 0 31.22 22.733 61.405 25.911 65.642 3.177 4.237 44.745 68.318 108.389 95.812 15.135 6.538 26.957 10.446 36.175 13.368 15.196 4.834 29.027 4.153 39.96 2.52 12.19-1.825 37.54-15.353 42.824-30.172 5.283-14.818 5.283-27.529 3.701-30.172-1.582-2.641-5.819-4.237-12.163-7.414l.011-.024z"></path>
-                                        </svg>
-                                        <!-- <i class="fab fa-whatsapp"></i> -->
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 
         <!-- team-area-end -->
 
 
         <!-- cta-area -->
-        <section class="cta__area-five">
+        <!-- <section class="cta__area-five">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-5">
@@ -863,7 +645,7 @@
                 <img src="assets/img/images/h7_cta_shape01.svg" alt="" aria-hidden="true">
                 <img src="assets/img/images/h7_cta_shape02.svg" alt="" aria-hidden="true">
             </div>
-        </section>
+        </section> -->
         <!-- cta-area-end -->
 
         <!-- blog-post-area -->

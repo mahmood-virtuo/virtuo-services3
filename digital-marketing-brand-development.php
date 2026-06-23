@@ -2943,20 +2943,7 @@
 
                                 <!-- SideBar Ends Here -->
                             </div>
-                            <div class="sidebar__widget">
-                                <div class="sidebar__contact">
-                                    <h4 class="title">Your Gateway to Seamless Business Success in Dubai</h4>
-                                    <p>Navigating complex UAE regulations and growth requirements so you can focus on scaling your corporate vision.</p>
-                                    <a href="/contact" class="tg-btn tg-btn-three">
-                                        Contact With Us
-                                        <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
-                                    </a>
-                                    <div class="shape">
-                                        <img src="assets/img/images/sidebar_contact_shape01.svg" alt="" aria-hidden="true" class="rotateme">
-                                        <img src="assets/img/images/sidebar_contact_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown">
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
                         </aside>
                     </div>
                 </div>
