@@ -89,7 +89,7 @@
                 <address class="virtuo-reference-footer__contact">
                     <h3>Get In Touch</h3>
                     <p><i class="flaticon-placeholder"></i> <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener noreferrer">Virtuo Services F.Z.C<br>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</a></p>
-                    <a href="mailto:info@virtuo.ae"><i class="flaticon-envelope"></i> info@virtuo.ae</a>
+                    <a href="mailto:setup@virtuo.ae"><i class="flaticon-envelope"></i> setup@virtuo.ae</a>
                     <a href="tel:+971565151315"><i class="flaticon-telephone"></i> +971 56 515 1315</a>
                 </address>
             </div>
@@ -181,7 +181,7 @@
                                  <h4 style="color: #EE4c01;">Get In Touch</h4>
                                  <p class="forFooterAddress"><img style="height: 18px; width: 18px; margin-top: 8px;" src="assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;"></b></span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
 
-                                 <a href="mailto:info@virtuo.ae"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>info@virtuo.ae</span></a>
+                                 <a href="mailto:setup@virtuo.ae"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>setup@virtuo.ae</span></a>
                                  <a href="tel:+971565151315"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"><span>+971 56 515 1315</span></a>
                              </address>
                              <nav class="footer-reference-left__quick" aria-label="Quick links">
@@ -449,8 +449,8 @@
                  <div class="col-md-6">
                      <div class="footer__social footer__social-two">
                          <ul class="list-wrap">
-                             <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="privacy-policy.php" target="_blank">Privacy Policy</a></p>
-                             <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="terms-conditions.php" target="_blank">Terms and Conditions</a></p>
+                             <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="privacy-policy.php">Privacy Policy</a></p>
+                             <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="terms-conditions.php">Terms and Conditions</a></p>
                          </ul>
                      </div>
                  </div>

@@ -173,9 +173,9 @@
                         <span class="back">+971 56 515 1315</span>
                     </a>
 
-                    <a href="mailto:info@virtuo.ae" class="contact-box">
+                    <a href="mailto:setup@virtuo.ae" class="contact-box">
                         <span class="front"><i class="far fa-envelope"></i> Email</span>
-                        <span class="back">info@virtuo.ae</span>
+                        <span class="back">setup@virtuo.ae</span>
                     </a>
 
                     <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener" class="contact-box">

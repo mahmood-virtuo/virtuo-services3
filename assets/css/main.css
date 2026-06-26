@@ -26723,8 +26723,8 @@ select {
 .contact-box {
   flex: 1;
   border-radius: 18px;
-  background-image: url("../img/images/contact-card-bg.jpg");
-  background-color: #3427c7;
+  /* background-image: url("../img/images/contact-card-bg.jpg"); */
+  background: linear-gradient(360deg, #09194e 0%, #175ab1 100%);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -26743,7 +26743,7 @@ select {
   color: #fff;
 }
 
-.contact-box .front,
+/* .contact-box .front,
 .contact-box .back {
   position: absolute;
   left: 50%;
@@ -26758,9 +26758,24 @@ select {
   line-height: 1.25;
   color: #fff;
   transition: opacity 300ms ease-in-out;
+} */
+.contact-box .front,
+.contact-box .back {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  line-height: 1.25;
+  color: #fff;
+  backface-visibility: hidden;
+  transition: all 0.6s ease;
 }
-
-.contact-box .front {
+/* .contact-box .front {
   opacity: 1;
   font-size: 30px;
   font-weight: 500;
@@ -26770,16 +26785,46 @@ select {
   opacity: 0;
   font-size: 16px;
   font-weight: 400;
+} */
+.contact-box .front {
+  opacity: 1;
+  transform: translate(-50%, -50%) translateY(0);
+  font-size: 30px;
+  font-weight: 500;
 }
 
-.contact-box:hover .front {
+.contact-box .back {
+  opacity: 0;
+  transform: translate(-50%, -50%) translateY(20px);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* .contact-box:hover .front {
   opacity: 0;
 }
 
 .contact-box:hover .back {
   opacity: 1;
+} */
+.contact-box:hover .front {
+  opacity: 0;
+  transform: translate(-50%, -50%) translateY(-20px);
 }
 
+.contact-box:hover .back {
+  opacity: 1;
+  transform: translate(-50%, -50%) translateY(0);
+}
+.contact-box {
+  transform: translateZ(0);
+  transition:
+    background-color 0.6s ease,
+    transform 0.6s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-3px);
+}
 @media (max-width: 991px) {
   .contact-map-box,
   .contact-map-box iframe,
@@ -26883,6 +26928,7 @@ select {
   content: "✓";
   margin-right: 8px;
   font-weight: 700;
+  color: #ee4c01;
 }
 
 .virtuo-sidebar-form .tg-btn {
@@ -26928,4 +26974,36 @@ select {
 
 .phone-field-wrap .iti__search-input {
   height: 36px;
+}
+/* Center page title and breadcrumbs */
+/* Vertically center breadcrumb content */
+/* Keep breadcrumb text left aligned, only center it vertically */
+.breadcrumb__area {
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  padding-top: 190px !important;
+}
+
+.breadcrumb__area .container {
+  width: 100%;
+}
+
+.breadcrumb__content {
+  text-align: left;
+}
+
+.breadcrumb__content .breadcrumb {
+  justify-content: flex-start;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb__area {
+    min-height: 260px;
+  }
+}
+/* ---------------------- */
+.footer-reference-left__contact img,
+.footer-reference-left__quick img {
+  filter: brightness(0) saturate(100%) invert(44%) sepia(98%) saturate(2800%)
+    hue-rotate(2deg) brightness(98%) contrast(102%);
 }

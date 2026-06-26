@@ -2,7 +2,7 @@
 $schema_site_url = 'https://virtuo.ae/';
 $schema_organization_name = 'Virtuo Services F.Z.C';
 $schema_logo = 'https://virtuo.ae/assets/img/logo/w_logo.svg';
-$schema_email = 'info@virtuo.ae';
+$schema_email = 'setup@virtuo.ae';
 $schema_phone = '+971 56 515 1315';
 $schema_address_street = 'Office - BLV - 6F - SF60959, A Building, Ajman Blvd, Ajman Freezone, Sheikh Rashid Bin Saeed Al Maktoum St.';
 $schema_address_locality = 'Ajman';

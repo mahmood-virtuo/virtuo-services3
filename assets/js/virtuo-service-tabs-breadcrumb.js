@@ -553,3 +553,32 @@
     initNestedDigitalServiceTabs();
   });
 })();
+// ------New Tabs-------
+document.addEventListener("DOMContentLoaded", function () {
+  const tabLinks = document.querySelectorAll(".service-tab-link");
+
+  tabLinks.forEach(function (link) {
+    link.addEventListener("click", function () {
+      const contentArea =
+        document.querySelector(".service-details-area") ||
+        document.querySelector(".services__details-area") ||
+        document.querySelector(".service-category-content") ||
+        document.querySelector(".main-area");
+
+      if (!contentArea) return;
+
+      setTimeout(function () {
+        const headerOffset = 110;
+        const top =
+          contentArea.getBoundingClientRect().top +
+          window.pageYOffset -
+          headerOffset;
+
+        window.scrollTo({
+          top: top,
+          behavior: "smooth",
+        });
+      }, 150);
+    });
+  });
+});

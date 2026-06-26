@@ -49,7 +49,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-$recipient = 'info@virtuo.ae';
+$recipient = 'setup@virtuo.ae';
 $subject_prefix = $form_type === 'footer_quote' ? 'New quote request' : 'New contact message';
 $subject = $subject_prefix . ' from ' . $name;
 
@@ -77,7 +77,7 @@ if ($emirate !== '') {
 $email_content .= "\nMessage:\n$message\n";
 
 $email_headers = array(
-    'From: Virtuo Website <info@virtuo.ae>',
+    'From: Virtuo Website <setup@virtuo.ae>',
     'Reply-To: ' . $name . ' <' . $email . '>',
     'Content-Type: text/plain; charset=UTF-8',
 );

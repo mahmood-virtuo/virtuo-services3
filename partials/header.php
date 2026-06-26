@@ -33,7 +33,7 @@
                     <div class="tg-header__top-info">
                         <ul class="list-wrap">
                             <li><i class="flaticon-placeholder"></i>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</li>
-                            <li><i class="flaticon-envelope"></i><a href="mailto:info@virtuo.ae">info@virtuo.ae</a></li>
+                            <li><i class="flaticon-envelope"></i><a href="mailto:setup@virtuo.ae">setup@virtuo.ae</a></li>
                         </ul>
                     </div>
                 </div>
@@ -241,7 +241,7 @@
             </div>
             <div class="contact-list">
                 <i class="flaticon-envelope"></i>
-                <a href="mailto:info@virtuo.ae">info@virtuo.ae</a>
+                <a href="mailto:setup@virtuo.ae">setup@virtuo.ae</a>
             </div>
         </div>
         <div class="offCanvas__social">
