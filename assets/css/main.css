@@ -27459,7 +27459,7 @@ select {
   color: var(--muted);
   font-size: 15.5px;
   line-height: 1.6;
-  max-width: 64ch;
+  /* max-width: 64ch; */
 }
 .vt-article .vt-cards {
   display: grid;
