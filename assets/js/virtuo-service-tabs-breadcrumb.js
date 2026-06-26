@@ -555,54 +555,64 @@
 })();
 // ------New Tabs-------
 document.addEventListener("DOMContentLoaded", function () {
-  const tabLinks = document.querySelectorAll(".service-tab-link");
+  const HEADER_OFFSET = 115;
 
-  tabLinks.forEach(function (link) {
-    link.addEventListener("click", function () {
-      const contentArea =
-        document.querySelector(".service-details-area") ||
-        document.querySelector(".services__details-area") ||
-        document.querySelector(".service-category-content") ||
-        document.querySelector(".main-area");
+  function getIdFromHref(link) {
+    const href = link.getAttribute("href") || "";
+    return href.startsWith("#") ? href.slice(1) : "";
+  }
 
-      if (!contentArea) return;
+  function scrollToPanelTop(panel) {
+    if (!panel) return;
 
-      setTimeout(function () {
-        const headerOffset = 110;
-        const top =
-          contentArea.getBoundingClientRect().top +
-          window.pageYOffset -
-          headerOffset;
+    const target =
+      panel.querySelector(".services__details-content-top") ||
+      panel.querySelector(".services__details-wrap") ||
+      panel;
 
-        window.scrollTo({
-          top: top,
-          behavior: "smooth",
-        });
-      }, 150);
+    const top =
+      target.getBoundingClientRect().top + window.pageYOffset - HEADER_OFFSET;
+
+    window.scrollTo({
+      top: top,
+      behavior: "smooth",
     });
+  }
+
+  document.addEventListener("click", function (event) {
+    const link = event.target.closest(
+      ".digital-service-main-link, .digital-service-sub-link, .service-tab-link",
+    );
+
+    if (!link) return;
+
+    setTimeout(function () {
+      let panelId = "";
+
+      // Digital Marketing main tabs
+      if (link.classList.contains("digital-service-main-link")) {
+        panelId = link.getAttribute("data-service-tab") || getIdFromHref(link);
+      }
+
+      // Digital Marketing subtabs
+      else if (link.classList.contains("digital-service-sub-link")) {
+        panelId =
+          link.getAttribute("data-parent-tab") ||
+          document.querySelector(".service-tab-panel.is-active")?.id ||
+          "";
+      }
+
+      // Other service pages normal tabs
+      else {
+        panelId = link.getAttribute("data-service-tab") || getIdFromHref(link);
+      }
+
+      const panel =
+        document.getElementById(panelId) ||
+        document.querySelector('[data-service-panel="' + panelId + '"]') ||
+        document.querySelector(".service-tab-panel.is-active");
+
+      scrollToPanelTop(panel);
+    }, 300);
   });
-
-  document
-    .querySelectorAll(".digital-service-sub-link")
-    .forEach(function (link) {
-      link.addEventListener("click", function () {
-        setTimeout(function () {
-          var activePanel = document.querySelector(
-            ".service-tab-panel.is-active",
-          );
-          if (!activePanel) return;
-
-          var headerOffset = 110;
-          var top =
-            activePanel.getBoundingClientRect().top +
-            window.pageYOffset -
-            headerOffset;
-
-          window.scrollTo({
-            top: top,
-            behavior: "smooth",
-          });
-        }, 200);
-      });
-    });
 });
