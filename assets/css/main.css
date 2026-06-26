@@ -27004,6 +27004,11 @@ select {
 /* ---------------------- */
 .footer-reference-left__contact img,
 .footer-reference-left__quick img {
-  filter: brightness(0) saturate(100%) invert(44%) sepia(98%) saturate(2800%)
-    hue-rotate(2deg) brightness(98%) contrast(102%);
+  opacity: 1 !important;
+  filter: brightness(0) saturate(100%) invert(42%) sepia(102%) saturate(2682%)
+    hue-rotate(-17deg) brightness(97%) contrast(103%);
+}
+.footer-reference-left__contact img,
+.footer-reference-left__quick img {
+  opacity: 1;
 }
