@@ -40,7 +40,7 @@
       <section class="slider__area">
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.webp" data-background-mobile="assets/img/slider/1st-mobile.webp">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1stBlog.jpg" data-background-mobile="assets/img/slider/1st-mobile.webp">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-8">
