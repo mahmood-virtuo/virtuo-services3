@@ -581,4 +581,28 @@ document.addEventListener("DOMContentLoaded", function () {
       }, 150);
     });
   });
+
+  document
+    .querySelectorAll(".digital-service-sub-link")
+    .forEach(function (link) {
+      link.addEventListener("click", function () {
+        setTimeout(function () {
+          var activePanel = document.querySelector(
+            ".service-tab-panel.is-active",
+          );
+          if (!activePanel) return;
+
+          var headerOffset = 110;
+          var top =
+            activePanel.getBoundingClientRect().top +
+            window.pageYOffset -
+            headerOffset;
+
+          window.scrollTo({
+            top: top,
+            behavior: "smooth",
+          });
+        }, 200);
+      });
+    });
 });

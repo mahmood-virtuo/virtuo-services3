@@ -128,120 +128,6 @@
                 </div>
             </div>
         </section>
-
-      <!-- Virtuo interactive article styles (scoped to .vt-article) -->
-      <style id="vt-article-styles">
-.vt-article{--ink:#040426;--bronze:#EE4C01;--bronze-lt:#FF6A2B;--teal:#0047FF;--soft:#F4F5FB;--line:rgba(4,4,38,.13);--line-soft:rgba(4,4,38,.07);--muted:#667594}
-.vt-article .vt-lead{font-size:clamp(19px,2.2vw,22px);line-height:1.55;font-weight:500;color:var(--ink);margin:0 0 22px}
-.vt-article .vt-eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--bronze);font-weight:600;margin-bottom:8px}
-.vt-article em{color:var(--bronze);font-style:italic}
-.vt-article .vt-callout{border-left:3px solid var(--bronze);background:var(--soft);padding:18px 22px;margin:28px 0;border-radius:0 10px 10px 0;font-size:18px;line-height:1.55;color:var(--ink);font-weight:500}
-.vt-article .vt-panel{background:var(--ink);border-radius:16px;padding:clamp(24px,4vw,38px);margin:40px 0;color:#fff}
-.vt-article .vt-panel .vt-eyebrow{color:var(--bronze-lt)}
-.vt-article .vt-ptitle{color:#fff;font-size:clamp(22px,3vw,30px);font-weight:700;line-height:1.18;margin:2px 0 14px}
-.vt-article .vt-psub{color:#C9CBE6;font-size:16px;line-height:1.6;margin:0;max-width:62ch}
-.vt-article .vt-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14);margin-top:24px;border-radius:10px;overflow:hidden}
-.vt-article .vt-stat{background:var(--ink);padding:22px 18px}
-.vt-article .vt-stat .n{font-size:clamp(26px,4vw,38px);font-weight:800;line-height:1;color:#fff}
-.vt-article .vt-stat .n small{font-size:.5em;color:var(--bronze-lt);font-weight:600;letter-spacing:.02em}
-.vt-article .vt-stat .l{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:#A9ACCB;margin-top:10px;line-height:1.5}
-.vt-article .vt-stat .src{font-size:11px;color:#8487AB;margin-top:5px}
-.vt-article .vt-studio{border:1px solid var(--line);border-radius:16px;background:#fff;padding:clamp(18px,3vw,26px);margin:34px 0}
-.vt-article .vt-chooser{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:14px}
-.vt-article .vt-chooser-top{padding:14px 18px;border-bottom:1px solid var(--line-soft);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--soft)}
-.vt-article .vt-goals{display:grid;grid-template-columns:repeat(3,1fr)}
-.vt-article .vt-goal{appearance:none;border:0;background:#fff;text-align:left;cursor:pointer;padding:18px;border-right:1px solid var(--line-soft);font-family:inherit;transition:background .2s}
-.vt-article .vt-goal:last-child{border-right:0}
-.vt-article .vt-goal:hover{background:var(--soft)}
-.vt-article .vt-goal .gk{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--bronze);font-weight:600;margin-bottom:6px}
-.vt-article .vt-goal .gt{font-size:15px;color:var(--ink);line-height:1.35;font-weight:500}
-.vt-article .vt-goal[aria-pressed="true"]{background:var(--ink)}
-.vt-article .vt-goal[aria-pressed="true"] .gt{color:#fff}
-.vt-article .vt-goal[aria-pressed="true"] .gk{color:var(--bronze-lt)}
-.vt-article .vt-reco{font-size:14px;color:var(--muted);line-height:1.5;margin:14px 4px 26px}
-.vt-article .vt-reco b{color:var(--ink)}
-.vt-article .vt-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.vt-article .vt-tab{appearance:none;cursor:pointer;text-align:left;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:16px;transition:transform .2s,background .2s,border-color .2s}
-.vt-article .vt-tab:hover{transform:translateY(-2px)}
-.vt-article .vt-tab .tk{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
-.vt-article .vt-tab .tn{font-size:20px;font-weight:700;color:var(--ink);margin:8px 0 5px;line-height:1.1}
-.vt-article .vt-tab .te{font-size:13px;color:var(--muted);line-height:1.4}
-.vt-article .vt-tab[aria-selected="true"]{background:var(--ink);border-color:var(--ink)}
-.vt-article .vt-tab[aria-selected="true"] .tk{color:var(--bronze-lt)}
-.vt-article .vt-tab[aria-selected="true"] .tn{color:#fff}
-.vt-article .vt-tab[aria-selected="true"] .te{color:#C9CBE6}
-.vt-article .vt-spanel{border:1px solid var(--line);border-radius:12px;background:#fff;padding:24px;margin-top:14px}
-.vt-article .vt-pg{display:grid;grid-template-columns:1.05fr .95fr;gap:30px}
-.vt-article .vt-pname{font-size:21px;font-weight:700;color:var(--ink);margin:0 0 4px}
-.vt-article .vt-best{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--teal);font-weight:600;margin-bottom:12px}
-.vt-article .vt-pdesc{font-size:15px;color:var(--muted);line-height:1.55;margin:0 0 14px}
-.vt-article .vt-facts{list-style:none;margin:0;padding:0}
-.vt-article .vt-facts li{display:flex;justify-content:space-between;gap:16px;padding:9px 0;border-bottom:1px solid var(--line-soft);font-size:14px}
-.vt-article .vt-facts li:last-child{border-bottom:0}
-.vt-article .vt-facts .k{color:var(--muted);font-size:12px;letter-spacing:.03em;text-transform:uppercase;max-width:46%}
-.vt-article .vt-facts .v{text-align:right;color:var(--ink);font-weight:600}
-.vt-article .vt-costbox{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:20px}
-.vt-article .vt-ct{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:16px}
-.vt-article .vt-costrow{margin-bottom:18px}
-.vt-article .vt-costrow:last-of-type{margin-bottom:8px}
-.vt-article .vt-cl{display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:6px;color:var(--ink);font-weight:500}
-.vt-article .vt-track{height:11px;background:#E6E7F3;border-radius:3px;position:relative;overflow:hidden}
-.vt-article .vt-fill{position:absolute;top:0;bottom:0;left:0;width:0;background:#C3C6E0;border-radius:3px;transition:left .8s cubic-bezier(.2,.7,.2,1),width .8s cubic-bezier(.2,.7,.2,1)}
-.vt-article .vt-costrow.active .vt-fill{background:var(--bronze)}
-.vt-article .vt-costrow.active .vt-cl{font-weight:700}
-.vt-article .vt-axis{display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:4px}
-.vt-article .vt-costnote{font-size:11.5px;color:var(--muted);margin-top:12px;line-height:1.5}
-.vt-article .vt-matrix-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin-top:18px}
-.vt-article table.vt-matrix{border-collapse:collapse;width:100%;min-width:620px;font-size:13.5px;margin:0}
-.vt-article table.vt-matrix th,.vt-article table.vt-matrix td{padding:13px 15px;text-align:left;border-bottom:1px solid var(--line-soft);vertical-align:top}
-.vt-article table.vt-matrix thead th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;background:var(--soft);color:var(--ink);font-weight:700}
-.vt-article table.vt-matrix tbody th{font-size:11px;letter-spacing:.03em;text-transform:uppercase;color:var(--muted);font-weight:500;width:160px}
-.vt-article table.vt-matrix td{color:var(--ink)}
-.vt-article table.vt-matrix td.hl{background:rgba(238,76,1,.09)}
-.vt-article table.vt-matrix thead th.hl{background:var(--ink);color:#fff}
-.vt-article .vt-acc{border-top:1px solid var(--line);margin:14px 0 0}
-.vt-article .vt-acc details{border-bottom:1px solid var(--line)}
-.vt-article .vt-acc summary{cursor:pointer;list-style:none;padding:18px 0;display:flex;justify-content:space-between;gap:18px;align-items:center;font-size:18px;font-weight:600;color:var(--ink)}
-.vt-article .vt-acc summary::-webkit-details-marker{display:none}
-.vt-article .vt-acc summary .pl{color:var(--bronze);font-size:22px;transition:transform .25s;flex:0 0 auto}
-.vt-article .vt-acc details[open] summary .pl{transform:rotate(45deg)}
-.vt-article .vt-acc .bd{padding:0 0 20px;color:var(--muted);font-size:15.5px;line-height:1.6;max-width:64ch}
-.vt-article .vt-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:20px}
-.vt-article .vt-card{background:#fff;padding:20px}
-.vt-article .vt-card .city{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--bronze);font-weight:600}
-.vt-article .vt-card .who{font-size:15px;color:var(--ink);margin:7px 0 9px;font-weight:500}
-.vt-article .vt-card .pick{font-size:15px;color:var(--teal);font-weight:600;line-height:1.35}
-.vt-article .vt-check{margin:18px 0 0}
-.vt-article .vt-check .ci{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:15px;color:#E7E8F4;line-height:1.5}
-.vt-article .vt-check .ci:last-child{border-bottom:0}
-.vt-article .vt-check .qn{color:var(--bronze-lt);font-weight:700;font-size:13px;flex:0 0 auto;padding-top:2px}
-.vt-article .vt-cta{display:inline-block;background:var(--bronze);color:#fff;font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;padding:15px 30px;border-radius:8px;text-decoration:none;margin-top:18px;transition:background .2s,transform .2s}
-.vt-article .vt-cta:hover{background:var(--bronze-lt);transform:translateY(-2px);color:#fff}
-.vt-article .vt-sources{font-size:12px;color:var(--muted);line-height:1.7;margin-top:30px;padding-top:18px;border-top:1px solid var(--line)}
-.vt-article .vt-reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
-.vt-article .vt-reveal.in{opacity:1;transform:none}
-@media(max-width:680px){.vt-article .vt-goals{grid-template-columns:1fr}.vt-article .vt-goal{border-right:0;border-bottom:1px solid var(--line-soft)}.vt-article .vt-tabs{grid-template-columns:1fr}.vt-article .vt-pg{grid-template-columns:1fr;gap:20px}.vt-article .vt-cards{grid-template-columns:1fr}}
-@media(prefers-reduced-motion:reduce){.vt-article .vt-reveal{opacity:1;transform:none;transition:none}.vt-article .vt-fill{transition:none}}
-
-.vt-article .vt-tldr{background:linear-gradient(360deg, #09194e 0%, #175ab1 100%);border-radius:16px;padding:clamp(22px,4vw,32px);margin:30px 0;color:#fff}
-.vt-article .vt-tldr .vt-eyebrow{color:var(--bronze-lt)}
-.vt-article .vt-tldr .tr{display:flex;gap:16px;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.12)}
-.vt-article .vt-tldr .tr .q{color:#C9CBE6;font-size:15.5px;line-height:1.45}
-.vt-article .vt-tldr .tr .a{flex:0 0 auto;font-size:13px;font-weight:700;letter-spacing:.02em;color:#FF8A52;background:rgba(238,76,1,.14);border:1px solid rgba(238,76,1,.42);padding:5px 14px;border-radius:30px;white-space:nowrap}
-.vt-article .vt-tldr .note{color:#A9ACCB;font-size:13.5px;padding-top:14px;line-height:1.55}
-.vt-article .vt-tldr .note b{color:#fff}
-.vt-article .vt-zones{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0 0}
-.vt-article .vt-zone{appearance:none;cursor:pointer;text-align:left;background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;transition:transform .2s,border-color .2s,box-shadow .2s;font-family:inherit}
-.vt-article .vt-zone:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(4,4,38,.07)}
-.vt-article .vt-zone .zt{display:block;font-size:17px;font-weight:700;color:var(--ink)}
-.vt-article .vt-zone .zl{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--bronze);font-weight:600;margin:5px 0 10px}
-.vt-article .vt-zone .zd{display:block;font-size:13.5px;color:var(--muted);line-height:1.5}
-.vt-article .vt-zone[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
-.vt-article .vt-zone-reco{background:var(--soft);border-left:3px solid var(--bronze);border-radius:0 10px 10px 0;padding:16px 20px;margin:16px 0 0;font-size:15px;color:var(--ink);line-height:1.5}
-.vt-article .vt-zone-reco b{font-weight:700}
-@media(max-width:680px){.vt-article .vt-zones{grid-template-columns:1fr}.vt-article .vt-tldr .tr{flex-direction:column;align-items:flex-start;gap:8px}}
-      </style>
-
       <!-- blog-details-area -->
       <section class="blog__details-area section-py-130">
         <div class="container">
@@ -486,7 +372,7 @@
                 <div class="blog__avatar-wrap mb-60">
                   <div class="blog__avatar-img">
                     <a href="#"
-                      ><img src="assets/img/blog/blog_avatar01.png" alt="img"
+                      ><img src="assets/img/blog/blog_avatar01.jpg" alt="img"
                     /></a>
                   </div>
                   <div class="blog__avatar-info">
@@ -669,93 +555,9 @@
     </main>
     <!-- main-area-end -->
     <!-- footer-area -->
-        <!-- Virtuo interactive article script -->
-    <script>
-    (function(){
-      var rm = window.matchMedia("(prefers-reduced-motion:reduce)").matches;
-      var root = document.querySelector(".vt-article");
-      if(!root) return;
-
-      function fmt(n,d){ return d ? n.toFixed(d) : Math.round(n).toLocaleString("en-US"); }
-      function cu(el){
-        var t=parseFloat(el.getAttribute("data-count")), d=parseInt(el.getAttribute("data-dec")||"0",10), s=el.getAttribute("data-suffix")||"";
-        if(rm){ el.textContent=fmt(t,d)+s; return; }
-        var st=null;
-        function step(ts){ if(!st)st=ts; var p=Math.min((ts-st)/1300,1), e=1-Math.pow(1-p,3); el.textContent=fmt(t*e,d)+(p===1?s:""); if(p<1)requestAnimationFrame(step); }
-        requestAnimationFrame(step);
-      }
-      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){cu(e.target);io.unobserve(e.target);}});},{threshold:.5});
-      root.querySelectorAll("[data-count]").forEach(function(n){io.observe(n);});
-
-      var rev=root.querySelectorAll(".vt-reveal");
-      if(rm){ rev.forEach(function(r){r.classList.add("in");}); }
-      else{ var ro=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");ro.unobserve(e.target);}});},{threshold:.12}); rev.forEach(function(r){ro.observe(r);}); }
-
-      var DATA={
-        mainland:{name:"Mainland",best:"Best for — unrestricted UAE market access",desc:"Licensed by the emirate's economic department to operate inside the UAE market without restriction: local clients, contracts, storefronts, and staff. 100% foreign ownership now applies to most activities; a defined list of strategic sectors still carries additional approvals.",facts:[["Ownership","Up to 100% foreign"],["Market access","Direct, unrestricted"],["Tax","9% above AED 375k; 0% below"],["Visas","Yes — staff & family"],["Setup speed","Moderate"]]},
-        freezone:{name:"Free Zone",best:"Best for — international operators & holding",desc:"100% ownership, efficient to run, and the usual base for international founders. A Qualifying Free Zone Person can hold 0% on qualifying income where substance and income conditions are met. We structure across the UAE's free zones and concentrate on three — Ajman, DAFZ, and JAFZA — covering lean setups, regulated goods, and bonded trade. Direct Mainland sales are layered in separately.",facts:[["Ownership","100% foreign"],["Tax","0% on qualifying income (QFZP)"],["We focus on","Ajman · DAFZ · JAFZA"],["Best for","Global revenue, trade, IP"],["Setup speed","Fast"]]},
-        offshore:{name:"Offshore",best:"Best for — holding, IP & succession",desc:"Not a cheaper free zone — a different instrument. Built to hold equity, IP, and assets and to carry international structuring and succession, not to trade or employ locally. No residency entitlement, and banking rewards genuine substance and a clear rationale.",facts:[["Use","Holding · IP · succession"],["Local trading","Not permitted"],["Visas","Generally none"],["Banking","Substance-led"],["Setup speed","Fast"]]}
-      };
-      var pName=root.querySelector("#vt-pname"), pBest=root.querySelector("#vt-pbest"), pDesc=root.querySelector("#vt-pdesc"), pFacts=root.querySelector("#vt-pfacts");
-      var tabs=Array.prototype.slice.call(root.querySelectorAll(".vt-tab"));
-      var goals=Array.prototype.slice.call(root.querySelectorAll(".vt-goal"));
-      var rows=Array.prototype.slice.call(root.querySelectorAll(".vt-costrow"));
-
-      function renderPanel(k){ var d=DATA[k]; pName.textContent=d.name; pBest.textContent=d.best; pDesc.textContent=d.desc; pFacts.innerHTML=d.facts.map(function(f){return '<li><span class="k">'+f[0]+'</span><span class="v">'+f[1]+'</span></li>';}).join(""); }
-      function hlMatrix(k){ root.querySelectorAll(".vt-matrix [data-col]").forEach(function(c){ c.classList.toggle("hl", c.getAttribute("data-col")===k); }); }
-      function hlCost(k){ rows.forEach(function(r){ r.classList.toggle("active", r.getAttribute("data-key")===k); }); }
-      function select(k){ tabs.forEach(function(t){ t.setAttribute("aria-selected", t.getAttribute("data-key")===k?"true":"false"); }); renderPanel(k); hlMatrix(k); hlCost(k); }
-
-      tabs.forEach(function(t){
-        t.addEventListener("click", function(){ select(t.getAttribute("data-key")); });
-        t.addEventListener("keydown", function(e){
-          var i=tabs.indexOf(t);
-          if(e.key==="ArrowRight"){ e.preventDefault(); var n=tabs[(i+1)%tabs.length]; n.focus(); n.click(); }
-          if(e.key==="ArrowLeft"){ e.preventDefault(); var n=tabs[(i-1+tabs.length)%tabs.length]; n.focus(); n.click(); }
-        });
-      });
-
-      var RECO={
-        mainland:"For local clients, contracts, and on-the-ground operations, a Mainland license gives direct, unrestricted access to the UAE market. The substance question is straightforward; the activity match is what to get right.",
-        freezone:"For internationally-sourced revenue, a Free Zone is usually the base — 100% ownership and a 0% qualifying-income position when substance is real. The three zones we focus on are detailed just below.",
-        offshore:"To hold equity, IP, or assets without operating locally, an Offshore vehicle fits — provided the structure carries genuine substance and a clear rationale. No residency entitlement and no local trading."
-      };
-      var reco=root.querySelector("#vt-reco");
-      goals.forEach(function(g){
-        g.addEventListener("click", function(){
-          var k=g.getAttribute("data-goal");
-          goals.forEach(function(x){ x.setAttribute("aria-pressed", x===g?"true":"false"); });
-          reco.innerHTML=RECO[k];
-          select(k);
-        });
-      });
-
-      var ZRECO={
-        ajman:"<b>Fits</b> a founder who wants a legitimate, low-overhead base — a lean operating company, a digital or e-commerce business, or a holding and IP structure that doesn't need a Dubai address to function.",
-        dafz:"<b>Fits</b> regulated or high-value goods — electronics, pharmaceuticals, aviation — and founders who want airport-side logistics and a premium Dubai address with fast, flexible licensing.",
-        jafza:"<b>Fits</b> physical trade at scale. Bonded status keeps goods duty-suspended until they enter the UAE market, and direct Jebel Ali Port access makes it the natural home for import/export, re-export, and manufacturing."
-      };
-      var zones=Array.prototype.slice.call(root.querySelectorAll(".vt-zone"));
-      var zreco=root.querySelector("#vt-zone-reco");
-      zones.forEach(function(z){
-        z.addEventListener("click", function(){
-          var k=z.getAttribute("data-zone");
-          zones.forEach(function(x){ x.setAttribute("aria-pressed", x===z?"true":"false"); });
-          if(zreco) zreco.innerHTML=ZRECO[k];
-        });
-      });
-
-      var SCALE=40000, done=false;
-      function fill(){ if(done)return; done=true; root.querySelectorAll(".vt-fill").forEach(function(f){ var lo=+f.getAttribute("data-low"), hi=+f.getAttribute("data-high"); f.style.left=(lo/SCALE*100)+"%"; f.style.width=((hi-lo)/SCALE*100)+"%"; }); }
-      var cbo=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){fill();cbo.disconnect();}});},{threshold:.25});
-      var cb=root.querySelector(".vt-costbox"); if(cb)cbo.observe(cb);
-
-      select("mainland");
-    })();
-    </script>
-
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
+    <script src="assets/js/blog-details.js"></script>
     <!-- footer-area-end -->
 </body>
 </html>

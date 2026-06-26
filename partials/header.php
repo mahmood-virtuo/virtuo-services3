@@ -49,7 +49,7 @@
                                         <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
                                         <!-- <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
                                         <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                                        <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -250,7 +250,7 @@
                 <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
                 <!-- <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
                 <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
             </ul>
         </div>
     </div>
