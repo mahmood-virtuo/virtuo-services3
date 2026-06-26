@@ -166,7 +166,7 @@
                       <div class="tr"><span class="q">Operating inside the UAE — local clients, contracts, staff, storefronts</span><span class="a">Mainland</span></div>
                       <div class="tr"><span class="q">Serving international or online revenue from a UAE base</span><span class="a">Free Zone</span></div>
                       <div class="tr"><span class="q">Holding equity, IP, or investments without local operations</span><span class="a">Offshore</span></div>
-                      <div class="note">The error is rarely choosing wrong among the three. It is choosing <b>before</b> you have defined the business the structure has to serve.</div>
+                      <div class="note">The error is rarely choosing wrong among the three. It is choosing before you have defined the business the structure has to serve.</div>
                     </div>
 
                     <h4 class="title-two">Why serious capital is repricing the UAE</h4>
@@ -175,7 +175,7 @@
                       <div class="vt-eyebrow">The pull factor, in the data</div>
                       <div class="vt-stats">
                         <div class="vt-stat"><div class="n" data-count="9800">0</div><div class="l">Net millionaires the UAE is set to gain in 2025 — first worldwide, ahead of the U.S.</div><div class="src">Henley 2025</div></div>
-                        <div class="vt-stat"><div class="n"><span data-count="63">0</span><small>&nbsp;USD bn</small></div><div class="l">Private wealth projected to flow into the UAE in 2025</div><div class="src">Henley 2025</div></div>
+                        <div class="vt-stat"><div class="n"><small>USD&nbsp;</small><span data-count="63">0</span><small>&nbsp;bn</small></div><div class="l">Private wealth projected to flow into the UAE in 2025</div><div class="src">Henley 2025</div></div>
                         <div class="vt-stat"><div class="n"><small>USD&nbsp;</small><span data-count="14.24" data-dec="2">0</span><small>&nbsp;bn</small></div><div class="l">Dubai greenfield FDI capital in 2024, up 33% year on year</div><div class="src">FT fDi Markets / DET</div></div>
                         <div class="vt-stat"><div class="n" data-count="0">0</div><div class="l">UAE personal income tax</div><div class="src">UAE FTA</div></div>
                       </div>
@@ -191,16 +191,16 @@
                       <div class="vt-chooser" role="group" aria-label="What is your primary goal?">
                         <div class="vt-chooser-top">What is the business actually doing?</div>
                         <div class="vt-goals">
-                          <button class="vt-goal" type="button" data-goal="mainland" aria-pressed="false"><span class="gk">Goal A</span><span class="gt">Operating in the UAE market — local clients, contracts, staff</span></button>
-                          <button class="vt-goal" type="button" data-goal="freezone" aria-pressed="false"><span class="gk">Goal B</span><span class="gt">Serving international or online revenue from a UAE base</span></button>
-                          <button class="vt-goal" type="button" data-goal="offshore" aria-pressed="false"><span class="gk">Goal C</span><span class="gt">Holding equity, IP or assets — no local operations</span></button>
+                          <button class="vt-goal" type="button" data-goal="mainland" aria-pressed="false"><span class="gk">Goal A</span><br/><span class="gt">Operating in the UAE market — local clients, contracts, staff</span></button>
+                          <button class="vt-goal" type="button" data-goal="freezone" aria-pressed="true"><span class="gk">Goal B</span><br/><span class="gt">Serving international or online revenue from a UAE base</span></button>
+                          <button class="vt-goal" type="button" data-goal="offshore" aria-pressed="false"><span class="gk">Goal C</span><br/><span class="gt">Holding equity, IP or assets — no local operations</span></button>
                         </div>
                       </div>
                       <p class="vt-reco" id="vt-reco">Most international founders begin in a Free Zone — but the right answer depends entirely on where your revenue and your customers actually sit.</p>
                       <div class="vt-tabs" role="tablist" aria-label="UAE company structures">
-                        <button class="vt-tab" type="button" role="tab" aria-selected="true" data-key="mainland" id="vt-tab-mainland"><span class="tk">Instrument</span><span class="tn">Mainland</span><span class="te">Unrestricted UAE market access.</span></button>
-                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="freezone" id="vt-tab-freezone"><span class="tk">Instrument</span><span class="tn">Free Zone</span><span class="te">The international operator's base.</span></button>
-                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="offshore" id="vt-tab-offshore"><span class="tk">Instrument</span><span class="tn">Offshore</span><span class="te">Holding and structuring, not trading.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="true" data-key="mainland" id="vt-tab-mainland"><span class="tk">Instrument</span><br/><span class="tn">Mainland</span><br/><span class="te">Unrestricted UAE market access.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="freezone" id="vt-tab-freezone"><span class="tk">Instrument</span><br/><span class="tn">Free Zone</span><br/><span class="te">The international operator's base.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="offshore" id="vt-tab-offshore"><span class="tk">Instrument</span><br/><span class="tn">Offshore</span><br/><span class="te">Holding and structuring, not trading.</span></button>
                       </div>
                       <div class="vt-spanel" role="tabpanel" id="vt-spanel" aria-labelledby="vt-tab-mainland">
                         <div class="vt-pg">
@@ -255,7 +255,7 @@
                     </div>
                     <p class="vt-zone-reco" id="vt-zone-reco"><b>Fits</b> a founder who wants a legitimate, low-overhead base — a lean operating company, a digital or e-commerce business, or a holding and IP structure that doesn't need a Dubai address to function.</p>
 
-                    <h4 class="title-two">The tax question — where structure earns its keep</h4>
+                    <h4 class="title-two" style="margin-top: 30px;">The tax question — where structure earns its keep</h4>
                     <p>The UAE's efficiency is real. So is the responsibility that comes with a U.S. passport. The founders who do well here treat the two as one engineering problem, not a loophole.</p>
                     <div class="vt-acc">
                       <details open><summary>The UAE side is genuinely efficient <span class="pl">+</span></summary><div class="bd">No personal income tax. Corporate tax runs at 0% on the first AED 375,000 of taxable profit and 9% above it, and a Qualifying Free Zone Person can retain 0% on qualifying income where the substance, income-source, and de-minimis conditions hold. A transitional Small Business Relief lets companies under AED 3M in revenue elect nil taxable income for periods ending on or before 31 December 2026. None of this is automatic — each position has to be earned and documented.</div></details>
@@ -263,7 +263,7 @@
                       <details><summary>What it actually buys you <span class="pl">+</span></summary><div class="bd">Not "no tax." A lower local base, modern banking, regional access across the Gulf, Africa, and Asia, long-term residency, and diversification of where your business and assets sit — engineered on purpose, with U.S. and UAE counsel in the room from the start rather than bolted on after the fact.</div></details>
                     </div>
 
-                    <h4 class="title-two">Residency as infrastructure: the Golden Visa</h4>
+                    <h4 class="title-two" style="margin-top: 30px;">Residency as infrastructure: the Golden Visa</h4>
                     <p>A serious base needs stable residency — the difference between commuting to a structure and actually living behind it. The Golden Visa provides ten-year renewable residency with no local sponsor and family included. For founders, the common routes are AED 2M+ in property (mortgaged and approved off-plan now count toward the threshold as of February 2026) or a skilled-professional route at AED 30,000 basic monthly salary, alongside entrepreneur and specialist-talent categories. It is a qualification earned by meeting a category — not a byproduct of incorporation.</p>
 
                     <h4 class="title-two">Which profile are you?</h4>
@@ -295,7 +295,7 @@
                       <div class="vt-eyebrow">The bottom line</div>
                       <div class="vt-ptitle">For a founder operating at this level, the UAE was never a tax headline. It's a structuring decision — and it compounds.</div>
                       <p class="vt-psub">The right instrument creates access, efficiency, residency, and a clean platform to expand from. The wrong one quietly taxes all four. The founders who get the most from the UAE aren't the ones who move fastest or cheapest — they're the ones who build the structure to fit the business, once. Tell us what you're building, and we'll map it.</p>
-                      <a class="vt-cta" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
+                      <a class="vt-cta" href="contact">Contact Us</a>
                     </div>
 
                     <p class="vt-sources">Sources: U.S. tax rates — Tax Foundation (2026); Tax Cuts and Jobs Act 2017. UAE corporate tax and QFZP — Federal Tax Authority, Federal Decree-Law No. 47 of 2022. Wealth migration — Henley Private Wealth Migration Report 2025. FDI — FT "fDi Markets" and Dubai Economy and Tourism FDI Monitor (2024). Free zone positioning — JAFZA / DP World, Dubai Airport Freezone (DAFZ), and Ajman Free Zone official materials. Golden Visa — UAE GDRFA / ICP and Dubai Land Department. Figures current as of mid-2026 and subject to change. Educational only — not tax or legal advice.</p>
@@ -318,19 +318,9 @@
                           <h5 class="title">Social Share:</h5>
                           <ul class="list-wrap">
                             <li>
-                              <a
-                                href="https://www.facebook.com/"
-                                target="_blank"
+                              <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank"
                                 ><img
-                                  src="assets/img/icons/facebook.svg"
-                                  alt=""
-                                  class="injectable"
-                              /></a>
-                            </li>
-                            <li>
-                              <a href="https://x.com/home" target="_blank"
-                                ><img
-                                  src="assets/img/icons/twitter.svg"
+                                  src="assets/img/icons/linkedin2.svg"
                                   alt=""
                                   class="injectable"
                               /></a>
@@ -340,28 +330,30 @@
                                 href="https://www.instagram.com/"
                                 target="_blank"
                                 ><img
-                                  src="assets/img/icons/instagram.svg"
+                                  src="assets/img/icons/Instagram2.svg"
                                   alt=""
                                   class="injectable"
                               /></a>
                             </li>
                             <li>
                               <a
-                                href="https://www.pinterest.com/"
+                                href="https://www.facebook.com/"
                                 target="_blank"
                                 ><img
-                                  src="assets/img/icons/pinterest.svg"
+                                  src="assets/img/icons/Facebook2.svg"
                                   alt=""
                                   class="injectable"
                               /></a>
                             </li>
                             <li>
-                              <a href="https://www.youtube.com/" target="_blank"
-                                ><img
-                                  src="assets/img/icons/youtube.svg"
+                              <a href="https://wa.me/971565151315" target="_blank"
+                                >
+                                <img
+                                  src="assets/img/icons/Whatsapp2.svg"
                                   alt=""
                                   class="injectable"
-                              /></a>
+                                />
+                              </a>
                             </li>
                           </ul>
                         </div>
