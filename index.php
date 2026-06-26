@@ -663,19 +663,19 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
-                                <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="Business consultant reviewing growth strategy documents" loading="lazy" decoding="async" width="900" height="643"></a>
+                                <a href="blog-details.php"><img src="assets/img/slider/1stBlog.jpg" alt="Dubai skyline for UAE company structuring insight" loading="lazy" decoding="async" width="900" height="643"></a>
                                 <div class="blog__post-date-two">
                                     <span>
-                                        <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
+                                        <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 23, 2026
                                     </span>
                                 </div>
                             </div>
                             <div class="blog__post-content">
-                                <a href="/blog" class="blog__post-tag">Business</a>
-                                <h2 class="title"><a href="blog-details.php">How To Monitor And Google Core Web Vitals</a></h2>
+                                <a href="/blog" class="blog__post-tag">UAE Structuring</a>
+                                <h2 class="title"><a href="blog-details.php">Mainland, Free Zone, or Offshore? The Structuring Decision Behind Every Serious UAE Move</a></h2>
                                 <div class="blog__post-author">
-                                    <a href="blog-details.php"><img src="assets/img/images/testi_avatar01.png" alt="Doman Smith author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
-                                    <span>By <a href="blog-details.php">Doman Smith</a></span>
+                                    <a href="blog-details.php"><img src="assets/img/team/jonaid.jpg" alt="Jonaid Ali Mohammad author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
+                                    <span>By <a href="blog-details.php">Jonaid Ali Mohammad</a></span>
                                 </div>
                             </div>
                         </div>

@@ -156,13 +156,13 @@
                         <div class="inner-blog-post-wrap">
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post01.jpg" alt="Business consultant reviewing growth strategy documents" loading="lazy" decoding="async" width="900" height="643"></a>
+                                    <a href="blog-details.php"><img src="assets/img/slider/1stBlog.jpg" alt="Dubai skyline for UAE company structuring insight" loading="lazy" decoding="async" width="900" height="643"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
                                         <ul class="list-wrap">
                                             <li>
-                                                <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
+                                                <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 23, 2026
                                             </li>
                                             <li>
                                                 <img src="assets/img/icons/comment.svg" alt="" class="injectable">
@@ -170,8 +170,8 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="blog-details.php">Get a few solutions to hire a best candidate</a></h2>
-                                    <p>Eed a little help from our friends from time to time. Although we offer the one-stop convenience of annery integrated range of legal, financial services under one roof, there are occasions when our clients areaneed specia- list advice beyond.</p>
+                                    <h2 class="title"><a href="blog-details.php">Mainland, Free Zone, or Offshore? The Structuring Decision Behind Every Serious UAE Move</a></h2>
+                                    <p>For U.S. founders operating at scale, the UAE isn't a tax headline - it's a structuring decision. Learn how Mainland, Free Zone, and Offshore structures differ across market access, tax treatment, banking substance, residency, and long-term setup strategy.</p>
                                     <a href="blog-details.php" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                 </div>
                             </div>
@@ -265,14 +265,14 @@
                                 <div class="rc-post-wrap">
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post01.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
+                                            <a href="blog-details.php"><img src="assets/img/slider/1stBlog.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">
                                                 <img src="assets/img/icons/calendar.svg" alt="" class="injectable">
-                                                Oct 21, 2025
+                                                Jun 23, 2026
                                             </span>
-                                            <h2 class="title"><a href="blog-details.php">Business prospectus for an easy</a></h2>
+                                            <h2 class="title"><a href="blog-details.php">Mainland, Free Zone, or Offshore?</a></h2>
                                         </div>
                                     </div>
                                     <div class="rc-post-item">

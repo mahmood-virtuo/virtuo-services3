@@ -18116,7 +18116,8 @@ textarea {
   gap: 10px;
 }
 .blog__post-author img {
-  width: 36px;
+  width: 50px;
+  height: 50px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -18133,7 +18134,7 @@ textarea {
   gap: 5px;
   font-size: 16px;
   font-weight: 500;
-  color: var(--tg-color-gray-7);
+  color: var(--tg-theme-primary);
 }
 .blog__post-author span a {
   color: var(--tg-body-color);
