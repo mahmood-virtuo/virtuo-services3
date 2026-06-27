@@ -41,7 +41,7 @@
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1stBlog.jpg" data-background-mobile="assets/img/slider/1st-mobile.webp">
-                        <div class="container">
+                        <div class="container site-content-gutter">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -130,7 +130,7 @@
         </section>
       <!-- blog-details-area -->
       <section class="blog__details-area section-py-130">
-        <div class="container">
+        <div class="container site-content-gutter">
           <div class="row">
             <div class="col-70">
               <div class="blog__details-wrap">

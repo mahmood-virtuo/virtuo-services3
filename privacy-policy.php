@@ -42,7 +42,7 @@
     <main class="main-area fix">
         <section class="breadcrumb__area">
             <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp"></div>
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
@@ -61,7 +61,7 @@
         </section>
 
         <section class="section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="legal-content">

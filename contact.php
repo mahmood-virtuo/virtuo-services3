@@ -53,7 +53,7 @@
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
             <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp" style="background-size:cover; background-repeat: no-repeat;"></div>
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
@@ -155,7 +155,7 @@
         <!-- contact-map-end -->
         <!-- ---New code------- -->
         <section class="contact__area">
-    <div class="container">
+    <div class="container site-content-gutter">
         <div class="row mb-5 align-items-stretch">
             <div class="col-lg-7">
                 <div class="contact-map-box">

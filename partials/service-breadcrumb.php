@@ -8,7 +8,7 @@ $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
 <section class="breadcrumb__area">
     <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" style="background-size: cover; background-repeat: no-repeat;"></div>
 
-    <div class="container">
+    <div class="container site-content-gutter">
         <div class="row">
             <div class="col-12">
                 <div class="breadcrumb__content">

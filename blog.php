@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body class="blog-page">
 
     <!-- preloader -->
     <?php include __DIR__ . '/partials/header.php'; ?>
@@ -52,7 +52,7 @@
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
             <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp"></div>
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
@@ -150,7 +150,7 @@
 
         <!-- blog-post-area -->
         <section class="blog__post-area-five section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-70 order-0 order-lg-2">
                         <div class="inner-blog-post-wrap">
@@ -248,7 +248,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-30">
+                    <div class="col-30 blog-sidebar-column">
                         <aside class="blog__sidebar">
                             <div class="sidebar__widget">
                                 <form action="#" class="shop__search blog__search">
@@ -339,8 +339,10 @@
                                     </ul>
                                 </div>
                             </div>
-                            <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
                         </aside>
+                        <div class="blog-sidebar-sticky-slot">
+                            <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
+                        </div>
                     </div>
                 </div>
             </div>

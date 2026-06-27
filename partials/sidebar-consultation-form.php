@@ -1,4 +1,4 @@
-<div class="sidebar__widget">
+<div class="sidebar__widget blog-sidebar-sticky-form">
     <div class="sidebar__contact">
         <h4 class="title">Book a Free Consultation with Virtuo’s UAE Business Setup Experts</h4>
 

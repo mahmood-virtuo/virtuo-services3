@@ -6260,7 +6260,7 @@ textarea {
 }
 @media (max-width: 1500px) {
   .slider__area > .slider__bar-pagination {
-    right: 32px;
+    right: 80px;
   }
 }
 .slider__nav-two {
@@ -28137,5 +28137,39 @@ select {
 
   .blog__avatar-img {
     margin-bottom: 20px;
+  }
+}
+
+/* Sitewide desktop inner content gutter */
+@media (min-width: 992px) {
+  .site-content-gutter {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* Blog page sticky consultation form */
+@media (min-width: 992px) {
+  body.blog-page .main-area.fix,
+  body.blog-page .blog__post-area-five,
+  body.blog-page .blog__post-area-five > .container,
+  body.blog-page .blog__post-area-five .row,
+  body.blog-page .blog-sidebar-column {
+    overflow: visible;
+  }
+
+  body.blog-page .blog-sidebar-column {
+    align-self: stretch;
+  }
+
+  body.blog-page .blog-sidebar-sticky-slot {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 150px;
+    z-index: 5;
+  }
+
+  body.blog-page .blog-sidebar-sticky-slot .sidebar__widget {
+    margin-bottom: 0;
   }
 }

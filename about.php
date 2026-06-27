@@ -48,7 +48,7 @@
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
             <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp"></div>
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
@@ -144,7 +144,7 @@
 
         <!-- about-area -->
         <section class="about__area section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-9">
                         <div class="about__img-wrap">
@@ -337,7 +337,7 @@
         </section>
         <!-- team-area -->
         <section class="virtuo-team section-py-130" aria-labelledby="virtuo-team-title" style="margin-bottom: 80px;">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section__title text-center mb-50">
@@ -346,7 +346,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container virtuo-team__container">
+                <div class="container site-content-gutter virtuo-team__container">
                     <div class="virtuo-team__intro">
                         <span class="sub-title">Core Team</span>
                         <h2 class="title" id="virtuo-team-title">Meet the Virtuo team</h2>

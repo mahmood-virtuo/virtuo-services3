@@ -130,7 +130,7 @@
 
         <!-- services-details-area -->
         <section class="services__details-area section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-70 order-0 order-lg-2">
                         <!-- Trade License Services Tab Panel -->
@@ -184,7 +184,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -292,7 +292,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
 
                                         </div>
@@ -311,7 +311,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -419,7 +419,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
 
                                         <div class="work__item-wrap-two">
 
@@ -436,7 +436,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -544,7 +544,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
 
                                         </div>
@@ -566,7 +566,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -673,7 +673,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
 
                                         </div>
@@ -692,7 +692,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -810,7 +810,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -925,7 +925,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -989,6 +989,121 @@
                             </div>
                         </div>
                         <!-- MOHRE Services Tab Panel End --><!-- MOHRE Services Tab Panel End -->
+                        <!-- MOHRE Inquiry Services Tab Panel -->
+                        <div class="service-tab-panel" id="government-relations-pro-services-mohre-inquiry-services" data-service-panel="government-relations-pro-services-mohre-inquiry-services">
+                            <div class="services__details-wrap">
+                                <div class="services__details-content-top">
+                                    <p style="margin-bottom: 15px;">MOHRE Inquiry Services</p>
+                                    <h2 class="title">Expert Labour &amp; Employment Services Aligned with UAE Labour Law</h2>
+                                    <p>Operating a business in the UAE mainland private sector requires total synchronization with the Ministry of Human Resources and Emiratisation (MOHRE). Every enterprise is legally accountable for strict regulatory compliance from day one, covering work permits, structured employment contracts, and statutory wage allocations.</p>
+                                    <p>At Virtuo, we untangle the complexities of labor regulations. Our corporate compliance team manages your entire MOHRE database interface, running real-time tracking audits, contract reviews, and quota checks to keep your establishment card in perfect status and shield your business from sudden operational blocks.</p>
+                                </div>
+                                <div class="services__details-thumb">
+                                    <img src="assets/img/services/MOHRE_ServicesImg1.jpg" alt="MOHRE Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                </div>
+                                <div class="services__details-content">
+                                    <h2 class="title-two">Why MOHRE Inquiry Services Are Essential</h2>
+                                    <p>Compliance with the Ministry of Human Resources &amp; Emiratisation UAE (MOHRE) is mandatory for all businesses operating in the UAE. Proper management of labor regulations is critical not only to meet legal requirements but also to ensure smooth operations, protect employee rights, and avoid costly penalties. MOHRE compliance covers a wide range of processes, from hiring and issuing work permits to managing labor contracts and resolving disputes. Companies that fail to meet these obligations risk fines, visa delays, and legal complications that can disrupt business operations.</p>
+                                    <p>At Virtuo, we provide comprehensive MOHRE services that help your organization stay fully compliant with UAE labor laws. Our team handles all administrative, legal, and procedural requirements efficiently, giving you peace of mind and allowing your business to focus on growth and productivity.</p>
+                                    <p>Key MOHRE Compliance Services Include:</p>
+                                    <p class="info-one"><b>1. Hiring Employees</b></p>
+                                    <p class="info-one"><b>2. Issuing Work Permits</b></p>
+                                    <p class="info-one"><b>3. Managing Labour Contracts</b></p>
+                                    <p class="info-one"><b>4. Updating Employee Information</b></p>
+                                    <p class="info-one"><b>5. Handling Labour Disputes</b></p>
+                                    <p class="info-one"><b>6. Maintaining Company Compliance</b></p>
+                                    <p class="info-one"><b>7. Avoiding Fines &amp; Penalties</b></p>
+                                    <p class="info-one"><b>8. Ensuring Smooth Visa Processing</b></p>
+                                    <p>With Virtuo, your company stays fully compliant, legally secure, and prepared for every MOHRE requirement.</p>
+                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="img-one">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg2.jpg" alt="MOHRE Services" loading="lazy" decoding="async" width="600" height="383">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="img-two">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg3.jpg" alt="MOHRE Services" loading="lazy" decoding="async" width="600" height="383">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work-area -->
+                                <section class="work__area-two has-animation">
+                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <h2 class="title-two">Why Do Businesses Choose Virtuo?</h2>
+                                        <p class="info-one">Virtuo secures your corporate operations by serving as your expert interface with the Ministry of Human Resources and Emiratisation. By combining an intricate mastery of federal labor laws with continuous monitoring of digital registry portals, we ensure your workforce files are maintained with total compliance accuracy. Our framework completely eliminates the risk of sudden company blocks or hidden processing friction by identifying record variations before they turn into major violations, providing your enterprise with a dedicated labor relations asset that protects your hiring capabilities while you focus on scaling your business.</p>
+                                     </div>
+                                </section>
+                                <!-- work-area-end -->
+                                <!-- faq-area -->
+                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <div class="container site-content-gutter">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-6">
+                                                <div class="section__title text-center mb-50">
+                                                    <span class="sub-title">FREQUENTLY ASKED QUESTIONS</span>
+                                                    <h2 class="title">Got any questions?</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="faq__wrap faq__wrap-three">
+                                                    <div class="accordion" id="government-relations-pro-services-mohre-inquiry-services-accordion">
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-mohre-inquiry-services-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-mohre-inquiry-services-collapseOne">1. What exactly are MOHRE inquiry services, and why are they necessary?</button>
+                                                            </h2>
+                                                            <div id="government-relations-pro-services-mohre-inquiry-services-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-mohre-inquiry-services-accordion">
+                                                                <div class="accordion-body">
+                                                                    <p>MOHRE inquiry tools provide instant digital access to official labor market data and registered employment records stored by the ministry. Virtuo's corporate team utilizes these systems to double-check that your active contracts, job descriptions, and permits perfectly match federal files, safeguarding your entity against structural compliance gaps.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-mohre-inquiry-services-collapseTwo" aria-expanded="false" aria-controls="government-relations-pro-services-mohre-inquiry-services-collapseTwo">2. Who is eligible to access and run queries on the MOHRE database?</button>
+                                                            </h2>
+                                                            <div id="government-relations-pro-services-mohre-inquiry-services-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-mohre-inquiry-services-accordion">
+                                                                <div class="accordion-body">
+                                                                    <p>Both company owners and registered employees can check file validities, though employers require specific corporate establishment numbers to audit entire personnel lists. Virtuo acts as your authorized PRO proxy, managing your corporate portals safely to track transactions and verify new job offers without disrupting your daily routine.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-mohre-inquiry-services-collapseThree" aria-expanded="false" aria-controls="government-relations-pro-services-mohre-inquiry-services-collapseThree">3. How does checking our MOHRE configuration protect our business?</button>
+                                                            </h2>
+                                                            <div id="government-relations-pro-services-mohre-inquiry-services-collapseThree" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-mohre-inquiry-services-accordion">
+                                                                <div class="accordion-body">
+                                                                    <p>Failing to maintain updated contract parameters, missing visa expiry milestones, or generating salary delays can cause immediate system-wide freezes on your trade license. Virtuo isolates your business from risk by conducting weekly audits on your portal files, addressing administrative alerts before they lead to official penalties.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-mohre-inquiry-services-collapseFour" aria-expanded="false" aria-controls="government-relations-pro-services-mohre-inquiry-services-collapseFour">4. What types of labor records can be checked and updated through Virtuo?</button>
+                                                            </h2>
+                                                            <div id="government-relations-pro-services-mohre-inquiry-services-collapseFour" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-mohre-inquiry-services-accordion">
+                                                                <div class="accordion-body">
+                                                                    <p>Our systems pull direct files on work permit validities, labor card numbers, electronic contracts, quota limits, and monthly Wage Protection System compliance records. Virtuo safeguards your ongoing growth by managing this documentation loop, directly transitioning your newly hired staff profiles into verified corporate payroll systems.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__shape-wrap"></div>
+                                </section>
+                                <!-- faq-area-end -->
+                            </div>
+                        </div>
+                        <!-- MOHRE Inquiry Services Tab Panel End --><!-- MOHRE Inquiry Services Tab Panel End -->
                     </div>
                     <div class="col-30">
                         <aside class="services__sidebar">
@@ -1058,6 +1173,16 @@
                                         <li>
                                             <a href="#government-relations-pro-services-mohre-services" class="service-tab-link" data-service-tab="government-relations-pro-services-mohre-services">
                                                 MOHRE Services
+                                                <span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                                        <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#government-relations-pro-services-mohre-inquiry-services" class="service-tab-link" data-service-tab="government-relations-pro-services-mohre-inquiry-services">
+                                                Corporate Compliance
                                                 <span>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
                                                         <path d="M1 6.7777H22.6667M22.6667 6.7777L16.9683 1M22.6667 6.7777L16.9683 12.5556" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

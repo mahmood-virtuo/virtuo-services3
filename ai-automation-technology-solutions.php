@@ -131,7 +131,7 @@
 
         <!-- services-details-area -->
         <section class="services__details-area section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-70 order-0 order-lg-2">
                         <!-- AI Automation Tab Panel -->
@@ -177,7 +177,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation" style="margin-top: 100px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
                                                 <div class="section__title text-center mb-60">
@@ -252,7 +252,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -359,7 +359,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation" style="margin-top: 100px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
                                                 <div class="section__title text-center mb-60">
@@ -434,7 +434,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -541,7 +541,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation" style="margin-top: 100px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
                                                 <div class="section__title text-center mb-60">
@@ -616,7 +616,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -723,7 +723,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation" style="margin-top: 100px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
                                                 <div class="section__title text-center mb-60">
@@ -798,7 +798,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">

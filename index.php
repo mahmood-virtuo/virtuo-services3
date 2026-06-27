@@ -53,7 +53,7 @@
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.webp" data-background-mobile="assets/img/slider/1st-mobile.webp">
-                        <div class="container">
+                        <div class="container site-content-gutter">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/2nd.webp" data-lazy-background-mobile="assets/img/slider/2nd-mobile.webp">
-                        <div class="container">
+                        <div class="container site-content-gutter">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/3rd.webp" data-lazy-background-mobile="assets/img/slider/3rd-mobile.webp">
-                        <div class="container">
+                        <div class="container site-content-gutter">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/4th.webp" data-lazy-background-mobile="assets/img/slider/4th-mobile.webp">
-                        <div class="container">
+                        <div class="container site-content-gutter">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/5th.webp" data-lazy-background-mobile="assets/img/slider/5th-mobile.webp">
-                        <div class="container">
+                        <div class="container site-content-gutter">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -203,7 +203,7 @@
         <!-- 2nd section -->
 
         <section class="about__area-four section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-10 order-0 order-lg-2">
                         <div class="about__img-four">
@@ -300,7 +300,7 @@
         
 
         <section class="cta__area-five">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-5">
                         <div class="cta__content-five">
@@ -340,7 +340,7 @@
         <!-- choose-area -->
 
         <section class="choose__area-five section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-9">
                         <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
@@ -402,7 +402,7 @@
 
         <!-- services-area -->
         <section class=" section-py-130" style="background-color: url(/assets/img/services/footerBackgroundImage.jgp); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.jpg">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-8">
                         <div class="section__title white-title text-center mb-50">
@@ -650,7 +650,7 @@
 
         <!-- blog-post-area -->
         <section class="blog__post-area-six section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8">
                         <div class="section__title text-center mb-50">

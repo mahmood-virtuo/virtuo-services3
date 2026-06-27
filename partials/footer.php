@@ -106,7 +106,7 @@
         <img class="virtuo-reference-footer__watermark" src="assets/img/images/virtuo-footer-wordmark.png" alt="" aria-hidden="true">
     </footer> -->
 <section class="cta__area-two">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="cta__inner-wrap-two">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
@@ -137,7 +137,7 @@
         </section>
 
  <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-     <div class="container custom-container footer-reference-container">
+     <div class="container site-content-gutter custom-container footer-reference-container">
          <div class="footer__top-two">
              <div class="row">
                  <div class="col-xl-8 col-lg-8">

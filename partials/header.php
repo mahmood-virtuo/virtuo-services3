@@ -27,7 +27,7 @@
   gtag('config', 'G-1BKW1VKNBX');
 </script>
     <div class="tg-header__top">
-        <div class="container custom-container virtuo-px-100">
+        <div class="container site-content-gutter custom-container virtuo-px-100">
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="tg-header__top-info">
@@ -61,7 +61,7 @@
     </div>
     <div id="header-fixed-height"></div>
     <div id="sticky-header" class="tg-header__area tg-header__area-five">
-        <div class="container custom-container">
+        <div class="container site-content-gutter custom-container">
             <div class="tgmenu__wrap">
                 <nav class="tgmenu__nav">
                     <div class="logo">
@@ -104,6 +104,7 @@
                                                 <a href="/government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
                                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
                                                 <a href="/government-relations-pro-services#government-relations-pro-services-notary-public-services-dubai">Notary Public Services Dubai</a>
+                                                <a href="/government-relations-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
                                             </div>
                                             <div class="virtuo-services-mega__panel" data-mega-panel="immigration">
                                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a>

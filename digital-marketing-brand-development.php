@@ -129,7 +129,7 @@
 
         <!-- services-details-area -->
         <section class="services__details-area section-py-130">
-            <div class="container">
+            <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-70 order-0 order-lg-2">
                         <!-- Web &amp; Digital Solutions Tab Panel -->
@@ -182,7 +182,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -305,7 +305,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -419,7 +419,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -543,7 +543,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container">
+                                    <div class="container site-content-gutter">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -661,7 +661,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -773,7 +773,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -888,7 +888,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1003,7 +1003,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1118,7 +1118,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1233,7 +1233,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1351,7 +1351,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1463,7 +1463,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1575,7 +1575,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1687,7 +1687,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1801,7 +1801,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -1913,7 +1913,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -2025,7 +2025,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -2137,7 +2137,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -2249,7 +2249,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -2362,7 +2362,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -2473,7 +2473,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -2584,7 +2584,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
@@ -2702,7 +2702,7 @@
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
                                     <section class="faq__area-three" style="margin-bottom: 50px;">
-                                        <div class="container">
+                                        <div class="container site-content-gutter">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
                                                     <div class="section__title text-center mb-50">
