@@ -16,6 +16,24 @@
         'heroImage' => '/assets/img/slider/1st.webp'
     );
     include __DIR__ . '/partials/seo.php';
+
+    function virtuo_truncate_text($text, $limit = 40) {
+        $text = trim($text);
+
+        if (function_exists('mb_strlen') && function_exists('mb_substr')) {
+            if (mb_strlen($text, 'UTF-8') <= $limit) {
+                return $text;
+            }
+
+            return rtrim(mb_substr($text, 0, $limit, 'UTF-8')) . '...';
+        }
+
+        if (strlen($text) <= $limit) {
+            return $text;
+        }
+
+        return rtrim(substr($text, 0, $limit)) . '...';
+    }
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -672,7 +690,8 @@
                             </div>
                             <div class="blog__post-content">
                                 <a href="/blog" class="blog__post-tag">UAE Structuring</a>
-                                <h2 class="title"><a href="blog-details.php">Mainland, Free Zone, or Offshore? The Structuring Decision Behind Every Serious UAE Move</a></h2>
+                                <?php $blogTitle = 'Mainland, Free Zone, or Offshore? The Structuring Decision Behind Every Serious UAE Move'; ?>
+                                <h2 class="title"><a href="blog-details.php" title="<?php echo htmlspecialchars($blogTitle, ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogTitle, 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
                                 <div class="blog__post-author">
                                     <a href="blog-details.php"><img src="assets/img/team/jonaid.jpg" alt="Jonaid Ali Mohammad author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
                                     <span>By <a href="blog-details.php">Jonaid Ali Mohammad</a></span>
@@ -692,7 +711,8 @@
                             </div>
                             <div class="blog__post-content">
                                 <a href="/blog" class="blog__post-tag">Corporate Work</a>
-                                <h2 class="title"><a href="blog-details.php">How To Monitor And Google Core Web Vitals</a></h2>
+                                <?php $blogTitle = 'How To Monitor And Google Core Web Vitals'; ?>
+                                <h2 class="title"><a href="blog-details.php" title="<?php echo htmlspecialchars($blogTitle, ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogTitle, 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
                                 <div class="blog__post-author">
                                     <a href="blog-details.php"><img src="assets/img/images/testi_avatar02.png" alt="Doman Smith author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
                                     <span>By <a href="blog-details.php">Doman Smith</a></span>
@@ -712,7 +732,8 @@
                             </div>
                             <div class="blog__post-content">
                                 <a href="/blog" class="blog__post-tag">consulting</a>
-                                <h2 class="title"><a href="blog-details.php">How To Monitor And Google Core Web Vitals</a></h2>
+                                <?php $blogTitle = 'How To Monitor And Google Core Web Vitals'; ?>
+                                <h2 class="title"><a href="blog-details.php" title="<?php echo htmlspecialchars($blogTitle, ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogTitle, 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
                                 <div class="blog__post-author">
                                     <a href="blog-details.php"><img src="assets/img/images/testi_avatar03.png" alt="Doman Smith author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
                                     <span>By <a href="blog-details.php">Doman Smith</a></span>

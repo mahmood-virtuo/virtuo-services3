@@ -341,7 +341,9 @@
                             </div>
                         </aside>
                         <div class="blog-sidebar-sticky-slot">
-                            <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
+                            <div class="blog-sidebar-sticky-inner">
+                                <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -355,6 +357,7 @@
     <!-- footer-area -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
+    <script src="assets/js/blog-sticky-form.js"></script>
     <!-- footer-area-end -->
 
 </body>

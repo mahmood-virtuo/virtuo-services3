@@ -184,7 +184,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -292,7 +292,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
 
                                         </div>
@@ -311,7 +311,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -419,7 +419,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
 
                                         <div class="work__item-wrap-two">
 
@@ -436,7 +436,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -544,7 +544,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
 
                                         </div>
@@ -566,7 +566,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -673,7 +673,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
 
                                         </div>
@@ -692,7 +692,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -810,7 +810,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -925,7 +925,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">
@@ -1040,7 +1040,7 @@
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
                                 <section class="faq__area-three" style="margin-bottom: 50px;">
-                                    <div class="container site-content-gutter">
+                                    <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
                                                 <div class="section__title text-center mb-50">

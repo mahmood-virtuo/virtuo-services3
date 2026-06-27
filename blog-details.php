@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js blog-details-html" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
+<body class="blog-details-page">
     <!-- header-area -->
     <?php include __DIR__ . '/partials/header.php'; ?>
     <!-- header-area-end -->
@@ -134,7 +134,7 @@
           <div class="row">
             <div class="col-70">
               <div class="blog__details-wrap">
-                <div class="blog__details-content">
+                <div class="blog__details-content blog-details-article" id="blogDetailsArticle">
                   <div class="blog__post-meta">
                     <ul class="list-wrap">
                       <li>
@@ -376,8 +376,8 @@
                 
               </div>
             </div>
-            <div class="col-30">
-              <aside class="blog__sidebar blog__sidebar-two">
+            <div class="col-30 blog-details-sidebar-column">
+              <!-- <aside class="blog__sidebar blog__sidebar-two blog-details-search-sidebar">
                 <div class="sidebar__widget">
                   <form action="#" class="shop__search blog__search">
                     <input type="text" placeholder="Search" />
@@ -400,145 +400,32 @@
                     </button>
                   </form>
                 </div>
-                <div class="sidebar__widget">
-                  <h4 class="sidebar__widget-title">Recent Posts</h4>
-                  <div class="rc-post-wrap">
-                    <div class="rc-post-item">
-                      <div class="thumb">
-                        <a href="/blog-details"
-                          ><img src="assets/img/blog/rc_post01.jpg" alt=""
-                        /></a>
-                      </div>
-                      <div class="content">
-                        <span class="date">
-                          <img
-                            src="assets/img/icons/calendar.svg"
-                            alt=""
-                            class="injectable"
-                          />
-                          Jun 23, 2026
-                        </span>
-                        <h2 class="title">
-                          <a href="/blog-details"
-                            >Business prospectus for an easy</a
-                          >
-                        </h2>
-                      </div>
-                    </div>
-                    <div class="rc-post-item">
-                      <div class="thumb">
-                        <a href="/blog-details"
-                          ><img src="assets/img/blog/rc_post02.jpg" alt=""
-                        /></a>
-                      </div>
-                      <div class="content">
-                        <span class="date">
-                          <img
-                            src="assets/img/icons/calendar.svg"
-                            alt=""
-                            class="injectable"
-                          />
-                          Jun 23, 2026
-                        </span>
-                        <h2 class="title">
-                          <a href="/blog-details"
-                            >Business prospectus for an easy</a
-                          >
-                        </h2>
-                      </div>
-                    </div>
-                    <div class="rc-post-item">
-                      <div class="thumb">
-                        <a href="/blog-details"
-                          ><img src="assets/img/blog/rc_post03.jpg" alt=""
-                        /></a>
-                      </div>
-                      <div class="content">
-                        <span class="date">
-                          <img
-                            src="assets/img/icons/calendar.svg"
-                            alt=""
-                            class="injectable"
-                          />
-                          Jun 23, 2026
-                        </span>
-                        <h2 class="title">
-                          <a href="/blog-details"
-                            >Business prospectus for an easy</a
-                          >
-                        </h2>
-                      </div>
-                    </div>
-                    <div class="rc-post-item">
-                      <div class="thumb">
-                        <a href="/blog-details"
-                          ><img src="assets/img/blog/rc_post04.jpg" alt=""
-                        /></a>
-                      </div>
-                      <div class="content">
-                        <span class="date">
-                          <img
-                            src="assets/img/icons/calendar.svg"
-                            alt=""
-                            class="injectable"
-                          />
-                          Jun 23, 2026
-                        </span>
-                        <h2 class="title">
-                          <a href="/blog-details"
-                            >Business prospectus for an easy</a
-                          >
-                        </h2>
-                      </div>
+              </aside> -->
+              <div class="blog-details-sticky-sidebar">
+                <aside class="blog__sidebar blog__sidebar-two blog-details-sticky-sidebar-inner">
+                  <div class="sidebar__widget blog-details-sticky-toc-widget">
+                    <nav class="blog-toc" aria-label="Article quick links">
+                      <h4 class="sidebar__widget-title blog-toc__title">In This Article</h4>
+                      <ol class="blog-toc__list" id="blogArticleToc"></ol>
+                    </nav>
+                  </div>
+                  <div class="sidebar__widget">
+                    <h4 class="sidebar__widget-title">Popular Tags</h4>
+                    <div class="sidebar__tag-list">
+                      <ul class="list-wrap">
+                        <li><a href="/blog">Finance</a></li>
+                        <li><a href="/blog">Investment</a></li>
+                        <li><a href="/blog">TAX</a></li>
+                        <li><a href="/blog">Banking</a></li>
+                        <li><a href="/blog">Finance Advisor</a></li>
+                        <li><a href="/blog">Tax Consultancy</a></li>
+                        <li><a href="/blog">Security</a></li>
+                      </ul>
                     </div>
                   </div>
-                </div>
-                <div class="sidebar__widget">
-                  <h4 class="sidebar__widget-title">Categories</h4>
-                  <div class="bs-cat-list">
-                    <ul class="list-wrap">
-                      <li>
-                        <a href="/blog"
-                          >Business Strategy <span>(02)</span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="/blog"
-                          >Finance Advisory <span>(08)</span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="/blog"
-                          >Marketing Analysis <span>(05)</span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="/blog"
-                          >Investment Planning <span>(02)</span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="/blog">Data Analysis <span>(11)</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="sidebar__widget">
-                  <h4 class="sidebar__widget-title">Popular Tags</h4>
-                  <div class="sidebar__tag-list">
-                    <ul class="list-wrap">
-                      <li><a href="/blog">Finance</a></li>
-                      <li><a href="/blog">Investment</a></li>
-                      <li><a href="/blog">TAX</a></li>
-                      <li><a href="/blog">Banking</a></li>
-                      <li><a href="/blog">Finance Advisor</a></li>
-                      <li><a href="/blog">Tax Consultancy</a></li>
-                      <li><a href="/blog">Security</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
-              </aside>
+                  <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
+                </aside>
+              </div>
             </div>
           </div>
         </div>
@@ -550,6 +437,7 @@
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
     <script src="assets/js/blog-details.js"></script>
+    <script src="assets/js/blog-toc.js"></script>
     <!-- footer-area-end -->
 </body>
 </html>
