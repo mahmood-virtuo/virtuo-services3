@@ -167,11 +167,12 @@
                              </nav>
                              <nav class="footer-reference-left__services" aria-label="Visa services">
                                  <h4 style="color: #EE4c01;"></h4><br/>
-                                 <a href="/digital-marketing-brand-development#digital-marketing-brand-development-social-media-management">Web & Digital Solutions</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
+                                 <a href="/digital-marketing-brand-development">Web & Digital Solutions</a>
                                  <a href="/digital-marketing-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a>
                                  <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
                                  <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
                                  <!-- <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a> -->
                              </nav>
                          </div>
