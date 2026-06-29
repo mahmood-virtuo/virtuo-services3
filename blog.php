@@ -156,7 +156,7 @@
                         <div class="inner-blog-post-wrap">
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/slider/1stBlog.jpg" alt="Dubai skyline for UAE company structuring insight" loading="lazy" decoding="async" width="900" height="643"></a>
+                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/slider/1stBlog.jpg" alt="Dubai skyline for UAE company structuring insight" loading="lazy" decoding="async" width="900" height="643"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -166,18 +166,39 @@
                                             </li>
                                             <li>
                                                 <img src="assets/img/icons/comment.svg" alt="" class="injectable">
-                                                <a href="blog-details.php">Comment: 15</a>
+                                                <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Comment: 15</a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="blog-details.php">Mainland, Free Zone, or Offshore? The Structuring Decision Behind Every Serious UAE Move</a></h2>
+                                    <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Mainland, Free Zone, or Offshore? The Structuring Decision Behind Every Serious UAE Move</a></h2>
                                     <p>For U.S. founders operating at scale, the UAE isn't a tax headline - it's a structuring decision. Learn how Mainland, Free Zone, and Offshore structures differ across market access, tax treatment, banking substance, residency, and long-term setup strategy.</p>
-                                    <a href="blog-details.php" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                 </div>
                             </div>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post02.jpg" alt="Corporate team discussing business consulting plans" loading="lazy" decoding="async" width="900" height="643"></a>
+                                    <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae"><img src="assets/img/slider/1stBlog.jpg" alt="Dubai skyline for UAE wireless and ITAD strategy insight" loading="lazy" decoding="async" width="900" height="643"></a>
+                                </div>
+                                <div class="blog__post-content-five">
+                                    <div class="blog__post-meta">
+                                        <ul class="list-wrap">
+                                            <li>
+                                                <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 27, 2026
+                                            </li>
+                                            <li>
+                                                <img src="assets/img/icons/comment.svg" alt="" class="injectable">
+                                                <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae">UAE Strategy &middot; Wireless &amp; ITAD</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h2 class="title"><a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae">Why U.S. Wireless and ITAD Operators Are Looking at the UAE</a></h2>
+                                    <p>A second base for lower costs, new markets, faster payments, and stronger margins — built gradually, not overnight.</p>
+                                    <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                </div>
+                            </div>
+                            <div class="blog__post-item-five">
+                                <div class="blog__post-thumb-five">
+                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/blog/blog_post03.jpg" alt="Consultants planning a business development project" loading="lazy" decoding="async" width="900" height="637"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -187,18 +208,18 @@
                                             </li>
                                             <li>
                                                 <img src="assets/img/icons/comment.svg" alt="" class="injectable">
-                                                <a href="blog-details.php">Comment: 15</a>
+                                                <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Comment: 15</a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="blog-details.php">Get a few solutions to hire a best candidate</a></h2>
+                                    <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Get a few solutions to hire a best candidate</a></h2>
                                     <p>Eed a little help from our friends from time to time. Although we offer the one-stop convenience of annery integrated range of legal, financial services under one roof, there are occasions when our clients areaneed specia- list advice beyond.</p>
-                                    <a href="blog-details.php" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                 </div>
                             </div>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post03.jpg" alt="Consultants planning a business development project" loading="lazy" decoding="async" width="900" height="637"></a>
+                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/blog/blog_post04.jpg" alt="Professional team reviewing company growth reports" loading="lazy" decoding="async" width="900" height="708"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
@@ -208,34 +229,13 @@
                                             </li>
                                             <li>
                                                 <img src="assets/img/icons/comment.svg" alt="" class="injectable">
-                                                <a href="blog-details.php">Comment: 15</a>
+                                                <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Comment: 15</a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="blog-details.php">Get a few solutions to hire a best candidate</a></h2>
+                                    <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Get a few solutions to hire a best candidate</a></h2>
                                     <p>Eed a little help from our friends from time to time. Although we offer the one-stop convenience of annery integrated range of legal, financial services under one roof, there are occasions when our clients areaneed specia- list advice beyond.</p>
-                                    <a href="blog-details.php" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
-                                </div>
-                            </div>
-                            <div class="blog__post-item-five">
-                                <div class="blog__post-thumb-five">
-                                    <a href="blog-details.php"><img src="assets/img/blog/blog_post04.jpg" alt="Professional team reviewing company growth reports" loading="lazy" decoding="async" width="900" height="708"></a>
-                                </div>
-                                <div class="blog__post-content-five">
-                                    <div class="blog__post-meta">
-                                        <ul class="list-wrap">
-                                            <li>
-                                                <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
-                                            </li>
-                                            <li>
-                                                <img src="assets/img/icons/comment.svg" alt="" class="injectable">
-                                                <a href="blog-details.php">Comment: 15</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title"><a href="blog-details.php">Get a few solutions to hire a best candidate</a></h2>
-                                    <p>Eed a little help from our friends from time to time. Although we offer the one-stop convenience of annery integrated range of legal, financial services under one roof, there are occasions when our clients areaneed specia- list advice beyond.</p>
-                                    <a href="blog-details.php" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                 </div>
                             </div>
                         </div>
@@ -265,50 +265,50 @@
                                 <div class="rc-post-wrap">
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/slider/1stBlog.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
+                                            <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/slider/1stBlog.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">
                                                 <img src="assets/img/icons/calendar.svg" alt="" class="injectable">
                                                 Jun 23, 2026
                                             </span>
-                                            <h2 class="title"><a href="blog-details.php">Mainland, Free Zone, or Offshore?</a></h2>
+                                            <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Mainland, Free Zone, or Offshore?</a></h2>
                                         </div>
                                     </div>
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post02.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
+                                            <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/blog/rc_post02.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">
                                                 <img src="assets/img/icons/calendar.svg" alt="" class="injectable">
                                                 Oct 21, 2025
                                             </span>
-                                            <h2 class="title"><a href="blog-details.php">Business prospectus for an easy</a></h2>
+                                            <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Business prospectus for an easy</a></h2>
                                         </div>
                                     </div>
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post03.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
+                                            <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/blog/rc_post03.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">
                                                 <img src="assets/img/icons/calendar.svg" alt="" class="injectable">
                                                 Oct 21, 2025
                                             </span>
-                                            <h2 class="title"><a href="blog-details.php">Business prospectus for an easy</a></h2>
+                                            <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Business prospectus for an easy</a></h2>
                                         </div>
                                     </div>
                                     <div class="rc-post-item">
                                         <div class="thumb">
-                                            <a href="blog-details.php"><img src="assets/img/blog/rc_post04.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
+                                            <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/blog/rc_post04.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
                                         </div>
                                         <div class="content">
                                             <span class="date">
                                                 <img src="assets/img/icons/calendar.svg" alt="" class="injectable">
                                                 Oct 21, 2025
                                             </span>
-                                            <h2 class="title"><a href="blog-details.php">Business prospectus for an easy</a></h2>
+                                            <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Business prospectus for an easy</a></h2>
                                         </div>
                                     </div>
                                 </div>

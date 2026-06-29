@@ -41,15 +41,15 @@
                     <div class="tg-header__top-right">
                         <ul class="list-wrap">
                             <li class="log-in">
-                                <a href="/contact"><img src="assets/img/icons/lock.svg" alt="" class="injectable">Log in</a>
+                                <a href="/contact"><img src="/assets/img/icons/lock.svg" alt="" class="injectable">Log in</a>
                             </li>
                             <li>
                                 <div class="tg-header__top-social">
                                     <ul class="list-wrap">
-                                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                        <!-- <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
-                                        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                        <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="/assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                                        <!-- <li><a href="https://x.com/home" target="_blank"><img src="/assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
+                                        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="/assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                                        <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="/assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -65,10 +65,10 @@
             <div class="tgmenu__wrap">
                 <nav class="tgmenu__nav">
                     <div class="logo">
-                        <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39"></a>
+                        <a href="/"><img src="/assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39"></a>
                     </div>
                     <div class="logo d-none">
-                        <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
+                        <a href="/"><img src="/assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
                     </div>
                     <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                         <ul class="navigation">
@@ -188,7 +188,7 @@
         <nav class="tgmobile__menu-box">
             <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
             <div class="nav-logo">
-                <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
+                <a href="/"><img src="/assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
             </div>
             <div class="tgmobile__search">
                 <form action="#">
@@ -214,22 +214,22 @@
     <!-- offCanvas-menu -->
     <div class="offCanvas__info">
         <div class="offCanvas__close-icon menu-close">
-            <button type="button" aria-label="Close menu"><img src="assets/img/icons/times.svg" alt="" class="injectable"></button>
+            <button type="button" aria-label="Close menu"><img src="/assets/img/icons/times.svg" alt="" class="injectable"></button>
         </div>
         <div class="offCanvas__logo mb-30">
-            <a href="/"><img src="assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
+            <a href="/"><img src="/assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
         </div>
         <div class="offCanvas__content">
             <p style="text-align: left;">Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
         </div>
         <!-- <div class="offCanvas__img">
                 <ul class="list-wrap">
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta01.jpg" alt="Virtuo Services Instagram image 01" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta02.jpg" alt="Virtuo Services Instagram image 02" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta03.jpg" alt="Virtuo Services Instagram image 03" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta04.jpg" alt="Virtuo Services Instagram image 04" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta05.jpg" alt="Virtuo Services Instagram image 05" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="assets/img/images/footer_insta06.jpg" alt="Virtuo Services Instagram image 06" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta01.jpg" alt="Virtuo Services Instagram image 01" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta02.jpg" alt="Virtuo Services Instagram image 02" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta03.jpg" alt="Virtuo Services Instagram image 03" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta04.jpg" alt="Virtuo Services Instagram image 04" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta05.jpg" alt="Virtuo Services Instagram image 05" loading="lazy" decoding="async"></a></li>
+                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta06.jpg" alt="Virtuo Services Instagram image 06" loading="lazy" decoding="async"></a></li>
                 </ul>
             </div> -->
         <div class="offCanvas__side-info">
@@ -248,10 +248,10 @@
         <div class="offCanvas__social">
             <h6 class="title">Follow us</h6>
             <ul class="list-wrap">
-                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                <!-- <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
-                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="/assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                <!-- <li><a href="https://x.com/home" target="_blank"><img src="/assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="/assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="/assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
             </ul>
         </div>
     </div>

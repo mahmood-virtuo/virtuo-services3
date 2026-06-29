@@ -149,14 +149,14 @@
                     <div class="col-lg-6 col-md-9">
                         <div class="about__img-wrap">
                             <div class="about__images">
-                                <img src="assets/img/images/about_img01.jpg" alt="About Img01" loading="lazy" decoding="async" width="511" height="338">
-                                <img src="assets/img/images/about_img02.jpg" alt="About Img02" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async" width="357" height="228">
+                                <img src="assets/img/images/about_img01.jpg" alt="About Img01" loading="lazy" decoding="async">
+                                <!-- <img src="assets/img/images/about_img02.jpg" alt="About Img02" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async" width="357" height="228"> -->
                             </div>
-                            <div class="experience__wrap" data-aos="fade-left" data-aos-delay="200">
+                            <!-- <div class="experience__wrap" data-aos="fade-left" data-aos-delay="200">
                                 <h2 class="count">25+</h2>
                                 <span>Of Experience <br> in This Field</span>
-                            </div>
-                            <div class="profit__wrap" data-parallax='{"x" : 50 }'>
+                            </div> -->
+                            <!-- <div class="profit__wrap" data-parallax='{"x" : 50 }'>
                                 <div class="thumb">
                                     <img src="assets/img/images/profit_grap.svg" alt="Profit Grap">
                                 </div>
@@ -164,10 +164,10 @@
                                     <h5 class="title">98% Profit</h5>
                                     <span>Earning This Year</span>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="shape">
-                                <img src="assets/img/images/about_shape01.svg" alt="" aria-hidden="true" data-aos="fade-up-right" data-aos-delay="600">
-                                <img src="assets/img/images/about_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown">
+                                <!-- <img src="assets/img/images/about_shape01.svg" alt="" aria-hidden="true" data-aos="fade-up-right" data-aos-delay="600"> -->
+                                <!-- <img src="assets/img/images/about_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown"> -->
                             </div>
                         </div>
                     </div>

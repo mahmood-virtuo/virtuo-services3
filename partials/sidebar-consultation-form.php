@@ -4,7 +4,7 @@
 
                                     <!-- -------Form Starts here----------- -->
                                     <div class="estimate-form-wrap virtuo-sidebar-form">
-                                        <form id="footer-quote-form" action="assets/mail.php" method="POST">
+                                        <form id="footer-quote-form" action="/assets/mail.php" method="POST">
                                             <input type="hidden" name="form_type" value="footer_quote">
 
                                             <div class="form-grp">
@@ -67,15 +67,15 @@
                                     </div>
                                      <!-- ----------Form Ends Here------------ -->
                                     <div class="shape">
-                                        <img src="assets/img/images/sidebar_contact_shape01.svg" alt="" aria-hidden="true" class="rotateme">
-                                        <img src="assets/img/images/sidebar_contact_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown">
+                                        <img src="/assets/img/images/sidebar_contact_shape01.svg" alt="" aria-hidden="true" class="rotateme">
+                                        <img src="/assets/img/images/sidebar_contact_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown">
                                     </div>
                                 </div>
                             </div>
 
                         <div class="shape">
-                            <!-- <img src="assets/img/images/sidebar_contact_shape01.svg" alt="" aria-hidden="true" class="rotateme">
-                            <img src="assets/img/images/sidebar_contact_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown"> -->
+                            <!-- <img src="/assets/img/images/sidebar_contact_shape01.svg" alt="" aria-hidden="true" class="rotateme">
+                            <img src="/assets/img/images/sidebar_contact_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown"> -->
                         </div>
     </div>
 </div>

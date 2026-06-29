@@ -158,12 +158,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/Web&DigitalSolutionsImg2.jpg" alt="Web &amp; Digital Solutions" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/Web&DigitalSolutionsImg2.jpg" alt="Web &amp; Digital Solutions" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/Web&DigitalSolutionsImg3.jpg" alt="Web &amp; Digital Solutions" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/Web&DigitalSolutionsImg3.jpg" alt="Web &amp; Digital Solutions" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -273,12 +273,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/BrandDevelopmentImg2.jpg" alt="Brand Development" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/BrandDevelopmentImg2.jpg" alt="Brand Development" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/BrandDevelopmentImg3.jpg" alt="Brand Development" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/BrandDevelopmentImg3.jpg" alt="Brand Development" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -397,12 +397,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/SocialMediaManagementImg2.jpg" alt="Social Media Management" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/SocialMediaManagementImg2.jpg" alt="Social Media Management" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/SocialMediaManagementImg3.jpg" alt="Social Media Management" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/SocialMediaManagementImg3.jpg" alt="Social Media Management" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -515,12 +515,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/MarketingSolutionsImg2.jpg" alt="Marketing Solutions" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/MarketingSolutionsImg2.jpg" alt="Marketing Solutions" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/MarketingSolutionsImg3.jpg" alt="Marketing Solutions" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/MarketingSolutionsImg3.jpg" alt="Marketing Solutions" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -636,12 +636,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img2.jpg" alt="Website Design (UI/UX)" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img2.jpg" alt="Website Design (UI/UX)" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img3.jpg" alt="Website Design (UI/UX)" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img3.jpg" alt="Website Design (UI/UX)" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>
@@ -748,12 +748,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/WebsiteDevelopmentImg2.jpg" alt="Website Development" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/WebsiteDevelopmentImg2.jpg" alt="Website Development" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/WebsiteDevelopmentImg3.jpg" alt="Website Development" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/WebsiteDevelopmentImg3.jpg" alt="Website Development" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>
@@ -860,12 +860,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/EcommerceSolutionsImg2.jpg" alt="E-Commerce Solutions" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/EcommerceSolutionsImg2.jpg" alt="E-Commerce Solutions" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/EcommerceSolutionsImg3.jpg" alt="E-Commerce Solutions" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/EcommerceSolutionsImg3.jpg" alt="E-Commerce Solutions" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -975,12 +975,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/LandingPageDevelopmentImg2.jpg" alt="Landing Page Development" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/LandingPageDevelopmentImg2.jpg" alt="Landing Page Development" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/LandingPageDevelopmentImg3.jpg" alt="Landing Page Development" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/LandingPageDevelopmentImg3.jpg" alt="Landing Page Development" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>
@@ -1090,12 +1090,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg2.jpg" alt="SEO &amp; Performance Optimization" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg2.jpg" alt="SEO &amp; Performance Optimization" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg3.jpg" alt="SEO &amp; Performance Optimization" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg3.jpg" alt="SEO &amp; Performance Optimization" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1205,12 +1205,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg2.jpg" alt="Website Maintenance &amp; Support" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg2.jpg" alt="Website Maintenance &amp; Support" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg3.jpg" alt="Website Maintenance &amp; Support" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg3.jpg" alt="Website Maintenance &amp; Support" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1326,12 +1326,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/ContentPlan&StrategyImg2.jpg" alt="Content Plan &amp; Stratergy" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/ContentPlan&StrategyImg2.jpg" alt="Content Plan &amp; Stratergy" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/ContentPlan&StrategyImg3.jpg" alt="Content Plan &amp; Stratergy" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/ContentPlan&StrategyImg3.jpg" alt="Content Plan &amp; Stratergy" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1438,12 +1438,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/ContentCreationImg2.jpg" alt="Content Creation" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/ContentCreationImg2.jpg" alt="Content Creation" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/ContentCreationImg3.jpg" alt="Content Creation" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/ContentCreationImg3.jpg" alt="Content Creation" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1550,12 +1550,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/CommunityManagementImg2.jpg" alt="Community Management" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/CommunityManagementImg2.jpg" alt="Community Management" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/CommunityManagementImg3.jpg" alt="Community Management" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/CommunityManagementImg3.jpg" alt="Community Management" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1662,12 +1662,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/InfluencerMarketingImg2.jpg" alt="Influencer Marketing" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/InfluencerMarketingImg2.jpg" alt="Influencer Marketing" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/InfluencerMarketingImg3.jpg" alt="Influencer Marketing" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/InfluencerMarketingImg3.jpg" alt="Influencer Marketing" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1776,12 +1776,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/BrandIdentityDesignImg2.jpg" alt="Brand Identity Design" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/BrandIdentityDesignImg2.jpg" alt="Brand Identity Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/BrandIdentityDesignImg3.jpg" alt="Brand Identity Design" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/BrandIdentityDesignImg3.jpg" alt="Brand Identity Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1888,12 +1888,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/GraphicDesignImg2.jpg" alt="Graphic Design" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/GraphicDesignImg2.jpg" alt="Graphic Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/GraphicDesignImg3.jpg" alt="Graphic Design" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/GraphicDesignImg3.jpg" alt="Graphic Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -2000,12 +2000,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg2.jpg" alt="Video Production &amp; Motion Graphics" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg2.jpg" alt="Video Production &amp; Motion Graphics" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg3.jpg" alt="Video Production &amp; Motion Graphics" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg3.jpg" alt="Video Production &amp; Motion Graphics" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -2112,12 +2112,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/MarketingCollateralDesignImg2.jpg" alt="Marketing Collateral Design" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/MarketingCollateralDesignImg2.jpg" alt="Marketing Collateral Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/MarketingCollateralDesignImg3.jpg" alt="Marketing Collateral Design" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/MarketingCollateralDesignImg3.jpg" alt="Marketing Collateral Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -2224,12 +2224,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg2.jpg" alt="Creative Direction &amp; Concept Development" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg2.jpg" alt="Creative Direction &amp; Concept Development" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg3.jpg" alt="Creative Direction &amp; Concept Development" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg3.jpg" alt="Creative Direction &amp; Concept Development" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -2337,12 +2337,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img2.jpg" alt="Paid Advertising (Meta &amp; Google Ads)" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img2.jpg" alt="Paid Advertising (Meta &amp; Google Ads)" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img3.jpg" alt="Paid Advertising (Meta &amp; Google Ads)" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img3.jpg" alt="Paid Advertising (Meta &amp; Google Ads)" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>
@@ -2448,12 +2448,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/ContentMarketingImg2.jpg" alt="Content Marketing" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/ContentMarketingImg2.jpg" alt="Content Marketing" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/ContentMarketingImg3.jpg" alt="Content Marketing" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/ContentMarketingImg3.jpg" alt="Content Marketing" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>
@@ -2559,12 +2559,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/BrandStrategy&PositioningImg2.jpg" alt="Brand Strategy &amp; Positioning" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/BrandStrategy&PositioningImg2.jpg" alt="Brand Strategy &amp; Positioning" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/BrandStrategy&PositioningImg3.jpg" alt="Brand Strategy &amp; Positioning" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/BrandStrategy&PositioningImg3.jpg" alt="Brand Strategy &amp; Positioning" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>
@@ -2674,12 +2674,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg2.jpg" alt="Analytics &amp; Performance Marketing" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg2.jpg" alt="Analytics &amp; Performance Marketing" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg3.jpg" alt="Analytics &amp; Performance Marketing" loading="lazy" decoding="async" width="600" height="383">
+                                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg3.jpg" alt="Analytics &amp; Performance Marketing" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>

@@ -168,12 +168,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/MainLandImage2_services_details.jpg" alt="Mainland Business Setup" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/MainLandImage2_services_details.jpg" alt="Mainland Business Setup" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/MainLandImage3_services_details.jpg" alt="Mainland Business Setup" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/MainLandImage3_services_details.jpg" alt="Mainland Business Setup" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -509,12 +509,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="Free Zone Business Setup" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="Free Zone Business Setup" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="Free Zone Business Setup" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="Free Zone Business Setup" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -708,12 +708,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/OffshoreBusinessSetup4_services_details.jpg" alt="Offshore Business Setup" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/OffshoreBusinessSetup4_services_details.jpg" alt="Offshore Business Setup" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/OffshoreBusinessSetup5_services_details.jpg" alt="Offshore Business Setup" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/OffshoreBusinessSetup5_services_details.jpg" alt="Offshore Business Setup" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -903,12 +903,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/VirtualOffice2_services_details.jpg" alt="Virtual Office" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/VirtualOffice2_services_details.jpg" alt="Virtual Office" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/VirtualOffice3_services_details.jpg" alt="Virtual Office" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/VirtualOffice3_services_details.jpg" alt="Virtual Office" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -1035,12 +1035,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/BankAccountOpening2_services_details.jpg" alt="Business Bank Account Opening" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/BankAccountOpening2_services_details.jpg" alt="Business Bank Account Opening" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/BankAccountOpening3_services_details.jpg" alt="Business Bank Account Opening" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/BankAccountOpening3_services_details.jpg" alt="Business Bank Account Opening" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>

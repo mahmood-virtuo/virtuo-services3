@@ -164,12 +164,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="AI Automation" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="AI Automation" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="AI Automation" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="AI Automation" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -346,12 +346,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="Workflow Automation" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="Workflow Automation" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="Workflow Automation" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="Workflow Automation" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -528,12 +528,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="Technology Solutions" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="Technology Solutions" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="Technology Solutions" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="Technology Solutions" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -710,12 +710,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/services_img01.jpg" alt="Business Process Automation" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img01.jpg" alt="Business Process Automation" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/services_img02.jpg" alt="Business Process Automation" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/services_img02.jpg" alt="Business Process Automation" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>

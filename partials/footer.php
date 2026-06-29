@@ -4,7 +4,7 @@
             <div class="virtuo-reference-footer__layout">
                 <div class="virtuo-reference-footer__brand">
                     <a href="/" class="virtuo-reference-footer__logo">
-                        <img src="assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39">
+                        <img src="/assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39">
                     </a>
                     <p>Virtuo Services provides expert business setup and PRO solutions in the UAE. We offer premium, end-to-end support to ensure your company remains compliant and stress-free in one of the world's leading business hubs.</p>
                     <div class="virtuo-reference-footer__social">
@@ -103,7 +103,7 @@
                 </nav>
             </div>
         </div>
-        <img class="virtuo-reference-footer__watermark" src="assets/img/images/virtuo-footer-wordmark.png" alt="" aria-hidden="true">
+        <img class="virtuo-reference-footer__watermark" src="/assets/img/images/virtuo-footer-wordmark.png" alt="" aria-hidden="true">
     </footer> -->
 <section class="cta__area-two">
             <div class="container site-content-gutter">
@@ -125,12 +125,12 @@
                                         <a href="tel:+971565151315">+971 56 515 1315</a>
                                     </div>
                                 </div>
-                                <a href="/contact" class="tg-btn tg-btn-three tg-border-btn ">Read More <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                                <a href="/contact" class="tg-btn tg-btn-three tg-border-btn ">Read More <img src="/assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                             </div>
                         </div>
                     </div>
                     <div class="cta__shape-three">
-                        <img src="assets/img/images/h2_cta_shape.svg" alt="" aria-hidden="true">
+                        <img src="/assets/img/images/h2_cta_shape.svg" alt="" aria-hidden="true">
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                          <div class="footer-reference-left__top">
                              <div class="footer-reference-left__brand">
                                  <div class="footer__logo-two footer-reference-left__logo">
-                                     <a href="/"><img src="assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39"></a>
+                                     <a href="/"><img src="/assets/img/logo/w_logo.svg" alt="Virtuo Services" width="145" height="39"></a>
                                  </div>
                                  <p>Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
                                  <div class="footer-reference-left__social">
@@ -157,42 +157,42 @@
                                  </div>
                              </div>
                              <nav class="footer-reference-left__services" aria-label="PRO services">
-                                 <h4 style="color: #EE4c01;">PRO Services</h4>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-gdrfa-services-dubai">GDRFA</a>
-                                 <a href="/uae-business-formation#virtual">Virtual Office</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-translation-services">Legal Translation</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Attestation Services</a>
+                                 <h4 style="color: #EE4c01; text-wrap:nowrap;">Our Essential Services</h4>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-gdrfa-services-dubai">Mainland Business Setup</a>
+                                 <a href="/uae-business-formation#virtual">Free Zone Business Setup</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-power-of-attorney">Trade License Services</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-translation-services">MOHRE Services</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">Immigration Services</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Golden Visa</a>
                              </nav>
                              <nav class="footer-reference-left__services" aria-label="Visa services">
-                                 <h4 style="color: #EE4c01;">Visa Services</h4>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa">Residence Visa</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai">Investor Visa</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-employment-visa">Employment Visa</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-dependent-visa">Dependent Visa</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
+                                 <h4 style="color: #EE4c01;"></h4><br/>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa">Web & Digital Solutions</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Social Media Management</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai">AI Automation</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-employment-visa">Technology Solutions</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-dependent-visa">Corporate Compliance</a>
+                                 <!-- <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a> -->
                              </nav>
                          </div>
 
                          <div class="footer-reference-left__bottom">
                              <address class="footer-reference-left__contact">
                                  <h4 style="color: #EE4c01;">Get In Touch</h4>
-                                 <p class="forFooterAddress"><img style="height: 18px; width: 18px; margin-top: 8px;" src="assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;"></b></span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
+                                 <p class="forFooterAddress"><img style="height: 18px; width: 18px; margin-top: 8px;" src="/assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;"></b></span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
 
-                                 <a href="mailto:setup@virtuo.ae"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>setup@virtuo.ae</span></a>
-                                 <a href="tel:+971565151315"><img style="height: 18px; width: 18px; margin-top: 3px;" src="assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"><span>+971 56 515 1315</span></a>
+                                 <a href="mailto:setup@virtuo.ae"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>setup@virtuo.ae</span></a>
+                                 <a href="tel:+971565151315"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"><span>+971 56 515 1315</span></a>
                              </address>
                              <nav class="footer-reference-left__quick" aria-label="Quick links">
                                  <h4 style="color: #EE4c01;">Quick Links</h4>
                                  <div>
-                                     <a href="/">Home <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
-                                     <!-- <a href="faq.php">F.A.Q's <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
-                                     <a href="about">About Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
-                                     <a href="/contact">Contact Us <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
-                                     <a href="/blog">Blogs <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
-                                     <!-- <a href="pricing.php">Cost Calculator <img src="assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
+                                     <a href="/">Home <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <!-- <a href="faq.php">F.A.Q's <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
+                                     <a href="about">About Us <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <a href="/contact">Contact Us <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <a href="/blog">Blogs <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <!-- <a href="pricing.php">Cost Calculator <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
                                  </div>
                              </nav>
                          </div>
@@ -205,27 +205,27 @@
                                 <ul class="list-wrap">
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta01.jpg" alt="Virtuo Services Instagram image 01" loading="lazy" decoding="async"></a>
+                                                src="/assets/img/images/footer_insta01.jpg" alt="Virtuo Services Instagram image 01" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta02.jpg" alt="Virtuo Services Instagram image 02" loading="lazy" decoding="async"></a>
+                                                src="/assets/img/images/footer_insta02.jpg" alt="Virtuo Services Instagram image 02" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta03.jpg" alt="Virtuo Services Instagram image 03" loading="lazy" decoding="async"></a>
+                                                src="/assets/img/images/footer_insta03.jpg" alt="Virtuo Services Instagram image 03" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta04.jpg" alt="Virtuo Services Instagram image 04" loading="lazy" decoding="async"></a>
+                                                src="/assets/img/images/footer_insta04.jpg" alt="Virtuo Services Instagram image 04" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta05.jpg" alt="Virtuo Services Instagram image 05" loading="lazy" decoding="async"></a>
+                                                src="/assets/img/images/footer_insta05.jpg" alt="Virtuo Services Instagram image 05" loading="lazy" decoding="async"></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta06.jpg" alt="Virtuo Services Instagram image 06" loading="lazy" decoding="async"></a>
+                                                src="/assets/img/images/footer_insta06.jpg" alt="Virtuo Services Instagram image 06" loading="lazy" decoding="async"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -295,7 +295,7 @@
                                      <div class="tab-content" id="myTabContent">
                                          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                                              <div class="estimate-form-wrap">
-                                                 <form id="footer-quote-form" action="assets/mail.php" method="POST">
+                                                 <form id="footer-quote-form" action="/assets/mail.php" method="POST">
                                                      <input type="hidden" name="form_type" value="footer_quote">
                                                      <div class="form-grp">
                                                          <input type="text" name="name" class="virtuo-name-input" placeholder="Full Name" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>
@@ -458,9 +458,9 @@
          </div>
      </div>
      <div class="footer__shape-wrap-two">
-         <img src="assets/img/images/h2_footer_shape01.svg" alt="" aria-hidden="true">
-         <img src="assets/img/images/h2_footer_shape02.svg" alt="" aria-hidden="true">
-         <img src="assets/img/images/h2_footer_shape03.svg" alt="" aria-hidden="true">
+         <img src="/assets/img/images/h2_footer_shape01.svg" alt="" aria-hidden="true">
+         <img src="/assets/img/images/h2_footer_shape02.svg" alt="" aria-hidden="true">
+         <img src="/assets/img/images/h2_footer_shape03.svg" alt="" aria-hidden="true">
      </div>
  </footer>
 

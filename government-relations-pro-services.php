@@ -162,12 +162,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/Trade License Image 2.jpg" alt="Trade License Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/Trade License Image 2.jpg" alt="Trade License Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/Trade License Image 3.jpg" alt="Trade License Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/Trade License Image 3.jpg" alt="Trade License Services" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -279,12 +279,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/DocumentClearanceImg2.jpg" alt="Document Clearance Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/DocumentClearanceImg2.jpg" alt="Document Clearance Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/DocumentClearanceImg3.jpg" alt="Document Clearance Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/DocumentClearanceImg3.jpg" alt="Document Clearance Services" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -406,12 +406,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/PowerOfAttorneyImg2.jpg" alt="Power of Attorney" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/PowerOfAttorneyImg2.jpg" alt="Power of Attorney" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/PowerOfAttorneyImg3.jpg" alt="Power of Attorney" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/PowerOfAttorneyImg3.jpg" alt="Power of Attorney" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -531,12 +531,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/NotaryPublicServicesImg2.jpg" alt="Notary Public Services Dubai" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/NotaryPublicServicesImg2.jpg" alt="Notary Public Services Dubai" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/NotaryPublicServicesImg3.jpg" alt="Notary Public Services Dubai" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/NotaryPublicServicesImg3.jpg" alt="Notary Public Services Dubai" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -660,12 +660,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/LegalAttestationImg2.jpg" alt="Legal Attestation Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/LegalAttestationImg2.jpg" alt="Legal Attestation Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/LegalAttestationImg3.jpg" alt="Legal Attestation Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/LegalAttestationImg3.jpg" alt="Legal Attestation Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -789,12 +789,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/TranslationImg2.jpg" alt="Translation Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/TranslationImg2.jpg" alt="Translation Services" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/TranslationImg3.jpg" alt="Translation Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/TranslationImg3.jpg" alt="Translation Services" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -904,12 +904,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/MOHRE_ServicesImg2.jpg" alt="MOHRE Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg2.jpg" alt="MOHRE Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/MOHRE_ServicesImg3.jpg" alt="MOHRE Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg3.jpg" alt="MOHRE Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -1019,12 +1019,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/MOHRE_ServicesImg2.jpg" alt="MOHRE Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg2.jpg" alt="MOHRE Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/MOHRE_ServicesImg3.jpg" alt="MOHRE Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg3.jpg" alt="MOHRE Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>

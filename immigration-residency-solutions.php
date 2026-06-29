@@ -168,12 +168,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/ImmigrationServicesImg2.jpg" alt="Immigration Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/ImmigrationServicesImg2.jpg" alt="Immigration Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/ImmigrationServicesImg3.jpg" alt="Immigration Services" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/ImmigrationServicesImg3.jpg" alt="Immigration Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -286,12 +286,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/DependentVisaImg2.jpg" alt="Dependent Visa" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/DependentVisaImg2.jpg" alt="Dependent Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/DependentVisaImg3.jpg" alt="Dependent Visa" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/DependentVisaImg3.jpg" alt="Dependent Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -404,12 +404,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/InvestorVisaImg2.jpg" alt="Investor Visa Dubai" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/InvestorVisaImg2.jpg" alt="Investor Visa Dubai" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/InvestorVisaImg3.jpg" alt="Investor Visa Dubai" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/InvestorVisaImg3.jpg" alt="Investor Visa Dubai" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -522,12 +522,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/GDRFA_ServicesImg2.jpg" alt="GDRFA Services Dubai" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/GDRFA_ServicesImg2.jpg" alt="GDRFA Services Dubai" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/GDRFA_ServicesImg3.jpg" alt="GDRFA Services Dubai" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/GDRFA_ServicesImg3.jpg" alt="GDRFA Services Dubai" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -640,12 +640,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/ConsulateServicesImg2.jpg" alt="Consulate Services Dubai" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/ConsulateServicesImg2.jpg" alt="Consulate Services Dubai" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/ConsulateServicesImg3.jpg" alt="Consulate Services Dubai" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/ConsulateServicesImg3.jpg" alt="Consulate Services Dubai" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -758,12 +758,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/FreeLanceVisaImg2.jpg" alt="Freelance Visa" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/FreeLanceVisaImg2.jpg" alt="Freelance Visa" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/FreeLanceVisaImg3.jpg" alt="Freelance Visa" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/FreeLanceVisaImg3.jpg" alt="Freelance Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -876,12 +876,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/GoldenVisaImg2.jpg" alt="Golden Visa UAE" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/GoldenVisaImg2.jpg" alt="Golden Visa UAE" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/GoldenVisaImg3.jpg" alt="Golden Visa UAE" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/GoldenVisaImg3.jpg" alt="Golden Visa UAE" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -994,12 +994,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/ResidenceVisaImg2.jpg" alt="Residence Visa" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/ResidenceVisaImg2.jpg" alt="Residence Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/ResidenceVisaImg3.jpg" alt="Residence Visa" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/ResidenceVisaImg3.jpg" alt="Residence Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -1112,12 +1112,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/EmploymentVisaImg2.jpg" alt="Employment Visa" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/EmploymentVisaImg2.jpg" alt="Employment Visa" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/EmploymentVisaImg3.jpg" alt="Employment Visa" loading="lazy" decoding="async" width="600" height="383">
+                                                    <img src="assets/img/services/EmploymentVisaImg3.jpg" alt="Employment Visa" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
