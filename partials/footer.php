@@ -158,20 +158,20 @@
                              </div>
                              <nav class="footer-reference-left__services" aria-label="PRO services">
                                  <h4 style="color: #EE4c01; text-wrap:nowrap;">Our Essential Services</h4>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-gdrfa-services-dubai">Mainland Business Setup</a>
-                                 <a href="/uae-business-formation#virtual">Free Zone Business Setup</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-power-of-attorney">Trade License Services</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-translation-services">MOHRE Services</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">Immigration Services</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Golden Visa</a>
+                                 <a href="/uae-business-formation#mainland">Mainland Business Setup</a>
+                                 <a href="/uae-business-formation#freezone">Free Zone Business Setup</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a>
+                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
                              </nav>
                              <nav class="footer-reference-left__services" aria-label="Visa services">
                                  <h4 style="color: #EE4c01;"></h4><br/>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa">Web & Digital Solutions</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Social Media Management</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai">AI Automation</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-employment-visa">Technology Solutions</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-dependent-visa">Corporate Compliance</a>
+                                 <a href="/digital-marketing-brand-development#digital-marketing-brand-development-social-media-management">Web & Digital Solutions</a>
+                                 <a href="/digital-marketing-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a>
+                                 <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
+                                 <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
+                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
                                  <!-- <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a> -->
                              </nav>
                          </div>
