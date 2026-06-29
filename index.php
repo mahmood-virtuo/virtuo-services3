@@ -702,7 +702,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
-                                <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae"><img src="assets/img/slider/1stBlog.jpg" alt="Dubai skyline for UAE wireless and ITAD strategy insight" loading="lazy" decoding="async" width="900" height="643"></a>
+                                <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae"><img src="assets/img/slider/2ndBlog.jpg" alt="Dubai skyline for UAE wireless and ITAD strategy insight" loading="lazy" decoding="async" width="900" height="643"></a>
                                 <div class="blog__post-date-two">
                                     <span>
                                         <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 27, 2026

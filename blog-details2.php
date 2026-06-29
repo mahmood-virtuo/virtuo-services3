@@ -63,7 +63,7 @@ $default_opex    = max(5, min(45, $default_opex));
     <div class="swiper-container slider-active">
         <div class="swiper-wrapper">
             <div class="swiper-slide slider__bg hero-image-styles"
-                 data-background="/assets/img/slider/1stBlog.jpg"
+                 data-background="/assets/img/slider/2ndBlog.jpg"
                  data-background-mobile="/assets/img/slider/1st-mobile.webp">
 
                 <div class="container site-content-gutter">
@@ -323,7 +323,7 @@ $default_opex    = max(5, min(45, $default_opex));
             <p style="margin-top:16px;">You're not choosing between the U.S. and the UAE. You're assigning each one the job it's actually good at.</p>
           </section>
         
-          <section id="tariff">
+          <!-- <section id="tariff">
             <h2><span class="num"></span>Tariffs, crypto, and compliance — straight answers</h2>
             <p>This is where most "Dubai" pitches get sloppy. We'd rather you click these open and read the real position.</p>
         
@@ -345,7 +345,49 @@ $default_opex    = max(5, min(45, $default_opex));
               <span class="tag gold">Compliant settlement only</span>
               <span class="tag gold">U.S. tax advice required</span>
             </div>
-          </section>
+          </section> -->
+          <section id="tariff">
+  <h4 class="title-two"><span class="num"></span>Tariffs, crypto, and compliance — straight answers</h4>
+  <p>This is where most "Dubai" pitches get sloppy. We'd rather you click these open and read the real position.</p>
+
+  <div class="vt-acc">
+    <details open>
+      <summary>
+        Does a UAE base make tariffs go away?
+        <span class="pl">+</span>
+      </summary>
+      <div class="bd">
+        No. Operating through the UAE does not eliminate tariffs. Duties and import treatment still depend on origin, destination, HS code classification, and the import rules of the receiving country. What a second base genuinely provides is <strong>optionality</strong> — more routing flexibility and less dependence on a single trade lane — so one disruption doesn't take the whole pipeline down with it.
+      </div>
+    </details>
+
+    <details>
+      <summary>
+        Can I get paid in crypto or stablecoins from international buyers?
+        <span class="pl">+</span>
+      </summary>
+      <div class="bd">
+        Many international buyers, especially across LATAM and increasingly MENA, are comfortable with stablecoin settlement because of currency volatility and cross-border payment friction. That can be a real settlement-speed advantage — but only through regulated, compliant platforms with proper KYC, accounting, and documentation. Wallet-to-wallet shortcuts create more risk than they solve, and we don't structure around them.
+      </div>
+    </details>
+
+    <details>
+      <summary>
+        Does the UAE eliminate my U.S. tax obligations?
+        <span class="pl">+</span>
+      </summary>
+      <div class="bd">
+        No. Free Zone companies may qualify for preferential corporate tax treatment on qualifying income if specific rules are met — that's a real benefit, but it's conditional, not automatic. U.S. owners remain fully subject to U.S. tax obligations regardless of where the company sits, and that requires proper U.S. tax advice, not assumptions.
+      </div>
+    </details>
+  </div>
+
+  <div class="tag-row">
+    <span class="tag gold">Optionality, not avoidance</span>
+    <span class="tag gold">Compliant settlement only</span>
+    <span class="tag gold">U.S. tax advice required</span>
+  </div>
+</section>
         
           <section id="phased">
             <h2><span class="num"></span>The phased move — not an overnight one</h2>
@@ -426,30 +468,7 @@ $default_opex    = max(5, min(45, $default_opex));
                   </div>
                 </div>
 
-                <div class="sidebar__widget">
-                  <h4 class="sidebar__widget-title">Recent Posts</h4>
-                  <div class="rc-post-wrap">
-                    <div class="rc-post-item">
-                      <div class="thumb">
-                        <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="/assets/img/slider/1stBlog.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
-                      </div>
-                      <div class="content">
-                        <span class="date"><img src="/assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 23, 2026</span>
-                        <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Mainland, Free Zone, Or Offshore?</a></h2>
-                      </div>
-                    </div>
-
-                    <div class="rc-post-item">
-                      <div class="thumb">
-                        <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae"><img src="/assets/img/blog/rc_post02.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
-                      </div>
-                      <div class="content">
-                        <span class="date"><img src="/assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 27, 2026</span>
-                        <h2 class="title"><a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae">Why U.S. Wireless And ITAD Operators Are Looking At The UAE</a></h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <?php include __DIR__ . '/partials/blog-recent-posts.php'; ?>
 
                 <div class="sidebar__widget">
                   <h4 class="sidebar__widget-title">Categories</h4>

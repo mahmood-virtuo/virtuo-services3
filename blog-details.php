@@ -425,59 +425,7 @@
                     </div>
                   </div>
                   <!-- ------Additional Stuff---------- -->
-                   <div class="sidebar__widget">
-                                <h4 class="sidebar__widget-title">Recent Posts</h4>
-                                <div class="rc-post-wrap">
-                                    <div class="rc-post-item">
-                                        <div class="thumb">
-                                            <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="/assets/img/slider/1stBlog.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
-                                        </div>
-                                        <div class="content">
-                                            <span class="date">
-                                                <img src="/assets/img/icons/calendar.svg" alt="" class="injectable">
-                                                Jun 23, 2026
-                                            </span>
-                                            <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Mainland, Free Zone, or Offshore?</a></h2>
-                                        </div>
-                                    </div>
-                                    <div class="rc-post-item">
-                                        <div class="thumb">
-                                            <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="/assets/img/blog/rc_post02.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
-                                        </div>
-                                        <div class="content">
-                                            <span class="date">
-                                                <img src="/assets/img/icons/calendar.svg" alt="" class="injectable">
-                                                Oct 21, 2025
-                                            </span>
-                                            <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Business prospectus for an easy</a></h2>
-                                        </div>
-                                    </div>
-                                    <div class="rc-post-item">
-                                        <div class="thumb">
-                                            <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="/assets/img/blog/rc_post03.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
-                                        </div>
-                                        <div class="content">
-                                            <span class="date">
-                                                <img src="/assets/img/icons/calendar.svg" alt="" class="injectable">
-                                                Oct 21, 2025
-                                            </span>
-                                            <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Business prospectus for an easy</a></h2>
-                                        </div>
-                                    </div>
-                                    <div class="rc-post-item">
-                                        <div class="thumb">
-                                            <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="/assets/img/blog/rc_post04.jpg" alt="" loading="lazy" decoding="async" width="300" height="300"></a>
-                                        </div>
-                                        <div class="content">
-                                            <span class="date">
-                                                <img src="/assets/img/icons/calendar.svg" alt="" class="injectable">
-                                                Oct 21, 2025
-                                            </span>
-                                            <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Business prospectus for an easy</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                   <?php include __DIR__ . '/partials/blog-recent-posts.php'; ?>
                             <div class="sidebar__widget">
                                 <h4 class="sidebar__widget-title">Categories</h4>
                                 <div class="bs-cat-list">
