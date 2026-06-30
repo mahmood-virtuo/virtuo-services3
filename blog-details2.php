@@ -443,49 +443,7 @@ $default_opex    = max(5, min(45, $default_opex));
               </div>
 
           <div class="col-30 blog-details-sidebar-column">
-            <div>
-              <aside class="blog__sidebar blog__sidebar-two blog-details-sticky-sidebar-inner">
-
-                <div class="sidebar__widget">
-                  <nav class="blog-toc" aria-label="Article quick links">
-                    <h4 class="sidebar__widget-title blog-toc__title">In This Article</h4>
-                    <ol class="blog-toc__list" id="blogArticleToc"></ol>
-                  </nav>
-                </div>
-
-                <div class="sidebar__widget">
-                  <h4 class="sidebar__widget-title">Popular Tags</h4>
-                  <div class="sidebar__tag-list">
-                    <ul class="list-wrap">
-                      <li><a href="/blog">UAE Strategy</a></li>
-                      <li><a href="/blog">Wireless</a></li>
-                      <li><a href="/blog">ITAD</a></li>
-                      <li><a href="/blog">Free Zone</a></li>
-                      <li><a href="/blog">Tax</a></li>
-                      <li><a href="/blog">Logistics</a></li>
-                      <li><a href="/blog">Banking</a></li>
-                    </ul>
-                  </div>
-                </div>
-
-                <?php include __DIR__ . '/partials/blog-recent-posts.php'; ?>
-
-                <div class="sidebar__widget">
-                  <h4 class="sidebar__widget-title">Categories</h4>
-                  <div class="bs-cat-list">
-                    <ul class="list-wrap">
-                      <li><a href="/blog">UAE Strategy <span>(02)</span></a></li>
-                      <li><a href="/blog">Business Setup <span>(04)</span></a></li>
-                      <li><a href="/blog">Tax Planning <span>(03)</span></a></li>
-                      <li><a href="/blog">International Trade <span>(02)</span></a></li>
-                    </ul>
-                  </div>
-                </div>
-
-                <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
-
-              </aside>
-            </div>
+            <?php include __DIR__ . '/partials/blog-details-sidebar.php'; ?>
           </div>
             </div>
           </div>

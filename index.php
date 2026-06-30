@@ -16,6 +16,8 @@
         'heroImage' => '/assets/img/slider/1st.webp'
     );
     include __DIR__ . '/partials/seo.php';
+    require_once __DIR__ . '/partials/blog-posts.php';
+    $blogPosts = virtuo_get_blog_posts();
 
     function virtuo_truncate_text($text, $limit = 40) {
         $text = trim($text);
@@ -678,69 +680,28 @@
                     </div>
                 </div>
                 <div class="row gutter-y-30 justify-content-center">
+                    <?php foreach (array_slice($blogPosts, 0, 3) as $blogPost) : ?>
                     <div class="col-lg-4 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
-                                <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/slider/1stBlog.jpg" alt="Dubai skyline for UAE company structuring insight" loading="lazy" decoding="async" width="900" height="643"></a>
+                                <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($blogPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="900" height="643"></a>
                                 <div class="blog__post-date-two">
                                     <span>
-                                        <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 23, 2026
+                                        <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> <?php echo htmlspecialchars($blogPost['date'], ENT_QUOTES, 'UTF-8'); ?>
                                     </span>
                                 </div>
                             </div>
                             <div class="blog__post-content">
-                                <a href="/blog" class="blog__post-tag">UAE Structuring</a>
-                                <?php $blogTitle = 'Mainland, Free Zone, or Offshore? The Structuring Decision Behind Every Serious UAE Move'; ?>
-                                <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders" title="<?php echo htmlspecialchars($blogTitle, ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogTitle, 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
+                                <a href="/blog" class="blog__post-tag"><?php echo htmlspecialchars($blogPost['category'], ENT_QUOTES, 'UTF-8'); ?></a>
+                                <h2 class="title"><a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>" title="<?php echo htmlspecialchars($blogPost['detail_title'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogPost['detail_title'], 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
                                 <div class="blog__post-author">
-                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/team/jonaid.jpg" alt="Jonaid Ali Mohammad author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
-                                    <span>By <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Jonaid Ali Mohammad</a></span>
+                                    <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($blogPost['author_image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['author'], ENT_QUOTES, 'UTF-8'); ?> author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
+                                    <span>By <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($blogPost['author'], ENT_QUOTES, 'UTF-8'); ?></a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog__post-item shine__animate-item">
-                            <div class="blog__post-thumb shine__animate-link">
-                                <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae"><img src="assets/img/slider/2ndBlog.jpg" alt="Dubai skyline for UAE wireless and ITAD strategy insight" loading="lazy" decoding="async" width="900" height="643"></a>
-                                <div class="blog__post-date-two">
-                                    <span>
-                                        <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 27, 2026
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="blog__post-content">
-                                <a href="/blog" class="blog__post-tag">UAE Strategy</a>
-                                <?php $blogTitle = 'Why U.S. Wireless and ITAD Operators Are Looking at the UAE'; ?>
-                                <h2 class="title"><a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae" title="<?php echo htmlspecialchars($blogTitle, ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogTitle, 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
-                                <div class="blog__post-author">
-                                    <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae"><img src="assets/img/team/jonaid.jpg" alt="Jonaid Ali Mohammad author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
-                                    <span>By <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae">Jonaid Ali Mohammad</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog__post-item shine__animate-item">
-                            <div class="blog__post-thumb shine__animate-link">
-                                <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/blog/blog_post03.jpg" alt="Consultants planning a business development project" loading="lazy" decoding="async" width="900" height="637"></a>
-                                <div class="blog__post-date-two">
-                                    <span>
-                                        <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Oct 21, 2025
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="blog__post-content">
-                                <a href="/blog" class="blog__post-tag">consulting</a>
-                                <?php $blogTitle = 'How To Monitor And Google Core Web Vitals'; ?>
-                                <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders" title="<?php echo htmlspecialchars($blogTitle, ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogTitle, 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
-                                <div class="blog__post-author">
-                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/images/testi_avatar03.png" alt="Doman Smith author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
-                                    <span>By <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Doman Smith</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </section>

@@ -9,14 +9,14 @@ $recentPosts = virtuo_get_blog_posts();
         <?php foreach ($recentPosts as $recentPost) : ?>
             <div class="rc-post-item">
                 <div class="thumb">
-                    <a href="<?php echo htmlspecialchars($recentPost['slug'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($recentPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($recentPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="300" height="300"></a>
+                    <a href="<?php echo htmlspecialchars($recentPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($recentPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($recentPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="300" height="300"></a>
                 </div>
                 <div class="content">
                     <span class="date">
                         <img src="/assets/img/icons/calendar.svg" alt="" class="injectable">
                         <?php echo htmlspecialchars($recentPost['date'], ENT_QUOTES, 'UTF-8'); ?>
                     </span>
-                    <h2 class="title"><a href="<?php echo htmlspecialchars($recentPost['slug'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($recentPost['title'], ENT_QUOTES, 'UTF-8'); ?></a></h2>
+                    <h2 class="title"><a href="<?php echo htmlspecialchars($recentPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($recentPost['title'], ENT_QUOTES, 'UTF-8'); ?></a></h2>
                 </div>
             </div>
         <?php endforeach; ?>

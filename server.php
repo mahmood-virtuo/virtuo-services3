@@ -16,6 +16,26 @@ if ($uri === '/blog/why-us-wireless-itad-operators-are-looking-at-the-uae') {
     return true;
 }
 
+if ($uri === '/blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae') {
+    require __DIR__ . '/blog-details2.php';
+    return true;
+}
+
+if ($uri === '/blog/uae-business-setup-geopolitics-2026') {
+    require __DIR__ . '/blog-details3.php';
+    return true;
+}
+
+if ($uri === '/blog/golden-visa-eligibility-guide') {
+    require __DIR__ . '/blog-details4.php';
+    return true;
+}
+
+if ($uri === '/blog/freelance-visa-uae-guide') {
+    require __DIR__ . '/blog-details5.php';
+    return true;
+}
+
 // --------------------------------------------------
 // 2. Old blog URLs -> SEO slugs
 // --------------------------------------------------
@@ -27,6 +47,21 @@ if ($uri === '/blog-details' || $uri === '/blog-details.php') {
 
 if ($uri === '/blog-details2' || $uri === '/blog-details2.php') {
     header('Location: /blog/why-us-wireless-itad-operators-are-looking-at-the-uae', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details3' || $uri === '/blog-details3.php') {
+    header('Location: /blog/uae-business-setup-geopolitics-2026', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details4' || $uri === '/blog-details4.php') {
+    header('Location: /blog/golden-visa-eligibility-guide', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details5' || $uri === '/blog-details5.php') {
+    header('Location: /blog/freelance-visa-uae-guide', true, 301);
     exit;
 }
 

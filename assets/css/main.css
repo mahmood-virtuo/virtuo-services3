@@ -27125,7 +27125,7 @@ select {
 .vt-article .vt-studio {
   border: 1px solid var(--line);
   border-radius: 16px;
-  background: linear-gradient(360deg, #09194e 0%, #175ab1 100%);
+  background: #f0f0f0;
   padding: clamp(18px, 3vw, 26px);
   margin: 34px 0;
 }
@@ -27788,7 +27788,7 @@ select {
 
 /* Blog details vt-studio color and spacing match */
 .vt-article .vt-studio {
-  background: linear-gradient(180deg, #14489b 0%, #09194e 100%);
+  background: #f0f0f0;
   border: 0;
   border-radius: 22px;
   color: #ffffff;
@@ -27797,15 +27797,15 @@ select {
 }
 
 .vt-article .vt-studio .vt-chooser {
-  border: 2px solid rgba(255, 255, 255, 0.75);
+  border: 1px solid black;
   border-radius: 18px;
   margin-bottom: 26px;
 }
 
 .vt-article .vt-studio .vt-chooser-top {
   background: #ffffff2e;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.75);
-  color: #ffffff;
+  border-bottom: 1px solid black;
+  color: var(--tg-theme-primary);
   letter-spacing: 0;
   opacity: 1;
   padding: 17px 32px;
@@ -27813,7 +27813,7 @@ select {
 
 .vt-article .vt-studio .vt-goal {
   background: transparent;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  border-right: 1px solid black;
   color: #ffffff;
   min-height: 136px;
   padding: clamp(22px, 3vw, 36px);
@@ -27832,21 +27832,21 @@ select {
 }
 
 .vt-article .vt-studio .vt-goal .gt {
-  color: #ffffff;
+  color: black;
 }
 
 .vt-article .vt-studio .vt-goal:hover .gk,
 .vt-article .vt-studio .vt-goal[aria-pressed="true"] .gk {
-  color: #ffffff;
+  color: black;
 }
 
 .vt-article .vt-studio .vt-reco {
-  color: #ffffff;
+  color: black;
   margin: 24px 0 28px;
 }
 
 .vt-article .vt-studio .vt-reco b {
-  color: #ffffff;
+  color: black;
 }
 
 .vt-article .vt-studio .vt-tabs {
@@ -27856,15 +27856,15 @@ select {
 
 .vt-article .vt-studio .vt-tab {
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.75);
+  border: 1px solid black;
   border-radius: 18px;
-  color: #ffffff;
+  color: black;
   min-height: 130px;
   padding: clamp(18px, 2.5vw, 30px) clamp(20px, 2.6vw, 34px);
 }
 
 .vt-article .vt-studio .vt-tab:hover {
-  background: #14489b;
+  background: var(--tg-theme-primary);
   transform: none;
 }
 
@@ -27880,18 +27880,20 @@ select {
   font-weight: 400;
   font-size: 16px;
 }
-
+.vt-article .vt-studio .vt-tab:hover .tk {
+  color: black;
+}
 .vt-article .vt-studio .vt-tab .tn,
 .vt-article .vt-studio .vt-tab .te,
 .vt-article .vt-studio .vt-tab[aria-selected="true"] .tk,
 .vt-article .vt-studio .vt-tab[aria-selected="true"] .tn,
 .vt-article .vt-studio .vt-tab[aria-selected="true"] .te {
-  color: #ffffff;
+  color: black;
 }
 
 .vt-article .vt-studio .vt-spanel {
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.75);
+  border: 1px solid black;
   border-radius: 18px;
   margin-top: 0;
   padding: clamp(24px, 3.2vw, 34px);
@@ -27906,7 +27908,7 @@ select {
 .vt-article .vt-studio .vt-pname,
 .vt-article .vt-studio .vt-best,
 .vt-article .vt-studio .vt-pdesc {
-  color: #ffffff;
+  color: black;
 }
 
 .vt-article .vt-studio .vt-best {
@@ -27919,24 +27921,24 @@ select {
 }
 
 .vt-article .vt-studio .vt-facts li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
-  color: #ffffff;
+  border-bottom: 1px solid black;
+  color: black;
   padding: 13px 0;
 }
 
 .vt-article .vt-studio .vt-facts .k {
-  color: #ffffff;
+  color: black;
   letter-spacing: 0;
   text-transform: none;
 }
 
 .vt-article .vt-studio .vt-facts .v {
-  color: #ffffff;
+  color: black;
 }
 
 .vt-article .vt-studio .vt-costbox {
   background: #14489b;
-  border: 2px solid #ee4c01;
+  border: 1px solid #ee4c01;
   border-radius: 18px;
   padding: clamp(22px, 3vw, 34px);
 }
@@ -27986,7 +27988,7 @@ select {
 }
 
 .vt-article .vt-studio .vt-matrix-wrap {
-  border: 2px solid rgba(255, 255, 255, 0.75);
+  border: 1px solid black;
   border-radius: 18px;
   margin-top: 32px;
   overflow-x: auto;
@@ -27994,26 +27996,26 @@ select {
 
 .vt-article .vt-studio table.vt-matrix {
   background: transparent;
-  color: #ffffff;
+  color: black;
   min-width: 760px;
 }
 
 .vt-article .vt-studio table.vt-matrix th,
 .vt-article .vt-studio table.vt-matrix td {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
-  color: #ffffff;
+  border-bottom: 1px solid black;
+  color: black;
   padding: clamp(15px, 2vw, 24px) clamp(16px, 2.3vw, 28px);
 }
 
 .vt-article .vt-studio table.vt-matrix thead th {
   background: #ffffff2e;
-  color: #ffffff;
+  color: black;
   letter-spacing: 0;
   text-transform: none;
 }
 
 .vt-article .vt-studio table.vt-matrix tbody th {
-  color: #ffffff;
+  color: black;
   letter-spacing: 0;
   text-transform: none;
 }
@@ -28021,7 +28023,7 @@ select {
 .vt-article .vt-studio table.vt-matrix td.hl,
 .vt-article .vt-studio table.vt-matrix thead th.hl {
   background: #ee4c01;
-  color: #ffffff;
+  color: black;
 }
 
 @media (max-width: 991.98px) {
@@ -28268,11 +28270,11 @@ select {
   }
 
   body.blog-details-page .blog-details-sticky-sidebar {
-    position: -webkit-sticky;
+    /* position: -webkit-sticky;
     position: sticky;
     top: 125px;
     z-index: 1;
-    width: 100%;
+    width: 100%; */
   }
 
   body.blog-details-page .blog-details-sticky-sidebar-inner {
@@ -29418,7 +29420,7 @@ body.blog-details-page .vt-article .vt-blue-note {
   margin: 28px 0 !important;
   padding: 22px 34px 22px 38px;
   background: linear-gradient(360deg, #09194e 0%, #175ab1 100%);
-  border-radius: 0 16px 16px 0;
+  border-radius: 20px;
   color: var(--tg-color-white-default);
   font-size: 17px;
   line-height: 1.55;
@@ -29431,7 +29433,8 @@ body.blog-details-page .vt-article .vt-blue-note::before {
   position: absolute;
   left: 0;
   top: 0;
-  width: 8px;
+  width: 20px;
+  border-radius: 20px 0px 0px 20px !important;
   height: 100%;
   background: var(--tg-theme-primary);
 }
@@ -29468,12 +29471,12 @@ body.blog-details-page .vt-article .vt-blue-note cite {
   body.blog-details-page .vt-article .vt-blue-note {
     margin: 24px 0 !important;
     padding: 20px 22px 20px 28px;
-    border-radius: 0 12px 12px 0;
+    border-radius: 20px;
     font-size: 16px;
   }
 
   body.blog-details-page .vt-article .vt-blue-note::before {
-    width: 6px;
+    width: 20px;
   }
 }
 /* =========================================================
@@ -29488,7 +29491,7 @@ body.blog-details-page .vt-article .vt-blue-note {
   padding: 22px 38px 22px 42px !important;
   background: linear-gradient(180deg, #123f91 0%, #07174e 100%) !important;
   border: 0 !important;
-  border-radius: 0 16px 16px 0 !important;
+  border-radius: 20px !important;
   color: var(--tg-color-white-default) !important;
   font-size: 17px !important;
   line-height: 1.55 !important;
@@ -29501,7 +29504,8 @@ body.blog-details-page .vt-article .vt-blue-note::before {
   position: absolute;
   left: 0;
   top: 0;
-  width: 8px;
+  width: 20px;
+  border-radius: 20px 0px 0px 20px !important;
   height: 100%;
   background: var(--tg-theme-primary);
 }
@@ -29563,12 +29567,12 @@ body.blog-details-page .vt-article .vt-zone-reco.vt-blue-note {
   body.blog-details-page .vt-article .vt-blue-note {
     margin: 24px 0 !important;
     padding: 18px 22px 18px 28px !important;
-    border-radius: 0 12px 12px 0 !important;
+    border-radius: 20px !important;
     font-size: 15.5px !important;
   }
 
   body.blog-details-page .vt-article .vt-blue-note::before {
-    width: 6px;
+    width: 20px;
   }
 
   body.blog-details-page .vt-article blockquote.vt-blue-note {
@@ -29636,29 +29640,43 @@ html {
 
 /* ------------Footer Column Issues----------------- */
 /* Footer services alignment fix - uses existing footer typography */
+/* Footer essential services: independent columns */
 .footer__area-five .footer-reference-left__services--wide {
   grid-column: 2 / 4;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: clamp(34px, 4vw, 88px);
-  align-items: start;
+  display: block !important;
 }
 
 .footer__area-five .footer-reference-left__services--wide h4 {
-  grid-column: 1 / -1;
+  margin-bottom: 20px;
 }
 
-/* Tablet: footer brand already becomes full-width, so services should also behave safely */
+.footer__area-five .footer-reference-left__services-columns {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(34px, 4vw, 88px);
+}
+
+.footer__area-five .footer-reference-left__services-column {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* Keep existing footer typography, only control spacing */
+.footer__area-five .footer-reference-left__services-column a {
+  display: block;
+  margin-bottom: 18px;
+}
+
 @media (max-width: 991.98px) {
   .footer__area-five .footer-reference-left__services--wide {
     grid-column: 1 / -1;
   }
 }
 
-/* Mobile: one clean column */
 @media (max-width: 767.98px) {
-  .footer__area-five .footer-reference-left__services--wide {
-    grid-template-columns: 1fr;
+  .footer__area-five .footer-reference-left__services-columns {
+    flex-direction: column;
+    gap: 0;
   }
 }
 /* Remove ugly double bottom border from decision matrix */
@@ -29677,4 +29695,109 @@ body.blog-details-page
   tr:last-child
   > td {
   border-bottom: 0 !important;
+}
+/* Center content inside UAE wealth stats cards */
+body.blog-details-page .vt-article .vt-stats .vt-stat {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.blog-details-page .vt-article .vt-stats .vt-stat .n,
+body.blog-details-page .vt-article .vt-stats .vt-stat .l,
+body.blog-details-page .vt-article .vt-stats .vt-stat .src {
+  width: 100%;
+  text-align: center;
+}
+body.blog-details-page main.main-area.fix,
+body.blog-details-page .blog__details-area,
+body.blog-details-page .blog__details-area .container,
+body.blog-details-page .blog__details-area .row,
+body.blog-details-page .blog-details-sidebar-column {
+  overflow: visible;
+}
+/* Blog details consultation form: natural position first, sticky only after reached */
+@media (min-width: 992px) {
+  body.blog-details-page main.main-area.fix,
+  body.blog-details-page .blog__details-area,
+  body.blog-details-page .blog__details-area > .container,
+  body.blog-details-page .blog__details-area .row,
+  body.blog-details-page .blog-details-sidebar-column,
+  body.blog-details-page .blog-details-sticky-sidebar,
+  body.blog-details-page .blog-details-sticky-sidebar-inner {
+    overflow: visible !important;
+  }
+
+  body.blog-details-page .blog__details-area .row {
+    align-items: stretch !important;
+  }
+
+  body.blog-details-page .blog-details-sidebar-column {
+    position: relative !important;
+    align-self: stretch !important;
+    overflow: visible !important;
+  }
+
+  body.blog-details-page .blog-details-sticky-sidebar {
+    position: relative !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    width: 100%;
+    overflow: visible !important;
+  }
+
+  body.blog-details-page .blog-details-sticky-sidebar-inner {
+    position: relative !important;
+    width: 100%;
+    overflow: visible !important;
+  }
+
+  body.blog-details-page .blog-sidebar-form-sticky-slot {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 145px !important;
+    z-index: 2;
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  body.blog-details-page .blog-sidebar-sticky-form {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    width: auto !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body.blog-details-page .blog-sidebar-form-sticky-slot,
+  body.blog-details-page .blog-sidebar-sticky-form,
+  body.blog-details-page .blog-details-sticky-sidebar,
+  body.blog-details-page .blog-details-sticky-sidebar-inner {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    width: auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  body.blog-details-page .blog-sidebar-form-sticky-slot {
+    margin-top: 30px;
+  }
+}
+/* Align sticky consultation form with right sidebar widgets */
+@media (min-width: 1200px) {
+  body.blog-details-page .blog-sidebar-form-sticky-slot {
+    margin-left: 26px !important;
+    width: calc(100% - 26px) !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body.blog-details-page .blog-sidebar-form-sticky-slot {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
 }

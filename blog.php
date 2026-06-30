@@ -16,6 +16,8 @@
         'heroImage' => '/assets/img/bg/HEADER.webp'
     );
     include __DIR__ . '/partials/seo.php';
+    require_once __DIR__ . '/partials/blog-posts.php';
+    $blogPosts = virtuo_get_blog_posts();
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -154,48 +156,29 @@
                 <div class="row">
                     <div class="col-70 order-0 order-lg-2">
                         <div class="inner-blog-post-wrap">
+                            <?php foreach (array_slice($blogPosts, 0, 5) as $blogPost) : ?>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
-                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/slider/1stBlog.jpg" alt="Dubai skyline for UAE company structuring insight" loading="lazy" decoding="async" width="900" height="643"></a>
+                                    <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($blogPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="900" height="643"></a>
                                 </div>
                                 <div class="blog__post-content-five">
                                     <div class="blog__post-meta">
                                         <ul class="list-wrap">
                                             <li>
-                                                <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 23, 2026
+                                                <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> <?php echo htmlspecialchars($blogPost['date'], ENT_QUOTES, 'UTF-8'); ?>
                                             </li>
                                             <li>
                                                 <img src="assets/img/icons/comment.svg" alt="" class="injectable">
-                                                <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Comment: 15</a>
+                                                <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($blogPost['meta'], ENT_QUOTES, 'UTF-8'); ?></a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders">Mainland, Free Zone, or Offshore? The Structuring Decision Behind Every Serious UAE Move</a></h2>
-                                    <p>For U.S. founders operating at scale, the UAE isn't a tax headline - it's a structuring decision. Learn how Mainland, Free Zone, and Offshore structures differ across market access, tax treatment, banking substance, residency, and long-term setup strategy.</p>
-                                    <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                    <h2 class="title"><a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($blogPost['detail_title'], ENT_QUOTES, 'UTF-8'); ?></a></h2>
+                                    <p><?php echo htmlspecialchars($blogPost['excerpt'], ENT_QUOTES, 'UTF-8'); ?></p>
+                                    <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                 </div>
                             </div>
-                            <div class="blog__post-item-five">
-                                <div class="blog__post-thumb-five">
-                                    <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae"><img src="assets/img/slider/2ndBlog.jpg" alt="Dubai skyline for UAE wireless and ITAD strategy insight" loading="lazy" decoding="async" width="900" height="643"></a>
-                                </div>
-                                <div class="blog__post-content-five">
-                                    <div class="blog__post-meta">
-                                        <ul class="list-wrap">
-                                            <li>
-                                                <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> Jun 27, 2026
-                                            </li>
-                                            <li>
-                                                <img src="assets/img/icons/comment.svg" alt="" class="injectable">
-                                                <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae">UAE Strategy &middot; Wireless &amp; ITAD</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title"><a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae">Why U.S. Wireless and ITAD Operators Are Looking at the UAE</a></h2>
-                                    <p>A second base for lower costs, new markets, faster payments, and stronger margins — built gradually, not overnight.</p>
-                                    <a href="/blog/why-us-wireless-itad-operators-are-looking-at-the-uae" class="tg-btn tg-btn-four tg-btn-six">Read More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
-                                </div>
-                            </div>
+                            <?php endforeach; ?>
                             <div class="blog__post-item-five">
                                 <div class="blog__post-thumb-five">
                                     <a href="/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders"><img src="assets/img/blog/blog_post03.jpg" alt="Consultants planning a business development project" loading="lazy" decoding="async" width="900" height="637"></a>

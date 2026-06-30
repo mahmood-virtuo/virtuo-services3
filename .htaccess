@@ -14,12 +14,25 @@ RewriteRule ^blog-details(?:\.php)?/?$ /blog/mainland-free-zone-or-offshore-uae-
 RewriteCond %{THE_REQUEST} \s/+blog-details2(?:\.php)?[\s?] [NC]
 RewriteRule ^blog-details2(?:\.php)?/?$ /blog/why-us-wireless-itad-operators-are-looking-at-the-uae [R=301,L]
 
+RewriteCond %{THE_REQUEST} \s/+blog-details3(?:\.php)?[\s?] [NC]
+RewriteRule ^blog-details3(?:\.php)?/?$ /blog/uae-business-setup-geopolitics-2026 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+blog-details4(?:\.php)?[\s?] [NC]
+RewriteRule ^blog-details4(?:\.php)?/?$ /blog/golden-visa-eligibility-guide [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+blog-details5(?:\.php)?[\s?] [NC]
+RewriteRule ^blog-details5(?:\.php)?/?$ /blog/freelance-visa-uae-guide [R=301,L]
+
 # --------------------------------------------------
 # 2. SEO-friendly blog URLs -> real PHP files
 # --------------------------------------------------
 
 RewriteRule ^blog/mainland-free-zone-or-offshore-uae-structuring-us-founders/?$ blog-details.php [L,QSA]
 RewriteRule ^blog/why-us-wireless-itad-operators-are-looking-at-the-uae/?$ blog-details2.php [L,QSA]
+RewriteRule ^blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae/?$ blog-details2.php [L,QSA]
+RewriteRule ^blog/uae-business-setup-geopolitics-2026/?$ blog-details3.php [L,QSA]
+RewriteRule ^blog/golden-visa-eligibility-guide/?$ blog-details4.php [L,QSA]
+RewriteRule ^blog/freelance-visa-uae-guide/?$ blog-details5.php [L,QSA]
 
 # --------------------------------------------------
 # 3. Redirect direct .php requests to clean URLs
