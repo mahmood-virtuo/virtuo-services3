@@ -29664,6 +29664,7 @@ html {
 /* Keep existing footer typography, only control spacing */
 .footer__area-five .footer-reference-left__services-column a {
   display: block;
+  /* text-wrap: nowrap; */
   margin-bottom: 18px;
 }
 
