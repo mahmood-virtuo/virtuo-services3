@@ -982,3 +982,92 @@ Intersection Observer
     });
   }
 })(jQuery);
+/* =========================================================
+   Virtuo service hash scroll correction
+   Keeps anchor sections from hiding behind sticky header
+   ========================================================= */
+
+(function () {
+  "use strict";
+
+  const SERVICE_PAGE = "/digital-marketing-brand-development";
+
+  function normalizePath(path) {
+    return path.replace(/\/$/, "");
+  }
+
+  function isDigitalMarketingPage() {
+    return normalizePath(window.location.pathname) === SERVICE_PAGE;
+  }
+
+  function getHeaderOffset() {
+    const stickyHeader = document.querySelector("#sticky-header");
+    const headerHeight = stickyHeader
+      ? Math.ceil(stickyHeader.getBoundingClientRect().height)
+      : 90;
+
+    return headerHeight + 24;
+  }
+
+  function scrollToHash(hash) {
+    if (!isDigitalMarketingPage() || !hash) return;
+
+    const targetId = decodeURIComponent(hash.replace("#", ""));
+    const target = document.getElementById(targetId);
+
+    if (!target) return;
+
+    const targetTop =
+      target.getBoundingClientRect().top +
+      window.pageYOffset -
+      getHeaderOffset();
+
+    window.scrollTo({
+      top: Math.max(targetTop, 0),
+      behavior: "auto",
+    });
+  }
+
+  function correctCurrentHashScroll() {
+    if (!window.location.hash) return;
+
+    /*
+      Run twice because some sections/images/tabs can change height
+      after the browser's first hash jump.
+    */
+    window.setTimeout(function () {
+      scrollToHash(window.location.hash);
+    }, 120);
+
+    window.setTimeout(function () {
+      scrollToHash(window.location.hash);
+    }, 550);
+  }
+
+  window.addEventListener("load", correctCurrentHashScroll);
+  window.addEventListener("hashchange", correctCurrentHashScroll);
+
+  document.addEventListener("click", function (event) {
+    const link = event.target.closest('a[href*="#"]');
+
+    if (!link) return;
+
+    const url = new URL(link.getAttribute("href"), window.location.origin);
+
+    if (
+      normalizePath(url.pathname) !== normalizePath(window.location.pathname)
+    ) {
+      return;
+    }
+
+    if (!url.hash) return;
+
+    window.setTimeout(function () {
+      scrollToHash(url.hash);
+    }, 160);
+
+    window.setTimeout(function () {
+      scrollToHash(url.hash);
+    }, 550);
+  });
+})();

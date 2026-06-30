@@ -336,7 +336,7 @@
                                     <a href="tel:+971565151315">+971 56 515 1315</a>
                                 </div>
                             </div>
-                            <a href="services.php" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender">Take Our Service <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                            <a href="contact.php" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender">Get In Touch <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                         </div>
                     </div>
                 </div>

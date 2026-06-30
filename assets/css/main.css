@@ -21185,7 +21185,7 @@ blockquote cite {
 .estimate__tab-wrap {
   border-radius: 20px 40px;
   border: 1px solid #dfe1eb;
-  background: var(--tg-color-gray-2);
+  background: var(--tg-color-white-default);
   box-shadow: -17px 10px 30px 0px rgba(0, 0, 0, 0.1);
   padding: 20px;
   /* margin-left: 180px; */
@@ -21212,8 +21212,8 @@ blockquote cite {
 }
 .estimate__tab-inner {
   border-radius: 15px 30px;
-  border: 1px solid #dddfec;
-  background: var(--tg-color-white-default);
+  /* border: 1px solid #dddfec; */
+  /* background: var(--tg-color-white-default); */
   padding: 22px 22px;
 }
 @media (max-width: 767.98px) {
@@ -27023,9 +27023,9 @@ select {
   --bronze: #ee4c01;
   --bronze-lt: #ff6a2b;
   --teal: #0047ff;
-  --soft: #f4f5fb;
-  --line: rgba(4, 4, 38, 0.13);
-  --line-soft: rgba(4, 4, 38, 0.07);
+  /* --soft: #f4f5fb; */
+  --line: black;
+  --line-soft: black;
   --muted: #667594;
 }
 .vt-article .vt-lead {
@@ -27409,20 +27409,20 @@ select {
 .vt-article table.vt-matrix tbody th {
   font-size: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--muted);
+  /* text-transform: uppercase; */
+  color: black;
   font-weight: 400;
   width: 160px;
 }
 .vt-article table.vt-matrix td {
-  color: var(--ink);
+  color: black;
 }
 .vt-article table.vt-matrix td.hl {
   background: #ee4c01;
 }
 .vt-article table.vt-matrix thead th.hl {
-  background: #ee4c01;
-  color: #fff;
+  background: #f27941;
+  color: black;
 }
 .vt-article .vt-acc {
   border-top: 1px solid var(--line);
@@ -27540,7 +27540,7 @@ select {
 }
 .vt-article .vt-sources {
   font-size: 16px;
-  color: var(--muted);
+  /* color: var(--muted); */
   line-height: 1.7;
   margin-top: 30px;
   padding-top: 18px;
@@ -29177,4 +29177,504 @@ body.blog-details2-page .blog-details2-content #split table.split + p {
   body.blog-details2-page .blog-details2-content #split table.split + p {
     margin-top: 14px !important;
   }
+}
+/* =========================================================
+   Blog Details — Founder Profiles section
+   Safe isolated classes. Does not touch .vt-cards or .vt-card.
+   ========================================================= */
+
+.blog-details-page .vt-founder-profiles {
+  margin: 22px 0 34px;
+}
+
+.blog-details-page .vt-founder-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.blog-details-page .vt-founder-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 225px;
+  padding: 24px 22px;
+  background: var(--tg-color-white-default);
+  border: 1px solid black;
+  border-radius: 14px;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.blog-details-page .vt-founder-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--tg-theme-primary);
+  box-shadow: 0 12px 28px rgba(4, 4, 38, 0.06);
+}
+
+.blog-details-page .vt-founder-card__tag {
+  margin-bottom: 12px;
+  color: var(--tg-theme-primary);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: var(--tg-fw-semi-bold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.blog-details-page .vt-founder-card__title {
+  margin: 0 0 10px;
+  color: var(--tg-heading-color);
+  font-size: 21px;
+  line-height: 1.35;
+  font-weight: var(--tg-fw-bold);
+}
+
+.blog-details-page .vt-founder-card__text {
+  margin: 0 0 18px;
+  color: var(--tg-body-color);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.blog-details-page .vt-founder-card__fit {
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid var(--tg-border-2);
+  color: var(--tg-heading-color);
+  font-size: 15px;
+  line-height: 1.55;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+.blog-details-page .vt-founder-card__fit span {
+  color: var(--tg-theme-primary);
+}
+
+/* Tablet */
+@media (max-width: 1199.98px) {
+  .blog-details-page .vt-founder-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  .blog-details-page .vt-founder-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .blog-details-page .vt-founder-card {
+    min-height: auto;
+    padding: 22px 20px;
+  }
+
+  .blog-details-page .vt-founder-card__title {
+    font-size: 20px;
+  }
+}
+/* =========================================================
+   Blog Details Page — Blog 2 rhythm + heading consistency fix
+   Paste at the VERY BOTTOM of main.css
+   ========================================================= */
+
+body.blog-details-page .vt-article {
+  --bd-section-gap: clamp(34px, 3.5vw, 48px);
+  --bd-heading-gap: 12px;
+  --bd-text-gap: 15px;
+  --bd-module-gap: 22px;
+}
+
+/* Main article section headings: same visual weight as Blog 2 / Blog 1 */
+body.blog-details-page .vt-article .title-two {
+  margin: var(--bd-section-gap) 0 var(--bd-heading-gap) !important;
+  font-size: 30px !important;
+  line-height: 1.2 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0 !important;
+  text-transform: capitalize !important;
+}
+
+/* Paragraph rhythm */
+body.blog-details-page .vt-article > p:not(.vt-sources),
+body.blog-details-page .vt-article .title-two + p {
+  margin: 0 0 var(--bd-text-gap) !important;
+  line-height: 1.72 !important;
+}
+
+/* Designed blocks should sit under their heading/text cleanly */
+body.blog-details-page .vt-article .vt-panel,
+body.blog-details-page .vt-article .vt-tldr,
+body.blog-details-page .vt-article .vt-studio,
+body.blog-details-page .vt-article .vt-callout,
+body.blog-details-page .vt-article blockquote,
+body.blog-details-page .vt-article .vt-matrix-wrap,
+body.blog-details-page .vt-article .vt-founder-profiles {
+  margin-top: var(--bd-module-gap) !important;
+  margin-bottom: 0 !important;
+}
+
+/* Panel padding: still premium, but not oversized */
+body.blog-details-page .vt-article .vt-panel,
+body.blog-details-page .vt-article .vt-tldr {
+  padding: clamp(24px, 3vw, 34px) !important;
+}
+
+/* Big blue-panel headings: keep 30px / 600 on desktop */
+body.blog-details-page .vt-article .vt-panel .vt-ptitle,
+body.blog-details-page .vt-article .vt-tldr .vt-ptitle {
+  margin: 4px 0 14px !important;
+  /* max-width: 850px; */
+  font-size: 30px !important;
+  line-height: 1.2 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0 !important;
+}
+
+/* Panel list spacing */
+body.blog-details-page .vt-article .vt-panel .vt-check {
+  margin-top: 16px !important;
+}
+
+body.blog-details-page .vt-article .vt-panel .vt-check .ci {
+  padding: 12px 0 !important;
+  line-height: 1.55 !important;
+}
+
+/* CTA inside blue panels */
+body.blog-details-page .vt-article .vt-panel .vt-cta {
+  margin-top: 18px !important;
+}
+
+/* Matrix/table should create clean space before next section */
+body.blog-details-page .vt-article .vt-matrix-wrap + .title-two,
+body.blog-details-page .vt-article .vt-founder-profiles + p,
+body.blog-details-page .vt-article .vt-panel + .title-two,
+body.blog-details-page .vt-article .vt-tldr + .title-two,
+body.blog-details-page .vt-article .vt-studio + .title-two,
+body.blog-details-page .vt-article .vt-callout + .title-two,
+body.blog-details-page .vt-article blockquote + p,
+body.blog-details-page .vt-article p + .title-two {
+  margin-top: var(--bd-section-gap) !important;
+}
+
+/* Sources after final CTA */
+body.blog-details-page .vt-article .vt-panel + .vt-sources {
+  margin-top: 24px !important;
+}
+
+/* Founder cards: reduce inner heading boldness slightly for consistency */
+body.blog-details-page .vt-founder-card__title {
+  font-size: 20px !important;
+  line-height: 1.35 !important;
+  font-weight: 600 !important;
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  body.blog-details-page .vt-article {
+    --bd-section-gap: 32px;
+    --bd-module-gap: 20px;
+  }
+
+  body.blog-details-page .vt-article .title-two,
+  body.blog-details-page .vt-article .vt-panel .vt-ptitle,
+  body.blog-details-page .vt-article .vt-tldr .vt-ptitle {
+    font-size: 28px !important;
+    line-height: 1.25 !important;
+  }
+
+  body.blog-details-page .vt-article .vt-panel,
+  body.blog-details-page .vt-article .vt-tldr {
+    padding: 22px 20px !important;
+    border-radius: 12px !important;
+  }
+
+  body.blog-details-page .vt-founder-card__title {
+    font-size: 19px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.blog-details-page .vt-article .title-two,
+  body.blog-details-page .vt-article .vt-panel .vt-ptitle,
+  body.blog-details-page .vt-article .vt-tldr .vt-ptitle {
+    font-size: 26px !important;
+  }
+
+  body.blog-details-page .vt-article .vt-panel .vt-check .ci {
+    gap: 10px !important;
+  }
+}
+/* =========================================================
+   Blog Details — Blue advisory / quote callout
+   Safe reusable class for callout + quote sections
+   ========================================================= */
+
+body.blog-details-page .vt-article .vt-blue-note {
+  position: relative;
+  margin: 28px 0 !important;
+  padding: 22px 34px 22px 38px;
+  background: linear-gradient(360deg, #09194e 0%, #175ab1 100%);
+  border-radius: 0 16px 16px 0;
+  color: var(--tg-color-white-default);
+  font-size: 17px;
+  line-height: 1.55;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+body.blog-details-page .vt-article .vt-blue-note::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8px;
+  height: 100%;
+  background: var(--tg-theme-primary);
+}
+
+body.blog-details-page .vt-article .vt-blue-note b,
+body.blog-details-page .vt-article .vt-blue-note strong {
+  color: var(--tg-color-white-default);
+  font-weight: 700;
+}
+
+body.blog-details-page .vt-article .vt-blue-note em {
+  color: var(--tg-color-white-default);
+  font-style: normal;
+}
+
+body.blog-details-page .vt-article .vt-blue-note p {
+  margin: 0 !important;
+  color: var(--tg-color-white-default);
+  line-height: inherit !important;
+}
+
+body.blog-details-page .vt-article .vt-blue-note cite {
+  display: block;
+  margin-top: 12px;
+  color: var(--tg-color-white-default);
+  font-size: 16px;
+  line-height: 1.45;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  body.blog-details-page .vt-article .vt-blue-note {
+    margin: 24px 0 !important;
+    padding: 20px 22px 20px 28px;
+    border-radius: 0 12px 12px 0;
+    font-size: 16px;
+  }
+
+  body.blog-details-page .vt-article .vt-blue-note::before {
+    width: 6px;
+  }
+}
+/* =========================================================
+   Blog Details — Reference-style blue callout / quote blocks
+   Paste at the VERY BOTTOM of main.css
+   ========================================================= */
+
+body.blog-details-page .vt-article .vt-blue-note {
+  position: relative;
+  display: block;
+  margin: 28px 0 !important;
+  padding: 22px 38px 22px 42px !important;
+  background: linear-gradient(180deg, #123f91 0%, #07174e 100%) !important;
+  border: 0 !important;
+  border-radius: 0 16px 16px 0 !important;
+  color: var(--tg-color-white-default) !important;
+  font-size: 17px !important;
+  line-height: 1.55 !important;
+  font-weight: 600 !important;
+  overflow: hidden;
+}
+
+body.blog-details-page .vt-article .vt-blue-note::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8px;
+  height: 100%;
+  background: var(--tg-theme-primary);
+}
+
+body.blog-details-page .vt-article .vt-blue-note p {
+  margin: 0 !important;
+  color: var(--tg-color-white-default) !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-weight: inherit !important;
+}
+
+body.blog-details-page .vt-article .vt-blue-note b,
+body.blog-details-page .vt-article .vt-blue-note strong {
+  color: var(--tg-color-white-default) !important;
+  font-weight: 700 !important;
+}
+
+/* Quote version — same reference style with big quote icon */
+body.blog-details-page .vt-article blockquote.vt-blue-note {
+  padding: 22px 96px 22px 42px !important;
+}
+
+body.blog-details-page .vt-article blockquote.vt-blue-note p {
+  font-style: italic;
+  font-weight: 400 !important;
+}
+
+body.blog-details-page .vt-article blockquote.vt-blue-note cite {
+  display: block;
+  margin-top: 14px;
+  color: var(--tg-color-white-default) !important;
+  font-size: 16px;
+  line-height: 1.4;
+  font-style: normal;
+  font-weight: 600;
+}
+
+body.blog-details-page .vt-article blockquote.vt-blue-note::after {
+  content: "\201D";
+  position: absolute;
+  right: 30px;
+  bottom: 14px;
+  color: rgba(218, 224, 255, 0.85);
+  font-size: 78px;
+  line-height: 1;
+  font-weight: 800;
+  font-family: var(--tg-heading-font-family);
+  pointer-events: none;
+}
+
+/* Make vt-zone-reco match the same reference design */
+body.blog-details-page .vt-article .vt-zone-reco.vt-blue-note {
+  margin: 22px 0 0 !important;
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  body.blog-details-page .vt-article .vt-blue-note {
+    margin: 24px 0 !important;
+    padding: 18px 22px 18px 28px !important;
+    border-radius: 0 12px 12px 0 !important;
+    font-size: 15.5px !important;
+  }
+
+  body.blog-details-page .vt-article .vt-blue-note::before {
+    width: 6px;
+  }
+
+  body.blog-details-page .vt-article blockquote.vt-blue-note {
+    padding: 18px 54px 18px 28px !important;
+  }
+
+  body.blog-details-page .vt-article blockquote.vt-blue-note::after {
+    right: 18px;
+    bottom: 12px;
+    font-size: 52px;
+  }
+
+  body.blog-details-page .vt-article blockquote.vt-blue-note cite {
+    font-size: 15px;
+  }
+}
+/* =========================================================
+   Service hash anchor offset fix
+   Fixes sticky header covering section start after footer/header links
+   ========================================================= */
+
+html {
+  scroll-padding-top: 125px;
+}
+
+#digital-marketing-brand-development-social-media-management,
+#social-media-content-plan-strategy,
+#digital-marketing-brand-development-brand-development,
+#digital-marketing-brand-development-marketing-solutions,
+#digital-marketing-brand-development-web-digital-solutions,
+#digital-marketing-brand-development {
+  scroll-margin-top: 125px;
+}
+
+@media (max-width: 1199.98px) {
+  html {
+    scroll-padding-top: 105px;
+  }
+
+  #digital-marketing-brand-development-social-media-management,
+  #social-media-content-plan-strategy,
+  #digital-marketing-brand-development-brand-development,
+  #digital-marketing-brand-development-marketing-solutions,
+  #digital-marketing-brand-development-web-digital-solutions,
+  #digital-marketing-brand-development {
+    scroll-margin-top: 105px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html {
+    scroll-padding-top: 85px;
+  }
+
+  #digital-marketing-brand-development-social-media-management,
+  #social-media-content-plan-strategy,
+  #digital-marketing-brand-development-brand-development,
+  #digital-marketing-brand-development-marketing-solutions,
+  #digital-marketing-brand-development-web-digital-solutions,
+  #digital-marketing-brand-development {
+    scroll-margin-top: 85px;
+  }
+}
+/* -------For Footer Grid Nav Links------------- */
+
+/* ------------Footer Column Issues----------------- */
+/* Footer services alignment fix - uses existing footer typography */
+.footer__area-five .footer-reference-left__services--wide {
+  grid-column: 2 / 4;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(34px, 4vw, 88px);
+  align-items: start;
+}
+
+.footer__area-five .footer-reference-left__services--wide h4 {
+  grid-column: 1 / -1;
+}
+
+/* Tablet: footer brand already becomes full-width, so services should also behave safely */
+@media (max-width: 991.98px) {
+  .footer__area-five .footer-reference-left__services--wide {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Mobile: one clean column */
+@media (max-width: 767.98px) {
+  .footer__area-five .footer-reference-left__services--wide {
+    grid-template-columns: 1fr;
+  }
+}
+/* Remove ugly double bottom border from decision matrix */
+body.blog-details-page
+  .vt-article
+  .vt-matrix-wrap
+  > table.vt-matrix
+  tbody
+  tr:last-child
+  > th,
+body.blog-details-page
+  .vt-article
+  .vt-matrix-wrap
+  > table.vt-matrix
+  tbody
+  tr:last-child
+  > td {
+  border-bottom: 0 !important;
 }

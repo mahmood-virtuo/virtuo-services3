@@ -159,7 +159,10 @@
                   <div class="vt-article">
                     <p class="vt-lead">If you're reading this, you've probably already won once. You built something in the U.S. — revenue, a brand, an exit, a portfolio — and now you're looking at the UAE and wondering whether it belongs in the next chapter. For a growing number of American founders, the honest answer is yes. Not as a tax trick or an escape hatch — as infrastructure: a base built to carry global revenue, protect what you've accumulated, and give you room to expand, hold, or sell on your own terms.</p>
 
-                    <div class="vt-callout">The expensive mistake isn't picking the wrong license. It's picking one before you're clear on what the structure actually has to do.</div>
+                    <!-- <div class="vt-callout">The expensive mistake isn't picking the wrong license. It's picking one before you're clear on what the structure actually has to do.</div> -->
+                     <div class="vt-blue-note">
+  <p>The expensive mistake isn't picking the wrong license. It's picking one before you're clear on what the structure actually has to do.</p>
+</div>
 
                     <h4 class="title-two" id="vt-structure">The UAE company isn't the asset. The structure is.</h4>
                     <p>You already know this instinct from home. A Delaware C-corp and a single-member LLC aren't the "cheaper" and "pricier" versions of the same thing — they behave differently, and you choose based on what you're building. The UAE works the same way, with higher stakes, because the entity you pick quietly decides which bank will hold your money, what tax position you can defend, who you can sponsor for residency, and how cleanly you can scale or exit later.</p>
@@ -170,8 +173,8 @@
                       <div class="vt-stats">
                         <div class="vt-stat"><div class="n" data-count="9800">0</div><div class="l">Net millionaires the UAE gains in 2025 — first worldwide, ahead of the U.S.</div><div class="src">Henley 2025</div></div>
                         <div class="vt-stat"><div class="n"><small>USD&nbsp;</small><span data-count="63">0</span><small>&nbsp;bn</small></div><div class="l">Private wealth projected to flow into the UAE in 2025</div><div class="src">Henley 2025</div></div>
-                        <div class="vt-stat"><div class="n"><small>USD&nbsp;</small><span data-count="14.24" data-dec="2">0</span><small>&nbsp;bn</small></div><div class="l">Dubai greenfield FDI in 2024, up 33% year on year</div><div class="src">FT fDi Markets / DET</div></div>
-                        <div class="vt-stat"><div class="n" data-count="0">0</div><div class="l">UAE personal income tax</div><div class="src">UAE FTA</div></div>
+                        <div class="vt-stat"><div class="n"><small>USD&nbsp;</small><span data-count="14.24" data-dec="2">0</span><small>&nbsp;bn</small></div><div class="l">Dubai greenfield FDI in 2024, up 33% year on year</div><div class="src">FT FDI Markets / DET</div></div>
+                        <div class="vt-stat"><div class="n" data-count="0">0%</div><div class="l">UAE personal income tax</div><div class="src">UAE FTA</div></div>
                       </div>
                       <p class="vt-psub" style="margin-top:18px">For comparison back home: 21% federal corporate tax, a combined corporate burden near 29.8% in the highest-tax states, and a 13.3% top personal rate in California. If your revenue is going global, that gap is the whole conversation.</p>
                     </div>
@@ -195,8 +198,7 @@
                         <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="offshore" id="vt-tab-offshore"><span class="tk">Instrument</span><br/><span class="tn">Offshore</span><br/><span class="te">When you're holding, not operating.</span></button>
                       </div>
 
-                      <p class="vt-reco" id="vt-reco">Most international founders begin in a Free Zone — but the right answer depends entirely on where your revenue and your customers actually sit.</p>
-
+                      
                       <div class="vt-spanel" role="tabpanel" id="vt-spanel" aria-labelledby="vt-tab-mainland">
                         <div class="vt-pname" id="vt-pname">Mainland — when your customers are here</div>
                         <div class="vt-best" id="vt-pbest">Local clients · enterprise &amp; government contracts · staff · storefront</div>
@@ -215,13 +217,46 @@
                       </div>
                     </div>
 
-                    <h4 class="title-two">The free zones we concentrate on</h4>
+                    <!-- <h4 class="title-two">The free zones we concentrate on</h4>
                     <p>There are forty-plus free zones in the UAE, and we work across them. Three come up again and again with our American clients, because between them they cover almost every situation a U.S. founder walks in with.</p>
                     <div class="vt-cards">
                       <div class="vt-card"><div class="city">Cost-efficient · fast setup</div><div class="who">Ajman Free Zone</div><div class="pick">A legitimate UAE base without Dubai's overhead — fully digital incorporation, flexible workspace, and one of the lowest costs of entry in the country. <span>Fits lean operating companies, e-commerce, holding &amp; IP.</span></div></div>
                       <div class="vt-card"><div class="city">Airport-side · regulated goods</div><div class="who">DAFZ</div><div class="pick">Set within Dubai International Airport and the Dubai Integrated Economic Zones — a premium address with fast, flexible licensing. <span>Fits aviation, electronics, pharma, high-value cargo.</span></div></div>
                       <div class="vt-card"><div class="city">Bonded · trade &amp; logistics</div><div class="who">Jebel Ali · JAFZA</div><div class="pick">DP World's flagship at Jebel Ali Port and the largest bonded zone in the region — built for trade at scale. <span>Fits import/export, re-export, warehousing, manufacturing.</span></div></div>
-                    </div>
+                    </div> -->
+                    <h4 class="title-two" id="vt-free-zones">The Free Zones We Concentrate On</h4>
+<p>There are forty-plus free zones in the UAE, and we work across them. Three come up again and again with our American clients, because between them they cover almost every situation a U.S. founder walks in with.</p>
+
+<div class="vt-panel vt-reveal">
+  <div class="vt-eyebrow">Free zone focus</div>
+  <div class="vt-ptitle">Three zones cover most U.S. founder use cases.</div>
+
+  <div class="vt-check">
+    <div class="ci">
+      <span class="qn">01</span>
+      <span>
+        <b>Ajman Free Zone — cost-efficient, fast setup:</b>
+        A legitimate UAE base without Dubai's overhead: fully digital incorporation, flexible workspace, and one of the lowest costs of entry in the country. Best for lean operating companies, e-commerce, holding, and IP.
+      </span>
+    </div>
+
+    <div class="ci">
+      <span class="qn">02</span>
+      <span>
+        <b>DAFZ — airport-side, regulated goods:</b>
+        Set within Dubai International Airport and the Dubai Integrated Economic Zones, DAFZ gives founders a premium Dubai address with fast, flexible licensing. Best for aviation, electronics, pharma, and high-value cargo.
+      </span>
+    </div>
+
+    <div class="ci">
+      <span class="qn">03</span>
+      <span>
+        <b>Jebel Ali · JAFZA — bonded trade and logistics:</b>
+        DP World's flagship at Jebel Ali Port and the largest bonded zone in the region, built for trade at scale. Best for import/export, re-export, warehousing, and manufacturing.
+      </span>
+    </div>
+  </div>
+</div>
 
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">Structure before license</div>
@@ -234,30 +269,63 @@
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">Common planning failures</div>
                       <div class="vt-check">
-                        <div class="ci"><span class="qn">01</span><span><b>Shopping on price.</b> Optimizing for the cheapest license instead of what the structure has to enable, protect, and survive. This is the one that costs the most later.</span></div>
-                        <div class="ci"><span class="qn">02</span><span><b>Picking a free zone before defining the revenue source.</b> The right zone depends on where your customers and income actually sit. Decide that first.</span></div>
-                        <div class="ci"><span class="qn">03</span><span><b>Underestimating the bank.</b> If your licensed activity and substance don't match the business, onboarding stalls — and a structure you can't bank isn't a structure.</span></div>
-                        <div class="ci"><span class="qn">04</span><span><b>Assuming 0% is automatic.</b> The Free Zone 0% is a qualifying-income position with real conditions. Assume it and you can end up owing the 9% you thought you'd designed around.</span></div>
-                        <div class="ci"><span class="qn">05</span><span><b>Bolting on residency last.</b> Your visa status drives banking, family relocation, schools, hiring, and how present you can be. Add it as an afterthought and you'll redo the work.</span></div>
+                        <div class="ci"><span class="qn">01</span><span><b>Shopping on price:</b> Optimizing for the cheapest license instead of what the structure has to enable, protect, and survive. This is the one that costs the most later.</span></div>
+                        <div class="ci"><span class="qn">02</span><span><b>Picking a free zone before defining the revenue source:</b> The right zone depends on where your customers and income actually sit. Decide that first.</span></div>
+                        <div class="ci"><span class="qn">03</span><span><b>Underestimating the bank:</b> If your licensed activity and substance don't match the business, onboarding stalls — and a structure you can't bank isn't a structure.</span></div>
+                        <div class="ci"><span class="qn">04</span><span><b>Assuming 0% is automatic:</b> The Free Zone 0% is a qualifying-income position with real conditions. Assume it and you can end up owing the 9% you thought you'd designed around.</span></div>
+                        <div class="ci"><span class="qn">05</span><span><b>Bolting on residency last:</b> Your visa status drives banking, family relocation, schools, hiring, and how present you can be. Add it as an afterthought and you'll redo the work.</span></div>
                       </div>
                     </div>
 
                     <h4 class="title-two" id="vt-license">The license activity is the silent decision-maker</h4>
                     <p>Of every box you check in a UAE setup, the licensed activity is the one founders treat as paperwork and everyone else treats as the whole story. It's the lens your bank's compliance team, the regulator, your clients, and your own CPA use to understand what the business is. It decides whether the bank can map your incoming wires to a permitted purpose, whether your invoices hold up, and whether that 0% position is even on the table.</p>
-                    <blockquote>
+                    <!-- <blockquote>
                       <p>Choose an activity that flatters the pitch deck instead of describing the actual revenue, and you haven't bought flexibility. You've handed the bank a reason to say no.</p>
                       <cite>The activity-to-substance rule</cite>
-                    </blockquote>
+                    </blockquote> -->
+                    <blockquote class="vt-blue-note">
+  <p>Choose an activity that flatters the pitch deck instead of describing the actual revenue, and you haven't bought flexibility. You've handed the bank a reason to say no.</p>
+  <cite>The activity-to-substance rule</cite>
+</blockquote>
                     <p>The discipline is boring and it's decisive: the license has to match how the company really earns — not how it might someday, and not how it sounds best in a room.</p>
 
                     <h4 class="title-two" id="vt-tax">Tax efficiency is real. Tax simplicity is not.</h4>
-                    <p>The UAE side is genuinely efficient. The U.S. side travels with your passport. The founders who do well here treat both as one engineering problem instead of pretending the second one went away.</p>
-                    <ul class="list-wrap about__list-item-two">
-                      <li><div class="icon"><i class="fas fa-check"></i></div><div class="content"><p><strong>The UAE is efficient — on purpose.</strong> No personal income tax. Corporate tax is 0% on the first AED 375,000 of taxable profit and 9% above it. A Qualifying Free Zone Person can keep 0% on qualifying income when the substance, source, and de-minimis conditions hold. None of it is automatic — every position has to be earned and documented.</p></div></li>
-                      <li><div class="icon"><i class="fas fa-check"></i></div><div class="content"><p><strong>The IRS doesn't care where you incorporate.</strong> As a U.S. citizen or green-card holder, your worldwide income stays in scope — GILTI and Subpart F under the CFC rules, plus FBAR and FATCA reporting. A UAE company does not turn that off. Anyone who tells you it does is describing your next audit.</p></div></li>
-                      <li><div class="icon"><i class="fas fa-check"></i></div><div class="content"><p><strong>What it actually buys you.</strong> Not "no tax" — a lower local base layered onto a compliant U.S. position, with foreign-tax-credit interplay, legitimate deferral where it applies, real banking, regional access, and diversification of where your assets live. Built on purpose, with your U.S. and UAE advisors in the room from day one.</p></div></li>
-                    </ul>
-                    <p><em>This article is educational and is not tax or legal advice. Coordinate any UAE structure with qualified U.S. and UAE tax advisors before acting.</em></p>
+<p>The UAE side is genuinely efficient. The U.S. side travels with your passport. The founders who do well here treat both as one engineering problem instead of pretending the second one went away.</p>
+
+<div class="vt-panel vt-reveal">
+  <div class="vt-eyebrow">Tax reality check</div>
+  <div class="vt-ptitle">Efficient does not mean automatic.</div>
+
+  <div class="vt-check">
+    <div class="ci">
+      <span class="qn">01</span>
+      <span>
+        <b>The UAE is efficient — on purpose:</b>
+        No personal income tax. Corporate tax is 0% on the first AED 375,000 of taxable profit and 9% above it. A Qualifying Free Zone Person can keep 0% on qualifying income when the substance, source, and de-minimis conditions hold. None of it is automatic — every position has to be earned and documented.
+      </span>
+    </div>
+
+    <div class="ci">
+      <span class="qn">02</span>
+      <span>
+        <b>The IRS doesn't care where you incorporate:</b>
+        As a U.S. citizen or green-card holder, your worldwide income stays in scope — GILTI and Subpart F under the CFC rules, plus FBAR and FATCA reporting. A UAE company does not turn that off. Anyone who tells you it does is describing your next audit.
+      </span>
+    </div>
+
+    <div class="ci">
+      <span class="qn">03</span>
+      <span>
+        <b>What it actually buys you:</b>
+        Not "no tax" — a lower local base layered onto a compliant U.S. position, with foreign-tax-credit interplay, legitimate deferral where it applies, real banking, regional access, and diversification of where your assets live. Built on purpose, with your U.S. and UAE advisors in the room from day one.
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class="vt-callout">
+  <em>This article is educational and is not tax or legal advice. Coordinate any UAE structure with qualified U.S. and UAE tax advisors before acting.</em>
+</div>
 
                     <h4 class="title-two" id="vt-residency">Residency is infrastructure, not a perk</h4>
                     <p>Residency is what turns a UAE entity into a base you actually live and operate from. It backs your banking relationships, lets your family relocate and put kids in school, supports hiring and sponsorship, and keeps you present where the structure lives. The Golden Visa gives you ten-year, renewable residency with no local sponsor and your family included.</p>
@@ -268,16 +336,16 @@
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">The sequence before filing</div>
                       <div class="vt-check">
-                        <div class="ci"><span class="qn">01</span><span><b>Commercial objective.</b> What the structure has to enable, protect, and eventually survive: operate, hold, trade, or exit.</span></div>
-                        <div class="ci"><span class="qn">02</span><span><b>Revenue geography.</b> Where the money is actually earned, and in which currencies.</span></div>
-                        <div class="ci"><span class="qn">03</span><span><b>Customer location.</b> U.S., MENA, or global — this is what decides Mainland vs. Free Zone.</span></div>
-                        <div class="ci"><span class="qn">04</span><span><b>License activity.</b> Matched precisely to how you really earn, and to what a bank will accept.</span></div>
-                        <div class="ci"><span class="qn">05</span><span><b>Jurisdiction.</b> Emirate and zone chosen on cost, substance, and credibility — not the headline price.</span></div>
-                        <div class="ci"><span class="qn">06</span><span><b>Visa &amp; residency path.</b> You, your team, and your family mapped from day one; Golden Visa where it qualifies.</span></div>
-                        <div class="ci"><span class="qn">07</span><span><b>Banking-readiness.</b> Activity, substance, and documents prepped so onboarding clears the first time.</span></div>
-                        <div class="ci"><span class="qn">08</span><span><b>Compliance &amp; substance.</b> QFZP conditions, economic substance, and reporting designed in, not bolted on.</span></div>
-                        <div class="ci"><span class="qn">09</span><span><b>Brand &amp; digital launch.</b> Identity, site, and automation so the entity is operating, not just registered.</span></div>
-                        <div class="ci"><span class="qn">10</span><span><b>3–5 year expansion plan.</b> A structure that holds through growth, a raise, succession, or a sale.</span></div>
+                        <div class="ci"><span class="qn">01</span><span><b>Commercial objective:</b> What the structure has to enable, protect, and eventually survive: operate, hold, trade, or exit.</span></div>
+                        <div class="ci"><span class="qn">02</span><span><b>Revenue geography:</b> Where the money is actually earned, and in which currencies.</span></div>
+                        <div class="ci"><span class="qn">03</span><span><b>Customer location:</b> U.S., MENA, or global — this is what decides Mainland vs. Free Zone.</span></div>
+                        <div class="ci"><span class="qn">04</span><span><b>License activity:</b> Matched precisely to how you really earn, and to what a bank will accept.</span></div>
+                        <div class="ci"><span class="qn">05</span><span><b>Jurisdiction:</b> Emirate and zone chosen on cost, substance, and credibility — not the headline price.</span></div>
+                        <div class="ci"><span class="qn">06</span><span><b>Visa &amp; residency path:</b> You, your team, and your family mapped from day one; Golden Visa where it qualifies.</span></div>
+                        <div class="ci"><span class="qn">07</span><span><b>Banking-readiness:</b> Activity, substance, and documents prepped so onboarding clears the first time.</span></div>
+                        <div class="ci"><span class="qn">08</span><span><b>Compliance &amp; substance:</b> QFZP conditions, economic substance, and reporting designed in, not bolted on.</span></div>
+                        <div class="ci"><span class="qn">09</span><span><b>Brand &amp; digital launch:</b> Identity, site, and automation so the entity is operating, not just registered.</span></div>
+                        <div class="ci"><span class="qn">10</span><span><b>3–5 year expansion plan:</b> A structure that holds through growth, a raise, succession, or a sale.</span></div>
                       </div>
                     </div>
 
@@ -302,17 +370,69 @@
                     </div>
 
                     <h4 class="title-two" id="vt-profiles">Founder profiles</h4>
-                    <p>Illustrative starting points — your specifics decide the structure.</p>
-                    <div class="vt-cards">
-                      <div class="vt-card"><div class="city">Advisory</div><div class="who">U.S. consulting firm into MENA</div><div class="pick">Regional clients, some delivery on the ground. <span>Likely Mainland or Free Zone by client mix.</span></div></div>
-                      <div class="vt-card"><div class="city">E-commerce</div><div class="who">Brand selling globally</div><div class="pick">International DTC revenue, light UAE footprint. <span>Likely Free Zone — Ajman a strong entry.</span></div></div>
-                      <div class="vt-card"><div class="city">SaaS</div><div class="who">Founder relocating to Dubai</div><div class="pick">Recurring global revenue, IP to house. <span>Likely Free Zone — QFZP with substance.</span></div></div>
-                      <div class="vt-card"><div class="city">Trade</div><div class="who">Electronics / import-export operator</div><div class="pick">Physical goods, customs and warehousing. <span>Likely JAFZA (bonded) or DAFZ.</span></div></div>
-                      <div class="vt-card"><div class="city">Family office</div><div class="who">Holding assets &amp; equity</div><div class="pick">Consolidation, succession, no local trading. <span>Likely Offshore holding + Golden Visa.</span></div></div>
-                      <div class="vt-card"><div class="city">Real estate</div><div class="who">Investor seeking UAE residency</div><div class="pick">Property position plus a long-term base. <span>Likely Holding + Golden Visa (property route).</span></div></div>
-                    </div>
+<p>Illustrative starting points — your specifics decide the structure.</p>
 
-                    <p>The founders who get the most out of the UAE aren't the ones who moved fastest or cheapest. They're the ones who built the structure to fit the business — once — and never had to think about it again. If you're getting close to moving money, signing a lease, or applying for a license, that's exactly the moment to talk.</p>
+<section class="vt-founder-profiles" aria-labelledby="vt-profiles">
+  <div class="vt-founder-grid">
+
+    <article class="vt-founder-card">
+      <div class="vt-founder-card__tag">Advisory</div>
+      <h5 class="vt-founder-card__title">U.S. consulting firm into MENA</h5>
+      <p class="vt-founder-card__text">Regional clients, some delivery on the ground.</p>
+      <div class="vt-founder-card__fit">
+        <span>Likely</span> Mainland or Free Zone by client mix
+      </div>
+    </article>
+
+    <article class="vt-founder-card">
+      <div class="vt-founder-card__tag">E-commerce</div>
+      <h5 class="vt-founder-card__title">Brand selling globally</h5>
+      <p class="vt-founder-card__text">International DTC revenue, light UAE footprint.</p>
+      <div class="vt-founder-card__fit">
+        <span>Likely</span> Free Zone — Ajman a strong entry
+      </div>
+    </article>
+
+    <article class="vt-founder-card">
+      <div class="vt-founder-card__tag">SaaS</div>
+      <h5 class="vt-founder-card__title">Founder relocating to Dubai</h5>
+      <p class="vt-founder-card__text">Recurring global revenue, IP to house.</p>
+      <div class="vt-founder-card__fit">
+        <span>Likely</span> Free Zone — QFZP with substance
+      </div>
+    </article>
+
+    <article class="vt-founder-card">
+      <div class="vt-founder-card__tag">Trade</div>
+      <h5 class="vt-founder-card__title">Electronics / import-export</h5>
+      <p class="vt-founder-card__text">Physical goods, customs and warehousing.</p>
+      <div class="vt-founder-card__fit">
+        <span>Likely</span> JAFZA bonded or DAFZ
+      </div>
+    </article>
+
+    <article class="vt-founder-card">
+      <div class="vt-founder-card__tag">Family office</div>
+      <h5 class="vt-founder-card__title">Holding assets &amp; equity</h5>
+      <p class="vt-founder-card__text">Consolidation, succession, no local trading.</p>
+      <div class="vt-founder-card__fit">
+        <span>Likely</span> Offshore holding + Golden Visa
+      </div>
+    </article>
+
+    <article class="vt-founder-card">
+      <div class="vt-founder-card__tag">Real estate</div>
+      <h5 class="vt-founder-card__title">Investor seeking residency</h5>
+      <p class="vt-founder-card__text">Property position plus a long-term base.</p>
+      <div class="vt-founder-card__fit">
+        <span>Likely</span> Holding + Golden Visa property route
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<p>The founders who get the most out of the UAE aren't the ones who moved fastest or cheapest. They're the ones who built the structure to fit the business — once — and never had to think about it again. If you're getting close to moving money, signing a lease, or applying for a license, that's exactly the moment to talk.</p>
 
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">The bottom line</div>
