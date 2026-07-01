@@ -207,6 +207,27 @@
                           <div class="vt-costrow" data-key="offshore"><div class="vt-cl"><span>Offshore</span><span>AED 8k – 15k+</span></div><div class="vt-track"><div class="vt-fill" data-low="8000" data-high="15000"></div></div></div>
                         </div>
                       </div>
+                      <!-- -----Decision Matrix Start---- -->
+                     <h4 class="title-two" id="vt-matrix">Decision matrix</h4>
+                    <p style="color:black;">The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
+                    <div class="vt-matrix-wrap">
+                      <table class="vt-matrix">
+                        <thead>
+                          <tr><th>Factor</th><th data-col="mainland">Mainland</th><th data-col="freezone">Free Zone</th><th data-col="offshore">Offshore</th></tr>
+                        </thead>
+                        <tbody>
+                          <tr><th>Best for</th><td data-col="mainland">Local clients, contracts, operations</td><td data-col="freezone">Global revenue, e-commerce, tech, IP</td><td data-col="offshore">Holding, succession, structuring</td></tr>
+                          <tr><th>UAE market access</th><td data-col="mainland">Direct, unrestricted</td><td data-col="freezone">Layered in separately</td><td data-col="offshore">None</td></tr>
+                          <tr><th>International trade</th><td data-col="mainland">Yes</td><td data-col="freezone">Yes — a core strength</td><td data-col="offshore">Holding / investment only</td></tr>
+                          <tr><th>Tax position</th><td data-col="mainland">9% above AED 375k; 0% below</td><td data-col="freezone">0% on qualifying income (QFZP)</td><td data-col="offshore">Substance-dependent</td></tr>
+                          <tr><th>Visa entitlement</th><td data-col="mainland">Yes</td><td data-col="freezone">Yes</td><td data-col="offshore">Generally none</td></tr>
+                          <tr><th>Banking</th><td data-col="mainland">Strong with matched activity</td><td data-col="freezone">Strong for most models</td><td data-col="offshore">Rewards genuine substance</td></tr>
+                          <tr><th>Ownership</th><td data-col="mainland">Up to 100% foreign</td><td data-col="freezone">100% foreign</td><td data-col="offshore">100% foreign</td></tr>
+                          <tr><th>Setup speed</th><td data-col="mainland">Moderate</td><td data-col="freezone">Fast</td><td data-col="offshore">Fast</td></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                     <!-- --------Decision Matrix Ends------ -->
                     </div>
 
                     <!-- <h4 class="title-two">The free zones we concentrate on</h4>
@@ -216,6 +237,11 @@
                       <div class="vt-card"><div class="city">Airport-side · regulated goods</div><div class="who">DAFZ</div><div class="pick">Set within Dubai International Airport and the Dubai Integrated Economic Zones — a premium address with fast, flexible licensing. <span>Fits aviation, electronics, pharma, high-value cargo.</span></div></div>
                       <div class="vt-card"><div class="city">Bonded · trade &amp; logistics</div><div class="who">Jebel Ali · JAFZA</div><div class="pick">DP World's flagship at Jebel Ali Port and the largest bonded zone in the region — built for trade at scale. <span>Fits import/export, re-export, warehousing, manufacturing.</span></div></div>
                     </div> -->
+
+                    
+
+
+
                     <h4 class="title-two" id="vt-free-zones">The Free Zones We Concentrate On</h4>
 <p>There are forty-plus free zones in the UAE, and we work across them. Three come up again and again with our American clients, because between them they cover almost every situation a U.S. founder walks in with.</p>
 
@@ -341,7 +367,7 @@
                       </div>
                     </div>
 
-                    <h4 class="title-two" id="vt-matrix">Decision matrix</h4>
+                    <!-- <h4 class="title-two" id="vt-matrix">Decision matrix</h4>
                     <p>The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
                     <div class="vt-matrix-wrap">
                       <table class="vt-matrix">
@@ -359,7 +385,7 @@
                           <tr><th>Setup speed</th><td data-col="mainland">Moderate</td><td data-col="freezone">Fast</td><td data-col="offshore">Fast</td></tr>
                         </tbody>
                       </table>
-                    </div>
+                    </div> -->
 
                     <h4 class="title-two" id="vt-profiles">Founder profiles</h4>
 <p>Illustrative starting points — your specifics decide the structure.</p>
