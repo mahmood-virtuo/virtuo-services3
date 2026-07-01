@@ -233,43 +233,9 @@
                     </div>
                     <div class="col-30 blog-sidebar-column">
                         <aside class="blog__sidebar">
-                            <div class="sidebar__widget">
-                                <form action="#" class="shop__search blog__search">
-                                    <input type="text" placeholder="Search">
-                                    <button type="submit">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                                            <path d="M17 17L13.5247 13.5247M15.681 8.3405C15.681 12.3945 12.3945 15.681 8.3405 15.681C4.28645 15.681 1 12.3945 1 8.3405C1 4.28645 4.28645 1 8.3405 1C12.3945 1 15.681 4.28645 15.681 8.3405Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </button>
-                                </form>
-                            </div>
+                            <?php include __DIR__ . '/partials/blog-sidebar-categories.php'; ?>
+                            <?php include __DIR__ . '/partials/blog-sidebar-tags.php'; ?>
                             <?php include __DIR__ . '/partials/blog-recent-posts.php'; ?>
-                            <div class="sidebar__widget">
-                                <h4 class="sidebar__widget-title">Categories</h4>
-                                <div class="bs-cat-list">
-                                    <ul class="list-wrap">
-                                        <li><a href="/blog">Business Strategy <span>(02)</span></a></li>
-                                        <li><a href="/blog">Finance Advisory <span>(08)</span></a></li>
-                                        <li><a href="/blog">Marketing Analysis <span>(05)</span></a></li>
-                                        <li><a href="/blog">Investment Planning <span>(02)</span></a></li>
-                                        <li><a href="/blog">Data Analysis <span>(11)</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="sidebar__widget">
-                                <h4 class="sidebar__widget-title">Popular Tags</h4>
-                                <div class="sidebar__tag-list">
-                                    <ul class="list-wrap">
-                                        <li><a href="/blog">Finance</a></li>
-                                        <li><a href="/blog">Investment</a></li>
-                                        <li><a href="/blog">TAX</a></li>
-                                        <li><a href="/blog">Banking</a></li>
-                                        <li><a href="/blog">Finance Advisor</a></li>
-                                        <li><a href="/blog">Tax Consultancy</a></li>
-                                        <li><a href="/blog">Security</a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </aside>
                         <div class="blog-sidebar-sticky-slot">
                             <div class="blog-sidebar-sticky-inner">

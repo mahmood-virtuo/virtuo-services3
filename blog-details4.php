@@ -46,8 +46,8 @@
                                 <div class="col-lg-8">
                                     <div class="slider__content">
                                         <h1 class="title">The UAE Golden Visa:<br />Comparing Every Real Way to Qualify</h1>
-                                        <p>A practical route-by-route guide for investors, professionals, founders, specialized talent and high-achieving applicants.</p>
-                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Map My Golden Visa Route <img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <p>Capital, salary, or recognition — the Golden Visa has five working routes, and most applicants only know about one. Here's how the eligibility paths actually compare.</p>
+                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -191,16 +191,16 @@
                       <div class="vt-chooser" role="group" aria-label="What can you actually prove?">
                         <div class="vt-chooser-top">What's your strongest qualifying evidence?</div>
                         <div class="vt-goals">
-                          <button class="vt-goal" type="button" data-goal="investor" aria-pressed="false"><span class="gk">Profile A</span><span class="gt">AED 2M+ in property, an approved fund, or business capital</span></button>
-                          <button class="vt-goal" type="button" data-goal="professional" aria-pressed="false"><span class="gk">Profile B</span><span class="gt">A qualified, salaried role at AED 30,000+ per month</span></button>
-                          <button class="vt-goal" type="button" data-goal="entrepreneur" aria-pressed="false"><span class="gk">Profile C</span><span class="gt">Founder of an innovative or fast-growing UAE business</span></button>
+                          <button class="vt-goal" type="button" data-goal="investor" aria-pressed="false"><span class="gk">Profile A</span><br/><span class="gt">AED 2M+ in property, an approved fund, or business capital</span></button>
+                          <button class="vt-goal" type="button" data-goal="professional" aria-pressed="false"><span class="gk">Profile B</span><br/><span class="gt">A qualified, salaried role at AED 30,000+ per month</span></button>
+                          <button class="vt-goal" type="button" data-goal="entrepreneur" aria-pressed="false"><span class="gk">Profile C</span><br/><span class="gt">Founder of an innovative or fast-growing UAE business</span></button>
                         </div>
                       </div>
                       <p class="vt-reco" id="vt-reco">Most applicants assume the Golden Visa means buying property — but the professional and entrepreneur routes qualify far more people than the headline AED 2 million figure suggests.</p>
                       <div class="vt-tabs" role="tablist" aria-label="UAE Golden Visa eligibility routes">
-                        <button class="vt-tab" type="button" role="tab" aria-selected="true" data-key="investor" id="vt-tab-investor"><span class="tk">Route</span><span class="tn">Investor</span><span class="te">Capital-backed, 10-year.</span></button>
-                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="professional" id="vt-tab-professional"><span class="tk">Route</span><span class="tn">Professional</span><span class="te">Salary &amp; credentials.</span></button>
-                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="entrepreneur" id="vt-tab-entrepreneur"><span class="tk">Route</span><span class="tn">Entrepreneur</span><span class="te">Project-backed, 5-year.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="true" data-key="investor" id="vt-tab-investor"><span class="tk">Route</span><br/><span class="tn">Investor</span><br/><span class="te">Capital-backed, 10-year.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="professional" id="vt-tab-professional"><span class="tk">Route</span><br/><span class="tn">Professional</span><br/><span class="te">Salary &amp; credentials.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="entrepreneur" id="vt-tab-entrepreneur"><span class="tk">Route</span><br/><span class="tn">Entrepreneur</span><br/><span class="te">Project-backed, 5-year.</span></button>
                       </div>
                       <div class="vt-spanel" role="tabpanel" id="vt-spanel" aria-labelledby="vt-tab-investor">
                         <div class="vt-pg">
@@ -263,13 +263,13 @@
 
                     <h4 class="title-two">Which profile are you?</h4>
                     <p>Illustrative starting points — the specifics and your documentation decide the route.</p>
-                    <div class="vt-cards">
-                      <div class="vt-card"><div class="city">Property buyer</div><div class="who">Single unit or portfolio at AED 2M+</div><div class="pick">Investor — real estate</div></div>
-                      <div class="vt-card"><div class="city">Fund or business capital</div><div class="who">AED 2M+, self-funded</div><div class="pick">Investor — public investment</div></div>
-                      <div class="vt-card"><div class="city">Senior executive or specialist</div><div class="who">AED 30,000+/month salary</div><div class="pick">Professional</div></div>
-                      <div class="vt-card"><div class="city">Startup founder</div><div class="who">Innovative project, AED 500k+</div><div class="pick">Entrepreneur</div></div>
-                      <div class="vt-card"><div class="city">Doctor or researcher</div><div class="who">Recognized achievement</div><div class="pick">Specialized Talent</div></div>
-                      <div class="vt-card"><div class="city">Top graduate</div><div class="who">Accredited institution, high GPA</div><div class="pick">Outstanding Student</div></div>
+                    <div class="vt-cards blog-golden-visa-profile-grid">
+                      <div class="vt-card profile-grid-cell"><div class="city">Property buyer</div><div class="who">Single unit or portfolio at AED 2M+</div><div class="pick">Investor — real estate</div></div>
+                      <div class="vt-card profile-grid-cell"><div class="city">Fund or business capital</div><div class="who">AED 2M+, self-funded</div><div class="pick">Investor — public investment</div></div>
+                      <div class="vt-card profile-grid-cell"><div class="city">Senior executive or specialist</div><div class="who">AED 30,000+/month salary</div><div class="pick">Professional</div></div>
+                      <div class="vt-card profile-grid-cell"><div class="city">Startup founder</div><div class="who">Innovative project, AED 500k+</div><div class="pick">Entrepreneur</div></div>
+                      <div class="vt-card profile-grid-cell"><div class="city">Doctor or researcher</div><div class="who">Recognized achievement</div><div class="pick">Specialized Talent</div></div>
+                      <div class="vt-card profile-grid-cell"><div class="city">Top graduate</div><div class="who">Accredited institution, high GPA</div><div class="pick">Outstanding Student</div></div>
                     </div>
 
                     <div class="vt-panel vt-reveal">

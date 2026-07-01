@@ -48,7 +48,7 @@ include __DIR__ . '/partials/seo.php';
                                     <div class="slider__content">
                                         <h1 class="title">Freelance Visa or Green Residence?<br />The Independent Professional's Setup Decision</h1>
                                         <p>A practical UAE setup guide for independent professionals comparing freelance permits, Green Residence and the Virtual Work Visa.</p>
-                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Map My Freelance Setup <img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>

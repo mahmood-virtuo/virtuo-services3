@@ -47,7 +47,7 @@
                                     <div class="slider__content">
                                         <h1 class="title">Mainland, Free Zone, or Offshore?<br />The UAE Structuring Decision Serious U.S. Founders Cannot Afford to Get Wrong</h1>
                                         <p>A strategic playbook for U.S. founders, investors, and family offices building a UAE base — from an American who has made the move.</p>
-                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Map My UAE Structure <img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk to Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>

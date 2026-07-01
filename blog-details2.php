@@ -84,7 +84,7 @@ $default_opex    = max(5, min(45, $default_opex));
                                    target="_blank"
                                    rel="noopener"
                                    class="tg-btn tg-btn-four">
-                                    Talk to Virtuo
+                                    Talk to Us
                                     <img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable">
                                 </a>
                             </div>

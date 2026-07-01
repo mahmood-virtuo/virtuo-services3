@@ -1,5 +1,7 @@
 <div class="blog-details-sticky-sidebar">
     <aside class="blog__sidebar blog__sidebar-two blog-details-sticky-sidebar-inner">
+        <?php include __DIR__ . '/blog-sidebar-categories.php'; ?>
+        <?php include __DIR__ . '/blog-sidebar-tags.php'; ?>
         <?php include __DIR__ . '/blog-recent-posts.php'; ?>
 
         <div class="sidebar__widget">

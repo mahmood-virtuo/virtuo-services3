@@ -154,7 +154,7 @@
 
         <!-- contact-map-end -->
         <!-- ---New code------- -->
-        <section class="contact__area">
+        <section class="contact__area contact-page-info-section">
     <div class="container site-content-gutter">
         <div class="row mb-5 align-items-stretch">
             <div class="col-lg-7">
@@ -190,11 +190,178 @@
             </div>
         </div>
     </div>
+
 </section>
          <!-- ------End New Code------ -->
         <!-- contact-area -->
-        
-        <!-- contact-area-end -->
+        <section class="contact-page-form-section">
+            <div class="container site-content-gutter">
+                <div class="contact-page-form-wrap">
+	                         <!-- <h4 style="color: #EE4c01; font-size: 20px; font-weight: 600;" id="virtuo-footer-form-title">Let's Discuss Your Business Goals</h4> -->
+	                         <!-- <p style="font-size:16px; font-weight: 300; font-family: poppins; color:#ffffffb8;">From company formation and immigration to marketing and AI solutions, our experts are ready to help you build, grow, and scale in the UAE.</p> -->
+	                         <div class="virtuo-reference-form">
+                             <div class="estimate__tab-wrap" data-aos="fade-left" data-aos-delay="200">
+
+                                 <div class="estimate__tab-inner">
+
+                                     <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Business Setup</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="vehicles-tab" data-bs-toggle="tab" data-bs-target="#vehicles-tab-pane" type="button" role="tab" aria-controls="vehicles-tab-pane" aria-selected="false">PRO Services</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="health-tab" data-bs-toggle="tab" data-bs-target="#health-tab-pane" type="button" role="tab" aria-controls="health-tab-pane" aria-selected="false">Immigration</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="life-tab" data-bs-toggle="tab" data-bs-target="#life-tab-pane" type="button" role="tab" aria-controls="life-tab-pane" aria-selected="false">Marketing</button>
+                                    </li>
+                                </ul> -->
+                                     <div class="tab-content" id="myTabContent">
+                                         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                             <div class="estimate-form-wrap">
+                                                 <form id="footer-quote-form" action="/assets/mail.php" method="POST">
+                                                     <input type="hidden" name="form_type" value="footer_quote">
+                                                     <div class="form-grp">
+                                                         <input type="text" name="name" class="virtuo-name-input" placeholder="Full Name" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="email" name="email" placeholder="E-mail" required>
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="tel" name="phone_display" class="virtuo-footer-phone-input" placeholder="Phone" autocomplete="tel" inputmode="numeric" maxlength="15" pattern="[0-9]{5,15}" title="Please enter numbers only." required>
+                                                         <input type="hidden" name="phone" value="">
+                                                         <input type="hidden" name="phone_country" value="AE">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <select name="service" required>
+                                                             <option value="" disabled selected>Select Service</option>
+                                                             <option value="UAE Business Formation, Structuring & Compliance">UAE Business Formation, Structuring & Compliance</option>
+                                                             <option value="Government Relations & PRO Services">Government Relations & PRO Services</option>
+                                                             <option value="Immigration & Residency Solutions">Immigration & Residency Solutions</option>
+                                                             <option value="Digital Marketing & Brand Development">Digital Marketing & Brand Development</option>
+                                                             <option value="AI Automation & Technology Solutions">AI Automation & Technology Solutions</option>
+                                                         </select>
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <select name="emirate" required>
+                                                             <option value="" disabled selected>Select Emirate</option>
+                                                             <option value="Abu Dhabi">Abu Dhabi</option>
+                                                             <option value="Dubai">Dubai</option>
+                                                             <option value="Sharjah">Sharjah</option>
+                                                             <option value="Ajman">Ajman</option>
+                                                             <option value="Fujairah">Fujairah</option>
+                                                             <option value="Ras Al Khaimah">Ras Al Khaimah</option>
+                                                             <option value="Umm Al Quwain">Umm Al Quwain</option>
+                                                         </select>
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="text" name="message" style="padding: 18px 10px 100px 10px;" placeholder="Message" required>
+                                                     </div>
+                                                     <!-- <div class="range-slider-wrap">
+                                                    <div class="content-top">
+                                                        <p>Limits of balance:</p>
+                                                        <span>$<strong id="rangeValue">400000</strong></span>
+                                                    </div>
+                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
+                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
+                                                </div> -->
+                                                     <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                     <p class="ajax-response mb-0"></p>
+                                                 </form>
+                                             </div>
+                                         </div>
+                                         <div class="tab-pane fade" id="vehicles-tab-pane" role="tabpanel" aria-labelledby="vehicles-tab" tabindex="0">
+                                             <div class="estimate-form-wrap">
+                                                 <form action="#">
+                                                     <div class="form-grp">
+                                                         <input type="text" placeholder="Full Name">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="email" placeholder="E-mail">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="number" placeholder="Phone">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                     </div>
+                                                     <!-- <div class="range-slider-wrap">
+                                                    <div class="content-top">
+                                                        <p>Limits of balance:</p>
+                                                        <span>$<strong id="rangeValueTwo">400000</strong></span>
+                                                    </div>
+                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
+                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
+                                                </div> -->
+                                                     <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                 </form>
+                                             </div>
+                                         </div>
+                                         <div class="tab-pane fade" id="health-tab-pane" role="tabpanel" aria-labelledby="health-tab" tabindex="0">
+                                             <div class="estimate-form-wrap">
+                                                 <form action="#">
+                                                     <div class="form-grp">
+                                                         <input type="text" placeholder="Full Name">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="email" placeholder="E-mail">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="number" placeholder="Phone">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                     </div>
+                                                     <!-- <div class="range-slider-wrap">
+                                                    <div class="content-top">
+                                                        <p>Limits of balance:</p>
+                                                        <span>$<strong id="rangeValueThree">400000</strong></span>
+                                                    </div>
+                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
+                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
+                                                </div> -->
+                                                     <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                 </form>
+                                             </div>
+                                         </div>
+                                         <div class="tab-pane fade" id="life-tab-pane" role="tabpanel" aria-labelledby="life-tab" tabindex="0">
+                                             <div class="estimate-form-wrap">
+                                                 <form action="#">
+                                                     <div class="form-grp">
+                                                         <input type="text" placeholder="Full Name">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="email" placeholder="E-mail">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="number" placeholder="Phone">
+                                                     </div>
+                                                     <div class="form-grp">
+                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                     </div>
+                                                     <!-- <div class="range-slider-wrap">
+                                                    <div class="content-top">
+                                                        <p>Limits of balance:</p>
+                                                        <span>$<strong id="rangeValueFour">400000</strong></span>
+                                                    </div>
+                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
+                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
+                                                </div> -->
+                                                     <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
+                                                 </form>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                </div>
+            </div>
+        </section>
+
+	        <!-- contact-area-end -->
 
         <!-- cta-area -->
         

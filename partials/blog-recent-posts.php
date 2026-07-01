@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/blog-posts.php';
 
-$recentPosts = virtuo_get_blog_posts();
+$recentPosts = array_slice(virtuo_get_blog_posts(), 0, 5);
 ?>
 <div class="sidebar__widget">
     <h4 class="sidebar__widget-title">Recent Posts</h4>

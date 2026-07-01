@@ -22360,6 +22360,49 @@ blockquote cite {
 .contact__area {
   padding: 85px 0 85px;
 }
+.contact-page-info-section {
+  padding-bottom: 0;
+}
+.contact-page-info-section .row {
+  margin-bottom: 0 !important;
+}
+.contact-page-form-section {
+  padding: 85px 0;
+}
+.contact-page-form-wrap {
+  width: 100%;
+  margin-inline: auto;
+}
+.contact-page-form-wrap .virtuo-reference-form,
+.contact-page-form-wrap .estimate__tab-wrap,
+.contact-page-form-wrap .estimate__tab-inner,
+.contact-page-form-wrap .estimate-form-wrap,
+.contact-page-form-wrap form {
+  width: 100%;
+}
+.contact-page-form-wrap .estimate__tab-wrap {
+  margin-inline: auto;
+  margin-left: auto;
+}
+.contact-page-form-wrap .estimate-form-wrap .form-grp input,
+.contact-page-form-wrap .estimate-form-wrap .form-grp select,
+.contact-page-form-wrap .estimate-form-wrap .form-grp textarea,
+.contact-page-form-wrap .estimate-form-wrap .tg-btn {
+  width: 100%;
+}
+.contact-page-form-wrap .estimate-form-wrap .iti,
+.contact-page-form-wrap .estimate-form-wrap .iti--allow-dropdown,
+.contact-page-form-wrap .estimate-form-wrap .iti input.virtuo-footer-phone-input {
+  width: 100%;
+}
+.contact-page-form-wrap .estimate-form-wrap .iti input.virtuo-footer-phone-input {
+  padding-left: 98px !important;
+}
+@media (max-width: 767.98px) {
+  .contact-page-form-section {
+    padding: 60px 0;
+  }
+}
 .contact__area-two {
   background: var(--tg-theme-secondary);
   position: relative;
@@ -27495,6 +27538,50 @@ select {
   font-weight: 700;
   line-height: 1.35;
 }
+body.blog-details-page .vt-article .blog-golden-visa-profile-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  background: var(--tg-color-white-default);
+  border: 1px solid #111;
+  border-radius: 12px;
+  overflow: hidden;
+}
+body.blog-details-page .vt-article .blog-golden-visa-profile-grid .profile-grid-cell {
+  min-width: 0;
+  padding: clamp(20px, 2.4vw, 26px);
+  border: 0;
+}
+body.blog-details-page
+  .vt-article
+  .blog-golden-visa-profile-grid
+  .profile-grid-cell:nth-child(even) {
+  border-left: 1px solid #111;
+}
+body.blog-details-page
+  .vt-article
+  .blog-golden-visa-profile-grid
+  .profile-grid-cell:nth-child(n + 3) {
+  border-top: 1px solid #111;
+}
+@media (max-width: 767.98px) {
+  body.blog-details-page .vt-article .blog-golden-visa-profile-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body.blog-details-page
+    .vt-article
+    .blog-golden-visa-profile-grid
+    .profile-grid-cell:nth-child(even) {
+    border-left: 0;
+  }
+
+  body.blog-details-page
+    .vt-article
+    .blog-golden-visa-profile-grid
+    .profile-grid-cell:nth-child(n + 2) {
+    border-top: 1px solid #111;
+  }
+}
 .vt-article .vt-check {
   margin: 18px 0 0;
 }
@@ -29304,6 +29391,23 @@ body.blog-details-page .vt-article > p:not(.vt-sources),
 body.blog-details-page .vt-article .title-two + p {
   margin: 0 0 var(--bd-text-gap) !important;
   line-height: 1.72 !important;
+}
+
+/* Golden Visa investor-route cards: balanced spacing for this block only */
+body.blog-details-page .vt-article .vt-zones {
+  margin-top: clamp(20px, 2vw, 28px) !important;
+  margin-bottom: 0 !important;
+  column-gap: 12px;
+  row-gap: clamp(14px, 1.6vw, 22px);
+}
+
+body.blog-details-page .vt-article > p#vt-zone-reco.vt-zone-reco {
+  margin-top: clamp(20px, 2vw, 24px) !important;
+  margin-bottom: 0 !important;
+}
+
+body.blog-details-page .vt-article .vt-zone-reco + .title-two {
+  margin-top: var(--bd-section-gap) !important;
 }
 
 /* Designed blocks should sit under their heading/text cleanly */
