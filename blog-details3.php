@@ -124,7 +124,7 @@ include __DIR__ . '/partials/seo.php';
                                     <div class="vt-panel vt-reveal">
                                         <div class="vt-eyebrow">The fiscal buffer, in the data</div>
                                         <div class="vt-stats">
-                                            <div class="vt-stat"><div class="n"><small>AA</small></div><div class="l">S&amp;P sovereign credit rating, stable outlook, affirmed through the 2026 regional tensions</div><div class="src">S&amp;P Global, 2026</div></div>
+                                            <div class="vt-stat"><div class="n"><span>AA</span></div><div class="l">S&amp;P sovereign credit rating, stable outlook, affirmed through the 2026 regional tensions</div><div class="src">S&amp;P Global, 2026</div></div>
                                             <div class="vt-stat"><div class="n"><span data-count="27">0</span><small>%</small></div><div class="l">UAE general government debt as a share of GDP — among the lowest of any advanced economy</div><div class="src">S&amp;P, 2026</div></div>
                                             <div class="vt-stat"><div class="n"><span data-count="5.6" data-dec="1">0</span><small>%</small></div><div class="l">Average annual fiscal surplus as a share of GDP, 2021–2025</div><div class="src">S&amp;P, 2026</div></div>
                                             <div class="vt-stat"><div class="n"><span data-count="14" data-suffix="/32">0</span></div><div class="l">CEPA trade agreements in force, out of 32 signed as of Jan 2026</div><div class="src">UAE MOFAIC / ATB Legal</div></div>
