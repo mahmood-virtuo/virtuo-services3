@@ -18287,7 +18287,8 @@ textarea {
   gap: 7px;
   flex-wrap: wrap;
 }
-.blog__details-bottom .post-tags .list-wrap li a {
+.blog__details-bottom .post-tags .list-wrap li a,
+.blog__details-bottom .post-tags .list-wrap li span {
   background: var(--tg-theme-primary);
   padding: 5px 16px;
   display: block;
@@ -18539,7 +18540,8 @@ textarea {
   gap: 5px;
   flex-wrap: wrap;
 }
-.sidebar__tag-list .list-wrap li a {
+.sidebar__tag-list .list-wrap li a,
+.sidebar__tag-list .list-wrap li span {
   font-size: 14px;
   font-weight: 500;
   color: var(--tg-theme-primary);
@@ -22392,10 +22394,16 @@ blockquote cite {
 }
 .contact-page-form-wrap .estimate-form-wrap .iti,
 .contact-page-form-wrap .estimate-form-wrap .iti--allow-dropdown,
-.contact-page-form-wrap .estimate-form-wrap .iti input.virtuo-footer-phone-input {
+.contact-page-form-wrap
+  .estimate-form-wrap
+  .iti
+  input.virtuo-footer-phone-input {
   width: 100%;
 }
-.contact-page-form-wrap .estimate-form-wrap .iti input.virtuo-footer-phone-input {
+.contact-page-form-wrap
+  .estimate-form-wrap
+  .iti
+  input.virtuo-footer-phone-input {
   padding-left: 98px !important;
 }
 @media (max-width: 767.98px) {
@@ -27181,7 +27189,7 @@ select {
 .vt-article .vt-chooser-top {
   padding: 14px 18px;
   border-bottom: 1px solid var(--line-soft);
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
@@ -27546,7 +27554,10 @@ body.blog-details-page .vt-article .blog-golden-visa-profile-grid {
   border-radius: 12px;
   overflow: hidden;
 }
-body.blog-details-page .vt-article .blog-golden-visa-profile-grid .profile-grid-cell {
+body.blog-details-page
+  .vt-article
+  .blog-golden-visa-profile-grid
+  .profile-grid-cell {
   min-width: 0;
   padding: clamp(20px, 2.4vw, 26px);
   border: 0;
@@ -29821,15 +29832,14 @@ body.blog-details-page .blog__details-area .row,
 body.blog-details-page .blog-details-sidebar-column {
   overflow: visible;
 }
-/* Blog details consultation form: natural position first, sticky only after reached */
+/* Blog details consultation form: aligned sticky slot */
 @media (min-width: 992px) {
   body.blog-details-page main.main-area.fix,
   body.blog-details-page .blog__details-area,
   body.blog-details-page .blog__details-area > .container,
   body.blog-details-page .blog__details-area .row,
   body.blog-details-page .blog-details-sidebar-column,
-  body.blog-details-page .blog-details-sticky-sidebar,
-  body.blog-details-page .blog-details-sticky-sidebar-inner {
+  body.blog-details-page .blog-details-sticky-sidebar {
     overflow: visible !important;
   }
 
@@ -29851,9 +29861,12 @@ body.blog-details-page .blog-details-sidebar-column {
     overflow: visible !important;
   }
 
-  body.blog-details-page .blog-details-sticky-sidebar-inner {
+  body.blog-details-page .blog-details-sticky-sidebar-inner,
+  body.blog-details-page .blog-sidebar-form-sticky-slot {
     position: relative !important;
     width: 100%;
+    max-width: none;
+    box-sizing: border-box;
     overflow: visible !important;
   }
 
@@ -29862,15 +29875,21 @@ body.blog-details-page .blog-details-sidebar-column {
     position: sticky !important;
     top: 145px !important;
     z-index: 2;
-    width: 100%;
-    margin-top: 32px;
+    margin-top: 32px !important;
+    margin-right: 0 !important;
+    max-width: none !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
   }
 
   body.blog-details-page .blog-sidebar-sticky-form {
     position: static !important;
     top: auto !important;
     left: auto !important;
-    width: auto !important;
+    width: 100% !important;
     margin-bottom: 0 !important;
   }
 }
@@ -29883,16 +29902,31 @@ body.blog-details-page .blog-details-sidebar-column {
     position: static !important;
     top: auto !important;
     left: auto !important;
-    width: auto !important;
+    width: 100% !important;
     height: auto !important;
     min-height: 0 !important;
   }
 
   body.blog-details-page .blog-sidebar-form-sticky-slot {
-    margin-top: 30px;
+    max-width: none !important;
+    margin: 30px 0 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
   }
 }
 /* Align sticky consultation form with right sidebar widgets */
+body.blog-details-page .blog-sidebar-form-sticky-slot,
+body.blog-details-page .blog-sidebar-form-sticky-slot .blog-sidebar-sticky-form,
+body.blog-details-page .blog-sidebar-form-sticky-slot .sidebar__contact,
+body.blog-details-page .blog-sidebar-form-sticky-slot .estimate-form-wrap,
+body.blog-details-page .blog-sidebar-form-sticky-slot form {
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 @media (min-width: 1200px) {
   body.blog-details-page .blog-sidebar-form-sticky-slot {
     margin-left: 26px !important;

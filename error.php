@@ -154,7 +154,7 @@
                             <div class="error-content">
                                 <h2 class="title">ERROR PAGE 404! <span>Sorry! This Page is Not Available!</span></h2>
                                 <div class="tg-button-wrap">
-                                    <a href="index-5.php" class="tg-btn">Go To Home Page <img src="assets/img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                    <a href="index.php" class="tg-btn">Go To Home Page <img src="assets/img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                                 </div>
                             </div>
                         </div>

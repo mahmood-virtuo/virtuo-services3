@@ -40,7 +40,7 @@
       <section class="slider__area">
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="/assets/img/services/GoldenVisaImg1.jpg" data-background-mobile="/assets/img/services/GoldenVisaImg1.jpg">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="/assets/img/slider/4th_blog.jpg" data-background-mobile="/assets/img/services/GoldenVisaImg1.jpg">
                         <div class="container site-content-gutter">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -301,59 +301,11 @@
                       <div class="col-md-7">
                         <div class="post-tags">
                           <h5 class="title">Post Tags:</h5>
-                          <ul class="list-wrap">
-                            <li><a href="/blog">Golden Visa</a></li>
-                            <li><a href="/blog">UAE Residency</a></li>
-                            <li><a href="/blog">Investor Visa</a></li>
-                            <li><a href="/blog">Professional Route</a></li>
-                            <li><a href="/blog">Entrepreneur Route</a></li>
-                          </ul>
+                          <?php include __DIR__ . '/partials/blog-post-tags.php'; ?>
                         </div>
                       </div>
                       <div class="col-md-5">
-                        <div class="post-share">
-                          <h5 class="title">Social Share:</h5>
-                          <ul class="list-wrap">
-                            <li>
-                              <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank"
-                                ><img
-                                  src="/assets/img/icons/linkedin2.svg"
-                                  alt=""
-                                  class="injectable"
-                              /></a>
-                            </li>
-                            <li>
-                              <a
-                                href="https://www.instagram.com/"
-                                target="_blank"
-                                ><img
-                                  src="/assets/img/icons/Instagram2.svg"
-                                  alt=""
-                                  class="injectable"
-                              /></a>
-                            </li>
-                            <li>
-                              <a
-                                href="https://www.facebook.com/"
-                                target="_blank"
-                                ><img
-                                  src="/assets/img/icons/Facebook2.svg"
-                                  alt=""
-                                  class="injectable"
-                              /></a>
-                            </li>
-                            <li>
-                              <a href="https://wa.me/971565151315" target="_blank"
-                                >
-                                <img
-                                  src="/assets/img/icons/Whatsapp2.svg"
-                                  alt=""
-                                  class="injectable"
-                                />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                        <?php include __DIR__ . '/partials/blog-social-share.php'; ?>
                       </div>
                     </div>
                   </div>

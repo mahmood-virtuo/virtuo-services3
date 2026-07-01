@@ -9,7 +9,7 @@ $recentPosts = array_slice(virtuo_get_blog_posts(), 0, 5);
         <?php foreach ($recentPosts as $recentPost) : ?>
             <div class="rc-post-item">
                 <div class="thumb">
-                    <a href="<?php echo htmlspecialchars($recentPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($recentPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($recentPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="300" height="300"></a>
+                    <a href="<?php echo htmlspecialchars($recentPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($recentPost['thumbnail'] ?? $recentPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($recentPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="300" height="300"></a>
                 </div>
                 <div class="content">
                     <span class="date">

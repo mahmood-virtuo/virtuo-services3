@@ -424,6 +424,20 @@ $default_opex    = max(5, min(45, $default_opex));
               <a class="btn ghost" href="https://virtuo.ae/contact" target="_blank" rel="noopener">Book a consultation</a>
             </div>
           </section> -->
+          <div class="blog__details-bottom">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="post-tags">
+                  <h5 class="title">Tags:</h5>
+                  <?php include __DIR__ . '/partials/blog-post-tags.php'; ?>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <?php include __DIR__ . '/partials/blog-social-share.php'; ?>
+              </div>
+            </div>
+          </div>
+
           <div class="blog__avatar-wrap mb-60">
                   <div class="blog__avatar-img">
                     <a href="#"

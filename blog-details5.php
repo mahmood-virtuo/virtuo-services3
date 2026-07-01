@@ -41,13 +41,13 @@ include __DIR__ . '/partials/seo.php';
         <section class="slider__area">
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="/assets/img/services/FreeLanceVisaImg1.jpg" data-background-mobile="/assets/img/services/FreeLanceVisaImg1.jpg">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="/assets/img/slider/5th_blog.jpg" data-background-mobile="/assets/img/services/FreeLanceVisaImg1.jpg">
                         <div class="container site-content-gutter">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
                                         <h1 class="title">Freelance Visa or Green Residence?<br />The Independent Professional's Setup Decision</h1>
-                                        <p>A practical UAE setup guide for independent professionals comparing freelance permits, Green Residence and the Virtual Work Visa.</p>
+                                        <p>A "freelance visa" is never one document. Here's how the permit, the residency, and the income test actually fit together — and where founders quietly choose the wrong one.</p>
                                         <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
@@ -129,16 +129,16 @@ include __DIR__ . '/partials/seo.php';
                       <div class="vt-chooser" role="group" aria-label="What is your situation?">
                         <div class="vt-chooser-top">What does your work actually look like?</div>
                         <div class="vt-goals">
-                          <button class="vt-goal" type="button" data-goal="permit" aria-pressed="false"><span class="gk">Profile A</span><span class="gt">Independent professional, multiple clients, building income history</span></button>
-                          <button class="vt-goal" type="button" data-goal="green" aria-pressed="false"><span class="gk">Profile B</span><span class="gt">Established income and qualifications, want 5-year stability</span></button>
-                          <button class="vt-goal" type="button" data-goal="virtual" aria-pressed="false"><span class="gk">Profile C</span><span class="gt">Living in the UAE, earning entirely from clients abroad</span></button>
+                          <button class="vt-goal" type="button" data-goal="permit" aria-pressed="false"><span class="gk">Profile A</span><br/><span class="gt">Independent professional, multiple clients, building income history</span></button>
+                          <button class="vt-goal" type="button" data-goal="green" aria-pressed="false"><span class="gk">Profile B</span><br/><span class="gt">Established income and qualifications, want 5-year stability</span></button>
+                          <button class="vt-goal" type="button" data-goal="virtual" aria-pressed="false"><span class="gk">Profile C</span><br/><span class="gt">Living in the UAE, earning entirely from clients abroad</span></button>
                         </div>
                       </div>
                       <p class="vt-reco" id="vt-reco">Most first-time applicants start with a Free Zone freelance permit — but the right answer depends entirely on your income level, your client base, and how long you want the approval to last.</p>
                       <div class="vt-tabs" role="tablist" aria-label="UAE freelance routes">
-                        <button class="vt-tab" type="button" role="tab" aria-selected="true" data-key="permit" id="vt-tab-permit"><span class="tk">Route</span><span class="tn">Freelance Permit</span><span class="te">The standard entry point.</span></button>
-                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="green" id="vt-tab-green"><span class="tk">Route</span><span class="tn">Green Residence</span><span class="te">5-year, self-sponsored.</span></button>
-                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="virtual" id="vt-tab-virtual"><span class="tk">Route</span><span class="tn">Virtual Work Visa</span><span class="te">For income earned abroad.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="true" data-key="permit" id="vt-tab-permit"><span class="tk">Route</span><br/><span class="tn">Freelance Permit</span><br/><span class="te">The standard entry point.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="green" id="vt-tab-green"><span class="tk">Route</span><br/><span class="tn">Green Residence</span><br/><span class="te">5-year, self-sponsored.</span></button>
+                        <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="virtual" id="vt-tab-virtual"><span class="tk">Route</span><br/><span class="tn">Virtual Work Visa</span><br/><span class="te">For income earned abroad.</span></button>
                       </div>
                       <div class="vt-spanel" role="tabpanel" id="vt-spanel" aria-labelledby="vt-tab-permit">
                         <div class="vt-pg">
@@ -242,23 +242,11 @@ include __DIR__ . '/partials/seo.php';
                                         <div class="col-md-7">
                                             <div class="post-tags">
                                                 <h5 class="title">Tags:</h5>
-                                                <ul class="list-wrap">
-                                                    <li><a href="/blog">Freelance Visa</a></li>
-                                                    <li><a href="/blog">Green Residence</a></li>
-                                                    <li><a href="/blog">UAE Immigration</a></li>
-                                                </ul>
+                                                <?php include __DIR__ . '/partials/blog-post-tags.php'; ?>
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <div class="post-share">
-                                                <h5 class="title">Social Share:</h5>
-                                                <ul class="list-wrap">
-                                                    <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank"><img src="/assets/img/icons/linkedin2.svg" alt="" class="injectable" /></a></li>
-                                                    <li><a href="https://www.instagram.com/" target="_blank"><img src="/assets/img/icons/Instagram2.svg" alt="" class="injectable" /></a></li>
-                                                    <li><a href="https://www.facebook.com/" target="_blank"><img src="/assets/img/icons/Facebook2.svg" alt="" class="injectable" /></a></li>
-                                                    <li><a href="https://wa.me/971565151315" target="_blank"><img src="/assets/img/icons/Whatsapp2.svg" alt="" class="injectable" /></a></li>
-                                                </ul>
-                                            </div>
+                                            <?php include __DIR__ . '/partials/blog-social-share.php'; ?>
                                         </div>
                                     </div>
                                 </div>
