@@ -219,9 +219,18 @@
 
                             <div class="footer-reference-left__social contact-figma-social">
                                 <span>Follow Us :</span>
-                                <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                                <!-- <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
                                 <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> -->
+                                <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/Instagram-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a>
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/facebook-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a>
                             </div>
                         </div>
 

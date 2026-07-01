@@ -153,7 +153,7 @@
                             <p>If you have any questions about this Privacy Policy or how we handle your personal data, please contact us:</p>
                             <ul>
                                 <li>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</li>
-                                <li>Email: <a href="mailto:setup@virtuo.ae">setup@virtuo.ae</a></li>
+                                <li>Email: <a href="mailto:mgmt@virtuo.ae">mgmt@virtuo.ae</a></li>
                                 <li>Phone: <a href="tel:+971565151315">+971 56 515 1315</a></li>
                             </ul>
                         </div>

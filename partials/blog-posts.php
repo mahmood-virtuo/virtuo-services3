@@ -2,7 +2,16 @@
 if (!function_exists('virtuo_get_blog_posts')) {
     function virtuo_get_blog_posts()
     {
-        return require __DIR__ . '/blog-data.php';
+        $blogPosts = require __DIR__ . '/blog-data.php';
+
+        usort($blogPosts, function ($a, $b) {
+            $aTimestamp = strtotime($a['date_sort'] ?? $a['date'] ?? '');
+            $bTimestamp = strtotime($b['date_sort'] ?? $b['date'] ?? '');
+
+            return $bTimestamp <=> $aTimestamp;
+        });
+
+        return $blogPosts;
     }
 }
 

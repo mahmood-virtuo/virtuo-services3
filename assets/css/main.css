@@ -22448,6 +22448,7 @@ blockquote cite {
 .contact-figma-section .footer-reference-left__social {
   flex-wrap: wrap;
   color: var(--tg-color-white-default);
+  line-height: 3;
 }
 .contact-figma-section .footer-reference-left__social a {
   color: var(--tg-theme-primary);
@@ -30127,4 +30128,7 @@ body.blog-details-page .blog-sidebar-form-sticky-slot form {
     margin-left: 0 !important;
     width: 100% !important;
   }
+}
+.my-social-links {
+  height: 20px;
 }
