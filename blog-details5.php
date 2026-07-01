@@ -89,7 +89,6 @@ include __DIR__ . '/partials/seo.php';
                                 <div class="blog__post-meta">
                                     <ul class="list-wrap">
                                         <li><img src="/assets/img/icons/calendar.svg" alt="" class="injectable" /> Jun 29, 2026</li>
-                                        <li><img src="/assets/img/icons/comment.svg" alt="" class="injectable" /> UAE Immigration &middot; Independent Professionals</li>
                                     </ul>
                                 </div>
 

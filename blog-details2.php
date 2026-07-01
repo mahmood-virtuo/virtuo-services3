@@ -178,7 +178,6 @@ $default_opex    = max(5, min(45, $default_opex));
                     <div class="blog__post-meta">
                       <ul class="list-wrap">
                         <li><img src="/assets/img/icons/calendar.svg" alt="" class="injectable" /> Jun 27, 2026</li>
-                        <li><img src="/assets/img/icons/comment.svg" alt="" class="injectable" /> UAE Strategy &middot; Wireless &amp; ITAD</li>
                       </ul>
                     </div>
                     <!-- <div class="blog-details2-article"> -->

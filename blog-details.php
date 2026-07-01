@@ -145,14 +145,6 @@
                         />
                         Jun 23, 2026
                       </li>
-                      <li>
-                        <img
-                          src="/assets/img/icons/comment.svg"
-                          alt=""
-                          class="injectable"
-                        />
-                        UAE Structuring &middot; U.S. Founders
-                      </li>
                     </ul>
                   </div>
                   <!-- Article title is handled in the slider hero above. -->

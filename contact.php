@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
-                            <h1 class="title">Contact With Us</h1>
+                            <h1 class="title">Contact</h1>
                             <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
                                     <a href="/">Home</a>
@@ -154,9 +154,9 @@
 
         <!-- contact-map-end -->
         <!-- ---New code------- -->
-        <section class="contact__area contact-page-info-section">
-    <div class="container site-content-gutter">
-        <div class="row mb-5 align-items-stretch">
+        <!-- <section class="contact__area contact-page-info-section">
+            <div class="container site-content-gutter">
+            <div class="row mb-5 align-items-stretch">
             <div class="col-lg-7">
                 <div class="contact-map-box">
                     <iframe src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed"
@@ -188,181 +188,124 @@
                     </a>
                 </div>
             </div>
-        </div>
-    </div>
+            </div>
+            </div>
 
-</section>
+        </section> -->
          <!-- ------End New Code------ -->
         <!-- contact-area -->
-        <section class="contact-page-form-section">
+        <section class="contact-page-form-section contact-figma-section">
             <div class="container site-content-gutter">
-                <div class="contact-page-form-wrap">
-	                         <!-- <h4 style="color: #EE4c01; font-size: 20px; font-weight: 600;" id="virtuo-footer-form-title">Let's Discuss Your Business Goals</h4> -->
-	                         <!-- <p style="font-size:16px; font-weight: 300; font-family: poppins; color:#ffffffb8;">From company formation and immigration to marketing and AI solutions, our experts are ready to help you build, grow, and scale in the UAE.</p> -->
-	                         <div class="virtuo-reference-form">
-                             <div class="estimate__tab-wrap" data-aos="fade-left" data-aos-delay="200">
+                <div class="contact-figma-panel">
+                    <div class="contact-figma-main">
+                        <div class="contact-figma-content">
+                            <h2 class="contact-figma-title">Let's Start the Conversation</h2>
+                            <p class="contact-figma-copy">Whether you're starting a business, expanding your operations, or seeking expert business support, our team is here to provide tailored solutions. Fill out the form below, and we'll get back to you promptly.</p>
 
-                                 <div class="estimate__tab-inner">
+                            <div class="contact-figma-details">
+                                <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="contact-figma-detail">
+                                    <span class="contact-figma-detail__icon"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"></span>
+                                    <span>+971 56 515 1315</span>
+                                </a>
+                                <a href="mailto:info@virtuo.ae" class="contact-figma-detail">
+                                    <span class="contact-figma-detail__icon"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"></span>
+                                    <span>info@virtuo.ae</span>
+                                </a>
+                                <a class="contact-figma-detail contact-figma-detail--address">
+                                    <span class="contact-figma-detail__icon"><img style="height: 18px; width: 18px; margin-top: 8px;" src="/assets/img/icons/footer-location.svg" alt="" aria-hidden="true"></span>
+                                    <span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span>
+                                </a>
+                            </div>
 
-                                     <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Business Setup</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="vehicles-tab" data-bs-toggle="tab" data-bs-target="#vehicles-tab-pane" type="button" role="tab" aria-controls="vehicles-tab-pane" aria-selected="false">PRO Services</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="health-tab" data-bs-toggle="tab" data-bs-target="#health-tab-pane" type="button" role="tab" aria-controls="health-tab-pane" aria-selected="false">Immigration</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="life-tab" data-bs-toggle="tab" data-bs-target="#life-tab-pane" type="button" role="tab" aria-controls="life-tab-pane" aria-selected="false">Marketing</button>
-                                    </li>
-                                </ul> -->
-                                     <div class="tab-content" id="myTabContent">
-                                         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                                             <div class="estimate-form-wrap">
-                                                 <form id="footer-quote-form" action="/assets/mail.php" method="POST">
-                                                     <input type="hidden" name="form_type" value="footer_quote">
-                                                     <div class="form-grp">
-                                                         <input type="text" name="name" class="virtuo-name-input" placeholder="Full Name" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="email" name="email" placeholder="E-mail" required>
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="tel" name="phone_display" class="virtuo-footer-phone-input" placeholder="Phone" autocomplete="tel" inputmode="numeric" maxlength="15" pattern="[0-9]{5,15}" title="Please enter numbers only." required>
-                                                         <input type="hidden" name="phone" value="">
-                                                         <input type="hidden" name="phone_country" value="AE">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <select name="service" required>
-                                                             <option value="" disabled selected>Select Service</option>
-                                                             <option value="UAE Business Formation, Structuring & Compliance">UAE Business Formation, Structuring & Compliance</option>
-                                                             <option value="Government Relations & PRO Services">Government Relations & PRO Services</option>
-                                                             <option value="Immigration & Residency Solutions">Immigration & Residency Solutions</option>
-                                                             <option value="Digital Marketing & Brand Development">Digital Marketing & Brand Development</option>
-                                                             <option value="AI Automation & Technology Solutions">AI Automation & Technology Solutions</option>
-                                                         </select>
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <select name="emirate" required>
-                                                             <option value="" disabled selected>Select Emirate</option>
-                                                             <option value="Abu Dhabi">Abu Dhabi</option>
-                                                             <option value="Dubai">Dubai</option>
-                                                             <option value="Sharjah">Sharjah</option>
-                                                             <option value="Ajman">Ajman</option>
-                                                             <option value="Fujairah">Fujairah</option>
-                                                             <option value="Ras Al Khaimah">Ras Al Khaimah</option>
-                                                             <option value="Umm Al Quwain">Umm Al Quwain</option>
-                                                         </select>
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="text" name="message" style="padding: 18px 10px 100px 10px;" placeholder="Message" required>
-                                                     </div>
-                                                     <!-- <div class="range-slider-wrap">
-                                                    <div class="content-top">
-                                                        <p>Limits of balance:</p>
-                                                        <span>$<strong id="rangeValue">400000</strong></span>
+                            <div class="footer-reference-left__social contact-figma-social">
+                                <span>Follow Us :</span>
+                                <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="contact-figma-form-card">
+                            <div class="contact-page-form-wrap">
+                                <div class="virtuo-reference-form">
+                                    <div class="estimate__tab-wrap" data-aos="fade-left" data-aos-delay="200">
+                                        <div class="estimate__tab-inner">
+                                            <div class="tab-content" id="myTabContent">
+                                                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                                    <div class="estimate-form-wrap">
+                                                        <form id="footer-quote-form" action="/assets/mail.php" method="POST">
+                                                            <input type="hidden" name="form_type" value="footer_quote">
+                                                            <div class="form-grp">
+                                                                <input type="text" name="name" class="virtuo-name-input" placeholder="Full Name" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>
+                                                            </div>
+                                                            <div class="form-grp">
+                                                                <input type="email" name="email" placeholder="E-mail" required>
+                                                            </div>
+                                                            <div class="form-grp">
+                                                                <input type="tel" name="phone_display" class="virtuo-footer-phone-input" placeholder="Phone" autocomplete="tel" inputmode="numeric" maxlength="15" pattern="[0-9]{5,15}" title="Please enter numbers only." required>
+                                                                <input type="hidden" name="phone" value="">
+                                                                <input type="hidden" name="phone_country" value="AE">
+                                                            </div>
+                                                            <div class="form-grp">
+                                                                <select name="service" required>
+                                                                    <option value="" disabled selected>Select Service</option>
+                                                                    <option value="UAE Business Formation, Structuring & Compliance">UAE Business Formation, Structuring & Compliance</option>
+                                                                    <option value="Government Relations & PRO Services">Government Relations & PRO Services</option>
+                                                                    <option value="Immigration & Residency Solutions">Immigration & Residency Solutions</option>
+                                                                    <option value="Digital Marketing & Brand Development">Digital Marketing & Brand Development</option>
+                                                                    <option value="AI Automation & Technology Solutions">AI Automation & Technology Solutions</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-grp">
+                                                                <select name="emirate" required>
+                                                                    <option value="" disabled selected>Select Emirate</option>
+                                                                    <option value="Abu Dhabi">Abu Dhabi</option>
+                                                                    <option value="Dubai">Dubai</option>
+                                                                    <option value="Sharjah">Sharjah</option>
+                                                                    <option value="Ajman">Ajman</option>
+                                                                    <option value="Fujairah">Fujairah</option>
+                                                                    <option value="Ras Al Khaimah">Ras Al Khaimah</option>
+                                                                    <option value="Umm Al Quwain">Umm Al Quwain</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-grp">
+                                                                <input type="text" name="message" style="padding: 18px 10px 100px 10px;" placeholder="Message" required>
+                                                            </div>
+                                                            <button class="tg-btn tg-btn-seven" type="submit">Talk to an Expert</button>
+                                                            <p class="ajax-response mb-0"></p>
+                                                        </form>
                                                     </div>
-                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
-                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                                                </div> -->
-                                                     <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
-                                                     <p class="ajax-response mb-0"></p>
-                                                 </form>
-                                             </div>
-                                         </div>
-                                         <div class="tab-pane fade" id="vehicles-tab-pane" role="tabpanel" aria-labelledby="vehicles-tab" tabindex="0">
-                                             <div class="estimate-form-wrap">
-                                                 <form action="#">
-                                                     <div class="form-grp">
-                                                         <input type="text" placeholder="Full Name">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="email" placeholder="E-mail">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="number" placeholder="Phone">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
-                                                     </div>
-                                                     <!-- <div class="range-slider-wrap">
-                                                    <div class="content-top">
-                                                        <p>Limits of balance:</p>
-                                                        <span>$<strong id="rangeValueTwo">400000</strong></span>
-                                                    </div>
-                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
-                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                                                </div> -->
-                                                     <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
-                                                 </form>
-                                             </div>
-                                         </div>
-                                         <div class="tab-pane fade" id="health-tab-pane" role="tabpanel" aria-labelledby="health-tab" tabindex="0">
-                                             <div class="estimate-form-wrap">
-                                                 <form action="#">
-                                                     <div class="form-grp">
-                                                         <input type="text" placeholder="Full Name">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="email" placeholder="E-mail">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="number" placeholder="Phone">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
-                                                     </div>
-                                                     <!-- <div class="range-slider-wrap">
-                                                    <div class="content-top">
-                                                        <p>Limits of balance:</p>
-                                                        <span>$<strong id="rangeValueThree">400000</strong></span>
-                                                    </div>
-                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
-                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                                                </div> -->
-                                                     <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
-                                                 </form>
-                                             </div>
-                                         </div>
-                                         <div class="tab-pane fade" id="life-tab-pane" role="tabpanel" aria-labelledby="life-tab" tabindex="0">
-                                             <div class="estimate-form-wrap">
-                                                 <form action="#">
-                                                     <div class="form-grp">
-                                                         <input type="text" placeholder="Full Name">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="email" placeholder="E-mail">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="number" placeholder="Phone">
-                                                     </div>
-                                                     <div class="form-grp">
-                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
-                                                     </div>
-                                                     <!-- <div class="range-slider-wrap">
-                                                    <div class="content-top">
-                                                        <p>Limits of balance:</p>
-                                                        <span>$<strong id="rangeValueFour">400000</strong></span>
-                                                    </div>
-                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
-                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                                                </div> -->
-                                                     <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
-                                                 </form>
-                                             </div>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
 	        <!-- contact-area-end -->
+        <!-- ---New code------- -->
+        <section class="contact__area contact-page-info-section">
+            <div class="container site-content-gutter">
+            <div class="row mb-5 align-items-stretch">
+            <div class="col-lg-7">
+                <div class="contact-map-box">
+                    <iframe src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            </div>
+            </div>
 
+        </section>
+         <!-- ------End New Code------ -->
         <!-- cta-area -->
         
         <!-- cta-area-end -->

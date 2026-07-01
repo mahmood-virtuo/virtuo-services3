@@ -145,14 +145,6 @@
                         />
                         Jun 29, 2026
                       </li>
-                      <li>
-                        <img
-                          src="/assets/img/icons/comment.svg"
-                          alt=""
-                          class="injectable"
-                        />
-                        UAE Residency &middot; Investors, Professionals &amp; Founders
-                      </li>
                     </ul>
                   </div>
                   <!-- Article title is handled in the slider hero above. -->
