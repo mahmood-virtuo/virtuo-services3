@@ -10652,6 +10652,7 @@ textarea {
   width: 70.7%;
   flex: 0 0 auto;
 }
+
 @media (max-width: 1199.98px) {
   .col-70 {
     width: 65%;
@@ -30163,4 +30164,13 @@ body.blog-details-page .blog-sidebar-form-sticky-slot form {
 }
 .my-social-links {
   height: 20px;
+}
+/* ------(Right Left)Screens Widths--------------- */
+@media (max-width: 1300px) {
+  .col-70 {
+    width: 65%;
+  }
+  .col-30 {
+    width: 35%;
+  }
 }
