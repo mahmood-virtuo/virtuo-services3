@@ -1,0 +1,20 @@
+---
+description: "Virtuo Services project safety rules. Always follow before making code changes."
+alwaysApply: true
+---
+
+Before making any code change, read and follow the repository `AGENTS.md`.
+
+This is a live PHP website project. Pushing to main can deploy to production.
+
+Mandatory rules:
+
+- Do not change unrelated files.
+- Do not rewrite large parts of the project.
+- Do not change `.htaccess`, `server.php`, `router.php`, `sitemap.php`, `error.php`, URLs, redirects, or clean URL behavior unless the user explicitly asks.
+- Do not install packages.
+- Do not run git commit, git push, deploy, database, or destructive commands unless explicitly asked.
+- Make the smallest safe change.
+- Do not use IAB, in-app browser, Playwright, browser automation, screenshot testing, or end-to-end browser testing unless the user explicitly asks.
+- Default validation should be lightweight: `git diff --check` and `php -l` for changed PHP files.
+- Show changed files, root cause, validation commands, and remaining browser tests after finishing.

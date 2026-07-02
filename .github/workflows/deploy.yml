@@ -33,6 +33,10 @@ jobs:
               --exclude='.git' \
               --exclude='.github' \
               --exclude='.gitignore' \
+              --exclude='.agents' \
+              --exclude='.cursor' \
+              --exclude='.gemini' \
+              --exclude='AGENTS.md' \
               "$STAGING/" "$PRODUCTION/"
 
             chown -R mahmood:mahmood "$PRODUCTION"
