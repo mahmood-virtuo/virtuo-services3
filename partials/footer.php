@@ -110,13 +110,14 @@
                 <div class="cta__inner-wrap-two">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="cta__content-three">
-                                <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
+                            <div class="cta__content-three" style="width:650px;">
+                                <h2 class="title">Start Your UAE Move With the Right Structure.</h2>
+                                <p style="color:white;">From business setup and residency to banking readiness, market entry, and relocation support, Virtuo helps entrepreneurs, investors, freelancers, and families enter the UAE with clarity.</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="cta__content-right">
-                                <div class="cta__contact">
+                                <!-- <div class="cta__contact">
                                     <div class="icon">
                                         <i class="flaticon-telephone"></i>
                                     </div>
@@ -124,8 +125,10 @@
                                         <span>Call For More Info</span>
                                         <a href="tel:+971565151315">+971 56 515 1315</a>
                                     </div>
-                                </div>
-                                <a href="/contact" class="tg-btn tg-btn-three tg-border-btn ">Get In Touch <img src="/assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                                </div> -->
+                                <a href="https://wa.me/971565151315" class="tg-btn tg-btn-three tg-border-btn " target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp">Get Expert Guidance
+                                    <img src="/assets/img/icons/right_arrow.svg" alt="" class="injectable">
+                                </a>
                             </div>
                         </div>
                     </div>
