@@ -30166,7 +30166,7 @@ body.blog-details-page .blog-sidebar-form-sticky-slot form {
   height: 20px;
 }
 /* ------(Right Left)Screens Widths--------------- */
-@media (max-width: 1300px) {
+@media (max-width: 1380px) {
   .col-70 {
     width: 65%;
   }
