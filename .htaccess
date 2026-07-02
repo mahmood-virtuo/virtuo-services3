@@ -4,6 +4,12 @@ RewriteBase /
 
 DirectoryIndex index.php
 
+RewriteRule ^sitemap\.xml$ sitemap.php [L,QSA]
+RewriteRule ^blog/$ /blog [R=301,L]
+RewriteRule ^blog/(tag|category)/?$ /blog [R=301,L]
+RewriteRule ^blog/(tag|category)/([^/]+)/$ /blog/$1/$2 [R=301,L]
+RewriteRule ^blog/(mainland-free-zone-or-offshore-uae-structuring-us-founders|why-us-wireless-itad-operators-are-looking-at-the-uae|why-us-wireless-and-itad-operators-are-looking-at-the-uae|uae-business-setup-geopolitics-2026|golden-visa-eligibility-guide|freelance-visa-uae-guide)/$ /blog/$1 [R=301,L]
+
 # --------------------------------------------------
 # 1. Old blog detail URLs -> SEO-friendly blog URLs
 # --------------------------------------------------
@@ -23,6 +29,9 @@ RewriteRule ^blog-details4(?:\.php)?/?$ /blog/golden-visa-eligibility-guide [R=3
 RewriteCond %{THE_REQUEST} \s/+blog-details5(?:\.php)?[\s?] [NC]
 RewriteRule ^blog-details5(?:\.php)?/?$ /blog/freelance-visa-uae-guide [R=301,L]
 
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
 # --------------------------------------------------
 # 2. SEO-friendly blog URLs -> real PHP files
 # --------------------------------------------------
@@ -33,6 +42,8 @@ RewriteRule ^blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae/?$ b
 RewriteRule ^blog/uae-business-setup-geopolitics-2026/?$ blog-details3.php [L,QSA]
 RewriteRule ^blog/golden-visa-eligibility-guide/?$ blog-details4.php [L,QSA]
 RewriteRule ^blog/freelance-visa-uae-guide/?$ blog-details5.php [L,QSA]
+RewriteRule ^blog/category/([^/]+)/?$ blog-category.php?category=$1 [L,QSA]
+RewriteRule ^blog/tag/([^/]+)/?$ blog-tag.php?tag=$1 [L,QSA]
 
 # --------------------------------------------------
 # 3. Redirect direct .php requests to clean URLs

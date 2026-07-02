@@ -24,7 +24,9 @@ $default_opex    = max(5, min(45, $default_opex));
         'path' => '/blog/why-us-wireless-itad-operators-are-looking-at-the-uae',
         'type' => 'article',
         'breadcrumbTitle' => 'Why U.S. Wireless and ITAD Operators Are Looking at the UAE',
-        'schemaType' => 'Article'
+        'schemaType' => 'Article',
+        'heroImage' => '/assets/img/slider/2ndBlog.jpg',
+        'heroImageMobile' => '/assets/img/slider/1st-mobile.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>

@@ -1,6 +1,14 @@
 <?php
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $path = __DIR__ . $uri;
+$blogPostSlugs = array(
+    'mainland-free-zone-or-offshore-uae-structuring-us-founders',
+    'why-us-wireless-itad-operators-are-looking-at-the-uae',
+    'why-us-wireless-and-itad-operators-are-looking-at-the-uae',
+    'uae-business-setup-geopolitics-2026',
+    'golden-visa-eligibility-guide',
+    'freelance-visa-uae-guide',
+);
 
 // --------------------------------------------------
 // 1. SEO blog slugs -> real PHP files
@@ -33,6 +41,50 @@ if ($uri === '/blog/golden-visa-eligibility-guide') {
 
 if ($uri === '/blog/freelance-visa-uae-guide') {
     require __DIR__ . '/blog-details5.php';
+    return true;
+}
+
+if ($uri === '/blog/') {
+    header('Location: /blog', true, 301);
+    exit;
+}
+
+if (in_array($uri, array('/blog/tag', '/blog/tag/', '/blog/category', '/blog/category/'), true)) {
+    header('Location: /blog', true, 301);
+    exit;
+}
+
+if (preg_match('#^/blog/(tag|category)/([^/]+)/$#', $uri, $matches)) {
+    header('Location: /blog/' . $matches[1] . '/' . $matches[2], true, 301);
+    exit;
+}
+
+if (preg_match('#^/blog/([^/]+)/$#', $uri, $matches) && in_array($matches[1], $blogPostSlugs, true)) {
+    header('Location: /blog/' . $matches[1], true, 301);
+    exit;
+}
+
+$noSlashUri = rtrim($uri, '/');
+
+if ($uri !== '/' && substr($uri, -1) === '/' && file_exists(__DIR__ . $noSlashUri . '.php')) {
+    header('Location: ' . $noSlashUri, true, 301);
+    exit;
+}
+
+if ($uri === '/sitemap.xml') {
+    require __DIR__ . '/sitemap.php';
+    return true;
+}
+
+if (preg_match('#^/blog/category/([^/]+)$#', $uri, $matches)) {
+    $_GET['category'] = $matches[1];
+    require __DIR__ . '/blog-category.php';
+    return true;
+}
+
+if (preg_match('#^/blog/tag/([^/]+)$#', $uri, $matches)) {
+    $_GET['tag'] = $matches[1];
+    require __DIR__ . '/blog-tag.php';
     return true;
 }
 

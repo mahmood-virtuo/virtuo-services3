@@ -22,21 +22,21 @@
     <meta name="robots" content="noindex, follow"> 
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/tg-flaticon.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/default-icons.css">
-    <link rel="stylesheet" href="assets/css/odometer.css">
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <link rel="stylesheet" href="assets/css/tg-cursor.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/css/tg-flaticon.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <link rel="stylesheet" href="/assets/css/default-icons.css">
+    <link rel="stylesheet" href="/assets/css/odometer.css">
+    <link rel="stylesheet" href="/assets/css/aos.css">
+    <link rel="stylesheet" href="/assets/css/tg-cursor.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
@@ -60,12 +60,12 @@
             <div class="slider__marquee clearfix marquee-wrap">
                 <div class="marquee_mode marquee__group">
                     <h6 class="marquee__item">
-                        <a href="///government-relations-pro-services"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+                        <a href="/government-relations-pro-services"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
                                 <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
                             </svg>PRO SERVICES</a>
                     </h6>
                     <h6 class="marquee__item">
-                        <a href="//uae-business-formation"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+                        <a href="/uae-business-formation"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
                                 <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
                             </svg>BUSINESS SETUP</a>
                     </h6>
@@ -75,7 +75,7 @@
                             </svg>GOLDEN VISA</a>
                     </h6>
                     <h6 class="marquee__item">
-                        <a href="//uae-business-formation#business-bank-account-opening"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
+                        <a href="/uae-business-formation#business-bank-account-opening"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
                                 <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
                             </svg>BANK ACCOUNT OPENING</a>
                     </h6>
@@ -105,7 +105,7 @@
                             </svg>AI AUTOMATION</a>
                     </h6>
                     <h6 class="marquee__item">
-                        <a href="///government-relations-pro-services"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
+                        <a href="/government-relations-pro-services"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
                                 <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
                             </svg>GOVERNMENT RELATIONS</a>
                     </h6>
@@ -154,7 +154,7 @@
                             <div class="error-content">
                                 <h2 class="title">ERROR PAGE 404! <span>Sorry! This Page is Not Available!</span></h2>
                                 <div class="tg-button-wrap">
-                                    <a href="index.php" class="tg-btn">Go To Home Page <img src="assets/img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                    <a href="/" class="tg-btn">Go To Home Page <img src="/assets/img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                                 </div>
                             </div>
                         </div>

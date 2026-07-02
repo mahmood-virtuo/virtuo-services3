@@ -11,7 +11,8 @@
         'type' => 'article',
         'breadcrumbTitle' => 'UAE Golden Visa Eligibility Guide',
         'schemaType' => 'Article',
-        'heroImage' => '/assets/img/services/GoldenVisaImg1.jpg'
+        'heroImage' => '/assets/img/slider/4th_blog.jpg',
+        'heroImageMobile' => '/assets/img/services/GoldenVisaImg1.jpg'
     );
     include __DIR__ . '/partials/seo.php';
     ?>

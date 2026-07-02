@@ -1,20 +1,21 @@
-<?php
-$seoPage = array(
-    'title' => "Freelance Visa or Green Residence? The Independent Professional's Setup Decision | Virtuo",
-    'description' => 'Freelance Visa or Green Residence? A practical UAE setup guide for independent professionals comparing freelance permits, Green Residence, Virtual Work Visa, income tests, family sponsorship and tax compliance.',
-    'path' => '/blog/freelance-visa-uae-guide',
-    'type' => 'article',
-    'breadcrumbTitle' => 'UAE Freelance Visa Guide',
-    'schemaType' => 'Article',
-    'heroImage' => '/assets/img/services/FreeLanceVisaImg1.jpg'
-);
-include __DIR__ . '/partials/seo.php';
-?>
 <!doctype html>
 <html class="no-js blog-details-html" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <?php
+    $seoPage = array(
+        'title' => "Freelance Visa or Green Residence? The Independent Professional's Setup Decision | Virtuo",
+        'description' => 'Freelance Visa or Green Residence? A practical UAE setup guide for independent professionals comparing freelance permits, Green Residence, Virtual Work Visa, income tests, family sponsorship and tax compliance.',
+        'path' => '/blog/freelance-visa-uae-guide',
+        'type' => 'article',
+        'breadcrumbTitle' => 'UAE Freelance Visa Guide',
+        'schemaType' => 'Article',
+        'heroImage' => '/assets/img/slider/5th_blog.jpg',
+        'heroImageMobile' => '/assets/img/services/FreeLanceVisaImg1.jpg'
+    );
+    include __DIR__ . '/partials/seo.php';
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
 

@@ -13,10 +13,11 @@
         'breadcrumbTitle' => 'Home',
         'schemaType' => 'WebPage',
         'image' => '/assets/img/slider/1st.webp',
-        'heroImage' => '/assets/img/slider/1st.webp'
+        'heroImage' => '/assets/img/slider/1st.webp',
+        'heroImageMobile' => '/assets/img/slider/1st-mobile.webp'
     );
     include __DIR__ . '/partials/seo.php';
-    require_once __DIR__ . '/partials/blog-posts.php';
+    require_once __DIR__ . '/partials/blog-taxonomy.php';
     $blogPosts = virtuo_get_blog_posts();
 
     function virtuo_truncate_text($text, $limit = 40) {
@@ -40,8 +41,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-    <link rel="preload" as="image" href="assets/img/slider/1st-mobile.webp" media="(max-width: 767px)" fetchpriority="high">
-    <link rel="preload" as="image" href="assets/img/slider/1st.webp" media="(min-width: 768px)" fetchpriority="high">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -692,7 +691,7 @@
                                 </div>
                             </div>
                             <div class="blog__post-content">
-                                <a href="/blog" class="blog__post-tag"><?php echo htmlspecialchars($blogPost['category'], ENT_QUOTES, 'UTF-8'); ?></a>
+                                <a href="<?php echo htmlspecialchars(virtuo_blog_get_category_url($blogPost['category']), ENT_QUOTES, 'UTF-8'); ?>" class="blog__post-tag"><?php echo htmlspecialchars(virtuo_blog_get_category_label($blogPost['category']), ENT_QUOTES, 'UTF-8'); ?></a>
                                 <h2 class="title"><a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>" title="<?php echo htmlspecialchars($blogPost['detail_title'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogPost['detail_title'], 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
                                 <div class="blog__post-author">
                                     <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($blogPost['author_image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['author'], ENT_QUOTES, 'UTF-8'); ?> author portrait" loading="lazy" decoding="async" width="100" height="100"></a>

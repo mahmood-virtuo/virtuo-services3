@@ -48,6 +48,7 @@
                                                     <option value="Umm Al Quwain">Umm Al Quwain</option>
                                                 </select>
                                             </div>
+                                            <input type="hidden" name="message" value="Sidebar consultation request">
                                             <!-- <div class="form-grp">
                                                 <textarea name="message" placeholder="How can we help you?" required></textarea>
                                             </div> -->

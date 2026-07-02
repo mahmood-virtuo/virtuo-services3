@@ -1,6 +1,6 @@
 $(function () {
   // Set up an event listener for website forms.
-  $("#contact-form, #footer-quote-form").submit(function (e) {
+  $("#contact-form, #footer-quote-form, form[action='/assets/mail.php']").submit(function (e) {
     // Stop the browser from submitting the form.
     e.preventDefault();
 

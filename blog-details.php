@@ -11,7 +11,8 @@
         'type' => 'article',
         'breadcrumbTitle' => 'UAE Structuring for U.S. Founders',
         'schemaType' => 'Article',
-        'heroImage' => '/assets/img/bg/BlogDetail.webp'
+        'heroImage' => '/assets/img/slider/1stBlog.jpg',
+        'heroImageMobile' => '/assets/img/slider/1st-mobile.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>

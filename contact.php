@@ -13,7 +13,8 @@
         'breadcrumbTitle' => 'Contact Us',
         'schemaType' => 'ContactPage',
         'image' => '/assets/img/bg/HEADER.webp',
-        'heroImage' => '/assets/img/bg/HEADER.webp'
+        'heroImage' => '/assets/img/bg/HEADER.webp',
+        'heroImageMobile' => '/assets/img/bg/HEADER-mobile.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>

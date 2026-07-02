@@ -1,20 +1,21 @@
-<?php
-$seoPage = array(
-    'title' => 'Beyond Company Formation: Why the UAE Is Becoming a Strategic Business Base in 2026 | Virtuo',
-    'description' => 'Beyond company formation: why the UAE is becoming a strategic business base in 2026 for founders, investors and family offices weighing resilience, tax, trade, residency and compliance.',
-    'path' => '/blog/uae-business-setup-geopolitics-2026',
-    'type' => 'article',
-    'breadcrumbTitle' => 'UAE Business Setup Strategy 2026',
-    'schemaType' => 'Article',
-    'heroImage' => '/assets/img/bg/BlogDetail.webp'
-);
-include __DIR__ . '/partials/seo.php';
-?>
 <!doctype html>
 <html class="no-js blog-details-html" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <?php
+    $seoPage = array(
+        'title' => 'Beyond Company Formation: Why the UAE Is Becoming a Strategic Business Base in 2026 | Virtuo',
+        'description' => 'Beyond company formation: why the UAE is becoming a strategic business base in 2026 for founders, investors and family offices weighing resilience, tax, trade, residency and compliance.',
+        'path' => '/blog/uae-business-setup-geopolitics-2026',
+        'type' => 'article',
+        'breadcrumbTitle' => 'UAE Business Setup Strategy 2026',
+        'schemaType' => 'Article',
+        'heroImage' => '/assets/img/slider/3rd_blog.jpg',
+        'heroImageMobile' => '/assets/img/slider/3rd-mobile.webp'
+    );
+    include __DIR__ . '/partials/seo.php';
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
 

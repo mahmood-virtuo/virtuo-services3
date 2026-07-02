@@ -29,12 +29,14 @@ $seoDefaults = array(
     'schemaType' => 'WebPage',
     'image' => 'https://virtuo.ae/assets/img/logo/w_logo.svg',
     'heroImage' => '',
+    'heroImageMobile' => '',
 );
 
 $seo = array_merge($seoDefaults, $seoPage);
 $canonicalUrl = virtuo_seo_url($seo['path']);
 $ogImage = virtuo_seo_url($seo['image']);
 $heroImage = !empty($seo['heroImage']) ? virtuo_seo_url($seo['heroImage']) : '';
+$heroImageMobile = !empty($seo['heroImageMobile']) ? virtuo_seo_url($seo['heroImageMobile']) : '';
 
 include_once dirname(__DIR__) . '/includes/schema-config.php';
 include_once dirname(__DIR__) . '/includes/schema.php';
@@ -43,7 +45,10 @@ include_once dirname(__DIR__) . '/includes/schema.php';
 <meta name="description" content="<?php echo virtuo_seo_escape($seo['description']); ?>">
 <link rel="canonical" href="<?php echo virtuo_seo_escape($canonicalUrl); ?>">
 <link rel="apple-touch-icon" href="/assets/img/favicon.png">
-<?php if ($heroImage !== '') : ?>
+<?php if ($heroImage !== '' && $heroImageMobile !== '') : ?>
+<link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high" media="(min-width: 768px)">
+<link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImageMobile); ?>" fetchpriority="high" media="(max-width: 767px)">
+<?php elseif ($heroImage !== '') : ?>
 <link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high">
 <?php endif; ?>
 <meta property="og:type" content="<?php echo virtuo_seo_escape($seo['type']); ?>">
