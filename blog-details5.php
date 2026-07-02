@@ -252,15 +252,18 @@
                                 </div>
 
                                 <div class="blog__avatar-wrap mb-60">
-                                    <div class="blog__avatar-img">
-                                        <a href="#"><img src="/assets/img/blog/blog_avatar01.jpg" alt="Jonaid Ali Mohammad" /></a>
-                                    </div>
-                                    <div class="blog__avatar-info">
-                                        <span class="designation">Founder, Virtuo Services</span>
-                                        <h4 class="name"><a href="#">Jonaid Ali Mohammad</a></h4>
-                                        <p>An American founder who built and exited a Texas company before relocating to Dubai. Jonaid advises entrepreneurs, professionals and families on UAE business setup, immigration strategy, residency, banking-readiness and cross-border structuring.</p>
-                                    </div>
-                                </div>
+                  <div class="blog__avatar-img">
+                    <a href="#"
+                      ><img src="/assets/img/blog/blog_avatar01.png" alt="Jonaid Ali Mohammad" loading="lazy" decoding="async" width="300" height="329"
+                    /></a>
+                  </div>
+                  <div class="blog__avatar-info">
+                    <span class="designation">CEO/Founder, Virtuo</span>
+                    <h4 class="name"><a href="#">Jonaid Ali Mohammad</a></h4>
+                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai.</p>
+                    <p>Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry — with the judgment of someone who has built, operated, and exited.</p>
+                  </div>
+                </div>
                             </div>
                         </div>
                     </div>

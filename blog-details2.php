@@ -442,13 +442,14 @@ $default_opex    = max(5, min(45, $default_opex));
           <div class="blog__avatar-wrap mb-60">
                   <div class="blog__avatar-img">
                     <a href="#"
-                      ><img src="/assets/img/blog/blog_avatar01.jpg" alt="img"
+                      ><img src="/assets/img/blog/blog_avatar01.png" alt="Jonaid Ali Mohammad" loading="lazy" decoding="async" width="300" height="329"
                     /></a>
                   </div>
                   <div class="blog__avatar-info">
-                    <span class="designation">Build the structure once, correctly — and in the right order</span>
+                    <span class="designation">CEO/Founder, Virtuo</span>
                     <h4 class="name"><a href="#">Jonaid Ali Mohammad</a></h4>
-                    <p>Virtuo helps U.S. wireless, ITAD, refurbishing, reverse-logistics, and device resale operators build a practical UAE platform, gradually — company formation, PRO services, residency planning, banking preparation, compliant crypto payment structuring, digital presence, and AI automation.</p>
+                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai.</p>
+                    <p>Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry — with the judgment of someone who has built, operated, and exited.</p>
                   </div>
                 </div>
                       </div>
