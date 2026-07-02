@@ -836,7 +836,7 @@ textarea {
   border: 1px solid var(--tg-color-white-default);
   background: transparent;
   color: var(--tg-color-white-default);
-  padding: 17px 25px;
+  padding: 15px 22px;
 }
 .tg-border-btn:hover {
   background: var(--tg-theme-secondary);
@@ -10959,7 +10959,7 @@ textarea {
 .cta__content-three .title {
   margin-bottom: 0;
   color: var(--tg-color-white-default);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-transform: capitalize;
   width: 90%;
@@ -11096,7 +11096,7 @@ textarea {
 .cta__contact .content a {
   display: block;
   color: var(--tg-color-white-default);
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 1;
 }
@@ -19122,6 +19122,38 @@ blockquote cite {
   color: var(--tg-theme-primary);
   width: 15px;
   height: 15px;
+}
+@media (max-width: 1500px) {
+  .marquee-wrap-two,
+  .marquee-wrap-three {
+    padding: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .marquee-wrap-two .marquee__group,
+  .marquee-wrap-three .marquee__group,
+  .marquee-wrap-three .marquee__group-two,
+  .marquee-wrap-two .marquee__item,
+  .marquee-wrap-three .marquee__item {
+    display: inline-flex;
+    align-items: center;
+  }
+  .marquee-wrap-two .marquee__item,
+  .marquee-wrap-three .marquee__item {
+    height: 50px;
+    margin-bottom: 0;
+  }
+  .marquee-wrap-two .marquee__item a,
+  .marquee-wrap-three .marquee__item a {
+    height: 50px;
+    align-items: center;
+  }
+  .marquee-wrap-two .marquee__item-two a svg,
+  .marquee-wrap-three .marquee__item-two a svg {
+    flex: 0 0 15px;
+  }
 }
 
 /*=============================

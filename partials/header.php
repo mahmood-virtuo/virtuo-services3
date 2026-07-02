@@ -74,7 +74,7 @@
                         <ul class="navigation">
 
                             <li>
-                                <a href="about">About</a>
+                                <a href="/about">About</a>
                             </li>
                             <li class="menu-item-has-children virtuo-mega-menu-trigger"><a href="#">Services</a>
                                 <div class="virtuo-services-mega" data-virtuo-mega-menu>

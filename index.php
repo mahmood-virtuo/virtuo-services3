@@ -78,7 +78,7 @@
                                     <div class="slider__content">
                                         <h1 class="title">Build Your Business On <br />a Strong Foundation</h1>
                                         <p>We provide end-to-end company formation and corporate structuring solutions across the UAE, specializing in Mainland, Free Zone, and Offshore setups. From licensing and compliance to ongoing corporate support, we help businesses launch and grow with confidence.</p>
-                                        <a href="about" class="tg-btn tg-btn-four">Learn more <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="/about" class="tg-btn tg-btn-four">Learn more <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                                     <div class="slider__content">
                                         <h2 class="title">Navigating Government Processes, Seamlessly</h2>
                                         <p>Our dedicated PRO specialists manage government approvals, document processing, labor and immigration requirements, and regulatory procedures, ensuring your business remains compliant and operational without administrative burdens.</p>
-                                        <a href="about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                     <div class="slider__content">
                                         <h2 class="title">Your Pathway to Living<br /> and Working in the UAE</h2>
                                         <p>We offer comprehensive immigration and residency services, assisting individuals, families, and businesses with visa applications, residency permits, sponsorships, and related government procedures through a streamlined process.</p>
-                                        <a href="about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                     <div class="slider__content">
                                         <h2 class="title">Turning Visibility into Measurable Growth</h2>
                                         <p>We help businesses strengthen their digital presence through strategic marketing, branding, content creation, social media management, performance advertising, and lead generation campaigns designed to drive sustainable growth.</p>
-                                        <a href="about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@
                                     <div class="slider__content">
                                         <h2 class="title">Empowering Businesses Through Intelligent Automation</h2>
                                         <p>Leverage the power of artificial intelligence to optimize operations, automate workflows, enhance customer experiences, and improve decision-making with tailored technology solutions built for modern businesses.</p>
-                                        <a href="about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -337,7 +337,7 @@
                                     <a href="tel:+971565151315">+971 56 515 1315</a>
                                 </div>
                             </div>
-                            <a href="contact.php" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender">Get In Touch <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                            <a href="/contact" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender">Get In Touch <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                         </div>
                     </div>
                 </div>
@@ -692,7 +692,7 @@
                             </div>
                             <div class="blog__post-content">
                                 <a href="<?php echo htmlspecialchars(virtuo_blog_get_category_url($blogPost['category']), ENT_QUOTES, 'UTF-8'); ?>" class="blog__post-tag"><?php echo htmlspecialchars(virtuo_blog_get_category_label($blogPost['category']), ENT_QUOTES, 'UTF-8'); ?></a>
-                                <h2 class="title"><a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>" title="<?php echo htmlspecialchars($blogPost['detail_title'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogPost['detail_title'], 40), ENT_QUOTES, 'UTF-8'); ?></a></h2>
+                                <h2 class="title"><a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>" title="<?php echo htmlspecialchars($blogPost['detail_title'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(virtuo_truncate_text($blogPost['detail_title'], 33), ENT_QUOTES, 'UTF-8'); ?></a></h2>
                                 <div class="blog__post-author">
                                     <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($blogPost['author_image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['author'], ENT_QUOTES, 'UTF-8'); ?> author portrait" loading="lazy" decoding="async" width="100" height="100"></a>
                                     <span>By <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($blogPost['author'], ENT_QUOTES, 'UTF-8'); ?></a></span>

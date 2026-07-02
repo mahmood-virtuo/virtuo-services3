@@ -78,7 +78,7 @@
                     <h3>Quick Links</h3>
                     <div>
                         <a href="/">Home <span>↗</span></a>
-                        <a href="about">About Us <span>↗</span></a>
+                        <a href="/about">About Us <span>↗</span></a>
                         <a href="/blog">Blogs <span>↗</span></a>
                         <a href="faq.php">F.A.Q's <span>↗</span></a>
                         <a href="/contact">Contact Us <span>↗</span></a>
@@ -220,7 +220,7 @@
                                  <div>
                                      <a href="/">Home <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <!-- <a href="faq.php">F.A.Q's <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
-                                     <a href="about">About Us <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
+                                     <a href="/about">About Us <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <a href="/contact">Contact Us <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <a href="/blog">Blogs <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <!-- <a href="pricing.php">Cost Calculator <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a> -->
