@@ -7,7 +7,23 @@ $blogPostSlugs = array(
     "uae-business-setup-geopolitics-2026",
     "golden-visa-eligibility-guide",
     "freelance-visa-uae-guide",
+    "why-americans-relocating-uae-2026",
 );
+
+$blogPostRoutes = array(
+    "/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders" => "blog-details.php",
+    "/blog/why-us-wireless-itad-operators-are-looking-at-the-uae" => "blog-details2.php",
+    "/blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae" => "blog-details2.php",
+    "/blog/uae-business-setup-geopolitics-2026" => "blog-details3.php",
+    "/blog/golden-visa-eligibility-guide" => "blog-details4.php",
+    "/blog/freelance-visa-uae-guide" => "blog-details5.php",
+    "/blog/why-americans-relocating-uae-2026" => "blog-details6.php",
+);
+
+if (isset($blogPostRoutes[$path])) {
+    require __DIR__ . "/" . $blogPostRoutes[$path];
+    return;
+}
 
 if ($path !== "/" && file_exists(__DIR__ . $path . ".php")) {
     require __DIR__ . $path . ".php";

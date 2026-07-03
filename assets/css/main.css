@@ -1648,10 +1648,10 @@ textarea {
 .tgmobile__menu .navigation li.menu-item-has-children .dropdown-btn::after {
   content: "";
   position: absolute;
-  right: -20px;
-  top: -6px;
-  width: 300px;
-  height: 46px;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
 }
 .tgmobile__menu .navigation li.menu-item-has-children .dropdown-btn .plus-line {
   position: absolute;
@@ -2463,7 +2463,7 @@ textarea {
   left: 0;
   top: 0px;
   width: 100%;
-  z-index: 9;
+  z-index: 20000;
   height: auto;
 }
 @media (max-width: 767.98px) {
@@ -10960,10 +10960,10 @@ textarea {
 .cta__content-three .title {
   margin-bottom: 0;
   color: var(--tg-color-white-default);
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   text-transform: capitalize;
-  width: 90%;
+  width: 100% !important;
 }
 @media (max-width: 1199.98px) {
   .cta__content-three .title {
@@ -25372,6 +25372,25 @@ select {
   text-wrap: nowrap !important;
 }
 
+.tgmenu__navbar-wrap .virtuo-mobile-services-menu,
+.tgmobile__menu .virtuo-services-mega {
+  display: none !important;
+}
+
+.tgmobile__menu .virtuo-mobile-services-menu li a {
+  line-height: 1.35;
+  white-space: normal;
+}
+
+.tgmobile__menu .virtuo-mobile-services-menu li.menu-item-has-children > a {
+  padding-right: 55px;
+}
+
+.tgmobile__menu .virtuo-mobile-services-menu .sub-menu li a {
+  font-size: 14px;
+  line-height: 1.35;
+}
+
 .forFooterAddress:hover {
   color: rgba(255, 255, 255, 0.74) !important;
 }
@@ -30218,5 +30237,766 @@ body.blog-details-page .blog-sidebar-form-sticky-slot form {
 
   .blog__avatar-img img {
     max-width: 130px;
+  }
+}
+
+/* Blog article: US to UAE relocation components */
+body.blog-details-page .blog-us-uae-relocation .title-two {
+  text-transform: none;
+  color: var(--tg-heading-color);
+  letter-spacing: -0.02em;
+  line-height: 1.18;
+  margin-bottom: 16px;
+}
+
+body.blog-details-page .blog-us-uae-relocation p {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+body.blog-details-page .blog-us-uae-relocation .vt-lead {
+  color: var(--tg-heading-color);
+  font-size: clamp(18px, 2.1vw, 22px);
+  font-weight: 500;
+  line-height: 1.58;
+  margin-bottom: 20px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-chapter {
+  margin-top: clamp(42px, 6vw, 66px);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-kicker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--tg-theme-primary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-kicker span {
+  color: rgba(238, 76, 1, 0.25);
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-list {
+  list-style: none;
+  margin: 22px 0 30px;
+  padding: 0;
+  border-top: 1px solid rgba(4, 4, 38, 0.14);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-list li {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(4, 4, 38, 0.08);
+  color: var(--tg-color-gray-11);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-list .num {
+  flex: 0 0 auto;
+  width: 31px;
+  height: 31px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(238, 76, 1, 0.12);
+  color: var(--tg-theme-primary);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-list strong,
+body.blog-details-page .blog-us-uae-relocation .us-checklist strong {
+  color: var(--tg-heading-color);
+}
+
+body.blog-details-page .blog-us-uae-relocation .vt-callout {
+  color: var(--tg-heading-color);
+  background: var(--tg-color-gray-2);
+  border-left-color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-us-uae-relocation .vt-callout cite {
+  display: block;
+  margin-top: 10px;
+  color: var(--tg-theme-primary);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-compare {
+  border: 1px solid rgba(4, 4, 38, 0.14);
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 34px 0;
+  background: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-compare-head {
+  padding: 17px 22px;
+  background: var(--tg-color-gray-2);
+  border-bottom: 1px solid rgba(4, 4, 38, 0.14);
+  color: var(--tg-color-gray-11);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-city-tabs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-bottom: 1px solid rgba(4, 4, 38, 0.14);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-city-btn {
+  appearance: none;
+  border: 0;
+  border-right: 1px solid rgba(4, 4, 38, 0.08);
+  background: var(--tg-color-white-default);
+  color: var(--tg-color-gray-11);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  min-height: 62px;
+  padding: 12px 10px;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-city-btn:last-child {
+  border-right: 0;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-city-btn:hover,
+body.blog-details-page
+  .blog-us-uae-relocation
+  .us-city-btn[aria-pressed="true"] {
+  background: var(--tg-heading-color);
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-compare-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-compare-col {
+  padding: 24px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-compare-col:first-child {
+  border-right: 1px solid rgba(4, 4, 38, 0.08);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-col-label {
+  color: var(--tg-theme-primary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(4, 4, 38, 0.08);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-row:last-child {
+  border-bottom: 0;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-row .metric {
+  color: var(--tg-color-gray-11);
+  flex: 0 1 50%;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-row .val {
+  color: var(--tg-heading-color);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: right;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-row .val.good {
+  color: #0a7a3f;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-row .val.warn {
+  color: #b84800;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-compare-result {
+  background: rgba(238, 76, 1, 0.1);
+  border-top: 1px solid rgba(4, 4, 38, 0.14);
+  color: var(--tg-heading-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.55;
+  padding: 15px 22px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-compare-result strong {
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-re-grid,
+body.blog-details-page .blog-us-uae-relocation .us-adv-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: rgba(4, 4, 38, 0.14);
+  border: 1px solid rgba(4, 4, 38, 0.14);
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 26px 0 30px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-re-card,
+body.blog-details-page .blog-us-uae-relocation .us-adv-card {
+  background: var(--tg-color-white-default);
+  padding: clamp(18px, 2.4vw, 24px);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-re-card.featured {
+  box-shadow: inset 4px 0 0 var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 30px;
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  margin-bottom: 12px;
+  padding: 7px 11px;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-card-city,
+body.blog-details-page .blog-us-uae-relocation .us-adv-title {
+  color: var(--tg-theme-primary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-price {
+  color: var(--tg-heading-color);
+  font-size: clamp(25px, 3vw, 32px);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 5px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-price small {
+  color: var(--tg-color-gray-11);
+  font-size: 0.48em;
+  font-weight: 500;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-card-note,
+body.blog-details-page .blog-us-uae-relocation .us-adv-text {
+  color: var(--tg-color-gray-11);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(4, 4, 38, 0.08);
+  font-size: 13px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics li:last-child {
+  border-bottom: 0;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics .mk {
+  color: var(--tg-color-gray-11);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics .mv {
+  color: var(--tg-heading-color);
+  font-weight: 700;
+  text-align: right;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics .mv.good {
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics .mv.warn {
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-checklist {
+  border-top: 1px solid rgba(4, 4, 38, 0.14);
+  margin-top: 28px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-checklist details {
+  border-bottom: 1px solid rgba(4, 4, 38, 0.14);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-checklist summary {
+  align-items: center;
+  color: var(--tg-heading-color);
+  cursor: pointer;
+  display: flex;
+  font-size: 17px;
+  font-weight: 600;
+  gap: 18px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 18px 0;
+}
+
+body.blog-details-page
+  .blog-us-uae-relocation
+  .us-checklist
+  summary::-webkit-details-marker {
+  display: none;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-checklist summary .pl {
+  color: var(--tg-theme-primary);
+  flex: 0 0 auto;
+  font-size: 22px;
+  line-height: 1;
+  transition: transform 0.25s ease;
+}
+
+body.blog-details-page
+  .blog-us-uae-relocation
+  .us-checklist
+  details[open]
+  summary
+  .pl {
+  transform: rotate(45deg);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-checklist .bd {
+  color: var(--tg-color-gray-11);
+  font-size: 15px;
+  line-height: 1.7;
+  padding: 0 0 20px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-checklist ul {
+  margin-top: 8px;
+  padding-left: 20px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-checklist li {
+  margin-bottom: 6px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-final-panel {
+  text-align: center;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-final-panel .vt-cta {
+  margin-top: 20px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .vt-check strong {
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-contact {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+  margin-top: 16px;
+}
+
+body.blog-details-page .blog-us-uae-relocation .vt-sources {
+  color: var(--tg-color-gray-11);
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+@media (max-width: 991.98px) {
+  body.blog-details-page .blog-us-uae-relocation .us-city-tabs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  body.blog-details-page .blog-us-uae-relocation .us-city-btn:nth-child(4),
+  body.blog-details-page .blog-us-uae-relocation .us-city-btn:nth-child(5) {
+    border-top: 1px solid rgba(4, 4, 38, 0.08);
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.blog-details-page .blog-us-uae-relocation .us-list li {
+    gap: 12px;
+  }
+
+  body.blog-details-page .blog-us-uae-relocation .us-compare-body,
+  body.blog-details-page .blog-us-uae-relocation .us-re-grid,
+  body.blog-details-page .blog-us-uae-relocation .us-adv-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body.blog-details-page .blog-us-uae-relocation .us-compare-col:first-child {
+    border-right: 0;
+    border-bottom: 1px solid rgba(4, 4, 38, 0.08);
+  }
+
+  body.blog-details-page .blog-us-uae-relocation .us-row {
+    align-items: flex-start;
+  }
+}
+/* --------For Footer Banner---------- */
+/* Footer CTA layout fix */
+.footer-main-cta .cta__inner-wrap-two {
+  overflow: hidden;
+}
+
+.footer-main-cta .cta__inner-wrap-two .row {
+  align-items: center;
+}
+
+.footer-main-cta .cta__inner-wrap-two .row > .col-lg-6:first-child {
+  flex: 0 0 68%;
+  max-width: 68%;
+}
+
+.footer-main-cta .cta__inner-wrap-two .row > .col-lg-6:last-child {
+  flex: 0 0 32%;
+  max-width: 32%;
+}
+
+.footer-main-cta .cta__content-three {
+  width: 100% !important;
+  max-width: 850px;
+}
+
+.footer-main-cta .cta__content-three .title {
+  max-width: 780px;
+  margin-bottom: 10px;
+}
+
+.footer-main-cta .cta__content-three p {
+  max-width: 880px;
+  color: var(--tg-color-white-default);
+  margin-bottom: 0;
+}
+
+.footer-main-cta .cta__content-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Tablet and mobile */
+@media (max-width: 991.98px) {
+  .footer-main-cta .cta__inner-wrap-two .row > .col-lg-6:first-child,
+  .footer-main-cta .cta__inner-wrap-two .row > .col-lg-6:last-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .footer-main-cta .cta__content-three,
+  .footer-main-cta .cta__content-three .title,
+  .footer-main-cta .cta__content-three p {
+    max-width: 100%;
+  }
+
+  .footer-main-cta .cta__content-right {
+    justify-content: flex-start;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer-main-cta .cta__content-three .title {
+    font-size: 26px;
+    line-height: 1.25;
+  }
+
+  .footer-main-cta .tg-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+/* Footer CTA tablet alignment fix */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .footer-main-cta .cta__content-three {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .footer-main-cta .cta__content-three .title,
+  .footer-main-cta .cta__content-three p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .footer-main-cta .cta__content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 28px;
+    text-align: center;
+  }
+
+  .footer-main-cta .cta__content-right .tg-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* US relocation blog: real estate cards layout fix */
+body.blog-details-page .blog-us-uae-relocation .us-re-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 22px !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  overflow: visible !important;
+  margin: 34px 0 36px !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-re-card {
+  background: var(--tg-color-white-default) !important;
+  border: 1px solid rgba(4, 4, 38, 0.14) !important;
+  border-radius: 16px !important;
+  padding: clamp(20px, 2.4vw, 28px) !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-re-card.featured {
+  border-top: 4px solid var(--tg-theme-primary) !important;
+  box-shadow: none !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-card-city {
+  color: var(--tg-theme-primary) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.09em !important;
+  text-transform: uppercase !important;
+  margin-bottom: 8px !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-price {
+  color: var(--tg-heading-color) !important;
+  font-size: clamp(28px, 3vw, 36px) !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  margin-bottom: 6px !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-price small {
+  color: var(--tg-color-gray-11) !important;
+  font-size: 0.46em !important;
+  font-weight: 500 !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-card-note {
+  color: var(--tg-color-gray-11) !important;
+  font-size: 13px !important;
+  line-height: 1.55 !important;
+  margin-bottom: 18px !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics {
+  list-style: none !important;
+  margin: 18px 0 0 !important;
+  padding: 0 !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics li {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+  padding: 11px 0 !important;
+  border-bottom: 1px solid rgba(4, 4, 38, 0.08) !important;
+  font-size: 13px !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics li:last-child {
+  border-bottom: 0 !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics .mk {
+  color: var(--tg-color-gray-11) !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics .mv {
+  color: var(--tg-heading-color) !important;
+  font-weight: 700 !important;
+  text-align: right !important;
+  white-space: nowrap !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics .mv.good {
+  color: var(--tg-theme-primary) !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-metrics .mv.warn {
+  color: var(--tg-theme-primary);
+}
+
+/* Tablet */
+@media (max-width: 991.98px) {
+  body.blog-details-page .blog-us-uae-relocation .us-re-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 18px !important;
+  }
+
+  body.blog-details-page .blog-us-uae-relocation .us-re-card {
+    padding: 22px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  body.blog-details-page .blog-us-uae-relocation .us-re-grid {
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  body.blog-details-page .blog-us-uae-relocation .us-re-card {
+    border-radius: 14px !important;
+  }
+}
+
+/* Very small mobile */
+@media (max-width: 420px) {
+  body.blog-details-page .blog-us-uae-relocation .us-metrics li {
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    gap: 3px !important;
+  }
+
+  body.blog-details-page .blog-us-uae-relocation .us-metrics .mv {
+    text-align: left !important;
+    white-space: normal !important;
+  }
+}
+/* US relocation blog: soft card hover effect */
+body.blog-details-page .blog-us-uae-relocation .us-re-card {
+  position: relative !important;
+  transform: translateY(0) !important;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease,
+    border-color 0.28s ease,
+    background-color 0.28s ease !important;
+  will-change: transform;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-re-card::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(238, 76, 1, 0.08),
+      transparent 42%
+    ),
+    linear-gradient(180deg, rgba(238, 76, 1, 0.035), transparent 45%) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity 0.28s ease !important;
+  z-index: 0 !important;
+}
+
+body.blog-details-page .blog-us-uae-relocation .us-re-card > * {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body.blog-details-page .blog-us-uae-relocation .us-re-card:hover {
+    transform: translateY(-6px) !important;
+    border-color: rgba(238, 76, 1, 0.28) !important;
+    box-shadow: 0 18px 45px rgba(4, 4, 38, 0.1) !important;
+    background-color: var(--tg-color-white-default) !important;
+  }
+
+  body.blog-details-page .blog-us-uae-relocation .us-re-card:hover::before {
+    opacity: 1 !important;
+  }
+
+  body.blog-details-page
+    .blog-us-uae-relocation
+    .us-re-card:hover
+    .us-card-city,
+  body.blog-details-page .blog-us-uae-relocation .us-re-card:hover .us-price {
+    color: var(--tg-theme-primary) !important;
+  }
+}
+
+/* Keyboard accessibility */
+body.blog-details-page .blog-us-uae-relocation .us-re-card:focus-within {
+  transform: translateY(-6px) !important;
+  border-color: rgba(238, 76, 1, 0.28) !important;
+  box-shadow: 0 18px 45px rgba(4, 4, 38, 0.1) !important;
+}
+/* US relocation blog: spacing after blue info panel */
+body.blog-details-page .blog-us-uae-relocation .vt-panel + p {
+  margin-top: clamp(24px, 3vw, 36px) !important;
+}
+
+/* Keep spacing cleaner on mobile */
+@media (max-width: 767.98px) {
+  body.blog-details-page .blog-us-uae-relocation .vt-panel + p {
+    margin-top: 24px !important;
   }
 }

@@ -47,7 +47,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title">Freelance Visa or Green Residence?<br />The Independent Professional's Setup Decision</h1>
+                                        <h1 class="title">Freelance Visa or Green Residence?<br />The Independent <span style="color: var(--tg-theme-primary)">Professional's Setup Decision</span></h1>
                                         <p>A "freelance visa" is never one document. Here's how the permit, the residency, and the income test actually fit together — and where founders quietly choose the wrong one.</p>
                                         <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -260,7 +260,7 @@
                   <div class="blog__avatar-info">
                     <span class="designation">CEO/Founder, Virtuo</span>
                     <h4 class="name"><a href="#">Jonaid Ali Mohammad</a></h4>
-                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai.Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry — with the judgment of someone who has built, operated, and exited.</p>
+                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai. Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry with the judgment of someone who has built, operated, and exited.</p>
                   </div>
                 </div>
                             </div>

@@ -73,7 +73,7 @@ $default_opex    = max(5, min(45, $default_opex));
                         <div class="col-lg-8">
                             <div class="slider__content">
                                 <h1 class="title">
-                                    Why U.S. Wireless and ITAD Operators<br />
+                                    Why <span style="color: var(--tg-theme-primary)">U.S. Wireless and ITAD </span>Operators<br />
                                     Are Looking at the UAE
                                 </h1>
 
@@ -448,7 +448,7 @@ $default_opex    = max(5, min(45, $default_opex));
                   <div class="blog__avatar-info">
                     <span class="designation">CEO/Founder, Virtuo</span>
                     <h4 class="name"><a href="#">Jonaid Ali Mohammad</a></h4>
-                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai.Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry — with the judgment of someone who has built, operated, and exited.</p>
+                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai. Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry with the judgment of someone who has built, operated, and exited.</p>
                   </div>
                 </div>
                       </div>

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/blog-taxonomy.php';
 
-$showEmptyCategories = true;
+$showEmptyCategories = false;
 $blogCategories = virtuo_blog_get_sorted_categories($showEmptyCategories);
 ?>
 <div class="sidebar__widget">

@@ -105,14 +105,14 @@
         </div>
         <img class="virtuo-reference-footer__watermark" src="/assets/img/images/virtuo-footer-wordmark.png" alt="" aria-hidden="true">
     </footer> -->
-<section class="cta__area-two">
+<section class="cta__area-two footer-main-cta">
             <div class="container site-content-gutter">
                 <div class="cta__inner-wrap-two">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="cta__content-three" style="width:650px;">
+                            <div class="cta__content-three">
                                 <h2 class="title">Start Your UAE Move With the Right Structure.</h2>
-                                <p style="color:white;">From business setup and residency to banking readiness, market entry, and relocation support, Virtuo helps entrepreneurs, investors, freelancers, and families enter the UAE with clarity.</p>
+                                <p>From business setup and residency to banking readiness, market entry, and relocation support, Virtuo helps entrepreneurs, investors, freelancers, and families enter the UAE with clarity.</p>
                             </div>
                         </div>
                         <div class="col-lg-6">

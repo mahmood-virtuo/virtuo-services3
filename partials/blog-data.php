@@ -1,6 +1,24 @@
 <?php
 return array(
     array(
+        'title' => 'Why Americans Are Relocating To The UAE In 2026',
+        'detail_title' => 'Why Americans Are Relocating to the UAE in 2026',
+        'slug' => 'why-americans-relocating-uae-2026',
+        'url' => '/blog/why-americans-relocating-uae-2026',
+        'date' => 'Jul 2, 2026',
+        'date_sort' => '2026-07-02 09:00:00',
+        'category' => 'residency-immigration',
+        'meta' => 'US Relocation · UAE Residency',
+        'excerpt' => 'A practical US-to-UAE relocation guide for American founders, investors and families comparing property, tax, Golden Visa, business setup, banking and relocation sequence.',
+        'image' => '/assets/img/slider/6th_blog.jpg',
+        'thumbnail' => '/assets/img/slider/6th_blog.jpg',
+        'alt' => 'UAE relocation strategy for American founders and families',
+        'author' => 'Jonaid Ali Mohammad',
+        'author_image' => '/assets/img/team/jonaid_new.jpg',
+        'tags' => array('us-founders', 'uae-residency', 'golden-visa', 'business-setup', 'banking-readiness', 'uae-strategy'),
+        'file' => 'blog-details6.php',
+    ),
+    array(
         'title' => 'Mainland, Free Zone, Or Offshore?',
         'detail_title' => 'Mainland, Free Zone, Or Offshore? The Structuring Decision Behind Every Serious UAE Move',
         'slug' => 'mainland-free-zone-or-offshore-uae-structuring-us-founders',

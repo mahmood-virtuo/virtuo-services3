@@ -140,6 +140,63 @@
                                         </div>
                                     </div>
                                 </div>
+                                <ul class="sub-menu virtuo-mobile-services-menu">
+                                    <li class="menu-item-has-children">
+                                        <a href="/uae-business-formation">UAE Business Formation, Structuring &amp; Compliance</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="/uae-business-formation#mainland">Mainland Business Setup</a></li>
+                                            <li><a href="/uae-business-formation#freezone">Free Zone Business Setup</a></li>
+                                            <li><a href="/uae-business-formation#offshore">Offshore Business Setup</a></li>
+                                            <li><a href="/uae-business-formation#virtual">Virtual Office</a></li>
+                                            <li><a href="/uae-business-formation#business-bank-account-opening">Business Bank Account Opening</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="/government-relations-pro-services">Government Relations &amp; PRO Services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="/government-relations-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a></li>
+                                            <li><a href="/government-relations-pro-services#government-relations-pro-services-legal-attestation-services">Legal Attestation Services</a></li>
+                                            <li><a href="/government-relations-pro-services#government-relations-pro-services-document-clearance-services">Document Clearance Services</a></li>
+                                            <li><a href="/government-relations-pro-services#government-relations-pro-services-translation-services">Translation Services</a></li>
+                                            <li><a href="/government-relations-pro-services#government-relations-pro-services-power-of-attorney">Power Of Attorney</a></li>
+                                            <li><a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a></li>
+                                            <li><a href="/government-relations-pro-services#government-relations-pro-services-notary-public-services-dubai">Notary Public Services Dubai</a></li>
+                                            <li><a href="/government-relations-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="/immigration-residency-solutions">Immigration &amp; Residency Solutions</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a></li>
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a></li>
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-dependent-visa">Dependent Visa</a></li>
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa UAE</a></li>
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai">Investor Visa Dubai</a></li>
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa">Residence Visa</a></li>
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-gdrfa-services-dubai">GDRFA Services Dubai</a></li>
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-employment-visa">Employment Visa</a></li>
+                                            <li><a href="/immigration-residency-solutions#immigration-residency-solutions-consulate-services-dubai">Consulate Services Dubai</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="/digital-marketing-brand-development">Digital Marketing &amp; Brand Development</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="/digital-marketing-brand-development">Web &amp; Digital Solutions</a></li>
+                                            <li><a href="/digital-marketing-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a></li>
+                                            <li><a href="/digital-marketing-brand-development#digital-marketing-brand-development-brand-development">Brand Development</a></li>
+                                            <li><a href="/digital-marketing-brand-development#digital-marketing-brand-development-marketing-solutions">Marketing Solutions</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="/ai-automation-technology-solutions">AI Automation &amp; Technology Solutions</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a></li>
+                                            <li><a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a></li>
+                                            <li><a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-workflow-automation">Workflow Automation</a></li>
+                                            <li><a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-business-process-automation">Business Process Automation</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                                 <!-- <ul class="sub-menu">
                                         <li><a href="services.php">Our Services</a></li>
                                         <li><a href="services-details.php">Services Details One</a></li>
@@ -189,12 +246,6 @@
             <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
             <div class="nav-logo">
                 <a href="/"><img src="/assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
-            </div>
-            <div class="tgmobile__search">
-                <form action="#">
-                    <input type="text" placeholder="Search here...">
-                    <button><i class="fas fa-search"></i></button>
-                </form>
             </div>
             <div class="tgmobile__menu-outer">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -248,10 +299,15 @@
         <div class="offCanvas__social">
             <h6 class="title">Follow us</h6>
             <ul class="list-wrap">
-                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="/assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                <!-- <li><a href="https://x.com/home" target="_blank"><img src="/assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
-                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="/assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="/assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/Instagram-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/facebook-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a></li>
             </ul>
         </div>
     </div>

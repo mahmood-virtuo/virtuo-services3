@@ -8,6 +8,7 @@ $blogPostSlugs = array(
     'uae-business-setup-geopolitics-2026',
     'golden-visa-eligibility-guide',
     'freelance-visa-uae-guide',
+    'why-americans-relocating-uae-2026',
 );
 
 // --------------------------------------------------
@@ -41,6 +42,10 @@ if ($uri === '/blog/golden-visa-eligibility-guide') {
 
 if ($uri === '/blog/freelance-visa-uae-guide') {
     require __DIR__ . '/blog-details5.php';
+    return true;
+}
+if ($uri === '/blog/why-americans-relocating-uae-2026') {
+    require __DIR__ . '/blog-details6.php';
     return true;
 }
 
@@ -114,6 +119,11 @@ if ($uri === '/blog-details4' || $uri === '/blog-details4.php') {
 
 if ($uri === '/blog-details5' || $uri === '/blog-details5.php') {
     header('Location: /blog/freelance-visa-uae-guide', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details6' || $uri === '/blog-details6.php') {
+    header('Location: /blog/why-americans-relocating-uae-2026', true, 301);
     exit;
 }
 

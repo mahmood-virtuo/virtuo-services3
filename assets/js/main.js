@@ -33,13 +33,27 @@
     $(".tgmobile__menu .tgmobile__menu-box .tgmobile__menu-outer").append(
       mobileMenuContent,
     );
+    var $mobileMenu = $(".tgmobile__menu .navigation");
+
+    $mobileMenu.find(".virtuo-services-mega").remove();
+    $mobileMenu.find(".virtuo-mega-menu-trigger").removeClass("virtuo-mega-menu-trigger");
+    $mobileMenu.find(".dropdown-btn").remove();
+    $mobileMenu.find("li").each(function () {
+      var $item = $(this);
+      if ($item.children("ul").length) {
+        $item.addClass("menu-item-has-children");
+        $item.append('<div class="dropdown-btn"><span class="plus-line"></span></div>');
+      } else {
+        $item.removeClass("menu-item-has-children");
+      }
+    });
 
     //Dropdown Button
     $(".tgmobile__menu li.menu-item-has-children .dropdown-btn").on(
       "click",
       function () {
         $(this).toggleClass("open");
-        $(this).prev("ul, .tg-mega-menu-wrap").slideToggle(300);
+        $(this).siblings("ul").first().slideToggle(300);
       },
     );
     //Menu Toggle Btn

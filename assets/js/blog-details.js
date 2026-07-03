@@ -28,7 +28,7 @@
       var goals=Array.prototype.slice.call(root.querySelectorAll(".vt-goal"));
       var rows=Array.prototype.slice.call(root.querySelectorAll(".vt-costrow"));
 
-      function renderPanel(k){ var d=DATA[k]; pName.textContent=d.name; pBest.textContent=d.best; pDesc.textContent=d.desc; pFacts.innerHTML=d.facts.map(function(f){return '<li><span class="k">'+f[0]+'</span><span class="v">'+f[1]+'</span></li>';}).join(""); }
+      function renderPanel(k){ var d=DATA[k]; if(!d||!pName||!pBest||!pDesc||!pFacts) return; pName.textContent=d.name; pBest.textContent=d.best; pDesc.textContent=d.desc; pFacts.innerHTML=d.facts.map(function(f){return '<li><span class="k">'+f[0]+'</span><span class="v">'+f[1]+'</span></li>';}).join(""); }
       function hlMatrix(k){ root.querySelectorAll(".vt-matrix [data-col]").forEach(function(c){ c.classList.toggle("hl", c.getAttribute("data-col")===k); }); }
       function hlCost(k){ rows.forEach(function(r){ r.classList.toggle("active", r.getAttribute("data-key")===k); }); }
       function select(k){ tabs.forEach(function(t){ t.setAttribute("aria-selected", t.getAttribute("data-key")===k?"true":"false"); }); renderPanel(k); hlMatrix(k); hlCost(k); }
@@ -77,5 +77,99 @@
       var cbo=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){fill();cbo.disconnect();}});},{threshold:.25});
       var cb=root.querySelector(".vt-costbox"); if(cb)cbo.observe(cb);
 
-      select("mainland");
+      if(pName&&pBest&&pDesc&&pFacts&&tabs.length){ select("mainland"); }
+    })();
+
+(function(){
+      var root = document.querySelector(".blog-us-uae-relocation");
+      if(!root) return;
+
+      var cities = {
+        nyc: {
+          label: "New York / Manhattan",
+          rows: [
+            ["Price / sqft", "~$1,392", "warn"],
+            ["Gross rental yield", "2-3%", "warn"],
+            ["Annual property tax", "~1.0-1.9% of value", "warn"],
+            ["Capital gains tax", "Federal + NY state", "warn"],
+            ["State income tax", "Up to 10.9%", "warn"],
+            ["Personal income tax", "Up to 37% federal", "warn"],
+            ["1BR central rent/mo", "$3,500-$5,500", "warn"]
+          ],
+          result: "Dubai's price per square foot is <strong>roughly three times cheaper</strong> than Manhattan in the original comparison, before the tax treatment is even considered."
+        },
+        la: {
+          label: "Los Angeles",
+          rows: [
+            ["Price / sqft", "~$622", "warn"],
+            ["Gross rental yield", "2-3%", "warn"],
+            ["Annual property tax", "~1.1% of value", "warn"],
+            ["Capital gains tax", "Federal + up to 13.3%", "warn"],
+            ["State income tax", "Up to 13.3%", "warn"],
+            ["Landlord regulation", "Heavy", "warn"],
+            ["1BR central rent/mo", "$2,500-$4,000", "warn"]
+          ],
+          result: "Los Angeles remains more expensive than Dubai on price per square foot in the original comparison, while California tax treatment reduces the net relocation case further."
+        },
+        miami: {
+          label: "Miami, Florida",
+          rows: [
+            ["Price / sqft", "$329-$950", "warn"],
+            ["Gross rental yield", "3-5% gross", "warn"],
+            ["Annual property tax", "~2% of assessed value", "warn"],
+            ["Insurance exposure", "Hurricane-related", "warn"],
+            ["Capital gains tax", "Federal applies", "warn"],
+            ["HOA / condo dues", "Significant", "warn"],
+            ["1BR central rent/mo", "$2,500-$4,500", "warn"]
+          ],
+          result: "Miami has no state income tax, but property tax, insurance and HOA costs can cut deeply into net yield compared with Dubai."
+        },
+        dallas: {
+          label: "Dallas, Texas",
+          rows: [
+            ["Price / sqft", "~$224", "warn"],
+            ["State income tax", "None", "good"],
+            ["Annual property tax", "~2.1-2.5% of value", "warn"],
+            ["Federal income tax", "Up to 37%", "warn"],
+            ["Capital gains tax", "Federal applies", "warn"],
+            ["Gross rental yield", "3-5%", "warn"],
+            ["Market access", "US domestic-first", "warn"]
+          ],
+          result: "Dallas is affordable and has no state income tax, but high annual property tax changes the long-term ownership math."
+        },
+        chicago: {
+          label: "Chicago, Illinois",
+          rows: [
+            ["Price / sqft", "~$249", "warn"],
+            ["Annual property tax", "~2.1% of value", "warn"],
+            ["State income tax", "4.95% flat", "warn"],
+            ["Federal income tax", "Up to 37%", "warn"],
+            ["Capital gains tax", "Federal + state", "warn"],
+            ["Gross rental yield", "3-5%", "warn"],
+            ["1BR central rent/mo", "$1,800-$3,200", "warn"]
+          ],
+          result: "Chicago's entry price can look attractive, but recurring property tax materially changes the ownership return."
+        }
+      };
+
+      var cityColumn = root.querySelector("#us-city-col");
+      var resultBox = root.querySelector("#us-compare-result");
+      var buttons = Array.prototype.slice.call(root.querySelectorAll(".us-city-btn"));
+      if(!cityColumn||!resultBox||!buttons.length) return;
+
+      function renderCity(key) {
+        var city = cities[key] || cities.nyc;
+        cityColumn.innerHTML = '<div class="us-col-label">' + city.label + '</div>' + city.rows.map(function(row){
+          return '<div class="us-row"><span class="metric">' + row[0] + '</span><span class="val ' + row[2] + '">' + row[1] + '</span></div>';
+        }).join("");
+        resultBox.innerHTML = city.result;
+      }
+
+      buttons.forEach(function(button){
+        button.addEventListener("click", function(){
+          buttons.forEach(function(item){ item.setAttribute("aria-pressed", "false"); });
+          button.setAttribute("aria-pressed", "true");
+          renderCity(button.getAttribute("data-city"));
+        });
+      });
     })();

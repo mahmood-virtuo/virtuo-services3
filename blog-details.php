@@ -46,7 +46,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title">Mainland, Free Zone, or Offshore?<br />The UAE Structuring Decision Serious U.S. Founders Cannot Afford to Get Wrong</h1>
+                                        <h1 class="title"><span style="color: var(--tg-theme-primary)">Mainland, Free Zone, or Offshore?</span><br />The UAE Structuring Decision Serious U.S. Founders Cannot Afford to Get Wrong</h1>
                                         <p>A strategic playbook for U.S. founders, investors, and family offices building a UAE base — from an American who has made the move.</p>
                                         <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk to Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -485,7 +485,7 @@
                   <div class="blog__avatar-info">
                     <span class="designation">CEO/Founder, Virtuo</span>
                     <h4 class="name"><a href="#">Jonaid Ali Mohammad</a></h4>
-                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai.Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry — with the judgment of someone who has built, operated, and exited.</p>
+                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai. Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry with the judgment of someone who has built, operated, and exited.</p>
                   </div>
                 </div>
                 

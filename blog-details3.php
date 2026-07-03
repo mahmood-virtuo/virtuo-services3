@@ -47,7 +47,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title">Beyond Company Formation:<br />Why the UAE Is Becoming a Strategic Business Base in 2026</h1>
+                                        <h1 class="title">Beyond <span style="color: var(--tg-theme-primary)">Company Formation:</span><br />Why the UAE Is Becoming a Strategic Business Base in 2026</h1>
                                         <p>The region is under real strain. The UAE's response to it — fiscal discipline, trade diversification, tax credibility — is the actual story for serious operators, not the headlines.</p>
                                         <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -426,7 +426,7 @@
                   <div class="blog__avatar-info">
                     <span class="designation">CEO/Founder, Virtuo</span>
                     <h4 class="name"><a href="#">Jonaid Ali Mohammad</a></h4>
-                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai.Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry — with the judgment of someone who has built, operated, and exited.</p>
+                    <p>An American entrepreneur with 18+ years in the Global Wireless Industry and IT Asset Disposition, Jonaid built and exited businesses before relocating to Dubai. Through Virtuo, he advises American entrepreneurs, investors, and families on UAE business structuring, residency, banking readiness, tax considerations, and market entry with the judgment of someone who has built, operated, and exited.</p>
                   </div>
                 </div>
                             </div>
