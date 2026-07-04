@@ -31,11 +31,11 @@ $schema_page_map = array(
     '/contact' => 'contact',
     '/blog' => 'blog',
     'post.php' => 'article',
-    '//uae-business-formation' => 'services',
-    '///government-relations-pro-services' => 'services',
-    '/immigration-residency-solutions' => 'services',
-    '/immigration-residency-solutions' => 'services',
-    '/ai-automation-technology-solutions' => 'services',
+    'uae-business-formation-structuring-and-compliance.php' => 'services',
+    'government-relations-and-pro-services.php' => 'services',
+    'immigration-and-residency-solutions.php' => 'services',
+    'digital-marketing-and-brand-development.php' => 'services',
+    'ai-automation-and-technology-solutions.php' => 'services',
 );
 
 $seoPage = isset($seoPage) && is_array($seoPage) ? $seoPage : array();

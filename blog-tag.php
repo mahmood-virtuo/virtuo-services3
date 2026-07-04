@@ -27,7 +27,9 @@ $tagDescription = 'Virtuo insights tagged with ' . $tagLabel . '.';
         'type' => 'website',
         'breadcrumbTitle' => $tagLabel,
         'schemaType' => 'CollectionPage',
+        'ogImage' => '/assets/img/og/blog.jpg',
         'image' => '/assets/img/bg/HEADER.webp',
+        'imageAlt' => 'Virtuo blog tag insights',
         'heroImage' => '/assets/img/bg/HEADER.webp',
         'heroImageMobile' => '/assets/img/bg/HEADER-mobile.webp',
     );
@@ -38,7 +40,7 @@ $tagDescription = 'Virtuo insights tagged with ' . $tagLabel . '.';
     <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
+    <?php include __DIR__ . '/partials/favicon.php'; ?>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/animate.min.css">
     <link rel="stylesheet" href="/assets/css/magnific-popup.css">

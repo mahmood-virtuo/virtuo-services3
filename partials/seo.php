@@ -19,6 +19,51 @@ if (!function_exists('virtuo_seo_url')) {
     }
 }
 
+if (!function_exists('virtuo_seo_local_image_exists')) {
+    function virtuo_seo_local_image_exists($path)
+    {
+        $path = parse_url((string) $path, PHP_URL_PATH);
+
+        if ($path === null || trim($path) === '') {
+            return false;
+        }
+
+        $localPath = dirname(__DIR__) . '/' . ltrim(urldecode($path), '/');
+
+        return is_file($localPath);
+    }
+}
+
+if (!function_exists('virtuo_seo_resolve_image')) {
+    function virtuo_seo_resolve_image($seo)
+    {
+        $candidates = array(
+            $seo['ogImage'] ?? '',
+            $seo['image'] ?? '',
+            $seo['heroImage'] ?? '',
+            '/assets/img/slider/1st.webp',
+        );
+
+        foreach ($candidates as $candidate) {
+            $candidate = trim((string) $candidate);
+
+            if ($candidate === '') {
+                continue;
+            }
+
+            if (preg_match('/^https?:\/\//', $candidate)) {
+                return virtuo_seo_url($candidate);
+            }
+
+            if (virtuo_seo_local_image_exists($candidate)) {
+                return virtuo_seo_url($candidate);
+            }
+        }
+
+        return virtuo_seo_url('/assets/img/slider/1st.webp');
+    }
+}
+
 $seoPage = isset($seoPage) && is_array($seoPage) ? $seoPage : array();
 $seoDefaults = array(
     'title' => 'Virtuo Services | UAE Business Setup & PRO Services',
@@ -27,14 +72,18 @@ $seoDefaults = array(
     'type' => 'website',
     'breadcrumbTitle' => 'Home',
     'schemaType' => 'WebPage',
-    'image' => 'https://virtuo.ae/assets/img/logo/w_logo.svg',
+    'image' => '/assets/img/slider/1st.webp',
+    'imageAlt' => 'Virtuo Services UAE business setup and consultancy',
+    'ogImage' => '',
+    'ogImageAlt' => '',
     'heroImage' => '',
     'heroImageMobile' => '',
 );
 
 $seo = array_merge($seoDefaults, $seoPage);
 $canonicalUrl = virtuo_seo_url($seo['path']);
-$ogImage = virtuo_seo_url($seo['image']);
+$ogImage = virtuo_seo_resolve_image($seo);
+$ogImageAlt = $seo['ogImageAlt'] !== '' ? $seo['ogImageAlt'] : ($seo['imageAlt'] !== '' ? $seo['imageAlt'] : $seo['title']);
 $heroImage = !empty($seo['heroImage']) ? virtuo_seo_url($seo['heroImage']) : '';
 $heroImageMobile = !empty($seo['heroImageMobile']) ? virtuo_seo_url($seo['heroImageMobile']) : '';
 
@@ -44,7 +93,6 @@ include_once dirname(__DIR__) . '/includes/schema.php';
 <title><?php echo virtuo_seo_escape($seo['title']); ?></title>
 <meta name="description" content="<?php echo virtuo_seo_escape($seo['description']); ?>">
 <link rel="canonical" href="<?php echo virtuo_seo_escape($canonicalUrl); ?>">
-<link rel="apple-touch-icon" href="/assets/img/favicon.png">
 <?php if ($heroImage !== '' && $heroImageMobile !== '') : ?>
 <link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high" media="(min-width: 768px)">
 <link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImageMobile); ?>" fetchpriority="high" media="(max-width: 767px)">
@@ -56,6 +104,10 @@ include_once dirname(__DIR__) . '/includes/schema.php';
 <meta property="og:description" content="<?php echo virtuo_seo_escape($seo['description']); ?>">
 <meta property="og:url" content="<?php echo virtuo_seo_escape($canonicalUrl); ?>">
 <meta property="og:image" content="<?php echo virtuo_seo_escape($ogImage); ?>">
+<meta property="og:image:secure_url" content="<?php echo virtuo_seo_escape($ogImage); ?>">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="<?php echo virtuo_seo_escape($ogImageAlt); ?>">
 <meta property="og:site_name" content="Virtuo Services F.Z.C">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?php echo virtuo_seo_escape($seo['title']); ?>">

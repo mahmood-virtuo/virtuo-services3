@@ -41,7 +41,7 @@ if (!function_exists('virtuo_render_work_line_shape')) {
         static $workLineShape = null;
 
         if ($workLineShape === null) {
-            $templatePath = __DIR__ . '/..///uae-business-formation';
+            $templatePath = __DIR__ . '/../uae-business-formation.php';
             $template = is_readable($templatePath) ? file_get_contents($templatePath) : '';
 
             if ($template && preg_match('/<div class="work__line-shape">\s*(<svg[\s\S]*?<\/svg>)\s*<\/div>/', $template, $matches)) {

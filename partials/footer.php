@@ -126,7 +126,7 @@
                                         <a href="tel:+971565151315">+971 56 515 1315</a>
                                     </div>
                                 </div> -->
-                                <a href="https://wa.me/971565151315" class="tg-btn tg-btn-three tg-border-btn " target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp">Get Expert Guidance
+                                <a href="https://wa.me/971565151315" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp">Get Expert Guidance
                                     <img src="/assets/img/icons/right_arrow.svg" alt="" class="injectable">
                                 </a>
                             </div>
@@ -169,42 +169,42 @@
                              </div>
                              <!-- <nav class="footer-reference-left__services" aria-label="PRO services">
                                  <h4 style="color: #EE4c01; text-wrap:nowrap;">Our Essential Services</h4>
-                                 <a href="/uae-business-formation#mainland">Mainland Business Setup</a>
-                                 <a href="/uae-business-formation#freezone">Free Zone Business Setup</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
+                                 <a href="/uae-business-formation-structuring-and-compliance#mainland">Mainland Business Setup</a>
+                                 <a href="/uae-business-formation-structuring-and-compliance#freezone">Free Zone Business Setup</a>
+                                 <a href="/government-relations-and-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a>
+                                 <a href="/government-relations-and-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
+                                 <a href="/immigration-and-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a>
+                                 <a href="/immigration-and-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
                              </nav>
                              <nav class="footer-reference-left__services" aria-label="Visa services">
                                  <h4 style="color: #EE4c01;"></h4><br/>
-                                 <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
-                                 <a href="/government-relations-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
-                                 <a href="/digital-marketing-brand-development">Web & Digital Solutions</a>
-                                 <a href="/digital-marketing-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a>
-                                 <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
-                                 <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
+                                 <a href="/immigration-and-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
+                                 <a href="/government-relations-and-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
+                                 <a href="/digital-marketing-and-brand-development">Web & Digital Solutions</a>
+                                 <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a>
+                                 <a href="/ai-automation-and-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
+                                 <a href="/ai-automation-and-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
                              </nav> -->
                              <nav class="footer-reference-left__services footer-reference-left__services--wide" aria-label="Essential services">
     <h4 style="color: #EE4c01;">Our Essential Services</h4>
 
     <div class="footer-reference-left__services-columns">
         <div class="footer-reference-left__services-column">
-            <a href="/uae-business-formation#mainland">Mainland Business Setup</a>
-            <a href="/uae-business-formation#freezone">Free Zone Business Setup</a>
-            <a href="/government-relations-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a>
-            <a href="/government-relations-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
-            <a href="/immigration-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a>
-            <a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
+            <a href="/uae-business-formation-structuring-and-compliance#mainland">Mainland Business Setup</a>
+            <a href="/uae-business-formation-structuring-and-compliance#freezone">Free Zone Business Setup</a>
+            <a href="/government-relations-and-pro-services#government-relations-pro-services-trade-license-services">Trade License Services</a>
+            <a href="/government-relations-and-pro-services#government-relations-pro-services-mohre-services">MOHRE Services</a>
+            <a href="/immigration-and-residency-solutions#immigration-residency-solutions-immigration-services">Immigration Services</a>
+            <a href="/immigration-and-residency-solutions#immigration-residency-solutions-golden-visa-uae">Golden Visa</a>
         </div>
 
         <div class="footer-reference-left__services-column">
-            <a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
-            <a href="/government-relations-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
-            <a href="/digital-marketing-brand-development">Web & Digital Solutions</a>
-            <a href="/digital-marketing-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a>
-            <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
-            <a href="/ai-automation-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
+            <a href="/immigration-and-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
+            <a href="/government-relations-and-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
+            <a href="/digital-marketing-and-brand-development">Web & Digital Solutions</a>
+            <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a>
+            <a href="/ai-automation-and-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
+            <a href="/ai-automation-and-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
         </div>
     </div>
 </nav>

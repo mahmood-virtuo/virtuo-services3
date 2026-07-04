@@ -7,17 +7,25 @@
     $seoPage = array(
         'title' => 'Why Americans Are Relocating to the UAE in 2026 | Virtuo',
         'description' => 'A practical US-to-UAE relocation guide for American founders, investors and families comparing Dubai real estate, UAE tax advantages, Golden Visa options, business setup, banking and relocation steps.',
-        'path' => '/blog/why-americans-relocating-uae-2026',
+        'path' => '/blog/why-americans-are-relocating-to-the-uae-in-2026',
         'type' => 'article',
         'breadcrumbTitle' => 'Why Americans Are Relocating to the UAE in 2026',
         'schemaType' => 'Article',
         'heroImage' => '/assets/img/slider/6th_blog.jpg',
         'heroImageMobile' => '/assets/img/slider/6th_blog.jpg'
     );
+    require_once __DIR__ . '/partials/blog-posts.php';
+    $currentBlogPost = virtuo_get_blog_post_by_file(basename(__FILE__));
+    if ($currentBlogPost) {
+        $seoPage['ogImage'] = '/assets/img/og/' . $currentBlogPost['slug'] . '.jpg';
+        $seoPage['image'] = $currentBlogPost['image'];
+        $seoPage['imageAlt'] = $currentBlogPost['alt'];
+        $seoPage['ogImageAlt'] = $currentBlogPost['alt'];
+    }
     include __DIR__ . '/partials/seo.php';
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
+    <?php include __DIR__ . '/partials/favicon.php'; ?>
 
     <!-- CSS here -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -105,16 +113,16 @@
         <section class="marquee__area-three">
             <div class="slider__marquee clearfix marquee-wrap-two marquee-wrap-four">
                 <div class="marquee_mode marquee__group">
-                    <h6 class="marquee__item marquee__item-two"><a href="/government-relations-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>PRO SERVICES</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/uae-business-formation"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BUSINESS SETUP</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-residency-solutions#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>GOLDEN VISA</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/uae-business-formation#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BANK ACCOUNT OPENING</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-brand-development#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BRAND DEVELOPMENT</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-residency-solutions#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>INVEST IN DUBAI</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-residency-solutions#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>FREELANCE VISA</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>DIGITAL MARKETING</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-residency-solutions#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>RESIDENCY SOLUTION</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-brand-development#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>MARKETING SOLUTION</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/government-relations-and-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>PRO SERVICES</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/uae-business-formation-structuring-and-compliance"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BUSINESS SETUP</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-and-residency-solutions#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>GOLDEN VISA</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/uae-business-formation-structuring-and-compliance#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BANK ACCOUNT OPENING</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BRAND DEVELOPMENT</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-and-residency-solutions#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>INVEST IN DUBAI</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-and-residency-solutions#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>FREELANCE VISA</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-and-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>DIGITAL MARKETING</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-and-residency-solutions#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>RESIDENCY SOLUTION</a></h6>
+                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" class="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>MARKETING SOLUTION</a></h6>
                 </div>
             </div>
         </section>

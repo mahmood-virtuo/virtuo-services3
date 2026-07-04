@@ -12,7 +12,9 @@
         'type' => 'article',
         'breadcrumbTitle' => 'Privacy Policy',
         'schemaType' => 'WebPage',
+        'ogImage' => '/assets/img/og/home.jpg',
         'image' => '/assets/img/bg/HEADER.webp',
+        'imageAlt' => 'Virtuo Services privacy policy',
         'heroImage' => '/assets/img/bg/HEADER.webp',
         'heroImageMobile' => '/assets/img/bg/HEADER-mobile.webp'
     );
@@ -20,7 +22,7 @@
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <?php include __DIR__ . '/partials/favicon.php'; ?>
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">

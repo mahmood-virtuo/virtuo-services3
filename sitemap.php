@@ -48,11 +48,11 @@ $staticPages = array(
     '/about',
     '/contact',
     '/blog',
-    '/uae-business-formation',
-    '/government-relations-pro-services',
-    '/immigration-residency-solutions',
-    '/digital-marketing-brand-development',
-    '/ai-automation-technology-solutions',
+    '/uae-business-formation-structuring-and-compliance',
+    '/government-relations-and-pro-services',
+    '/immigration-and-residency-solutions',
+    '/digital-marketing-and-brand-development',
+    '/ai-automation-and-technology-solutions',
 );
 
 foreach ($staticPages as $path) {

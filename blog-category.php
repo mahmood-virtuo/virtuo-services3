@@ -29,7 +29,9 @@ $blogPosts = virtuo_blog_filter_posts_by_category($categorySlug);
         'type' => 'website',
         'breadcrumbTitle' => $categoryLabel,
         'schemaType' => 'CollectionPage',
+        'ogImage' => '/assets/img/og/blog.jpg',
         'image' => '/assets/img/bg/HEADER.webp',
+        'imageAlt' => 'Virtuo blog category insights',
         'heroImage' => '/assets/img/bg/HEADER.webp',
         'heroImageMobile' => '/assets/img/bg/HEADER-mobile.webp',
     );
@@ -40,7 +42,7 @@ $blogPosts = virtuo_blog_filter_posts_by_category($categorySlug);
     <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
+    <?php include __DIR__ . '/partials/favicon.php'; ?>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/animate.min.css">
     <link rel="stylesheet" href="/assets/css/magnific-popup.css">

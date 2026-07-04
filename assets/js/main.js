@@ -1004,7 +1004,7 @@ Intersection Observer
 (function () {
   "use strict";
 
-  const SERVICE_PAGE = "/digital-marketing-brand-development";
+  const SERVICE_PAGE = "/digital-marketing-and-brand-development";
 
   function normalizePath(path) {
     return path.replace(/\/$/, "");

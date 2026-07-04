@@ -8,29 +8,42 @@ RewriteRule ^sitemap\.xml$ sitemap.php [L,QSA]
 RewriteRule ^blog/$ /blog [R=301,L]
 RewriteRule ^blog/(tag|category)/?$ /blog [R=301,L]
 RewriteRule ^blog/(tag|category)/([^/]+)/$ /blog/$1/$2 [R=301,L]
-RewriteRule ^blog/(mainland-free-zone-or-offshore-uae-structuring-us-founders|why-us-wireless-itad-operators-are-looking-at-the-uae|why-us-wireless-and-itad-operators-are-looking-at-the-uae|uae-business-setup-geopolitics-2026|golden-visa-eligibility-guide|freelance-visa-uae-guide|why-americans-relocating-uae-2026)/$ /blog/$1 [R=301,L]
+RewriteRule ^blog/(mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong|why-us-wireless-and-itad-operators-are-looking-at-the-uae|beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026|the-uae-golden-visa-comparing-every-real-way-to-qualify|freelance-visa-or-green-residence-the-independent-professionals-setup-decision|why-americans-are-relocating-to-the-uae-in-2026)/$ /blog/$1 [R=301,L]
+
+RewriteRule ^blog/mainland-free-zone-or-offshore-uae-structuring-us-founders/?$ /blog/mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong [R=301,L]
+RewriteRule ^blog/why-us-wireless-itad-operators-are-looking-at-the-uae/?$ /blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae [R=301,L]
+RewriteRule ^blog/uae-business-setup-geopolitics-2026/?$ /blog/beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026 [R=301,L]
+RewriteRule ^blog/golden-visa-eligibility-guide/?$ /blog/the-uae-golden-visa-comparing-every-real-way-to-qualify [R=301,L]
+RewriteRule ^blog/freelance-visa-uae-guide/?$ /blog/freelance-visa-or-green-residence-the-independent-professionals-setup-decision [R=301,L]
+RewriteRule ^blog/why-americans-relocating-uae-2026/?$ /blog/why-americans-are-relocating-to-the-uae-in-2026 [R=301,L]
+
+RewriteRule ^uae-business-formation/?$ /uae-business-formation-structuring-and-compliance [R=301,L]
+RewriteRule ^government-relations-pro-services/?$ /government-relations-and-pro-services [R=301,L]
+RewriteRule ^immigration-residency-solutions/?$ /immigration-and-residency-solutions [R=301,L]
+RewriteRule ^digital-marketing-brand-development/?$ /digital-marketing-and-brand-development [R=301,L]
+RewriteRule ^ai-automation-technology-solutions/?$ /ai-automation-and-technology-solutions [R=301,L]
 
 # --------------------------------------------------
 # 1. Old blog detail URLs -> SEO-friendly blog URLs
 # --------------------------------------------------
 
 RewriteCond %{THE_REQUEST} \s/+blog-details(?:\.php)?[\s?] [NC]
-RewriteRule ^blog-details(?:\.php)?/?$ /blog/mainland-free-zone-or-offshore-uae-structuring-us-founders [R=301,L]
+RewriteRule ^blog-details(?:\.php)?/?$ /blog/mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/+blog-details2(?:\.php)?[\s?] [NC]
-RewriteRule ^blog-details2(?:\.php)?/?$ /blog/why-us-wireless-itad-operators-are-looking-at-the-uae [R=301,L]
+RewriteRule ^blog-details2(?:\.php)?/?$ /blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/+blog-details3(?:\.php)?[\s?] [NC]
-RewriteRule ^blog-details3(?:\.php)?/?$ /blog/uae-business-setup-geopolitics-2026 [R=301,L]
+RewriteRule ^blog-details3(?:\.php)?/?$ /blog/beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026 [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/+blog-details4(?:\.php)?[\s?] [NC]
-RewriteRule ^blog-details4(?:\.php)?/?$ /blog/golden-visa-eligibility-guide [R=301,L]
+RewriteRule ^blog-details4(?:\.php)?/?$ /blog/the-uae-golden-visa-comparing-every-real-way-to-qualify [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/+blog-details5(?:\.php)?[\s?] [NC]
-RewriteRule ^blog-details5(?:\.php)?/?$ /blog/freelance-visa-uae-guide [R=301,L]
+RewriteRule ^blog-details5(?:\.php)?/?$ /blog/freelance-visa-or-green-residence-the-independent-professionals-setup-decision [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/+blog-details6(?:\.php)?[\s?] [NC]
-RewriteRule ^blog-details6(?:\.php)?/?$ /blog/why-americans-relocating-uae-2026 [R=301,L]
+RewriteRule ^blog-details6(?:\.php)?/?$ /blog/why-americans-are-relocating-to-the-uae-in-2026 [R=301,L]
 
 RewriteCond %{DOCUMENT_ROOT}/$1.php -f
 RewriteRule ^(.+)/$ /$1 [R=301,L]
@@ -39,15 +52,20 @@ RewriteRule ^(.+)/$ /$1 [R=301,L]
 # 2. SEO-friendly blog URLs -> real PHP files
 # --------------------------------------------------
 
-RewriteRule ^blog/mainland-free-zone-or-offshore-uae-structuring-us-founders/?$ blog-details.php [L,QSA]
-RewriteRule ^blog/why-us-wireless-itad-operators-are-looking-at-the-uae/?$ blog-details2.php [L,QSA]
+RewriteRule ^blog/mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong/?$ blog-details.php [L,QSA]
 RewriteRule ^blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae/?$ blog-details2.php [L,QSA]
-RewriteRule ^blog/uae-business-setup-geopolitics-2026/?$ blog-details3.php [L,QSA]
-RewriteRule ^blog/golden-visa-eligibility-guide/?$ blog-details4.php [L,QSA]
-RewriteRule ^blog/freelance-visa-uae-guide/?$ blog-details5.php [L,QSA]
-RewriteRule ^blog/why-americans-relocating-uae-2026/?$ blog-details6.php [L,QSA]
+RewriteRule ^blog/beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026/?$ blog-details3.php [L,QSA]
+RewriteRule ^blog/the-uae-golden-visa-comparing-every-real-way-to-qualify/?$ blog-details4.php [L,QSA]
+RewriteRule ^blog/freelance-visa-or-green-residence-the-independent-professionals-setup-decision/?$ blog-details5.php [L,QSA]
+RewriteRule ^blog/why-americans-are-relocating-to-the-uae-in-2026/?$ blog-details6.php [L,QSA]
 RewriteRule ^blog/category/([^/]+)/?$ blog-category.php?category=$1 [L,QSA]
 RewriteRule ^blog/tag/([^/]+)/?$ blog-tag.php?tag=$1 [L,QSA]
+
+RewriteRule ^uae-business-formation-structuring-and-compliance/?$ uae-business-formation.php [L,QSA]
+RewriteRule ^government-relations-and-pro-services/?$ government-relations-pro-services.php [L,QSA]
+RewriteRule ^immigration-and-residency-solutions/?$ immigration-residency-solutions.php [L,QSA]
+RewriteRule ^digital-marketing-and-brand-development/?$ digital-marketing-brand-development.php [L,QSA]
+RewriteRule ^ai-automation-and-technology-solutions/?$ ai-automation-technology-solutions.php [L,QSA]
 
 # --------------------------------------------------
 # 3. Redirect direct .php requests to clean URLs
