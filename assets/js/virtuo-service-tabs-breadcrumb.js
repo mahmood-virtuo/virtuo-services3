@@ -69,6 +69,77 @@
     );
   }
 
+  function getHeaderOffset() {
+    const header =
+      document.querySelector("#sticky-header") ||
+      document.querySelector(".tg-header__area") ||
+      document.querySelector("header");
+    const fallbackOffset = 115;
+
+    if (!header) return fallbackOffset;
+
+    const headerHeight = Math.ceil(header.getBoundingClientRect().height);
+
+    return headerHeight > 0 ? headerHeight + 20 : fallbackOffset;
+  }
+
+  function getPanelScrollTarget(panel) {
+    if (!panel) return null;
+
+    return (
+      panel.querySelector(".services__details-content-top") ||
+      panel.querySelector(".services__details-wrap") ||
+      panel.closest(".services__details-wrap") ||
+      panel
+    );
+  }
+
+  function scrollToServicePanel(panel, behavior) {
+    const target = getPanelScrollTarget(panel);
+
+    if (!target) return;
+
+    const top =
+      target.getBoundingClientRect().top + window.pageYOffset - getHeaderOffset();
+
+    window.scrollTo({
+      top: Math.max(0, top),
+      behavior: behavior || "smooth",
+    });
+  }
+
+  function scheduleServicePanelScroll(panel, behavior) {
+    if (!panel) return;
+
+    requestAnimationFrame(function () {
+      window.setTimeout(function () {
+        scrollToServicePanel(panel, behavior);
+      }, 40);
+    });
+  }
+
+  function isSamePageHashLink(link) {
+    if (!link) return false;
+
+    const href = link.getAttribute("href");
+
+    if (!href || href.charAt(0) === "#") return false;
+
+    try {
+      const url = new URL(href, window.location.href);
+      const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
+      const targetPath = url.pathname.replace(/\/+$/, "") || "/";
+
+      return Boolean(
+        url.hash &&
+          url.origin === window.location.origin &&
+          targetPath === currentPath,
+      );
+    } catch (error) {
+      return false;
+    }
+  }
+
   function showOnlyPanel(panelId) {
     const panels = document.querySelectorAll(".service-tab-panel");
     let activePanel = null;
@@ -253,15 +324,7 @@
       updateServiceBreadcrumb(getLinkTitle(targetLink), "");
 
       if (shouldScroll) {
-        const targetArea =
-          targetPanel.closest(".services__details-area") || targetPanel;
-
-        requestAnimationFrame(function () {
-          targetArea.scrollIntoView({
-            block: "start",
-            behavior: "smooth",
-          });
-        });
+        scheduleServicePanelScroll(targetPanel);
       }
 
       return true;
@@ -290,7 +353,7 @@
 
         if (!tabName) return;
 
-        if (!activateServiceTab(tabName, false)) return;
+        if (!activateServiceTab(tabName, true)) return;
 
         if (history.replaceState) {
           // history.replaceState(null, "", "#" + tabName);
@@ -298,9 +361,34 @@
       });
     });
 
+    document.addEventListener("click", function (event) {
+      const link = event.target.closest("a[href*='#']");
+
+      if (!isSamePageHashLink(link)) return;
+
+      const hashTab = new URL(link.getAttribute("href"), window.location.href)
+        .hash.replace("#", "");
+
+      if (!hashTab || !getServicePanel(hashTab)) return;
+
+      event.preventDefault();
+
+      if (history.pushState) {
+        history.pushState(null, "", "#" + hashTab);
+      } else {
+        window.location.hash = hashTab;
+      }
+
+      activateServiceTab(hashTab, true);
+    });
+
     activateHashTab(Boolean(window.location.hash));
 
     window.addEventListener("hashchange", function () {
+      activateHashTab(true);
+    });
+
+    window.addEventListener("popstate", function () {
       activateHashTab(true);
     });
 
@@ -384,6 +472,10 @@
           // history.replaceState(null, "", "#" + panelId);
         }
 
+        if (shouldScroll && panel) {
+          scheduleServicePanelScroll(panel);
+        }
+
         return;
       }
 
@@ -410,14 +502,7 @@
       }
 
       if (shouldScroll && panel) {
-        const targetArea = panel.closest(".services__details-area") || panel;
-
-        requestAnimationFrame(function () {
-          targetArea.scrollIntoView({
-            block: "start",
-            behavior: "smooth",
-          });
-        });
+        scheduleServicePanelScroll(panel);
       }
     }
 
@@ -474,6 +559,10 @@
         }
 
         updateServiceBreadcrumb(mainTitle, subTitle);
+
+        if (shouldScroll) {
+          scheduleServicePanelScroll(panel);
+        }
       });
       //ReplaceOneEndshere
       const subHash = subLink.getAttribute("href");
@@ -482,33 +571,23 @@
         history.replaceState(null, "", subHash);
       }
 
-      if (shouldScroll && panel) {
-        const targetArea = panel.closest(".services__details-area") || panel;
-
-        requestAnimationFrame(function () {
-          targetArea.scrollIntoView({
-            block: "start",
-            behavior: "smooth",
-          });
-        });
-      }
     }
 
     mainLinks.forEach(function (mainLink) {
       mainLink.addEventListener("click", function (event) {
         event.preventDefault();
-        openMain(mainLink, true, false);
+        openMain(mainLink, true, true);
       });
     });
 
     subLinks.forEach(function (subLink) {
       subLink.addEventListener("click", function (event) {
         event.preventDefault();
-        openSub(subLink, false);
+        openSub(subLink, true);
       });
     });
 
-    function activateInitialNestedTab() {
+    function activateInitialNestedTab(shouldScroll) {
       const hash = window.location.hash;
 
       if (hash) {
@@ -517,7 +596,7 @@
         );
 
         if (matchingSubLink) {
-          openSub(matchingSubLink, true);
+          openSub(matchingSubLink, shouldScroll);
           return;
         }
 
@@ -529,7 +608,7 @@
         );
 
         if (matchingMainLink) {
-          openMain(matchingMainLink, false, true);
+          openMain(matchingMainLink, false, shouldScroll);
           return;
         }
       }
@@ -541,10 +620,44 @@
       }
     }
 
-    activateInitialNestedTab();
+    document.addEventListener("click", function (event) {
+      const link = event.target.closest("a[href*='#']");
+
+      if (!isSamePageHashLink(link)) return;
+
+      const hash = new URL(link.getAttribute("href"), window.location.href).hash;
+      const matchingSubLink = hash
+        ? document.querySelector('.digital-service-sub-link[href="' + hash + '"]')
+        : null;
+      const matchingMainLink = hash
+        ? document.querySelector(
+            '.digital-service-main-link[data-service-tab="' +
+              escapeSelector(hash.replace("#", "")) +
+              '"]',
+          )
+        : null;
+
+      if (!matchingSubLink && !matchingMainLink) return;
+
+      event.preventDefault();
+
+      if (history.pushState) {
+        history.pushState(null, "", hash);
+      } else {
+        window.location.hash = hash.replace("#", "");
+      }
+
+      activateInitialNestedTab(true);
+    });
+
+    activateInitialNestedTab(Boolean(window.location.hash));
 
     window.addEventListener("hashchange", function () {
-      activateInitialNestedTab();
+      activateInitialNestedTab(true);
+    });
+
+    window.addEventListener("popstate", function () {
+      activateInitialNestedTab(true);
     });
   }
 
@@ -553,66 +666,3 @@
     initNestedDigitalServiceTabs();
   });
 })();
-// ------New Tabs-------
-document.addEventListener("DOMContentLoaded", function () {
-  const HEADER_OFFSET = 115;
-
-  function getIdFromHref(link) {
-    const href = link.getAttribute("href") || "";
-    return href.startsWith("#") ? href.slice(1) : "";
-  }
-
-  function scrollToPanelTop(panel) {
-    if (!panel) return;
-
-    const target =
-      panel.querySelector(".services__details-content-top") ||
-      panel.querySelector(".services__details-wrap") ||
-      panel;
-
-    const top =
-      target.getBoundingClientRect().top + window.pageYOffset - HEADER_OFFSET;
-
-    window.scrollTo({
-      top: top,
-      behavior: "smooth",
-    });
-  }
-
-  document.addEventListener("click", function (event) {
-    const link = event.target.closest(
-      ".digital-service-main-link, .digital-service-sub-link, .service-tab-link",
-    );
-
-    if (!link) return;
-
-    setTimeout(function () {
-      let panelId = "";
-
-      // Digital Marketing main tabs
-      if (link.classList.contains("digital-service-main-link")) {
-        panelId = link.getAttribute("data-service-tab") || getIdFromHref(link);
-      }
-
-      // Digital Marketing subtabs
-      else if (link.classList.contains("digital-service-sub-link")) {
-        panelId =
-          link.getAttribute("data-parent-tab") ||
-          document.querySelector(".service-tab-panel.is-active")?.id ||
-          "";
-      }
-
-      // Other service pages normal tabs
-      else {
-        panelId = link.getAttribute("data-service-tab") || getIdFromHref(link);
-      }
-
-      const panel =
-        document.getElementById(panelId) ||
-        document.querySelector('[data-service-panel="' + panelId + '"]') ||
-        document.querySelector(".service-tab-panel.is-active");
-
-      scrollToPanelTop(panel);
-    }, 300);
-  });
-});

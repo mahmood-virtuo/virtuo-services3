@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body class="contact-page">
 
     <!-- header-area -->
     <?php include __DIR__ . '/partials/header.php'; ?>
@@ -54,7 +54,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp" style="background-size:cover; background-repeat: no-repeat;"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" style="background-size:cover; background-repeat: no-repeat;"></div>
             <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-12">

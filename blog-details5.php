@@ -66,30 +66,18 @@
                 </div>
             </div>
             <div class="slider__nav slider__bar-pagination"></div>
+            <?php
+            $scrollTarget = '#blog-detail-content';
+            $scrollLabel = 'Scroll to article content';
+            $scrollText = 'Scroll';
+            include __DIR__ . '/partials/scroll-down.php';
+            ?>
         </section>
 
-        <section class="marquee__area-three">
-            <div class="slider__marquee clearfix marquee-wrap-two marquee-wrap-four">
-                <div class="marquee_mode marquee__group">
-                    <h6 class="marquee__item marquee__item-two"><a href="/government-relations-and-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>PRO SERVICES</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/uae-business-formation-structuring-and-compliance"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BUSINESS SETUP</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-and-residency-solutions#immigration-residency-solutions-golden-visa-uae"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>GOLDEN VISA</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/uae-business-formation-structuring-and-compliance#business-bank-account-opening"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BANK ACCOUNT OPENING</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>BRAND DEVELOPMENT</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-and-residency-solutions#immigration-residency-solutions-investor-visa-dubai"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>INVEST IN DUBAI</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-and-residency-solutions#immigration-residency-solutions-freelance-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>FREELANCE VISA</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-and-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>DIGITAL MARKETING</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/ai-automation-and-technology-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>AI AUTOMATION</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/government-relations-and-pro-services"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>GOVERNMENT RELATIONS</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-and-brand-development#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>WEB DEVELOPMENT</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/immigration-and-residency-solutions#immigration-residency-solutions-residence-visa"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>RESIDENCY SOLUTION</a></h6>
-                    <h6 class="marquee__item marquee__item-two"><a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" className="w-10 h-10"><path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" /></svg>MARKETING SOLUTION</a></h6>
-                </div>
-            </div>
-        </section>
+        <?php include __DIR__ . '/partials/service-marquee.php'; ?>
 
         <!-- blog-details-area -->
-        <section class="blog__details-area section-py-130">
+        <section id="blog-detail-content" class="blog__details-area section-py-130">
             <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-70">
@@ -202,7 +190,7 @@
                     <h4 class="title-two">The income and tax question</h4>
                     <p>The UAE side of this is genuinely simple. The part people skip is making sure their actual activity, income, and reporting stay aligned with what they declared on day one.</p>
                     <div class="vt-acc">
-                      <details open><summary>What's actually free, and what isn't <span class="pl">+</span></summary><div class="bd">There's no personal income tax on freelance earnings. But UAE corporate tax applies at 9% above AED 375,000 in annual profit, and freelancers crossing that threshold must register with the Federal Tax Authority and file returns. "Tax-free" describes the personal side — the business side still has rules.</div></details>
+                      <details><summary>What's actually free, and what isn't <span class="pl">+</span></summary><div class="bd">There's no personal income tax on freelance earnings. But UAE corporate tax applies at 9% above AED 375,000 in annual profit, and freelancers crossing that threshold must register with the Federal Tax Authority and file returns. "Tax-free" describes the personal side — the business side still has rules.</div></details>
                       <details><summary>Authorities are checking activity match more closely <span class="pl">+</span></summary><div class="bd">Following a wave of social-media misinformation about the scheme being suspended, GDRFA-Dubai confirmed issuance continues as normal — but with tighter verification. Free zones increasingly request qualifications, portfolios or prior work evidence, and this now applies to renewals as well as new applications, not just first-time issuance.</div></details>
                       <details><summary>What proper structuring actually buys you <span class="pl">+</span></summary><div class="bd">Not just a residency stamp. The right permit category gets you clean banking, a defensible tax position, the ability to actually invoice the clients you serve, and — if you want it — a credible path toward Green Residence or a full business license later, without restructuring from scratch.</div></details>
                     </div>

@@ -3,9 +3,9 @@
 
   /*===========================================
 	=            Windows Load          =
-=============================================*/
+  =============================================*/
   $(window).on("load", function () {
-    preloader();
+    // preloader(); // disabled by request; uncomment to restore preloader
     wowAnimation();
     aosAnimation();
   });
@@ -13,6 +13,7 @@
   /*===========================================
 	=            Preloader          =
 =============================================*/
+  /* Preloader function kept for future use. Restore by uncommenting preloader() in window load. */
   function preloader() {
     $(".preloader").delay(0).fadeOut();
   }
@@ -933,14 +934,22 @@ Intersection Observer
 =         Marquee Active         =
 =============================================*/
   if ($(".marquee_mode").length) {
-    $(".marquee_mode").marquee({
-      speed: 50,
-      gap: 0,
-      delayBeforeStart: 0,
-      direction: "left",
-      duplicated: true,
-      pauseOnHover: true,
-      startVisible: true,
+    var isMobileOrTabletMarquee =
+      window.matchMedia && window.matchMedia("(max-width: 991.98px)").matches;
+    var marqueeSpeed = isMobileOrTabletMarquee ? 28 : 50;
+
+    $(".marquee_mode").each(function () {
+      var $marquee = $(this);
+
+      $marquee.marquee({
+        speed: marqueeSpeed,
+        gap: 0,
+        delayBeforeStart: 0,
+        direction: $marquee.attr("data-direction") || "left",
+        duplicated: true,
+        pauseOnHover: true,
+        startVisible: true,
+      });
     });
   }
 
@@ -996,6 +1005,39 @@ Intersection Observer
     });
   }
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", function () {
+  const heroScrollButton = document.querySelector(".js-hero-scroll-down");
+
+  if (!heroScrollButton) return;
+
+  heroScrollButton.addEventListener("click", function (event) {
+    const targetSelector = heroScrollButton.getAttribute("href");
+
+    if (!targetSelector || !targetSelector.startsWith("#")) return;
+
+    const target = document.querySelector(targetSelector);
+
+    if (!target) return;
+
+    event.preventDefault();
+
+    const header =
+      document.querySelector("#sticky-header") ||
+      document.querySelector(".tg-header__area") ||
+      document.querySelector("header");
+
+    const headerOffset = header ? header.offsetHeight + 20 : 110;
+    const targetTop =
+      target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+
+    window.scrollTo({
+      top: targetTop,
+      behavior: "smooth",
+    });
+  });
+});
+
 /* =========================================================
    Virtuo service hash scroll correction
    Keeps anchor sections from hiding behind sticky header

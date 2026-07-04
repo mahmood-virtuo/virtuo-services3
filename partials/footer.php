@@ -139,7 +139,7 @@
             </div>
         </section>
 
- <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+ <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage.jpg);">
      <div class="container site-content-gutter custom-container footer-reference-container">
          <div class="footer__top-two">
              <div class="row">

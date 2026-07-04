@@ -1,4 +1,4 @@
-<!-- preloader -->
+<!-- preloader disabled - restore by uncommenting this block
 <div class="preloader">
     <div class="preloader-inner">
         <span></span>
@@ -7,7 +7,7 @@
         <span></span>
     </div>
 </div>
-<!-- preloader-end -->
+preloader disabled end -->
 
 <!-- Scroll-top -->
 <button type="button" class="scroll__top scroll-to-target" data-target="html" aria-label="Back to top">
@@ -125,8 +125,7 @@
                                                 </div> -->
                                             <!-- <div class="virtuo-services-mega__panel is-active" data-mega-panel="marketing"> -->
                                                 <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
-                                                <!-- <a href="/immigration-and-residency-solutions">WEB &amp; DIGITAL SOLUTIONS</a> -->
-                                                 <a href="/digital-marketing-and-brand-development">WEB &amp; DIGITAL SOLUTIONS</a>
+                                                <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-web-and-digital-solutions">WEB &amp; DIGITAL SOLUTIONS</a>
                                                 <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
                                                 <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-brand-development">BRAND DEVELOPMENT</a>
                                                 <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-marketing-solutions">MARKETING SOLUTIONS</a>
@@ -181,7 +180,9 @@
                                     <li class="menu-item-has-children">
                                         <a href="/digital-marketing-and-brand-development">Digital Marketing &amp; Brand Development</a>
                                         <ul class="sub-menu">
-                                            <li><a href="/digital-marketing-and-brand-development">Web &amp; Digital Solutions</a></li>
+                                            <li>
+                                                <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-web-and-digital-solutions">Web &amp; Digital Solutions</a>
+                                            </li>
                                             <li><a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a></li>
                                             <li><a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-brand-development">Brand Development</a></li>
                                             <li><a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-marketing-solutions">Marketing Solutions</a></li>
@@ -251,11 +252,22 @@
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             </div>
             <div class="social-links">
-                <ul class="list-wrap">
+                <!-- <ul class="list-wrap">
                     <li><a href="#"><i class="fab fa-facebook-f" class="injectable"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram" class="injectable"></i></a></li>
                     <li><a href="#"><i class="fab fa-linkedin-in" class="injectable"></i></a></li>
-                </ul>
+                </ul> -->
+                <ul class="list-wrap">
+                <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/Instagram-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <img src="/assets/img/icons/facebook-icon.svg" class="my-social-links" alt="" aria-hidden="true">
+                                </a></li>
+            </ul>
             </div>
         </nav>
     </div>

@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body class="service-page government-relations-page">
     <?php include __DIR__ . '/partials/header.php'; ?>
     <!-- main-area -->
     <main class="main-area fix">

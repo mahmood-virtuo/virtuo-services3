@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body class="about-page">
 
     <?php include __DIR__ . '/partials/header.php'; ?>
 
@@ -50,7 +50,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp"></div>
             <div class="container site-content-gutter">
                 <div class="row">
                     <div class="col-12">
@@ -339,7 +339,7 @@
             </div>
         </section>
         <!-- team-area -->
-        <section class="virtuo-team section-py-130" aria-labelledby="virtuo-team-title" style="margin-bottom: 80px;">
+        <section class="virtuo-team section-py-130" aria-labelledby="virtuo-team-title">
             <div class="container site-content-gutter">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
