@@ -178,7 +178,7 @@
                         <div class="about__content">
                             <div class="section__title mb-15">
                                 <span class="sub-title">about Us</span>
-                                <h2 class="title">Virtuo was created for <span style="color: var(--tg-theme-primary)">entrepreneurs, Investors, Freelancers, Professionals, and Families</span> who want to enter the UAE with clarity, confidence, and the right structure from day one.</h2>
+                                <h2 class="title">Virtuo was created for <span style="color: var(--tg-theme-primary);font-weight:700;" >entrepreneurs, Investors, Freelancers, Professionals, and Families</span> who want to enter the UAE with clarity, confidence, and the right structure from day one.</h2>
                             </div>
                             <p>The UAE is one of the world’s fastest-growing business hubs, offering access to global markets, tax-efficient opportunities, residency options, banking, investment pathways, and a lifestyle built for ambition. But for many founders and foreign investors, the process can feel confusing: mainland or free zone, the right license activity, visa requirements, banking readiness, compliance, office options, relocation planning, and ongoing government procedures.</p>
                             <p>That is where Virtuo comes in.</p>
@@ -188,7 +188,7 @@
                             <div class="about__content-bottom">
 
                                 <!-- <a href="/contact" class="tg-btn">Build with Virtuo<img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a> -->
-                                 <a href="/contact" class="tg-btn tg-btn-three" style="color:black; background:none; border:1px solid black;"> Build With Virtuo <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                                 <a href="/contact" class="tg-btn tg-btn-three about-btn"> Build With Virtuo <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                             </div>
                         </div>
                     </div>
@@ -196,6 +196,51 @@
             </div>
         </section>
         <!-- about-area-end -->
+
+        <!-- about-mission-vision-area -->
+        <section class="about-mission-vision">
+            <div class="container site-content-gutter custom-container">
+                <div class="about-mv-grid">
+                    <article class="about-mv-card about-mv-card--mission" data-background="assets/img/images/our_mission.jpg">
+                        <div class="about-mv-card__content">
+                            <h2 class="about-mv-card__title">Our Mission</h2>
+                            <div class="about-mv-card__text">
+                                <p>Our mission is to make business setup, residency, and market entry in the UAE simpler, smarter, and more strategic for entrepreneurs, investors, and families.</p>
+                                <p>We believe entering the UAE should not be overwhelming. With the right guidance, it can become one of the most important moves for your business, your wealth, and your future.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="about-mv-card about-mv-card--vision" data-background="assets/img/images/our_vision.jpg">
+                        <div class="about-mv-card__content">
+                            <h2 class="about-mv-card__title">Our Vision</h2>
+                            <div class="about-mv-card__text">
+                                <p>To become the trusted UAE market-entry partner for global entrepreneurs, helping them launch and structure their businesses with confidence.</p>
+                                <p>We aim to empower businesses to relocate, grow, and succeed in one of the world's most forward-looking economies.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- about-mission-vision-area-end -->
+
+        <!-- about-story-area -->
+        <section class="about-story-section">
+            <div class="container site-content-gutter custom-container">
+                <div class="about-story-layout">
+                    <div class="about-story-content">
+                        <span class="about-story-label">OUR STORY</span>
+                        <h2 class="title">Virtuo was founded with a practical understanding of what business owners actually need: <span class="about-story-highlight">Speed, Transparency, Structure, and Trusted Guidance.</span></h2>
+                        <p>After years of building and exiting businesses in the American wireless industry and IT Asset Disposition space, our founder brought that real-world entrepreneurial experience to the UAE. Virtuo was built to help other founders avoid confusion, reduce delays, and make smarter decisions when entering one of the most dynamic markets in the world.</p>
+                        <p>We understand the pressure of launching, relocating, opening bank accounts, building a brand, hiring support, and staying compliant. That is why our approach is built around clear advice, efficient execution, and long-term business readiness.</p>
+                    </div>
+                    <div class="about-story-image-wrap">
+                        <img src="/assets/img/about/about-story-dubai-office.jpg" alt="Dubai business setup desk with Virtuo branding and skyline view" loading="lazy" decoding="async" width="1526" height="567">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-story-area-end -->
 
         
 
