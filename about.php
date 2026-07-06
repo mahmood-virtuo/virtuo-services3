@@ -51,7 +51,7 @@
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
             <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp"></div>
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container">
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">
@@ -177,16 +177,18 @@
                     <div class="col-lg-6">
                         <div class="about__content">
                             <div class="section__title mb-15">
-                                <span class="sub-title">Behind Our History</span>
-                                <h2 class="title">Your Gateway to <span>Seamless Business Success</span> in Dubai</h2>
+                                <span class="sub-title">about Us</span>
+                                <h2 class="title">Virtuo was created for <span style="color: var(--tg-theme-primary)">entrepreneurs, Investors, Freelancers, Professionals, and Families</span> who want to enter the UAE with clarity, confidence, and the right structure from day one.</h2>
                             </div>
-                            <p>Virtuo is the premier strategic partner for entrepreneurs and corporations navigating the dynamic landscape of the UAE. Specializing in Business Setup in Dubai and comprehensive PRO Services, we bridge the gap between your commercial ambitions and the city’s complex regulatory requirements. Our mission is centered on absolute transparency, ensuring that your company formation and Residence Visa processes are not just successful, but entirely seamless.
-
-                                The journey to establishing a presence in Dubai involves a sophisticated web of government interactions; Virtuo serves as your expert advocate within this ecosystem. Our elite team of Public Relations Officers (PROs) and administrative specialists handle the time-consuming and challenging task of clearing paperwork with all major authorities, including the DED, Immigration, MOHRE, Dubai Municipality, RERA, SIRA, and the Notary Public. By managing these vital backend formalities with precision and speed, we liberate you from the burden of bureaucracy, allowing you to focus exclusively on scaling your business and building your legacy.</p>
-
+                            <p>The UAE is one of the world’s fastest-growing business hubs, offering access to global markets, tax-efficient opportunities, residency options, banking, investment pathways, and a lifestyle built for ambition. But for many founders and foreign investors, the process can feel confusing: mainland or free zone, the right license activity, visa requirements, banking readiness, compliance, office options, relocation planning, and ongoing government procedures.</p>
+                            <p>That is where Virtuo comes in.</p>
+                            <p>We help simplify the UAE business setup and relocation journey by bringing key services together under one roof: company formation, structuring, PRO services, residency and visa support, banking preparation, compliance guidance, digital marketing, and AI-powered business solutions.</p>
+                            <p>Our role is not just to process paperwork. Our role is to guide you toward the right decisions.</p>
+                            <p>Whether you are launching a new company, expanding from America or another international market, relocating your family, applying for residency, setting up operations, or building your brand in the UAE, Virtuo helps you move forward with a clear plan and professional support at every step.</p>
                             <div class="about__content-bottom">
 
-                                <a href="/contact" class="tg-btn">Speak with an expert <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                                <!-- <a href="/contact" class="tg-btn">Build with Virtuo<img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a> -->
+                                 <a href="/contact" class="tg-btn tg-btn-three" style="color:black; background:none; border:1px solid black;"> Build With Virtuo <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
                             </div>
                         </div>
                     </div>

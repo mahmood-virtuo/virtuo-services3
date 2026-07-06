@@ -76,7 +76,7 @@ $default_opex    = max(5, min(45, $default_opex));
                  data-background="/assets/img/slider/2ndBlog.jpg"
                  data-background-mobile="/assets/img/slider/1st-mobile.webp">
 
-                <div class="container site-content-gutter">
+                <div class="container site-content-gutter custom-container">
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="slider__content">
@@ -117,9 +117,12 @@ $default_opex    = max(5, min(45, $default_opex));
 
         <?php include __DIR__ . '/partials/service-marquee.php'; ?>
         <section id="blog-detail-content" class="blog__details-area section-py-130 blog-details2-layout">
-          <div class="container site-content-gutter">
+          <div class="container site-content-gutter custom-container">
             <div class="blog-details-layout">
-              <?php include __DIR__ . '/partials/blog-details-sidebar-left.php'; ?>
+              <div class="blog-details-sidebar-stack">
+                <?php include __DIR__ . '/partials/blog-details-sidebar-left.php'; ?>
+                <?php include __DIR__ . '/partials/blog-details-sidebar-right.php'; ?>
+              </div>
               <div class="blog-details-main-column">
                 <div class="blog__details-wrap">
                   <div class="blog__details-content blog-details-article" id="blogDetailsArticle">
@@ -403,7 +406,6 @@ $default_opex    = max(5, min(45, $default_opex));
                 </div>
               </div>
 
-          <?php include __DIR__ . '/partials/blog-details-sidebar-right.php'; ?>
             </div>
           </div>
         </section>

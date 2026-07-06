@@ -1,16 +1,29 @@
 <section class="blog__post-area-five section-py-130">
-    <div class="container site-content-gutter">
+    <div class="container site-content-gutter custom-container">
         <div class="blog-listing-layout">
-            <aside class="blog-left-sidebar-column">
-                <div class="blog__sidebar blog-left-normal-sidebar">
-                    <?php include __DIR__ . '/blog-sidebar-categories.php'; ?>
-                </div>
-                <div class="blog-left-recent-sticky-slot">
-                    <div class="blog-left-recent-sticky-inner">
-                        <?php include __DIR__ . '/blog-recent-posts.php'; ?>
+            <div class="blog-sidebar-stack">
+                <aside class="blog-left-sidebar-column">
+                    <div class="blog__sidebar blog-left-normal-sidebar">
+                        <?php include __DIR__ . '/blog-sidebar-categories.php'; ?>
                     </div>
-                </div>
-            </aside>
+                    <div class="blog-left-recent-sticky-slot">
+                        <div class="blog-left-recent-sticky-inner">
+                            <?php include __DIR__ . '/blog-recent-posts.php'; ?>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="blog-right-sidebar-column">
+                    <div class="blog__sidebar blog-right-normal-sidebar">
+                        <?php include __DIR__ . '/blog-sidebar-tags.php'; ?>
+                    </div>
+                    <div class="blog-right-sticky-slot">
+                        <div class="blog-right-sticky-inner">
+                            <?php include __DIR__ . '/sidebar-consultation-form.php'; ?>
+                        </div>
+                    </div>
+                </aside>
+            </div>
 
             <div class="blog-main-column">
                 <div class="inner-blog-post-wrap">
@@ -35,16 +48,6 @@
                 </div>
             </div>
 
-            <aside class="blog-right-sidebar-column">
-                <div class="blog__sidebar blog-right-normal-sidebar">
-                    <?php include __DIR__ . '/blog-sidebar-tags.php'; ?>
-                </div>
-                <div class="blog-right-sticky-slot">
-                    <div class="blog-right-sticky-inner">
-                        <?php include __DIR__ . '/sidebar-consultation-form.php'; ?>
-                    </div>
-                </div>
-            </aside>
         </div>
     </div>
 </section>

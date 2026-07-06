@@ -51,7 +51,7 @@
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider__bg hero-image-styles" data-background="/assets/img/slider/5th_blog.jpg" data-background-mobile="/assets/img/services/FreeLanceVisaImg1.jpg">
-                        <div class="container site-content-gutter">
+                        <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -78,9 +78,12 @@
 
         <!-- blog-details-area -->
         <section id="blog-detail-content" class="blog__details-area section-py-130">
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container">
                 <div class="blog-details-layout">
-                    <?php include __DIR__ . '/partials/blog-details-sidebar-left.php'; ?>
+                    <div class="blog-details-sidebar-stack">
+                        <?php include __DIR__ . '/partials/blog-details-sidebar-left.php'; ?>
+                        <?php include __DIR__ . '/partials/blog-details-sidebar-right.php'; ?>
+                    </div>
                     <div class="blog-details-main-column">
                         <div class="blog__details-wrap">
                             <div class="blog__details-content blog-details-article" id="blogDetailsArticle">
@@ -264,7 +267,6 @@
                         </div>
                     </div>
 
-                    <?php include __DIR__ . '/partials/blog-details-sidebar-right.php'; ?>
                 </div>
             </div>
         </section>

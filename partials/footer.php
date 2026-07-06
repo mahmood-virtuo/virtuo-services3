@@ -106,7 +106,7 @@
         <img class="virtuo-reference-footer__watermark" src="/assets/img/images/virtuo-footer-wordmark.png" alt="" aria-hidden="true">
     </footer> -->
 <section class="cta__area-two footer-main-cta">
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container">
                 <div class="cta__inner-wrap-two">
                     <div class="row align-items-center">
                         <div class="col-lg-6">

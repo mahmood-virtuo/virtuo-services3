@@ -2,24 +2,60 @@
   "use strict";
 
   function initBlogStickyWidgets() {
-    if (!document.body.classList.contains("blog-page")) return;
+    var isBlogListing = document.body.classList.contains("blog-page");
+    var isBlogDetail = document.body.classList.contains("blog-details-page");
+
+    if (!isBlogListing && !isBlogDetail) return;
 
     var header = document.querySelector(
       "#sticky-header, .tg-header__area, .header__area, header"
     );
-    var layout = document.querySelector(".blog-listing-layout");
-    var widgets = [
-      {
-        slot: document.querySelector(".blog-left-recent-sticky-slot"),
-        inner: document.querySelector(".blog-left-recent-sticky-inner"),
-        boundary: document.querySelector(".blog-left-sidebar-column"),
-      },
-      {
-        slot: document.querySelector(".blog-right-sticky-slot"),
-        inner: document.querySelector(".blog-right-sticky-inner"),
-        boundary: document.querySelector(".blog-right-sidebar-column"),
-      },
-    ].filter(function (item) {
+
+    var pageConfig = isBlogDetail
+      ? {
+          layout: document.querySelector(".blog-details-layout"),
+          boundary:
+            document.querySelector(".blog__details-area") ||
+            document.querySelector(".blog-details-layout"),
+          widgets: [
+            {
+              slot: document.querySelector(
+                ".blog-details-left-recent-sticky-slot"
+              ),
+              inner: document.querySelector(
+                ".blog-details-left-recent-sticky-inner"
+              ),
+              minWidth: 1651,
+            },
+            {
+              slot: document.querySelector(".blog-details-right-sticky-slot"),
+              inner: document.querySelector(".blog-details-right-sticky-inner"),
+              minWidth: 992,
+            },
+          ],
+        }
+      : {
+          layout: document.querySelector(".blog-listing-layout"),
+          boundary:
+            document.querySelector(".blog__post-area-five") ||
+            document.querySelector(".blog-listing-layout"),
+          widgets: [
+            {
+              slot: document.querySelector(".blog-left-recent-sticky-slot"),
+              inner: document.querySelector(".blog-left-recent-sticky-inner"),
+              minWidth: 1651,
+            },
+            {
+              slot: document.querySelector(".blog-right-sticky-slot"),
+              inner: document.querySelector(".blog-right-sticky-inner"),
+              minWidth: 992,
+            },
+          ],
+        };
+
+    var layout = pageConfig.layout;
+    var boundaryElement = pageConfig.boundary || layout;
+    var widgets = pageConfig.widgets.filter(function (item) {
       return item.slot && item.inner;
     });
 
@@ -36,46 +72,53 @@
       item.inner.style.position = "";
       item.inner.style.top = "";
       item.inner.style.left = "";
+      item.inner.style.right = "";
       item.inner.style.width = "";
       item.inner.style.maxWidth = "";
+      item.inner.style.maxHeight = "";
+      item.inner.style.minHeight = "";
+      item.inner.style.overflow = "";
       item.inner.style.zIndex = "";
       item.inner.style.boxSizing = "";
       item.inner.style.transform = "";
       item.slot.style.minHeight = "";
       item.slot.style.position = "";
+      item.slot.style.overflow = "";
     }
 
-    function getBoundaryRect(item, scrollY) {
-      var boundary = item.boundary;
+    function isInRange(item) {
+      var width = window.innerWidth;
 
-      if (!boundary || boundary.offsetHeight <= item.inner.offsetHeight) {
-        boundary = layout;
-      }
+      if (item.minWidth && width < item.minWidth) return false;
+      if (item.maxWidth && width > item.maxWidth) return false;
 
-      var boundaryRect = boundary.getBoundingClientRect();
+      return true;
+    }
 
-      if (boundary.offsetHeight < layout.offsetHeight) {
-        boundary = layout;
-        boundaryRect = layout.getBoundingClientRect();
-      }
+    function getBoundaryRect(scrollY) {
+      var boundary = boundaryElement || layout;
+      var rect = boundary.getBoundingClientRect();
 
       return {
-        top: boundaryRect.top + scrollY,
-        bottom: boundaryRect.top + scrollY + boundary.offsetHeight,
+        top: rect.top + scrollY,
+        bottom: rect.top + scrollY + boundary.offsetHeight,
       };
     }
 
     function updateWidget(item) {
       resetWidget(item);
 
-      if (window.innerWidth < 992) return;
+      if (!isInRange(item)) return;
+
+      var slotRect = item.slot.getBoundingClientRect();
+
+      if (!slotRect.width) return;
 
       var scrollY = window.pageYOffset || document.documentElement.scrollTop;
       var offset = getOffset();
-      var slotRect = item.slot.getBoundingClientRect();
       var slotTop = slotRect.top + scrollY;
       var innerHeight = item.inner.offsetHeight;
-      var boundary = getBoundaryRect(item, scrollY);
+      var boundary = getBoundaryRect(scrollY);
       var stopPoint = boundary.bottom - innerHeight - offset;
 
       item.slot.style.position = "relative";

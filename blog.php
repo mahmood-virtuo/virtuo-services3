@@ -58,7 +58,7 @@
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
             <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp"></div>
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container">
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb__content">

@@ -73,7 +73,7 @@
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.webp" data-background-mobile="assets/img/slider/1st-mobile.webp">
-                        <div class="container site-content-gutter">
+                        <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/2nd.webp" data-lazy-background-mobile="assets/img/slider/2nd-mobile.webp">
-                        <div class="container site-content-gutter">
+                        <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/3rd.webp" data-lazy-background-mobile="assets/img/slider/3rd-mobile.webp">
-                        <div class="container site-content-gutter">
+                        <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/4th.webp" data-lazy-background-mobile="assets/img/slider/4th-mobile.webp">
-                        <div class="container site-content-gutter">
+                        <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
@@ -125,7 +125,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/5th.webp" data-lazy-background-mobile="assets/img/slider/5th-mobile.webp">
-                        <div class="container site-content-gutter">
+                        <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
