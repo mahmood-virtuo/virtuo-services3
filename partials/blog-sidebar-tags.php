@@ -1,10 +1,16 @@
 <?php
 require_once __DIR__ . '/blog-taxonomy.php';
 
+$showBlogFilterClear = $showBlogFilterClear ?? true;
 $popularTags = virtuo_blog_get_popular_tag_slugs(10);
 ?>
 <div class="sidebar__widget">
-    <h4 class="sidebar__widget-title">Popular Tags</h4>
+    <div class="sidebar-widget-title-row">
+        <h4 class="sidebar__widget-title">Popular Tags</h4>
+        <?php if ($showBlogFilterClear) : ?>
+            <a class="blog-filter-clear" href="/blog" aria-label="Clear tag filter and show all blog posts">Clear</a>
+        <?php endif; ?>
+    </div>
     <div class="sidebar__tag-list">
         <ul class="list-wrap">
             <?php foreach ($popularTags as $tag): ?>

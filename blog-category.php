@@ -14,6 +14,9 @@ $category = $categories[$categorySlug];
 $categoryLabel = $category['label'];
 $categoryDescription = $category['description'];
 $blogPosts = virtuo_blog_filter_posts_by_category($categorySlug);
+$pagedBlogPosts = $blogPosts;
+$blogListingTitle = $categoryLabel;
+$blogListingDescription = $categoryDescription;
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -85,45 +88,12 @@ $blogPosts = virtuo_blog_filter_posts_by_category($categorySlug);
             </div>
         </section>
 
-        <section class="blog__post-area-five section-py-130">
-            <div class="container site-content-gutter">
-                <div class="row">
-                    <div class="col-70 order-0 order-lg-2">
-                        <div class="inner-blog-post-wrap">
-                            <div class="blog-taxonomy-intro mb-40">
-                                <h2 class="title"><?php echo htmlspecialchars($categoryLabel, ENT_QUOTES, 'UTF-8'); ?></h2>
-                                <p><?php echo htmlspecialchars($categoryDescription, ENT_QUOTES, 'UTF-8'); ?></p>
-                            </div>
-
-                            <?php if (count($blogPosts) > 0) : ?>
-                                <?php foreach ($blogPosts as $blogPost) : ?>
-                                    <?php include __DIR__ . '/partials/blog-post-card.php'; ?>
-                                <?php endforeach; ?>
-                            <?php else : ?>
-                                <p>No posts found.</p>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-                    <div class="col-30 blog-sidebar-column">
-                        <aside class="blog__sidebar">
-                            <?php include __DIR__ . '/partials/blog-sidebar-categories.php'; ?>
-                            <?php include __DIR__ . '/partials/blog-sidebar-tags.php'; ?>
-                            <?php include __DIR__ . '/partials/blog-recent-posts.php'; ?>
-                        </aside>
-                        <div class="blog-sidebar-sticky-slot">
-                            <div class="blog-sidebar-sticky-inner">
-                                <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php include __DIR__ . '/partials/blog-listing-layout.php'; ?>
     </main>
 
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
-    <script src="/assets/js/blog-sticky-form.js"></script>
+    <script src="/assets/js/blog-sticky-widgets.js"></script>
 </body>
 
 </html>

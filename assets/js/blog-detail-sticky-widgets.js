@@ -1,0 +1,116 @@
+(function () {
+  "use strict";
+
+  function initBlogDetailStickyWidgets() {
+    if (!document.body.classList.contains("blog-details-page")) return;
+
+    var header = document.querySelector(
+      "#sticky-header, .tg-header__area, .header__area, header"
+    );
+    var layout = document.querySelector(".blog-details-layout");
+    var widgets = [
+      {
+        slot: document.querySelector(".blog-details-left-recent-sticky-slot"),
+        inner: document.querySelector(".blog-details-left-recent-sticky-inner"),
+      },
+      {
+        slot: document.querySelector(".blog-details-right-sticky-slot"),
+        inner: document.querySelector(".blog-details-right-sticky-inner"),
+        reference: document.querySelector(".blog-details-right-normal-sidebar"),
+      },
+    ].filter(function (item) {
+      return item.slot && item.inner;
+    });
+
+    if (!layout || !widgets.length) return;
+
+    var ticking = false;
+
+    function getOffset() {
+      var headerHeight = header ? header.getBoundingClientRect().height : 90;
+      return headerHeight + 24;
+    }
+
+    function resetWidget(item) {
+      item.inner.style.position = "";
+      item.inner.style.top = "";
+      item.inner.style.left = "";
+      item.inner.style.width = "";
+      item.inner.style.maxWidth = "";
+      item.inner.style.zIndex = "";
+      item.inner.style.boxSizing = "";
+      item.inner.style.transform = "";
+      item.slot.style.minHeight = "";
+      item.slot.style.position = "";
+    }
+
+    function updateWidget(item) {
+      resetWidget(item);
+
+      if (window.innerWidth < 992) return;
+
+      var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+      var offset = getOffset();
+      var slotRect = item.slot.getBoundingClientRect();
+      var referenceRect = item.reference
+        ? item.reference.getBoundingClientRect()
+        : slotRect;
+      var layoutRect = layout.getBoundingClientRect();
+      var slotTop = slotRect.top + scrollY;
+      var layoutBottom = layoutRect.top + scrollY + layout.offsetHeight;
+      var innerHeight = item.inner.offsetHeight;
+      var stopPoint = layoutBottom - innerHeight - offset;
+
+      item.slot.style.position = "relative";
+      item.slot.style.minHeight = innerHeight + "px";
+
+      if (scrollY + offset < slotTop) return;
+
+      if (scrollY > stopPoint) {
+        item.inner.style.position = "absolute";
+        item.inner.style.top =
+          Math.max(0, layoutBottom - slotTop - innerHeight) + "px";
+        item.inner.style.left = referenceRect.left - slotRect.left + "px";
+        item.inner.style.width = referenceRect.width + "px";
+        item.inner.style.maxWidth = referenceRect.width + "px";
+        item.inner.style.zIndex = "3";
+        item.inner.style.boxSizing = "border-box";
+        return;
+      }
+
+      item.inner.style.position = "fixed";
+      item.inner.style.top = offset + "px";
+      item.inner.style.left = referenceRect.left + "px";
+      item.inner.style.width = referenceRect.width + "px";
+      item.inner.style.maxWidth = referenceRect.width + "px";
+      item.inner.style.zIndex = "3";
+      item.inner.style.boxSizing = "border-box";
+    }
+
+    function updateAll() {
+      ticking = false;
+      widgets.forEach(updateWidget);
+    }
+
+    function requestUpdate() {
+      if (ticking) return;
+
+      ticking = true;
+      window.requestAnimationFrame(updateAll);
+    }
+
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+    window.addEventListener("load", requestUpdate);
+
+    requestUpdate();
+    window.setTimeout(requestUpdate, 300);
+    window.setTimeout(requestUpdate, 1000);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initBlogDetailStickyWidgets);
+  } else {
+    initBlogDetailStickyWidgets();
+  }
+})();

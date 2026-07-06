@@ -2,10 +2,16 @@
 require_once __DIR__ . '/blog-taxonomy.php';
 
 $showEmptyCategories = false;
+$showBlogFilterClear = $showBlogFilterClear ?? true;
 $blogCategories = virtuo_blog_get_sorted_categories($showEmptyCategories);
 ?>
 <div class="sidebar__widget">
-    <h4 class="sidebar__widget-title">Categories</h4>
+    <div class="sidebar-widget-title-row">
+        <h4 class="sidebar__widget-title">Categories</h4>
+        <?php if ($showBlogFilterClear) : ?>
+            <a class="blog-filter-clear" href="/blog" aria-label="Clear category filter and show all blog posts">Clear</a>
+        <?php endif; ?>
+    </div>
     <div class="bs-cat-list">
         <ul class="list-wrap">
             <?php foreach ($blogCategories as $category): ?>

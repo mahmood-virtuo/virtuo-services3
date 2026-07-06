@@ -110,7 +110,7 @@ $default_opex    = max(5, min(45, $default_opex));
     <?php
     $scrollTarget = '#blog-detail-content';
     $scrollLabel = 'Scroll to article content';
-    $scrollText = 'Scroll';
+    $scrollText = '';
     include __DIR__ . '/partials/scroll-down.php';
     ?>
 </section>
@@ -118,8 +118,9 @@ $default_opex    = max(5, min(45, $default_opex));
         <?php include __DIR__ . '/partials/service-marquee.php'; ?>
         <section id="blog-detail-content" class="blog__details-area section-py-130 blog-details2-layout">
           <div class="container site-content-gutter">
-            <div class="row">
-              <div class="col-70">
+            <div class="blog-details-layout">
+              <?php include __DIR__ . '/partials/blog-details-sidebar-left.php'; ?>
+              <div class="blog-details-main-column">
                 <div class="blog__details-wrap">
                   <div class="blog__details-content blog-details-article" id="blogDetailsArticle">
                     <div class="blog__post-meta">
@@ -402,9 +403,7 @@ $default_opex    = max(5, min(45, $default_opex));
                 </div>
               </div>
 
-          <div class="col-30 blog-details-sidebar-column">
-            <?php include __DIR__ . '/partials/blog-details-sidebar.php'; ?>
-          </div>
+          <?php include __DIR__ . '/partials/blog-details-sidebar-right.php'; ?>
             </div>
           </div>
         </section>
@@ -415,5 +414,6 @@ $default_opex    = max(5, min(45, $default_opex));
     <script src="/assets/js/blog-details.js"></script>
     <script src="/assets/js/blog-details2.js"></script>
     <script src="/assets/js/blog-toc.js"></script>
+    <script src="/assets/js/blog-detail-sticky-widgets.js"></script>
 </body>
 </html>

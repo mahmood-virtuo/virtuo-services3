@@ -1,6 +1,10 @@
 (function () {
   "use strict";
 
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+
   function escapeSelector(value) {
     if (window.CSS && typeof window.CSS.escape === "function") {
       return window.CSS.escape(value);
@@ -116,6 +120,41 @@
         scrollToServicePanel(panel, behavior);
       }, 40);
     });
+  }
+
+  function scrollPageTopAfterTabActivation() {
+    requestAnimationFrame(function () {
+      window.setTimeout(function () {
+        window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+      }, 40);
+    });
+  }
+
+  function getRequestedTab() {
+    const tab = new URLSearchParams(window.location.search).get("tab");
+
+    return tab || window.location.hash.replace("#", "");
+  }
+
+  function getTabUrl(tabName) {
+    const url = new URL(window.location.href);
+
+    url.searchParams.set("tab", tabName);
+    url.hash = "";
+
+    return url.pathname + url.search;
+  }
+
+  function pushTabUrl(tabName) {
+    if (!tabName || !history.pushState) return;
+
+    history.pushState(null, "", getTabUrl(tabName));
+  }
+
+  function replaceTabUrl(tabName) {
+    if (!tabName || !history.replaceState) return;
+
+    history.replaceState(null, "", getTabUrl(tabName));
   }
 
   function isSamePageHashLink(link) {
@@ -331,18 +370,23 @@
     }
 
     function activateHashTab(shouldScroll) {
-      const hashTab = window.location.hash.replace("#", "");
+      const requestedTab = getRequestedTab();
       const defaultTab =
         document
           .querySelector(".service-tab-link.is-active")
           ?.getAttribute("data-service-tab") ||
         tabLinks[0]?.getAttribute("data-service-tab");
 
-      const activeTab = hashTab || defaultTab;
+      const activeTab = requestedTab || defaultTab;
 
       if (!activeTab) return;
 
-      activateServiceTab(activeTab, Boolean(hashTab && shouldScroll));
+      const activated = activateServiceTab(activeTab, false);
+
+      if (activated && requestedTab && shouldScroll) {
+        replaceTabUrl(activeTab);
+        scrollPageTopAfterTabActivation();
+      }
     }
 
     tabLinks.forEach(function (link) {
@@ -353,11 +397,10 @@
 
         if (!tabName) return;
 
-        if (!activateServiceTab(tabName, true)) return;
+        if (!activateServiceTab(tabName, false)) return;
 
-        if (history.replaceState) {
-          // history.replaceState(null, "", "#" + tabName);
-        }
+        pushTabUrl(tabName);
+        scrollPageTopAfterTabActivation();
       });
     });
 
@@ -373,16 +416,13 @@
 
       event.preventDefault();
 
-      if (history.pushState) {
-        history.pushState(null, "", "#" + hashTab);
-      } else {
-        window.location.hash = hashTab;
+      if (activateServiceTab(hashTab, false)) {
+        pushTabUrl(hashTab);
+        scrollPageTopAfterTabActivation();
       }
-
-      activateServiceTab(hashTab, true);
     });
 
-    activateHashTab(Boolean(window.location.hash));
+    activateHashTab(Boolean(getRequestedTab()));
 
     window.addEventListener("hashchange", function () {
       activateHashTab(true);
@@ -393,7 +433,7 @@
     });
 
     window.addEventListener("load", function () {
-      activateHashTab(Boolean(window.location.hash));
+      activateHashTab(Boolean(getRequestedTab()));
     });
   }
 
@@ -568,7 +608,7 @@
       const subHash = subLink.getAttribute("href");
 
       if (subHash && history.replaceState) {
-        history.replaceState(null, "", subHash);
+        replaceTabUrl(subHash.replace("#", ""));
       }
 
     }
@@ -576,19 +616,34 @@
     mainLinks.forEach(function (mainLink) {
       mainLink.addEventListener("click", function (event) {
         event.preventDefault();
-        openMain(mainLink, true, true);
+        const tabName = mainLink.getAttribute("data-service-tab");
+
+        openMain(mainLink, true, false);
+
+        if (tabName) {
+          pushTabUrl(tabName);
+          scrollPageTopAfterTabActivation();
+        }
       });
     });
 
     subLinks.forEach(function (subLink) {
       subLink.addEventListener("click", function (event) {
         event.preventDefault();
-        openSub(subLink, true);
+        const tabName = (subLink.getAttribute("href") || "").replace("#", "");
+
+        openSub(subLink, false);
+
+        if (tabName) {
+          pushTabUrl(tabName);
+          scrollPageTopAfterTabActivation();
+        }
       });
     });
 
     function activateInitialNestedTab(shouldScroll) {
-      const hash = window.location.hash;
+      const requestedTab = getRequestedTab();
+      const hash = requestedTab ? "#" + requestedTab : "";
 
       if (hash) {
         const matchingSubLink = document.querySelector(
@@ -596,7 +651,13 @@
         );
 
         if (matchingSubLink) {
-          openSub(matchingSubLink, shouldScroll);
+          openSub(matchingSubLink, false);
+
+          if (shouldScroll) {
+            replaceTabUrl(requestedTab);
+            scrollPageTopAfterTabActivation();
+          }
+
           return;
         }
 
@@ -608,7 +669,13 @@
         );
 
         if (matchingMainLink) {
-          openMain(matchingMainLink, false, shouldScroll);
+          openMain(matchingMainLink, false, false);
+
+          if (shouldScroll) {
+            replaceTabUrl(panelId);
+            scrollPageTopAfterTabActivation();
+          }
+
           return;
         }
       }
@@ -641,16 +708,17 @@
 
       event.preventDefault();
 
-      if (history.pushState) {
-        history.pushState(null, "", hash);
-      } else {
-        window.location.hash = hash.replace("#", "");
+      if (matchingSubLink) {
+        openSub(matchingSubLink, false);
+      } else if (matchingMainLink) {
+        openMain(matchingMainLink, false, false);
       }
 
-      activateInitialNestedTab(true);
+      pushTabUrl(hash.replace("#", ""));
+      scrollPageTopAfterTabActivation();
     });
 
-    activateInitialNestedTab(Boolean(window.location.hash));
+    activateInitialNestedTab(Boolean(getRequestedTab()));
 
     window.addEventListener("hashchange", function () {
       activateInitialNestedTab(true);

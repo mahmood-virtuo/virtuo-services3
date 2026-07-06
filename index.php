@@ -77,7 +77,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title">Build Your Business On <br />a Strong Foundation</h1>
+                                        <h1 class="title"><span style="color: var(--tg-theme-primary)">Build Your Business</span> On a Strong Foundation</h1>
                                         <p>We provide end-to-end company formation and corporate structuring solutions across the UAE, specializing in Mainland, Free Zone, and Offshore setups. From licensing and compliance to ongoing corporate support, we help businesses launch and grow with confidence.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn more <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -90,7 +90,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Navigating Government Processes, Seamlessly</h2>
+                                        <h2 class="title">Navigating <span style="color: var(--tg-theme-primary)">Government Processes</span>, Seamlessly</h2>
                                         <p>Our dedicated PRO specialists manage government approvals, document processing, labor and immigration requirements, and regulatory procedures, ensuring your business remains compliant and operational without administrative burdens.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -103,7 +103,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Your Pathway to Living<br /> and Working in the UAE</h2>
+                                        <h2 class="title">Your Pathway to <span style="color: var(--tg-theme-primary)">Living and Working</span> in the UAE</h2>
                                         <p>We offer comprehensive immigration and residency services, assisting individuals, families, and businesses with visa applications, residency permits, sponsorships, and related government procedures through a streamlined process.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -116,7 +116,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Turning Visibility into Measurable Growth</h2>
+                                        <h2 class="title">Turning Visibility into <span style="color: var(--tg-theme-primary)">Measurable Growth</span></h2>
                                         <p>We help businesses strengthen their digital presence through strategic marketing, branding, content creation, social media management, performance advertising, and lead generation campaigns designed to drive sustainable growth.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -129,7 +129,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Empowering Businesses Through Intelligent Automation</h2>
+                                        <h2 class="title"><span style="color: var(--tg-theme-primary)">Empowering Businesses</span> Through Intelligent Automation</h2>
                                         <p>Leverage the power of artificial intelligence to optimize operations, automate workflows, enhance customer experiences, and improve decision-making with tailored technology solutions built for modern businesses.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -255,30 +255,30 @@
         <!-- marquee-area -->
         
 
-        <section class="cta__area-five">
+        <section class="cta__area-five home-main-cta">
             <div class="container site-content-gutter">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-5">
                         <div class="cta__content-five">
-                            <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
+                            <h2 class="title">Start Your UAE Move With the Right Structure.</h2>
+                            <p style="color:white;">From business setup and residency to banking readiness, market entry, and relocation support, Virtuo helps entrepreneurs, investors, freelancers, and families enter the UAE with clarity.</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-7">
                         <div class="cta__content-right-two">
-                            <!-- <div class="cta__contact">
-                                <div class="icon">
-                                    <i class="flaticon-telephone"></i>
-                                </div>
-                                <div class="content">
-                                    <span>Get in touch with us </span>
-                                    <a href="tel:+971565151315">+971 56 515 1315</a>
-                                </div>
-                            </div> -->
-                            <a href="https://wa.me/971565151315" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender">Get In Touch <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                            
+                            <a href="https://wa.me/971565151315" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp">Get Expert Guidance
+                                    <img src="/assets/img/icons/right_arrow.svg" alt="" class="injectable">
+                                </a>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+            
+
+
             <div class="cta__shape-wrap-two">
                 <img src="assets/img/images/h7_cta_shape01.svg" alt="" aria-hidden="true">
                 <img src="assets/img/images/h7_cta_shape02.svg" alt="" aria-hidden="true">

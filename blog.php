@@ -21,13 +21,8 @@
     include __DIR__ . '/partials/seo.php';
     require_once __DIR__ . '/partials/blog-posts.php';
     $blogPosts = virtuo_get_blog_posts();
-    $postsPerPage = 4;
-    $totalPosts = count($blogPosts);
-    $totalPages = max(1, (int) ceil($totalPosts / $postsPerPage));
-    $currentPage = max(1, (int) ($_GET['page'] ?? 1));
-    $currentPage = min($currentPage, $totalPages);
-    $blogPostOffset = ($currentPage - 1) * $postsPerPage;
-    $pagedBlogPosts = array_slice($blogPosts, $blogPostOffset, $postsPerPage);
+    $postsPerPage = 10;
+    $pagedBlogPosts = array_slice($blogPosts, 0, $postsPerPage);
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -160,42 +155,7 @@
 
 
         <!-- blog-post-area -->
-        <section class="blog__post-area-five section-py-130">
-            <div class="container site-content-gutter">
-                <div class="row">
-                    <div class="col-70 order-0 order-lg-2">
-                        <div class="inner-blog-post-wrap">
-                            <?php foreach ($pagedBlogPosts as $blogPost) : ?>
-                                <?php include __DIR__ . '/partials/blog-post-card.php'; ?>
-                            <?php endforeach; ?>
-                        </div>
-                        <?php if ($totalPages > 1) : ?>
-                            <nav class="pagination__wrap mt-40">
-                                <ul class="list-wrap">
-                                    <?php for ($pageNumber = 1; $pageNumber <= $totalPages; $pageNumber++) : ?>
-                                        <li<?php echo $pageNumber === $currentPage ? ' class="active"' : ''; ?>>
-                                            <a href="<?php echo $pageNumber === 1 ? '/blog' : '/blog?page=' . $pageNumber; ?>"><?php echo $pageNumber; ?></a>
-                                        </li>
-                                    <?php endfor; ?>
-                                </ul>
-                            </nav>
-                        <?php endif; ?>
-                    </div>
-                    <div class="col-30 blog-sidebar-column">
-                        <aside class="blog__sidebar">
-                            <?php include __DIR__ . '/partials/blog-sidebar-categories.php'; ?>
-                            <?php include __DIR__ . '/partials/blog-sidebar-tags.php'; ?>
-                            <?php include __DIR__ . '/partials/blog-recent-posts.php'; ?>
-                        </aside>
-                        <div class="blog-sidebar-sticky-slot">
-                            <div class="blog-sidebar-sticky-inner">
-                                <?php include __DIR__ . '/partials/sidebar-consultation-form.php'; ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php include __DIR__ . '/partials/blog-listing-layout.php'; ?>
         <!-- blog-post-area-end -->
 
     </main>
@@ -204,7 +164,7 @@
     <!-- footer-area -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
-    <script src="assets/js/blog-sticky-form.js"></script>
+    <script src="/assets/js/blog-sticky-widgets.js"></script>
     <!-- footer-area-end -->
 
 </body>
