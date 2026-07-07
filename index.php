@@ -77,7 +77,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title"><span style="color: var(--tg-theme-primary)">Build Your Business</span> On a Strong Foundation</h1>
+                                        <h1 class="title">Build Your Business On a <span style="color: var(--tg-theme-primary)">Strong Foundation</span></h1>
                                         <p>We provide end-to-end company formation and corporate structuring solutions across the UAE, specializing in Mainland, Free Zone, and Offshore setups. From licensing and compliance to ongoing corporate support, we help businesses launch and grow with confidence.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn more <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -103,7 +103,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Your Pathway to <span style="color: var(--tg-theme-primary)">Living and Working</span> in the UAE</h2>
+                                        <h2 class="title">Your <span style="color: var(--tg-theme-primary)">Pathway to Living and Working</span> in the UAE</h2>
                                         <p>We offer comprehensive immigration and residency services, assisting individuals, families, and businesses with visa applications, residency permits, sponsorships, and related government procedures through a streamlined process.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -129,7 +129,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title"><span style="color: var(--tg-theme-primary)">Empowering Businesses</span> Through Intelligent Automation</h2>
+                                        <h2 class="title">Empowering Businesses Through <span style="color: var(--tg-theme-primary)">Intelligent Automation</span></h2>
                                         <p>Leverage the power of artificial intelligence to optimize operations, automate workflows, enhance customer experiences, and improve decision-making with tailored technology solutions built for modern businesses.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -159,7 +159,7 @@
         <!-- 2nd section -->
 
         <section id="home-about" class="about__area-four section-py-130">
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-10 order-0 order-lg-2">
                         <div class="about__img-four">
@@ -246,7 +246,7 @@
         
 
         <section class="cta__area-five home-main-cta">
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-5">
                         <div class="cta__content-five">
@@ -286,7 +286,7 @@
         <!-- choose-area -->
 
         <section class="choose__area-five section-py-130">
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-9">
                         <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
@@ -338,8 +338,13 @@
         <!-- choose-area-end -->
 
         <!-- services-area -->
-        <section class=" section-py-130" style="background-color: url(/assets/img/services/footerBackgroundImage.jgp); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.jpg">
-            <div class="container site-content-gutter">
+        <!-- <section class=" section-py-130" style="background-color: url(/assets/img/services/footerBackgroundImage.jgp); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.jpg"> -->
+            <section
+  class="section-py-130 home-services-section"
+  style="background-repeat: no-repeat; background-size: cover; background-image: url('assets/img/images/virtuo-footer-gradient.jpg');"
+  data-background="assets/img/images/virtuo-footer-gradient.jpg"
+>
+            <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-8">
                         <div class="section__title white-title text-center mb-50">
@@ -353,7 +358,6 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="itemOne-tab" data-bs-toggle="tab" data-bs-target="#itemOne-tab-pane" type="button" role="tab" aria-controls="itemOne-tab-pane" aria-selected="true">
                                 <span class="content__left">
-                                    <!-- <i class="flaticon-money-1"></i> -->
                                     <strong>UAE Business Formation, <br>Structuring & Compliance</strong>
                                 </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
@@ -364,7 +368,6 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="itemTwo-tab" data-bs-toggle="tab" data-bs-target="#itemTwo-tab-pane" type="button" role="tab" aria-controls="itemTwo-tab-pane" aria-selected="false">
                                 <span class="content__left">
-                                    <!-- <i class="flaticon-accountant"></i> -->
                                     <strong>Government Relations<br /> & PRO Services</strong>
                                 </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
@@ -375,7 +378,6 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="itemThree-tab" data-bs-toggle="tab" data-bs-target="#itemThree-tab-pane" type="button" role="tab" aria-controls="itemThree-tab-pane" aria-selected="false">
                                 <span class="content__left">
-                                    <!-- <i class="flaticon-personal"></i> -->
                                     <strong>Immigration & Residency<br /> Solutions</strong>
                                 </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
@@ -386,7 +388,6 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="itemFour-tab" data-bs-toggle="tab" data-bs-target="#itemFour-tab-pane" type="button" role="tab" aria-controls="itemFour-tab-pane" aria-selected="false">
                                 <span class="content__left">
-                                    <!-- <i class="flaticon-live-chat"></i> -->
                                     <strong>Digital Marketing &<br /> Brand Development</strong>
                                 </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
@@ -397,7 +398,6 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="itemFive-tab" data-bs-toggle="tab" data-bs-target="#itemFive-tab-pane" type="button" role="tab" aria-controls="itemFive-tab-pane" aria-selected="false">
                                 <span class="content__left">
-                                    <!-- <i class="flaticon-money"></i> -->
                                     <strong>AI Automation & Technology<br /> Solutions</strong>
                                 </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14" fill="none">
@@ -472,7 +472,6 @@
             </div>
         </section>
         <!-- services-area-end -->
-
         <!-- marquee-area -->
         <section class="marquee__area home-core-services-marquee">
             <div class="slider__marquee clearfix marquee-wrap">
@@ -545,86 +544,14 @@
                 </div>
             </div>
         </section>
-        <!-- marquee-area-end -->
-
-        <!-- team-area -->
-        
-
-        <!-- team-area-end -->
-
-
-        <!-- cta-area -->
-        <!-- <section class="cta__area-five">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-5">
-                        <div class="cta__content-five">
-                            <h2 class="title">Unlock Business Potential with Virtuo’s All-in-One Expert Services</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="cta__content-right-two">
-                            <div class="cta__contact">
-                                <div class="icon">
-                                    <i class="flaticon-telephone"></i>
-                                </div>
-                                <div class="content">
-                                    <span>Get in touch with us </span>
-                                    <a href="tel:+971565151315">+971 56 515 1315</a>
-                                </div>
-                            </div>
-                            <a href="services.php" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender">Take Our Service <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cta__shape-wrap-two">
-                <img src="assets/img/images/h7_cta_shape01.svg" alt="" aria-hidden="true">
-                <img src="assets/img/images/h7_cta_shape02.svg" alt="" aria-hidden="true">
-            </div>
-        </section> -->
+       
         <!-- cta-area-end -->
         
-        <!-- 6th section -->
-
-        <section id="home-about" class="about__area-four section-py-130">
-            <div class="container site-content-gutter">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-6 col-md-10 order-0 ">
-                        <div class="about__img-four">
-                            <div >
-                                <div class="about__images">
-                                <img src="assets/img/images/entrepreneurs.jpg" alt="About Img01" loading="lazy" decoding="async">
-                                
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about__content-four">
-                            <div class="section__title mb-20">
-                                <h2 class="title">Built for Entrepreneurs.<br/>Designed for the UAE.</h2>
-                            </div>
-                            <p>Virtuo is built for people who are ready to move with purpose.</p>
-
-                            <p>Whether you are starting your first UAE company, expanding your existing business, relocating from America, applying for residency, building a local presence, or preparing your brand for growth, Virtuo helps you take the next step with clarity.</p>
-                            <p>Your UAE move starts with the right structure.</p>
-                            <p>Virtuo helps you build it.</p>
-                            <p>
-                                <b>One Team. One Relationship. Every Solution Under One Roof.</b>
-                            </p>
-                            <a href="/contact" class="tg-btn tg-btn-three"> Build With Virtuo <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 6th Section Ends -->
+        <?php include __DIR__ . '/partials/sections/built-entrepreneurs.php'; ?>
 
         <!-- blog-post-area -->
         <section class="blog__post-area-six section-py-130">
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8">
                         <div class="section__title text-center mb-50">
@@ -659,73 +586,11 @@
                 </div>
             </div>
         </section>
-        <!-- blog-post-area-end -->
-
-
-
-        <!-- call-back-area -->
-        <!-- <section class="call__back-area-two" style="margin-bottom: -212px; z-index: 100; position: relative;">
-            <div class="container">
-                <div class="call__back-wrap-two">
-                    <div class="row  align-items-center">
-                        <div class="col-lg-6">
-                            <div class="call__back-content-two">
-                                <div class="section__title white-title mb-15">
-                                    <h2 class="title">Get free marketing consultation today</h2>
-                                </div>
-                                <p>Vestibulum lectus mauris ultrices eros in. Cursus sit amet dictum sit amet. Adipiscing.</p>
-                                <a href="/contact" class="tg-btn tg-border-btn">Contact With Us <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <form action="#" class="call__back-form-two">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-grp">
-                                            <input type="text" placeholder="Name *">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-grp">
-                                            <input type="email" placeholder="E-mail *">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-grp">
-                                            <input type="number" placeholder="Phone *">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-grp">
-                                            <input type="text" placeholder="Service">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-grp">
-                                    <textarea name="comment" placeholder="Comments"></textarea>
-                                </div>
-                                <button type="submit">Submit Now</button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="call__back-shape-two">
-                        <img src="assets/img/images/h2_call_back_shape01.svg" alt="" aria-hidden="true">
-                        <img src="assets/img/images/h2_call_back_shape02.svg" alt="" aria-hidden="true">
-                        <img src="assets/img/images/h2_call_back_shape03.svg" alt="" aria-hidden="true">
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- call-back-area-end -->
-
-        <!-- cta-area -->
         
-        <!-- cta-area-end -->
 
 
     </div>
     <!-- </main> -->
-    <!-- main-area-end -->
 
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>

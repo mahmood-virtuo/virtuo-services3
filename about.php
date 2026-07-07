@@ -146,31 +146,13 @@
 
 
         <!-- about-area -->
-        <section class="about__area section-py-130">
-            <div class="container site-content-gutter custom-container">
-                <div class="row align-items-center justify-content-center">
+        <section class="about__area section-py-130 about-intro-section">
+            <div class="container site-content-gutter custom-container about-page-container">
+                <div class="row align-items-center justify-content-center about-split-row">
                     <div class="col-lg-6 col-md-9">
                         <div class="about__img-wrap">
-                            <div class="about__images">
+                            <div>
                                 <img src="assets/img/images/about_img01.jpg" alt="About Img01" loading="lazy" decoding="async">
-                                <!-- <img src="assets/img/images/about_img02.jpg" alt="About Img02" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async" width="357" height="228"> -->
-                            </div>
-                            <!-- <div class="experience__wrap" data-aos="fade-left" data-aos-delay="200">
-                                <h2 class="count">25+</h2>
-                                <span>Of Experience <br> in This Field</span>
-                            </div> -->
-                            <!-- <div class="profit__wrap" data-parallax='{"x" : 50 }'>
-                                <div class="thumb">
-                                    <img src="assets/img/images/profit_grap.svg" alt="Profit Grap">
-                                </div>
-                                <div class="content">
-                                    <h5 class="title">98% Profit</h5>
-                                    <span>Earning This Year</span>
-                                </div>
-                            </div> -->
-                            <div class="shape">
-                                <!-- <img src="assets/img/images/about_shape01.svg" alt="" aria-hidden="true" data-aos="fade-up-right" data-aos-delay="600"> -->
-                                <!-- <img src="assets/img/images/about_shape02.svg" alt="" aria-hidden="true" class="alltuchtopdown"> -->
                             </div>
                         </div>
                     </div>
@@ -197,23 +179,24 @@
 
         <!-- about-mission-vision-area -->
         <section class="about-mission-vision">
-            <div class="container site-content-gutter custom-container">
+            <div class="container site-content-gutter custom-container about-page-container">
                 <div class="about-mv-grid">
+
+                    <article class="about-mv-card about-mv-card--vision" data-background="assets/img/images/our_mission.jpg">
+                        <div class="about-mv-card__content">
+                            <h2 class="about-mv-card__title">Our Vision</h2>
+                            <div class="about-mv-card__text">
+                                <p>To become the trusted UAE market-entry partner for global entrepreneurs, helping them launch and structure their businesses with confidence.</p>
+                                <p>We aim to empower businesses to relocate, grow, and succeed in one of the world's most forward-looking economies.</p>
+                            </div>
+                        </div>
+                    </article>
                     <article class="about-mv-card about-mv-card--mission" data-background="assets/img/images/our_mission.jpg">
                         <div class="about-mv-card__content">
                             <h2 class="about-mv-card__title">Our Mission</h2>
                             <div class="about-mv-card__text">
                                 <p>Our mission is to make business setup, residency, and market entry in the UAE simpler, smarter, and more strategic for entrepreneurs, investors, and families.</p>
                                 <p>We believe entering the UAE should not be overwhelming. With the right guidance, it can become one of the most important moves for your business, your wealth, and your future.</p>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="about-mv-card about-mv-card--vision" data-background="assets/img/images/our_vision.jpg">
-                        <div class="about-mv-card__content">
-                            <h2 class="about-mv-card__title">Our Vision</h2>
-                            <div class="about-mv-card__text">
-                                <p>To become the trusted UAE market-entry partner for global entrepreneurs, helping them launch and structure their businesses with confidence.</p>
-                                <p>We aim to empower businesses to relocate, grow, and succeed in one of the world's most forward-looking economies.</p>
                             </div>
                         </div>
                     </article>
@@ -224,7 +207,7 @@
 
         <!-- about-story-area -->
         <section class="about-story-section">
-            <div class="container site-content-gutter custom-container">
+            <div class="container site-content-gutter custom-container about-page-container">
                 <div class="about-story-layout">
                     <div class="about-story-content">
                         <span class="about-story-label">OUR STORY</span>
@@ -232,8 +215,9 @@
                         <p>After years of building and exiting businesses in the American wireless industry and IT Asset Disposition space, our founder brought that real-world entrepreneurial experience to the UAE. Virtuo was built to help other founders avoid confusion, reduce delays, and make smarter decisions when entering one of the most dynamic markets in the world.</p>
                         <p>We understand the pressure of launching, relocating, opening bank accounts, building a brand, hiring support, and staying compliant. That is why our approach is built around clear advice, efficient execution, and long-term business readiness.</p>
                     </div>
-                    <div class="about-story-image-wrap">
-                        <img src="/assets/img/about/about-story-dubai-office.jpg" alt="Dubai business setup desk with Virtuo branding and skyline view" loading="lazy" decoding="async" width="1526" height="567">
+                    <!-- <div class="about-story-image-wrap"> -->
+                    <div>
+                        <img src="/assets/img/about/about-story-dubai-office.png" alt="Dubai business setup desk with Virtuo branding and skyline view" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -246,13 +230,13 @@
 
         <!-- 6th section -->
 
-        <section id="home-about" class="about__area-four section-py-130">
-            <div class="container site-content-gutter custom-container">
-                <div class="row align-items-center justify-content-center">
+        <section id="home-about" class="about__area-four section-py-130 about-services-section">
+            <div class="container site-content-gutter custom-container about-page-container">
+                <div class="row align-items-center justify-content-center about-split-row">
                     <div class="col-lg-6 col-md-10 order-0 ">
                         <div class="about__img-four">
                             <div >
-                                <div class="about__images">
+                                <div>
                                 <img src="assets/img/images/virtuo_icon_about.jpg" alt="About Img01" loading="lazy" decoding="async">
                                 
                             </div>
@@ -288,7 +272,7 @@
 
         <!-- ------7th Section------- -->
         <section class="cta__area-five home-main-cta">
-            <div class="container site-content-gutter custom-container">
+            <div class="container site-content-gutter custom-container about-page-container">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-5">
                         <div class="cta__content-five">
@@ -319,21 +303,19 @@
         <!-------7th Section Ends---- -->
         <!-- choose-area -->
 
-        <section class="choose__area-five section-py-130">
-            <div class="container site-content-gutter custom-container">
-                <div class="row align-items-center justify-content-between">
+        <section class="choose__area-five section-py-130 about-why-virtuo-section">
+            <div class="container site-content-gutter custom-container about-page-container">
+                <div class="row align-items-center justify-content-between about-split-row">
 
                     <div class="col-lg-6">
-                        <div class="choose__content-five" style="max-width: auto; margin-left: -21px;">
+                        <div class="choose__content-five about-why-virtuo-content">
                             <div class="section__title mb-15">
                                 <h2 class="title">Why Virtuo</h2>
                             </div>
                             <p>Virtuo combines business setup expertise, PRO support, residency guidance, digital growth, and AI solutions in one integrated platform.</p>
                             <p>Clients choose Virtuo because we focus on more than forming a company. We focus on helping you build the right foundation.</p>
                             <p>We look at your goals, your business model, your banking needs, your visa requirements, your family situation, your market entry plan, and your long-term growth strategy. Then we help you move forward with a structure that makes sense.</p>
-                            <p>Our approach is clear, professional, and practical.</p>
-                            <p>No unnecessary complications. No generic advice. No confusing process.</p>
-                            <p>Just the right guidance, the right setup, and the right support to help you build in the UAE with confidence.</p>
+                            <p>Our approach is clear, professional, and practical.No unnecessary complications. No generic advice. No confusing process.Just the right guidance, the right setup, and the right support to help you build in the UAE with confidence.</p>
                         </div>
                     </div>
 <div class="col-lg-5 col-md-9">
@@ -371,7 +353,7 @@
         <!-- marquee-area-end -->
 
         <section class="virtuo-team section-py-130" aria-labelledby="virtuo-team-title">
-            <div class="container site-content-gutter custom-container">
+            <div class="container site-content-gutter custom-container about-page-container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section__title text-center mb-50">
@@ -558,39 +540,7 @@
         <!-- marquee-area-end -->
 
         <!-- brand-area-end -->
-         <!-- 6th section -->
-
-        <section id="home-about" class="about__area-four section-py-130">
-            <div class="container site-content-gutter custom-container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-6 col-md-10 order-0 ">
-                        <div class="about__img-four">
-                            <div >
-                                <div class="about__images">
-                                <img src="assets/img/images/entrepreneurs.jpg" alt="About Img01" loading="lazy" decoding="async">
-                                
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about__content-four">
-                            <div class="section__title mb-20">
-                                <h2 class="title">Built for Entrepreneurs.<br/>Designed for the UAE.</h2>
-                            </div>
-                            <p>Virtuo is built for people who are ready to move with purpose.</p> 
-                            <br/>
-                            <p>Whether you are starting your first UAE company, expanding your existing business, relocating from America, applying for residency, building a local presence, or preparing your brand for growth, Virtuo helps you take the next step with clarity.</p><br/>
-                            <p>Your UAE move starts with the right structure.</p><br/>
-                            <p>Virtuo helps you build it.</p>
-                            <a href="/contact" class="tg-btn tg-btn-three"> Build With Virtuo <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 6th Section Ends -->
+        <?php include __DIR__ . '/partials/sections/built-entrepreneurs.php'; ?>
 
     </main>
     <!-- main-area-end -->
