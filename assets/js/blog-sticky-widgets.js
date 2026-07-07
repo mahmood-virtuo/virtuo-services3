@@ -55,6 +55,7 @@
 
     var layout = pageConfig.layout;
     var boundaryElement = pageConfig.boundary || layout;
+    var bottomGap = 40;
     var widgets = pageConfig.widgets.filter(function (item) {
       return item.slot && item.inner;
     });
@@ -77,6 +78,7 @@
       item.inner.style.maxWidth = "";
       item.inner.style.maxHeight = "";
       item.inner.style.minHeight = "";
+      item.inner.style.height = "";
       item.inner.style.overflow = "";
       item.inner.style.zIndex = "";
       item.inner.style.boxSizing = "";
@@ -84,6 +86,7 @@
       item.slot.style.minHeight = "";
       item.slot.style.position = "";
       item.slot.style.overflow = "";
+      item.slot.style.boxSizing = "";
     }
 
     function isInRange(item) {
@@ -95,13 +98,40 @@
       return true;
     }
 
+    function getNextBoundaryTop(scrollY) {
+      var boundaryCandidates = [
+        ".footer-main-cta",
+        ".cta__area-two",
+        "footer",
+        ".footer__area",
+      ];
+      var boundaryRect = boundaryElement.getBoundingClientRect();
+      var boundaryBottom = boundaryRect.top + scrollY + boundaryElement.offsetHeight;
+
+      for (var i = 0; i < boundaryCandidates.length; i += 1) {
+        var candidate = document.querySelector(boundaryCandidates[i]);
+
+        if (!candidate) continue;
+
+        var candidateTop = candidate.getBoundingClientRect().top + scrollY;
+
+        if (candidateTop > boundaryRect.top + scrollY && candidateTop < boundaryBottom + 400) {
+          return candidateTop;
+        }
+      }
+
+      return boundaryBottom;
+    }
+
     function getBoundaryRect(scrollY) {
       var boundary = boundaryElement || layout;
       var rect = boundary.getBoundingClientRect();
+      var sectionBottom = rect.top + scrollY + boundary.offsetHeight;
+      var stopBottom = Math.min(sectionBottom, getNextBoundaryTop(scrollY));
 
       return {
         top: rect.top + scrollY,
-        bottom: rect.top + scrollY + boundary.offsetHeight,
+        bottom: stopBottom,
       };
     }
 
@@ -119,20 +149,21 @@
       var slotTop = slotRect.top + scrollY;
       var innerHeight = item.inner.offsetHeight;
       var boundary = getBoundaryRect(scrollY);
-      var stopPoint = boundary.bottom - innerHeight - offset;
+      var stopPoint = boundary.bottom - bottomGap - innerHeight - offset;
 
       item.slot.style.position = "relative";
       item.slot.style.minHeight = innerHeight + "px";
+      item.slot.style.boxSizing = "border-box";
 
       if (scrollY + offset < slotTop) return;
 
-      if (scrollY > stopPoint) {
+      if (scrollY >= stopPoint) {
         item.inner.style.position = "absolute";
         item.inner.style.top =
-          Math.max(0, boundary.bottom - slotTop - innerHeight) + "px";
+          Math.max(0, boundary.bottom - bottomGap - slotTop - innerHeight) + "px";
         item.inner.style.left = "0";
-        item.inner.style.width = "100%";
-        item.inner.style.maxWidth = "100%";
+        item.inner.style.width = slotRect.width + "px";
+        item.inner.style.maxWidth = slotRect.width + "px";
         item.inner.style.zIndex = "3";
         item.inner.style.boxSizing = "border-box";
         return;

@@ -4,11 +4,7 @@
   function getResponsiveBackground(element) {
     var mobileBackground = element.getAttribute("data-lazy-background-mobile");
 
-    if (
-      mobileBackground &&
-      window.matchMedia &&
-      window.matchMedia("(max-width: 767px)").matches
-    ) {
+    if (mobileBackground && window.matchMedia && window.matchMedia("(max-width: 767px)").matches) {
       return mobileBackground;
     }
 

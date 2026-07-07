@@ -169,20 +169,10 @@
                             <div class="shape">
                                 <img src="assets/img/images/h4_about_shape.svg" alt="" aria-hidden="true" class="alltuchtopdown">
                             </div>
-                            <!-- <div class="author__wrap-two"> -->
-                            <!-- <div class="thumb">
-                                    <img src="assets/img/images/author_img02.jpg" alt="Author Img02" loading="lazy" decoding="async" width="77" height="76">
-                                </div>
-                                <div class="content">
-                                    <img src="assets/img/images/author_sign.png" alt="Author Sign" loading="lazy" decoding="async" width="139" height="31">
-                                    <h6 class="title">Jonaid Ali <span>, CEO</span></h6>
-                                </div> -->
 
                             <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -291px; top:-159px;">
                                 <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
-                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="29" height="27" viewBox="0 0 29 27" fill="none">
-                                <path d="M1.24669 25.5326L27.3173 2.42458M27.3173 2.42458L14.9937 1.68215M27.3173 2.42458L26.5748 14.7481" stroke="currentColor" stroke-width="2.18247" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg> -->
+                                    
                                     <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" style="rotate: 25deg;" />
                                 </div>
                                 <div class="content">
@@ -213,11 +203,11 @@
                             </p>
 
                             <p style="
-    margin-top: 10px;
-    margin-bottom: 20px !important;
-    color: #ee4c01;
-    text-transform: uppercase;
-  ">
+                                   margin-top: 10px;
+                                   margin-bottom: 20px !important;
+                                   color: #ee4c01;
+                                   text-transform: uppercase;
+                            ">
                                 That's why Virtuo was built differently.
                             </p>
 
@@ -267,7 +257,7 @@
                     <div class="col-xl-6 col-lg-7">
                         <div class="cta__content-right-two">
                             
-                            <a href="https://wa.me/971565151315" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp">Get Expert Guidance
+                            <a href="https://wa.me/971565151315" class="tg-btn tg-btn-four tg-btn-six tg-btn-lavender-2nd" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp">Get Expert Guidance
                                     <img src="/assets/img/icons/right_arrow.svg" alt="" class="injectable">
                                 </a>
                         </div>
@@ -300,20 +290,11 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-9">
                         <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
-                            <img src="assets/img/images/h8_choose_img.jpg" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
-                            <!-- <img src="assets/img/images/h8_choose_shape.svg" alt="shape" class="shape"> -->
-                            <!-- <div class="chart__wrap" data-aos="fade-up" data-aos-delay="400"> -->
-                            <!-- <div class="content">
-                            <span>Profitability</span>
-                            <h2 class="count">59%</h2>
-                        </div> -->
-                            <!-- <img src="assets/img/images/chart.svg" alt="shape"> -->
-                            <!-- </div> -->
+                            <img src="assets/img/images//about_virtuo_eye.jpg" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
+                            
                             <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -80px; top:-63px;">
                                 <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
-                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="29" height="27" viewBox="0 0 29 27" fill="none">
-                                <path d="M1.24669 25.5326L27.3173 2.42458M27.3173 2.42458L14.9937 1.68215M27.3173 2.42458L26.5748 14.7481" stroke="currentColor" stroke-width="2.18247" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg> -->
+                                    
                                     <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" style="rotate: 25deg;" />
                                 </div>
                                 <div class="content">
@@ -603,6 +584,43 @@
             </div>
         </section> -->
         <!-- cta-area-end -->
+        
+        <!-- 6th section -->
+
+        <section id="home-about" class="about__area-four section-py-130">
+            <div class="container site-content-gutter">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-10 order-0 ">
+                        <div class="about__img-four">
+                            <div >
+                                <div class="about__images">
+                                <img src="assets/img/images/entrepreneurs.jpg" alt="About Img01" loading="lazy" decoding="async">
+                                
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about__content-four">
+                            <div class="section__title mb-20">
+                                <h2 class="title">Built for Entrepreneurs.<br/>Designed for the UAE.</h2>
+                            </div>
+                            <p>Virtuo is built for people who are ready to move with purpose.</p>
+
+                            <p>Whether you are starting your first UAE company, expanding your existing business, relocating from America, applying for residency, building a local presence, or preparing your brand for growth, Virtuo helps you take the next step with clarity.</p>
+                            <p>Your UAE move starts with the right structure.</p>
+                            <p>Virtuo helps you build it.</p>
+                            <p>
+                                <b>One Team. One Relationship. Every Solution Under One Roof.</b>
+                            </p>
+                            <a href="/contact" class="tg-btn tg-btn-three"> Build With Virtuo <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6th Section Ends -->
 
         <!-- blog-post-area -->
         <section class="blog__post-area-six section-py-130">
