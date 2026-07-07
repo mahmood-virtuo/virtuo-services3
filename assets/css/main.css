@@ -22713,7 +22713,7 @@ blockquote cite {
   padding: clamp(70px, 7vw, 80px) 0 40px;
 }
 .contact-figma-panel {
-  background: linear-gradient(120deg, #14489b 0%, #09194e 100%);
+  /* background: linear-gradient(120deg, #14489b 0%, #09194e 100%); */
   border-radius: 20px;
   overflow: hidden;
   padding: clamp(20px, 3vw, 30px);
@@ -22736,7 +22736,7 @@ blockquote cite {
   margin-bottom: 22px;
 }
 .contact-figma-copy {
-  color: rgba(255, 255, 255, 0.86);
+  color: black;
   font-family: var(--tg-body-font-family);
   font-size: var(--tg-body-font-size);
   line-height: var(--tg-body-line-height);
@@ -22753,7 +22753,7 @@ blockquote cite {
   grid-template-columns: 42px minmax(0, 1fr);
   gap: 14px;
   align-items: center;
-  color: var(--tg-color-white-default);
+  color: black;
   font-family: var(--tg-body-font-family);
   font-size: var(--tg-body-font-size);
   line-height: var(--tg-body-line-height);
@@ -22776,7 +22776,7 @@ blockquote cite {
 }
 .contact-figma-section .footer-reference-left__social {
   flex-wrap: wrap;
-  color: var(--tg-color-white-default);
+  color: black;
   line-height: 3;
 }
 .contact-figma-section .footer-reference-left__social a {
@@ -32780,6 +32780,216 @@ body.about-page .about-page-container {
   /* background: linear-gradient(90deg, #09194e 0%, #175ab1 100%); */
 }
 /* ------------Second Banner Button Ends-------------- */
+
+/* ---------- Contact Page FAQ ---------- */
+body.contact-page .contact-faq-area {
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+body.contact-page .contact-faq-area .contact-faq-area__header {
+  text-align: center;
+  max-width: 980px;
+  margin: 0 auto 62px;
+}
+
+body.contact-page .contact-faq-area .contact-faq-area__title {
+  color: var(--tg-theme-primary);
+  font-size: clamp(42px, 4.6vw, 26px);
+  line-height: 1.05;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: 0;
+}
+
+body.contact-page .contact-faq-area .contact-faq-area__subtitle {
+  max-width: 760px;
+  margin: 0 auto;
+  color: var(--tg-heading-color);
+  font-size: clamp(18px, 1.45vw, 16px);
+  line-height: 1.45;
+}
+
+body.contact-page .contact-faq-area .contact-faq-area__wrap {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+body.contact-page .contact-faq-area .contact-faq-accordion {
+  display: grid;
+  gap: 30px;
+}
+
+body.contact-page .contact-faq-area .accordion-item {
+  background: #f4f4f4;
+  border: 0;
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+body.contact-page .contact-faq-area .accordion-button {
+  width: 100%;
+  min-height: 112px;
+  padding: 32px 92px 32px 72px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: var(--tg-heading-color);
+  font-size: clamp(25px, 2vw, 25px);
+  line-height: 1.22;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0;
+}
+
+body.contact-page .contact-faq-area .accordion-button:not(.collapsed) {
+  color: var(--tg-theme-primary);
+  background: transparent;
+  box-shadow: none;
+  font-weight: 700;
+  padding-bottom: 22px;
+}
+
+body.contact-page .contact-faq-area .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+body.contact-page .contact-faq-area .accordion-button span {
+  display: block;
+  max-width: 1180px;
+}
+
+body.contact-page .contact-faq-area .accordion-button::after {
+  position: absolute;
+  right: 62px;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-image: none;
+  border-right: 5px solid currentColor;
+  border-bottom: 5px solid currentColor;
+  transform: translateY(-62%) rotate(45deg);
+  transform-origin: center;
+}
+
+body.contact-page .contact-faq-area .accordion-button:not(.collapsed)::after {
+  transform: translateY(-35%) rotate(225deg);
+}
+
+body.contact-page .contact-faq-area .accordion-body {
+  max-width: 1210px;
+  padding: 0 92px 38px 72px;
+  color: var(--tg-heading-color);
+  font-size: clamp(18px, 1.35vw, 16px);
+  line-height: 1.45;
+}
+
+@media (max-width: 1199.98px) {
+  body.contact-page .contact-faq-area {
+    padding: 84px 0;
+  }
+
+  body.contact-page .contact-faq-area .contact-faq-area__header {
+    margin-bottom: 48px;
+  }
+
+  body.contact-page .contact-faq-area .contact-faq-accordion {
+    gap: 24px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-button {
+    min-height: 96px;
+    padding: 28px 78px 28px 48px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-button::after {
+    right: 46px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-body {
+    padding: 0 78px 34px 48px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.contact-page .contact-faq-area {
+    padding: 68px 0;
+  }
+
+  body.contact-page .contact-faq-area .contact-faq-area__header {
+    margin-bottom: 36px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-item {
+    border-radius: 20px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-button {
+    min-height: 78px;
+    padding: 22px 58px 22px 24px;
+    font-size: clamp(19px, 5vw, 28px);
+  }
+
+  body.contact-page .contact-faq-area .accordion-button:not(.collapsed) {
+    padding-bottom: 14px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-button::after {
+    right: 26px;
+    width: 12px;
+    height: 12px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-body {
+    padding: 0 24px 28px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.contact-page .contact-faq-area {
+    padding: 56px 0;
+  }
+
+  body.contact-page .contact-faq-area .contact-faq-area__title {
+    font-size: clamp(34px, 10vw, 26px);
+  }
+
+  body.contact-page .contact-faq-area .contact-faq-area__subtitle {
+    font-size: 16px;
+  }
+
+  body.contact-page .contact-faq-area .contact-faq-accordion {
+    gap: 18px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-item {
+    border-radius: 16px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-button {
+    min-height: 70px;
+    padding: 18px 48px 18px 18px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-button::after {
+    right: 20px;
+    width: 12px;
+    height: 12px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+  }
+
+  body.contact-page .contact-faq-area .accordion-body {
+    padding: 0 18px 24px;
+    font-size: 16px;
+  }
+}
+
 /* Home page - Core Services equal height layout fix */
 @media (min-width: 992px) {
   body.home-page .home-services-section .services__item-wrap-two {
@@ -32991,5 +33201,266 @@ body.about-page .about-page-container {
   body.home-page .home-services-section .services__thumb-seven img {
     width: 100%;
     object-fit: cover;
+  }
+}
+/* Main body containers: 20px narrower than header */
+@media (min-width: 1501px) {
+  .main-area .container.custom-container {
+    max-width: 1670px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .main-area .container.custom-container {
+    max-width: 1310px;
+  }
+}
+body.blog-details-page .blog-details-sidebar-stack .sidebar__widget,
+body.blog-details-page .blog-details-right-sticky-inner .sidebar__widget,
+body.blog-details-page .blog-details-right-sticky-inner .sidebar__contact,
+body.blog-details-page .blog-sidebar-form-sticky-slot {
+  margin-left: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+body.blog-details-page .blog-details-right-sticky-inner {
+  margin-left: 0 !important;
+  box-sizing: border-box;
+}
+/* -----------Blog Details Page Form Sticky Fix------------ */
+/* @media (min-width: 992px) and (max-width: 1650px) {
+  body.blog-details-page .blog-details-sidebar-stack .sidebar__widget,
+  body.blog-details-page .blog-details-right-sticky-inner,
+  body.blog-details-page .blog-details-right-sticky-inner .sidebar__widget,
+  body.blog-details-page .blog-details-right-sticky-inner .sidebar__contact,
+  body.blog-details-page .blog-sidebar-form-sticky-slot {
+    width: 320px !important;
+  }
+} */
+/* -----------Blog Details Page Form Sticky Width Fix------------ */
+@media (min-width: 992px) and (max-width: 1650px) {
+  body.blog-details-page #blog-detail-content .blog-details-right-sticky-inner,
+  body.blog-details-page
+    #blog-detail-content
+    .blog-details-right-sticky-inner
+    .blog-sidebar-sticky-form,
+  body.blog-details-page #blog-detail-content .blog-details-right-sticky-inner .sidebar__contact {
+    width: 320px !important;
+    max-width: 320px !important;
+    box-sizing: border-box !important;
+  }
+
+  body.blog-details-page #blog-detail-content .blog-details-right-sticky-inner .estimate-form-wrap,
+  body.blog-details-page #blog-detail-content .blog-details-right-sticky-inner form {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+/* ---------- Footer mid-desktop right column overflow fix ---------- */
+@media (min-width: 1500.02px) and (max-width: 1650px) {
+  .footer__area-two.footer__area-five .footer-reference-container {
+    width: calc(100% - 48px) !important;
+    max-width: 1602px !important;
+    box-sizing: border-box !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .footer__area-two.footer__area-five .footer__top-two > .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .footer__area-two.footer__area-five .footer__top-two > .row > .col-xl-4,
+  .footer__area-two.footer__area-five .footer__top-two > .row > .col-lg-4 {
+    min-width: 0 !important;
+  }
+
+  .footer__area-two.footer__area-five .footer-reference-form-panel,
+  .footer__area-two.footer__area-five .estimate__tab-wrap {
+    width: 100% !important;
+    max-width: 460px !important;
+    box-sizing: border-box !important;
+    margin-left: 0 !important;
+  }
+}
+
+/* ---------- Contact Page Figma Missing Elements ---------- */
+body.contact-page .contact-figma-section .contact-figma-report-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  max-width: 610px;
+  margin-top: 46px;
+  padding: 30px 34px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #ff4b00 0%, #d94100 100%);
+  color: var(--tg-color-white-default);
+  overflow: hidden;
+}
+
+body.contact-page .contact-figma-section .contact-figma-report-card__text {
+  min-width: 0;
+}
+
+body.contact-page .contact-figma-section .contact-figma-report-card__text h3 {
+  color: var(--tg-color-white-default);
+  font-size: clamp(22px, 1.8vw, 22px);
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+body.contact-page .contact-figma-section .contact-figma-report-card__text p {
+  color: var(--tg-color-white-default);
+  font-size: clamp(16px, 1.2vw, 16px);
+  line-height: 1.35;
+  margin-bottom: 0;
+}
+
+body.contact-page .contact-figma-section .contact-figma-form-card {
+  border: 20px solid #14489b;
+  border-radius: 34px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1199.98px) {
+  body.contact-page .contact-figma-section .contact-figma-report-card {
+    margin-top: 38px;
+    padding: 26px 28px;
+  }
+
+  body.contact-page .contact-figma-section .contact-figma-form-card {
+    border-width: 16px;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.contact-page .contact-figma-section .contact-figma-report-card {
+    gap: 18px;
+    margin-top: 32px;
+    padding: 24px;
+    border-radius: 20px;
+  }
+
+  body.contact-page .contact-figma-section .contact-figma-form-card {
+    border-width: 12px;
+    border-radius: 26px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.contact-page .contact-figma-section .contact-figma-report-card {
+    align-items: flex-start;
+    padding: 22px;
+  }
+
+  body.contact-page .contact-figma-section .contact-figma-form-card {
+    border-width: 10px;
+    border-radius: 22px;
+  }
+}
+/* ---------- Contact Page Map Fix Only ---------- */
+body.contact-page .contact-map-section {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  background: #e9e9e9;
+  position: relative;
+  z-index: 1;
+}
+
+body.contact-page .contact-map {
+  width: 100%;
+  height: clamp(360px, 32vw, 560px);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #e9e9e9;
+}
+
+body.contact-page .contact-map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: grayscale(100%) contrast(0.9) brightness(1.05);
+  mix-blend-mode: normal;
+  pointer-events: none;
+}
+/* Report card SVG icon - use actual SVG without extra circle */
+body.contact-page .contact-figma-section .contact-figma-report-card__icon {
+  flex: 0 0 86px;
+  width: 86px;
+  height: 86px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0 !important;
+  border-radius: 0 !important;
+  color: var(--tg-color-white-default);
+}
+
+body.contact-page .contact-figma-section .contact-figma-report-card__icon img,
+body.contact-page .contact-figma-section .contact-figma-report-card__icon svg {
+  display: block;
+  width: 86px;
+  height: 86px;
+  max-width: 86px;
+  max-height: 86px;
+  object-fit: contain;
+  filter: none !important;
+  transform: none !important;
+}
+@media (max-width: 1199.98px) {
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon {
+    flex-basis: 74px;
+    width: 74px;
+    height: 74px;
+  }
+
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon img,
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon svg {
+    width: 74px;
+    height: 74px;
+    max-width: 74px;
+    max-height: 74px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon {
+    flex-basis: 62px;
+    width: 62px;
+    height: 62px;
+  }
+
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon img,
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon svg {
+    width: 62px;
+    height: 62px;
+    max-width: 62px;
+    max-height: 62px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon {
+    flex-basis: 54px;
+    width: 54px;
+    height: 54px;
+  }
+
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon img,
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon svg {
+    width: 54px;
+    height: 54px;
+    max-width: 54px;
+    max-height: 54px;
   }
 }

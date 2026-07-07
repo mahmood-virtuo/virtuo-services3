@@ -150,50 +150,6 @@
         <!-- marquee-area-end -->
 
 
-       
-
-        
-
-        <!-- contact-map-end -->
-        <!-- ---New code------- -->
-        <!-- <section class="contact__area contact-page-info-section">
-            <div class="container site-content-gutter">
-            <div class="row mb-5 align-items-stretch">
-            <div class="col-lg-7">
-                <div class="contact-map-box">
-                    <iframe src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed"
-                        allowfullscreen
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-
-            <div class="col-lg-5">
-                <div class="contact-box-wrap">
-                    <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="contact-box">
-                        <span class="front"><i class="fab fa-whatsapp"></i> WhatsApp</span>
-                        <span class="back">+971 56 515 1315</span>
-                    </a>
-
-                    <a href="mailto:setup@virtuo.ae" class="contact-box">
-                        <span class="front"><i class="far fa-envelope"></i> Email</span>
-                        <span class="back">setup@virtuo.ae</span>
-                    </a>
-
-                    <a href="https://maps.app.goo.gl/gUrmppqPGvh64VQ57" target="_blank" rel="noopener" class="contact-box">
-                        <span class="front"><i class="fas fa-map-marker-alt"></i> Head Office</span>
-                        <span class="back">Office - BLV - 6F - SF60959
-                            A Building - Ajman Blvd,<br/> Ajman Freezone
-                            Sheikh Rashid Bin Saeed Al Maktoum St.
-                            <br/>Ajman, United Arab Emirates
-                        </span>
-                    </a>
-                </div>
-            </div>
-            </div>
-            </div>
-
-        </section> -->
          <!-- ------End New Code------ -->
         <!-- contact-area -->
         <section class="contact-page-form-section contact-figma-section">
@@ -230,6 +186,16 @@
                                 <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
                                     <img src="/assets/img/icons/facebook-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a>
+                            </div>
+
+                            <div class="contact-figma-report-card">
+                                <div class="contact-figma-report-card__text">
+                                    <h3>The UAE Structure Report</h3>
+                                    <p>Mainland, Free Zone, or Offshore - the wrong call costs you at the bank, in your visas, at tax time.</p>
+                                </div>
+                                <span class="contact-figma-report-card__icon">
+                                    <img src="/assets/img/icons/contact_right_arrow.svg" alt="" aria-hidden="true">
+                                </span>
                             </div>
                         </div>
 
@@ -296,29 +262,168 @@
             </div>
         </section>
 
-	        <!-- contact-area-end -->
-        <!-- ---New code------- -->
-        <section class="contact__area contact-page-info-section">
-            <div class="container site-content-gutter">
-            <div class="row mb-5 align-items-stretch">
-            <div class="col-lg-7">
-                <div class="contact-map-box">
-                    <iframe src="https://www.google.com/maps?q=Ajman%20Free%20Zone%2C%20Sheikh%20Rashid%20Bin%20Saeed%20Al%20Maktoum%20St%2C%20Ajman%2C%20United%20Arab%20Emirates&output=embed"
-                        allowfullscreen
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <?php include __DIR__ . '/partials/service-marquee.php'; ?>
+		        <!-- contact-area-end -->
+        <section id="contact-faq" class="contact-faq-area">
+            <div class="container site-content-gutter custom-container">
+                <div class="contact-faq-area__header">
+                    <h2 class="contact-faq-area__title">Frequently Asked Questions</h2>
+                    <p class="contact-faq-area__subtitle">Straight answers to the questions we hear most — setup, visas, tax, and how we work.</p>
+                </div>
+
+                <div class="contact-faq-area__wrap">
+                    <div class="accordion contact-faq-accordion" id="contact-faq-accordion">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="contact-faq-heading-one">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-one" aria-expanded="true" aria-controls="contact-faq-collapse-one">
+                                    <span>1. How long does business setup take in the UAE?</span>
+                                </button>
+                            </h3>
+                            <div id="contact-faq-collapse-one" class="accordion-collapse collapse show" aria-labelledby="contact-faq-heading-one" data-bs-parent="#contact-faq-accordion">
+                                <div class="accordion-body">
+                                    Most licenses are issued within 5–10 working days once documents are complete. Visa processing can add 2–3 weeks depending on the authority and approvals required.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="contact-faq-heading-two">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-two" aria-expanded="false" aria-controls="contact-faq-collapse-two">
+                                    <span>2. Do I need to be in the UAE to set up my company?</span>
+                                </button>
+                            </h3>
+                            <div id="contact-faq-collapse-two" class="accordion-collapse collapse" aria-labelledby="contact-faq-heading-two" data-bs-parent="#contact-faq-accordion">
+                                <div class="accordion-body">
+                                    In many cases, the initial setup can begin remotely. Some steps, such as medical testing, Emirates ID biometrics, or bank-related requirements, may require your physical presence.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="contact-faq-heading-three">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-three" aria-expanded="false" aria-controls="contact-faq-collapse-three">
+                                    <span>3. What is the real cost difference between Mainland and Free Zone?</span>
+                                </button>
+                            </h3>
+                            <div id="contact-faq-collapse-three" class="accordion-collapse collapse" aria-labelledby="contact-faq-heading-three" data-bs-parent="#contact-faq-accordion">
+                                <div class="accordion-body">
+                                    The right option depends on your activity, ownership needs, visa requirements, office needs, and where you plan to trade. Free Zones can be leaner for many businesses, while Mainland can be better for direct UAE market access.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="contact-faq-heading-four">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-four" aria-expanded="false" aria-controls="contact-faq-collapse-four">
+                                    <span>4. What happens after I submit this form?</span>
+                                </button>
+                            </h3>
+                            <div id="contact-faq-collapse-four" class="accordion-collapse collapse" aria-labelledby="contact-faq-heading-four" data-bs-parent="#contact-faq-accordion">
+                                <div class="accordion-body">
+                                    Our team reviews your requirements, contacts you to clarify your business activity and goals, then recommends the most suitable setup, visa, banking, or compliance path.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="contact-faq-heading-five">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-five" aria-expanded="false" aria-controls="contact-faq-collapse-five">
+                                    <span>5. Can Virtuo help with visas after company formation?</span>
+                                </button>
+                            </h3>
+                            <div id="contact-faq-collapse-five" class="accordion-collapse collapse" aria-labelledby="contact-faq-heading-five" data-bs-parent="#contact-faq-accordion">
+                                <div class="accordion-body">
+                                    Yes. We can assist with investor visas, partner visas, employee visas, dependent visas, Emirates ID steps, medical testing guidance, and renewal coordination.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="contact-faq-heading-six">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-six" aria-expanded="false" aria-controls="contact-faq-collapse-six">
+                                    <span>6. Do you help with business bank account preparation?</span>
+                                </button>
+                            </h3>
+                            <div id="contact-faq-collapse-six" class="accordion-collapse collapse" aria-labelledby="contact-faq-heading-six" data-bs-parent="#contact-faq-accordion">
+                                <div class="accordion-body">
+                                    Yes. We help prepare the structure, documents, activity explanation, and compliance positioning banks usually expect before reviewing a business account application.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="contact-faq-heading-seven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-seven" aria-expanded="false" aria-controls="contact-faq-collapse-seven">
+                                    <span>7. Can I get advice before deciding which license to choose?</span>
+                                </button>
+                            </h3>
+                            <div id="contact-faq-collapse-seven" class="accordion-collapse collapse" aria-labelledby="contact-faq-heading-seven" data-bs-parent="#contact-faq-accordion">
+                                <div class="accordion-body">
+                                    Yes. The purpose of the consultation is to understand your business model first, then guide you toward the license, jurisdiction, and structure that fits your goals.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-            </div>
+        </section>
 
+        <!-- ---New code------- -->
+       <section class="choose__area-five section-py-130">
+            <div class="container site-content-gutter custom-container home-page-container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-5 col-md-9">
+                        <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
+                            <img src="assets/img/images//about_virtuo_eye.jpg" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
+
+                            <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -55px; top: auto; bottom: -45px;">
+                                <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
+
+                                    <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" style="rotate: 25deg;" />
+                                </div>
+                                <div class="content">
+                                    <h6 class="circle rotateme">VIRTUO • ESTABLISH • OPERATE • INNOVATE •</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="choose__content-five" style="max-width: auto; margin-left: -21px;">
+                            <div class="section__title mb-15">
+                                <h2 class="title">Why Virtuo</h2>
+                            </div>
+                            <p>Virtuo combines business setup expertise, PRO support, residency guidance, digital growth, and AI solutions in one integrated platform.</p>
+                            <p>Clients choose Virtuo because we focus on more than forming a company. We focus on helping you build the right foundation.</p>
+                            <p>We look at your goals, your business model, your banking needs, your visa requirements, your family situation, your market entry plan, and your long-term growth strategy. Then we help you move forward with a structure that makes sense.</p>
+                            <p>Our approach is clear, professional, and practical.No unnecessary complications. No generic advice. No confusing process.Just the right guidance, the right setup, and the right support to help you build in the UAE with confidence.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </section>
          <!-- ------End New Code------ -->
         <!-- cta-area -->
         
         <!-- cta-area-end -->
 
-
+        <!-- contact-map -->
+        <!-- contact-map -->
+<section class="contact-map-section" aria-label="Virtuo office location map">
+    <div class="contact-map">
+        <iframe
+            title="Virtuo office location map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28833.432401497106!2d55.4394942!3d25.3988165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5784a7c97153%3A0x2f7b6f7ff376bcb3!2sAjman%20Free%20Zone!5e0!3m2!1sen!2sae!4v1783447037089!5m2!1sen!2sae"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            tabindex="-1">
+        </iframe>
+    </div>
+</section>
+<!-- contact-map-end -->
+        <!-- contact-map-end -->
     </main>
     <!-- main-area-end -->
 
