@@ -332,13 +332,6 @@
                 </div>
             </div>
         </section>
-
-
-
-        <!-- choose-area-end -->
-
-        <!-- services-area -->
-        <!-- <section class=" section-py-130" style="background-color: url(/assets/img/services/footerBackgroundImage.jgp); background-repeat: no-repeat; background-size: cover;" data-background="assets/img/images/virtuo-footer-gradient.jpg"> -->
             <section
   class="section-py-130 home-services-section"
   style="background-repeat: no-repeat; background-size: cover; background-image: url('assets/img/images/virtuo-footer-gradient.jpg');"
@@ -586,12 +579,8 @@
                 </div>
             </div>
         </section>
-        
-
-
     </div>
     <!-- </main> -->
-
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
 

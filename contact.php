@@ -176,14 +176,14 @@
                             </div>
 
                             <div class="footer-reference-left__social contact-figma-social">
-                                <span>Follow Us :</span>
+                                <span>Follow Us :</span><br/><br/>
                                 <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
                                     <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a>
-                                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
                                     <img src="/assets/img/icons/Instagram-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a>
-                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
                                     <img src="/assets/img/icons/facebook-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a>
                             </div>
@@ -275,11 +275,11 @@
                     <div class="accordion contact-faq-accordion" id="contact-faq-accordion">
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="contact-faq-heading-one">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-one" aria-expanded="true" aria-controls="contact-faq-collapse-one">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contact-faq-collapse-one" aria-expanded="false" aria-controls="contact-faq-collapse-one">
                                     <span>1. How long does business setup take in the UAE?</span>
                                 </button>
                             </h3>
-                            <div id="contact-faq-collapse-one" class="accordion-collapse collapse show" aria-labelledby="contact-faq-heading-one" data-bs-parent="#contact-faq-accordion">
+                            <div id="contact-faq-collapse-one" class="accordion-collapse collapse" aria-labelledby="contact-faq-heading-one" data-bs-parent="#contact-faq-accordion">
                                 <div class="accordion-body">
                                     Most licenses are issued within 5–10 working days once documents are complete. Visa processing can add 2–3 weeks depending on the authority and approvals required.
                                 </div>

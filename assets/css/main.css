@@ -22759,7 +22759,7 @@ blockquote cite {
   line-height: var(--tg-body-line-height);
 }
 .contact-figma-detail:hover {
-  color: var(--tg-color-white-default);
+  /* color: var(--tg-color-white-default); */
 }
 .contact-figma-detail--address {
   align-items: start;
@@ -22786,7 +22786,7 @@ blockquote cite {
   background: #fff;
   border-radius: 20px;
   padding: clamp(24px, 3vw, 42px);
-  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.18);
+  /* box-shadow: 0 24px 55px rgba(0, 0, 0, 0.18); */
 }
 .contact-page-form-wrap {
   width: 100%;
@@ -32880,7 +32880,7 @@ body.contact-page .contact-faq-area .accordion-button:not(.collapsed)::after {
 
 body.contact-page .contact-faq-area .accordion-body {
   max-width: 1210px;
-  padding: 0 92px 38px 72px;
+  padding: 0 92px 38px 93px;
   color: var(--tg-heading-color);
   font-size: clamp(18px, 1.35vw, 16px);
   line-height: 1.45;
@@ -32929,7 +32929,7 @@ body.contact-page .contact-faq-area .accordion-body {
   body.contact-page .contact-faq-area .accordion-button {
     min-height: 78px;
     padding: 22px 58px 22px 24px;
-    font-size: clamp(19px, 5vw, 28px);
+    font-size: clamp(18px, 5vw, 20px);
   }
 
   body.contact-page .contact-faq-area .accordion-button:not(.collapsed) {
@@ -33365,34 +33365,6 @@ body.contact-page .contact-figma-section .contact-figma-form-card {
     border-radius: 22px;
   }
 }
-/* ---------- Contact Page Map Fix Only ---------- */
-body.contact-page .contact-map-section {
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-  background: #e9e9e9;
-  position: relative;
-  z-index: 1;
-}
-
-body.contact-page .contact-map {
-  width: 100%;
-  height: clamp(360px, 32vw, 560px);
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: #e9e9e9;
-}
-
-body.contact-page .contact-map iframe {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  filter: grayscale(100%) contrast(0.9) brightness(1.05);
-  mix-blend-mode: normal;
-  pointer-events: none;
-}
 /* Report card SVG icon - use actual SVG without extra circle */
 body.contact-page .contact-figma-section .contact-figma-report-card__icon {
   flex: 0 0 86px;
@@ -33417,6 +33389,7 @@ body.contact-page .contact-figma-section .contact-figma-report-card__icon svg {
   filter: none !important;
   transform: none !important;
 }
+
 @media (max-width: 1199.98px) {
   body.contact-page .contact-figma-section .contact-figma-report-card__icon {
     flex-basis: 74px;
@@ -33464,27 +33437,47 @@ body.contact-page .contact-figma-section .contact-figma-report-card__icon svg {
     max-height: 54px;
   }
 }
-/* ---------- Contact Page: Map Behind Footer Banner Only ---------- */
-/* ---------- Contact Page Only: Orange CTA Banner Over Map ---------- */
-/* ---------- Contact Page Only: Orange CTA Banner Over Map ---------- */
 
-/* Keep map normal and non-clickable */
+/* ---------- Contact Page Map / Footer CTA Overlap ---------- */
+body.contact-page {
+  --contact-section-gap: 180px;
+  --contact-section-half-gap: 90px;
+  --contact-cta-overlap: clamp(160px, 23vw, 280px);
+}
+
+body.contact-page .contact-figma-section {
+  padding-bottom: var(--contact-section-gap) !important;
+}
+
+body.contact-page .contact-faq-area {
+  padding-top: var(--contact-section-gap) !important;
+  padding-bottom: var(--contact-section-half-gap) !important;
+}
+
+body.contact-page .choose__area-five.section-py-130 {
+  padding-top: var(--contact-section-half-gap) !important;
+  padding-bottom: var(--contact-section-gap) !important;
+}
+
 body.contact-page .contact-map-section {
   position: relative;
   z-index: 1;
+  height: clamp(614px, 38vw, 740px);
   margin: 0;
   padding: 0;
   line-height: 0;
+  overflow: hidden;
   background: #e9e9e9;
 }
 
 body.contact-page .contact-map {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  height: clamp(420px, 32vw, 560px);
+  height: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: #e9e9e9;
 }
 
 body.contact-page .contact-map iframe {
@@ -33493,52 +33486,203 @@ body.contact-page .contact-map iframe {
   height: 100%;
   border: 0;
   filter: grayscale(100%) contrast(0.9) brightness(1.05);
+  mix-blend-mode: normal;
   pointer-events: none;
 }
 
-/* This is the REAL orange CTA section on contact page */
-body.contact-page section.footer-main-cta.cta__area-two {
+body.contact-page .main-area + .footer-main-cta {
   position: relative;
   z-index: 3;
-  background: transparent !important;
-  padding: 0 !important;
-  /* margin-top: clamp(-170px, -9vw, -135px); */
-  margin-top: clamp(-235px, -10vw, -170px);
+  margin-top: calc(var(--contact-cta-overlap) * -1);
   margin-bottom: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
   overflow: visible !important;
 }
 
-/* Only the orange banner sits above the map */
-body.contact-page section.footer-main-cta.cta__area-two .cta__inner-wrap-two {
+body.contact-page .main-area + .footer-main-cta .cta__inner-wrap-two {
   position: relative;
   z-index: 4;
   margin-left: auto;
   margin-right: auto;
 }
-
-/* Do not pull the footer upward */
 body.contact-page .footer__area-two.footer__area-five {
   position: relative;
   z-index: 1;
-  margin-top: 0 !important;
+  margin-top: -88px !important;
 }
 
-@media (max-width: 1199.98px) {
-  body.contact-page section.footer-main-cta.cta__area-two {
-    margin-top: -130px;
+body.contact-page .contact-figma-main,
+body.contact-page .contact-figma-content,
+body.contact-page .contact-figma-form-card,
+body.contact-page .contact-page-form-wrap,
+body.contact-page .contact-figma-section form {
+  min-width: 0;
+  max-width: 100%;
+}
+
+body.contact-page .contact-figma-section input,
+body.contact-page .contact-figma-section select,
+body.contact-page .contact-figma-section textarea {
+  max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  body.contact-page .contact-figma-main {
+    grid-template-columns: 1fr !important;
   }
 
-  body.contact-page .contact-map {
-    height: clamp(360px, 42vw, 480px);
+  body.contact-page .main-area + .footer-main-cta .cta__inner-wrap-two {
+    max-width: calc(100vw - 48px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body.contact-page .main-area + .footer-main-cta .cta__content-right {
+    justify-content: center;
   }
 }
 
-@media (max-width: 767.98px) {
-  body.contact-page section.footer-main-cta.cta__area-two {
-    margin-top: -105px;
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  body.contact-page {
+    --contact-section-gap: 120px;
+    --contact-section-half-gap: 60px;
+    --contact-cta-overlap: 330px;
   }
 
-  body.contact-page .contact-map {
-    height: 320px;
+  body.contact-page .contact-map-section {
+    height: clamp(740px, 82vw, 860px);
   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body.contact-page {
+    --contact-section-gap: 72px;
+    --contact-section-half-gap: 36px;
+    --contact-cta-overlap: clamp(315px, 44vw, 430px);
+  }
+
+  body.contact-page .contact-map-section {
+    height: clamp(735px, 92vw, 830px);
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.contact-page {
+    --contact-section-gap: 60px;
+    --contact-section-half-gap: 30px;
+    --contact-cta-overlap: clamp(330px, 70vw, 300px);
+  }
+
+  body.contact-page .contact-map-section {
+    height: clamp(735px, 165vw, 830px);
+  }
+
+  body.contact-page .main-area + .footer-main-cta .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  body.contact-page .main-area + .footer-main-cta .cta__inner-wrap-two {
+    max-width: 100%;
+    border-radius: 18px;
+    padding: 34px 20px;
+  }
+
+  body.contact-page .main-area + .footer-main-cta .cta__content-three {
+    text-align: center;
+  }
+
+  body.contact-page .main-area + .footer-main-cta .cta__content-three .title {
+    font-size: clamp(24px, 7vw, 30px);
+    line-height: 1.15;
+  }
+
+  body.contact-page .main-area + .footer-main-cta .cta__content-three p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  body.contact-page .main-area + .footer-main-cta .cta__content-right {
+    margin-top: 22px;
+    justify-content: center;
+  }
+
+  body.contact-page .main-area + .footer-main-cta .tg-btn {
+    width: min(100%, 260px);
+    justify-content: center;
+    padding: 15px 18px;
+  }
+
+  body.contact-page .contact-figma-form-card {
+    padding: 18px;
+    border-radius: 18px;
+  }
+}
+/* Contact page: hide report card arrow icon on mobile only */
+@media (max-width: 575.98px) {
+  body.contact-page .contact-figma-section .contact-figma-report-card__icon {
+    display: none !important;
+  }
+
+  body.contact-page .contact-figma-section .contact-figma-report-card__text {
+    flex: 1 1 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+/* Contact page: put social icons under "Follow Us" */
+/* Contact page only: social icons under "Follow Us" */
+body.contact-page .contact-figma-social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 22px;
+  line-height: 1.2;
+}
+
+/* Put "Follow Us :" on its own line */
+body.contact-page .contact-figma-social > span {
+  flex: 0 0 100%;
+  width: 100%;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Ignore any br tags inside this flex row */
+body.contact-page .contact-figma-social > br {
+  display: none;
+}
+
+/* Make only these contact-section social links 32px */
+body.contact-page .contact-figma-social > a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px !important;
+  height: 32px !important;
+  line-height: 1;
+}
+
+/* This is the important part: resize the actual image */
+body.contact-page .contact-figma-social > a > img.my-social-links {
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  object-fit: contain;
+  display: block;
+}
+/* Blog details sidebar form: make select fields same height as other inputs */
+.blog-sidebar-sticky-form .virtuo-sidebar-form select[name="service"],
+.blog-sidebar-sticky-form .virtuo-sidebar-form select[name="emirate"] {
+  height: 30px !important;
+  min-height: 30px !important;
+  max-height: 30px !important;
+  padding: 0 14px !important;
+  line-height: 30px !important;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
 }

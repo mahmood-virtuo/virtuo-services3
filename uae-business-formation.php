@@ -427,7 +427,7 @@
                                                     <div class="accordion" id="mainland-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseOne" aria-expanded="false" aria-controls="mainland-collapseOne">1. Can a foreign investor own a mainland company?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainland-collapseOne" aria-expanded="false" aria-controls="mainland-collapseOne">1. Can a foreign investor own a mainland company?</button>
                                                             </h2>
                                                             <div id="mainland-collapseOne" class="accordion-collapse collapse" data-bs-parent="#mainland-accordion">
                                                                 <div class="accordion-body">
@@ -624,7 +624,7 @@
                                                     <div class="accordion" id="freezone-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseOne" aria-expanded="true" aria-controls="freezone-collapseOne">1. What is the main difference between Free Zone and Mainland setup?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freezone-collapseOne" aria-expanded="false" aria-controls="freezone-collapseOne">1. What is the main difference between Free Zone and Mainland setup?</button>
                                                             </h2>
                                                             <div id="freezone-collapseOne" class="accordion-collapse collapse" data-bs-parent="#freezone-accordion">
                                                                 <div class="accordion-body">
@@ -823,7 +823,7 @@
                                                     <div class="accordion" id="offshore-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseOne" aria-expanded="true" aria-controls="offshore-collapseOne">1. Can an offshore company conduct business inside the UAE?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#offshore-collapseOne" aria-expanded="false" aria-controls="offshore-collapseOne">1. Can an offshore company conduct business inside the UAE?</button>
                                                             </h2>
                                                             <div id="offshore-collapseOne" class="accordion-collapse collapse" data-bs-parent="#offshore-accordion">
                                                                 <div class="accordion-body">
@@ -961,7 +961,7 @@
                                                     <div class="accordion" id="virtual-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseOne" aria-expanded="true" aria-controls="virtual-collapseOne">1. What exactly is a virtual office, and is it fully legal in Dubai?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtual-collapseOne" aria-expanded="false" aria-controls="virtual-collapseOne">1. What exactly is a virtual office, and is it fully legal in Dubai?</button>
                                                             </h2>
                                                             <div id="virtual-collapseOne" class="accordion-collapse collapse" data-bs-parent="#virtual-accordion">
                                                                 <div class="accordion-body">
@@ -1092,7 +1092,7 @@
                                                     <div class="accordion" id="business-bank-account-opening-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseOne" aria-expanded="true" aria-controls="business-bank-account-opening-collapseOne">1. What are the primary document requirements to open a corporate bank account in Dubai?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#business-bank-account-opening-collapseOne" aria-expanded="false" aria-controls="business-bank-account-opening-collapseOne">1. What are the primary document requirements to open a corporate bank account in Dubai?</button>
                                                             </h2>
                                                             <div id="business-bank-account-opening-collapseOne" class="accordion-collapse collapse" data-bs-parent="#business-bank-account-opening-accordion">
                                                                 <div class="accordion-body">

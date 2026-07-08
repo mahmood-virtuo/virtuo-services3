@@ -200,7 +200,7 @@
                                                     <div class="accordion" id="government-relations-pro-services-trade-license-services-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-trade-license-services-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-trade-license-services-collapseOne">1. What primary trade licenses are issued in Dubai Mainland?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-trade-license-services-collapseOne" aria-expanded="false" aria-controls="government-relations-pro-services-trade-license-services-collapseOne">1. What primary trade licenses are issued in Dubai Mainland?</button>
                                                             </h2>
                                                             <div id="government-relations-pro-services-trade-license-services-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-trade-license-services-accordion">
                                                                 <div class="accordion-body">
@@ -327,7 +327,7 @@
                                                     <div class="accordion" id="government-relations-pro-services-document-clearance-services-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-document-clearance-services-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-document-clearance-services-collapseOne">1. What exactly are MOHRE inquiry services, and why are they necessary?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-document-clearance-services-collapseOne" aria-expanded="false" aria-controls="government-relations-pro-services-document-clearance-services-collapseOne">1. What exactly are MOHRE inquiry services, and why are they necessary?</button>
                                                             </h2>
                                                             <div id="government-relations-pro-services-document-clearance-services-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-document-clearance-services-accordion">
                                                                 <div class="accordion-body">
@@ -452,7 +452,7 @@
                                                     <div class="accordion" id="government-relations-pro-services-power-of-attorney-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-power-of-attorney-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-power-of-attorney-collapseOne">1. What is the fundamental difference between a General and a Special Power of Attorney?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-power-of-attorney-collapseOne" aria-expanded="false" aria-controls="government-relations-pro-services-power-of-attorney-collapseOne">1. What is the fundamental difference between a General and a Special Power of Attorney?</button>
                                                             </h2>
                                                             <div id="government-relations-pro-services-power-of-attorney-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-power-of-attorney-accordion">
                                                                 <div class="accordion-body">
@@ -582,7 +582,7 @@
                                                     <div class="accordion" id="government-relations-pro-services-notary-public-services-dubai-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-notary-public-services-dubai-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-notary-public-services-dubai-collapseOne">1. What is the fundamental role of a Notary Public in Dubai?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-notary-public-services-dubai-collapseOne" aria-expanded="false" aria-controls="government-relations-pro-services-notary-public-services-dubai-collapseOne">1. What is the fundamental role of a Notary Public in Dubai?</button>
                                                             </h2>
                                                             <div id="government-relations-pro-services-notary-public-services-dubai-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-notary-public-services-dubai-accordion">
                                                                 <div class="accordion-body">
@@ -708,7 +708,7 @@
                                                     <div class="accordion" id="government-relations-pro-services-legal-attestation-services-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-legal-attestation-services-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-legal-attestation-services-collapseOne">1. What exactly is document attestation, and why is it mandatory in Dubai?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-legal-attestation-services-collapseOne" aria-expanded="false" aria-controls="government-relations-pro-services-legal-attestation-services-collapseOne">1. What exactly is document attestation, and why is it mandatory in Dubai?</button>
                                                             </h2>
                                                             <div id="government-relations-pro-services-legal-attestation-services-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-legal-attestation-services-accordion">
                                                                 <div class="accordion-body">
@@ -826,7 +826,7 @@
                                                     <div class="accordion" id="government-relations-pro-services-translation-services-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-translation-services-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-translation-services-collapseOne">1. What makes a translation &quot;legal&quot; and compliant for use in Dubai?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-translation-services-collapseOne" aria-expanded="false" aria-controls="government-relations-pro-services-translation-services-collapseOne">1. What makes a translation &quot;legal&quot; and compliant for use in Dubai?</button>
                                                             </h2>
                                                             <div id="government-relations-pro-services-translation-services-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-translation-services-accordion">
                                                                 <div class="accordion-body">
@@ -941,7 +941,7 @@
                                                     <div class="accordion" id="government-relations-pro-services-mohre-services-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-mohre-services-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-mohre-services-collapseOne">1. What exactly are MOHRE inquiry services, and why are they necessary?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-mohre-services-collapseOne" aria-expanded="false" aria-controls="government-relations-pro-services-mohre-services-collapseOne">1. What exactly are MOHRE inquiry services, and why are they necessary?</button>
                                                             </h2>
                                                             <div id="government-relations-pro-services-mohre-services-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-mohre-services-accordion">
                                                                 <div class="accordion-body">
@@ -1056,7 +1056,7 @@
                                                     <div class="accordion" id="government-relations-pro-services-mohre-inquiry-services-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-mohre-inquiry-services-collapseOne" aria-expanded="true" aria-controls="government-relations-pro-services-mohre-inquiry-services-collapseOne">1. What exactly are MOHRE inquiry services, and why are they necessary?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#government-relations-pro-services-mohre-inquiry-services-collapseOne" aria-expanded="false" aria-controls="government-relations-pro-services-mohre-inquiry-services-collapseOne">1. What exactly are MOHRE inquiry services, and why are they necessary?</button>
                                                             </h2>
                                                             <div id="government-relations-pro-services-mohre-inquiry-services-collapseOne" class="accordion-collapse collapse" data-bs-parent="#government-relations-pro-services-mohre-inquiry-services-accordion">
                                                                 <div class="accordion-body">

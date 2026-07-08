@@ -268,7 +268,7 @@
                                                     <div class="accordion" id="ai-automation-technology-solutions-ai-automation-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ai-automation-technology-solutions-ai-automation-collapseOne" aria-expanded="true" aria-controls="ai-automation-technology-solutions-ai-automation-collapseOne">1. What business processes can use AI Automation?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ai-automation-technology-solutions-ai-automation-collapseOne" aria-expanded="false" aria-controls="ai-automation-technology-solutions-ai-automation-collapseOne">1. What business processes can use AI Automation?</button>
                                                             </h2>
                                                             <div id="ai-automation-technology-solutions-ai-automation-collapseOne" class="accordion-collapse collapse" data-bs-parent="#ai-automation-technology-solutions-ai-automation-accordion">
                                                                 <div class="accordion-body">
@@ -450,7 +450,7 @@
                                                     <div class="accordion" id="ai-automation-technology-solutions-workflow-automation-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ai-automation-technology-solutions-workflow-automation-collapseOne" aria-expanded="true" aria-controls="ai-automation-technology-solutions-workflow-automation-collapseOne">1. What business processes can use Workflow Automation?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ai-automation-technology-solutions-workflow-automation-collapseOne" aria-expanded="false" aria-controls="ai-automation-technology-solutions-workflow-automation-collapseOne">1. What business processes can use Workflow Automation?</button>
                                                             </h2>
                                                             <div id="ai-automation-technology-solutions-workflow-automation-collapseOne" class="accordion-collapse collapse" data-bs-parent="#ai-automation-technology-solutions-workflow-automation-accordion">
                                                                 <div class="accordion-body">
@@ -632,7 +632,7 @@
                                                     <div class="accordion" id="ai-automation-technology-solutions-technology-solutions-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ai-automation-technology-solutions-technology-solutions-collapseOne" aria-expanded="true" aria-controls="ai-automation-technology-solutions-technology-solutions-collapseOne">1. What business processes can use Technology Solutions?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ai-automation-technology-solutions-technology-solutions-collapseOne" aria-expanded="false" aria-controls="ai-automation-technology-solutions-technology-solutions-collapseOne">1. What business processes can use Technology Solutions?</button>
                                                             </h2>
                                                             <div id="ai-automation-technology-solutions-technology-solutions-collapseOne" class="accordion-collapse collapse" data-bs-parent="#ai-automation-technology-solutions-technology-solutions-accordion">
                                                                 <div class="accordion-body">
@@ -814,7 +814,7 @@
                                                     <div class="accordion" id="ai-automation-technology-solutions-business-process-automation-accordion">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ai-automation-technology-solutions-business-process-automation-collapseOne" aria-expanded="true" aria-controls="ai-automation-technology-solutions-business-process-automation-collapseOne">1. What business processes can use Business Process Automation?</button>
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ai-automation-technology-solutions-business-process-automation-collapseOne" aria-expanded="false" aria-controls="ai-automation-technology-solutions-business-process-automation-collapseOne">1. What business processes can use Business Process Automation?</button>
                                                             </h2>
                                                             <div id="ai-automation-technology-solutions-business-process-automation-collapseOne" class="accordion-collapse collapse" data-bs-parent="#ai-automation-technology-solutions-business-process-automation-accordion">
                                                                 <div class="accordion-body">
