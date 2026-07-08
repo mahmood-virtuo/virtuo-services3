@@ -76,84 +76,18 @@
 
 
         <!-- marquee-area -->
-        <section class="marquee__area">
-            <div class="slider__marquee clearfix marquee-wrap">
-                <div class="marquee_mode marquee__group">
-                    <h6 class="marquee__item">
-                        <a href="/government-relations-and-pro-services"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>PRO SERVICES</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/uae-business-formation-structuring-and-compliance"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>BUSINESS SETUP</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/immigration-and-residency-solutions#immigration-residency-solutions-golden-visa-uae"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>GOLDEN VISA</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/uae-business-formation-structuring-and-compliance#business-bank-account-opening"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>BANK ACCOUNT OPENING</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-brand-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg> BRAND DEVELOPMENT</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/immigration-and-residency-solutions#immigration-residency-solutions-investor-visa-dubai"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg> INVEST IN DUBAI</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/immigration-and-residency-solutions#immigration-residency-solutions-freelance-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg> FREELANCE VISA</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/digital-marketing-and-brand-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>DIGITAL MARKETING</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/ai-automation-and-technology-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>AI AUTOMATION</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/government-relations-and-pro-services"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>GOVERNMENT RELATIONS</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/digital-marketing-and-brand-development#web-digital-solutions-website-development"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>WEB DEVELOPMENT</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/immigration-and-residency-solutions#immigration-residency-solutions-residence-visa"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>RESIDENCY SOLUTION</a>
-                    </h6>
-                    <h6 class="marquee__item">
-                        <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-marketing-solutions"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" style="margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:-2px;color:#EE4C01;">
-                                <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
-                            </svg>MARKETING SOLUTION</a>
-                    </h6>
-                </div>
-            </div>
-        </section>
+        <?php
+        $serviceMarqueeVariant = 'plain';
+        include __DIR__ . '/partials/service-marquee.php';
+        unset($serviceMarqueeVariant);
+        ?>
         <!-- marquee-area-end -->
 
 
          <!-- ------End New Code------ -->
         <!-- contact-area -->
         <section class="contact-page-form-section contact-figma-section">
-            <div class="container site-content-gutter">
+            <div class="container site-content-gutter custom-container">
                 <div class="contact-figma-panel">
                     <div class="contact-figma-main">
                         <div class="contact-figma-content">
@@ -161,7 +95,7 @@
                             <p class="contact-figma-copy">Whether you're starting a business, expanding your operations, or seeking expert business support, our team is here to provide tailored solutions. Fill out the form below, and we'll get back to you promptly.</p>
 
                             <div class="contact-figma-details">
-                                <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="contact-figma-detail">
+                                <a href="tel:+971565151315" class="contact-figma-detail">
                                     <span class="contact-figma-detail__icon"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"></span>
                                     <span>+971 56 515 1315</span>
                                 </a>

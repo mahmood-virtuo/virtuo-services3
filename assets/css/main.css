@@ -22716,7 +22716,8 @@ blockquote cite {
   /* background: linear-gradient(120deg, #14489b 0%, #09194e 100%); */
   border-radius: 20px;
   overflow: hidden;
-  padding: clamp(20px, 3vw, 30px);
+  /* padding: clamp(20px, 3vw, 30px); */
+  padding: 0;
 }
 .contact-figma-main {
   display: grid;
@@ -27506,7 +27507,8 @@ select {
 /* Vertically center breadcrumb content */
 /* Keep breadcrumb text left aligned, only center it vertically */
 .breadcrumb__area {
-  min-height: 320px;
+  min-height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
   padding-top: 190px !important;
@@ -27525,9 +27527,17 @@ select {
 }
 @media (max-width: 767.98px) {
   .breadcrumb__area {
-    min-height: 260px;
+    min-height: 340px;
+    height: 380px;
+    padding-top: 170px !important;
   }
 }
+/* @media (min-width: 768px) and (max-width: 1199.98px) {
+  .breadcrumb__area {
+    min-height: 100px;
+    height: 120px;
+    padding-top: 80px !important;
+} */
 /* ---------------------- */
 .footer-reference-left__contact img,
 .footer-reference-left__quick img {
@@ -32882,7 +32892,7 @@ body.contact-page .contact-faq-area .accordion-body {
   max-width: 1210px;
   padding: 0 92px 38px 93px;
   color: var(--tg-heading-color);
-  font-size: clamp(18px, 1.35vw, 16px);
+  font-size: clamp(16px, 1.35vw, 14px);
   line-height: 1.45;
 }
 
@@ -33685,4 +33695,31 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
   box-sizing: border-box;
   display: block;
   width: 100%;
+}
+/* Homepage: fix Why Choose Us eye image on tablet only */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  body.home-page .choose__area-five .choose__img-wrap-four {
+    max-width: 620px !important;
+    width: 650px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  body.home-page .choose__area-five .choose__img-wrap-four > img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+  }
+
+  body.home-page .choose__area-five .choose__img-wrap-four .circle__wrap-two {
+    right: -35px !important;
+    top: -45px !important;
+  }
+}
+/* Hide Virtuo rotating circle icon on tablet and mobile only */
+@media (max-width: 1199.98px) {
+  .circle__wrap:has(.rotateme) {
+    display: none !important;
+  }
 }
