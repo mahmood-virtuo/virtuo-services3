@@ -7,18 +7,22 @@
     $seoPage = array(
         "title" => "UAE Taxes Explained 2026: Every Tax, Who Pays It & What You Don't Owe | Virtuo",
         'description' => 'The complete UAE tax guide for 2026 — corporate tax, VAT, excise, customs, DMTT, municipal fees, and the six taxes that simply do not exist. With a live corporate tax calculator and profile-based breakdown.',
-        'path' => '/blog/uae-taxes-explained-2026',
+        'path' => '/blog/uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe',
         'type' => 'article',
         'breadcrumbTitle' => 'UAE Taxes Explained 2026',
         'schemaType' => 'Article',
         'ogImage' => '/assets/img/og/uae-taxes-explained-2026.jpg',
-        'heroImage' => '/assets/img/slider/6th_blog.jpg',
-        'heroImageMobile' => '/assets/img/slider/6th_blog.jpg'
+        'heroImage' => '/assets/img/slider/7th_blog.jpg',
+        'heroImageMobile' => '/assets/img/slider/7th_blog.jpg'
     );
     require_once __DIR__ . '/partials/blog-posts.php';
     $currentBlogPost = virtuo_get_blog_post_by_file(basename(__FILE__));
     if ($currentBlogPost) {
-        $seoPage['ogImage'] = '/assets/img/og/' . $currentBlogPost['slug'] . '.jpg';
+        $primaryOg = '/assets/img/og/' . $currentBlogPost['slug'] . '.jpg';
+        $legacyOg = '/assets/img/og/uae-taxes-explained-2026.jpg';
+        $seoPage['ogImage'] = is_file(__DIR__ . $primaryOg)
+            ? $primaryOg
+            : (is_file(__DIR__ . $legacyOg) ? $legacyOg : $currentBlogPost['image']);
         $seoPage['image'] = $currentBlogPost['image'];
         $seoPage['imageAlt'] = $currentBlogPost['alt'];
         $seoPage['ogImageAlt'] = $currentBlogPost['alt'];
@@ -55,7 +59,7 @@
         <section class="slider__area">
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="/assets/img/slider/6th_blog.jpg" data-background-mobile="/assets/img/slider/6th_blog.jpg">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="/assets/img/slider/7th_blog.jpg" data-background-mobile="/assets/img/slider/7th_blog.jpg">
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">

@@ -8,8 +8,8 @@ $blogPostSlugs = array(
     'the-uae-golden-visa-comparing-every-real-way-to-qualify',
     'freelance-visa-or-green-residence-the-independent-professionals-setup-decision',
     'why-americans-are-relocating-to-the-uae-in-2026',
-    'uae-taxes-explained-2026',
-    'ajman-free-zone-2026',
+    'uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe',
+    'ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it',
 );
 
 $oldBlogPostRoutes = array(
@@ -19,6 +19,8 @@ $oldBlogPostRoutes = array(
     '/blog/golden-visa-eligibility-guide' => '/blog/the-uae-golden-visa-comparing-every-real-way-to-qualify',
     '/blog/freelance-visa-uae-guide' => '/blog/freelance-visa-or-green-residence-the-independent-professionals-setup-decision',
     '/blog/why-americans-relocating-uae-2026' => '/blog/why-americans-are-relocating-to-the-uae-in-2026',
+    '/blog/uae-taxes-explained-2026' => '/blog/uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe',
+    '/blog/ajman-free-zone-2026' => '/blog/ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it',
 );
 
 $serviceRoutes = array(
@@ -80,12 +82,12 @@ if ($uri === '/blog/why-americans-are-relocating-to-the-uae-in-2026') {
     return true;
 }
 
-if ($uri === '/blog/uae-taxes-explained-2026') {
+if ($uri === '/blog/uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe') {
     require __DIR__ . '/blog-details7.php';
     return true;
 }
 
-if ($uri === '/blog/ajman-free-zone-2026') {
+if ($uri === '/blog/ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it') {
     require __DIR__ . '/blog-details8.php';
     return true;
 }
@@ -174,12 +176,12 @@ if ($uri === '/blog-details6' || $uri === '/blog-details6.php') {
 }
 
 if ($uri === '/blog-details7' || $uri === '/blog-details7.php') {
-    header('Location: /blog/uae-taxes-explained-2026', true, 301);
+    header('Location: /blog/uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe', true, 301);
     exit;
 }
 
 if ($uri === '/blog-details8' || $uri === '/blog-details8.php') {
-    header('Location: /blog/ajman-free-zone-2026', true, 301);
+    header('Location: /blog/ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it', true, 301);
     exit;
 }
 

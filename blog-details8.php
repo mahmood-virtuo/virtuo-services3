@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $postTitle = 'Ajman Free Zone in 2026: Cost, 0% Tax and the $10 Billion Economy Behind It';
-    $postSlug = 'ajman-free-zone-2026';
+    $postSlug = 'ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it';
     $postPath = '/blog/' . $postSlug;
     $primaryArticleImage = '/assets/img/og/' . $postSlug . '.jpg';
     $legacyArticleImage = '/assets/og/' . $postSlug . '.jpg';
@@ -185,7 +185,7 @@
                         <div class="blog__details-wrap">
                             <div class="blog__details-content blog-details-article" id="blogDetailsArticle">
 
-                                <article class="vt-article blog-ajman-free-zone" data-slug="ajman-free-zone-2026">
+                                <article class="vt-article blog-ajman-free-zone" data-slug="ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it">
                                     <div class="vt-eyebrow">Business Setup &middot; Ajman Free Zone</div>
                                     <div class="vt-tldr vt-reveal">
                                         <h2 class="vt-ptitle">The 30-Second Version</h2>
@@ -200,7 +200,7 @@
                                     </div>
 
                                     <div class="vt-panel vt-reveal">
-                                        <div class="vt-stats" aria-label="Ajman Free Zone key statistics">
+                                        <div class="vt-stats ajman-stats" aria-label="Ajman Free Zone key statistics">
                                             <div class="vt-stat"><div class="n">20,000<small>+</small></div><div class="l">companies since 1988</div></div>
                                             <div class="vt-stat"><div class="n">200<small>+</small></div><div class="l">nationalities served</div></div>
                                             <div class="vt-stat"><div class="n">~1<small>hr</small></div><div class="l">to issue a licence</div></div>
@@ -232,81 +232,143 @@
                                             <h3>Compare the options</h3>
                                             <p class="vt-reco">Tap a jurisdiction to see how it lines up. Figures are indicative starting points &mdash; always confirm live pricing.</p>
 
-                                            <div class="vt-acc">
-                                                <details open>
-                                                    <summary>Ajman FZ <span class="pl" aria-hidden="true">+</span></summary>
-                                                    <div class="bd">
-                                                        <div class="vt-matrix-wrap">
-                                                            <table class="vt-matrix">
-                                                                <tbody>
-                                                                    <tr><th scope="row">Entry package from</th><td>~Dh4,166 <span class="vt-eyebrow">Lowest</span></td></tr>
-                                                                    <tr><th scope="row">Licence issued in</th><td>~1 hour <span class="vt-eyebrow">Fastest</span></td></tr>
-                                                                    <tr><th scope="row">Foreign ownership</th><td>100%</td></tr>
-                                                                    <tr><th scope="row">Tax status</th><td>Designated free zone &middot; 0% on qualifying income</td></tr>
-                                                                    <tr><th scope="row">Best for</th><td>Traders, re-export, light manufacturing, cost-led SMEs</td></tr>
-                                                                    <tr><th scope="row">Edge</th><td>Ajman Port + China Mall + auto district on the doorstep</td></tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
+                                            <div class="ajman-compare" data-ajman-compare>
+                                                <div class="ajman-compare__tabs" role="tablist" aria-label="Compare Ajman Free Zone with other UAE free zones">
+                                                    <button class="ajman-compare__tab" type="button" role="tab" id="ajman-compare-tab-ajman" aria-selected="true" aria-controls="ajman-compare-panel-ajman" data-ajman-key="ajman" tabindex="0">Ajman FZ</button>
+                                                    <button class="ajman-compare__tab" type="button" role="tab" id="ajman-compare-tab-northern" aria-selected="false" aria-controls="ajman-compare-panel-northern" data-ajman-key="northern" tabindex="-1">Other Northern zones</button>
+                                                    <button class="ajman-compare__tab" type="button" role="tab" id="ajman-compare-tab-dubai" aria-selected="false" aria-controls="ajman-compare-panel-dubai" data-ajman-key="dubai" tabindex="-1">Dubai zones</button>
+                                                </div>
+
+                                                <div class="ajman-compare__panel" role="tabpanel" id="ajman-compare-panel-ajman" aria-labelledby="ajman-compare-tab-ajman">
+                                                    <div class="vt-matrix-wrap">
+                                                        <table class="vt-matrix">
+                                                            <tbody>
+                                                                <tr><th scope="row">Entry package from</th><td>~Dh4,166 <span class="vt-eyebrow">Lowest</span></td></tr>
+                                                                <tr><th scope="row">Licence issued in</th><td>~1 hour <span class="vt-eyebrow">Fastest</span></td></tr>
+                                                                <tr><th scope="row">Foreign ownership</th><td>100%</td></tr>
+                                                                <tr><th scope="row">Tax status</th><td>Designated free zone &middot; 0% on qualifying income</td></tr>
+                                                                <tr><th scope="row">Best for</th><td>Traders, re-export, light manufacturing, cost-led SMEs</td></tr>
+                                                                <tr><th scope="row">Edge</th><td>Ajman Port + China Mall + auto district on the doorstep</td></tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
-                                                </details>
-                                                <details>
-                                                    <summary>Other Northern zones <span class="pl" aria-hidden="true">+</span></summary>
-                                                    <div class="bd">
-                                                        <div class="vt-matrix-wrap">
-                                                            <table class="vt-matrix">
-                                                                <tbody>
-                                                                    <tr><th scope="row">Entry package from</th><td>~Dh5,750&ndash;6,500 (indicative)</td></tr>
-                                                                    <tr><th scope="row">Licence issued in</th><td>~1&ndash;4 days</td></tr>
-                                                                    <tr><th scope="row">Foreign ownership</th><td>100%</td></tr>
-                                                                    <tr><th scope="row">Tax status</th><td>Free zone &middot; 0% on qualifying income</td></tr>
-                                                                    <tr><th scope="row">Best for</th><td>Media, e-commerce, freelancers, service SMEs</td></tr>
-                                                                    <tr><th scope="row">Trade-off</th><td>Fewer heavy-industry / port-linked facilities</td></tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
+                                                </div>
+
+                                                <div class="ajman-compare__panel" role="tabpanel" id="ajman-compare-panel-northern" aria-labelledby="ajman-compare-tab-northern" hidden>
+                                                    <div class="vt-matrix-wrap">
+                                                        <table class="vt-matrix">
+                                                            <tbody>
+                                                                <tr><th scope="row">Entry package from</th><td>~Dh5,750&ndash;6,500 (indicative)</td></tr>
+                                                                <tr><th scope="row">Licence issued in</th><td>~1&ndash;4 days</td></tr>
+                                                                <tr><th scope="row">Foreign ownership</th><td>100%</td></tr>
+                                                                <tr><th scope="row">Tax status</th><td>Free zone &middot; 0% on qualifying income</td></tr>
+                                                                <tr><th scope="row">Best for</th><td>Media, e-commerce, freelancers, service SMEs</td></tr>
+                                                                <tr><th scope="row">Trade-off</th><td>Fewer heavy-industry / port-linked facilities</td></tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
-                                                </details>
-                                                <details>
-                                                    <summary>Dubai zones <span class="pl" aria-hidden="true">+</span></summary>
-                                                    <div class="bd">
-                                                        <div class="vt-matrix-wrap">
-                                                            <table class="vt-matrix">
-                                                                <tbody>
-                                                                    <tr><th scope="row">Entry package from</th><td>~Dh12,500&ndash;34,000+ (indicative)</td></tr>
-                                                                    <tr><th scope="row">Licence issued in</th><td>~2&ndash;7 days</td></tr>
-                                                                    <tr><th scope="row">Foreign ownership</th><td>100%</td></tr>
-                                                                    <tr><th scope="row">Tax status</th><td>Free zone &middot; 0% on qualifying income</td></tr>
-                                                                    <tr><th scope="row">Best for</th><td>Prestige address, commodities, finance, global clients</td></tr>
-                                                                    <tr><th scope="row">Trade-off</th><td>Materially higher setup and renewal costs</td></tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
+                                                </div>
+
+                                                <div class="ajman-compare__panel" role="tabpanel" id="ajman-compare-panel-dubai" aria-labelledby="ajman-compare-tab-dubai" hidden>
+                                                    <div class="vt-matrix-wrap">
+                                                        <table class="vt-matrix">
+                                                            <tbody>
+                                                                <tr><th scope="row">Entry package from</th><td>~Dh12,500&ndash;34,000+ (indicative)</td></tr>
+                                                                <tr><th scope="row">Licence issued in</th><td>~2&ndash;7 days</td></tr>
+                                                                <tr><th scope="row">Foreign ownership</th><td>100%</td></tr>
+                                                                <tr><th scope="row">Tax status</th><td>Free zone &middot; 0% on qualifying income</td></tr>
+                                                                <tr><th scope="row">Best for</th><td>Prestige address, commodities, finance, global clients</td></tr>
+                                                                <tr><th scope="row">Trade-off</th><td>Materially higher setup and renewal costs</td></tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
-                                                </details>
+                                                </div>
                                             </div>
 
-                                            <div class="vt-costbox" aria-label="Indicative entry package comparison">
+                                            <!-- <div class="vt-costbox" aria-label="Indicative entry package comparison">
                                                 <div class="vt-ct">Indicative entry-package starting points</div>
-                                                <div class="vt-costrow active">
+                                                <div class="vt-costrow active" data-ajman-key="ajman">
                                                     <div class="vt-cl"><span>Ajman FZ</span><span>Dh4,166</span></div>
                                                     <div class="vt-track"><div class="vt-fill" style="width: 12%;"></div></div>
                                                 </div>
-                                                <div class="vt-costrow">
+                                                <div class="vt-costrow" data-ajman-key="northern">
                                                     <div class="vt-cl"><span>Northern zones</span><span>Dh~6k</span></div>
                                                     <div class="vt-track"><div class="vt-fill" style="width: 18%;"></div></div>
                                                 </div>
-                                                <div class="vt-costrow">
+                                                <div class="vt-costrow" data-ajman-key="dubai">
                                                     <div class="vt-cl"><span>Dubai (low)</span><span>Dh~12.5k</span></div>
                                                     <div class="vt-track"><div class="vt-fill" style="width: 38%;"></div></div>
                                                 </div>
-                                                <div class="vt-costrow">
+                                                <div class="vt-costrow" data-ajman-key="dubai">
                                                     <div class="vt-cl"><span>Dubai (premium)</span><span>Dh34k+</span></div>
                                                     <div class="vt-track"><div class="vt-fill" style="width: 100%;"></div></div>
                                                 </div>
                                                 <div class="vt-axis"><span>Dh4.2k</span><span>Dh34k+</span></div>
                                                 <p class="vt-costnote">Indicative entry-package starting points (AED, 2026). Real quotes vary by activity, visas and facilities &mdash; treat this as directional, not a quote.</p>
-                                            </div>
+                                            </div> -->
+                                            <div class="vt-costbox ajman-costbox" aria-label="Indicative entry package comparison">
+    <div class="vt-ct">Indicative entry-package starting points</div>
+
+    <div class="vt-costrow active ajman-costrow--12" data-ajman-key="ajman">
+        <div class="ajman-costbar">
+            <span class="ajman-costbar__label">Ajman FZ</span>
+
+            <div class="vt-track">
+                <div class="vt-fill">
+                    <span class="ajman-costbar__fill-value">Dh4,166</span>
+                </div>
+            </div>
+
+            <span class="ajman-costbar__total">Dh4.2k</span>
+        </div>
+    </div>
+
+    <div class="vt-costrow ajman-costrow--18" data-ajman-key="northern">
+        <div class="ajman-costbar">
+            <span class="ajman-costbar__label">Northern zones</span>
+
+            <div class="vt-track">
+                <div class="vt-fill">
+                    <span class="ajman-costbar__fill-value">Dh~6k</span>
+                </div>
+            </div>
+
+            <span class="ajman-costbar__total">Dh~6k</span>
+        </div>
+    </div>
+
+    <div class="vt-costrow ajman-costrow--38" data-ajman-key="dubai">
+        <div class="ajman-costbar">
+            <span class="ajman-costbar__label">Dubai (low)</span>
+
+            <div class="vt-track">
+                <div class="vt-fill">
+                    <span class="ajman-costbar__fill-value">Dh~12.5k</span>
+                </div>
+            </div>
+
+            <span class="ajman-costbar__total">Dh~12.5k</span>
+        </div>
+    </div>
+
+    <div class="vt-costrow ajman-costrow--100" data-ajman-key="dubai">
+        <div class="ajman-costbar">
+            <span class="ajman-costbar__label">Dubai (premium)</span>
+
+            <div class="vt-track">
+                <div class="vt-fill">
+                    <span class="ajman-costbar__fill-value">Dh34k+</span>
+                </div>
+            </div>
+
+            <span class="ajman-costbar__total">Dh34k+</span>
+        </div>
+    </div>
+
+    <p class="vt-costnote">
+        Indicative entry-package starting points (AED, 2026). Real quotes vary by activity, visas and facilities &mdash; treat this as directional, not a quote.
+    </p>
+</div>
                                         </div>
                                     </section>
 
@@ -338,11 +400,27 @@
                                         <div class="vt-eyebrow">Chapter 04</div>
                                         <h2 class="title-two">The $10 billion economy hiding behind the "cheap" label</h2>
                                         <p>Here's the part the cost-comparison crowd misses. Ajman generated roughly <strong>$10 billion in GDP in 2024</strong>, and manufacturing is doing a lot of that lifting. Per Ajman Chamber figures, the emirate's small and medium factories exported around <strong>$1.4 billion of goods to Saudi Arabia</strong> last year alone. Textiles, plastics and industrial goods are real, shipping product &mdash; this is not a paper-company jurisdiction.</p>
-                                        <div class="vt-cards">
-                                            <div class="vt-card"><div class="city" aria-hidden="true">&#8779;</div><h4 class="pick">China Mall</h4><p class="who">~1,300 wholesale retail shops at roughly 95% occupancy, with a phase-two expansion planned over three years.</p></div>
-                                            <div class="vt-card"><div class="city" aria-hidden="true">&#8644;</div><h4 class="pick">Auto re-export district</h4><p class="who">~500 plots, ~350 already taken, and advanced talks with EV maker BYD to open a showroom on site.</p></div>
-                                            <div class="vt-card"><div class="city" aria-hidden="true">&#9875;</div><h4 class="pick">Port &amp; logistics</h4><p class="who">Ajman Port on the doorstep, ~30 minutes from Dubai &mdash; built for import, export and re-export flows.</p></div>
-                                            <div class="vt-card"><div class="city" aria-hidden="true">&#9636;</div><h4 class="pick">Industrial land</h4><p class="who">The authority is sourcing more industrial land to court larger China- and India-based manufacturing projects.</p></div>
+                                        <div class="ajman-economy-grid blog-card-grid">
+                                            <article class="ajman-economy-card blog-data-card">
+                                                <div class="ajman-economy-card__icon" aria-hidden="true">&#8779;</div>
+                                                <h4 class="ajman-economy-card__title">China Mall</h4>
+                                                <p class="ajman-economy-card__text">~1,300 wholesale retail shops at roughly 95% occupancy, with a phase-two expansion planned over three years.</p>
+                                            </article>
+                                            <article class="ajman-economy-card blog-data-card">
+                                                <div class="ajman-economy-card__icon" aria-hidden="true">&#8644;</div>
+                                                <h4 class="ajman-economy-card__title">Auto re-export district</h4>
+                                                <p class="ajman-economy-card__text">~500 plots, ~350 already taken, and advanced talks with EV maker BYD to open a showroom on site.</p>
+                                            </article>
+                                            <article class="ajman-economy-card blog-data-card">
+                                                <div class="ajman-economy-card__icon" aria-hidden="true">&#9875;</div>
+                                                <h4 class="ajman-economy-card__title">Port &amp; logistics</h4>
+                                                <p class="ajman-economy-card__text">Ajman Port on the doorstep, ~30 minutes from Dubai &mdash; built for import, export and re-export flows.</p>
+                                            </article>
+                                            <article class="ajman-economy-card blog-data-card">
+                                                <div class="ajman-economy-card__icon" aria-hidden="true">&#9636;</div>
+                                                <h4 class="ajman-economy-card__title">Industrial land</h4>
+                                                <p class="ajman-economy-card__text">The authority is sourcing more industrial land to court larger China- and India-based manufacturing projects.</p>
+                                            </article>
                                         </div>
                                         <p>If your business touches physical goods &mdash; electronics, auto parts, textiles, wholesale, re-export &mdash; this ecosystem is the actual selling point, and it's the one competitors with prettier addresses can't easily match.</p>
                                     </section>

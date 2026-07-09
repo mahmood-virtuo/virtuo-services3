@@ -374,3 +374,69 @@ var barsEl = root.querySelector("#rate-bars");
 if(barsEl) barObs.observe(barsEl);
 
 })();
+
+(function(){
+  var root = document.querySelector("[data-ajman-compare]");
+  if(!root) return;
+
+  var studio = root.closest(".vt-studio");
+  var tabs = Array.prototype.slice.call(root.querySelectorAll('[role="tab"]'));
+  var panels = Array.prototype.slice.call(root.querySelectorAll('[role="tabpanel"]'));
+  var costRows = studio
+    ? Array.prototype.slice.call(studio.querySelectorAll(".vt-costrow[data-ajman-key]"))
+    : [];
+
+  if(!tabs.length || !panels.length) return;
+
+  function selectTab(tab) {
+    var key = tab.getAttribute("data-ajman-key");
+    var panelId = tab.getAttribute("aria-controls");
+
+    tabs.forEach(function(item) {
+      var selected = item === tab;
+      item.setAttribute("aria-selected", selected ? "true" : "false");
+      item.setAttribute("tabindex", selected ? "0" : "-1");
+    });
+
+    panels.forEach(function(panel) {
+      if(panel.getAttribute("id") === panelId) {
+        panel.removeAttribute("hidden");
+      } else {
+        panel.setAttribute("hidden", "");
+      }
+    });
+
+    costRows.forEach(function(row) {
+      row.classList.toggle("active", row.getAttribute("data-ajman-key") === key);
+    });
+  }
+
+  tabs.forEach(function(tab, index) {
+    tab.addEventListener("click", function() {
+      selectTab(tab);
+    });
+
+    tab.addEventListener("keydown", function(event) {
+      var nextIndex = index;
+
+      if(event.key === "ArrowRight") {
+        event.preventDefault();
+        nextIndex = (index + 1) % tabs.length;
+      } else if(event.key === "ArrowLeft") {
+        event.preventDefault();
+        nextIndex = (index - 1 + tabs.length) % tabs.length;
+      } else if(event.key === "Home") {
+        event.preventDefault();
+        nextIndex = 0;
+      } else if(event.key === "End") {
+        event.preventDefault();
+        nextIndex = tabs.length - 1;
+      } else {
+        return;
+      }
+
+      tabs[nextIndex].focus();
+      selectTab(tabs[nextIndex]);
+    });
+  });
+})();
