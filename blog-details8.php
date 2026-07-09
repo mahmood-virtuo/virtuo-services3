@@ -138,7 +138,7 @@
                                     <div class="slider__content">
                                         <h1 class="title">Ajman Free Zone in 2026: What It Costs, Why the Tax Works, and the <span style="color: var(--tg-theme-primary)">$10 Billion Economy</span> Behind It</h1>
                                         <p>Setup that used to take two weeks now takes about an hour. Packages start from Dh4,166. And the "budget" free zone everyone underestimates is quietly running a ten-billion-dollar trading economy. Here's the honest, insider read.</p>
-                                        <a href="https://virtuo.ae/contact" class="tg-btn tg-btn-four">Get a straight quote<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="https://virtuo.ae/contact" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
