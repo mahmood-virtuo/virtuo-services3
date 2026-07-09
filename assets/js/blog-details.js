@@ -173,3 +173,204 @@
         });
       });
     })();
+
+(function(){
+
+/* UAE tax article widgets */
+var root = document.querySelector(".tax-article");
+if(!root) return;
+var rm = window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+if(!rm){
+  var ro = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); ro.unobserve(e.target); }});
+  },{threshold:.08});
+  root.querySelectorAll(".reveal").forEach(function(el){ ro.observe(el); });
+} else {
+  root.querySelectorAll(".reveal").forEach(function(el){ el.classList.add("in"); });
+}
+
+/* Profile Selector */
+var PROFILES = {
+  freelancer:{
+    label:"Freelancer / Self-employed professional",
+    note:"<strong>Your taxes:</strong> Corporate Tax (if annual business turnover exceeds AED 1M, profit taxed at 9% above AED 375k) · VAT (if taxable supplies exceed AED 375k/yr) · Municipal housing fee (5% of rent, through utility bills) · <strong>Not your taxes:</strong> Excise (unless you manufacture/import harmful goods) · DMTT (unless part of a EUR 750M+ MNE) · Property transfer fee (unless buying property)"
+  },
+  freezone:{
+    label:"Free Zone company (FZCO / FZE)",
+    note:"<strong>Your taxes:</strong> Corporate Tax at 9% on non-qualifying income — 0% on qualifying income if you meet all five QFZP conditions (substance, activity, de-minimis, transfer pricing, audited accounts) · VAT if above AED 375k in taxable supplies · Customs if goods enter the mainland · Municipal housing fee on your leased office or residence · <strong>Watch out for:</strong> FTA QFZP compliance checks are more detailed in 2026. A single condition failure triggers 9% on all income for 5 years."
+  },
+  mainland:{
+    label:"Mainland LLC / Branch",
+    note:"<strong>Your taxes:</strong> Corporate Tax — 9% on profit above AED 375k (unless SBR applies) · VAT — 5% on taxable supplies above AED 375k · Customs — 5% on goods imported from outside GCC · Municipal fee — 5% of annual rent through DEWA/utility bills · Property transfer fee if buying premises · <strong>Not your taxes:</strong> DMTT (unless EUR 750M+ group) · Excise (unless manufacturing/importing harmful goods) · No personal income tax on your salary"
+  },
+  hnwi:{
+    label:"Individual / HNWI resident",
+    note:"<strong>Your taxes:</strong> Municipal housing fee — 5% of your annual rent added to utility bills · Property transfer fee — 4% of purchase price (one-time, if buying) · Tourism Dirham — AED 7–20/night when staying in hotels · VAT as a consumer on purchases · <strong>Not your taxes:</strong> Personal income tax · Capital gains tax · Inheritance / estate tax · Wealth tax · Corporate tax (unless you run a business with >AED 1M turnover)"
+  },
+  mne:{
+    label:"Large Multinational Enterprise (EUR 750M+ revenue)",
+    note:"<strong>Your taxes:</strong> Corporate Tax (9% / 0% QFZP as applicable) · VAT · Excise (if applicable) · Customs · DMTT — 15% minimum effective tax rate on UAE profits if group ETR falls below 15% · Municipal fees · <strong>Action needed:</strong> First DMTT returns for FY2025 are due by June/March 2027. If you haven't begun the GloBE data collection and ETR computation, the preparation window is closing. Engage a UAE-registered tax agent now."
+  }
+};
+
+var pBtns = root.querySelectorAll(".p-btn");
+var pNote = root.querySelector("#profile-note");
+var taxCards = root.querySelectorAll(".tax-card");
+
+pBtns.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    var p = btn.getAttribute("data-profile");
+    pBtns.forEach(function(b){ b.classList.remove("active"); });
+    btn.classList.add("active");
+    var data = PROFILES[p];
+    pNote.innerHTML = data.note;
+    pNote.classList.add("is-visible");
+    // highlight relevant cards
+    taxCards.forEach(function(card){
+      var profiles = (card.getAttribute("data-profiles")||"").split(",");
+      if(profiles.indexOf(p) !== -1){
+        card.classList.remove("dimmed");
+        card.classList.add("highlighted");
+      } else {
+        card.classList.add("dimmed");
+        card.classList.remove("highlighted");
+      }
+    });
+  });
+});
+
+/* Calculator */
+var profitInput = root.querySelector("#calc-profit");
+var revenueInput = root.querySelector("#calc-revenue");
+var calcOutput = root.querySelector("#calc-output");
+var entityType = "mainland";
+
+root.querySelectorAll(".ct-btn").forEach(function(btn){
+  btn.addEventListener("click", function(){
+    root.querySelectorAll(".ct-btn").forEach(function(b){ b.classList.remove("active"); });
+    btn.classList.add("active");
+    entityType = btn.getAttribute("data-type");
+    calculate();
+  });
+});
+
+function fmt(n){
+  if(isNaN(n)) return "—";
+  return "AED " + Math.round(n).toLocaleString("en-US");
+}
+
+function calculate(){
+  var profit = parseFloat(profitInput.value)||0;
+  var revenue = parseFloat(revenueInput.value)||0;
+  if(profit <= 0){ calcOutput.innerHTML = '<p class="tax-calc-empty">Enter your annual profit above to see your corporate tax calculation.</p>'; return; }
+
+  var EXEMPT = 375000;
+  var TAX_RATE = 0.09;
+  var SBR_REVENUE = 3000000;
+
+  // Small Business Relief check
+  var sbr = revenue > 0 && revenue <= SBR_REVENUE;
+  var qfzp = entityType === "freezone";
+
+  var taxableAboveThreshold = Math.max(0, profit - EXEMPT);
+  var taxDue = 0;
+  var note = "";
+  var method = "";
+
+  if(sbr){
+    taxDue = 0;
+    method = "Small Business Relief";
+    note = "Revenue ≤ AED 3M — you may elect Small Business Relief (available until 31 Dec 2026), treating all taxable income as zero. You still need to register with the FTA and file a return.";
+  } else if(qfzp){
+    taxDue = 0;
+    method = "Free Zone QFZP (0% on qualifying income)";
+    note = "This calculation assumes your income is fully qualifying and you meet all five QFZP conditions. Non-qualifying income above AED 5M or 5% of revenue would be taxed at 9%. One failed condition triggers 9% on everything for 5 years.";
+  } else {
+    taxDue = taxableAboveThreshold * TAX_RATE;
+    method = "Standard 9% rate";
+    note = "Based on the graduated rate: 0% on first AED 375,000 of profit, 9% on everything above.";
+  }
+
+  var effectiveRate = profit > 0 ? (taxDue/profit*100).toFixed(2) : 0;
+
+  calcOutput.innerHTML =
+    '<div class="cr-label">Calculation — ' + method + '</div>' +
+    '<div class="cr-row"><span class="ck">Annual profit entered</span><span class="cv">' + fmt(profit) + '</span></div>' +
+    '<div class="cr-row"><span class="ck">0% threshold</span><span class="cv zero">AED 375,000</span></div>' +
+    '<div class="cr-row"><span class="ck">Taxable above threshold</span><span class="cv">' + fmt(Math.max(0,profit-EXEMPT)) + '</span></div>' +
+    '<div class="cr-row"><span class="ck">Tax rate applied</span><span class="cv">' + (sbr||qfzp ? '0%' : '9%') + '</span></div>' +
+    '<div class="cr-total"><div class="cr-total-row"><span class="tk">Tax owed</span><span class="tv">' + fmt(taxDue) + '</span></div>' +
+    '<div class="cr-effective">Effective rate: ' + effectiveRate + '%</div></div>' +
+    '<div class="cr-disclaimer">' + note + ' · Estimate only — based on simplified assumptions. Consult a UAE-registered tax agent for your specific filing position.</div>';
+}
+
+profitInput.addEventListener("input", calculate);
+revenueInput.addEventListener("input", calculate);
+
+/* Global rate comparison */
+var RATES = {
+  corporate:[
+    {name:"UAE",flag:"🇦🇪",rate:9,max:40,note:"(0% below AED 375k / 0% QFZP)"},
+    {name:"Singapore",flag:"🇸🇬",rate:17,max:40,note:"(effective 5–8% with incentives)"},
+    {name:"UK",flag:"🇬🇧",rate:25,max:40,note:""},
+    {name:"US Federal",flag:"🇺🇸",rate:21,max:40,note:"(+state: up to ~29.8% combined)"},
+    {name:"Germany",flag:"🇩🇪",rate:30,max:40,note:"(federal + trade tax)"},
+    {name:"France",flag:"🇫🇷",rate:25,max:40,note:""},
+    {name:"OECD Avg",flag:"🌍",rate:23.58,max:40,note:"(181 jurisdictions)"}
+  ],
+  personal:[
+    {name:"UAE",flag:"🇦🇪",rate:0,max:55,note:"(does not exist)"},
+    {name:"Singapore",flag:"🇸🇬",rate:24,max:55,note:"(top marginal)"},
+    {name:"UK",flag:"🇬🇧",rate:45,max:55,note:"(top marginal)"},
+    {name:"US Federal",flag:"🇺🇸",rate:37,max:55,note:"(+California: +13.3%)"},
+    {name:"Germany",flag:"🇩🇪",rate:45,max:55,note:"(+solidarity surcharge)"},
+    {name:"France",flag:"🇫🇷",rate:45,max:55,note:"(+social charges ~17%)"},
+    {name:"Denmark",flag:"🇩🇰",rate:55.9,max:55,note:"(top effective)"}
+  ]
+};
+
+var currentRType = "corporate";
+
+function renderBars(type){
+  var bars = RATES[type];
+  var html = bars.map(function(b){
+    var pct = Math.min((b.rate/b.max)*100, 100);
+    var isUAE = b.name === "UAE";
+    return '<div class="rate-row' + (isUAE?' uae-row':'') + '">' +
+      '<div class="rate-row-header">' +
+      '<span class="rr-country"><span class="rr-flag">' + b.flag + '</span>' + b.name + (b.note?' <span class="rr-note">' + b.note + '</span>':'') + '</span>' +
+      '<span class="rr-rate">' + b.rate + '%</span></div>' +
+      '<div class="rate-bar-bg"><div class="rate-bar-fill' + (isUAE?' is-uae':'') + '" data-pct="' + pct + '"></div></div>' +
+      '</div>';
+  }).join("");
+  root.querySelector("#rate-bars").innerHTML = html;
+  // animate fills
+  setTimeout(function(){
+    root.querySelectorAll(".rate-bar-fill").forEach(function(el){
+      el.style.setProperty("--tax-rate-width", el.getAttribute("data-pct") + "%");
+    });
+  }, 80);
+}
+
+root.querySelectorAll(".rt-btn").forEach(function(btn){
+  btn.addEventListener("click", function(){
+    root.querySelectorAll(".rt-btn").forEach(function(b){ b.classList.remove("active"); });
+    btn.classList.add("active");
+    currentRType = btn.getAttribute("data-rtype");
+    renderBars(currentRType);
+  });
+});
+
+// init
+renderBars("corporate");
+
+// Animate bars when visible
+var barObs = new IntersectionObserver(function(es){
+  es.forEach(function(e){
+    if(e.isIntersecting){ renderBars(currentRType); barObs.disconnect(); }
+  });
+},{threshold:.3});
+var barsEl = root.querySelector("#rate-bars");
+if(barsEl) barObs.observe(barsEl);
+
+})();

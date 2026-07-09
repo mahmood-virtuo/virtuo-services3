@@ -8,6 +8,8 @@ $blogPostSlugs = array(
     'the-uae-golden-visa-comparing-every-real-way-to-qualify',
     'freelance-visa-or-green-residence-the-independent-professionals-setup-decision',
     'why-americans-are-relocating-to-the-uae-in-2026',
+    'uae-taxes-explained-2026',
+    'ajman-free-zone-2026',
 );
 
 $oldBlogPostRoutes = array(
@@ -75,6 +77,16 @@ if ($uri === '/blog/freelance-visa-or-green-residence-the-independent-profession
 }
 if ($uri === '/blog/why-americans-are-relocating-to-the-uae-in-2026') {
     require __DIR__ . '/blog-details6.php';
+    return true;
+}
+
+if ($uri === '/blog/uae-taxes-explained-2026') {
+    require __DIR__ . '/blog-details7.php';
+    return true;
+}
+
+if ($uri === '/blog/ajman-free-zone-2026') {
+    require __DIR__ . '/blog-details8.php';
     return true;
 }
 
@@ -158,6 +170,16 @@ if ($uri === '/blog-details5' || $uri === '/blog-details5.php') {
 
 if ($uri === '/blog-details6' || $uri === '/blog-details6.php') {
     header('Location: /blog/why-americans-are-relocating-to-the-uae-in-2026', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details7' || $uri === '/blog-details7.php') {
+    header('Location: /blog/uae-taxes-explained-2026', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details8' || $uri === '/blog-details8.php') {
+    header('Location: /blog/ajman-free-zone-2026', true, 301);
     exit;
 }
 

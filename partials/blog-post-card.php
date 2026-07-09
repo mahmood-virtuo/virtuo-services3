@@ -1,4 +1,4 @@
-<div class="blog__post-item-five">
+<div class="blog__post-item-five"<?php if (!empty($blogLoadItemEnabled)) : ?> data-blog-load-item<?php endif; ?>>
     <div class="blog__post-thumb-five">
         <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($blogPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="900" height="643"></a>
     </div>

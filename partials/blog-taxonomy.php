@@ -23,6 +23,12 @@ if (!function_exists('virtuo_blog_categories')) {
                 'seo_title' => 'Residency & Immigration Insights | Virtuo',
                 'seo_description' => 'Read Virtuo guidance on UAE Golden Visa, Freelance Visa, Green Residence, residency planning and immigration options.',
             ),
+            'uae-tax-compliance' => array(
+                'label' => 'UAE Tax & Compliance',
+                'description' => 'UAE tax, VAT, corporate tax, compliance, and business filing guidance for founders and operators.',
+                'seo_title' => 'UAE Tax & Compliance Insights | Virtuo',
+                'seo_description' => 'Read Virtuo insights on UAE corporate tax, VAT, compliance, business filing requirements and tax-efficient structuring.',
+            ),
             'business-strategy' => array(
                 'label' => 'Business Strategy',
                 'description' => 'Strategic guidance for founders, investors, and growing UAE businesses.',
@@ -76,6 +82,8 @@ if (!function_exists('virtuo_blog_tags')) {
             'uae-logistics' => 'UAE Logistics',
             'uae-strategy' => 'UAE Strategy',
             'business-setup' => 'Business Setup',
+            'vat' => 'VAT',
+            'uae-tax' => 'UAE Tax',
             'banking-readiness' => 'Banking Readiness',
             'compliance' => 'Compliance',
             'entrepreneur-route' => 'Entrepreneur Route',

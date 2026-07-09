@@ -21,8 +21,11 @@
     include __DIR__ . '/partials/seo.php';
     require_once __DIR__ . '/partials/blog-posts.php';
     $blogPosts = virtuo_get_blog_posts();
-    $postsPerPage = 10;
-    $pagedBlogPosts = array_slice($blogPosts, 0, $postsPerPage);
+    $postsPerPage = 5;
+    $pagedBlogPosts = $blogPosts;
+    $blogLoadEnabled = true;
+    $blogLoadInitialCount = 5;
+    $blogLoadBatchSize = 5;
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -99,6 +102,7 @@
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
     <script src="/assets/js/blog-sticky-widgets.js"></script>
+    <script src="/assets/js/blog-load-more.js"></script>
     <!-- footer-area-end -->
 
 </body>

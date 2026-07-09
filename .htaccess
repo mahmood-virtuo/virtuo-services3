@@ -8,7 +8,7 @@ RewriteRule ^sitemap\.xml$ sitemap.php [L,QSA]
 RewriteRule ^blog/$ /blog [R=301,L]
 RewriteRule ^blog/(tag|category)/?$ /blog [R=301,L]
 RewriteRule ^blog/(tag|category)/([^/]+)/$ /blog/$1/$2 [R=301,L]
-RewriteRule ^blog/(mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong|why-us-wireless-and-itad-operators-are-looking-at-the-uae|beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026|the-uae-golden-visa-comparing-every-real-way-to-qualify|freelance-visa-or-green-residence-the-independent-professionals-setup-decision|why-americans-are-relocating-to-the-uae-in-2026)/$ /blog/$1 [R=301,L]
+RewriteRule ^blog/(mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong|why-us-wireless-and-itad-operators-are-looking-at-the-uae|beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026|the-uae-golden-visa-comparing-every-real-way-to-qualify|freelance-visa-or-green-residence-the-independent-professionals-setup-decision|why-americans-are-relocating-to-the-uae-in-2026|uae-taxes-explained-2026|ajman-free-zone-2026)/$ /blog/$1 [R=301,L]
 
 RewriteRule ^blog/mainland-free-zone-or-offshore-uae-structuring-us-founders/?$ /blog/mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong [R=301,L]
 RewriteRule ^blog/why-us-wireless-itad-operators-are-looking-at-the-uae/?$ /blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae [R=301,L]
@@ -45,6 +45,12 @@ RewriteRule ^blog-details5(?:\.php)?/?$ /blog/freelance-visa-or-green-residence-
 RewriteCond %{THE_REQUEST} \s/+blog-details6(?:\.php)?[\s?] [NC]
 RewriteRule ^blog-details6(?:\.php)?/?$ /blog/why-americans-are-relocating-to-the-uae-in-2026 [R=301,L]
 
+RewriteCond %{THE_REQUEST} \s/+blog-details7(?:\.php)?[\s?] [NC]
+RewriteRule ^blog-details7(?:\.php)?/?$ /blog/uae-taxes-explained-2026 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+blog-details8(?:\.php)?[\s?] [NC]
+RewriteRule ^blog-details8(?:\.php)?/?$ /blog/ajman-free-zone-2026 [R=301,L]
+
 RewriteCond %{DOCUMENT_ROOT}/$1.php -f
 RewriteRule ^(.+)/$ /$1 [R=301,L]
 
@@ -58,6 +64,8 @@ RewriteRule ^blog/beyond-company-formation-why-the-uae-is-becoming-a-strategic-b
 RewriteRule ^blog/the-uae-golden-visa-comparing-every-real-way-to-qualify/?$ blog-details4.php [L,QSA]
 RewriteRule ^blog/freelance-visa-or-green-residence-the-independent-professionals-setup-decision/?$ blog-details5.php [L,QSA]
 RewriteRule ^blog/why-americans-are-relocating-to-the-uae-in-2026/?$ blog-details6.php [L,QSA]
+RewriteRule ^blog/uae-taxes-explained-2026/?$ blog-details7.php [L,QSA]
+RewriteRule ^blog/ajman-free-zone-2026/?$ blog-details8.php [L,QSA]
 RewriteRule ^blog/category/([^/]+)/?$ blog-category.php?category=$1 [L,QSA]
 RewriteRule ^blog/tag/([^/]+)/?$ blog-tag.php?tag=$1 [L,QSA]
 

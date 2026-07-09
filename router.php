@@ -7,6 +7,8 @@ $blogPostSlugs = array(
     "the-uae-golden-visa-comparing-every-real-way-to-qualify",
     "freelance-visa-or-green-residence-the-independent-professionals-setup-decision",
     "why-americans-are-relocating-to-the-uae-in-2026",
+    "uae-taxes-explained-2026",
+    "ajman-free-zone-2026",
 );
 
 $blogPostRoutes = array(
@@ -16,6 +18,8 @@ $blogPostRoutes = array(
     "/blog/the-uae-golden-visa-comparing-every-real-way-to-qualify" => "blog-details4.php",
     "/blog/freelance-visa-or-green-residence-the-independent-professionals-setup-decision" => "blog-details5.php",
     "/blog/why-americans-are-relocating-to-the-uae-in-2026" => "blog-details6.php",
+    "/blog/uae-taxes-explained-2026" => "blog-details7.php",
+    "/blog/ajman-free-zone-2026" => "blog-details8.php",
 );
 
 $oldBlogPostRoutes = array(
