@@ -106,7 +106,7 @@
   <p>The expensive mistake isn't picking the wrong license. It's picking one before you're clear on what the structure actually has to do.</p>
 </div>
 
-                    <h4 class="title-two" id="vt-structure">The UAE company isn't the asset. The structure is.</h4>
+                    <h2 class="title-two" id="vt-structure">The UAE company isn't the asset. The structure is.</h2>
                     <p>You already know this instinct from home. A Delaware C-corp and a single-member LLC aren't the "cheaper" and "pricier" versions of the same thing — they behave differently, and you choose based on what you're building. The UAE works the same way, with higher stakes, because the entity you pick quietly decides which bank will hold your money, what tax position you can defend, who you can sponsor for residency, and how cleanly you can scale or exit later.</p>
                     <p>That's why the cheapest setup is so often the most expensive decision you'll make here. The few thousand dollars you save at incorporation is nothing next to the cost of unwinding a structure that was never built to do the job — and paying for the right one twice.</p>
 
@@ -121,7 +121,7 @@
                       <p class="vt-psub" style="margin-top:18px">For comparison back home: 21% federal corporate tax, a combined corporate burden near 29.8% in the highest-tax states, and a 13.3% top personal rate in California. If your revenue is going global, that gap is the whole conversation.</p>
                     </div>
 
-                    <h4 class="title-two" id="vt-instruments">The three instruments</h4>
+                    <h2 class="title-two" id="vt-instruments">The three instruments</h2>
                     <p>Get the commercial goal right and the instrument almost picks itself. Here's what each one is actually built for — tap through, and the comparison table further down follows along.</p>
 
                     <div class="vt-studio">
@@ -158,7 +158,7 @@
                         </div>
                       </div>
                       <!-- -----Decision Matrix Start---- -->
-                     <h4 class="title-two" id="vt-matrix">Decision matrix</h4>
+                     <h2 class="title-two" id="vt-matrix">Decision matrix</h2>
                     <p style="color:black;">The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
                     <div class="vt-matrix-wrap">
                       <table class="vt-matrix">
@@ -180,7 +180,7 @@
                      <!-- --------Decision Matrix Ends------ -->
                     </div>
 
-                    <!-- <h4 class="title-two">The free zones we concentrate on</h4>
+                    <!-- <h2 class="title-two">The free zones we concentrate on</h2>
                     <p>There are forty-plus free zones in the UAE, and we work across them. Three come up again and again with our American clients, because between them they cover almost every situation a U.S. founder walks in with.</p>
                     <div class="vt-cards">
                       <div class="vt-card"><div class="city">Cost-efficient · fast setup</div><div class="who">Ajman Free Zone</div><div class="pick">A legitimate UAE base without Dubai's overhead — fully digital incorporation, flexible workspace, and one of the lowest costs of entry in the country. <span>Fits lean operating companies, e-commerce, holding &amp; IP.</span></div></div>
@@ -192,7 +192,7 @@
 
 
 
-                    <h4 class="title-two" id="vt-free-zones">The Free Zones We Concentrate On</h4>
+                    <h2 class="title-two" id="vt-free-zones">The Free Zones We Concentrate On</h2>
 <p>There are forty-plus free zones in the UAE, and we work across them. Three come up again and again with our American clients, because between them they cover almost every situation a U.S. founder walks in with.</p>
 
 <div class="vt-panel vt-reveal">
@@ -232,7 +232,7 @@
                       <a class="vt-cta" href="https://wa.me/971565151315" target="_blank" rel="noopener">Speak to Virtuo</a>
                     </div>
 
-                    <h4 class="title-two" id="vt-mistakes">Where founders usually get it wrong</h4>
+                    <h2 class="title-two" id="vt-mistakes">Where founders usually get it wrong</h2>
                     <p>The expensive errors aren't exotic. They're predictable — and every one of them is a planning failure, not a Dubai failure.</p>
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">Common planning failures</div>
@@ -245,7 +245,7 @@
                       </div>
                     </div>
 
-                    <h4 class="title-two" id="vt-license">The license activity is the silent decision-maker</h4>
+                    <h2 class="title-two" id="vt-license">The license activity is the silent decision-maker</h2>
                     <p>Of every box you check in a UAE setup, the licensed activity is the one founders treat as paperwork and everyone else treats as the whole story. It's the lens your bank's compliance team, the regulator, your clients, and your own CPA use to understand what the business is. It decides whether the bank can map your incoming wires to a permitted purpose, whether your invoices hold up, and whether that 0% position is even on the table.</p>
                     <!-- <blockquote>
                       <p>Choose an activity that flatters the pitch deck instead of describing the actual revenue, and you haven't bought flexibility. You've handed the bank a reason to say no.</p>
@@ -257,7 +257,7 @@
 </blockquote>
                     <p>The discipline is boring and it's decisive: the license has to match how the company really earns — not how it might someday, and not how it sounds best in a room.</p>
 
-                    <h4 class="title-two" id="vt-tax">Tax efficiency is real. Tax simplicity is not.</h4>
+                    <h2 class="title-two" id="vt-tax">Tax efficiency is real. Tax simplicity is not.</h2>
 <p>The UAE side is genuinely efficient. The U.S. side travels with your passport. The founders who do well here treat both as one engineering problem instead of pretending the second one went away.</p>
 
 <div class="vt-panel vt-reveal">
@@ -295,11 +295,11 @@
   <em>This article is educational and is not tax or legal advice. Coordinate any UAE structure with qualified U.S. and UAE tax advisors before acting.</em>
 </div>
 
-                    <h4 class="title-two" id="vt-residency">Residency is infrastructure, not a perk</h4>
+                    <h2 class="title-two" id="vt-residency">Residency is infrastructure, not a perk</h2>
                     <p>Residency is what turns a UAE entity into a base you actually live and operate from. It backs your banking relationships, lets your family relocate and put kids in school, supports hiring and sponsorship, and keeps you present where the structure lives. The Golden Visa gives you ten-year, renewable residency with no local sponsor and your family included.</p>
                     <p>For founders, the usual routes are AED 2M+ in property — and since February 2026, mortgaged and approved off-plan properties count toward that threshold — or a skilled-professional route at AED 30,000 basic monthly salary, alongside entrepreneur and specialist-talent categories. You earn it by meeting a category, not by incorporating, and the exact criteria should be confirmed against current ICP/GDRFA guidance before you count on them.</p>
 
-                    <h4 class="title-two" id="vt-method">The Virtuo Structuring Map</h4>
+                    <h2 class="title-two" id="vt-method">The Virtuo Structuring Map</h2>
                     <p>Most providers start with the license, because that's what they sell. We start with the business, because the license should be the last thing you decide. Virtuo runs formation, government relations and PRO, immigration and Golden Visa strategy, banking-readiness, compliance, and brand and digital launch under one roof — so the whole structure gets designed once, as one thing. And it's run by an American who made this move and knows both sides of the table: the UAE license and the IRS form, the Dubai bank and your CPA. The sequence we work through before anything gets filed:</p>
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">The sequence before filing</div>
@@ -317,7 +317,7 @@
                       </div>
                     </div>
 
-                    <!-- <h4 class="title-two" id="vt-matrix">Decision matrix</h4>
+                    <!-- <h2 class="title-two" id="vt-matrix">Decision matrix</h2>
                     <p>The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
                     <div class="vt-matrix-wrap">
                       <table class="vt-matrix">
@@ -337,7 +337,7 @@
                       </table>
                     </div> -->
 
-                    <h4 class="title-two" id="vt-profiles">Founder profiles</h4>
+                    <h2 class="title-two" id="vt-profiles">Founder profiles</h2>
 <p>Illustrative starting points — your specifics decide the structure.</p>
 
 <section class="vt-founder-profiles" aria-labelledby="vt-profiles">

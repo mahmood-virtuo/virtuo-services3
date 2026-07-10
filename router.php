@@ -9,6 +9,9 @@ $blogPostSlugs = array(
     "why-americans-are-relocating-to-the-uae-in-2026",
     "uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe",
     "ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it",
+    "starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe",
+    "how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide",
+    "uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026",
 );
 
 $blogPostRoutes = array(
@@ -20,6 +23,9 @@ $blogPostRoutes = array(
     "/blog/why-americans-are-relocating-to-the-uae-in-2026" => "blog-details6.php",
     "/blog/uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe" => "blog-details7.php",
     "/blog/ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it" => "blog-details8.php",
+    "/blog/starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe" => "blog-details9.php",
+    "/blog/how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide" => "blog-details10.php",
+    "/blog/uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026" => "blog-details11.php",
 );
 
 $oldBlogPostRoutes = array(

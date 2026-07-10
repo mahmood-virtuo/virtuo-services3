@@ -10,6 +10,9 @@ $blogPostSlugs = array(
     'why-americans-are-relocating-to-the-uae-in-2026',
     'uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe',
     'ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it',
+    'starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe',
+    'how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide',
+    'uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026',
 );
 
 $oldBlogPostRoutes = array(
@@ -89,6 +92,21 @@ if ($uri === '/blog/uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-
 
 if ($uri === '/blog/ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it') {
     require __DIR__ . '/blog-details8.php';
+    return true;
+}
+
+if ($uri === '/blog/starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe') {
+    require __DIR__ . '/blog-details9.php';
+    return true;
+}
+
+if ($uri === '/blog/how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide') {
+    require __DIR__ . '/blog-details10.php';
+    return true;
+}
+
+if ($uri === '/blog/uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026') {
+    require __DIR__ . '/blog-details11.php';
     return true;
 }
 
@@ -182,6 +200,21 @@ if ($uri === '/blog-details7' || $uri === '/blog-details7.php') {
 
 if ($uri === '/blog-details8' || $uri === '/blog-details8.php') {
     header('Location: /blog/ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details9' || $uri === '/blog-details9.php') {
+    header('Location: /blog/starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details10' || $uri === '/blog-details10.php') {
+    header('Location: /blog/how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details11' || $uri === '/blog-details11.php') {
+    header('Location: /blog/uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026', true, 301);
     exit;
 }
 

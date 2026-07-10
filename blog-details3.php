@@ -110,15 +110,15 @@
                                         </div>
                                     </div>
 
-                                    <h4 class="title-two" id="vt-tax-story">The UAE Stopped Being a Tax Story Years Ago</h4>
+                                    <h2 class="title-two" id="vt-tax-story">The UAE Stopped Being a Tax Story Years Ago</h2>
                                     <p>The old pitch — zero personal tax, light-touch regulation, done — doesn't describe the UAE anymore, and hasn't for a while. Federal corporate tax has applied since 2023 at 9% above an AED 375,000 threshold, free zone companies now have to prove genuine substance to keep a 0% qualifying-income rate, and as of financial years starting in 2025 the UAE applies a 15% domestic minimum top-up tax to large multinational groups — aligning the country with the OECD's Pillar Two framework rather than sitting outside it.</p><br/>
                                     <p>None of that is a step backward. It's the UAE building the kind of regulatory credibility that makes its banking relationships, trade agreements, and investment grade ratings hold up under pressure. A serious jurisdiction in 2026 isn't the one with no rules — it's the one whose rules a global bank, auditor, or counterparty actually trusts.</p>
 
-                                    <h4 class="title-two" id="vt-geopolitics">What the Current Middle East Situation Actually Means for Business Owners</h4>
+                                    <h2 class="title-two" id="vt-geopolitics">What the Current Middle East Situation Actually Means for Business Owners</h2>
                                     <p>This year tested that thesis directly. During the US-Israeli war on Iran, the UAE absorbed direct missile and drone attacks — including on Adnoc-linked infrastructure and a strike near the Barakah nuclear plant — more than any other country in the conflict. Iran's pressure on shipping through the Strait of Hormuz cut the UAE's crude and gas exports by more than half at points, tourism and hospitality bookings softened, and credit agencies flagged a real risk of companies shifting to a "dual-hub" model that splits operations between the Gulf and other regions as an operational hedge, not a full exit.</p>
                                     <p>That's the honest read on what regional volatility does to a business with UAE exposure: shipping and insurance costs rise, travel and conference-driven revenue dips, and risk committees start asking harder questions about concentration in one geography. None of that is unique to the UAE — it's what any base near an active conflict zone goes through. The difference is what happens next.</p>
 
-                                    <h4 class="title-two" id="vt-response">Why the UAE's Response Is the More Interesting Story Than the Attack Itself</h4>
+                                    <h2 class="title-two" id="vt-response">Why the UAE's Response Is the More Interesting Story Than the Attack Itself</h2>
                                     <p>S&amp;P Global Ratings affirmed the UAE's AA/A-1+ sovereign rating with a stable outlook during this period — not despite the regional tensions, but with them explicitly factored in. The reasoning: large fiscal and external buffers, sovereign wealth assets, low government debt, and an average fiscal surplus across 2021–2025 give policymakers room to absorb a shock without panicking the currency peg or the banking system. The UAE also moved to ease tax-residency absence rules to retain professionals who'd relocated during the worst of the tension — a direct, fast policy response rather than silence.</p>
 
                                     <div class="vt-panel vt-reveal">
@@ -132,11 +132,11 @@
                                         <p class="vt-psub" style="margin-top:18px">This is the part most "UAE is a safe haven" content skips: the resilience isn't a personality trait. It's a balance sheet, built deliberately over a decade of running fiscal surpluses and diversifying away from a single export and a single trading partner.</p>
                                     </div>
 
-                                    <h4 class="title-two" id="vt-government-action">What the Government Has Actually Done — Beyond Crisis Response</h4>
+                                    <h2 class="title-two" id="vt-government-action">What the Government Has Actually Done — Beyond Crisis Response</h2>
                                     <p>The structural work predates this year's tension and is the real reason the UAE could absorb it. The CEPA programme — 32 trade agreements signed by January 2026, 14 already in force, with India, Israel, Indonesia, Turkey, and others — pushed UAE non-oil foreign trade to a record AED 3 trillion (USD 816.7 billion) in 2024, up 14.6% year-on-year, against a 2031 target of AED 4 trillion.</p>
                                     <p>In May 2026, the UAE went further and withdrew from OPEC entirely — a move that had been building since 2016 over production-cap frustration, and one that signals Abu Dhabi is willing to prioritize its own diversification math over Gulf bloc politics. On the regulatory side, EmaraTax has digitized corporate tax and VAT administration; the Federal Tax Authority has issued increasingly detailed Qualifying Free Zone Person guidance rather than leaving it ambiguous; and the Golden Visa programme has issued more than 250,000 visas to date, anchoring long-term residency to the same diversification logic as the trade agreements.</p>
 
-                                    <h4 class="title-two" id="vt-structure-decision">Mainland, Free Zone, or Offshore — The Decision Matters More Now, Not Less</h4>
+                                    <h2 class="title-two" id="vt-structure-decision">Mainland, Free Zone, or Offshore — The Decision Matters More Now, Not Less</h2>
                                     <p>None of this changes the basic structuring decision. It raises the cost of getting it wrong. A mismatched activity, a free zone entity with no real substance, or an offshore vehicle being used to trade locally was always a problem — but in an environment where the FTA is running more detailed QFZP compliance checks and banks are more deliberate about who they onboard, the gap between a clean structure and a sloppy one shows up faster.</p>
 
                                     <!-- <div class="vt-studio">
@@ -174,7 +174,7 @@
                                             </div>
                                         </div>
 
-                                        <h4 class="title-two" id="vt-matrix">Decision Matrix</h4>
+                                        <h2 class="title-two" id="vt-matrix">Decision Matrix</h2>
                                         <p>The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
                                         <div class="vt-matrix-wrap">
                                             <table class="vt-matrix">
@@ -345,11 +345,11 @@
 </div>
                                     <!-- ----------------Tab Section Ends---------------- -->
 
-                                    <h4 class="title-two" id="vt-american-founders">Why This Matters Specifically for American Business Owners</h4>
+                                    <h2 class="title-two" id="vt-american-founders">Why This Matters Specifically for American Business Owners</h2>
                                     <p>For a US founder, the calculation isn't "leave America." It's diversification of where revenue, banking, and residency options sit — the same logic any serious operator already applies to suppliers or customers. Combined US federal and state corporate tax exposure can approach 29.8% in the highest-tax states, against a UAE structure that can run 0% on qualifying free zone income or a flat 9% on everything else, with no personal income tax layered on top.</p>
                                     <p>Add tariff uncertainty, a regulatory environment that shifts with each election cycle, and rising compliance overhead at home, and a UAE base starts to look less like an escape and more like what it actually is: an international operating and invoicing platform with access to the Gulf, Africa, South Asia, and Europe from one license, plus a Golden Visa pathway that gives founders and their families a ten-year, self-sponsored residency option that doesn't depend on a US employer or a US election outcome.</p>
 
-                                    <h4 class="title-two" id="vt-compliance">The Compliance Point — The UAE Is a Place to Structure, Not to Hide</h4>
+                                    <h2 class="title-two" id="vt-compliance">The Compliance Point — The UAE Is a Place to Structure, Not to Hide</h2>
                                     <p>This is the part that gets glossed over in most marketing content, and it's the part that actually protects a serious business. Economic substance requirements, AML/KYC obligations for regulated activities, mandatory corporate tax registration even at 0% liability, VAT registration above the threshold, audited financials for Qualifying Free Zone Persons, and real bookkeeping aren't friction to route around — they're what makes a UAE entity bankable, defensible under a US CFC and GILTI review, and resilient to the kind of scrutiny that's increasing across every serious jurisdiction post-Pillar Two. A founder who treats this as paperwork to minimize ends up with the account that won't open and the tax position that won't survive an audit. A founder who treats it as infrastructure ends up with a platform that works.
 
 </p>
@@ -363,10 +363,10 @@
                                         </div>
                                     </div>
 
-                                    <h4 class="title-two" id="vt-platform">The Real Opportunity Isn't a License — It's a Platform</h4>
+                                    <h2 class="title-two" id="vt-platform">The Real Opportunity Isn't a License — It's a Platform</h2>
                                     <p>Opening a company is the easy part. The opportunity that actually compounds is building a UAE base that functions as a platform: global invoicing through a defensible tax position, market access into CEPA partner economies, banking that survives compliance review, residency that anchors a founder and their family, and a credibility signal to partners and clients that the business is structured properly, not improvised. That's a different proposition than "cheap company formation," and it's the one that holds up whether the regional news cycle is calm or, as it was for several months in 2026, genuinely not.</p>
 
-                                    <h4 class="title-two" id="vt-profiles">Which Profile Are You?</h4>
+                                    <h2 class="title-two" id="vt-profiles">Which Profile Are You?</h2>
                                     <p>Illustrative starting points — the specifics decide the structure.</p>
                                     <section class="vt-founder-profiles" aria-labelledby="vt-profiles">
                                         <div class="vt-founder-grid">

@@ -111,7 +111,7 @@
                       <div class="note">The error is rarely picking the wrong route. It's applying under the wrong one because a website quoted last year's threshold as today's rule.</div>
                     </div>
 
-                    <h4 class="title-two">A program that has scaled past the headline numbers</h4>
+                    <h2 class="title-two">A program that has scaled past the headline numbers</h2>
                     <p>The Golden Visa stopped being a niche investor product years ago. It's now a core piece of how the UAE attracts long-term capital and talent — and the volume moving through it shows that.</p>
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">The scale, in the data</div>
@@ -124,10 +124,10 @@
                       <p class="vt-psub" style="margin-top:18px">What's actually changed in 2026 isn't the AED 2 million floor — it's how flexibly you can get there. Mortgaged property, off-plan units from approved developers, and combined property portfolios now all count toward it, and the old 50% upfront-payment rule was removed in February 2026.</p>
                     </div>
 
-                    <h4 class="title-two">What the Golden Visa actually buys you</h4>
+                    <h2 class="title-two">What the Golden Visa actually buys you</h2>
                     <p>Before comparing routes, the thing all of them lead to is the same: 5 or 10 years of renewable, self-sponsored residency with no employer or local sponsor tying it together. Holders can sponsor a spouse and children — with the previous age-25 cap on sponsored sons removed for the standard categories — and the visa survives even if you spend extended periods outside the UAE, unlike most standard residence permits. The route changes how you qualify and how long it lasts. It doesn't change what you get once you're in.</p>
 
-                    <h4 class="title-two">The routes, side by side</h4>
+                    <h2 class="title-two">The routes, side by side</h2>
                     <p>This is the actual decision. Identify what you can prove — capital, salary, or a qualifying project — and the right route, validity, and evidence requirements fall out from there.</p>
                     <div class="vt-studio">
                       <div class="vt-chooser" role="group" aria-label="What can you actually prove?">
@@ -177,7 +177,7 @@
                       </div>
                     </div>
 
-                    <h4 class="title-two">Inside the investor route: property, funds, or both</h4>
+                    <h2 class="title-two">Inside the investor route: property, funds, or both</h2>
                     <p>"Investor" isn't one path — it splits into real-estate and public-investment sub-routes that get confused constantly. A real estate investor needs AED 2 million or more in UAE property, proven through a Dubai Land Department certificate or valuation; this can be a single unit or a portfolio, and since February 2026 the old requirement for 50% upfront payment or AED 1 million in cash has been removed, so mortgaged and approved off-plan property now count toward the threshold. A public-investment applicant instead places AED 2 million or more in an accredited UAE fund or licensed business, evidenced by a fund letter or audited capital statement — the capital must be wholly the applicant's own, not loan-financed. Both lead to the same 10-year visa; they just prove the same number with different paperwork.</p>
                     <div class="vt-zones" role="group" aria-label="Investor sub-routes">
                       <button class="vt-zone" type="button" data-zone="realestate" aria-pressed="true">
@@ -195,7 +195,7 @@
                     </div>
                     <p class="vt-zone-reco" id="vt-zone-reco"><b>Fits</b> a buyer with a single property or small portfolio reaching AED 2M, who wants the certainty of a DLD-backed valuation over a fund structure.</p>
 
-                    <h4 class="title-two">Beyond the three core routes</h4>
+                    <h2 class="title-two">Beyond the three core routes</h2>
                     <p>Investor, professional, and entrepreneur cover most applicants, but the eligible-category list has widened further. Specialized talents — doctors, scientists, researchers, creatives, and athletes with recognized achievement — qualify through endorsement from the relevant UAE authority rather than capital or salary. Outstanding students and recent graduates qualify on academic distinction. And the 2025-2026 updates added nurses with 15+ years of experience, certified educators, content creators, e-sports professionals, and Waqf donors to the eligible list — each with its own narrow documentation path.</p>
                     <div class="vt-acc">
                       <details><summary>Specialized Talent <span class="pl">+</span></summary><div class="bd">Doctors need approval from the Ministry of Health and Prevention or the relevant health authority; scientists, researchers, and creatives typically need endorsement from a recognized UAE cultural, scientific, or educational body. This route is judged on recognition, not income — a strong CV and the right endorsement letter matter more than a salary slip.</div></details>
@@ -203,7 +203,7 @@
                       <details><summary>The newer additions — read the fine print <span class="pl">+</span></summary><div class="bd">Nurses, certified educators, content creators, e-sports professionals, and Waqf donors were added across 2025-2026, but each has its own evidentiary bar — years of experience, platform reach, or donation size depending on category. These routes are real, but they're also the ones most likely to be misquoted online; confirm the current requirement before assuming you qualify.</div></details>
                     </div>
 
-                    <h4 class="title-two">Which profile are you?</h4>
+                    <h2 class="title-two">Which profile are you?</h2>
                     <p>Illustrative starting points — the specifics and your documentation decide the route.</p>
                     <div class="vt-cards blog-golden-visa-profile-grid">
                       <div class="vt-card profile-grid-cell"><div class="city">Property buyer</div><div class="who">Single unit or portfolio at AED 2M+</div><div class="pick">Investor — real estate</div></div>

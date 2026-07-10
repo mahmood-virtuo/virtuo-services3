@@ -29760,13 +29760,15 @@ body.blog-page .blog-load-status {
 }
 
 .blog-toc__num {
-  flex: 0 0 auto;
+  flex: 0 0 2.4em;
   font-weight: 600;
   color: #ee4c01;
 }
 
 .blog-toc__text {
+  min-width: 0;
   flex: 1 1 auto;
+  overflow-wrap: anywhere;
 }
 
 body.blog-details-page .blog-toc,
@@ -34576,5 +34578,1565 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
 @media (max-width: 1199.98px) {
   .circle__wrap:has(.rotateme) {
     display: none !important;
+  }
+}
+
+/* ==================================================
+   UAE Emirates Blog Interactive Components
+   Source: blog-details11.php
+================================================== */
+body.blog-uae-emirates-page .slider__content .uae-emirates-title-accent {
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-uae-emirates {
+  --em-line: rgba(4, 4, 38, 0.12);
+  --em-muted: var(--tg-color-gray-11);
+}
+
+body.blog-details-page .blog-uae-emirates .em-stats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+body.blog-details-page .blog-uae-emirates .em-stat-number {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2px;
+  min-height: 40px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-stat-number span,
+body.blog-details-page .blog-uae-emirates .em-stat-number small {
+  color: inherit;
+}
+
+body.blog-details-page .blog-uae-emirates .em-summary-title {
+  margin-bottom: 12px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-summary-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body.blog-details-page .blog-uae-emirates .em-summary-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+  color: var(--tg-color-white-default);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body.blog-details-page .blog-uae-emirates .em-summary-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+body.blog-details-page .blog-uae-emirates .em-summary-list strong {
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-uae-emirates .em-summary-check {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--tg-color-white-default);
+  background: var(--tg-theme-primary);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: var(--tg-fw-bold);
+  margin-top: 2px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-widget,
+body.blog-details-page .blog-uae-emirates .em-business-selector,
+body.blog-details-page .blog-uae-emirates .em-cost-ladder {
+  overflow: hidden;
+}
+
+body.blog-details-page .blog-uae-emirates .em-component-header {
+  margin-bottom: 22px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-component-title {
+  margin: 4px 0 8px;
+  color: var(--tg-heading-color);
+  font-size: clamp(22px, 3vw, 30px);
+  line-height: 1.25;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-component-intro {
+  margin: 0;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  overflow: hidden;
+  border: 1px solid var(--tg-border-2);
+  border-radius: 16px;
+  background: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-box {
+  position: relative;
+  min-width: 0;
+  padding: 20px 18px;
+  border-right: 1px solid var(--tg-border-2);
+  background: linear-gradient(180deg, #fbfbfe 0%, #f2f3fa 100%);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-hint {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--tg-theme-primary);
+  font-size: 11px;
+  line-height: 1.3;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-hint-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--tg-theme-primary);
+  animation: em-map-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes em-map-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.82);
+  }
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-neutral {
+  fill: #dfe1ef;
+  stroke: var(--tg-color-white-default);
+  stroke-width: 1.2;
+  pointer-events: none;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-region {
+  fill: #e7e8f2;
+  stroke: var(--tg-color-white-default);
+  stroke-width: 2.5;
+  cursor: pointer;
+  transition:
+    fill 0.2s ease,
+    filter 0.2s ease;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-region:hover,
+body.blog-details-page .blog-uae-emirates .em-map-region:focus-visible {
+  fill: #cfd2e8;
+  filter: drop-shadow(0 3px 4px rgba(4, 4, 38, 0.16));
+  outline: none;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-region.is-active {
+  fill: url(#emiratesMapGradient);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-label {
+  fill: #3a3f5a;
+  stroke: var(--tg-color-white-default);
+  stroke-width: 3px;
+  paint-order: stroke;
+  stroke-linejoin: round;
+  pointer-events: none;
+  font-family: var(--tg-body-font-family);
+  font-size: 12px;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-label--medium {
+  font-size: 11px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-label--small {
+  font-size: 10px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-label.is-active {
+  fill: var(--tg-color-white-default);
+  stroke: rgba(4, 4, 38, 0.4);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-lead {
+  stroke: #b3b7d2;
+  stroke-width: 1;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-lead.is-active {
+  stroke: var(--tg-theme-primary);
+  stroke-width: 1.4;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-callout {
+  fill: #7a7f99;
+  pointer-events: none;
+  font-family: var(--tg-body-font-family);
+  font-size: 10px;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-callout.is-active {
+  fill: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-water-label {
+  fill: #b9bdd6;
+  pointer-events: none;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: var(--tg-fw-regular);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-legend {
+  margin-top: 8px;
+  color: var(--em-muted);
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-panels {
+  min-width: 0;
+  padding: clamp(20px, 3vw, 28px);
+  background: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-panel + .em-map-panel {
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid var(--tg-border-2);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-widget.is-enhanced .em-map-panel[hidden] {
+  display: none;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-panel__name {
+  margin: 0;
+  color: var(--tg-heading-color);
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: var(--tg-fw-extra-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-panel__tag {
+  margin: 5px 0 0;
+  color: var(--tg-theme-primary);
+  font-size: 13px;
+  line-height: 1.45;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-panel__group {
+  margin-top: 20px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-panel__label {
+  margin-bottom: 8px;
+  color: var(--em-muted);
+  font-size: 11px;
+  line-height: 1.4;
+  font-weight: var(--tg-fw-bold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-uae-emirates .em-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--tg-border-2);
+  border-radius: 999px;
+  background: var(--tg-color-gray-2);
+  color: var(--tg-body-color);
+  padding: 5px 10px;
+  font-size: 11px;
+  line-height: 1.35;
+  font-weight: var(--tg-fw-medium);
+}
+
+body.blog-details-page .blog-uae-emirates .em-chip--zone {
+  border-color: rgba(238, 76, 1, 0.26);
+  background: rgba(238, 76, 1, 0.06);
+  color: #b3410f;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-panel__best {
+  margin: 0;
+  color: var(--tg-body-color);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+body.blog-details-page .blog-uae-emirates .em-tier {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-tier-dots {
+  display: flex;
+  gap: 4px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-tier-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--tg-border-2);
+}
+
+body.blog-details-page .blog-uae-emirates .em-tier-dot.is-on {
+  background: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-uae-emirates .em-tier-label {
+  color: var(--tg-heading-color);
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-virtuo-take {
+  margin-top: 20px;
+  border-radius: 12px;
+  background: var(--tg-color-dark-2);
+  color: rgba(255, 255, 255, 0.86);
+  padding: 15px 17px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+body.blog-details-page .blog-uae-emirates .em-virtuo-take strong {
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-uae-emirates .em-business-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 22px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-business-tab {
+  appearance: none;
+  border: 1px solid var(--tg-border-2);
+  border-radius: 999px;
+  background: var(--tg-color-white-default);
+  color: var(--tg-heading-color);
+  padding: 10px 15px;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.3;
+  font-weight: var(--tg-fw-medium);
+  cursor: pointer;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+body.blog-details-page .blog-uae-emirates .em-business-tab:hover {
+  border-color: var(--tg-theme-primary);
+  color: var(--tg-theme-primary);
+  transform: translateY(-1px);
+}
+
+body.blog-details-page .blog-uae-emirates .em-business-tab[aria-selected="true"] {
+  border-color: var(--tg-theme-primary);
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-uae-emirates .em-business-tab:focus-visible {
+  outline: 2px solid var(--tg-theme-primary);
+  outline-offset: 3px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-business-panel {
+  border: 1px solid var(--tg-border-2);
+  border-radius: 14px;
+  background: var(--tg-color-white-default);
+  padding: clamp(18px, 3vw, 26px);
+}
+
+body.blog-details-page .blog-uae-emirates .em-business-panel + .em-business-panel {
+  margin-top: 18px;
+}
+
+body.blog-details-page
+  .blog-uae-emirates
+  .em-business-selector.is-enhanced
+  .em-business-panel[hidden] {
+  display: none;
+}
+
+body.blog-details-page .blog-uae-emirates .em-business-panel__why {
+  margin: 0 0 18px;
+  color: var(--tg-body-color);
+}
+
+body.blog-details-page .blog-uae-emirates .em-recommendations {
+  display: grid;
+  gap: 12px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-recommendation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid var(--tg-border-2);
+  border-radius: 12px;
+  background: var(--tg-color-white-default);
+  padding: 16px 18px;
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+body.blog-details-page .blog-uae-emirates .em-recommendation:hover {
+  border-color: rgba(238, 76, 1, 0.45);
+  box-shadow: 0 14px 34px rgba(4, 4, 38, 0.08);
+  transform: translateY(-2px);
+}
+
+body.blog-details-page .blog-uae-emirates .em-recommendation--top {
+  border-color: var(--tg-theme-primary);
+  background: rgba(238, 76, 1, 0.035);
+}
+
+body.blog-details-page .blog-uae-emirates .em-recommendation__name {
+  margin: 0;
+  color: var(--tg-heading-color);
+  font-size: 15px;
+  line-height: 1.45;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-recommendation__description {
+  display: block;
+  margin-top: 3px;
+  color: var(--em-muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+body.blog-details-page .blog-uae-emirates .em-recommendation__badge {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+  padding: 5px 9px;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: var(--tg-fw-bold);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-ladder__caption {
+  margin: 0 0 20px;
+  color: var(--em-muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-row {
+  display: grid;
+  grid-template-columns: minmax(110px, 150px) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 13px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-row:last-child {
+  margin-bottom: 0;
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-label {
+  color: var(--tg-heading-color);
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: var(--tg-fw-medium);
+  text-align: right;
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-track {
+  height: 29px;
+  overflow: hidden;
+  border: 1px solid var(--tg-border-2);
+  border-radius: 8px;
+  background: var(--tg-color-gray-2);
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-fill {
+  display: block;
+  height: 100%;
+  border-radius: 7px;
+  background: linear-gradient(90deg, var(--tg-theme-primary), #ff6a2b);
+  opacity: 0.28;
+  transition: width 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-fill--5750 {
+  width: 38.3%;
+}
+body.blog-details-page .blog-uae-emirates .em-cost-fill--6500 {
+  width: 43.3%;
+}
+body.blog-details-page .blog-uae-emirates .em-cost-fill--8500 {
+  width: 56.7%;
+}
+body.blog-details-page .blog-uae-emirates .em-cost-fill--9000 {
+  width: 60%;
+}
+body.blog-details-page .blog-uae-emirates .em-cost-fill--9500 {
+  width: 63.3%;
+}
+body.blog-details-page .blog-uae-emirates .em-cost-fill--12500 {
+  width: 83.3%;
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-ladder.is-enhanced .em-cost-fill {
+  width: 0;
+  opacity: 1;
+}
+
+body.blog-details-page .blog-uae-emirates .em-cost-value {
+  color: var(--tg-heading-color);
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: var(--tg-fw-semi-bold);
+  white-space: nowrap;
+}
+
+body.blog-details-page .blog-uae-emirates .em-factor-grid {
+  margin-top: 24px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-factor-card {
+  min-width: 0;
+  overflow: hidden;
+}
+
+body.blog-details-page .blog-uae-emirates .em-factor-card__icon {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background: rgba(238, 76, 1, 0.1);
+  color: var(--tg-theme-primary);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: var(--tg-fw-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-factor-card__title {
+  margin: 0 0 8px;
+  color: var(--tg-heading-color);
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-uae-emirates .em-factor-card__text {
+  margin: 0;
+  color: var(--tg-body-color);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+body.blog-details-page .blog-uae-emirates .em-disclaimer {
+  margin-top: 24px;
+  padding: 18px 20px;
+  border: 1px solid var(--tg-border-2);
+  border-radius: 12px;
+  background: var(--tg-color-gray-2);
+  color: var(--tg-color-gray-11);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+body.blog-details-page .blog-uae-emirates .em-disclaimer strong {
+  color: var(--tg-heading-color);
+}
+
+body.blog-details-page .blog-uae-emirates .em-copyright {
+  margin-top: 18px;
+}
+
+@media (max-width: 1199.98px) {
+  body.blog-details-page .blog-uae-emirates .em-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-map-layout {
+    grid-template-columns: 1fr;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-map-box {
+    border-right: 0;
+    border-bottom: 1px solid var(--tg-border-2);
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.blog-details-page .blog-uae-emirates .em-business-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-business-tab {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-recommendation {
+    align-items: flex-start;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-cost-row {
+    grid-template-columns: 1fr auto;
+    gap: 7px 10px;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-cost-label {
+    text-align: left;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-cost-track {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-cost-value {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.blog-details-page .blog-uae-emirates .em-stats {
+    grid-template-columns: 1fr;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-summary-list li {
+    gap: 10px;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-map-box,
+  body.blog-details-page .blog-uae-emirates .em-map-panels,
+  body.blog-details-page .blog-uae-emirates .em-business-panel {
+    padding: 16px;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-map-hint {
+    position: static;
+    margin-bottom: 8px;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-recommendation {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.blog-details-page .blog-uae-emirates .em-map-hint-dot {
+    animation: none;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-map-region,
+  body.blog-details-page .blog-uae-emirates .em-business-tab,
+  body.blog-details-page .blog-uae-emirates .em-recommendation,
+  body.blog-details-page .blog-uae-emirates .em-cost-fill {
+    transition: none;
+  }
+}
+
+/* ==================================================
+   Blog Detail Interactive Widgets: Brokerage + AI
+================================================== */
+
+body.blog-real-estate-brokerage-page .slider__content .brokerage-title-accent,
+body.blog-ai-company-page .slider__content .ai-company-title-accent {
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-real-estate-brokerage,
+body.blog-details-page .blog-ai-company {
+  --blog-interactive-soft: rgba(238, 76, 1, 0.08);
+  --blog-interactive-muted: var(--tg-color-gray-11);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-section + .brokerage-section {
+  margin-top: clamp(36px, 4vw, 56px);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-comparison,
+body.blog-details-page .blog-ai-company .ai-zone-selector,
+body.blog-details-page .blog-ai-company .ai-setup-panel {
+  overflow: hidden;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-tabs,
+body.blog-details-page .blog-ai-company .ai-zone-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 22px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-tab,
+body.blog-details-page .blog-ai-company .ai-zone-tab {
+  appearance: none;
+  border: 1px solid var(--tg-border-2);
+  border-radius: 999px;
+  background: var(--tg-color-white-default);
+  color: var(--tg-heading-color);
+  padding: 10px 15px;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.3;
+  font-weight: var(--tg-fw-medium);
+  cursor: pointer;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-tab:hover,
+body.blog-details-page .blog-ai-company .ai-zone-tab:hover {
+  border-color: var(--tg-theme-primary);
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-tab[aria-selected="true"],
+body.blog-details-page .blog-ai-company .ai-zone-tab[aria-selected="true"] {
+  border-color: var(--tg-theme-primary);
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-tab:focus-visible,
+body.blog-details-page .blog-ai-company .ai-zone-tab:focus-visible {
+  outline: 2px solid var(--tg-theme-primary);
+  outline-offset: 3px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-panel,
+body.blog-details-page .blog-ai-company .ai-zone-panel {
+  border: 1px solid var(--tg-border-2);
+  border-radius: 14px;
+  background: var(--tg-color-white-default);
+  padding: clamp(18px, 3vw, 26px);
+}
+
+body.blog-details-page
+  .blog-real-estate-brokerage
+  .brokerage-comparison.is-enhanced
+  .brokerage-panel[hidden],
+body.blog-details-page .blog-ai-company .ai-zone-selector.is-enhanced .ai-zone-panel[hidden] {
+  display: none;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-panel + .brokerage-panel,
+body.blog-details-page .blog-ai-company .ai-zone-panel + .ai-zone-panel {
+  margin-top: 18px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-panel__lead,
+body.blog-details-page .blog-ai-company .ai-zone-panel__recommendation {
+  margin: 0 0 18px;
+  color: var(--tg-body-color);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-panel__grid,
+body.blog-details-page .blog-ai-company .ai-zone-list {
+  display: grid;
+  gap: 12px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-panel__grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-metric,
+body.blog-details-page .blog-ai-company .ai-zone-card {
+  border: 1px solid var(--tg-border-2);
+  border-radius: 12px;
+  background: var(--tg-color-white-default);
+  padding: 16px 18px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-metric__label,
+body.blog-details-page .blog-ai-company .ai-cost-chart__caption,
+body.blog-details-page .blog-ai-company .ai-zone-card__description,
+body.blog-details-page .blog-ai-company .ai-zone-card__rating-label,
+body.blog-details-page .blog-ai-company .ai-disclaimer {
+  color: var(--blog-interactive-muted);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-metric__value,
+body.blog-details-page .blog-ai-company .ai-zone-card__name,
+body.blog-details-page .blog-ai-company .ai-zone-panel__heading,
+body.blog-details-page .blog-ai-company .ai-zone-selector__title,
+body.blog-details-page .blog-ai-company .ai-cost-chart__title {
+  color: var(--tg-heading-color);
+  font-weight: var(--tg-fw-semi-bold);
+}
+
+body.blog-details-page .blog-ai-company .ai-summary-list,
+body.blog-details-page .blog-ai-company .ai-setup-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body.blog-details-page .blog-ai-company .ai-summary-list li,
+body.blog-details-page .blog-ai-company .ai-setup-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+body.blog-details-page .blog-ai-company .ai-summary-list li {
+  color: var(--tg-color-white-default);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body.blog-details-page .blog-ai-company .ai-summary-list strong {
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-ai-company .ai-summary-check,
+body.blog-details-page .blog-ai-company .ai-feature-card__icon {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tg-color-white-default);
+  background: var(--tg-theme-primary);
+  font-weight: var(--tg-fw-bold);
+  line-height: 1;
+}
+
+body.blog-details-page .blog-ai-company .ai-summary-check {
+  width: 24px;
+  height: 24px;
+  margin-top: 2px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+body.blog-details-page .blog-ai-company .ai-feature-card__icon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+body.blog-details-page .blog-ai-company .ai-zone-card--top {
+  border-color: var(--tg-theme-primary);
+  background: var(--blog-interactive-soft);
+}
+
+body.blog-details-page .blog-ai-company .ai-zone-card__topline,
+body.blog-details-page .blog-ai-company .ai-zone-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+body.blog-details-page .blog-ai-company .ai-zone-card__badge,
+body.blog-details-page .blog-ai-company .ai-zone-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: var(--tg-fw-bold);
+}
+
+body.blog-details-page .blog-ai-company .ai-zone-card__badge,
+body.blog-details-page .blog-ai-company .ai-zone-chip--tax {
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-ai-company .ai-zone-chip:not(.ai-zone-chip--tax) {
+  border: 1px solid var(--tg-border-2);
+  background: var(--tg-color-gray-2);
+  color: var(--tg-body-color);
+}
+
+body.blog-details-page .blog-ai-company .ai-cost-chart,
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart {
+  margin-top: 22px;
+}
+
+body.blog-details-page .blog-ai-company .ai-cost-row,
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__row {
+  display: grid;
+  grid-template-columns: minmax(110px, 150px) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 13px;
+}
+
+body.blog-details-page .blog-ai-company .ai-cost-label,
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__name {
+  color: var(--tg-heading-color);
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: var(--tg-fw-medium);
+  text-align: right;
+}
+
+body.blog-details-page .blog-ai-company .ai-cost-track,
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__track {
+  height: 29px;
+  overflow: hidden;
+  border: 1px solid var(--tg-border-2);
+  border-radius: 8px;
+  background: var(--tg-color-gray-2);
+}
+
+body.blog-details-page .blog-ai-company .ai-cost-fill,
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__fill {
+  display: block;
+  height: 100%;
+  border-radius: 7px;
+  background: linear-gradient(90deg, var(--tg-theme-primary), #ff6a2b);
+  color: var(--tg-color-white-default);
+  font-size: 11px;
+  line-height: 29px;
+  font-weight: var(--tg-fw-semi-bold);
+  text-align: right;
+  padding-right: 8px;
+}
+
+body.blog-details-page .blog-ai-company .ai-cost-fill {
+  width: 0;
+  transition: width 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__fill--100 {
+  width: 100%;
+}
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__fill--60 {
+  width: 60%;
+}
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__fill--56 {
+  width: 56%;
+}
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__fill--52 {
+  width: 52%;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__caption,
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__disclaimer,
+body.blog-details-page .blog-ai-company .ai-disclaimer {
+  font-size: 12px;
+  line-height: 1.65;
+  margin-top: 20px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-steps,
+body.blog-details-page .blog-ai-company .ai-setup-list {
+  counter-reset: blog-step;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-steps li,
+body.blog-details-page .blog-ai-company .ai-setup-list li {
+  counter-increment: blog-step;
+  position: relative;
+  margin-bottom: 12px;
+  padding-left: 44px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-steps li::before,
+body.blog-details-page .blog-ai-company .ai-setup-list li::before {
+  content: counter(blog-step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: var(--tg-fw-bold);
+  text-align: center;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-cta {
+  margin-top: 28px;
+}
+
+@media (max-width: 767.98px) {
+  body.blog-details-page .blog-real-estate-brokerage .brokerage-panel__grid,
+  body.blog-details-page .blog-ai-company .ai-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body.blog-details-page .blog-ai-company .ai-cost-row,
+  body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__row {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+
+  body.blog-details-page .blog-ai-company .ai-cost-label,
+  body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__name {
+    text-align: left;
+  }
+}
+
+/* Shared article component alignment for blogs 9-11 */
+body.blog-details-page .blog__post-meta--date-only {
+  margin-bottom: 18px;
+}
+
+body.blog-details-page .blog__post-meta--date-only .list-wrap {
+  gap: 0;
+}
+
+body.blog-details-page .blog-stat-grid.blog-stat-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+body.blog-details-page .blog-stat-grid.blog-stat-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+body.blog-details-page .blog-real-estate-brokerage .vt-stats,
+body.blog-details-page .blog-ai-company .vt-stats,
+body.blog-details-page .blog-uae-emirates .vt-stats {
+  margin-top: 0;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-economy-grid {
+  margin-top: 20px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-economy-card__icon,
+body.blog-details-page .blog-ai-company .ai-feature-card__icon,
+body.blog-details-page .blog-uae-emirates .em-factor-card__icon {
+  font-size: 22px;
+  line-height: 1;
+  color: var(--tg-theme-primary);
+  margin-bottom: 12px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-economy-card__title {
+  margin: 0 0 10px;
+  color: var(--tg-heading-color);
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: var(--tg-fw-bold);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-economy-card__text {
+  margin: 0;
+  color: var(--tg-body-color);
+  font-size: 15px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare {
+  margin-top: 8px;
+  margin-bottom: 22px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__tab {
+  appearance: none;
+  cursor: pointer;
+  border: 1px solid rgba(4, 4, 38, 0.18);
+  border-radius: 10px;
+  background: var(--tg-color-white-default);
+  color: var(--tg-heading-color);
+  padding: 12px 18px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__tab:hover {
+  border-color: var(--tg-theme-primary);
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__tab[aria-selected="true"] {
+  border-color: var(--tg-theme-primary);
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__tab:focus-visible {
+  outline: 2px solid var(--tg-theme-primary);
+  outline-offset: 2px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel {
+  border: 1px solid rgba(4, 4, 38, 0.18);
+  border-radius: 12px;
+  background: var(--tg-color-white-default);
+  padding: clamp(16px, 2.4vw, 22px);
+}
+
+body.blog-details-page
+  .blog-real-estate-brokerage
+  .ajman-compare.is-enhanced
+  .ajman-compare__panel[hidden] {
+  display: none;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel .vt-matrix-wrap {
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix {
+  width: 100%;
+  min-width: 0;
+  background: transparent;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix th,
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix td {
+  border-bottom: 1px solid var(--tg-border-2);
+  color: var(--tg-body-color);
+  padding: 14px 0;
+  vertical-align: top;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix th {
+  width: 38%;
+  padding-right: 18px;
+  color: var(--tg-heading-color);
+  font-weight: 600;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix td {
+  color: var(--tg-heading-color);
+  font-weight: 500;
+}
+
+body.blog-details-page
+  .blog-real-estate-brokerage
+  .ajman-compare__panel
+  table.vt-matrix
+  tbody
+  tr:last-child
+  > th,
+body.blog-details-page
+  .blog-real-estate-brokerage
+  .ajman-compare__panel
+  table.vt-matrix
+  tbody
+  tr:last-child
+  > td {
+  border-bottom: 0;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart {
+  margin-top: 22px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart h4 {
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .vt-costrow {
+  display: block;
+  margin-bottom: 18px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .vt-costrow:last-of-type {
+  margin-bottom: 0;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .ajman-costbar {
+  display: grid;
+  grid-template-columns: minmax(100px, 120px) minmax(0, 1fr) minmax(58px, auto);
+  align-items: center;
+  gap: 12px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .ajman-costbar__label,
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .ajman-costbar__total {
+  color: var(--tg-color-white-default);
+  font-size: 13px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .ajman-costbar__total {
+  text-align: right;
+  white-space: nowrap;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .vt-track {
+  position: relative;
+  height: 22px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 999px;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .vt-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 64px;
+  height: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: inherit;
+  background: var(--tg-theme-primary);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__row--100 .vt-fill {
+  width: 100%;
+}
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__row--60 .vt-fill {
+  width: 60%;
+}
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__row--56 .vt-fill {
+  width: 56%;
+}
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart__row--52 .vt-fill {
+  width: 52%;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-steps {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-steps li::marker {
+  content: "";
+}
+
+@media (max-width: 991.98px) {
+  body.blog-details-page .blog-stat-grid.blog-stat-grid--three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body.blog-details-page .blog-real-estate-brokerage .ajman-compare__tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    padding-bottom: 2px;
+  }
+
+  body.blog-details-page .blog-real-estate-brokerage .ajman-compare__tab {
+    flex: 0 0 auto;
+    min-width: max-content;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.blog-details-page .blog-stat-grid.blog-stat-grid--three,
+  body.blog-details-page .blog-stat-grid.blog-stat-grid--two {
+    grid-template-columns: 1fr;
+  }
+
+  body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix th,
+  body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix td {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix th {
+    padding-bottom: 4px;
+    border-bottom: 0;
+  }
+
+  body.blog-details-page .blog-real-estate-brokerage .ajman-compare__panel table.vt-matrix td {
+    padding-top: 0;
+    padding-bottom: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .ajman-costbar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    row-gap: 8px;
+  }
+
+  body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .vt-track {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
+
+/* Focused interactive-blog corrections */
+body.blog-details-page .vt-article .blog-cta-actions,
+body.blog-details-page .vt-article .em-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+body.blog-details-page .vt-article .blog-cta-btn {
+  min-height: 56px;
+  justify-content: center;
+  border: 1px solid transparent;
+  padding: 16px 25px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: var(--tg-fw-semi-bold) !important;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+body.blog-details-page .vt-article .blog-cta-btn--primary {
+  border-color: var(--tg-theme-primary);
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .vt-article .blog-cta-btn--primary:hover,
+body.blog-details-page .vt-article .blog-cta-btn--primary:focus-visible {
+  /* border-color: var(--tg-theme-primary); */
+  border: none !important;
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .vt-article .blog-cta-btn--secondary {
+  border-color: rgba(255, 255, 255, 0.55);
+  background: transparent;
+  color: var(--tg-color-white-default);
+}
+
+body.blog-details-page .vt-article .blog-cta-btn--secondary::before {
+  display: none;
+}
+
+body.blog-details-page .vt-article .blog-cta-btn--secondary:hover,
+body.blog-details-page .vt-article .blog-cta-btn--secondary:focus-visible {
+  border-color: var(--tg-color-white-default);
+  background: var(--tg-color-white-default);
+  color: var(--tg-heading-color);
+}
+
+body.blog-details-page .vt-article .blog-cta-btn:focus-visible {
+  outline: 2px solid var(--tg-color-white-default);
+  outline-offset: 3px;
+}
+
+body.blog-details-page .vt-article .vt-blue-note--no-icon::after {
+  display: none;
+  content: none;
+}
+
+body.blog-details-page .blog-ai-company .ai-feature-card__icon {
+  color: var(--tg-color-white-default);
+  -webkit-text-fill-color: currentColor;
+}
+
+body.blog-details-page .blog-ai-company .ai-setup-list li {
+  display: block;
+  min-height: 28px;
+}
+
+body.blog-details-page .blog-ai-company .ai-setup-list li b {
+  display: inline;
+  color: var(--tg-heading-color);
+  font-weight: var(--tg-fw-bold);
+}
+
+body.blog-details-page .blog-real-estate-brokerage .vt-eyebrow + .title-two,
+body.blog-details-page .blog-ai-company .vt-eyebrow + .title-two,
+body.blog-details-page .blog-uae-emirates .vt-eyebrow + .title-two {
+  margin-top: 8px !important;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-comparison + p {
+  margin-top: clamp(24px, 3vw, 34px) !important;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .vt-fill {
+  min-width: 0;
+  transition: width 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+body.blog-details-page
+  .blog-real-estate-brokerage
+  .brokerage-chart
+  [data-brokerage-bar-value="100"] {
+  width: 100%;
+}
+
+body.blog-details-page
+  .blog-real-estate-brokerage
+  .brokerage-chart
+  [data-brokerage-bar-value="60"] {
+  width: 60%;
+}
+
+body.blog-details-page
+  .blog-real-estate-brokerage
+  .brokerage-chart
+  [data-brokerage-bar-value="56"] {
+  width: 56%;
+}
+
+body.blog-details-page
+  .blog-real-estate-brokerage
+  .brokerage-chart
+  [data-brokerage-bar-value="52"] {
+  width: 52%;
+}
+
+body.blog-details-page .blog-real-estate-brokerage .brokerage-chart .ajman-costbar__fill-value {
+  color: var(--tg-color-white-default);
+  -webkit-text-fill-color: currentColor;
+}
+
+body.blog-details-page .blog-uae-emirates .em-component-intro,
+body.blog-details-page .blog-uae-emirates .em-recommendation__description {
+  color: var(--tg-body-color);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(238, 76, 1, 0.26);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-hint {
+  position: static;
+  align-self: flex-end;
+  margin: 0 0 2px;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-svg {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-legend {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-water-label {
+  fill: rgba(4, 4, 38, 0.62);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-lead {
+  stroke: rgba(4, 4, 38, 0.35);
+}
+
+body.blog-details-page .blog-uae-emirates .em-map-callout {
+  fill: var(--tg-heading-color);
+}
+
+body.blog-details-page .blog-uae-emirates .em-virtuo-take {
+  border: 1px solid rgba(238, 76, 1, 0.22);
+  border-left: 4px solid var(--tg-theme-primary);
+  border-radius: 12px;
+  background: rgba(238, 76, 1, 0.06);
+  color: var(--tg-body-color);
+  padding: 14px 16px;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+body.blog-details-page .blog-uae-emirates .em-virtuo-take strong {
+  color: var(--tg-heading-color);
+}
+
+@media (max-width: 767.98px) {
+  body.blog-details-page .vt-article .blog-cta-actions,
+  body.blog-details-page .vt-article .em-cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  body.blog-details-page .vt-article .blog-cta-btn,
+  body.blog-details-page .vt-article .em-cta-actions .tg-btn {
+    width: 100%;
+  }
+
+  body.blog-details-page .blog-uae-emirates .em-map-hint {
+    align-self: center;
   }
 }

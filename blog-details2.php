@@ -297,7 +297,7 @@ $default_opex    = max(5, min(45, $default_opex));
             </div>
           </section> -->
           <section id="tariff">
-  <h4 class="title-two"><span class="num"></span>Tariffs, crypto, and compliance — straight answers</h4>
+  <h2 class="title-two"><span class="num"></span>Tariffs, crypto, and compliance — straight answers</h2>
   <p>This is where most "Dubai" pitches get sloppy. We'd rather you click these open and read the real position.</p>
 
   <div class="vt-acc">

@@ -107,7 +107,7 @@
                       <div class="note">The error is rarely picking the wrong one of the three. It's applying for a visa <b>before</b> deciding what your actual licensed activity needs to be.</div>
                     </div>
 
-                    <h4 class="title-two">A market that's no longer a side door</h4>
+                    <h2 class="title-two">A market that's no longer a side door</h2>
                     <p>The freelance and self-employed route in the UAE has moved from a workaround to a mainstream entry point. Demand has scaled fast enough that immigration authorities have had to formalize compliance checks around it — a sign of a system absorbing real volume, not a niche program.</p>
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">The scale, in the data</div>
@@ -120,10 +120,10 @@
                       <p class="vt-psub" style="margin-top:18px">The trade-off: more volume has brought more scrutiny. Authorities now check that your licensed activity, your invoices, and your actual client work genuinely match — at issuance and at renewal, not just on day one.</p>
                     </div>
 
-                    <h4 class="title-two">The document underneath all three routes</h4>
+                    <h2 class="title-two">The document underneath all three routes</h2>
                     <p>Before any visa type means anything, there's a permit or license underneath it that defines what you're actually allowed to do — and which authority is watching. That single document determines whether you can invoice UAE clients, whether a bank will take you seriously, and whether your renewal sails through or gets flagged. Mismatch your declared activity against your real work, and every downstream problem — banking, invoicing, the 9% corporate-tax position you didn't expect — traces back to that gap.</p>
 
-                    <h4 class="title-two">The three routes, side by side</h4>
+                    <h2 class="title-two">The three routes, side by side</h2>
                     <p>This is the actual decision. Set your income source and your client base, and the right route falls out — market access, income threshold, residency length, and family sponsorship all follow from it.</p>
                     <div class="vt-studio">
                       <div class="vt-chooser" role="group" aria-label="What is your situation?">
@@ -173,7 +173,7 @@
                       </div>
                     </div>
 
-                    <h4 class="title-two">Where freelancers usually apply from</h4>
+                    <h2 class="title-two">Where freelancers usually apply from</h2>
                     <p>There's no single freelance authority — the right one depends on your activity. Three categories cover most of the founders and professionals we see: a free zone permit for the broadest range of creative, tech and consulting activities; the government Green Residence route for established earners; and MOHRE-administered freelance permits for specific professional categories. The right authority is a function of your activity — these are simply the three we route clients through most often.</p>
                     <div class="vt-zones" role="group" aria-label="Issuing routes Virtuo works with">
                       <button class="vt-zone" type="button" data-zone="freezone" aria-pressed="true">
@@ -191,7 +191,7 @@
                     </div>
                     <p class="vt-zone-reco" id="vt-zone-reco"><b>Fits</b> a founder, consultant or creative just establishing UAE residency — fast issuance, the widest range of approved activities, and a straightforward path to invoicing your first clients.</p>
 
-                    <h4 class="title-two">The income and tax question</h4>
+                    <h2 class="title-two">The income and tax question</h2>
                     <p>The UAE side of this is genuinely simple. The part people skip is making sure their actual activity, income, and reporting stay aligned with what they declared on day one.</p>
                     <div class="vt-acc">
                       <details><summary>What's actually free, and what isn't <span class="pl">+</span></summary><div class="bd">There's no personal income tax on freelance earnings. But UAE corporate tax applies at 9% above AED 375,000 in annual profit, and freelancers crossing that threshold must register with the Federal Tax Authority and file returns. "Tax-free" describes the personal side — the business side still has rules.</div></details>
@@ -199,10 +199,10 @@
                       <details><summary>What proper structuring actually buys you <span class="pl">+</span></summary><div class="bd">Not just a residency stamp. The right permit category gets you clean banking, a defensible tax position, the ability to actually invoice the clients you serve, and — if you want it — a credible path toward Green Residence or a full business license later, without restructuring from scratch.</div></details>
                     </div>
 
-                    <h4 class="title-two">Family sponsorship and the Green Residence step-up</h4>
+                    <h2 class="title-two">Family sponsorship and the Green Residence step-up</h2>
                     <p>Family sponsorship is possible on most freelance routes, but the requirements tighten the smaller the permit. The Green Residence is the more deliberate version of the same idea: a 5-year, self-sponsored visa for skilled, self-employed professionals who can show roughly AED 360,000 or more in income over the prior two years, alongside attested qualifications. It's not a freelance permit with extra paperwork — it's a different, longer-term commitment that suits people who've already proven the income, not people starting from zero.</p>
 
-                    <h4 class="title-two">Which profile are you?</h4>
+                    <h2 class="title-two">Which profile are you?</h2>
                     <p>Illustrative starting points — your actual activity and income decide the structure.</p>
                     <div class="vt-cards">
                       <div class="vt-card"><div class="city">Marketing or design consultant</div><div class="who">Mixed UAE + international clients</div><div class="pick">Free Zone freelance permit</div></div>

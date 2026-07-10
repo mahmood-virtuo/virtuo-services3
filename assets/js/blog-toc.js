@@ -21,6 +21,32 @@
     return letters;
   }
 
+  function isArticleSectionHeading(heading) {
+    var panel = heading.closest(".vt-panel");
+
+    if (
+      heading.closest(
+        ".blog__details-bottom, .blog__avatar-wrap, form, [hidden], " +
+          ".vt-card, .vt-cards, .vt-stat, .vt-stats, .vt-chooser, .vt-goals, " +
+          ".ai-feature-card, .ai-zone-card, .ai-zone-panel, " +
+          ".em-map-panel, .em-recommendation, .em-factor-card, " +
+          ".ajman-economy-card, .brokerage-chart, .brokerage-cta"
+      )
+    ) {
+      return false;
+    }
+
+    if (panel && panel.querySelector(".ai-cta-actions, .em-cta-actions")) {
+      return false;
+    }
+
+    return (
+      heading.tagName.toLowerCase() === "h2" ||
+      heading.classList.contains("title-two") ||
+      heading.classList.contains("vt-ptitle")
+    );
+  }
+
   function initBlogToc() {
     var article = document.getElementById("blogDetailsArticle");
     var toc = document.getElementById("blogArticleToc");
@@ -32,8 +58,7 @@
       .filter(function (heading) {
         var text = heading.textContent.trim();
         if (!text) return false;
-        if (heading.closest(".blog__details-bottom, .blog__avatar-wrap, form, [hidden]")) return false;
-        return true;
+        return isArticleSectionHeading(heading);
       });
 
     if (!headings.length) return;
@@ -48,15 +73,16 @@
     headings.forEach(function (heading) {
       var text = heading.textContent.trim();
       var level = heading.tagName.toLowerCase();
+      var effectiveLevel = heading.classList.contains("title-two") ? "h2" : level;
       var number;
 
-      if (level === "h2") {
+      if (effectiveLevel === "h2") {
         h2Count += 1;
         h3Count = 0;
         h4Count = 0;
         h3IsExplicit = false;
         number = String(h2Count);
-      } else if (level === "h3") {
+      } else if (effectiveLevel === "h3") {
         if (!h2Count) h2Count = 1;
         h3Count += 1;
         h4Count = 0;
@@ -92,7 +118,7 @@
       var item = document.createElement("li");
       var link = document.createElement("a");
 
-      item.className = "blog-toc__item blog-toc__item--" + level;
+      item.className = "blog-toc__item blog-toc__item--" + effectiveLevel;
       link.href = "#" + heading.id;
       link.innerHTML = '<span class="blog-toc__num">' + number + '</span><span class="blog-toc__text"></span>';
       link.querySelector(".blog-toc__text").textContent = text;
