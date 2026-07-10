@@ -485,7 +485,9 @@
                                     <div class="vt-panel vt-reveal">
                                         <h3 class="vt-ptitle">Thinking about Ajman Free Zone?</h3>
                                         <p class="vt-psub">We're licensed here and we set up companies here every week. Tell us your activity and visa needs, and we'll come back with a real, all-in number &mdash; not a brochure figure.</p>
-                                        <a class="vt-cta" href="https://virtuo.ae/contact">Get a straight quote</a>
+                                        <div class="blog-cta-actions">
+                                            <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://virtuo.ae/contact">Get a straight quote</a>
+                                        </div>
                                     </div>
 
                                     <p class="vt-sources">Figures on Ajman Free Zone's expansion, setup times, pricing, GDP, exports, China Mall, the automotive district and BYD talks are drawn from Ajman Free Zone Authority statements reported by Gulf News (July 2026). Tax, ownership and repatriation points reflect general UAE free zone and designated-zone rules. This article is general information, not legal or tax advice &mdash; confirm current pricing and your specific tax position before you commit. &copy; <?php echo date("Y"); ?> Virtuo.</p>

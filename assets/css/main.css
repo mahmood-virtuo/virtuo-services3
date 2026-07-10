@@ -5451,11 +5451,18 @@ textarea {
   position: absolute;
   left: 50%;
   top: 50%;
+  width: 0;
+  height: 0;
+  line-height: 0;
   transform: translate(-50%, -50%);
-  font-size: 16px;
+  font-size: 13px;
   -webkit-animation-duration: 25s;
   animation-duration: 15s;
   font-weight: 600;
+}
+.circle__wrap .content .circle.rotateme {
+  -webkit-animation-name: virtuo-circle-text-rotation;
+  animation-name: virtuo-circle-text-rotation;
 }
 .circle__wrap .content .circle span {
   position: absolute;
@@ -5486,6 +5493,30 @@ textarea {
 .circle__wrap-two .content .circle span {
   top: -80px;
   transform-origin: 0 80px;
+}
+@keyframes virtuo-circle-text-rotation {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@-webkit-keyframes virtuo-circle-text-rotation {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .circle__wrap .content .circle.rotateme {
+    -webkit-animation: none;
+    animation: none;
+  }
 }
 .circle__wrap-three {
   margin: 0 0 35px;
@@ -27576,6 +27607,7 @@ select {
   color: var(--bronze);
   font-weight: 600;
   margin-bottom: 8px;
+  margin-top: 20px;
 }
 .vt-article em {
   color: var(--bronze);
@@ -27639,7 +27671,7 @@ select {
 }
 .vt-article .vt-stat .n small {
   font-size: 0.5em;
-  color: var(--tg-color-white-default);
+  color: var(--tg-color-white-default) !important;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -31832,10 +31864,6 @@ body.blog-details-page .blog-us-uae-relocation .us-final-panel {
   text-align: center;
 }
 
-body.blog-details-page .blog-us-uae-relocation .us-final-panel .vt-cta {
-  margin-top: 20px;
-}
-
 body.blog-details-page .blog-us-uae-relocation .vt-check strong {
   color: var(--tg-color-white-default);
 }
@@ -35420,7 +35448,9 @@ body.blog-details-page .blog-ai-company .ai-zone-card__rating-label,
 body.blog-details-page .blog-ai-company .ai-disclaimer {
   color: var(--blog-interactive-muted);
 }
-
+.ai-zone-card__rating {
+  color: #EE4C01;
+}
 body.blog-details-page .blog-real-estate-brokerage .brokerage-metric__value,
 body.blog-details-page .blog-ai-company .ai-zone-card__name,
 body.blog-details-page .blog-ai-company .ai-zone-panel__heading,
@@ -35429,7 +35459,12 @@ body.blog-details-page .blog-ai-company .ai-cost-chart__title {
   color: var(--tg-heading-color);
   font-weight: var(--tg-fw-semi-bold);
 }
-
+.ai-zone-selector__intro {
+  color: black;
+}
+.ai-cost-value {
+  color: black;
+}
 body.blog-details-page .blog-ai-company .ai-summary-list,
 body.blog-details-page .blog-ai-company .ai-setup-list {
   margin: 0;
@@ -35950,6 +35985,10 @@ body.blog-details-page .vt-article .em-cta-actions {
   margin-top: 22px;
 }
 
+body.blog-details-page .vt-article .blog-cta-actions--center {
+  justify-content: center;
+}
+
 body.blog-details-page .vt-article .blog-cta-btn {
   min-height: 56px;
   justify-content: center;
@@ -35970,8 +36009,8 @@ body.blog-details-page .vt-article .blog-cta-btn--primary {
 
 body.blog-details-page .vt-article .blog-cta-btn--primary:hover,
 body.blog-details-page .vt-article .blog-cta-btn--primary:focus-visible {
-  /* border-color: var(--tg-theme-primary); */
-  border: none !important;
+  border-color: var(--tg-theme-primary);
+  /* border: none !important; */
   background: var(--tg-theme-primary);
   color: var(--tg-color-white-default);
 }

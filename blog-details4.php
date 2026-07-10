@@ -232,7 +232,7 @@
                       <div class="vt-eyebrow">The bottom line</div>
                       <div class="vt-ptitle">The Golden Visa isn't hard to qualify for. It's hard to qualify for correctly on the first try.</div>
                       <p class="vt-psub">Five routes, five sets of evidence, and a constantly updated rulebook mean most rejections are self-inflicted — the right route applied with the wrong proof. Tell us what you can actually document, and we'll map the cleanest path to the visa.</p>
-                      <a class="vt-cta" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
+                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" style="margin-top: 20px;" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
                     </div>
 
                     <p class="vt-sources">Sources: Golden Visa legal framework — Federal Decree-Law No. 29 of 2021, Cabinet Resolution No. 65 of 2022, administered by ICP and GDRFA. Issuance volume and category detail — GSDA Legal Consultants (2026); Ancova Associates, UAE Golden Visa Requirements 2026. Property rule changes (Feb 2026 upfront-payment removal, off-plan/mortgage eligibility) — Ancova, EGSH, UAE Insider Guide (2026). Dubai investor-visa volume — Gulf News (2026). Wealth migration — Henley Private Wealth Migration Report 2025. 2-year Taskeen property visa terms — Gulf News, Dubai Property Visa Guide 2026. Figures current as of mid-2026 and subject to change. Educational only — not legal or immigration advice.</p>

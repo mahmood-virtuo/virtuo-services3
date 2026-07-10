@@ -194,7 +194,7 @@ $heroImageMobile = $seoPage['heroImageMobile'];
                                         </div>
                                     </div>
 
-                                    <section class="brokerage-section" aria-labelledby="chapter-01-title">
+                                    <section class="brokerage-section vt-reveal mt-60" aria-labelledby="chapter-01-title">
                                         <div class="vt-eyebrow">Chapter 01</div>
                                         <h2 class="title-two" id="chapter-01-title">Why brokers are packing up for the Gulf</h2>
                                         <p>Walk into any Dubai brokerage in 2026 and you'll hear American, British and European accents. That's not an accident. While mature Western markets grind through a slow, buyer-led cycle, the UAE is doing the opposite. Dubai recorded roughly <strong>AED 252 billion in property transactions in the first quarter of 2026 alone — up about 31% year-on-year</strong>. Reported broker commissions have surged in step, with market figures pointing to a near-doubling versus the prior year.</p>

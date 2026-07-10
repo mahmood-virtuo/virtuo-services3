@@ -185,7 +185,7 @@
                                             <p>The challenge isn't the size of the tariffs. It's the environment they're delivered in — one of deliberate, sustained chaos that makes it effectively impossible to predict what you'll pay next month.</p>
                                             <cite>East Asia Forum / Bloomberg, March 2026</cite>
                                         </blockquote> -->
-                                        <p class="vt-zone-reco" id="vt-zone-reco">The challenge isn't the size of the tariffs. It's the environment they're delivered in — one of deliberate, sustained chaos that makes it effectively impossible to predict what you'll pay next month.<br/><span style="font-weight: 200;">East Asia Forum / Bloomberg, March 2026</span></p>
+                                        <p class="vt-zone-reco">The challenge isn't the size of the tariffs. It's the environment they're delivered in — one of deliberate, sustained chaos that makes it effectively impossible to predict what you'll pay next month.<br/><span style="font-weight: 200;">East Asia Forum / Bloomberg, March 2026</span></p>
                                     </div>
 
                                     <div class="us-chapter vt-reveal" id="us-safety">
@@ -350,7 +350,7 @@
                                             <p>Dubai's openness makes it vulnerable to shocks in travel and confidence. Abu Dhabi's balance sheet gives the federation the capacity to absorb the blow.</p>
                                             <cite>Institute of International Finance, May 2026 — and both parts of that sentence proved accurate</cite>
                                         </blockquote> -->
-                                        <p class="vt-zone-reco" id="vt-zone-reco">Dubai's openness makes it vulnerable to shocks in travel and confidence. Abu Dhabi's balance sheet gives the federation the capacity to absorb the blow.<br/><span style="font-weight: 200;">Institute of International Finance, May 2026 — and both parts of that sentence proved accurate</span></p>
+                                        <p class="vt-zone-reco">Dubai's openness makes it vulnerable to shocks in travel and confidence. Abu Dhabi's balance sheet gives the federation the capacity to absorb the blow.<br/><span style="font-weight: 200;">Institute of International Finance, May 2026 — and both parts of that sentence proved accurate</span></p>
                                     </div>
 
                                     <div class="us-chapter vt-reveal" id="us-business-setup">
@@ -426,7 +426,9 @@
                                         <div class="vt-eyebrow">Virtuo Services · UAE Business Formation &amp; Residency</div>
                                         <div class="vt-ptitle">The move is a decision. The setup is an engineering problem. We handle the second one.</div>
                                         <p class="vt-psub">Virtuo works with international founders, US operators, investors, and families on UAE business formation, free zone and mainland licensing, Golden Visa applications, PRO services, banking preparation, immigration coordination, and compliance structuring. Not just the license. The platform.</p>
-                                        <a class="vt-cta" href="https://wa.me/971565151315" target="_blank" rel="noopener">Start the conversation on WhatsApp</a>
+                                        <div class="blog-cta-actions blog-cta-actions--center">
+                                            <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315" target="_blank" rel="noopener">Start the conversation on WhatsApp</a>
+                                        </div>
                                         <div class="us-contact">Or email setup@virtuo.ae · +971 56 515 1315</div>
                                     </div>
 

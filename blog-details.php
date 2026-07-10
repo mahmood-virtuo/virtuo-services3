@@ -229,7 +229,7 @@
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">Structure before license</div>
                       <div class="vt-ptitle">Don't buy a license before you know what the structure has to do.</div>
-                      <a class="vt-cta" href="https://wa.me/971565151315" target="_blank" rel="noopener">Speak to Virtuo</a>
+                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315" target="_blank" rel="noopener">Speak to Virtuo</a>
                     </div>
 
                     <h2 class="title-two" id="vt-mistakes">Where founders usually get it wrong</h2>
@@ -405,7 +405,7 @@
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">The bottom line</div>
                       <div class="vt-ptitle">Don't start with the license. Start with what the structure has to protect, enable, and survive.</div>
-                      <a class="vt-cta" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
+                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
                     </div>
 
                     <p class="vt-sources">Sources: U.S. tax rates — Tax Foundation (2026); Tax Cuts and Jobs Act 2017. UAE corporate tax and QFZP — Federal Tax Authority, Federal Decree-Law No. 47 of 2022. Wealth migration — Henley Private Wealth Migration Report 2025. FDI — FT "fDi Markets" and Dubai Economy and Tourism FDI Monitor (2024). Free zone positioning — JAFZA / DP World, Dubai Airport Freezone (DAFZ) and Ajman Free Zone official materials. Golden Visa — UAE GDRFA / ICP and Dubai Land Department. Figures current as of mid-2026 and subject to change.</p>

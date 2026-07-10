@@ -231,7 +231,7 @@
                       <div class="vt-eyebrow">The bottom line</div>
                       <div class="vt-ptitle">A freelance visa was never just a residency stamp. It's a structuring decision — and it compounds at every renewal.</div>
                       <p class="vt-psub">The right route gives you legal clarity, working banking, defensible tax filings, and a clean path to whatever comes next — Green Residence, family sponsorship, or a full company. The wrong one just defers the same problems to your next renewal. Tell us what your work actually looks like, and we'll map the right setup.</p>
-                      <a class="vt-cta" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
+                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" style="margin-top: 20px;" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
                     </div>
 
                     <p class="vt-sources">Sources: Freelance and Green Residence permit volumes — GDRFA-Dubai statements via VisaHQ (Nov 2025). Freelancer growth — UAE Chamber of Commerce study, cited by Shuraa (2025-2026). Cost ranges — Rosemont Partners, BusinessLink UAE, and Citizen Remote freelance/Green Visa cost guides (2025). Corporate tax — Federal Tax Authority, Federal Decree-Law No. 47 of 2022. Compliance tightening — GDRFA-Dubai statement to Emarat Al Youm, reported by VisaHQ (Nov 2025); Affinitas DMCC (2025-2026). Figures current as of mid-2026 and subject to change. Educational only — not legal or immigration advice.</p>
