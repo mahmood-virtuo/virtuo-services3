@@ -729,7 +729,338 @@
     });
   }
 
+  function initDigitalMarketingServiceNavigation() {
+    const page = document.querySelector("[data-digital-service-page]");
+    const content = document.getElementById("digital-service-content");
+    const basePath = "/digital-marketing-and-brand-development";
+
+    if (!page || !content) return false;
+    if (page.dataset.digitalServiceEnhanced === "true") return true;
+
+    page.dataset.digitalServiceEnhanced = "true";
+
+    const cache = new Map();
+    let currentSlug =
+      page.getAttribute("data-current-digital-service") ||
+      content.getAttribute("data-service-panel") ||
+      "";
+    let activeController = null;
+
+    function getCanonicalLink() {
+      return document.querySelector('link[rel="canonical"]');
+    }
+
+    function getMetaDescription() {
+      return document.querySelector('meta[name="description"]');
+    }
+
+    function getOgMeta(property) {
+      return document.querySelector('meta[property="' + property + '"]');
+    }
+
+    function getUrlForSlug(slug) {
+      const link = document.querySelector(
+        '[data-digital-service-link="' + escapeSelector(slug) + '"]',
+      );
+
+      if (link) {
+        return new URL(link.getAttribute("href"), window.location.href);
+      }
+
+      const url = new URL(basePath, window.location.origin);
+      if (slug) url.searchParams.set("tab", slug);
+      return url;
+    }
+
+    function getSlugFromUrl(url) {
+      const normalizedPath = url.pathname.replace(/\/+$/, "") || "/";
+      const currentOrigin = url.origin === window.location.origin;
+
+      if (!currentOrigin || normalizedPath !== basePath) {
+        return "";
+      }
+
+      const tab = url.searchParams.get("tab") || "";
+
+      if (!tab) {
+        const defaultLink = document.querySelector(
+          ".digital-service-main-link[data-digital-service-link]",
+        );
+
+        return defaultLink
+          ? defaultLink.getAttribute("data-digital-service-link") || ""
+          : "";
+      }
+
+      return document.querySelector(
+        '[data-digital-service-link="' + escapeSelector(tab) + '"]',
+      )
+        ? tab
+        : "";
+    }
+
+    function getSlugFromHash() {
+      const hash = window.location.hash.replace("#", "");
+
+      if (!hash) return "";
+
+      return document.querySelector(
+        '[data-digital-service-link="' + escapeSelector(hash) + '"]',
+      )
+        ? hash
+        : "";
+    }
+
+    function setBusy(isBusy) {
+      content.setAttribute("aria-busy", isBusy ? "true" : "false");
+      content.classList.toggle("digital-panel-changing", isBusy);
+    }
+
+    function updateActiveNavigation(slug, parentSlug) {
+      document
+        .querySelectorAll("[data-digital-service-link]")
+        .forEach(function (link) {
+          const isActive = link.getAttribute("data-digital-service-link") === slug;
+
+          link.classList.toggle("is-active", isActive);
+
+          if (isActive) {
+            link.setAttribute("aria-current", "page");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+
+      document
+        .querySelectorAll(".digital-service-main-item")
+        .forEach(function (item) {
+          const mainLink = item.querySelector(".digital-service-main-link");
+          const mainSlug = mainLink
+            ? mainLink.getAttribute("data-digital-service-link")
+            : "";
+
+          item.classList.toggle("is-open", mainSlug === parentSlug);
+          if (mainLink && mainSlug === parentSlug && slug !== mainSlug) {
+            mainLink.classList.add("is-active");
+          }
+        });
+    }
+
+    function updateStructuredData(data) {
+      const schema = document.querySelector('script[type="application/ld+json"]');
+
+      if (!schema || !data || !Array.isArray(data.faqItems)) return;
+
+      try {
+        const parsed = JSON.parse(schema.textContent || "{}");
+        const graph = Array.isArray(parsed["@graph"]) ? parsed["@graph"] : [];
+        const filtered = graph.filter(function (item) {
+          return item && item["@type"] !== "FAQPage";
+        });
+
+        if (data.faqItems.length) {
+          filtered.push({
+            "@type": "FAQPage",
+            "@id": data.canonicalUrl + "#faq",
+            mainEntity: data.faqItems.map(function (faq) {
+              return {
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.answer,
+                },
+              };
+            }),
+          });
+        }
+
+        schema.textContent = JSON.stringify({ "@context": "https://schema.org", "@graph": filtered });
+      } catch (error) {
+        return;
+      }
+    }
+
+    function getCurrentFaqItemsFromStructuredData() {
+      const schema = document.querySelector('script[type="application/ld+json"]');
+
+      if (!schema) return [];
+
+      try {
+        const parsed = JSON.parse(schema.textContent || "{}");
+        const graph = Array.isArray(parsed["@graph"]) ? parsed["@graph"] : [];
+        const faqPage = graph.find(function (item) {
+          return item && item["@type"] === "FAQPage";
+        });
+
+        return Array.isArray(faqPage && faqPage.mainEntity)
+          ? faqPage.mainEntity.map(function (item) {
+              return {
+                question: item.name || "",
+                answer:
+                  item.acceptedAnswer && item.acceptedAnswer.text
+                    ? item.acceptedAnswer.text
+                    : "",
+              };
+            })
+          : [];
+      } catch (error) {
+        return [];
+      }
+    }
+
+    function applyService(data, options) {
+      const shouldFocus = !options || options.focus !== false;
+
+      content.innerHTML = data.html;
+      content.setAttribute("data-service-panel", data.tab);
+      page.setAttribute("data-current-digital-service", data.tab);
+      currentSlug = data.tab;
+
+      updateActiveNavigation(data.tab, data.parentTab);
+      updateServiceBreadcrumb(data.breadcrumbMain, data.breadcrumbSub);
+
+      document.title = data.title;
+
+      const description = getMetaDescription();
+      if (description) description.setAttribute("content", data.metaDescription);
+
+      const canonical = getCanonicalLink();
+      if (canonical) canonical.setAttribute("href", data.canonicalUrl);
+
+      const ogTitle = getOgMeta("og:title");
+      if (ogTitle) ogTitle.setAttribute("content", data.title);
+
+      const ogDescription = getOgMeta("og:description");
+      if (ogDescription) ogDescription.setAttribute("content", data.metaDescription);
+
+      const ogUrl = getOgMeta("og:url");
+      if (ogUrl) ogUrl.setAttribute("content", data.canonicalUrl);
+
+      updateStructuredData(data);
+
+      if (window.AOS && typeof window.AOS.refreshHard === "function") {
+        window.AOS.refreshHard();
+      }
+
+      if (shouldFocus) {
+        const heading = content.querySelector(".services__details-content-top .title, h2");
+        if (heading) {
+          heading.setAttribute("tabindex", "-1");
+          heading.focus({ preventScroll: true });
+        }
+      }
+    }
+
+    async function loadService(slug, options) {
+      if (!slug) return;
+
+      const cached = cache.get(slug);
+      const targetUrl = getUrlForSlug(slug);
+
+      if (slug === currentSlug && (!options || options.force !== true)) {
+        if (options && options.push && history.pushState) {
+          history.pushState({ digitalServiceSlug: slug }, "", targetUrl.pathname + targetUrl.search);
+        }
+        return;
+      }
+
+      if (cached) {
+        applyService(cached, options);
+        if (options && options.push && history.pushState) {
+          history.pushState({ digitalServiceSlug: slug }, "", targetUrl.pathname + targetUrl.search);
+        }
+        return;
+      }
+
+      if (activeController) {
+        activeController.abort();
+      }
+
+      activeController = "AbortController" in window ? new AbortController() : null;
+      setBusy(true);
+
+      try {
+        const endpoint = new URL("/api/digital-service-content.php", window.location.origin);
+        endpoint.searchParams.set("tab", slug);
+
+        const response = await fetch(endpoint.toString(), {
+          headers: { Accept: "application/json" },
+          signal: activeController ? activeController.signal : undefined,
+        });
+
+        if (!response.ok) throw new Error("Service request failed");
+
+        const data = await response.json();
+        cache.set(data.tab, data);
+        applyService(data, options);
+
+        if (options && options.push && history.pushState) {
+          history.pushState({ digitalServiceSlug: data.tab }, "", targetUrl.pathname + targetUrl.search);
+        }
+      } catch (error) {
+        if (error && error.name === "AbortError") return;
+        window.location.href = targetUrl.pathname + targetUrl.search;
+      } finally {
+        setBusy(false);
+      }
+    }
+
+    cache.set(currentSlug, {
+      tab: currentSlug,
+      parentTab:
+        document
+          .querySelector('[data-digital-service-link="' + escapeSelector(currentSlug) + '"]')
+          ?.getAttribute("data-parent-tab") || currentSlug,
+      html: content.innerHTML,
+      title: document.title,
+      metaDescription: getMetaDescription()?.getAttribute("content") || "",
+      canonicalUrl: getCanonicalLink()?.getAttribute("href") || window.location.href,
+      breadcrumbMain:
+        document.querySelector(".js-service-breadcrumb-main")?.textContent.trim() ||
+        "",
+      breadcrumbSub:
+        document.querySelector(".js-service-breadcrumb-sub")?.textContent.trim() ||
+        "",
+      faqItems: getCurrentFaqItemsFromStructuredData(),
+    });
+
+    document.addEventListener("click", function (event) {
+      const link = event.target.closest("a[href]");
+
+      if (!link || event.defaultPrevented) return;
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      if (link.target && link.target !== "_self") return;
+
+      const url = new URL(link.getAttribute("href"), window.location.href);
+      const slug = getSlugFromUrl(url);
+
+      if (!slug) return;
+
+      event.preventDefault();
+      loadService(slug, { push: true, focus: true });
+    });
+
+    window.addEventListener("popstate", function () {
+      const slug = getSlugFromUrl(new URL(window.location.href));
+      if (slug) loadService(slug, { push: false, focus: false, force: true });
+    });
+
+    const hashSlug = getSlugFromHash();
+    if (hashSlug && history.replaceState) {
+      const url = getUrlForSlug(hashSlug);
+      history.replaceState({ digitalServiceSlug: hashSlug }, "", url.pathname + url.search);
+      loadService(hashSlug, { push: false, focus: false, force: true });
+    } else if (history.replaceState) {
+      history.replaceState({ digitalServiceSlug: currentSlug }, "", window.location.pathname + window.location.search);
+    }
+
+    return true;
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    if (initDigitalMarketingServiceNavigation()) return;
+
     initSimpleServiceTabs();
     initNestedDigitalServiceTabs();
   });

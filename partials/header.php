@@ -125,7 +125,7 @@ preloader disabled end -->
                                                 </div> -->
                                             <!-- <div class="virtuo-services-mega__panel is-active" data-mega-panel="marketing"> -->
                                                 <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
-                                                <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-web-and-digital-solutions">WEB &amp; DIGITAL SOLUTIONS</a>
+                                                <a href="/digital-marketing-and-brand-development">WEB &amp; DIGITAL SOLUTIONS</a>
                                                 <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
                                                 <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-brand-development">BRAND DEVELOPMENT</a>
                                                 <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-marketing-solutions">MARKETING SOLUTIONS</a>
@@ -181,7 +181,7 @@ preloader disabled end -->
                                         <a href="/digital-marketing-and-brand-development">Digital Marketing &amp; Brand Development</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-web-and-digital-solutions">Web &amp; Digital Solutions</a>
+                                                <a href="/digital-marketing-and-brand-development">Web &amp; Digital Solutions</a>
                                             </li>
                                             <li><a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-social-media-management">Social Media Management</a></li>
                                             <li><a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-brand-development">Brand Development</a></li>

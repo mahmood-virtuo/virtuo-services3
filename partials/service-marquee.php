@@ -5,15 +5,15 @@ if (($serviceMarqueeVariant ?? '') === 'plain') {
         ['/uae-business-formation-structuring-and-compliance', 'BUSINESS SETUP'],
         ['/immigration-and-residency-solutions#immigration-residency-solutions-golden-visa-uae', 'GOLDEN VISA'],
         ['/uae-business-formation-structuring-and-compliance#business-bank-account-opening', 'BANK ACCOUNT OPENING'],
-        ['/digital-marketing-and-brand-development#digital-marketing-brand-development-brand-development', 'BRAND DEVELOPMENT'],
+        ['/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-brand-development', 'BRAND DEVELOPMENT'],
         ['/immigration-and-residency-solutions#immigration-residency-solutions-investor-visa-dubai', 'INVEST IN DUBAI'],
         ['/immigration-and-residency-solutions#immigration-residency-solutions-freelance-visa', 'FREELANCE VISA'],
         ['/digital-marketing-and-brand-development', 'DIGITAL MARKETING'],
         ['/ai-automation-and-technology-solutions', 'AI AUTOMATION'],
         ['/government-relations-and-pro-services', 'GOVERNMENT RELATIONS'],
-        ['/digital-marketing-and-brand-development#web-digital-solutions-website-development', 'WEB DEVELOPMENT'],
+        ['/digital-marketing-and-brand-development?tab=web-digital-solutions-website-development', 'WEB DEVELOPMENT'],
         ['/immigration-and-residency-solutions#immigration-residency-solutions-residence-visa', 'RESIDENCY SOLUTION'],
-        ['/digital-marketing-and-brand-development#digital-marketing-brand-development-marketing-solutions', 'MARKETING SOLUTION'],
+        ['/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-marketing-solutions', 'MARKETING SOLUTION'],
     ];
     $serviceMarqueeSectionClass = trim('marquee__area ' . ($serviceMarqueeExtraClass ?? ''));
     $serviceMarqueeIconStyle = 'margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;';
@@ -59,7 +59,7 @@ if (($serviceMarqueeVariant ?? '') === 'plain') {
                     </svg>BANK ACCOUNT OPENING</a>
             </h6>
             <h6 class="marquee__item marquee__item-two">
-                <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 500 500" fill="none" class="w-10 h-10" aria-hidden="true" focusable="false">
+                <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-brand-development"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 500 500" fill="none" class="w-10 h-10" aria-hidden="true" focusable="false">
                         <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
                     </svg>BRAND DEVELOPMENT</a>
             </h6>
@@ -89,7 +89,7 @@ if (($serviceMarqueeVariant ?? '') === 'plain') {
                     </svg>GOVERNMENT RELATIONS</a>
             </h6>
             <h6 class="marquee__item marquee__item-two">
-                <a href="/digital-marketing-and-brand-development#web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 500 500" fill="none" class="w-10 h-10" aria-hidden="true" focusable="false">
+                <a href="/digital-marketing-and-brand-development?tab=web-digital-solutions-website-development"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 500 500" fill="none" class="w-10 h-10" aria-hidden="true" focusable="false">
                         <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
                     </svg>WEB DEVELOPMENT</a>
             </h6>
@@ -99,7 +99,7 @@ if (($serviceMarqueeVariant ?? '') === 'plain') {
                     </svg>RESIDENCY SOLUTION</a>
             </h6>
             <h6 class="marquee__item marquee__item-two">
-                <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 500 500" fill="none" class="w-10 h-10" aria-hidden="true" focusable="false">
+                <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-marketing-solutions"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 500 500" fill="none" class="w-10 h-10" aria-hidden="true" focusable="false">
                         <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z" />
                     </svg>MARKETING SOLUTION</a>
             </h6>

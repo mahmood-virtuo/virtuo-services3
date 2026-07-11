@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/partials/blog-taxonomy.php';
+require_once __DIR__ . '/partials/services/digital-marketing/registry.php';
 
 header('Content-Type: application/xml; charset=UTF-8');
 
@@ -57,6 +58,14 @@ $staticPages = array(
 
 foreach ($staticPages as $path) {
     virtuo_sitemap_add_url($urls, $path);
+}
+
+foreach (virtuo_digital_service_registry() as $service) {
+    if ($service['slug'] === virtuo_digital_service_default_slug()) {
+        continue;
+    }
+
+    virtuo_sitemap_add_url($urls, $service['canonicalPath']);
 }
 
 $blogPosts = virtuo_get_blog_posts();

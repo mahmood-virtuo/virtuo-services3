@@ -62,7 +62,7 @@
             <a href="/immigration-and-residency-solutions#immigration-residency-solutions-freelance-visa">Freelance Visa</a>
             <a href="/government-relations-and-pro-services#government-relations-pro-services-mohre-inquiry-services">Corporate Compliance</a>
             <a href="/digital-marketing-and-brand-development">Web & Digital Solutions</a>
-            <a href="/digital-marketing-and-brand-development#digital-marketing-brand-development-social-media-management">Social Media Management</a>
+            <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-social-media-management">Social Media Management</a>
             <a href="/ai-automation-and-technology-solutions#ai-automation-technology-solutions-ai-automation">AI Automation</a>
             <a href="/ai-automation-and-technology-solutions#ai-automation-technology-solutions-technology-solutions">Technology Solutions</a>
         </div>

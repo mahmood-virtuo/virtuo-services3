@@ -2,6 +2,7 @@
 $breadcrumbPageTitle = $breadcrumbPageTitle ?? '';
 $breadcrumbPageUrl = $breadcrumbPageUrl ?? basename($_SERVER['PHP_SELF']);
 $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
+$breadcrumbDefaultSub = $breadcrumbDefaultSub ?? '';
 ?>
 
 <!-- breadcrumb-area -->
@@ -38,11 +39,11 @@ $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
                             <?php echo htmlspecialchars($breadcrumbDefaultMain); ?>
                         </span>
 
-                        <span class="breadcrumb-separator js-service-breadcrumb-sub-separator" style="display: none;">
+                        <span class="breadcrumb-separator js-service-breadcrumb-sub-separator" style="<?php echo $breadcrumbDefaultSub !== '' ? '' : 'display: none;'; ?>">
                             <i class="fas fa-angle-right"></i>
                         </span>
 
-                        <span class="js-service-breadcrumb-sub" property="itemListElement" typeof="ListItem" aria-current="page" style="display: none;"></span>
+                        <span class="js-service-breadcrumb-sub" property="itemListElement" typeof="ListItem" aria-current="page" style="<?php echo $breadcrumbDefaultSub !== '' ? '' : 'display: none;'; ?>"><?php echo htmlspecialchars($breadcrumbDefaultSub); ?></span>
                     </nav>
                 </div>
             </div>
