@@ -136,12 +136,12 @@
                         <div class="contact-figma-form-card">
                             <div class="contact-page-form-wrap">
                                 <div class="virtuo-reference-form">
-                                    <div class="estimate__tab-wrap" data-aos="fade-left" data-aos-delay="200">
+                                    <div class="estimate__tab-wrap">
                                         <div class="estimate__tab-inner">
                                             <div class="tab-content" id="myTabContent">
                                                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                                                     <div class="estimate-form-wrap">
-                                                        <form id="footer-quote-form" action="/assets/mail.php" method="POST">
+                                                        <form id="contact-quote-form" action="/assets/mail.php" method="POST">
                                                             <input type="hidden" name="form_type" value="footer_quote">
                                                             <div class="form-grp">
                                                                 <input type="text" name="name" class="virtuo-name-input" placeholder="Full Name" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>

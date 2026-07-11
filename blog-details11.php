@@ -529,7 +529,7 @@
             include __DIR__ . '/partials/scroll-down.php';
             ?>
         </section>
-
+        <?php include __DIR__ . '/partials/service-marquee.php'; ?>
         <!-- blog-details-area -->
         <section id="blog-detail-content" class="blog__details-area section-py-130">
             <div class="container site-content-gutter custom-container">

@@ -1,10 +1,13 @@
+<?php
+$sidebarConsultationFormId = $sidebarConsultationFormId ?? 'sidebar-quote-form';
+?>
 <div class="sidebar__widget blog-sidebar-sticky-form">
     <div class="sidebar__contact">
         <h4 class="title">Book a Free Consultation with Virtuo’s UAE Business Setup Experts</h4>
 
         <!-- -------Form Starts here----------- -->
         <div class="estimate-form-wrap virtuo-sidebar-form">
-            <form id="footer-quote-form" action="/assets/mail.php" method="POST">
+            <form id="<?php echo htmlspecialchars($sidebarConsultationFormId, ENT_QUOTES, 'UTF-8'); ?>" action="/assets/mail.php" method="POST">
                 <input type="hidden" name="form_type" value="footer_quote">
 
                 <div class="form-grp">

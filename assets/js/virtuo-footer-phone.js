@@ -2,7 +2,7 @@
   "use strict";
 
   var selector = ".virtuo-footer-phone-input";
-  var nameSelector = "#footer-quote-form input[name='name'], #contact-form input[name='name']";
+  var nameSelector = ".virtuo-name-input, #contact-form input[name='name']";
 
   function cleanName(value) {
     return value

@@ -1,10 +1,6 @@
 (function () {
   "use strict";
 
-  if ("scrollRestoration" in history) {
-    history.scrollRestoration = "manual";
-  }
-
   function escapeSelector(value) {
     if (window.CSS && typeof window.CSS.escape === "function") {
       return window.CSS.escape(value);
@@ -733,6 +729,7 @@
     const page = document.querySelector("[data-digital-service-page]");
     const content = document.getElementById("digital-service-content");
     const basePath = "/digital-marketing-and-brand-development";
+    const digitalServiceEndpoint = "/api/digital-service-content";
 
     if (!page || !content) return false;
     if (page.dataset.digitalServiceEnhanced === "true") return true;
@@ -814,6 +811,23 @@
     function setBusy(isBusy) {
       content.setAttribute("aria-busy", isBusy ? "true" : "false");
       content.classList.toggle("digital-panel-changing", isBusy);
+    }
+
+    function shouldReduceMotion() {
+      return (
+        window.matchMedia &&
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      );
+    }
+
+    function scrollPageTopAfterDigitalServiceChange() {
+      requestAnimationFrame(function () {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: shouldReduceMotion() ? "auto" : "smooth",
+        });
+      });
     }
 
     function updateActiveNavigation(slug, parentSlug) {
@@ -970,6 +984,9 @@
         if (options && options.push && history.pushState) {
           history.pushState({ digitalServiceSlug: slug }, "", targetUrl.pathname + targetUrl.search);
         }
+        if (options && options.scrollTop) {
+          scrollPageTopAfterDigitalServiceChange();
+        }
         return;
       }
 
@@ -981,7 +998,7 @@
       setBusy(true);
 
       try {
-        const endpoint = new URL("/api/digital-service-content.php", window.location.origin);
+        const endpoint = new URL(digitalServiceEndpoint, window.location.origin);
         endpoint.searchParams.set("tab", slug);
 
         const response = await fetch(endpoint.toString(), {
@@ -997,6 +1014,9 @@
 
         if (options && options.push && history.pushState) {
           history.pushState({ digitalServiceSlug: data.tab }, "", targetUrl.pathname + targetUrl.search);
+        }
+        if (options && options.scrollTop) {
+          scrollPageTopAfterDigitalServiceChange();
         }
       } catch (error) {
         if (error && error.name === "AbortError") return;
@@ -1038,7 +1058,7 @@
       if (!slug) return;
 
       event.preventDefault();
-      loadService(slug, { push: true, focus: true });
+      loadService(slug, { push: true, focus: true, scrollTop: true });
     });
 
     window.addEventListener("popstate", function () {
