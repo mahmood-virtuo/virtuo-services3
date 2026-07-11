@@ -941,6 +941,10 @@ Intersection Observer
     $(".marquee_mode").each(function () {
       var $marquee = $(this);
 
+      if ($marquee.attr("data-marquee-initialized") === "true" || $marquee.children(".js-marquee-wrapper").length) {
+        return;
+      }
+
       $marquee.marquee({
         speed: marqueeSpeed,
         gap: 0,
@@ -950,6 +954,8 @@ Intersection Observer
         pauseOnHover: true,
         startVisible: true,
       });
+
+      $marquee.attr("data-marquee-initialized", "true").addClass("is-marquee-ready");
     });
   }
 

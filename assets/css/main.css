@@ -19399,10 +19399,31 @@ blockquote cite {
 .marquee-wrap-four {
   transform: rotate(0);
 }
+.marquee__area .slider__marquee,
+.marquee__area-three .slider__marquee {
+  max-width: 100%;
+  overflow: hidden;
+}
+.marquee__area .slider__marquee .marquee_mode,
+.marquee__area .slider__marquee .js-marquee,
+.marquee__area .slider__marquee .js-marquee-wrapper,
+.marquee__area-three .slider__marquee .marquee_mode,
+.marquee__area-three .slider__marquee .js-marquee,
+.marquee__area-three .slider__marquee .js-marquee-wrapper {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  max-width: none;
+  white-space: nowrap;
+}
 .marquee__item {
   margin-right: 20px;
-  display: inline;
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
   line-height: 1;
+  margin-bottom: 0;
+  white-space: nowrap;
 }
 .marquee__item a {
   font-size: 60px;
@@ -19413,6 +19434,8 @@ blockquote cite {
   -webkit-text-stroke: 1.5px var(--tg-body-color);
   display: inline-flex;
   align-items: center;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 @media (max-width: 1199.98px) {
   .marquee__item a {
@@ -19432,6 +19455,8 @@ blockquote cite {
 .marquee__item a svg {
   margin-right: 20px;
   color: white;
+  display: inline-block;
+  flex: 0 0 auto;
 }
 .marquee__item-two a {
   font-size: 22px;
@@ -19451,6 +19476,7 @@ blockquote cite {
   color: var(--tg-theme-primary);
   width: 15px;
   height: 15px;
+  flex-basis: 15px;
 }
 @media (max-width: 1500px) {
   .marquee-wrap-two,
