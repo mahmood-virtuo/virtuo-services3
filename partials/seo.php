@@ -96,8 +96,12 @@ include_once dirname(__DIR__) . '/includes/schema.php';
 <meta name="description" content="<?php echo virtuo_seo_escape($seo['description']); ?>">
 <link rel="canonical" href="<?php echo virtuo_seo_escape($canonicalUrl); ?>">
 <?php if ($heroImage !== '' && $heroImageMobile !== '') : ?>
+<?php if ($heroImage === $heroImageMobile) : ?>
+<link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high">
+<?php else : ?>
 <link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high" media="(min-width: 768px)">
 <link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImageMobile); ?>" fetchpriority="high" media="(max-width: 767px)">
+<?php endif; ?>
 <?php elseif ($heroImage !== '') : ?>
 <link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high">
 <?php endif; ?>

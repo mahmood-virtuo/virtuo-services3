@@ -15,8 +15,7 @@
         'ogImage' => '/assets/img/og/home.jpg',
         'image' => '/assets/img/bg/HEADER.webp',
         'imageAlt' => 'Contact Virtuo Services in the UAE',
-        'heroImage' => '/assets/img/bg/HEADER.webp',
-        'heroImageMobile' => '/assets/img/bg/HEADER-mobile.webp'
+        'heroImage' => '/assets/img/bg/HEADER.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>
@@ -39,7 +38,6 @@
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/odometer.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/main.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
