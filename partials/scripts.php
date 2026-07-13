@@ -1,24 +1,23 @@
+<?php require_once __DIR__ . '/asset-helper.php'; ?>
 <!-- JS here -->
-<script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/jquery.magnific-popup.min.js"></script>
-<script src="/assets/js/jquery.odometer.min.js"></script>
-<script src="/assets/js/jquery.appear.js"></script>
-<script src="/assets/js/swiper-bundle.min.js"></script>
-<script src="/assets/js/jquery.parallaxScroll.min.js"></script>
-<script src="/assets/js/jquery.marquee.min.js"></script>
-    <script src="/assets/js/tg-cursor.min.js"></script>
-    <script src="/assets/js/ajax-form.js"></script>
-    <script src="/assets/js/svg-inject.min.js"></script>
-    <script src="/assets/js/wow.min.js"></script>
-    <script src="/assets/js/aos.js"></script>
-    <script src="/assets/js/main.js"></script>
-    <script src="/assets/js/virtuo-performance.js"></script>
-    <script src="/assets/js/virtuo-mega-menu.js"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/vendor/jquery-3.6.0.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/bootstrap.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.magnific-popup.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.odometer.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.appear.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/swiper-bundle.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.marquee.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/tg-cursor.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/ajax-form.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/svg-inject.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/wow.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/aos.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/main.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-performance.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-mega-menu.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
-<script src="/assets/js/virtuo-footer-phone.js"></script>
-<script src="/assets/js/virtuo-phone-field.js"></script>
-<script src="/assets/js/virtuo-service-tabs-breadcrumb.js"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-footer-phone.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-service-tabs-breadcrumb.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 
 <script>
     if (typeof SVGInject === "function") {

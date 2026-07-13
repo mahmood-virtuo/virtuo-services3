@@ -113,8 +113,8 @@
                                         <button class="nav-link" id="life-tab" data-bs-toggle="tab" data-bs-target="#life-tab-pane" type="button" role="tab" aria-controls="life-tab-pane" aria-selected="false">Marketing</button>
                                     </li>
                                 </ul> -->
-                                     <div class="tab-content" id="myTabContent">
-                                         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                     <div class="tab-content">
+                                         <div class="tab-pane fade show active">
                                              <div class="estimate-form-wrap">
                                                  <form id="footer-quote-form" action="/assets/mail.php" method="POST">
                                                      <input type="hidden" name="form_type" value="footer_quote">
@@ -167,7 +167,7 @@
                                                  </form>
                                              </div>
                                          </div>
-                                         <div class="tab-pane fade" id="vehicles-tab-pane" role="tabpanel" aria-labelledby="vehicles-tab" tabindex="0">
+                                         <div class="tab-pane fade">
                                              <div class="estimate-form-wrap">
                                                  <form action="#">
                                                      <div class="form-grp">
@@ -194,7 +194,7 @@
                                                  </form>
                                              </div>
                                          </div>
-                                         <div class="tab-pane fade" id="health-tab-pane" role="tabpanel" aria-labelledby="health-tab" tabindex="0">
+                                         <div class="tab-pane fade">
                                              <div class="estimate-form-wrap">
                                                  <form action="#">
                                                      <div class="form-grp">
@@ -221,7 +221,7 @@
                                                  </form>
                                              </div>
                                          </div>
-                                         <div class="tab-pane fade" id="life-tab-pane" role="tabpanel" aria-labelledby="life-tab" tabindex="0">
+                                         <div class="tab-pane fade">
                                              <div class="estimate-form-wrap">
                                                  <form action="#">
                                                      <div class="form-grp">

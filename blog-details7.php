@@ -33,18 +33,18 @@
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/animate.min.css">
-    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="/assets/css/tg-flaticon.css">
-    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/assets/css/default.css">
-    <link rel="stylesheet" href="/assets/css/default-icons.css">
-    <link rel="stylesheet" href="/assets/css/odometer.css">
-    <link rel="stylesheet" href="/assets/css/aos.css">
-    <link rel="stylesheet" href="/assets/css/tg-cursor.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/swiper-bundle.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/odometer.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/main.css'), ENT_QUOTES, 'UTF-8'); ?>">
 
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does the UAE have personal income tax?","acceptedAnswer":{"@type":"Answer","text":"No. The UAE does not levy personal income tax on salaries, wages, dividends, or personal investment returns. This applies to all residents regardless of nationality."}},{"@type":"Question","name":"What is the UAE corporate tax rate in 2026?","acceptedAnswer":{"@type":"Answer","text":"9% on taxable profit above AED 375,000. The first AED 375,000 is taxed at 0%. Free zone companies qualifying as a Qualifying Free Zone Person (QFZP) can earn 0% on qualifying income, provided they meet substance, activity, and de-minimis conditions under Ministerial Decision 229 of 2025."}},{"@type":"Question","name":"Do I need to register for VAT in the UAE?","acceptedAnswer":{"@type":"Answer","text":"Yes, if your annual taxable supplies and imports exceed AED 375,000. Voluntary registration is available from AED 187,500. VAT is 5% on most goods and services, with 0% on exports and exemptions for certain financial services and residential property transactions."}},{"@type":"Question","name":"What is the UAE DMTT and does it affect my business?","acceptedAnswer":{"@type":"Answer","text":"The Domestic Minimum Top-up Tax (DMTT) is a 15% minimum effective tax rate applying to multinational enterprise groups with consolidated global revenue of EUR 750 million or more. It is effective from fiscal years starting January 1, 2025. The vast majority of SMEs, freelancers, and individual founders are not affected."}},{"@type":"Question","name":"Is there capital gains tax in the UAE?","acceptedAnswer":{"@type":"Answer","text":"No. The UAE does not impose capital gains tax on personal investment returns, property sales, or asset disposals. Capital gains earned through a UAE business may be included in taxable business profit subject to the 9% corporate tax rate, but there is no separate capital gains tax."}}]}
@@ -447,9 +447,9 @@
     <!-- footer-area -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
-    <script src="/assets/js/blog-details.js"></script>
-    <script src="/assets/js/blog-toc.js"></script>
-    <script src="/assets/js/blog-detail-sticky-widgets.js"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-details.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-toc.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-detail-sticky-widgets.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <!-- footer-area-end -->
 </body>
 </html>

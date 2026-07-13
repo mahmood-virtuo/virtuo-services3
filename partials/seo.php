@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/asset-helper.php';
+
 if (!function_exists('virtuo_seo_escape')) {
     function virtuo_seo_escape($value)
     {
