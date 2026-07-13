@@ -1146,6 +1146,7 @@
     <!-- main-area-end -->
     <!-- footer-area -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
+    <?php $loadVirtuoServiceTabsBreadcrumb = true; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
     <!-- footer-area-end -->
 </body>

@@ -111,6 +111,7 @@ $faqs = virtuo_digital_service_extract_faqs($digitalActiveHtml);
     <!-- main-area-end -->
     <!-- footer-area -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
+    <?php $loadVirtuoServiceTabsBreadcrumb = true; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
     <!-- footer-area-end -->
 

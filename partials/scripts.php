@@ -17,7 +17,9 @@
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-mega-menu.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-footer-phone.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php if (!empty($loadVirtuoServiceTabsBreadcrumb)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-service-tabs-breadcrumb.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php endif; ?>
 
 <script>
     if (typeof SVGInject === "function") {
