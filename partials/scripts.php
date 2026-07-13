@@ -8,7 +8,9 @@
 <?php if (!empty($loadSwiperAssets)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/swiper-bundle.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
+<?php if (!empty($loadJqueryMarquee)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.marquee.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php endif; ?>
     <?php $tgCursorScriptUrl = virtuo_asset_url('/assets/js/tg-cursor.min.js'); ?>
     <script>
         (function () {
@@ -32,19 +34,19 @@
             document.head.appendChild(script);
         })();
     </script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/ajax-form.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/ajax-form.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/svg-inject.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <?php if (!empty($loadWowAssets)) : ?>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/wow.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <?php endif; ?>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/aos.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/main.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-performance.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-mega-menu.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/main.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-performance.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-mega-menu.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
-<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-footer-phone.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-footer-phone.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php if (!empty($loadVirtuoServiceTabsBreadcrumb)) : ?>
-<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-service-tabs-breadcrumb.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-service-tabs-breadcrumb.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
 
 <script>

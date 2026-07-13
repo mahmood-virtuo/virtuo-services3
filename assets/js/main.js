@@ -941,7 +941,7 @@ Intersection Observer
   /*===========================================
 =         Marquee Active         =
 =============================================*/
-  if ($(".marquee_mode").length) {
+  if ($(".marquee_mode").length && typeof $.fn.marquee === "function") {
     var isMobileOrTabletMarquee =
       window.matchMedia && window.matchMedia("(max-width: 991.98px)").matches;
     var marqueeSpeed = isMobileOrTabletMarquee ? 28 : 50;

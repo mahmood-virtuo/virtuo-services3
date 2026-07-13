@@ -55,6 +55,7 @@
     $heroImageMobile = $seoPage['heroImageMobile'];
 
     include __DIR__ . '/partials/seo.php';
+    $loadJqueryMarquee = true;
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
@@ -530,9 +531,9 @@
     <!-- footer-area -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-details.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-toc.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-detail-sticky-widgets.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-details.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-toc.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-detail-sticky-widgets.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <!-- footer-area-end -->
 </body>
 </html>

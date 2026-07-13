@@ -72,6 +72,7 @@ $heroImageMobile = $seoPage['heroImageMobile'];
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php include __DIR__ . '/partials/seo.php'; ?>
+    <?php $loadJqueryMarquee = true; ?>
     <?php
     $heroImage = $seoPage['heroImage'];
     $heroImageMobile = $seoPage['heroImageMobile'];
@@ -463,10 +464,10 @@ $heroImageMobile = $seoPage['heroImageMobile'];
     <!-- footer-area -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-details.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-toc.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-detail-sticky-widgets.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-blog-interactives.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-details.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-toc.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-detail-sticky-widgets.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-blog-interactives.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <!-- footer-area-end -->
 </body>
 </html>

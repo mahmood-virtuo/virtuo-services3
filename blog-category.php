@@ -98,7 +98,7 @@ $blogListingDescription = $categoryDescription;
 
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-sticky-widgets.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/blog-sticky-widgets.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 </body>
 
 </html>

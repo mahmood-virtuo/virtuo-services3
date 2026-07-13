@@ -1,4 +1,6 @@
 <?php
+$loadJqueryMarquee = true;
+
 if (($serviceMarqueeVariant ?? '') === 'plain') {
     $serviceMarqueeItems = [
         ['/government-relations-and-pro-services', 'PRO SERVICES'],
