@@ -6,7 +6,7 @@
                                         <p>By pairing predictive demographic matrix modeling with rapid creative iteration, strict bidding management, and precise attribution tracking, we eliminate wasted ad impressions. We build data-backed conversion funnels that put your solutions right in front of high-intent buyers exactly when they are ready to convert, drastically accelerating your market traction.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img1.jpg" alt="Paid Advertising (Meta &amp; Google Ads)" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img1.webp" alt="Paid Advertising (Meta &amp; Google Ads)" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -19,12 +19,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img2.jpg" alt="Paid Advertising (Meta &amp; Google Ads)" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img2.webp" alt="Paid Advertising (Meta &amp; Google Ads)" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img3.jpg" alt="Paid Advertising (Meta &amp; Google Ads)" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img3.webp" alt="Paid Advertising (Meta &amp; Google Ads)" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

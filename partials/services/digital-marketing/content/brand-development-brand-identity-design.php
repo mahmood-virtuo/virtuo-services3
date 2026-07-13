@@ -6,7 +6,7 @@
                                         <p>By pairing deep psychological positioning with immaculate typography architectures, strict color theory parameters, and scalable asset frameworks, we build a unified brand anatomy. This disciplined design engineering eliminates disconnected messaging, elevates your perceived market value, and ensures your company looks like the definitive industry leader from the very first impression.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/BrandIdentityDesignImg1.jpg" alt="Brand Identity Design" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/BrandIdentityDesignImg1.webp" alt="Brand Identity Design" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/BrandIdentityDesignImg2.jpg" alt="Brand Identity Design" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/BrandIdentityDesignImg2.webp" alt="Brand Identity Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/BrandIdentityDesignImg3.jpg" alt="Brand Identity Design" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/BrandIdentityDesignImg3.webp" alt="Brand Identity Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

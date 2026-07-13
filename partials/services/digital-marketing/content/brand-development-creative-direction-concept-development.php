@@ -6,7 +6,7 @@
                                         <p>By bridging the gap between cold business analytics and high-impact emotional storytelling, we eliminate disjointed campaigns and unvetted creative output. This master-level design engineering provides your enterprise with a definitive, future-proof blueprint, transforming abstract ideas into concrete visual and narrative systems that deeply resonate with your target demographic and drive measurable commercial traction.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg1.jpg" alt="Creative Direction &amp; Concept Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg1.webp" alt="Creative Direction &amp; Concept Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg2.jpg" alt="Creative Direction &amp; Concept Development" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg2.webp" alt="Creative Direction &amp; Concept Development" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg3.jpg" alt="Creative Direction &amp; Concept Development" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/CreativeDirection&ConceptDevelopmentImg3.webp" alt="Creative Direction &amp; Concept Development" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

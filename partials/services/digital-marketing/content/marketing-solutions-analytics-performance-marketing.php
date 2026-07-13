@@ -6,7 +6,7 @@
                                         <p>By deploying server-side tracking networks, advanced data warehouse connections, and customized cross-channel business intelligence dashboards, we eliminate the blind spots of modern privacy updates. This gives your leadership team complete transparency over your customer acquisition paths, customer lifetime values, and true marketing efficiency metrics to back up every investment decision.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg1.jpg" alt="Analytics &amp; Performance Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg1.webp" alt="Analytics &amp; Performance Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -23,12 +23,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg2.jpg" alt="Analytics &amp; Performance Marketing" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg2.webp" alt="Analytics &amp; Performance Marketing" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg3.jpg" alt="Analytics &amp; Performance Marketing" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg3.webp" alt="Analytics &amp; Performance Marketing" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>

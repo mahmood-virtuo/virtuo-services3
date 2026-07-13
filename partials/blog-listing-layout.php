@@ -44,10 +44,12 @@
                     <?php endif; ?>
 
                     <?php if (!empty($pagedBlogPosts)) : ?>
-                        <?php foreach ($pagedBlogPosts as $blogPost) : ?>
+                        <?php foreach ($pagedBlogPosts as $blogPostIndex => $blogPost) : ?>
                             <?php $blogLoadItemEnabled = $blogLoadEnabled; ?>
+                            <?php $blogPostPriorityHigh = $blogPostIndex === 0; ?>
                             <?php include __DIR__ . '/blog-post-card.php'; ?>
                         <?php endforeach; ?>
+                        <?php unset($blogPostIndex, $blogPostPriorityHigh); ?>
                         <?php if ($blogLoadEnabled && count($pagedBlogPosts) > $blogLoadInitialCount) : ?>
                             <div class="blog-load-sentinel" data-blog-load-sentinel>
                                 <button type="button" class="blog-load-more-btn">Load more posts</button>

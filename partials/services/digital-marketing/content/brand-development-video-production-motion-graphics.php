@@ -6,7 +6,7 @@
                                         <p>By combining trend-aware creative direction, data-backed engagement mechanics, and precise multi-format asset creation, we eliminate low-performing and unvetted content. We build tailored, platform-native visual systems that align perfectly with modern algorithmic preferences, ensuring your brand story captivates users and effectively converts casual impressions into measurable commercial traction.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg1.jpg" alt="Video Production &amp; Motion Graphics" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg1.webp" alt="Video Production &amp; Motion Graphics" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg2.jpg" alt="Video Production &amp; Motion Graphics" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg2.webp" alt="Video Production &amp; Motion Graphics" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg3.jpg" alt="Video Production &amp; Motion Graphics" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg3.webp" alt="Video Production &amp; Motion Graphics" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

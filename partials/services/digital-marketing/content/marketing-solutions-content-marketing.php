@@ -6,7 +6,7 @@
                                         <p>By pairing meticulous intent analysis with semantic keyword structures and high-value educational assets, we eliminate the need for purely transactional outreach. We establish an evergreen brand framework that builds deep consumer trust, boosts your organic search presence, and seamlessly funnels qualified web traffic toward your primary sales pipelines.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentMarketingImg1.jpg" alt="Content Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/ContentMarketingImg1.webp" alt="Content Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -19,12 +19,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/ContentMarketingImg2.jpg" alt="Content Marketing" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/ContentMarketingImg2.webp" alt="Content Marketing" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/ContentMarketingImg3.jpg" alt="Content Marketing" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/ContentMarketingImg3.webp" alt="Content Marketing" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>

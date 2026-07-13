@@ -6,7 +6,7 @@
                                             By pairing meticulous cross-media technical precision with persuasive, bicultural storytelling metrics, we eliminate flat engagement rates and weak market visibility. This disciplined creative pipeline delivers highly polished visual, written, and dynamic materials that reinforce your thought leadership and drive action across all your primary marketing channels.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentCreationImg1.jpg" alt="Content Creation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/ContentCreationImg1.webp" alt="Content Creation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/ContentCreationImg2.jpg" alt="Content Creation" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/ContentCreationImg2.webp" alt="Content Creation" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/ContentCreationImg3.jpg" alt="Content Creation" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/ContentCreationImg3.webp" alt="Content Creation" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

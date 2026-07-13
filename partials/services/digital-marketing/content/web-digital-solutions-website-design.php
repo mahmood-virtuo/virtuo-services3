@@ -5,7 +5,7 @@
                                         <p>Crafting an intuitive user interface (UI) and a seamless user experience (UX) is the absolute cornerstone of digital consumer trust inside a technology-forward marketplace. True interface design serves as your company's digital empathy layer—mapping out clean customer loops, eliminating navigation friction, reducing cognitive overload, and guiding visitors naturally toward your core business goals. Virtuo treats interface layout as a precise behavioral science, engineering high-performance visual frameworks that anticipate user paths to ensure your corporate web platforms feel incredibly natural, fully accessible, and intensely engaging on every device.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img1.jpg" alt="Website Design (UI/UX)" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img1.webp" alt="Website Design (UI/UX)" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img2.jpg" alt="Website Design (UI/UX)" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img2.webp" alt="Website Design (UI/UX)" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img3.jpg" alt="Website Design (UI/UX)" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img3.webp" alt="Website Design (UI/UX)" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>

@@ -48,8 +48,12 @@ $faqs = virtuo_digital_service_extract_faqs($digitalActiveHtml);
     <?php include __DIR__ . '/partials/favicon.php'; ?>
     <!-- CSS here -->
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>

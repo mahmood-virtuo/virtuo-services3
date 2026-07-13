@@ -6,7 +6,7 @@
                                     <p>At Virtuo, we eliminate the complexity of cross-platform brand management. Our specialized digital strategists, copywriters, and content creators design tailored social blueprints that elevate your brand voice, ensuring your company establishes immediate structural authority across premium business and consumer networks alike.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/SocialMediaManagementImg1.jpg" alt="Social Media Management" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/SocialMediaManagementImg1.webp" alt="Social Media Management" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Social Media Services Include</h2>
@@ -24,12 +24,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/SocialMediaManagementImg2.jpg" alt="Social Media Management" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/SocialMediaManagementImg2.webp" alt="Social Media Management" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/SocialMediaManagementImg3.jpg" alt="Social Media Management" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/SocialMediaManagementImg3.webp" alt="Social Media Management" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>

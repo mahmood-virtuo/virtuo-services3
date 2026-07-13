@@ -3,7 +3,7 @@
         <div class="virtuo-built-section__row">
             <div class="virtuo-built-section__media">
                 <img
-                    src="assets/img/images/entrepreneurs.jpg"
+                    src="assets/img/images/entrepreneurs.webp"
                     alt="Entrepreneurs and professionals ready to build in the UAE"
                     loading="lazy"
                     decoding="async"

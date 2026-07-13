@@ -49,6 +49,8 @@ $staticPages = array(
     '/about',
     '/contact',
     '/blog',
+    '/privacy-policy',
+    '/terms-conditions',
     '/uae-business-formation-structuring-and-compliance',
     '/government-relations-and-pro-services',
     '/immigration-and-residency-solutions',

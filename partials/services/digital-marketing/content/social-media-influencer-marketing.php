@@ -6,7 +6,7 @@
                                         <p>By managing the complex logistics of contract negotiations, creative alignment, compliance tracking, and automated performance tracking under a single unified system, we eliminate administrative drag and unvetted profile risks. This provides your enterprise with a scalable brand ambassador infrastructure that maximizes your media return on investment, lowers customer acquisition costs, and drives high-intent traffic straight into your conversion funnels.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/InfluencerMarketingImg1.jpg" alt="Influencer Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/InfluencerMarketingImg1.webp" alt="Influencer Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/InfluencerMarketingImg2.jpg" alt="Influencer Marketing" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/InfluencerMarketingImg2.webp" alt="Influencer Marketing" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/InfluencerMarketingImg3.jpg" alt="Influencer Marketing" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/InfluencerMarketingImg3.webp" alt="Influencer Marketing" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

@@ -6,7 +6,7 @@
                                         <p>By prioritizing robust source code structure, clean data architectures, and lightweight page logic, we build secure digital assets that fully protect your company's sensitive communications, minimize bounce rates, and systematically convert inbound interest into recurring commercial revenue.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteDevelopmentImg1.jpg" alt="Website Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/WebsiteDevelopmentImg1.webp" alt="Website Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/WebsiteDevelopmentImg2.jpg" alt="Website Development" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/WebsiteDevelopmentImg2.webp" alt="Website Development" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/WebsiteDevelopmentImg3.jpg" alt="Website Development" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/WebsiteDevelopmentImg3.webp" alt="Website Development" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>

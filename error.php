@@ -13,8 +13,8 @@
         'breadcrumbTitle' => '404 Error',
         'schemaType' => '', // Leave empty or remove
         'serviceType' => '', // Leave empty or remove
-        'image' => '/assets/img/bg/HEADER.jpg',
-        'heroImage' => '/assets/img/bg/HEADER.jpg'
+        'image' => '/assets/img/bg/HEADER.webp',
+        'heroImage' => '/assets/img/bg/HEADER.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>
@@ -25,8 +25,12 @@
     <?php include __DIR__ . '/partials/favicon.php'; ?>
     <!-- CSS here -->
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
@@ -89,7 +93,7 @@
                             <div class="error-content">
                                 <h2 class="title">ERROR PAGE 404! <span>Sorry! This Page is Not Available!</span></h2>
                                 <div class="tg-button-wrap">
-                                    <a href="/" class="tg-btn">Go To Home Page <img src="/assets/img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                    <a href="/" class="tg-btn">Go To Home Page <img src="/assets/img/icons/right_arrow.svg" alt="" class="injectable" aria-hidden="true"></a>
                                 </div>
                             </div>
                         </div>

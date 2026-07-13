@@ -6,7 +6,7 @@
                                         <p>By integrating reliable database infrastructures, lightning-fast product filtering logic, and localized merchant features, we remove all purchasing friction. This ensures your digital storefront minimizes cart abandonment, protects sensitive customer payment data, and scales your transactional revenue securely around the clock.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/EcommerceSolutionsImg1.jpg" alt="E-Commerce Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/EcommerceSolutionsImg1.webp" alt="E-Commerce Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/EcommerceSolutionsImg2.jpg" alt="E-Commerce Solutions" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/EcommerceSolutionsImg2.webp" alt="E-Commerce Solutions" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/EcommerceSolutionsImg3.jpg" alt="E-Commerce Solutions" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/EcommerceSolutionsImg3.webp" alt="E-Commerce Solutions" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

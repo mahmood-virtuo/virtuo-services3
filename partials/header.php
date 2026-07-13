@@ -226,7 +226,7 @@ preloader disabled end -->
                             </a>
                             </li>
                             <li class="offCanvas-menu">
-                                <a href="shop.php" class="menu-tigger" role="button" aria-label="Open menu">
+                                <a href="javascript:void(0)" class="menu-tigger" role="button" aria-label="Open menu">
                                     <span></span>
                                     <span></span>
                                     <span></span>

@@ -26,8 +26,12 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
@@ -310,7 +314,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-9">
                         <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
-                            <img src="assets/img/images//about_virtuo_eye.jpg" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
+                            <img src="assets/img/images//about_virtuo_eye.webp" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
 
                             <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -55px; top: auto; bottom: -45px;">
                                 <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">

@@ -6,7 +6,7 @@
                                         <p>By combining empathetic human interaction values with data-backed sentiment monitoring and real-time response mechanics, we systematically eliminate toxic commentary threads and unanswered consumer complaints. This structured community framework secures your public profile, elevates your brand trust metrics, and naturally drives customer retention across your entire digital ecosystem.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/CommunityManagementImg1.jpg" alt="Community Management" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/CommunityManagementImg1.webp" alt="Community Management" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/CommunityManagementImg2.jpg" alt="Community Management" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/CommunityManagementImg2.webp" alt="Community Management" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/CommunityManagementImg3.jpg" alt="Community Management" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/CommunityManagementImg3.webp" alt="Community Management" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

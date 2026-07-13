@@ -24,8 +24,12 @@
     <?php include __DIR__ . '/partials/favicon.php'; ?>
     <!-- CSS here -->
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
@@ -80,7 +84,7 @@
                                     <p>At Virtuo, we eliminate the complexities of government licensing applications. Our corporate advisors manage the entire regulatory landscape on your behalf, aligning your company with the correct legal frameworks across Mainland, Free Zone, or Offshore jurisdictions so you can focus entirely on your commercial launch.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/Trade License Image 1.jpg" alt="Trade License Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/Trade License Image 1.webp" alt="Trade License Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Trade License Is Essential In The UAE</h2>
@@ -99,12 +103,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/Trade License Image 2.jpg" alt="Trade License Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/Trade License Image 2.webp" alt="Trade License Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/Trade License Image 3.jpg" alt="Trade License Services" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/Trade License Image 3.webp" alt="Trade License Services" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -195,7 +199,7 @@
                                     <p>By pairing dedicated operational liaisons with automated regulatory tracking systems, we eliminate administrative drag, unexpected processing delays, and compliance penalties. We ensure your corporate entity meets all local statutory requirements with total transparency, allowing your leadership team to focus entirely on commercial scaling.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/DocumentClearanceImg1.jpg" alt="Document Clearance Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/DocumentClearanceImg1.webp" alt="Document Clearance Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Document Clearance Matters in the UAE</h2>
@@ -216,12 +220,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/DocumentClearanceImg2.jpg" alt="Document Clearance Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/DocumentClearanceImg2.webp" alt="Document Clearance Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/DocumentClearanceImg3.jpg" alt="Document Clearance Services" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/DocumentClearanceImg3.webp" alt="Document Clearance Services" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -322,7 +326,7 @@
                                     <p>At Virtuo, we untangle the stringent legal requirements of the UAE judicial system. Our legal advisors manage the complete structural drafting, certified Arabic translation, and formal notarization of your documents, ensuring they conform perfectly to modern regulations and stand up to rigorous scrutiny by local ministries, courts, and banking institutions.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/PowerOfAttorneyImg1.jpg" alt="Power of Attorney" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/PowerOfAttorneyImg1.webp" alt="Power of Attorney" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why a Power of Attorney (POA) Is Essential in the UAE</h2>
@@ -343,12 +347,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/PowerOfAttorneyImg2.jpg" alt="Power of Attorney" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/PowerOfAttorneyImg2.webp" alt="Power of Attorney" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/PowerOfAttorneyImg3.jpg" alt="Power of Attorney" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/PowerOfAttorneyImg3.webp" alt="Power of Attorney" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -447,7 +451,7 @@
                                     <p>At Virtuo, we remove the guesswork and operational delays from local judicial channels. Our corporate consultants manage your complete verification pipeline, guiding your documents smoothly through digital court networks or physical notary desks so your corporate frameworks remain ironclad and ready for institutional use.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/NotaryPublicServicesImg1.jpg" alt="Notary Public Services Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/NotaryPublicServicesImg1.webp" alt="Notary Public Services Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Notarization Is Essential in the UAE</h2>
@@ -468,12 +472,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/NotaryPublicServicesImg2.jpg" alt="Notary Public Services Dubai" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/NotaryPublicServicesImg2.webp" alt="Notary Public Services Dubai" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/NotaryPublicServicesImg3.jpg" alt="Notary Public Services Dubai" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/NotaryPublicServicesImg3.webp" alt="Notary Public Services Dubai" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -577,7 +581,7 @@
                                     <p>At Virtuo, we eliminate the immense administrative burden and logistical delays of cross-border paperwork. Our dedicated document clearing specialists manage your entire validation pipeline globally and locally, navigating embassies, foreign ministries, and local judicial bodies so your certificates achieve flawless legal status efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/LegalAttestationImg1.jpg" alt="Legal Attestation Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/LegalAttestationImg1.webp" alt="Legal Attestation Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Complete Range of Attestation Services</h2>
@@ -597,12 +601,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/LegalAttestationImg2.jpg" alt="Legal Attestation Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/LegalAttestationImg2.webp" alt="Legal Attestation Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/LegalAttestationImg3.jpg" alt="Legal Attestation Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/LegalAttestationImg3.webp" alt="Legal Attestation Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -703,7 +707,7 @@
                                     <p>At Virtuo, we bridge the linguistic and regulatory divide. Our translations are executed by accredited professionals officially licensed by the UAE Ministry of Justice (MOJ). Every document we process bears the legally mandated translator's stamp, registration seal, and signature, ensuring it is accepted without question by local courts, immigration offices, and federal departments.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/TranslationImg1.jpg" alt="Translation Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/TranslationImg1.webp" alt="Translation Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Legal Translation Is Required in the UAE</h2>
@@ -726,12 +730,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/TranslationImg2.jpg" alt="Translation Services" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/TranslationImg2.webp" alt="Translation Services" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/TranslationImg3.jpg" alt="Translation Services" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/TranslationImg3.webp" alt="Translation Services" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -821,7 +825,7 @@
                                     <p>At Virtuo, we untangle the complexities of labor regulations. Our corporate compliance team manages your entire MOHRE database interface, running real-time tracking audits, contract reviews, and quota checks to keep your establishment card in perfect status and shield your business from sudden operational blocks.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/MOHRE_ServicesImg1.jpg" alt="MOHRE Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/MOHRE_ServicesImg1.webp" alt="MOHRE Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why MOHRE Inquiry Services Are Essential</h2>
@@ -841,12 +845,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/MOHRE_ServicesImg2.jpg" alt="MOHRE Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg2.webp" alt="MOHRE Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/MOHRE_ServicesImg3.jpg" alt="MOHRE Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg3.webp" alt="MOHRE Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -936,7 +940,7 @@
                                     <p>At Virtuo, we untangle the complexities of labor regulations. Our corporate compliance team manages your entire MOHRE database interface, running real-time tracking audits, contract reviews, and quota checks to keep your establishment card in perfect status and shield your business from sudden operational blocks.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/MOHRE_ServicesImg1.jpg" alt="MOHRE Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/MOHRE_ServicesImg1.webp" alt="MOHRE Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why MOHRE Inquiry Services Are Essential</h2>
@@ -956,12 +960,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/MOHRE_ServicesImg2.jpg" alt="MOHRE Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg2.webp" alt="MOHRE Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/MOHRE_ServicesImg3.jpg" alt="MOHRE Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/MOHRE_ServicesImg3.webp" alt="MOHRE Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>

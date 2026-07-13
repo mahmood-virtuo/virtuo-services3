@@ -6,7 +6,7 @@
                                         <p>By pairing ultra-fast loading velocities and clean structural layouts with psychologically driven information hierarchies, we build direct-response environments that lower your customer acquisition costs, elevate your quality scores on advertising networks, and systematically convert cold marketing traffic into verified corporate leads and sales.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/LandingPageDevelopmentImg1.jpg" alt="Landing Page Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/LandingPageDevelopmentImg1.webp" alt="Landing Page Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/LandingPageDevelopmentImg2.jpg" alt="Landing Page Development" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/LandingPageDevelopmentImg2.webp" alt="Landing Page Development" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/LandingPageDevelopmentImg3.jpg" alt="Landing Page Development" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/LandingPageDevelopmentImg3.webp" alt="Landing Page Development" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>

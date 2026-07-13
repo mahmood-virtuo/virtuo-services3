@@ -6,7 +6,7 @@
                                     <p>At Virtuo, we bridge the gap between corporate infrastructure and market capturing. Our specialized marketing strategists, media buyers, and demand generation experts construct robust, integrated growth systems that put your commercial offerings directly in front of targeted decision-makers, ensuring your company achieves immediate traction and sustains long-term operational scaling.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/MarketingSolutionsImg1.jpg" alt="Marketing Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/MarketingSolutionsImg1.webp" alt="Marketing Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Marketing Solutions Include</h2>
@@ -28,12 +28,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/MarketingSolutionsImg2.jpg" alt="Marketing Solutions" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/MarketingSolutionsImg2.webp" alt="Marketing Solutions" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/MarketingSolutionsImg3.jpg" alt="Marketing Solutions" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/MarketingSolutionsImg3.webp" alt="Marketing Solutions" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>

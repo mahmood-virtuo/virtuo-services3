@@ -6,7 +6,7 @@
                                     <p>At Virtuo, we develop powerful, market-ready brand frameworks that transform businesses from service providers into recognized industry authorities. Through deep market analysis, audience psychology, competitive positioning, and strategic messaging development, we create distinctive brand ecosystems that drive customer trust, strengthen market relevance, and support sustainable long-term growth. By aligning your vision, values, voice, customer experience, and market positioning into a unified strategic framework, we establish a brand identity that resonates consistently across every customer interaction. The result is a stronger market presence, increased brand recognition, and a scalable foundation capable of supporting future expansion and premium market positioning.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/BrandDevelopmentImg1.jpg" alt="Brand Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/BrandDevelopmentImg1.webp" alt="Brand Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Service Capabilities</h2>
@@ -23,12 +23,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/BrandDevelopmentImg2.jpg" alt="Brand Development" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/BrandDevelopmentImg2.webp" alt="Brand Development" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/BrandDevelopmentImg3.jpg" alt="Brand Development" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/BrandDevelopmentImg3.webp" alt="Brand Development" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>

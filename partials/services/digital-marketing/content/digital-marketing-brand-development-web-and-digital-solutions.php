@@ -6,7 +6,7 @@
                                     <p>At Virtuo, we bridge the technical gap between business formation and digital execution. Our specialized creative developers and digital technicians design bespoke corporate sites that align perfectly with the modern performance metrics demanded by search platforms, ensuring your company establishes an instant, highly credible presence from the moment you hit the market.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/Web&DigitalSolutionsImg1.jpg" alt="Web &amp; Digital Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/Web&DigitalSolutionsImg1.webp" alt="Web &amp; Digital Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Web & Digital Services Include</h2>
@@ -22,12 +22,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/Web&DigitalSolutionsImg2.jpg" alt="Web &amp; Digital Solutions" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/Web&DigitalSolutionsImg2.webp" alt="Web &amp; Digital Solutions" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/Web&DigitalSolutionsImg3.jpg" alt="Web &amp; Digital Solutions" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/Web&DigitalSolutionsImg3.webp" alt="Web &amp; Digital Solutions" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>

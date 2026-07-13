@@ -6,7 +6,7 @@
                                         <p>By matching meticulous market data extraction with advanced audience persona mapping, we build structured asset frameworks that resolve your prospects' most complex pain points. This disciplined positioning removes guesswork from your marketing channels, establishing clear operational thought leadership that drives high-intent organic traffic directly into your commercial conversion funnels.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentPlan&StrategyImg1.jpg" alt="Content Plan &amp; Stratergy" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/ContentPlan&StrategyImg1.webp" alt="Content Plan &amp; Stratergy" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/ContentPlan&StrategyImg2.jpg" alt="Content Plan &amp; Stratergy" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/ContentPlan&StrategyImg2.webp" alt="Content Plan &amp; Stratergy" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/ContentPlan&StrategyImg3.jpg" alt="Content Plan &amp; Stratergy" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/ContentPlan&StrategyImg3.webp" alt="Content Plan &amp; Stratergy" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

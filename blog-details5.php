@@ -11,8 +11,8 @@
         'type' => 'article',
         'breadcrumbTitle' => 'UAE Freelance Visa Guide',
         'schemaType' => 'Article',
-        'heroImage' => '/assets/img/slider/5th_blog.jpg',
-        'heroImageMobile' => '/assets/img/services/FreeLanceVisaImg1.jpg'
+        'heroImage' => '/assets/img/slider/5th_blog.webp',
+        'heroImageMobile' => '/assets/img/services/FreeLanceVisaImg1.webp'
     );
     require_once __DIR__ . '/partials/blog-posts.php';
     $currentBlogPost = virtuo_get_blog_post_by_file(basename(__FILE__));
@@ -26,12 +26,14 @@
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include __DIR__ . '/partials/favicon.php'; ?>
-    <?php $loadSwiperAssets = true; ?>
-
     <!-- CSS here -->
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
@@ -50,10 +52,8 @@
     <!-- header-area-end -->
 
     <main class="main-area fix">
-        <section class="slider__area">
-            <div class="swiper-container slider-active">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="/assets/img/slider/5th_blog.jpg" data-background-mobile="/assets/img/services/FreeLanceVisaImg1.jpg">
+        <section class="slider__area blog-static-hero">
+                    <div class="slider__bg hero-image-styles" data-background="/assets/img/slider/5th_blog.webp" data-background-mobile="/assets/img/services/FreeLanceVisaImg1.webp">
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -66,9 +66,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="slider__nav slider__bar-pagination"></div>
             <?php
             $scrollTarget = '#blog-detail-content';
             $scrollLabel = 'Scroll to article content';
@@ -257,7 +254,7 @@
                                 <div class="blog__avatar-wrap mb-60">
                   <div class="blog__avatar-img">
                     <a href="#"
-                      ><img src="/assets/img/blog/blog_avatar01.png" alt="Jonaid Ali Mohammad" loading="lazy" decoding="async" width="300" height="329"
+                      ><img src="/assets/img/blog/blog_avatar01.webp" alt="Jonaid Ali Mohammad" loading="lazy" decoding="async" width="300" height="329"
                     /></a>
                   </div>
                   <div class="blog__avatar-info">

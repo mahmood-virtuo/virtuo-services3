@@ -25,8 +25,12 @@
     <?php include __DIR__ . '/partials/favicon.php'; ?>
 
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
@@ -88,7 +92,7 @@
                     <div class="col-lg-6 col-md-9">
                         <div class="about__img-wrap">
                             <div>
-                                <img src="assets/img/images/about_img01.jpg" alt="About Img01" loading="lazy" decoding="async">
+                                <img src="assets/img/images/about_img01.webp" alt="About Img01" loading="eager" fetchpriority="high" decoding="async" width="713" height="755">
                             </div>
                         </div>
                     </div>
@@ -118,7 +122,7 @@
             <div class="container site-content-gutter custom-container about-page-container">
                 <div class="about-mv-grid">
 
-                    <article class="about-mv-card about-mv-card--vision" data-background="assets/img/images/our_mission.jpg">
+                    <article class="about-mv-card about-mv-card--vision" data-background="assets/img/images/our_mission.webp">
                         <div class="about-mv-card__content">
                             <h2 class="about-mv-card__title">Our Vision</h2>
                             <div class="about-mv-card__text">
@@ -127,7 +131,7 @@
                             </div>
                         </div>
                     </article>
-                    <article class="about-mv-card about-mv-card--mission" data-background="assets/img/images/our_mission.jpg">
+                    <article class="about-mv-card about-mv-card--mission" data-background="assets/img/images/our_mission.webp">
                         <div class="about-mv-card__content">
                             <h2 class="about-mv-card__title">Our Mission</h2>
                             <div class="about-mv-card__text">
@@ -153,7 +157,7 @@
                     </div>
                     <!-- <div class="about-story-image-wrap"> -->
                     <div>
-                        <img src="/assets/img/about/about-story-dubai-office.png" alt="Dubai business setup desk with Virtuo branding and skyline view" loading="lazy" decoding="async">
+                        <img src="/assets/img/about/about-story-dubai-office.webp" alt="Dubai business setup desk with Virtuo branding and skyline view" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -173,7 +177,7 @@
                         <div class="about__img-four">
                             <div >
                                 <div>
-                                <img src="assets/img/images/virtuo_icon_about.jpg" alt="About Img01" loading="lazy" decoding="async">
+                                <img src="assets/img/images/virtuo_icon_about.webp" alt="About Img01" loading="lazy" decoding="async">
                                 
                             </div>
                             </div>
@@ -257,7 +261,7 @@
 <div class="col-lg-5 col-md-9">
     <div class="choose__img-wrap-four about-eye-visual">
         <img
-            src="assets/img/images/about_virtuo_eye.jpg"
+            src="assets/img/images/about_virtuo_eye.webp"
             alt="Client trust and business relationship visual"
             class="about-eye-img"
             data-aos="fade-left"
@@ -305,7 +309,7 @@
                     </div>
                     <div class="virtuo-team__grid">
                         <figure class="virtuo-team__member">
-                            <img src="assets/img/team/jonaid.png" alt="Jonaid" loading="lazy" decoding="async" width="300" height="329">
+                            <img src="assets/img/team/jonaid.webp" alt="Jonaid" loading="lazy" decoding="async" width="300" height="329">
                             <figcaption>
                                 <h3>Jonaid Ali Mohammad</h3>
                                 <span>Business Consultant</span>
@@ -322,7 +326,7 @@
                             </figcaption>
                         </figure>
                         <figure class="virtuo-team__member">
-                            <img src="assets/img/team/hasan.png" alt="Hasan" loading="lazy" decoding="async" width="300" height="329">
+                            <img src="assets/img/team/hasan.webp" alt="Hasan" loading="lazy" decoding="async" width="300" height="329">
                             <figcaption>
                                 <h3>Hasan Rauf</h3>
                                 <span>Technology Advisor</span>
@@ -339,7 +343,7 @@
                             </figcaption>
                         </figure>
                         <figure class="virtuo-team__member">
-                            <img src="assets/img/team/affan.png" alt="Affan" loading="lazy" decoding="async" width="300" height="338">
+                            <img src="assets/img/team/affan.webp" alt="Affan" loading="lazy" decoding="async" width="300" height="338">
                             <figcaption>
                                 <h3>Mohammad Affan</h3>
                                 <span>Public Relations Manager</span>
@@ -356,7 +360,7 @@
                             </figcaption>
                         </figure>
                         <figure class="virtuo-team__member">
-                            <img src="assets/img/team/junaid.png" alt="Junaid" loading="lazy" decoding="async" width="300" height="338">
+                            <img src="assets/img/team/junaid.webp" alt="Junaid" loading="lazy" decoding="async" width="300" height="338">
                             <figcaption>
                                 <h3>Junaid Mahmood</h3>
                                 <span>Sr. IT Developer</span>
@@ -373,7 +377,7 @@
                             </figcaption>
                         </figure>
                         <figure class="virtuo-team__member">
-                            <img src="assets/img/team/zayn.png" alt="Zayn" loading="lazy" decoding="async" width="300" height="338">
+                            <img src="assets/img/team/zayn.webp" alt="Zayn" loading="lazy" decoding="async" width="300" height="338">
                             <figcaption>
                                 <h3>Zayn Ali</h3>
                                 <span>Sr. Product Designer</span>

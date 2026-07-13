@@ -6,7 +6,7 @@
                                         <p>By managing the behind-the-scenes complexities of server infrastructure, code patch deployments, and real-time database tracking, we protect your company's digital investment. This ensures your global clients experience flawless application performance every day, keeping your communication pipelines clear and your transactions processing without structural friction.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg1.jpg" alt="Website Maintenance &amp; Support" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg1.webp" alt="Website Maintenance &amp; Support" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg2.jpg" alt="Website Maintenance &amp; Support" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg2.webp" alt="Website Maintenance &amp; Support" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg3.jpg" alt="Website Maintenance &amp; Support" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg3.webp" alt="Website Maintenance &amp; Support" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

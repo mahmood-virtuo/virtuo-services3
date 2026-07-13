@@ -981,22 +981,38 @@ Intersection Observer
   /*===========================================
 	=        Magnific Popup    =
 =============================================*/
-  $(".popup-image").magnificPopup({
-    type: "image",
-    gallery: {
-      enabled: true,
-    },
-  });
+  if (
+    typeof jQuery !== "undefined" &&
+    typeof jQuery.fn.magnificPopup === "function" &&
+    $(".popup-image").length
+  ) {
+    $(".popup-image").magnificPopup({
+      type: "image",
+      gallery: {
+        enabled: true,
+      },
+    });
+  }
 
   /* magnificPopup video view */
-  $(".popup-video").magnificPopup({
-    type: "iframe",
-  });
+  if (
+    typeof jQuery !== "undefined" &&
+    typeof jQuery.fn.magnificPopup === "function" &&
+    $(".popup-video").length
+  ) {
+    $(".popup-video").magnificPopup({
+      type: "iframe",
+    });
+  }
 
   /*===========================================
 	=        Wow Active      =
-=============================================*/
+  =============================================*/
   function wowAnimation() {
+    if (typeof WOW !== "function" || !document.querySelector(".wow")) {
+      return;
+    }
+
     var wow = new WOW({
       boxClass: "wow",
       animateClass: "animated",

@@ -24,8 +24,12 @@
     <?php include __DIR__ . '/partials/favicon.php'; ?>
     <!-- CSS here -->
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
@@ -82,7 +86,7 @@
                                     <p>At Virtuo, We Untangle The Complexities Of The Immigration Network. Our Corporate Immigration Experts Handle Your Entire Visa Issuance Pipeline Directly With The General Directorate Of Residency And Foreigners Affairs (GDRFA) And The Federal Authority For Identity, Citizenship, Customs And Port Security (ICP), Managing Everything From Initial Entry Permits To Final Biometric Cards Efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/ImmigrationServicesImg1.jpg" alt="Immigration Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/ImmigrationServicesImg1.webp" alt="Immigration Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Immigration Services Include</h2>
@@ -105,12 +109,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/ImmigrationServicesImg2.jpg" alt="Immigration Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/ImmigrationServicesImg2.webp" alt="Immigration Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/ImmigrationServicesImg3.jpg" alt="Immigration Services" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/ImmigrationServicesImg3.webp" alt="Immigration Services" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -200,7 +204,7 @@
                                     <p>At Virtuo, we treat your family's relocation with maximum care and efficiency. Our dedicated public relations officers manage your entire dependency pipeline directly with immigration authorities and medical boards, handling everything from initial entry permits to final identity cards so your loved ones transition into their new life with complete peace of mind.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/DependentVisaImg1.jpg" alt="Dependent Visa" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/DependentVisaImg1.webp" alt="Dependent Visa" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Who Can Sponsor Dependents in the UAE?</h2>
@@ -223,12 +227,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/DependentVisaImg2.jpg" alt="Dependent Visa" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/DependentVisaImg2.webp" alt="Dependent Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/DependentVisaImg3.jpg" alt="Dependent Visa" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/DependentVisaImg3.webp" alt="Dependent Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -318,7 +322,7 @@
                                     <p>At Virtuo, we navigate the specialized regulatory pathways of high-value investment immigration. Our corporate advisors manage your entire application lifecycle, coordinating files across federal immigration frameworks, economic zones, and land registries to secure your residency credentials cleanly and efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/InvestorVisaImg1.jpg" alt="Investor Visa Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/InvestorVisaImg1.webp" alt="Investor Visa Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Choose an Investor Visa in the UAE?</h2>
@@ -341,12 +345,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/InvestorVisaImg2.jpg" alt="Investor Visa Dubai" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/InvestorVisaImg2.webp" alt="Investor Visa Dubai" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/InvestorVisaImg3.jpg" alt="Investor Visa Dubai" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/InvestorVisaImg3.webp" alt="Investor Visa Dubai" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -436,7 +440,7 @@
                                     <p>At Virtuo, we operate as your trusted direct link to Dubai's entry and residency administration. Our public relations specialists manage your entire immigration pipeline across digital smart channels and dedicated center networks, ensuring your corporate and personal files clear security gates with absolute structural accuracy.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/GDRFA_ServicesImg1.jpg" alt="GDRFA Services Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/GDRFA_ServicesImg1.webp" alt="GDRFA Services Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why GDRFA Services Are Essential in Dubai</h2>
@@ -459,12 +463,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/GDRFA_ServicesImg2.jpg" alt="GDRFA Services Dubai" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/GDRFA_ServicesImg2.webp" alt="GDRFA Services Dubai" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/GDRFA_ServicesImg3.jpg" alt="GDRFA Services Dubai" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/GDRFA_ServicesImg3.webp" alt="GDRFA Services Dubai" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -554,7 +558,7 @@
                                     <p>At Virtuo, we serve as your direct professional interface with the diplomatic community. Our specialized public relations officers manage your entire cross-border documentation lifecycle, coordinating applications directly across local foreign missions and federal departments so your international papers secure absolute domestic validity efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/ConsulateServicesImg1.jpg" alt="Consulate Services Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/ConsulateServicesImg1.webp" alt="Consulate Services Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Consulate Services Include</h2>
@@ -577,12 +581,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/ConsulateServicesImg2.jpg" alt="Consulate Services Dubai" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/ConsulateServicesImg2.webp" alt="Consulate Services Dubai" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/ConsulateServicesImg3.jpg" alt="Consulate Services Dubai" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/ConsulateServicesImg3.webp" alt="Consulate Services Dubai" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>
@@ -672,7 +676,7 @@
                                     <p>At Virtuo, we untangle the modern regulatory frameworks of independent residency. Our corporate registration team manages your entire onboarding pipeline, guiding your applications through human resources ministries and specialized economic zone registries to secure your independent working credentials cleanly and efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/FreeLanceVisaImg1.jpg" alt="Freelance Visa" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/FreeLanceVisaImg1.webp" alt="Freelance Visa" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Freelance Visa Services Include</h2>
@@ -695,12 +699,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/FreeLanceVisaImg2.jpg" alt="Freelance Visa" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/FreeLanceVisaImg2.webp" alt="Freelance Visa" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/FreeLanceVisaImg3.jpg" alt="Freelance Visa" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/FreeLanceVisaImg3.webp" alt="Freelance Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -790,7 +794,7 @@
                                     <p>At Virtuo, we unlock the elite pathways of long-term self-sponsorship. Our corporate immigration strategists seamlessly manage your entire submission pipeline across federal databases, ensuring your professional credentials, business revenues, or real estate assets align perfectly with strict ministerial clearance codes.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/GoldenVisaImg1.jpg" alt="Golden Visa UAE" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/GoldenVisaImg1.webp" alt="Golden Visa UAE" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why the UAE Golden Visa Is the Ultimate Residency Program</h2>
@@ -813,12 +817,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/GoldenVisaImg2.jpg" alt="Golden Visa UAE" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/GoldenVisaImg2.webp" alt="Golden Visa UAE" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/GoldenVisaImg3.jpg" alt="Golden Visa UAE" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/GoldenVisaImg3.webp" alt="Golden Visa UAE" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -908,7 +912,7 @@
                                     <p>At Virtuo, we eliminate the operational stress and administrative delays out of the immigration lifecycle. Our dedicated public relations officers coordinate your entire onboarding pipeline directly with immigration authorities and medical testing hubs, executing your file setups smoothly so your family transitions into the UAE market with absolute peace of mind.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/ResidenceVisaImg1.jpg" alt="Residence Visa" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/ResidenceVisaImg1.webp" alt="Residence Visa" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Unlock the Full Benefits of a Valid UAE Residence Visa</h2>
@@ -931,12 +935,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/ResidenceVisaImg2.jpg" alt="Residence Visa" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/ResidenceVisaImg2.webp" alt="Residence Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/ResidenceVisaImg3.jpg" alt="Residence Visa" loading="lazy" decoding="async">
+                                                    <img src="assets/img/services/ResidenceVisaImg3.webp" alt="Residence Visa" loading="lazy" decoding="async">
                                                 </div>
                                             </div>
                                         </div>
@@ -1026,7 +1030,7 @@
                                     <p>At Virtuo, we untangle the stringent administrative steps required to sponsor talent. Our labor relations specialists manage your entire personnel pipeline, driving submissions across federal ministries and unified digital immigration dashboards to keep your hiring workflows fast, fully compliant, and completely free from unexpected processing blocks.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/EmploymentVisaImg1.jpg" alt="Employment Visa" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/EmploymentVisaImg1.webp" alt="Employment Visa" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Employment Visa Services Include</h2>
@@ -1049,12 +1053,12 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
-                                                    <img src="assets/img/services/EmploymentVisaImg2.jpg" alt="Employment Visa" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/EmploymentVisaImg2.webp" alt="Employment Visa" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-two">
-                                                    <img src="assets/img/services/EmploymentVisaImg3.jpg" alt="Employment Visa" loading="lazy" decoding="async" >
+                                                    <img src="assets/img/services/EmploymentVisaImg3.webp" alt="Employment Visa" loading="lazy" decoding="async" >
                                                 </div>
                                             </div>
                                         </div>

@@ -6,7 +6,7 @@
                                         <p>By combining disciplined grid layouts, strategic focal points, and strict color-reproduction standards, we eliminate low-quality, unvetted creative output. This ensures all your marketing materials—from corporate digital presentations to high-end print collateral—function as professional, high-performance touchpoints that drive customer engagement and solidify your industry authority.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/GraphicDesignImg1.jpg" alt="Graphic Design" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/GraphicDesignImg1.webp" alt="Graphic Design" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/GraphicDesignImg2.jpg" alt="Graphic Design" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/GraphicDesignImg2.webp" alt="Graphic Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/GraphicDesignImg3.jpg" alt="Graphic Design" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/GraphicDesignImg3.webp" alt="Graphic Design" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

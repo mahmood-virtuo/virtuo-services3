@@ -47,8 +47,12 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
@@ -293,7 +297,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-9">
                         <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
-                            <img src="assets/img/images//about_virtuo_eye.jpg" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
+                            <img src="assets/img/images//about_virtuo_eye.webp" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
                             
                             <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -80px; top:-63px;">
                                 <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
@@ -337,8 +341,8 @@
         </section>
             <section
   class="section-py-130 home-services-section"
-  style="background-repeat: no-repeat; background-size: cover; background-image: url('assets/img/images/virtuo-footer-gradient.jpg');"
-  data-background="assets/img/images/virtuo-footer-gradient.jpg"
+  style="background-repeat: no-repeat; background-size: cover; background-image: url('assets/img/images/virtuo-footer-gradient-1920x908.webp');"
+  data-background="assets/img/images/virtuo-footer-gradient-1920x908.webp"
 >
             <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row justify-content-center">
@@ -406,7 +410,7 @@
                         <div class="tab-pane fade show active" id="itemOne-tab-pane" role="tabpanel" aria-labelledby="itemOne-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="/uae-business-formation-structuring-and-compliance"><img src="assets/img/services/h8_services_img011.jpg" alt="UAE business formation consultants" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="/uae-business-formation-structuring-and-compliance"><img src="assets/img/services/h8_services_img011.webp" alt="UAE business formation consultants" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="/uae-business-formation-structuring-and-compliance">UAE Business Formation, Structuring & Compliance</a></h2>
@@ -418,7 +422,7 @@
                         <div class="tab-pane fade" id="itemTwo-tab-pane" role="tabpanel" aria-labelledby="itemTwo-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="/government-relations-and-pro-services"><img src="assets/img/services/h8_services_img022.jpg" alt="Government relations and PRO services support" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="/government-relations-and-pro-services"><img src="assets/img/services/h8_services_img022.webp" alt="Government relations and PRO services support" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="/government-relations-and-pro-services">Government Relations & PRO Services</a></h2>
@@ -430,7 +434,7 @@
                         <div class="tab-pane fade" id="itemThree-tab-pane" role="tabpanel" aria-labelledby="itemThree-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="/immigration-and-residency-solutions"><img src="assets/img/services/h8_services_img03.jpg" alt="UAE immigration and residency services" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="/immigration-and-residency-solutions"><img src="assets/img/services/h8_services_img03.webp" alt="UAE immigration and residency services" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="/immigration-and-residency-solutions">Immigration & Residency Solutions</a></h2>
@@ -442,7 +446,7 @@
                         <div class="tab-pane fade" id="itemFour-tab-pane" role="tabpanel" aria-labelledby="itemFour-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="/digital-marketing-and-brand-development"><img src="assets/img/services/h8_services_img01.jpg" alt="Digital marketing and brand development team" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="/digital-marketing-and-brand-development"><img src="assets/img/services/h8_services_img01.webp" alt="Digital marketing and brand development team" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="/digital-marketing-and-brand-development">Digital Marketing & Brand Development</a></h2>
@@ -454,7 +458,7 @@
                         <div class="tab-pane fade" id="itemFive-tab-pane" role="tabpanel" aria-labelledby="itemFive-tab" tabindex="0">
                             <div class="services__item-nine shine__animate-item">
                                 <div class="services__thumb-seven shine__animate-link">
-                                    <a href="/ai-automation-and-technology-solutions"><img src="assets/img/services/h8_services_img02.jpg" alt="AI automation and technology solutions" loading="lazy" decoding="async" width="726" height="400"></a>
+                                    <a href="/ai-automation-and-technology-solutions"><img src="assets/img/services/h8_services_img02.webp" alt="AI automation and technology solutions" loading="lazy" decoding="async" width="726" height="400"></a>
                                 </div>
                                 <div class="services__content-nine">
                                     <h2 class="title"><a href="/ai-automation-and-technology-solutions">AI Automation & Technology Solutions</a></h2>

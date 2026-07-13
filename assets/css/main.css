@@ -23905,7 +23905,7 @@ blockquote cite {
   overflow: hidden;
   min-height: 710px;
   padding: 70px 0 22px;
-  background-image: url("../img/images/virtuo-footer-gradient.png");
+  background-image: url("../img/images/virtuo-footer-gradient.webp");
   background-size: cover;
   background-position: center;
   color: rgba(255, 255, 255, 0.76);
@@ -27175,7 +27175,7 @@ select {
 .contact-box {
   flex: 1;
   border-radius: 22px;
-  background-image: url("../img/images/contact-card-bg.jpg");
+  background-image: url("../img/images/contact-card-bg.webp");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -27276,7 +27276,7 @@ select {
 .contact-box {
   flex: 1;
   border-radius: 18px;
-  /* background-image: url("../img/images/contact-card-bg.jpg"); */
+  /* background-image: url("../img/images/contact-card-bg.webp"); */
   background: linear-gradient(360deg, #09194e 0%, #175ab1 100%);
   background-size: cover;
   background-position: center;
@@ -30043,6 +30043,56 @@ body.blog-details-page .blog-toc .blog-toc__text {
   }
 
   body.blog-details-page .slider__area .swiper-slide.slider__bg {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+  }
+}
+
+body.blog-details-page .blog-static-hero .slider__bg .slider__content .title {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp2;
+  animation-name: fadeInUp2;
+}
+
+body.blog-details-page .blog-static-hero .slider__bg .slider__content p {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp2;
+  animation-name: fadeInUp2;
+}
+
+body.blog-details-page .blog-static-hero .slider__bg .slider__content .tg-btn {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp2;
+  animation-name: fadeInUp2;
+}
+
+@media (min-width: 992px) {
+  body.blog-details-page .slider__area.blog-static-hero,
+  body.blog-details-page .slider__area.blog-static-hero .slider__bg {
+    height: 78vh !important;
+    min-height: 78vh !important;
+  }
+
+  body.blog-details-page .slider__area.blog-static-hero .slider__bg {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     background-size: cover !important;

@@ -6,7 +6,7 @@
                                         <p>By cross-referencing competitive blind spots with deep customer behavioral psychology and product differentiation models, we develop a bulletproof corporate identity blueprint. This structural engineering clarifies your overarching marketplace value, streamlines your company's core messaging, and provides a clear operational manual that unifies all downstream marketing, sales, and product initiatives.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/BrandStrategy&PositioningImg1.jpg" alt="Brand Strategy &amp; Positioning" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/BrandStrategy&PositioningImg1.webp" alt="Brand Strategy &amp; Positioning" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -19,12 +19,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/BrandStrategy&PositioningImg2.jpg" alt="Brand Strategy &amp; Positioning" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/BrandStrategy&PositioningImg2.webp" alt="Brand Strategy &amp; Positioning" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/BrandStrategy&PositioningImg3.jpg" alt="Brand Strategy &amp; Positioning" loading="lazy" decoding="async" >
+                                                        <img src="assets/img/services/BrandStrategy&PositioningImg3.webp" alt="Brand Strategy &amp; Positioning" loading="lazy" decoding="async" >
                                                     </div>
                                                 </div>
                                             </div>

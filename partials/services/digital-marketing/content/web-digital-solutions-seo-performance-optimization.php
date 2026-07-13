@@ -6,7 +6,7 @@
                                         <p>By restructuring unoptimized source code frameworks, resolving database request blocks, and aligning your content architecture with changing crawl engine parameters, we maximize your organic platform indexing. This ensures your enterprise builds compound domain authority, drives high-intent professional traffic straight to your core assets, and maintains a distinct competitive edge online.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg1.jpg" alt="SEO &amp; Performance Optimization" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg1.webp" alt="SEO &amp; Performance Optimization" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -20,12 +20,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
-                                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg2.jpg" alt="SEO &amp; Performance Optimization" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg2.webp" alt="SEO &amp; Performance Optimization" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="img-two">
-                                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg3.jpg" alt="SEO &amp; Performance Optimization" loading="lazy" decoding="async">
+                                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg3.webp" alt="SEO &amp; Performance Optimization" loading="lazy" decoding="async">
                                                     </div>
                                                 </div>
                                             </div>

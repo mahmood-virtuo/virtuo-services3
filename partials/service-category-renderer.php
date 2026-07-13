@@ -228,7 +228,7 @@ if (!function_exists('virtuo_render_service_panels')) {
                         </p>
                     </div>
                     <div class="services__details-thumb">
-                        <img src="assets/img/services/services_details_img01.jpg" alt="<?php echo htmlspecialchars($tab); ?>">
+                        <img src="assets/img/services/services_details_img01.webp" alt="<?php echo htmlspecialchars($tab); ?>">
                     </div>
                     <div class="services__details-content">
                         <h2 class="title-two">
@@ -286,12 +286,12 @@ if (!function_exists('virtuo_render_service_panels')) {
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="img-one">
-                                        <img src="assets/img/services/services_img01.jpg" alt="<?php echo htmlspecialchars($tab); ?>">
+                                        <img src="assets/img/services/services_img01.webp" alt="<?php echo htmlspecialchars($tab); ?>">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="img-two">
-                                        <img src="assets/img/services/services_img02.jpg" alt="<?php echo htmlspecialchars($tab); ?>">
+                                        <img src="assets/img/services/services_img02.webp" alt="<?php echo htmlspecialchars($tab); ?>">
                                         <a href="https://www.youtube.com/watch?v=6mkoGSqTqFI" class="play__btn-two popup-video">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="28" viewBox="0 0 22 28" fill="none">
                                                 <path d="M0 2.66333C0 1.081 1.75049 0.125316 3.08152 0.980974L20.7163 12.3176C21.941 13.1049 21.941 14.8951 20.7163 15.6824L3.08152 27.019C1.7505 27.8747 0 26.919 0 25.3367V2.66333Z" fill="currentColor" />

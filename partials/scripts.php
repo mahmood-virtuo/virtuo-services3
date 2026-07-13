@@ -2,7 +2,9 @@
 <!-- JS here -->
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/vendor/jquery-3.6.0.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/bootstrap.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php if (!empty($loadMagnificPopupAssets)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.magnific-popup.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php endif; ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.odometer.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.appear.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php if (!empty($loadSwiperAssets)) : ?>
@@ -12,7 +14,9 @@
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/tg-cursor.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/ajax-form.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/svg-inject.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <?php if (!empty($loadWowAssets)) : ?>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/wow.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <?php endif; ?>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/aos.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/main.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-performance.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>

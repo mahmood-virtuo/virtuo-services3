@@ -22,7 +22,7 @@
                 </div>
             </div>
         </section>
- <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage.jpg);">
+ <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage-1920x1105.webp);">
      <div class="container site-content-gutter custom-container footer-reference-container">
          <div class="footer__top-two">
              <div class="row">
