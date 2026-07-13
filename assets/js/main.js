@@ -970,13 +970,15 @@ Intersection Observer
   /*===========================================
       =       Odometer Active    =
 =============================================*/
-  $(".odometer").appear(function (e) {
-    var odo = $(".odometer");
-    odo.each(function () {
-      var countNumber = $(this).attr("data-count");
-      $(this).html(countNumber);
+  if ($(".odometer").length && typeof $.fn.appear === "function") {
+    $(".odometer").appear(function (e) {
+      var odo = $(".odometer");
+      odo.each(function () {
+        var countNumber = $(this).attr("data-count");
+        $(this).html(countNumber);
+      });
     });
-  });
+  }
 
   /*===========================================
 	=        Magnific Popup    =

@@ -5,8 +5,6 @@
 <?php if (!empty($loadMagnificPopupAssets)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.magnific-popup.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
-<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.odometer.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.appear.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php if (!empty($loadSwiperAssets)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/swiper-bundle.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
