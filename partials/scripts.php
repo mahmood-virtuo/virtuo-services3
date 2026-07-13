@@ -9,7 +9,20 @@
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/swiper-bundle.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.marquee.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-    <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/tg-cursor.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+    <?php $tgCursorScriptUrl = virtuo_asset_url('/assets/js/tg-cursor.min.js'); ?>
+    <script>
+        (function () {
+            if (
+                !window.matchMedia ||
+                !window.matchMedia("(hover: hover) and (pointer: fine)").matches ||
+                window.matchMedia("(prefers-reduced-motion: reduce)").matches
+            ) {
+                return;
+            }
+
+            document.write('<script src="' + <?php echo json_encode($tgCursorScriptUrl, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?> + '"><\/script>');
+        })();
+    </script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/ajax-form.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/svg-inject.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <?php if (!empty($loadWowAssets)) : ?>
