@@ -163,7 +163,15 @@
   /*=============================================
 	=        Slider Active		      =
 =============================================*/
-  var sliderSwiper = new Swiper(".slider-active", {
+  function virtuoInitSwiper(selector, options) {
+    if (typeof Swiper === "undefined" || !document.querySelector(selector)) {
+      return null;
+    }
+
+    return new Swiper(selector, options);
+  }
+
+  var sliderSwiper = virtuoInitSwiper(".slider-active", {
     spaceBetween: 0,
     effect: "fade",
     loop: true,
@@ -183,7 +191,7 @@
   /*=============================================
 	=        Slider Active		      =
 =============================================*/
-  var sliderTwoSwiper = new Swiper(".slider-active-two", {
+  var sliderTwoSwiper = virtuoInitSwiper(".slider-active-two", {
     spaceBetween: 0,
     effect: "fade",
     loop: true,
@@ -199,7 +207,7 @@
   /*=============================================
 	=        Slider Active		      =
 =============================================*/
-  var sliderTwoSwiper = new Swiper(".slider-active-three", {
+  var sliderTwoSwiper = virtuoInitSwiper(".slider-active-three", {
     spaceBetween: 0,
     effect: "fade",
     loop: true,
@@ -211,7 +219,7 @@
   /*=============================================
 	=        Slider Active		      =
 =============================================*/
-  var sliderSwiper = new Swiper(".slider-active-four", {
+  var sliderSwiper = virtuoInitSwiper(".slider-active-four", {
     spaceBetween: 0,
     effect: "fade",
     loop: true,
@@ -227,7 +235,7 @@
   /*=============================================
 	=        Slider Active		      =
 =============================================*/
-  var sliderSwiper = new Swiper(".slider-active-five", {
+  var sliderSwiper = virtuoInitSwiper(".slider-active-five", {
     spaceBetween: 0,
     effect: "fade",
     loop: true,
@@ -243,7 +251,7 @@
   /*=============================================
 	=        Brand Active		      =
 =============================================*/
-  var brandSwiper = new Swiper(".brand-active", {
+  var brandSwiper = virtuoInitSwiper(".brand-active", {
     // Optional parameters
     slidesPerView: 5,
     spaceBetween: 24,
@@ -273,7 +281,7 @@
   /*=============================================
 	=        Brand Active Two	      =
 =============================================*/
-  var brandSwiper = new Swiper(".brand-active-two", {
+  var brandSwiper = virtuoInitSwiper(".brand-active-two", {
     // Optional parameters
     slidesPerView: 4,
     spaceBetween: 24,
@@ -303,7 +311,7 @@
   /*=============================================
 	=        Services Active		      =
 =============================================*/
-  var servicesSwiper = new Swiper(".services-active", {
+  var servicesSwiper = virtuoInitSwiper(".services-active", {
     // Optional parameters
     slidesPerView: 4,
     spaceBetween: 24,
@@ -336,7 +344,7 @@
   /*=============================================
 	=        Services Active		      =
 =============================================*/
-  var servicesSwiper = new Swiper(".services-active-two", {
+  var servicesSwiper = virtuoInitSwiper(".services-active-two", {
     // Optional parameters
     slidesPerView: 4,
     spaceBetween: 24,
@@ -373,7 +381,7 @@
   /*=============================================
 	=        Services Active		      =
 =============================================*/
-  var servicesSwiper = new Swiper(".services-active-three", {
+  var servicesSwiper = virtuoInitSwiper(".services-active-three", {
     // Optional parameters
     slidesPerView: 4,
     spaceBetween: 24,
@@ -406,7 +414,7 @@
   /*=============================================
 	=        Project Active		      =
 =============================================*/
-  var projectSwiper = new Swiper(".project-active", {
+  var projectSwiper = virtuoInitSwiper(".project-active", {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 24,
@@ -441,7 +449,7 @@
   /*=============================================
 	=        Project Active		      =
 =============================================*/
-  var projectTwoSwiper = new Swiper(".project-active-two", {
+  var projectTwoSwiper = virtuoInitSwiper(".project-active-two", {
     // Optional parameters
     slidesPerView: 4,
     spaceBetween: 24,
@@ -475,7 +483,7 @@
   /*=============================================
 	=        Project Active		      =
 =============================================*/
-  var projectTwoSwiper = new Swiper(".project-active-three", {
+  var projectTwoSwiper = virtuoInitSwiper(".project-active-three", {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 24,
@@ -510,7 +518,7 @@
   /*=============================================
 	=        Project Active		      =
 =============================================*/
-  var projectTwoSwiper = new Swiper(".project-active-four", {
+  var projectTwoSwiper = virtuoInitSwiper(".project-active-four", {
     // Optional parameters
     slidesPerView: 4,
     spaceBetween: 24,
@@ -543,7 +551,7 @@
   /*=============================================
 	=        Project Active		      =
 =============================================*/
-  var projectSwiper = new Swiper(".project-active-five", {
+  var projectSwiper = virtuoInitSwiper(".project-active-five", {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 24,
@@ -578,7 +586,7 @@
   /*=============================================
 	=        Project Active		      =
 =============================================*/
-  var projectSwiper = new Swiper(".project-active-six", {
+  var projectSwiper = virtuoInitSwiper(".project-active-six", {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 24,
@@ -608,7 +616,7 @@
   /*=============================================
 	=        Project Active		      =
 =============================================*/
-  var projectSwiper = new Swiper(".project-active-seven", {
+  var projectSwiper = virtuoInitSwiper(".project-active-seven", {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 24,
@@ -642,11 +650,11 @@
   /*=============================================
 	=          testimonial active              =
 =============================================*/
-  var swiper = new Swiper(".testimonial__nav", {
+  var swiper = virtuoInitSwiper(".testimonial__nav", {
     spaceBetween: 0,
     slidesPerView: 4,
   });
-  var swiper2 = new Swiper(".testimonial-active", {
+  var swiper2 = virtuoInitSwiper(".testimonial-active", {
     spaceBetween: 0,
     loop: true,
     autoplay: {
@@ -665,7 +673,7 @@
   /*=============================================
 	=        testimonial Active		      =
 =============================================*/
-  var testimonialSwiper = new Swiper(".testimonial-active-two", {
+  var testimonialSwiper = virtuoInitSwiper(".testimonial-active-two", {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 24,
@@ -702,7 +710,7 @@
   /*=============================================
 	=        testimonial Active		      =
 =============================================*/
-  var testimonialSwiper = new Swiper(".testimonial-active-three", {
+  var testimonialSwiper = virtuoInitSwiper(".testimonial-active-three", {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 24,
@@ -736,7 +744,7 @@
   /*=============================================
 	=        testimonial Active		      =
 =============================================*/
-  var testimonialSwiper = new Swiper(".testimonial-active-four", {
+  var testimonialSwiper = virtuoInitSwiper(".testimonial-active-four", {
     // Optional parameters
     slidesPerView: 2,
     spaceBetween: 24,
@@ -770,7 +778,7 @@
   /*=============================================
 	=        testimonial Active		      =
 =============================================*/
-  var testimonialSwiper = new Swiper(".testimonial-active-five", {
+  var testimonialSwiper = virtuoInitSwiper(".testimonial-active-five", {
     // Optional parameters
     direction: "vertical",
     slidesPerView: 2,
@@ -824,7 +832,7 @@
   /*=============================================
 	=        Shop Active		      =
 =============================================*/
-  var shopSwiper = new Swiper(".shop-active", {
+  var shopSwiper = virtuoInitSwiper(".shop-active", {
     // Optional parameters
     slidesPerView: 4,
     spaceBetween: 24,
