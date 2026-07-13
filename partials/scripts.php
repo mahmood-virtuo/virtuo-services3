@@ -20,7 +20,16 @@
                 return;
             }
 
-            document.write('<script src="' + <?php echo json_encode($tgCursorScriptUrl, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?> + '"><\/script>');
+            var tgCursorScriptUrl = <?php echo json_encode($tgCursorScriptUrl, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?>;
+
+            if (document.querySelector('script[src="' + tgCursorScriptUrl + '"]')) {
+                return;
+            }
+
+            var script = document.createElement("script");
+            script.src = tgCursorScriptUrl;
+            script.async = true;
+            document.head.appendChild(script);
         })();
     </script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/ajax-form.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
