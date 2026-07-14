@@ -1,4 +1,5 @@
 <?php
+// listingImage is only for large /blog listing cards; image remains for Recent Posts, sidebars, metadata, and existing image uses.
 return array(
     array(
         'title' => 'UAE ≠ Dubai: A Founder\'s Map of the 7 Emirates (2026)',
@@ -11,6 +12,11 @@ return array(
         'meta' => 'Company Formation · UAE Emirates',
         'excerpt' => 'Most founders default to Dubai and overpay. This 2026 guide maps all 7 UAE emirates, what each specialises in, its free zones, and which businesses actually belong where.',
         'image' => '/assets/img/slider/11th_blog.webp',
+        'listingImage' => '/assets/img/blog/uaeNotDubaiBlog.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'UAE ≠ Dubai:', 'tone' => 'accent'),
+            array('text' => 'A Founder\'s Map of the 7 Emirates (2026)', 'tone' => 'default', 'breakBefore' => true),
+        ),
         'thumbnail' => '/assets/img/slider/11th_blog.webp',
         'alt' => 'Founder map of the seven UAE emirates for business setup',
         'author' => 'Jonaid Ali Mohammad',
@@ -29,6 +35,11 @@ return array(
         'meta' => 'Company Formation · AI Free Zone',
         'excerpt' => 'The 2026 playbook for launching an AI company in a UAE free zone: which zone fits your model, the AI licence, real first-year costs, visas, and the tax and data-protection rules founders miss.',
         'image' => '/assets/img/slider/10th_blog.webp',
+        'listingImage' => '/assets/img/blog/AiCompany.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'How to set up an', 'tone' => 'accent'),
+            array('text' => 'AI Company in the UAE Free Zone (2026 Guide)', 'tone' => 'default', 'breakBefore' => true),
+        ),
         'thumbnail' => '/assets/img/slider/10th_blog.webp',
         'alt' => 'AI company setup in a UAE free zone guide',
         'author' => 'Jonaid Ali Mohammad',
@@ -47,6 +58,11 @@ return array(
         'meta' => 'Business Setup · Real Estate Brokerage',
         'excerpt' => 'A practical 2026 comparison of launching a real estate brokerage in the UAE versus the US and Europe, covering commission economics, tax, ownership, RERA licensing, and market momentum.',
         'image' => '/assets/img/slider/9th_blog.webp',
+        'listingImage' => '/assets/img/blog/RealEstateBrokerage.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'Starting a Real Estate Brokerage in the UAE: ', 'tone' => 'accent'),
+            array('text' => 'Why the numbers beat the us & Europe', 'tone' => 'default'),
+        ),
         'thumbnail' => '/assets/img/slider/9th_blog.webp',
         'alt' => 'UAE real estate brokerage setup comparison with the US and Europe',
         'author' => 'Jonaid Ali Mohammad',
@@ -65,6 +81,11 @@ return array(
         'meta' => 'Business Setup · Ajman Free Zone',
         'excerpt' => 'A complete 2026 guide to Ajman Free Zone: what setup really costs, how the 0% designated-zone tax works, and the $10bn trading economy behind the UAE\'s fastest, most affordable business base.',
         'image' => '/assets/img/slider/8th_blog.webp',
+        'listingImage' => '/assets/img/blog/AjmanFreeZone.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'Ajman Free Zone in 2026:', 'tone' => 'accent'),
+            array('text' => 'Cost, 0% Tax and the $10 Billion Economy Behind It', 'tone' => 'default', 'breakBefore' => true),
+        ),
         'thumbnail' => '/assets/img/slider/8th_blog.webp',
         'alt' => 'Ajman Free Zone in 2026 business setup guide',
         'author' => 'Jonaid Ali Mohammad',
@@ -83,6 +104,11 @@ return array(
         'meta' => 'UAE Tax · Compliance',
         'excerpt' => 'The complete UAE tax guide for 2026 — corporate tax, VAT, excise, customs, DMTT, municipal fees, and the taxes that do not exist in the UAE.',
         'image' => '/assets/img/slider/7th_blog.webp',
+        'listingImage' => '/assets/img/blog/UAETaxes.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'UAE Taxes Explained 2026:', 'tone' => 'accent'),
+            array('text' => "Every Tax, Who Pays it & What you don't owe", 'tone' => 'default'),
+        ),
         'thumbnail' => '/assets/img/slider/7th_blog.webp',
         'alt' => 'UAE tax and compliance guide for 2026',
         'author' => 'Jonaid Ali Mohammad',
@@ -101,6 +127,11 @@ return array(
         'meta' => 'US Relocation · UAE Residency',
         'excerpt' => 'A practical US-to-UAE relocation guide for American founders, investors and families comparing property, tax, Golden Visa, business setup, banking and relocation sequence.',
         'image' => '/assets/img/slider/6th_blog.webp',
+        'listingImage' => '/assets/img/blog/WhyAmericansRelocating.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'Why Americans are', 'tone' => 'accent'),
+            array('text' => 'Are Relocating To The UAE In 2026', 'tone' => 'default', 'breakBefore' => true),
+        ),
         'thumbnail' => '/assets/img/slider/6th_blog.webp',
         'alt' => 'UAE relocation strategy for American founders and families',
         'author' => 'Jonaid Ali Mohammad',
@@ -119,6 +150,11 @@ return array(
         'meta' => 'Comment: 15',
         'excerpt' => "For U.S. founders operating at scale, the UAE isn't a tax headline - it's a structuring decision. Learn how Mainland, Free Zone, and Offshore structures differ across market access, tax treatment, banking substance, residency, and long-term setup strategy.",
         'image' => '/assets/img/slider/1stBlog.webp',
+        'listingImage' => '/assets/img/blog/MainlandFreeZoneOffShore.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'Mainland, Free Zone or Offshore?', 'tone' => 'accent'),
+            array('text' => 'The Structuring Decision behind serious UAE move', 'tone' => 'default', 'breakBefore' => true),
+        ),
         'thumbnail' => '/assets/img/slider/1stBlog.webp',
         'alt' => 'Dubai skyline for UAE company structuring insight',
         'author' => 'Jonaid Ali Mohammad',
@@ -137,6 +173,11 @@ return array(
         'meta' => 'UAE Strategy · Wireless & ITAD',
         'excerpt' => 'A second base for lower costs, new markets, faster payments, and stronger margins — built gradually, not overnight.',
         'image' => '/assets/img/slider/2ndBlog.webp',
+        'listingImage' => '/assets/img/blog/WhyUSWireless.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'Why U.S.', 'tone' => 'accent'),
+            array('text' => 'Wireless and ITAD Operators are looking at the UAE', 'tone' => 'default'),
+        ),
         'thumbnail' => '/assets/img/slider/2ndBlog.webp',
         'alt' => 'Dubai skyline for UAE wireless and ITAD strategy insight',
         'author' => 'Jonaid Ali Mohammad',
@@ -155,6 +196,11 @@ return array(
         'meta' => 'UAE Strategy · Founders, Investors & Family Offices',
         'excerpt' => 'A clear look at why serious founders are treating the UAE as a strategic operating base, not just a company formation destination.',
         'image' => '/assets/img/slider/3rd_blog.webp',
+        'listingImage' => '/assets/img/blog/BeyondCompanyFormation.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'Beyond Company Formation:', 'tone' => 'accent'),
+            array('text' => 'Why The UAE Is Becoming A Strategic Business Base In 2026', 'tone' => 'default'),
+        ),
         'thumbnail' => '/assets/img/slider/3rd_blog.webp',
         'alt' => 'UAE business strategy and company setup insight',
         'author' => 'Jonaid Ali Mohammad',
@@ -173,6 +219,11 @@ return array(
         'meta' => 'UAE Residency · Golden Visa',
         'excerpt' => 'A clear comparison of the real UAE Golden Visa routes, including investor, professional, entrepreneur, specialized talent, and student eligibility.',
         'image' => '/assets/img/slider/4th_blog.webp',
+        'listingImage' => '/assets/img/blog/UaeGoldenVisa.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'The UAE Golden Visa:', 'tone' => 'accent'),
+            array('text' => 'Comparing Every real way to Qualify', 'tone' => 'default'),
+        ),
         'thumbnail' => '/assets/img/slider/4th_blog.webp',
         'alt' => 'UAE Golden Visa eligibility and residency guidance',
         'author' => 'Jonaid Ali Mohammad',
@@ -191,6 +242,11 @@ return array(
         'meta' => 'UAE Immigration · Freelance Visa',
         'excerpt' => 'A practical comparison of the UAE Freelance Permit, Green Residence, and Virtual Work Visa routes for independent professionals.',
         'image' => '/assets/img/slider/5th_blog.webp',
+        'listingImage' => '/assets/img/blog/FreeLanceVisa.jpg',
+        'listingOverlaySegments' => array(
+            array('text' => 'Freelance Visa or Green Residence?', 'tone' => 'accent'),
+            array('text' => 'The Independent Professional’s setup decision', 'tone' => 'default', 'breakBefore' => true),
+        ),
         'thumbnail' => '/assets/img/slider/5th_blog.webp',
         'alt' => 'UAE freelance visa and independent professional residency guidance',
         'author' => 'Jonaid Ali Mohammad',

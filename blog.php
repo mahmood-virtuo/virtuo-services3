@@ -25,6 +25,8 @@
     $blogLoadEnabled = true;
     $blogLoadInitialCount = 5;
     $blogLoadBatchSize = 5;
+    $useBlogListingImage = true;
+    $useBlogListingOverlay = true;
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

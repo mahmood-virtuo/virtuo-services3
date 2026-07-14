@@ -45,7 +45,6 @@
 /*============================================
 /*  01. Theme Default CSS
 ==============================================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --tg-body-font-family: "Poppins", sans-serif;
   --tg-heading-font-family: "Poppins", sans-serif;
@@ -18116,6 +18115,95 @@ body.about-page .about-story-image-wrap img {
 .blog__post-thumb-five {
   margin-bottom: 30px;
 }
+body.blog-page .blog__post-thumb-five {
+  position: relative;
+  overflow: hidden;
+}
+body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay {
+  position: relative;
+  display: block;
+  overflow: hidden;
+
+  /* One element controls all rounded corners */
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  box-shadow: none;
+
+  /* Prevent small anti-aliasing lines around curved corners */
+  -webkit-clip-path: inset(0 round 20px);
+  clip-path: inset(0 round 20px);
+  transform: translateZ(0);
+
+  background: transparent;
+  isolation: isolate;
+}
+body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay::before {
+  content: "";
+  position: absolute;
+
+  /* Extends under the wrapper edge and removes corner seams */
+  inset: -1px;
+
+  z-index: 1;
+  pointer-events: none;
+
+  /* The parent wrapper performs all clipping */
+  border-radius: 0;
+  /* background: linear-gradient(
+    90deg,
+    var(--tg-color-white-default) 0%,
+    var(--tg-color-white-default) 26%,
+    rgba(255, 255, 255, 0.92) 38%,
+    rgba(255, 255, 255, 0.62) 50%,
+    rgba(255, 255, 255, 0.24) 60%,
+    rgba(255, 255, 255, 0) 66%
+  ); */
+}
+body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay > img {
+  display: block;
+  width: 100%;
+
+  /*
+   * Do not round the image separately.
+   * The parent wrapper handles all clipping.
+   */
+  border: 0;
+  outline: 0;
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+body.blog-page .blog-listing-image-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  width: min(62%, 610px);
+  padding: clamp(22px, 4vw, 52px);
+  pointer-events: none;
+}
+body.blog-page .blog-listing-image-overlay__title {
+  display: block;
+  color: var(--tg-heading-color);
+  font-family: var(--tg-heading-font-family);
+  font-size: clamp(18px, 2.15vw, 31px);
+  font-weight: var(--tg-fw-medium);
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+body.blog-page .blog-listing-image-overlay__segment {
+  display: inline;
+}
+body.blog-page .blog-listing-image-overlay__segment--accent {
+  color: var(--tg-theme-primary);
+}
+body.blog-page .blog-listing-image-overlay__segment--default {
+  color: var(--tg-heading-color);
+}
+body.blog-page .blog-listing-image-overlay__break {
+  display: block;
+}
 .blog__post-thumb-five img {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -18130,10 +18218,51 @@ body.about-page .about-story-image-wrap img {
   .blog__post-thumb-five img {
     height: 360px;
   }
+  body.blog-page .blog-listing-image-overlay {
+    width: min(66%, 520px);
+    padding: clamp(20px, 3.8vw, 40px);
+  }
+  body.blog-page .blog-listing-image-overlay__title {
+    font-size: clamp(18px, 3vw, 32px);
+  }
 }
 @media (max-width: 767.98px) {
   .blog__post-thumb-five img {
     height: 320px;
+  }
+  body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay::before {
+    /* background: linear-gradient(
+      90deg,
+      var(--tg-color-white-default) 0%,
+      var(--tg-color-white-default) 36%,
+      rgba(255, 255, 255, 0.88) 52%,
+      rgba(255, 255, 255, 0.42) 72%,
+      rgba(255, 255, 255, 0) 86%
+    ); */
+  }
+  body.blog-page .blog-listing-image-overlay {
+    width: 82%;
+    padding: 16px 18px;
+  }
+  body.blog-page .blog-listing-image-overlay__title {
+    font-size: clamp(15px, 4.7vw, 23px);
+    line-height: 1.12;
+  }
+}
+@media (max-width: 575.98px) {
+  body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay {
+    border-radius: 16px;
+    -webkit-clip-path: inset(0 round 16px);
+    clip-path: inset(0 round 16px);
+  }
+}
+@media (max-width: 420px) {
+  body.blog-page .blog-listing-image-overlay {
+    width: 86%;
+    padding: 12px 14px;
+  }
+  body.blog-page .blog-listing-image-overlay__title {
+    font-size: clamp(14px, 4.6vw, 19px);
   }
 }
 .blog__post-date {
@@ -35525,7 +35654,7 @@ body.blog-details-page .blog-ai-company .ai-disclaimer {
   color: var(--blog-interactive-muted);
 }
 .ai-zone-card__rating {
-  color: #EE4C01;
+  color: #ee4c01;
 }
 body.blog-details-page .blog-real-estate-brokerage .brokerage-metric__value,
 body.blog-details-page .blog-ai-company .ai-zone-card__name,
@@ -36255,3 +36384,68 @@ body.blog-details-page .blog-uae-emirates .em-virtuo-take strong {
     align-self: center;
   }
 }
+/* =========================================================
+   FINAL FIX — Blog listing image edge/seam removal
+   Scoped only to the large cards on /blog
+========================================================= */
+
+/*
+ * Do not clip twice.
+ * The inner link wrapper will be the only clipping container.
+ */
+body.blog-page .blog__post-thumb-five {
+  overflow: visible !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/*
+ * One element owns the rounded corners.
+ */
+body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay {
+  position: relative !important;
+  display: block !important;
+  overflow: hidden !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+
+  border-radius: 20px !important;
+
+  /*
+   * Remove the clip-path and GPU transform previously added.
+   * Those can create a light anti-aliased seam.
+   */
+  -webkit-clip-path: none !important;
+  clip-path: none !important;
+  transform: none !important;
+
+  background: transparent !important;
+  isolation: isolate;
+}
+
+/*
+ * The wrapper clips the gradient.
+ * Do not round this layer separately.
+ */
+body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay::before {
+  inset: 0 !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+
+  pointer-events: none !important;
+}
+/* ==================================================
+   Remove duplicate CSS fade from blog listing images
+================================================== */
+
+/* body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay::before {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+} */

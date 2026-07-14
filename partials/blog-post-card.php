@@ -1,6 +1,66 @@
+<?php
+$blogPostListingImage = trim((string) ($blogPost['listingImage'] ?? ''));
+$blogPostImage = (string) ($blogPost['image'] ?? '');
+$blogPostListingImagePath = $blogPostListingImage !== '' ? dirname(__DIR__) . '/' . ltrim($blogPostListingImage, '/') : '';
+$blogPostCardImage = (!empty($useBlogListingImage) && $blogPostListingImagePath !== '' && is_file($blogPostListingImagePath)) ? $blogPostListingImage : $blogPostImage;
+$blogPostOverlaySegments = array();
+
+if (!empty($blogPost['listingOverlaySegments']) && is_array($blogPost['listingOverlaySegments'])) {
+    foreach ($blogPost['listingOverlaySegments'] as $blogPostOverlaySegment) {
+        if (!is_array($blogPostOverlaySegment)) {
+            continue;
+        }
+
+        $blogPostOverlaySegmentText = trim((string) ($blogPostOverlaySegment['text'] ?? ''));
+
+        if ($blogPostOverlaySegmentText === '') {
+            continue;
+        }
+
+        $blogPostOverlaySegmentTone = (string) ($blogPostOverlaySegment['tone'] ?? 'default');
+        $blogPostOverlaySegments[] = array(
+            'text' => $blogPostOverlaySegmentText,
+            'tone' => in_array($blogPostOverlaySegmentTone, array('accent', 'default'), true) ? $blogPostOverlaySegmentTone : 'default',
+            'breakBefore' => !empty($blogPostOverlaySegment['breakBefore']),
+        );
+    }
+}
+
+if (empty($blogPostOverlaySegments)) {
+    $blogPostOverlayAccent = trim((string) ($blogPost['listingOverlayAccent'] ?? ''));
+    $blogPostOverlayText = trim((string) ($blogPost['listingOverlayText'] ?? ''));
+
+    if ($blogPostOverlayAccent !== '') {
+        $blogPostOverlaySegments[] = array('text' => $blogPostOverlayAccent, 'tone' => 'accent', 'breakBefore' => false);
+    }
+
+    if ($blogPostOverlayText !== '') {
+        $blogPostOverlaySegments[] = array('text' => $blogPostOverlayText, 'tone' => 'default', 'breakBefore' => false);
+    }
+}
+
+if (empty($blogPostOverlaySegments)) {
+    $blogPostOverlayFallbackTitle = trim((string) ($blogPost['title'] ?? ''));
+
+    if ($blogPostOverlayFallbackTitle !== '') {
+        $blogPostOverlaySegments[] = array('text' => $blogPostOverlayFallbackTitle, 'tone' => 'default', 'breakBefore' => false);
+    }
+}
+
+$blogPostShouldRenderOverlay = !empty($useBlogListingOverlay) && !empty($blogPostOverlaySegments);
+?>
 <div class="blog__post-item-five"<?php if (!empty($blogLoadItemEnabled)) : ?> data-blog-load-item<?php endif; ?>>
     <div class="blog__post-thumb-five">
-        <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($blogPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="<?php echo !empty($blogPostPriorityHigh) ? 'eager' : 'lazy'; ?>"<?php if (!empty($blogPostPriorityHigh)) : ?> fetchpriority="high"<?php endif; ?> decoding="async" width="900" height="643"></a>
+        <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"<?php if ($blogPostShouldRenderOverlay) : ?> class="blog-listing-image-link--overlay"<?php endif; ?>>
+            <img src="<?php echo htmlspecialchars($blogPostCardImage, ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="<?php echo !empty($blogPostPriorityHigh) ? 'eager' : 'lazy'; ?>"<?php if (!empty($blogPostPriorityHigh)) : ?> fetchpriority="high"<?php endif; ?> decoding="async" width="900" height="643">
+            <?php if ($blogPostShouldRenderOverlay) : ?>
+                <span class="blog-listing-image-overlay" aria-hidden="true">
+                    <span class="blog-listing-image-overlay__title">
+                        <?php foreach ($blogPostOverlaySegments as $blogPostOverlaySegmentIndex => $blogPostOverlaySegment) : ?><?php if (!empty($blogPostOverlaySegment['breakBefore']) && $blogPostOverlaySegmentIndex > 0) : ?><br class="blog-listing-image-overlay__break" aria-hidden="true"><?php elseif ($blogPostOverlaySegmentIndex > 0) : ?> <?php endif; ?><span class="blog-listing-image-overlay__segment blog-listing-image-overlay__segment--<?php echo htmlspecialchars($blogPostOverlaySegment['tone'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($blogPostOverlaySegment['text'], ENT_QUOTES, 'UTF-8'); ?></span><?php endforeach; ?>
+                    </span>
+                </span>
+            <?php endif; ?>
+        </a>
     </div>
     <div class="blog__post-content-five">
         <div class="blog__post-meta">
