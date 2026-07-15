@@ -291,11 +291,11 @@
 
         <!-- choose-area -->
 
-        <section class="choose__area-five section-py-130">
+        <section class="choose__area-five section-py-130 virtuo-eye-section">
             <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-5 col-md-9">
-                        <div class="choose__img-wrap-four" style="margin-left: 0; margin-right: auto; max-width: 680px; position: relative;">
+                    <div class="col-lg-5 col-12 virtuo-eye-media-col">
+                        <div class="choose__img-wrap-four virtuo-eye-visual" style="position: relative;">
                             <img src="assets/img/images//about_virtuo_eye.webp" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
                             
                             <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -80px; top:-63px;">
@@ -310,8 +310,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
-                        <div class="choose__content-five" style="max-width: auto; margin-left: -21px;">
+                    <div class="col-lg-6 col-12 virtuo-eye-content-col">
+                        <div class="choose__content-five virtuo-eye-content" style="max-width: auto; margin-left: -21px;">
                             <div class="section__title mb-15">
                                 <span class="sub-title">Why Choose us</span>
                                 <h2 class="title">Businesses Don't <span style="font-weight: 400;"><i>Grow On Paper</i></span>. They Grow On Trust.</h2>

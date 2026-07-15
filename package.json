@@ -6,7 +6,8 @@
   "scripts": {
     "build:css": "node scripts/build-css.js",
     "build:js": "node scripts/build-js.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node scripts/watch-assets.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/mahmood-virtuo/virtuo-services3#readme",
   "devDependencies": {
     "@playwright/test": "^1.61.0",
+    "chokidar": "^5.0.0",
     "clean-css": "5.3.3",
     "eslint": "^10.5.0",
     "prettier": "^3.8.4",

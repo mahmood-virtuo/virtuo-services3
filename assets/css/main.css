@@ -23027,9 +23027,6 @@ blockquote cite {
 .contact-figma-section .estimate-form-wrap .iti input.virtuo-footer-phone-input {
   width: 100%;
 }
-.contact-figma-section .estimate-form-wrap .iti input.virtuo-footer-phone-input {
-  padding-left: 98px !important;
-}
 .contact-page-form-wrap .virtuo-reference-form,
 .contact-page-form-wrap .estimate__tab-wrap,
 .contact-page-form-wrap .estimate__tab-inner,
@@ -23047,13 +23044,18 @@ blockquote cite {
 .contact-page-form-wrap .estimate-form-wrap .tg-btn {
   width: 100%;
 }
+.contact-page-form-wrap .estimate-form-wrap .form-grp input,
+.contact-page-form-wrap .estimate-form-wrap .form-grp select,
+.contact-page-form-wrap .estimate-form-wrap .form-grp textarea,
+.footer__area-five .estimate-form-wrap .form-grp input,
+.footer__area-five .estimate-form-wrap .form-grp select,
+.footer__area-five .estimate-form-wrap .form-grp textarea {
+  font-size: 15px;
+}
 .contact-page-form-wrap .estimate-form-wrap .iti,
 .contact-page-form-wrap .estimate-form-wrap .iti--allow-dropdown,
 .contact-page-form-wrap .estimate-form-wrap .iti input.virtuo-footer-phone-input {
   width: 100%;
-}
-.contact-page-form-wrap .estimate-form-wrap .iti input.virtuo-footer-phone-input {
-  padding-left: 98px !important;
 }
 .contact-figma-section .contact-page-form-wrap .estimate__tab-wrap {
   margin-left: 0;
@@ -26015,7 +26017,14 @@ select {
 }
 
 .sidebar__cat-list .service-tab-link.is-active {
-  color: #ee4c01;
+  background: var(--tg-theme-primary);
+  border-color: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+.sidebar__cat-list .service-tab-link.is-active span {
+  background: var(--tg-color-white-default);
+  color: var(--tg-theme-primary);
 }
 
 /* ---------- Responsive Footer Layout Fix ---------- */
@@ -26173,7 +26182,6 @@ select {
 
 .footer__area-five .estimate-form-wrap .iti input.virtuo-footer-phone-input {
   width: 100%;
-  padding-left: 98px !important;
 }
 
 .footer__area-five .estimate-form-wrap .iti__country-list,
@@ -27668,15 +27676,39 @@ select {
   background: #fff;
   color: #232323;
   font-size: 13px;
-  padding-left: 95px !important;
 }
 
-.phone-field-wrap .iti__flag-container {
+.estimate-form-wrap .iti {
+  --virtuo-phone-inline-padding: 12px;
+  --virtuo-phone-font-family: var(--tg-body-font-family);
+  --virtuo-phone-font-size: 15px;
+  --virtuo-phone-font-weight: 400;
+  --virtuo-phone-line-height: normal;
+  --virtuo-phone-color: var(--tg-heading-color);
+  --virtuo-phone-letter-spacing: normal;
+}
+
+.virtuo-sidebar-form .phone-field-wrap .iti {
+  --virtuo-phone-inline-padding: 13px;
+  --virtuo-phone-font-size: 13px;
+  --virtuo-phone-color: #232323;
+}
+
+.estimate-form-wrap .iti .iti__selected-country-primary {
+  padding-inline-start: var(--virtuo-phone-inline-padding);
+}
+
+.estimate-form-wrap .iti .iti__selected-dial-code {
+  color: var(--virtuo-phone-color);
+  font-family: var(--virtuo-phone-font-family);
+  font-size: var(--virtuo-phone-font-size);
+  font-weight: var(--virtuo-phone-font-weight);
+  line-height: var(--virtuo-phone-line-height);
+  letter-spacing: var(--virtuo-phone-letter-spacing);
+}
+
+.phone-field-wrap .iti__country-container {
   border-right: 1px solid #d6d6d6;
-}
-
-.phone-field-wrap .iti__selected-flag {
-  padding: 0 12px;
 }
 
 .phone-field-wrap .iti__country-list {
@@ -33935,7 +33967,7 @@ body.contact-page .contact-faq-area .accordion-button {
   border: 0;
   box-shadow: none;
   color: var(--tg-heading-color);
-  font-size: clamp(25px, 2vw, 25px);
+  font-size: clamp(18px, 1.45vw, 22px);
   line-height: 1.22;
   font-weight: 500;
   text-align: left;
@@ -34029,7 +34061,7 @@ body.contact-page .contact-faq-area .accordion-body {
   body.contact-page .contact-faq-area .accordion-button {
     min-height: 78px;
     padding: 22px 58px 22px 24px;
-    font-size: clamp(18px, 5vw, 20px);
+    font-size: clamp(17px, 1.45vw, 18px);
   }
 
   body.contact-page .contact-faq-area .accordion-button:not(.collapsed) {
@@ -34440,6 +34472,20 @@ body.contact-page .contact-figma-section .contact-figma-form-card {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  body.contact-page .contact-figma-section .contact-figma-report-card {
+    max-width: none;
+  }
+
+  body.contact-page .contact-figma-section .contact-figma-report-card__text {
+    flex: 1 1 auto;
+  }
+
+  .footer__area-five .footer__bottom-two .row {
+    align-items: flex-start;
+  }
+}
+
 @media (max-width: 767.98px) {
   body.contact-page .contact-figma-section .contact-figma-report-card {
     gap: 18px;
@@ -34512,7 +34558,6 @@ body.contact-page .contact-figma-section .contact-figma-report-card__icon svg {
     width: 62px;
     height: 62px;
   }
-
   body.contact-page .contact-figma-section .contact-figma-report-card__icon img,
   body.contact-page .contact-figma-section .contact-figma-report-card__icon svg {
     width: 62px;
@@ -34786,25 +34831,71 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
   display: block;
   width: 100%;
 }
-/* Homepage: fix Why Choose Us eye image on tablet only */
-@media (min-width: 768px) and (max-width: 1199.98px) {
-  body.home-page .choose__area-five .choose__img-wrap-four {
-    max-width: 620px !important;
-    width: 650px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+/* Virtuo eye section: preserve desktop sizing, align tablet stacks to the content gutter */
+@media (min-width: 1200px) {
+  body.home-page .virtuo-eye-section .virtuo-eye-visual,
+  body.contact-page .virtuo-eye-section .virtuo-eye-visual {
+    max-width: 680px;
+    margin-left: 0;
+    margin-right: auto;
   }
 
-  body.home-page .choose__area-five .choose__img-wrap-four > img {
+  body.about-page .virtuo-eye-section .about-eye-visual {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  body.about-page .virtuo-eye-section .about-split-row {
+    grid-template-columns: 1fr;
+  }
+
+  .virtuo-eye-section .virtuo-eye-media-col,
+  .virtuo-eye-section .virtuo-eye-content-col {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .virtuo-eye-section .virtuo-eye-media-col {
+    order: 1;
+  }
+
+  .virtuo-eye-section .virtuo-eye-content-col {
+    order: 2;
+    margin-top: 40px;
+  }
+
+  body.home-page .virtuo-eye-section .virtuo-eye-visual,
+  body.contact-page .virtuo-eye-section .virtuo-eye-visual,
+  body.about-page .virtuo-eye-section .about-eye-visual {
     width: 100% !important;
     max-width: 100% !important;
-    height: auto !important;
-    display: block;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
   }
 
-  body.home-page .choose__area-five .choose__img-wrap-four .circle__wrap-two {
-    right: -35px !important;
-    top: -45px !important;
+  .virtuo-eye-section .virtuo-eye-content,
+  body.about-page .virtuo-eye-section .about-why-virtuo-content {
+    width: 100%;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  body.home-page .blog__post-area-six.section-py-130 {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.home-page .blog__post-area-six.section-py-130 {
+    padding-top: 52px;
   }
 }
 /* Hide Virtuo rotating circle icon on tablet and mobile only */
@@ -36440,12 +36531,3 @@ body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay::befor
 
   pointer-events: none !important;
 }
-/* ==================================================
-   Remove duplicate CSS fade from blog listing images
-================================================== */
-
-/* body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay::before {
-  content: none !important;
-  display: none !important;
-  background: none !important;
-} */

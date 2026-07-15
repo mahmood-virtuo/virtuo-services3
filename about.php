@@ -241,11 +241,11 @@
         <!-------7th Section Ends---- -->
         <!-- choose-area -->
 
-        <section class="choose__area-five section-py-130 about-why-virtuo-section">
+        <section class="choose__area-five section-py-130 about-why-virtuo-section virtuo-eye-section">
             <div class="container site-content-gutter custom-container about-page-container">
                 <div class="row align-items-center justify-content-between about-split-row">
 
-                    <div class="col-lg-6">
+                    <div class="col-xl-6 col-12 virtuo-eye-content-col">
                         <div class="choose__content-five about-why-virtuo-content">
                             <div class="section__title mb-15">
                                 <h2 class="title">Why Virtuo</h2>
@@ -256,7 +256,7 @@
                             <p>Our approach is clear, professional, and practical.No unnecessary complications. No generic advice. No confusing process.Just the right guidance, the right setup, and the right support to help you build in the UAE with confidence.</p>
                         </div>
                     </div>
-<div class="col-lg-5 col-md-9">
+<div class="col-xl-5 col-12 virtuo-eye-media-col">
     <div class="choose__img-wrap-four about-eye-visual">
         <img
             src="assets/img/images/about_virtuo_eye.webp"
