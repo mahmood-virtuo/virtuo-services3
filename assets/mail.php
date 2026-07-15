@@ -20,23 +20,50 @@ $form_type = virtuo_mail_field('form_type');
 $name = virtuo_mail_clean_header(virtuo_mail_field('name'));
 $email = filter_var(virtuo_mail_field('email'), FILTER_SANITIZE_EMAIL);
 $phone = virtuo_mail_clean_header(virtuo_mail_field('phone'));
+$phone_display = virtuo_mail_clean_header(virtuo_mail_field('phone_display'));
 $website = virtuo_mail_clean_header(virtuo_mail_field('website'));
 $service = virtuo_mail_clean_header(virtuo_mail_field('service'));
 $emirate = virtuo_mail_clean_header(virtuo_mail_field('emirate'));
 $message = trim(strip_tags(virtuo_mail_field('message')));
 
-$required_fields = array($name, $email, $message);
+$phone_for_email = $phone !== '' ? $phone : $phone_display;
 
-if ($form_type === 'footer_quote') {
-    $required_fields[] = $phone;
-    $required_fields[] = $service;
-    $required_fields[] = $emirate;
-} else {
-    $required_fields[] = $website;
+$form_configs = array(
+    'contact' => array(
+        'label' => 'Contact page form',
+        'subject_prefix' => 'New contact request',
+        'required' => array('name', 'email', 'phone', 'service', 'emirate', 'message'),
+    ),
+    'footer_quote' => array(
+        'label' => 'Footer quote form',
+        'subject_prefix' => 'New footer quote request',
+        'required' => array('name', 'email', 'phone', 'service', 'emirate', 'message'),
+    ),
+    'sidebar_quote' => array(
+        'label' => 'Sidebar consultation form',
+        'subject_prefix' => 'New sidebar consultation request',
+        'required' => array('name', 'email', 'phone', 'service', 'emirate'),
+    ),
+);
+
+if (!isset($form_configs[$form_type])) {
+    http_response_code(400);
+    echo 'Unsupported form submission.';
+    exit;
 }
 
-foreach ($required_fields as $field) {
-    if ($field === '') {
+$submitted_fields = array(
+    'name' => $name,
+    'email' => $email,
+    'phone' => $phone_for_email,
+    'website' => $website,
+    'service' => $service,
+    'emirate' => $emirate,
+    'message' => $message,
+);
+
+foreach ($form_configs[$form_type]['required'] as $field_key) {
+    if ($submitted_fields[$field_key] === '') {
         http_response_code(400);
         echo 'Please complete the form and try again.';
         exit;
@@ -50,16 +77,15 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 $recipient = 'setup@virtuo.ae';
-$subject_prefix = $form_type === 'footer_quote' ? 'New quote request' : 'New contact message';
-$subject = $subject_prefix . ' from ' . $name;
+$subject = $form_configs[$form_type]['subject_prefix'] . ' from ' . $name;
 
 $email_content = "Virtuo Services Website Form Submission\n\n";
-$email_content .= "Form: " . ($form_type === 'footer_quote' ? 'Footer quote form' : 'Contact page form') . "\n";
+$email_content .= "Form: " . $form_configs[$form_type]['label'] . "\n";
 $email_content .= "Name: $name\n";
 $email_content .= "Email: $email\n";
 
-if ($phone !== '') {
-    $email_content .= "Phone: $phone\n";
+if ($phone_for_email !== '') {
+    $email_content .= "Phone: $phone_for_email\n";
 }
 
 if ($website !== '') {
@@ -74,7 +100,9 @@ if ($emirate !== '') {
     $email_content .= "Emirate: $emirate\n";
 }
 
-$email_content .= "\nMessage:\n$message\n";
+if ($message !== '') {
+    $email_content .= "\nMessage:\n$message\n";
+}
 
 $email_headers = array(
     'From: Virtuo Website <setup@virtuo.ae>',

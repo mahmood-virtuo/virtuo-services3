@@ -10338,6 +10338,21 @@ body.about-page .about-story-image-wrap img {
   min-height: 300px;
   object-fit: cover;
 }
+@media (max-width: 767.98px) {
+  body.service-page .services__details-thumb {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  body.service-page .services__details-thumb img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 0;
+    object-fit: contain;
+  }
+}
 .services__details-thumb-two {
   margin-bottom: 40px;
 }
@@ -18219,7 +18234,7 @@ body.blog-page .blog-listing-image-overlay__break {
     height: 360px;
   }
   body.blog-page .blog-listing-image-overlay {
-    width: min(66%, 520px);
+    width: min(50%, 520px);
     padding: clamp(20px, 3.8vw, 40px);
   }
   body.blog-page .blog-listing-image-overlay__title {
@@ -18241,7 +18256,7 @@ body.blog-page .blog-listing-image-overlay__break {
     ); */
   }
   body.blog-page .blog-listing-image-overlay {
-    width: 82%;
+    width: 50%;
     padding: 16px 18px;
   }
   body.blog-page .blog-listing-image-overlay__title {
@@ -18258,7 +18273,7 @@ body.blog-page .blog-listing-image-overlay__break {
 }
 @media (max-width: 420px) {
   body.blog-page .blog-listing-image-overlay {
-    width: 86%;
+    width: 58%;
     padding: 12px 14px;
   }
   body.blog-page .blog-listing-image-overlay__title {
@@ -18929,8 +18944,9 @@ body.blog-page .blog-listing-image-overlay__break {
 }
 .rc-post-item .thumb img {
   width: 100%;
-  height: 90px;
-  object-fit: cover;
+  height: 60px;
+  /* object-fit: cover; */
+  object-fit: fit;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -o-border-radius: 8px;
@@ -34831,8 +34847,21 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
   display: block;
   width: 100%;
 }
+
+.blog-sidebar-sticky-form .virtuo-sidebar-form select[name="service"],
+.blog-sidebar-sticky-form .virtuo-sidebar-form select[name="emirate"] {
+  padding-inline-start: 9px !important;
+}
 /* Virtuo eye section: preserve desktop sizing, align tablet stacks to the content gutter */
 @media (min-width: 1200px) {
+  body.about-page .about-intro-section.section-py-130 {
+    padding-bottom: 110px;
+  }
+
+  body.about-page .about-mission-vision {
+    padding-top: 0;
+  }
+
   body.home-page .virtuo-eye-section .virtuo-eye-visual,
   body.contact-page .virtuo-eye-section .virtuo-eye-visual {
     max-width: 680px;
@@ -34865,7 +34894,7 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
 
   .virtuo-eye-section .virtuo-eye-content-col {
     order: 2;
-    margin-top: 40px;
+    margin-top: 28px;
   }
 
   body.home-page .virtuo-eye-section .virtuo-eye-visual,
@@ -34878,6 +34907,13 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
     padding-left: 0 !important;
   }
 
+  body.home-page .virtuo-eye-section .virtuo-eye-visual,
+  body.contact-page .virtuo-eye-section .virtuo-eye-visual,
+  body.about-page .virtuo-eye-section .about-eye-visual {
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+  }
+
   .virtuo-eye-section .virtuo-eye-content,
   body.about-page .virtuo-eye-section .about-why-virtuo-content {
     width: 100%;
@@ -34885,17 +34921,188 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+
+  body.about-page .about-intro-section .about-split-row > [class*="col-"],
+  body.about-page .about-services-section .about-split-row > [class*="col-"] {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  body.about-page .about-intro-section .about-split-row {
+    row-gap: 36px;
+  }
+
+  body.about-page .about-intro-section.section-py-130 {
+    padding-bottom: 100px;
+  }
+
+  body.about-page .about-mission-vision {
+    padding-top: 0;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap {
+    margin-bottom: 0;
+  }
+
+  body.about-page .about-services-section.section-py-130 {
+    padding-top: 70px;
+  }
+
+  body.about-page .about-services-section .about-split-row {
+    row-gap: 50px;
+  }
+
+  body.about-page .about-services-section .about-split-row > .col-lg-6.col-md-10 {
+    margin-bottom: 0;
+  }
+
+  body.about-page .about-why-virtuo-section .about-split-row {
+    row-gap: 28px;
+  }
+
+  body.about-page .about-why-virtuo-section .virtuo-eye-content-col,
+  body.about-page .about-why-virtuo-section .about-why-virtuo-content {
+    margin-top: 0;
+  }
+
+  body.about-page .virtuo-team .virtuo-team__grid {
+    row-gap: 50px;
+  }
+
+  body.home-page .virtuo-built-section.section-py-130 {
+    padding-top: 75px;
+  }
+
+  .footer__area-five .footer__bottom-two > .row.align-items-center {
+    align-items: flex-start !important;
+  }
+
+  .footer__area-five .footer__social-two {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .footer__area-five .footer__social-two .list-wrap {
+    align-items: flex-start;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap,
+  body.about-page .about-intro-section .about__img-wrap > div,
+  body.about-page .about-services-section .about__img-four,
+  body.about-page .about-services-section .about__img-four > div,
+  body.about-page .about-services-section .about__img-four > div > div {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap img,
+  body.about-page .about-services-section .about__img-four img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.home-page .virtuo-eye-section .virtuo-eye-visual,
+  body.contact-page .virtuo-eye-section .virtuo-eye-visual {
+    margin-bottom: 0 !important;
+  }
+
+  body.home-page .virtuo-eye-section .choose__content-five,
+  body.contact-page .virtuo-eye-section .choose__content-five {
+    margin-top: 24px !important;
+  }
+
+  body.about-page .about-intro-section .about-split-row {
+    row-gap: 30px;
+  }
+
+  body.about-page .about-intro-section.section-py-130 {
+    padding-bottom: 80px;
+  }
+
+  body.about-page .about-mission-vision {
+    padding-top: 0;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap {
+    margin-bottom: 0;
+  }
+
+  body.about-page .about-services-section.section-py-130 {
+    padding-top: 50px;
+  }
+
+  body.about-page .about-services-section .about-split-row {
+    row-gap: 35px;
+  }
+
+  body.about-page .about-services-section .about-split-row > .col-lg-6.col-md-10 {
+    margin-bottom: 0;
+  }
+
+  body.about-page .home-main-cta.cta__area-five {
+    /* padding-bottom: 0; */
+  }
+
+  body.about-page .about-why-virtuo-section.section-py-130 {
+    padding-top: 35px;
+  }
+
+  body.about-page .about-why-virtuo-section .about-split-row {
+    row-gap: 28px;
+  }
+
+  body.about-page .about-why-virtuo-section .about-eye-visual {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  body.about-page .about-why-virtuo-section .about-why-virtuo-content {
+    margin-top: 0;
+  }
+
+  body.about-page .virtuo-team .virtuo-team__grid {
+    row-gap: 50px;
+  }
+
+  body.home-page .virtuo-built-section.section-py-130 {
+    padding-top: 50px;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap,
+  body.about-page .about-intro-section .about__img-wrap > div,
+  body.about-page .about-services-section .about__img-four,
+  body.about-page .about-services-section .about__img-four > div,
+  body.about-page .about-services-section .about__img-four > div > div {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap img,
+  body.about-page .about-services-section .about__img-four img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
   body.home-page .blog__post-area-six.section-py-130 {
-    padding-top: 70px;
+    padding-top: 0px;
   }
 }
 
 @media (max-width: 767.98px) {
   body.home-page .blog__post-area-six.section-py-130 {
-    padding-top: 52px;
+    padding-top: 20px;
   }
 }
 /* Hide Virtuo rotating circle icon on tablet and mobile only */

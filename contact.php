@@ -146,7 +146,7 @@
                                                 <div class="tab-pane fade show active">
                                                     <div class="estimate-form-wrap">
                                                         <form id="contact-quote-form" action="/assets/mail.php" method="POST">
-                                                            <input type="hidden" name="form_type" value="footer_quote">
+                                                            <input type="hidden" name="form_type" value="contact">
                                                             <div class="form-grp">
                                                                 <input type="text" name="name" class="virtuo-name-input" placeholder="Full Name" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" title="Please enter a valid name using letters only." required>
                                                             </div>

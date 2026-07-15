@@ -8,7 +8,7 @@ $sidebarConsultationFormId = $sidebarConsultationFormId ?? 'sidebar-quote-form';
         <!-- -------Form Starts here----------- -->
         <div class="estimate-form-wrap virtuo-sidebar-form">
             <form id="<?php echo htmlspecialchars($sidebarConsultationFormId, ENT_QUOTES, 'UTF-8'); ?>" action="/assets/mail.php" method="POST">
-                <input type="hidden" name="form_type" value="footer_quote">
+                <input type="hidden" name="form_type" value="sidebar_quote">
 
                 <div class="form-grp">
                     <input type="text" name="name" class="virtuo-name-input" placeholder="Full Name" autocomplete="name" minlength="2" maxlength="80" pattern="[A-Za-z ]{2,80}" required>
