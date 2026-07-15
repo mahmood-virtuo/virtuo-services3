@@ -94,6 +94,8 @@ RewriteRule ^ai-automation-and-technology-solutions/?$ ai-automation-technology-
 # Example: /about.php -> /about
 # --------------------------------------------------
 
+RewriteRule ^assets/mail\.php$ - [L]
+
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L]
 
