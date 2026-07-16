@@ -16,7 +16,7 @@
         'image' => '/assets/img/bg/HEADER.webp',
         'imageAlt' => 'Virtuo Services privacy policy',
         'heroImage' => '/assets/img/bg/HEADER.webp',
-        'heroImageMobile' => '/assets/img/bg/HEADER-mobile.webp'
+        'heroImageMobile' => '/assets/img/bg/HEADER.webp'
     );
     include __DIR__ . '/partials/seo.php';
     ?>
@@ -49,7 +49,7 @@
 
     <main class="main-area fix">
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER-mobile.webp"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" data-background-mobile="assets/img/bg/HEADER.webp"></div>
             <div class="container site-content-gutter custom-container">
                 <div class="row">
                     <div class="col-12">
