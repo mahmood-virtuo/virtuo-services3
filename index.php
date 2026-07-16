@@ -496,10 +496,60 @@
                 </div>
                 <div class="row gutter-y-30 justify-content-center">
                     <?php foreach (array_slice($blogPosts, 0, 3) as $blogPost) : ?>
+                    <?php
+                    $homeBlogListingImage = trim((string) ($blogPost['listingImage'] ?? ''));
+                    $homeBlogListingImagePath = $homeBlogListingImage !== '' ? __DIR__ . '/' . ltrim($homeBlogListingImage, '/') : '';
+                    $homeBlogCardImage = ($homeBlogListingImagePath !== '' && is_file($homeBlogListingImagePath)) ? $homeBlogListingImage : $blogPost['image'];
+                    $homeBlogOverlaySegments = array();
+
+                    if (!empty($blogPost['listingOverlaySegments']) && is_array($blogPost['listingOverlaySegments'])) {
+                        foreach ($blogPost['listingOverlaySegments'] as $homeBlogOverlaySegment) {
+                            if (!is_array($homeBlogOverlaySegment)) {
+                                continue;
+                            }
+
+                            $homeBlogOverlaySegmentText = trim((string) ($homeBlogOverlaySegment['text'] ?? ''));
+
+                            if ($homeBlogOverlaySegmentText === '') {
+                                continue;
+                            }
+
+                            $homeBlogOverlaySegmentTone = (string) ($homeBlogOverlaySegment['tone'] ?? 'default');
+                            $homeBlogOverlaySegments[] = array(
+                                'text' => $homeBlogOverlaySegmentText,
+                                'tone' => in_array($homeBlogOverlaySegmentTone, array('accent', 'default'), true) ? $homeBlogOverlaySegmentTone : 'default',
+                                'breakBefore' => !empty($homeBlogOverlaySegment['breakBefore']),
+                            );
+                        }
+                    }
+
+                    if (empty($homeBlogOverlaySegments)) {
+                        $homeBlogOverlayAccent = trim((string) ($blogPost['listingOverlayAccent'] ?? ''));
+                        $homeBlogOverlayText = trim((string) ($blogPost['listingOverlayText'] ?? ''));
+
+                        if ($homeBlogOverlayAccent !== '') {
+                            $homeBlogOverlaySegments[] = array('text' => $homeBlogOverlayAccent, 'tone' => 'accent', 'breakBefore' => false);
+                        }
+
+                        if ($homeBlogOverlayText !== '') {
+                            $homeBlogOverlaySegments[] = array('text' => $homeBlogOverlayText, 'tone' => 'default', 'breakBefore' => false);
+                        }
+                    }
+
+                    if (empty($homeBlogOverlaySegments)) {
+                        $homeBlogOverlayFallbackTitle = trim((string) ($blogPost['title'] ?? ''));
+
+                        if ($homeBlogOverlayFallbackTitle !== '') {
+                            $homeBlogOverlaySegments[] = array('text' => $homeBlogOverlayFallbackTitle, 'tone' => 'default', 'breakBefore' => false);
+                        }
+                    }
+
+                    $homeBlogShouldRenderOverlay = !empty($homeBlogOverlaySegments);
+                    ?>
                     <div class="col-lg-4 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb shine__animate-link">
-                                <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($blogPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="900" height="643"></a>
+                                <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"<?php if ($homeBlogShouldRenderOverlay) : ?> class="blog-listing-image-link--overlay"<?php endif; ?>><img src="<?php echo htmlspecialchars($homeBlogCardImage, ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="900" height="643"><?php if ($homeBlogShouldRenderOverlay) : ?><span class="blog-listing-image-overlay" aria-hidden="true"><span class="blog-listing-image-overlay__title"><?php foreach ($homeBlogOverlaySegments as $homeBlogOverlaySegmentIndex => $homeBlogOverlaySegment) : ?><?php if (!empty($homeBlogOverlaySegment['breakBefore']) && $homeBlogOverlaySegmentIndex > 0) : ?><br class="blog-listing-image-overlay__break" aria-hidden="true"><?php elseif ($homeBlogOverlaySegmentIndex > 0) : ?> <?php endif; ?><span class="blog-listing-image-overlay__segment blog-listing-image-overlay__segment--<?php echo htmlspecialchars($homeBlogOverlaySegment['tone'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($homeBlogOverlaySegment['text'], ENT_QUOTES, 'UTF-8'); ?></span><?php endforeach; ?></span></span><?php endif; ?></a>
                                 <div class="blog__post-date-two">
                                     <span>
                                         <img src="assets/img/icons/calendar.svg" alt="" class="injectable"> <?php echo htmlspecialchars($blogPost['date'], ENT_QUOTES, 'UTF-8'); ?>
