@@ -16,7 +16,7 @@
         'image' => '/assets/img/slider/1st.webp',
         'imageAlt' => 'Virtuo Services UAE business setup and consultancy',
         'heroImage' => '/assets/img/slider/1st.webp',
-        'heroImageMobile' => '/assets/img/slider/1st-mobile.webp'
+        'heroImageMobile' => '/assets/img/slider/1st_mobile.webp'
     );
     include __DIR__ . '/partials/seo.php';
     require_once __DIR__ . '/partials/blog-taxonomy.php';
@@ -78,7 +78,7 @@
         <section class="slider__area">
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.webp" data-background-mobile="assets/img/slider/1st-mobile.webp">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.webp" data-background-mobile="assets/img/slider/1st_mobile.webp">
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -91,7 +91,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/2nd.webp" data-lazy-background-mobile="assets/img/slider/2nd-mobile.webp">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/2nd.webp" data-lazy-background-mobile="assets/img/slider/2nd_mobile.webp">
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/3rd.webp" data-lazy-background-mobile="assets/img/slider/3rd-mobile.webp">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/3rd.webp" data-lazy-background-mobile="assets/img/slider/3rd_mobile.webp">
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -117,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/4th.webp" data-lazy-background-mobile="assets/img/slider/4th-mobile.webp">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/4th.webp" data-lazy-background-mobile="assets/img/slider/4th_mobile.webp">
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -130,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/5th.webp" data-lazy-background-mobile="assets/img/slider/5th-mobile.webp">
+                    <div class="swiper-slide slider__bg hero-image-styles" data-lazy-background="assets/img/slider/5th.webp" data-lazy-background-mobile="assets/img/slider/5th_mobile.webp">
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
