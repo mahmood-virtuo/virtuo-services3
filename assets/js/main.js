@@ -106,18 +106,32 @@
   /*===========================================
 	=          Data Background    =
 =============================================*/
+  function tgUsesSharedInnerHeaderBackground(background) {
+    return /(^|\/)assets\/img\/bg\/HEADER\.webp(?:[?#].*)?$/.test(
+      background || "",
+    );
+  }
+
   function tgResponsiveBackground($element, backgroundAttr, mobileAttr) {
     var mobileBackground = $element.attr(mobileAttr);
+    var desktopBackground = $element.attr(backgroundAttr);
 
     if (
-      mobileBackground &&
       window.matchMedia &&
       window.matchMedia("(max-width: 767px)").matches
     ) {
-      return mobileBackground;
-    }
+      if (
+        $element.hasClass("breadcrumb__bg") &&
+        tgUsesSharedInnerHeaderBackground(desktopBackground)
+      ) {
+        return "/assets/img/bg/HEADER_Mobile.webp";
+      }
 
-    return $element.attr(backgroundAttr);
+      if (mobileBackground) {
+        return mobileBackground;
+      }
+    }
+    return desktopBackground;
   }
 
   $("[data-background]").each(function () {

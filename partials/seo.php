@@ -66,6 +66,33 @@ if (!function_exists('virtuo_seo_resolve_image')) {
     }
 }
 
+if (!function_exists('virtuo_seo_normalize_asset_path')) {
+    function virtuo_seo_normalize_asset_path($path)
+    {
+        $path = parse_url((string) $path, PHP_URL_PATH);
+
+        if ($path === null || trim($path) === '') {
+            return '';
+        }
+
+        return '/' . ltrim($path, '/');
+    }
+}
+
+if (!function_exists('virtuo_seo_uses_shared_header_image')) {
+    function virtuo_seo_uses_shared_header_image($path)
+    {
+        return virtuo_seo_normalize_asset_path($path) === '/assets/img/bg/HEADER.webp';
+    }
+}
+
+if (!function_exists('virtuo_seo_uses_old_shared_header_mobile_image')) {
+    function virtuo_seo_uses_old_shared_header_mobile_image($path)
+    {
+        return virtuo_seo_normalize_asset_path($path) === '/assets/img/bg/HEADER-mobile.webp';
+    }
+}
+
 $seoPage = isset($seoPage) && is_array($seoPage) ? $seoPage : array();
 $seoDefaults = array(
     'title' => 'Virtuo Services | UAE Business Setup & PRO Services',
@@ -83,6 +110,18 @@ $seoDefaults = array(
 );
 
 $seo = array_merge($seoDefaults, $seoPage);
+
+if (
+    virtuo_seo_uses_shared_header_image($seo['heroImage'] ?? '') &&
+    (
+        empty($seo['heroImageMobile']) ||
+        virtuo_seo_uses_shared_header_image($seo['heroImageMobile']) ||
+        virtuo_seo_uses_old_shared_header_mobile_image($seo['heroImageMobile'])
+    )
+) {
+    $seo['heroImageMobile'] = '/assets/img/bg/HEADER_Mobile.webp';
+}
+
 $canonicalUrl = virtuo_seo_url($seo['path']);
 $ogImage = virtuo_seo_resolve_image($seo);
 $ogImageAlt = $seo['ogImageAlt'] !== '' ? $seo['ogImageAlt'] : ($seo['imageAlt'] !== '' ? $seo['imageAlt'] : $seo['title']);
