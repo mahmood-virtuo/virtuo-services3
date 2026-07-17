@@ -11,7 +11,7 @@
 
 ## Current phase
 
-Phase 5 — Services family. All five templates, dynamic content route, and conservative extraction are validated; commit and push are pending.
+Phase 6 — Blog listing family. Listing/category/tag extraction and command-line validation are complete; commit and push are pending.
 
 ## Completed phases
 
@@ -20,10 +20,10 @@ Phase 5 — Services family. All five templates, dynamic content route, and cons
 - Phase 2 — home family (`066ddc9`, pushed to `origin/testing`)
 - Phase 3 — About family (`aa353e5`, pushed to `origin/testing`)
 - Phase 4 — Contact family (`d5141bb`, pushed to `origin/testing`)
+- Phase 5 — Services family (`b659810`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 5 services
 - Phase 6 blog listing
 - Phase 7 blog details
 - Phase 8 legal
@@ -262,10 +262,48 @@ Validation results:
 
 Browser-smoke results: unavailable; representative desktop/mobile service, sidebar/tab states, Digital Marketing tab transition, breadcrumb, FAQ, CTA/forms, and responsive checks remain manual.
 
+Commit SHA: `b659810`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: service interaction and responsive cascade behavior require human browser verification.
+
+Exact next action: migrate Blog listing/category/tag together while retaining listing/detail shared components in core.
+
+### Phase 6 — Blog listing family
+
+Files changed:
+
+- `assets/css/src/core.css`
+- `assets/css/src/pages/blog-listing.css`
+- Generated core/blog-listing/compatibility CSS outputs
+- `blog.php`, `blog-category.php`, `blog-tag.php`
+- CSS-split documentation
+
+Commands run:
+
+- Listing selector, template, partial, load-more, and sticky-widget audit
+- Dry-run and applied `node scripts/extract-family-css.js blog-listing`
+- `npm run build:css`
+- `php -l` on all three templates
+- Local rendered-link/status checks on listing, valid category, and valid tag routes
+- CSS asset HTTP checks and `git diff --check`
+
+Validation results:
+
+- Extracted 68 complete listing-only rules (12,660 source bytes; 10,868 minified bytes).
+- Thirty-six `body.blog-page` occurrences remain in core because their rules mix listing/detail or other families.
+- Listing, category, and tag routes returned 200 and each rendered exactly one versioned core + blog-listing pair with no compatibility main.
+- Core + blog listing is 675,271 bytes, a 34,144-byte (4.81%) reduction from the original minified baseline.
+- PHP syntax and diff checks passed.
+- Restricted browser remains unavailable; no Playwright fallback was used.
+
+Browser-smoke results: unavailable; cards, filters, taxonomy, sidebars/form, load-more, sticky behavior, columns, mobile layout, console/network remain manual.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: service interaction and responsive cascade behavior require human browser verification.
+Remaining risk: listing interaction, sticky, and responsive cascade behavior require human browser verification.
 
-Exact next action: finish deterministic validation, commit/push Phase 5, then migrate Blog listing/category/tag together.
+Exact next action: finish deterministic validation, commit/push Phase 6, then audit and migrate all 11 active blog-detail templates together.

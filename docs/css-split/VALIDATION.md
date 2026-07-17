@@ -123,3 +123,13 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - HTTP: all five canonical routes, non-default tab URL, dynamic content API, core, and services bundle returned 200.
 - Current transfer: 674,950-byte core + 231-byte services = 675,181 bytes, two requests (4.83% below original main minified).
 - Browser smoke: unavailable; representative interactive and responsive checks remain manual.
+
+## Phase 6 results — Blog listing
+
+- Safe extraction: 68 listing-only rules moved; 36 listing body-scope occurrences retained in mixed/shared rules.
+- PHP syntax (`blog.php`, `blog-category.php`, `blog-tag.php`): passed.
+- CSS build and diff check: passed.
+- Rendered links: listing/category/tag load versioned core then blog-listing, no compatibility main.
+- HTTP: listing, valid category, valid tag, core, and blog-listing bundle returned 200.
+- Current transfer: 664,403-byte core + 10,868-byte blog-listing = 675,271 bytes, two requests (4.81% below original main minified).
+- Browser smoke: unavailable; listing interaction/sticky/responsive checks remain manual.
