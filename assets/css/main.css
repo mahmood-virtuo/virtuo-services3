@@ -7001,20 +7001,6 @@ textarea {
     margin-bottom: 60px;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
-  body.about-page .about__img-wrap,
-  body.about-page .about__images {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-right: 0 !important;
-  }
-
-  body.about-page .about__images img {
-    width: 100% !important;
-    height: auto !important;
-    display: block;
-  }
-}
 .about__img-wrap .shape img {
   position: absolute;
   z-index: -1;
@@ -7318,232 +7304,6 @@ textarea {
 .about__content > p {
   margin-bottom: 25px;
   width: 95%;
-}
-
-body.about-page .about-mission-vision {
-  padding: 0 0 80px;
-}
-
-body.about-page .about-mv-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px;
-}
-
-body.about-page .about-mv-card {
-  position: relative;
-  min-height: 567px;
-  overflow: hidden;
-  border-radius: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-}
-
-body.about-page .about-mv-card__content {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  min-height: 567px;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 48px;
-  padding-bottom: 90px;
-  box-sizing: border-box;
-}
-
-body.about-page .about-mv-card__title {
-  margin-bottom: 24px;
-  color: #ee4c01;
-  font-size: 34px;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-body.about-page .about-mv-card__text {
-  max-width: 670px;
-}
-
-body.about-page .about-mv-card__text p {
-  margin-bottom: 20px;
-  color: #fff;
-  font-size: 17px;
-  line-height: 1.65;
-}
-
-body.about-page .about-mv-card__text p:last-child {
-  margin-bottom: 0;
-}
-
-body.about-page .about-btn {
-  background: #fff;
-  color: #232323;
-  border: 1px solid #232323;
-  border-radius: 10px;
-  padding: 13px 22px;
-  gap: 12px;
-  font-size: 15px;
-  font-weight: 500 !important;
-}
-
-body.about-page .about-btn::before {
-  background: #ee4c01;
-}
-
-body.about-page .about-btn:hover,
-body.about-page .about-btn:focus-visible {
-  background: #ee4c01;
-  color: #fff;
-  border-color: #ee4c01;
-}
-
-body.about-page .about-btn:hover svg path,
-body.about-page .about-btn:focus-visible svg path {
-  stroke: #fff;
-}
-
-body.about-page .about-story-section {
-  padding: 95px 0;
-  background: #e8f1ff;
-}
-
-body.about-page .about-story-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.92fr);
-  gap: 70px;
-  align-items: center;
-}
-
-body.about-page .about-story-label {
-  display: block;
-  margin-bottom: 14px;
-  color: #ee4c01;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-body.about-page .about-story-title {
-  margin-bottom: 28px;
-  color: var(--tg-heading-color);
-  font-size: 42px;
-  font-weight: 500;
-  line-height: 1.16;
-}
-
-body.about-page .about-story-highlight {
-  color: #ee4c01;
-  font-weight: 700;
-}
-
-body.about-page .about-story-content p {
-  max-width: 790px;
-  margin-bottom: 28px;
-  color: var(--tg-body-color);
-  font-size: 17px;
-  line-height: 1.7;
-}
-
-body.about-page .about-story-content p:last-child {
-  margin-bottom: 0;
-}
-
-body.about-page .about-story-image-wrap {
-  position: relative;
-  padding: 0 0 16px 16px;
-}
-
-body.about-page .about-story-image-wrap::before {
-  /* position: absolute;
-  left: 0;
-  bottom: 0;
-  width: calc(100% - 16px);
-  height: calc(100% - 16px);
-  content: "";
-  border-radius: 22px;
-  background: #ee4c01; */
-}
-
-body.about-page .about-story-image-wrap img {
-  position: relative;
-  z-index: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  object-fit: cover;
-}
-
-@media (max-width: 1199.98px) {
-  body.about-page .about-mv-card,
-  body.about-page .about-mv-card__content {
-    min-height: 500px;
-  }
-
-  body.about-page .about-mv-card__content {
-    padding: 38px;
-  }
-
-  body.about-page .about-story-layout {
-    gap: 42px;
-    grid-template-columns: minmax(0, 1fr) minmax(360px, 0.9fr);
-  }
-
-  body.about-page .about-story-title {
-    font-size: 36px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  body.about-page .about-mission-vision {
-    padding-bottom: 60px;
-  }
-
-  body.about-page .about-mv-grid,
-  body.about-page .about-story-layout {
-    grid-template-columns: 1fr;
-  }
-
-  body.about-page .about-mv-card,
-  body.about-page .about-mv-card__content {
-    min-height: 460px;
-  }
-
-  body.about-page .about-story-section {
-    padding: 70px 0;
-  }
-}
-
-@media (max-width: 575.98px) {
-  body.about-page .about-mv-card {
-    min-height: 420px;
-    border-radius: 16px;
-  }
-
-  body.about-page .about-mv-card__content {
-    min-height: 420px;
-    padding: 30px 24px;
-  }
-
-  body.about-page .about-mv-card__title {
-    font-size: 28px;
-    margin-bottom: 18px;
-  }
-
-  body.about-page .about-mv-card__text p {
-    font-size: 15px;
-    line-height: 1.6;
-  }
-
-  body.about-page .about-story-title {
-    font-size: 30px;
-  }
-
-  body.about-page .about-story-image-wrap {
-    padding: 0 0 10px 10px;
-  }
 }
 .about__content-bottom {
   display: -webkit-box;
@@ -33617,206 +33377,6 @@ body.blog-details-page .blog-us-uae-relocation .vt-panel + p {
   position: relative;
   z-index: 2;
 }
-/* -----------About Page Why Choose Us Section Responsive Fixes----------- */
-/* About page - Why Virtuo image badge position fix */
-body.about-page .choose__area-five .about-eye-visual {
-  position: relative;
-  max-width: 680px;
-  margin-left: auto;
-  margin-right: 0;
-  padding-bottom: 55px;
-}
-
-body.about-page .choose__area-five .about-eye-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-}
-
-body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-two {
-  position: absolute;
-  left: auto;
-  top: auto;
-  right: -56px;
-  bottom: 6px;
-  margin: 0;
-  z-index: 5;
-  transform: none;
-  transform-origin: center;
-  display: block;
-}
-
-/* About page consistent two-column layout */
-body.about-page {
-  --about-split-gap: clamp(56px, 5.2vw, 92px);
-  /* --about-media-max: 680px; */
-  /* --about-text-max: 720px; */
-}
-
-body.about-page .about-page-container {
-  position: relative;
-}
-
-@media (min-width: 992px) {
-  body.about-page .about-split-row {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    column-gap: var(--about-split-gap);
-    align-items: center;
-    margin-left: 0;
-    margin-right: 0;
-    --bs-gutter-x: 0;
-  }
-
-  body.about-page .about-split-row > [class*="col-"] {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  body.about-page .about-split-row .about__img-wrap,
-  body.about-page .about-split-row .about__img-four,
-  body.about-page .about-split-row .about-eye-visual {
-    width: 100%;
-    max-width: var(--about-media-max);
-  }
-
-  body.about-page .about-split-row .about__content,
-  body.about-page .about-split-row .about__content-four,
-  body.about-page .about-split-row .choose__content-five {
-    width: 100%;
-    max-width: var(--about-text-max);
-  }
-
-  body.about-page .about-intro-section .about__img-wrap,
-  body.about-page .about-services-section .about__img-four {
-    margin-left: 0 !important;
-    margin-right: auto !important;
-  }
-
-  body.about-page .about-intro-section .about__content,
-  body.about-page .about-services-section .about__content-four {
-    margin-left: auto !important;
-    margin-right: 0 !important;
-  }
-
-  body.about-page .about-why-virtuo-section .choose__content-five {
-    margin-left: 0 !important;
-    margin-right: auto !important;
-  }
-
-  body.about-page .about-why-virtuo-section .about-eye-visual {
-    margin-left: auto !important;
-    margin-right: 0 !important;
-  }
-
-  body.about-page .about-story-layout {
-    column-gap: var(--about-split-gap);
-  }
-
-  body.about-page .about__area.section-py-130,
-  body.about-page .about-mission-vision,
-  body.about-page .about-story-section,
-  body.about-page .about__area-four.section-py-130,
-  body.about-page .choose__area-five.section-py-130,
-  body.about-page .virtuo-team.section-py-130 {
-    padding-top: 110px;
-    padding-bottom: 110px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  body.about-page .about-split-row {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 36px;
-  }
-
-  body.about-page .about-split-row > [class*="col-"] {
-    width: 100%;
-  }
-
-  body.about-page .about-split-row .about__img-wrap,
-  body.about-page .about-split-row .about__img-four,
-  body.about-page .about-split-row .about-eye-visual,
-  body.about-page .about-split-row .about__content,
-  body.about-page .about-split-row .about__content-four,
-  body.about-page .about-split-row .choose__content-five {
-    max-width: 100%;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  body.about-page .about__area.section-py-130,
-  body.about-page .about-mission-vision,
-  body.about-page .about-story-section,
-  body.about-page .about__area-four.section-py-130,
-  body.about-page .choose__area-five.section-py-130,
-  body.about-page .virtuo-team.section-py-130 {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
-}
-
-@media (max-width: 575.98px) {
-  body.about-page {
-    --about-split-gap: 30px;
-  }
-
-  body.about-page .about-split-row {
-    row-gap: 30px;
-  }
-
-  body.about-page .about__area.section-py-130,
-  body.about-page .about-mission-vision,
-  body.about-page .about-story-section,
-  body.about-page .about__area-four.section-py-130,
-  body.about-page .choose__area-five.section-py-130,
-  body.about-page .virtuo-team.section-py-130 {
-    padding-top: 56px;
-    padding-bottom: 56px;
-  }
-}
-
-/* Tablet */
-@media (max-width: 1199.98px) {
-  body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-two {
-    right: -36px;
-    bottom: 8px;
-    transform: scale(0.86);
-  }
-}
-
-/* When columns stack */
-@media (max-width: 991.98px) {
-  body.about-page .choose__area-five .about-eye-visual {
-    max-width: 680px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px;
-  }
-
-  body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-two {
-    right: -18px;
-    bottom: 8px;
-    transform: scale(0.78);
-  }
-}
-
-/* Mobile */
-@media (max-width: 575.98px) {
-  body.about-page .choose__area-five .about-eye-visual {
-    padding-bottom: 38px;
-  }
-
-  body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-two {
-    right: -8px;
-    bottom: 4px;
-    transform: scale(0.58);
-  }
-}
 /* Reusable Built For Entrepreneurs section */
 .virtuo-built-section {
   position: relative;
@@ -34638,13 +34198,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
 }
 /* Virtuo eye section: preserve desktop sizing, align tablet stacks to the content gutter */
 @media (min-width: 1200px) {
-  body.about-page .about-intro-section.section-py-130 {
-    padding-bottom: 110px;
-  }
-
-  body.about-page .about-mission-vision {
-    padding-top: 0;
-  }
 
   body.home-page .virtuo-eye-section .virtuo-eye-visual,
   body.contact-page .virtuo-eye-section .virtuo-eye-visual {
@@ -34652,18 +34205,9 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
     margin-left: 0;
     margin-right: auto;
   }
-
-  body.about-page .virtuo-eye-section .about-eye-visual {
-    max-width: 680px;
-    margin-left: auto;
-    margin-right: 0;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-  body.about-page .virtuo-eye-section .about-split-row {
-    grid-template-columns: 1fr;
-  }
 
   .virtuo-eye-section .virtuo-eye-media-col,
   .virtuo-eye-section .virtuo-eye-content-col {
@@ -34706,54 +34250,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
     margin-right: 0 !important;
   }
 
-  body.about-page .about-intro-section .about-split-row > [class*="col-"],
-  body.about-page .about-services-section .about-split-row > [class*="col-"] {
-    width: 100%;
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-
-  body.about-page .about-intro-section .about-split-row {
-    row-gap: 36px;
-  }
-
-  body.about-page .about-intro-section.section-py-130 {
-    padding-bottom: 100px;
-  }
-
-  body.about-page .about-mission-vision {
-    padding-top: 0;
-  }
-
-  body.about-page .about-intro-section .about__img-wrap {
-    margin-bottom: 0;
-  }
-
-  body.about-page .about-services-section.section-py-130 {
-    padding-top: 70px;
-  }
-
-  body.about-page .about-services-section .about-split-row {
-    row-gap: 50px;
-  }
-
-  body.about-page .about-services-section .about-split-row > .col-lg-6.col-md-10 {
-    margin-bottom: 0;
-  }
-
-  body.about-page .about-why-virtuo-section .about-split-row {
-    row-gap: 28px;
-  }
-
-  body.about-page .about-why-virtuo-section .virtuo-eye-content-col,
-  body.about-page .about-why-virtuo-section .about-why-virtuo-content {
-    margin-top: 0;
-  }
-
-  body.about-page .virtuo-team .virtuo-team__grid {
-    row-gap: 50px;
-  }
-
   .footer__area-five .footer__bottom-two > .row.align-items-center {
     align-items: flex-start !important;
   }
@@ -34769,23 +34265,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
     margin-top: 0;
     padding-top: 0;
   }
-
-  body.about-page .about-intro-section .about__img-wrap,
-  body.about-page .about-intro-section .about__img-wrap > div,
-  body.about-page .about-services-section .about__img-four,
-  body.about-page .about-services-section .about__img-four > div,
-  body.about-page .about-services-section .about__img-four > div > div {
-    width: 100%;
-    max-width: 100% !important;
-  }
-
-  body.about-page .about-intro-section .about__img-wrap img,
-  body.about-page .about-services-section .about__img-four img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 @media (max-width: 767.98px) {
@@ -34797,76 +34276,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
   body.home-page .virtuo-eye-section .choose__content-five,
   body.contact-page .virtuo-eye-section .choose__content-five {
     margin-top: 24px !important;
-  }
-
-  body.about-page .about-intro-section .about-split-row {
-    row-gap: 30px;
-  }
-
-  body.about-page .about-intro-section.section-py-130 {
-    padding-bottom: 80px;
-  }
-
-  body.about-page .about-mission-vision {
-    padding-top: 0;
-  }
-
-  body.about-page .about-intro-section .about__img-wrap {
-    margin-bottom: 0;
-  }
-
-  body.about-page .about-services-section.section-py-130 {
-    padding-top: 50px;
-  }
-
-  body.about-page .about-services-section .about-split-row {
-    row-gap: 35px;
-  }
-
-  body.about-page .about-services-section .about-split-row > .col-lg-6.col-md-10 {
-    margin-bottom: 0;
-  }
-
-  body.about-page .home-main-cta.cta__area-five {
-    /* padding-bottom: 0; */
-  }
-
-  body.about-page .about-why-virtuo-section.section-py-130 {
-    padding-top: 35px;
-  }
-
-  body.about-page .about-why-virtuo-section .about-split-row {
-    row-gap: 28px;
-  }
-
-  body.about-page .about-why-virtuo-section .about-eye-visual {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  body.about-page .about-why-virtuo-section .about-why-virtuo-content {
-    margin-top: 0;
-  }
-
-  body.about-page .virtuo-team .virtuo-team__grid {
-    row-gap: 50px;
-  }
-
-  body.about-page .about-intro-section .about__img-wrap,
-  body.about-page .about-intro-section .about__img-wrap > div,
-  body.about-page .about-services-section .about__img-four,
-  body.about-page .about-services-section .about__img-four > div,
-  body.about-page .about-services-section .about__img-four > div > div {
-    width: 100%;
-    max-width: 100% !important;
-  }
-
-  body.about-page .about-intro-section .about__img-wrap img,
-  body.about-page .about-services-section .about__img-four img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
   }
 }
 /* Hide Virtuo rotating circle icon on tablet and mobile only */
@@ -36916,3 +36325,600 @@ body.home-page .blog__post-area-six .blog__post-content {
     );
   }
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body.about-page .about__img-wrap,
+  body.about-page .about__images {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-right: 0 !important;
+  }
+
+  body.about-page .about__images img {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+  }
+}
+
+body.about-page .about-mission-vision {
+  padding: 0 0 80px;
+}
+
+body.about-page .about-mv-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+body.about-page .about-mv-card {
+  position: relative;
+  min-height: 567px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+
+body.about-page .about-mv-card__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 567px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 48px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+body.about-page .about-mv-card__title {
+  margin-bottom: 24px;
+  color: #ee4c01;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+body.about-page .about-mv-card__text {
+  max-width: 670px;
+}
+
+body.about-page .about-mv-card__text p {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+body.about-page .about-mv-card__text p:last-child {
+  margin-bottom: 0;
+}
+
+body.about-page .about-btn {
+  background: #fff;
+  color: #232323;
+  border: 1px solid #232323;
+  border-radius: 10px;
+  padding: 13px 22px;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: 500 !important;
+}
+
+body.about-page .about-btn::before {
+  background: #ee4c01;
+}
+
+body.about-page .about-btn:hover,
+body.about-page .about-btn:focus-visible {
+  background: #ee4c01;
+  color: #fff;
+  border-color: #ee4c01;
+}
+
+body.about-page .about-btn:hover svg path,
+body.about-page .about-btn:focus-visible svg path {
+  stroke: #fff;
+}
+
+body.about-page .about-story-section {
+  padding: 95px 0;
+  background: #e8f1ff;
+}
+
+body.about-page .about-story-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.92fr);
+  gap: 70px;
+  align-items: center;
+}
+
+body.about-page .about-story-label {
+  display: block;
+  margin-bottom: 14px;
+  color: #ee4c01;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+body.about-page .about-story-title {
+  margin-bottom: 28px;
+  color: var(--tg-heading-color);
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.16;
+}
+
+body.about-page .about-story-highlight {
+  color: #ee4c01;
+  font-weight: 700;
+}
+
+body.about-page .about-story-content p {
+  max-width: 790px;
+  margin-bottom: 28px;
+  color: var(--tg-body-color);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+body.about-page .about-story-content p:last-child {
+  margin-bottom: 0;
+}
+
+body.about-page .about-story-image-wrap {
+  position: relative;
+  padding: 0 0 16px 16px;
+}
+
+body.about-page .about-story-image-wrap::before {
+  /* position: absolute;
+  left: 0;
+  bottom: 0;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  content: "";
+  border-radius: 22px;
+  background: #ee4c01; */
+}
+
+body.about-page .about-story-image-wrap img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+@media (max-width: 1199.98px) {
+  body.about-page .about-mv-card,
+  body.about-page .about-mv-card__content {
+    min-height: 500px;
+  }
+
+  body.about-page .about-mv-card__content {
+    padding: 38px;
+  }
+
+  body.about-page .about-story-layout {
+    gap: 42px;
+    grid-template-columns: minmax(0, 1fr) minmax(360px, 0.9fr);
+  }
+
+  body.about-page .about-story-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body.about-page .about-mission-vision {
+    padding-bottom: 60px;
+  }
+
+  body.about-page .about-mv-grid,
+  body.about-page .about-story-layout {
+    grid-template-columns: 1fr;
+  }
+
+  body.about-page .about-mv-card,
+  body.about-page .about-mv-card__content {
+    min-height: 460px;
+  }
+
+  body.about-page .about-story-section {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.about-page .about-mv-card {
+    min-height: 420px;
+    border-radius: 16px;
+  }
+
+  body.about-page .about-mv-card__content {
+    min-height: 420px;
+    padding: 30px 24px;
+  }
+
+  body.about-page .about-mv-card__title {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
+
+  body.about-page .about-mv-card__text p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  body.about-page .about-story-title {
+    font-size: 30px;
+  }
+
+  body.about-page .about-story-image-wrap {
+    padding: 0 0 10px 10px;
+  }
+}
+/* -----------About Page Why Choose Us Section Responsive Fixes----------- */
+/* About page - Why Virtuo image badge position fix */
+body.about-page .choose__area-five .about-eye-visual {
+  position: relative;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: 0;
+  padding-bottom: 55px;
+}
+
+body.about-page .choose__area-five .about-eye-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-two {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -56px;
+  bottom: 6px;
+  margin: 0;
+  z-index: 5;
+  transform: none;
+  transform-origin: center;
+  display: block;
+}
+
+/* About page consistent two-column layout */
+body.about-page {
+  --about-split-gap: clamp(56px, 5.2vw, 92px);
+  /* --about-media-max: 680px; */
+  /* --about-text-max: 720px; */
+}
+
+body.about-page .about-page-container {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  body.about-page .about-split-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: var(--about-split-gap);
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    --bs-gutter-x: 0;
+  }
+
+  body.about-page .about-split-row > [class*="col-"] {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.about-page .about-split-row .about__img-wrap,
+  body.about-page .about-split-row .about__img-four,
+  body.about-page .about-split-row .about-eye-visual {
+    width: 100%;
+    max-width: var(--about-media-max);
+  }
+
+  body.about-page .about-split-row .about__content,
+  body.about-page .about-split-row .about__content-four,
+  body.about-page .about-split-row .choose__content-five {
+    width: 100%;
+    max-width: var(--about-text-max);
+  }
+
+  body.about-page .about-intro-section .about__img-wrap,
+  body.about-page .about-services-section .about__img-four {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  body.about-page .about-intro-section .about__content,
+  body.about-page .about-services-section .about__content-four {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  body.about-page .about-why-virtuo-section .choose__content-five {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  body.about-page .about-why-virtuo-section .about-eye-visual {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  body.about-page .about-story-layout {
+    column-gap: var(--about-split-gap);
+  }
+
+  body.about-page .about__area.section-py-130,
+  body.about-page .about-mission-vision,
+  body.about-page .about-story-section,
+  body.about-page .about__area-four.section-py-130,
+  body.about-page .choose__area-five.section-py-130,
+  body.about-page .virtuo-team.section-py-130 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body.about-page .about-split-row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 36px;
+  }
+
+  body.about-page .about-split-row > [class*="col-"] {
+    width: 100%;
+  }
+
+  body.about-page .about-split-row .about__img-wrap,
+  body.about-page .about-split-row .about__img-four,
+  body.about-page .about-split-row .about-eye-visual,
+  body.about-page .about-split-row .about__content,
+  body.about-page .about-split-row .about__content-four,
+  body.about-page .about-split-row .choose__content-five {
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  body.about-page .about__area.section-py-130,
+  body.about-page .about-mission-vision,
+  body.about-page .about-story-section,
+  body.about-page .about__area-four.section-py-130,
+  body.about-page .choose__area-five.section-py-130,
+  body.about-page .virtuo-team.section-py-130 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.about-page {
+    --about-split-gap: 30px;
+  }
+
+  body.about-page .about-split-row {
+    row-gap: 30px;
+  }
+
+  body.about-page .about__area.section-py-130,
+  body.about-page .about-mission-vision,
+  body.about-page .about-story-section,
+  body.about-page .about__area-four.section-py-130,
+  body.about-page .choose__area-five.section-py-130,
+  body.about-page .virtuo-team.section-py-130 {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1199.98px) {
+  body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-two {
+    right: -36px;
+    bottom: 8px;
+    transform: scale(0.86);
+  }
+}
+
+/* When columns stack */
+@media (max-width: 991.98px) {
+  body.about-page .choose__area-five .about-eye-visual {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+  }
+
+  body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-two {
+    right: -18px;
+    bottom: 8px;
+    transform: scale(0.78);
+  }
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+  body.about-page .choose__area-five .about-eye-visual {
+    padding-bottom: 38px;
+  }
+
+  body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-two {
+    right: -8px;
+    bottom: 4px;
+    transform: scale(0.58);
+  }
+}
+/* Virtuo eye section: preserve desktop sizing, align tablet stacks to the content gutter */
+@media (min-width: 1200px) {
+  body.about-page .about-intro-section.section-py-130 {
+    padding-bottom: 110px;
+  }
+
+  body.about-page .about-mission-vision {
+    padding-top: 0;
+  }
+
+  body.about-page .virtuo-eye-section .about-eye-visual {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: 0;
+  }}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  body.about-page .virtuo-eye-section .about-split-row {
+    grid-template-columns: 1fr;
+  }
+
+  body.about-page .about-intro-section .about-split-row > [class*="col-"],
+  body.about-page .about-services-section .about-split-row > [class*="col-"] {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  body.about-page .about-intro-section .about-split-row {
+    row-gap: 36px;
+  }
+
+  body.about-page .about-intro-section.section-py-130 {
+    padding-bottom: 100px;
+  }
+
+  body.about-page .about-mission-vision {
+    padding-top: 0;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap {
+    margin-bottom: 0;
+  }
+
+  body.about-page .about-services-section.section-py-130 {
+    padding-top: 70px;
+  }
+
+  body.about-page .about-services-section .about-split-row {
+    row-gap: 50px;
+  }
+
+  body.about-page .about-services-section .about-split-row > .col-lg-6.col-md-10 {
+    margin-bottom: 0;
+  }
+
+  body.about-page .about-why-virtuo-section .about-split-row {
+    row-gap: 28px;
+  }
+
+  body.about-page .about-why-virtuo-section .virtuo-eye-content-col,
+  body.about-page .about-why-virtuo-section .about-why-virtuo-content {
+    margin-top: 0;
+  }
+
+  body.about-page .virtuo-team .virtuo-team__grid {
+    row-gap: 50px;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap,
+  body.about-page .about-intro-section .about__img-wrap > div,
+  body.about-page .about-services-section .about__img-four,
+  body.about-page .about-services-section .about__img-four > div,
+  body.about-page .about-services-section .about__img-four > div > div {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap img,
+  body.about-page .about-services-section .about__img-four img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }}
+
+@media (max-width: 767.98px) {
+
+  body.about-page .about-intro-section .about-split-row {
+    row-gap: 30px;
+  }
+
+  body.about-page .about-intro-section.section-py-130 {
+    padding-bottom: 80px;
+  }
+
+  body.about-page .about-mission-vision {
+    padding-top: 0;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap {
+    margin-bottom: 0;
+  }
+
+  body.about-page .about-services-section.section-py-130 {
+    padding-top: 50px;
+  }
+
+  body.about-page .about-services-section .about-split-row {
+    row-gap: 35px;
+  }
+
+  body.about-page .about-services-section .about-split-row > .col-lg-6.col-md-10 {
+    margin-bottom: 0;
+  }
+
+  body.about-page .home-main-cta.cta__area-five {
+    /* padding-bottom: 0; */
+  }
+
+  body.about-page .about-why-virtuo-section.section-py-130 {
+    padding-top: 35px;
+  }
+
+  body.about-page .about-why-virtuo-section .about-split-row {
+    row-gap: 28px;
+  }
+
+  body.about-page .about-why-virtuo-section .about-eye-visual {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  body.about-page .about-why-virtuo-section .about-why-virtuo-content {
+    margin-top: 0;
+  }
+
+  body.about-page .virtuo-team .virtuo-team__grid {
+    row-gap: 50px;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap,
+  body.about-page .about-intro-section .about__img-wrap > div,
+  body.about-page .about-services-section .about__img-four,
+  body.about-page .about-services-section .about__img-four > div,
+  body.about-page .about-services-section .about__img-four > div > div {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  body.about-page .about-intro-section .about__img-wrap img,
+  body.about-page .about-services-section .about__img-four img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }}

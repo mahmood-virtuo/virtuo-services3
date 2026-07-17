@@ -93,3 +93,13 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - Current transfer: 699,471-byte core + 9,926-byte home = 709,397 bytes, two requests.
 - Browser smoke: attempted through the required lightweight in-app browser, but initialization failed because runtime metadata was unavailable. No Playwright fallback was used.
 - Manual checks remaining: desktop and mobile header, slider/mobile slider, marquees, About, eye section, latest blogs, CTA, footer, forms, scroll-to-top, horizontal overflow, missing images/CSS, and new console errors.
+
+## Phase 3 results — About
+
+- Safe extraction: 97 About-only rules moved; four mixed/shared selector rules retained in core.
+- PHP syntax (`about.php`): passed.
+- CSS build and diff check: passed.
+- Rendered links: versioned core then about; no compatibility main.
+- HTTP: page, core, and about bundle returned 200.
+- Current transfer: 687,877-byte core + 11,798-byte about = 699,675 bytes, two requests (1.37% below original main minified).
+- Browser smoke: unavailable; required About desktop/mobile visual checks remain manual.

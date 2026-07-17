@@ -11,16 +11,16 @@
 
 ## Current phase
 
-Phase 2 — home family. Conservative extraction, centralized loading, and command-line validation are complete; commit and push are pending.
+Phase 3 — About family. Conservative extraction, loading, and command-line validation are complete; commit and push are pending.
 
 ## Completed phases
 
 - Phase 0 — baseline and inventory (`5ab29c2`, pushed to `origin/testing`)
 - Phase 1 — deterministic multi-bundle build architecture (`bf3a8ff`, pushed to `origin/testing`)
+- Phase 2 — home family (`066ddc9`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 2 home
 - Phase 3 about
 - Phase 4 contact
 - Phase 5 services
@@ -146,10 +146,48 @@ Validation results:
 
 Browser-smoke results: unavailable; desktop/mobile homepage checks remain manual.
 
+Commit SHA: `066ddc9`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: desktop/mobile visual cascade, slider, marquee, CTA, footer/form, image, overflow, and console/network checks require human browser verification.
+
+Exact next action: migrate the About family while retaining all mixed/shared selectors in core.
+
+### Phase 3 — About family
+
+Files changed:
+
+- `assets/css/src/core.css`
+- `assets/css/src/pages/about.css`
+- Generated core/about/compatibility CSS outputs
+- `about.php`
+- CSS-split documentation
+
+Commands run:
+
+- About selector context audit
+- Dry-run and applied `node scripts/extract-family-css.js about`
+- `npm run build:css`
+- `php -l about.php`
+- Local rendered-link and CSS HTTP checks
+- `git diff --check`
+
+Validation results:
+
+- Extracted 97 complete About-only rules (13,880 source bytes; 11,798 minified bytes).
+- Four mixed About/home/contact/blog or unscoped/shared selector rules remain in core.
+- About rendered HTML loads versioned core then about, no compatibility main; page and both bundles return 200.
+- Core + about is 699,675 bytes, a 9,740-byte (1.37%) reduction from the original minified baseline.
+- PHP syntax and diff checks passed.
+- Restricted browser remains unavailable; no Playwright fallback was used.
+
+Browser-smoke results: unavailable; desktop/mobile hero, mission/vision, story, service-image spacing, eye image, stacking, footer, and forms remain manual.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: desktop/mobile visual cascade, slider, marquee, CTA, footer/form, image, overflow, and console/network checks require human browser verification.
+Remaining risk: About desktop/mobile cascade and responsive visual behavior require human browser verification.
 
-Exact next action: commit and push Phase 2, then migrate the About family while retaining all mixed/shared selectors in core.
+Exact next action: finish deterministic validation, commit/push Phase 3, then migrate Contact.
