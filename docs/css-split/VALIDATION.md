@@ -144,3 +144,13 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - Representative specialized markup/JS: detail 2, tax, AI-company, and Emirates-map checks passed.
 - Current transfer: 556,139-byte core + 108,573-byte blog-details = 664,712 bytes, two requests (6.30% below original main minified).
 - Browser smoke: unavailable; representative article interaction and responsive checks remain manual.
+
+## Phase 8 results — Legal
+
+- Safe extraction: none; no legal-specific CSS selector was present, so shared typography/layout stays in core.
+- PHP syntax (`privacy-policy.php`, `terms-conditions.php`): passed.
+- CSS build and diff check: passed.
+- Rendered links: both legal routes load versioned core then legal, no compatibility main.
+- HTTP: both legal routes, core, and legal placeholder bundle returned 200.
+- Current transfer: 556,139-byte core + 50-byte legal = 556,189 bytes, two requests (21.60% below original main minified).
+- Browser smoke: unavailable; legal desktop/mobile visual checks remain manual.

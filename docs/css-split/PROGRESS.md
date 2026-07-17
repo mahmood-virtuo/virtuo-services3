@@ -11,7 +11,7 @@
 
 ## Current phase
 
-Phase 7 — Blog-detail family. All 11 routed templates and article-specific command-line checks are complete; commit and push are pending.
+Phase 8 — Legal family. Both templates are switched and command-line validation is complete; commit and push are pending.
 
 ## Completed phases
 
@@ -22,10 +22,10 @@ Phase 7 — Blog-detail family. All 11 routed templates and article-specific com
 - Phase 4 — Contact family (`d5141bb`, pushed to `origin/testing`)
 - Phase 5 — Services family (`b659810`, pushed to `origin/testing`)
 - Phase 6 — Blog listing family (`4a0cec4`, pushed to `origin/testing`)
+- Phase 7 — Blog-detail family (`84bd724`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 7 blog details
 - Phase 8 legal
 - Phase 9 error
 - Phase 10 final audit
@@ -340,10 +340,45 @@ Validation results:
 
 Browser-smoke results: unavailable; standard, interactive, AI/tax/Emirates components and distributed desktop/mobile behavior remain manual.
 
+Commit SHA: `84bd724`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: article component cascade, interactive states, tables/overflow, sticky widgets, and responsive behavior require human browser verification.
+
+Exact next action: migrate the two Legal templates, moving no generic typography without conclusive ownership evidence.
+
+### Phase 8 — Legal family
+
+Files changed:
+
+- `privacy-policy.php`
+- `terms-conditions.php`
+- CSS-split documentation
+
+Commands run:
+
+- Legal wrapper/class and CSS selector audit
+- `npm run build:css`
+- `php -l` on both templates
+- Local rendered-link/status and legal wrapper checks
+- CSS asset HTTP checks and `git diff --check`
+
+Validation results:
+
+- No legal-specific rule exists in core; the templates use shared breadcrumb, typography, grid, spacing, header, and footer rules. No generic rule was moved without evidence.
+- The generated legal bundle remains the deterministic 50-byte valid placeholder.
+- Both legal routes returned 200 and each rendered exactly one versioned core + legal pair with no compatibility main.
+- Core + legal is 556,189 bytes, a 153,226-byte (21.60%) reduction from the original minified baseline.
+- PHP syntax and diff checks passed.
+- Restricted browser remains unavailable; no Playwright fallback was used.
+
+Browser-smoke results: unavailable; shared hero, mobile hero, typography, content width/lists, footer alignment, and responsive behavior remain manual.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: article component cascade, interactive states, tables/overflow, sticky widgets, and responsive behavior require human browser verification.
+Remaining risk: legal desktop/mobile visual behavior requires human browser verification; no legal-only CSS was isolated because none was conclusively present.
 
-Exact next action: finish deterministic validation, commit/push Phase 7, then migrate the two Legal templates.
+Exact next action: finish deterministic validation, commit/push Phase 8, then migrate `error.php` without changing routing or 404 status behavior.
