@@ -11,7 +11,7 @@
 
 ## Current phase
 
-Phase 10 — final audit. All command-line, route, asset, build, watcher, syntax, size, and workflow checks are complete; final documentation commit and push are pending.
+Complete — Phase 10 command-line validation and its staging workflow succeeded. Only the explicitly documented manual browser matrix remains.
 
 ## Completed phases
 
@@ -25,10 +25,11 @@ Phase 10 — final audit. All command-line, route, asset, build, watcher, syntax
 - Phase 7 — Blog-detail family (`84bd724`, pushed to `origin/testing`)
 - Phase 8 — Legal family (`4a8df08`, pushed to `origin/testing`)
 - Phase 9 — Error family (`1f8cf10`, pushed to `origin/testing`)
+- Phase 10 — final audit (`c69f5d6`, pushed to `origin/testing`; workflow succeeded)
 
 ## Pending phases
 
-- Phase 10 final audit
+None. Do not resume code migration unless manual browser verification finds a regression.
 
 ## Phase log
 
@@ -100,7 +101,7 @@ Validation results:
 - Representative page, taxonomy, blog-detail, legal, main CSS, core CSS, and family CSS requests returned expected 200 statuses; invalid route remained 404.
 - Active templates remain on compatibility `main.min.css` in this architecture-only phase.
 - `git diff --check`: passed after comment-only indentation normalization.
-- Browser smoke: not applicable because delivered CSS and template loading are unchanged and compatibility hashes are exact.
+- Browser smoke: not applicable because delivered CSS and template loading are unchanged and compatibility declaration content is equivalent.
 
 Commit SHA: `bf3a8ff`.
 
@@ -457,7 +458,7 @@ Validation results:
 - Final watcher test triggered exactly one CSS rebuild from one source timestamp event and did not loop on generated outputs.
 - `git diff --check` passed; pre-documentation working tree was clean.
 - No `.github`, `.htaccess`, router, server, sitemap, production destination, or main-branch file/reference was modified. The only safety-sensitive template changed was the explicitly authorized `error.php` stylesheet link.
-- All ten testing checkpoint workflow runs through `1f8cf10` completed successfully. Unauthenticated `https://staging.virtuo.ae/` returned expected HTTP 401.
+- All eleven testing checkpoint workflow runs through final audit commit `c69f5d6` completed successfully. Unauthenticated `https://staging.virtuo.ae/` returned expected HTTP 401.
 - Restricted browser smoke could not run because the in-app browser runtime metadata was unavailable. Standalone Playwright was not used.
 
 Final sizes and transfer totals:
@@ -477,10 +478,10 @@ Final core: 555,248 bytes. Compatibility `main.css`: 832,762 bytes. Compatibilit
 
 Rules deliberately retained in core: mixed listing/detail responsive and sidebar rules; mixed home/about/contact eye-section rules; mixed family breadcrumb/marquee spacing; shared header/navigation/mega-menu/mobile-menu/footer/forms/phone-field/CTA/breadcrumb/marquee/scroll/service-sidebar utilities; all unscoped or uncertain ownership. Remaining body-scope occurrence counts are 39 detail, 36 listing, 7 contact, 5 home, 5 About, and 2 service occurrences, all inside mixed/shared rules.
 
-Commit SHA: pending.
+Commit SHA: `c69f5d6`.
 
-Pushed: no.
+Pushed: yes, to `origin/testing`. GitHub Actions run `29614735239` succeeded.
 
 Remaining risk: loading family CSS after core necessarily changes physical rule position for extracted rules. Classification was restricted to high-confidence scopes and declaration/specificity/query order within each destination was preserved, but command-line checks cannot prove the full visual cascade. All requested desktop/mobile visual, console, network-failure, overflow, image, sticky, slider, form, tab, chart, table, and interaction smoke checks remain manual.
 
-Exact next action: commit and push the Phase 10 documentation checkpoint, confirm its testing workflow succeeds, then record the checkpoint SHA and leave the worktree clean. Do not resume code migration unless a manual browser regression is reported.
+Exact next action: perform the manual browser matrix in `VALIDATION.md`. Do not resume code migration unless that verification reports a regression.

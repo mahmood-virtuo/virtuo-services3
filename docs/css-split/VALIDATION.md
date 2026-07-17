@@ -177,7 +177,7 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - CSS build: passed twice; complete generated SHA-256 sets matched.
 - Watcher: one source timestamp event produced one CSS build and no output loop.
 - Git checks: `git diff --check` passed; no deployment/routing/server/sitemap/main config changed.
-- Testing deployment: all checkpoint GitHub Actions runs through `1f8cf10` succeeded; staging unauthenticated response is expected 401.
+- Testing deployment: all checkpoint GitHub Actions runs through final audit `c69f5d6` succeeded; final run `29614735239` passed and staging unauthenticated response is expected 401.
 - Browser smoke: unavailable because the lightweight in-app browser could not initialize. No standalone Playwright fallback was used.
 
 ### Manual browser matrix still required
