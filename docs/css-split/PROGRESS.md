@@ -11,7 +11,7 @@
 
 ## Current phase
 
-Phase 8 — Legal family. Both templates are switched and command-line validation is complete; commit and push are pending.
+Phase 9 — Error family. Exclusive error rules, loader switch, and 404 status/assets are validated; commit and push are pending.
 
 ## Completed phases
 
@@ -23,10 +23,10 @@ Phase 8 — Legal family. Both templates are switched and command-line validatio
 - Phase 5 — Services family (`b659810`, pushed to `origin/testing`)
 - Phase 6 — Blog listing family (`4a0cec4`, pushed to `origin/testing`)
 - Phase 7 — Blog-detail family (`84bd724`, pushed to `origin/testing`)
+- Phase 8 — Legal family (`4a8df08`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 8 legal
 - Phase 9 error
 - Phase 10 final audit
 
@@ -375,10 +375,51 @@ Validation results:
 
 Browser-smoke results: unavailable; shared hero, mobile hero, typography, content width/lists, footer alignment, and responsive behavior remain manual.
 
+Commit SHA: `4a8df08`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: legal desktop/mobile visual behavior requires human browser verification; no legal-only CSS was isolated because none was conclusively present.
+
+Exact next action: migrate `error.php` without changing routing or 404 status behavior, using repository-proven exclusive error selectors.
+
+### Phase 9 — Error family
+
+Files changed:
+
+- `assets/css/src/core.css`
+- `assets/css/src/pages/error.css`
+- Generated core/error/compatibility CSS outputs
+- `error.php`
+- `scripts/extract-family-css.js` (safe allowlisted selector-prefix support for the unscoped error section)
+- CSS-split documentation
+
+Commands run:
+
+- Error template/class usage audit across active sources
+- Node syntax and dry-run of the extended extractor
+- Applied `node scripts/extract-family-css.js error`
+- `npm run build:css`
+- `php -l error.php`
+- Invalid-route rendered-link/status/content checks
+- Core/error/icon asset HTTP checks and `git diff --check`
+
+Validation results:
+
+- Repository evidence showed `.error-area`, `.error-img`, and `.error-content` selectors are exclusive to `error.php`; 13 complete rules moved (1,125 source bytes; 891 minified bytes) with selectors unchanged.
+- No error selector remains in core.
+- A representative invalid route remained HTTP 404, rendered the existing 404 content, and loaded one versioned core + error pair with no compatibility main.
+- Core, error bundle, and root-relative button icon returned 200.
+- Core + error is 556,139 bytes, a 153,276-byte (21.61%) reduction from the original minified baseline.
+- PHP/Node syntax and diff checks passed. No routing file was modified.
+- Restricted browser remains unavailable; no Playwright fallback was used.
+
+Browser-smoke results: unavailable; existing 404 design at desktop/mobile remains manual.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: legal desktop/mobile visual behavior requires human browser verification; no legal-only CSS was isolated because none was conclusively present.
+Remaining risk: 404 visual cascade/responsiveness requires human browser verification; status and asset-path behavior passed command-line checks.
 
-Exact next action: finish deterministic validation, commit/push Phase 8, then migrate `error.php` without changing routing or 404 status behavior.
+Exact next action: finish deterministic validation, commit/push Phase 9, then run the final active-template, loader, build, watcher, route, and size audit.

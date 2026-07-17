@@ -29,6 +29,11 @@ const familyConfig = Object.freeze({
     ],
     output: "blog-details.css",
   },
+  error: {
+    bodyClasses: [],
+    selectorPrefixes: [".error-area", ".error-img", ".error-content"],
+    output: "error.css",
+  },
 });
 const groupAtRulePattern = /^@(media|supports|container|layer|scope|starting-style)\b/i;
 
@@ -178,14 +183,23 @@ function splitSelectors(prelude) {
   return selectors;
 }
 
-function selectorBelongsToFamily(selector, bodyClasses) {
-  return bodyClasses.some((bodyClass) => {
+function selectorBelongsToFamily(selector, config) {
+  const matchesBodyClass = (config.bodyClasses || []).some((bodyClass) => {
     const escapedClass = bodyClass.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     return new RegExp(`body\\.${escapedClass}(?![a-zA-Z0-9_-])`).test(selector);
   });
+
+  if (matchesBodyClass) {
+    return true;
+  }
+
+  return (config.selectorPrefixes || []).some((prefix) => {
+    const escapedPrefix = prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return new RegExp(`^${escapedPrefix}(?![a-zA-Z0-9_-])`).test(selector);
+  });
 }
 
-function transformBlock(source, start, end, bodyClasses, isRoot = false) {
+function transformBlock(source, start, end, config, isRoot = false) {
   let cursor = start;
   let core = "";
   let family = "";
@@ -222,7 +236,7 @@ function transformBlock(source, start, end, bodyClasses, isRoot = false) {
     const completeNode = source.slice(nodeStartWithTrivia, close + 1);
 
     if (groupAtRulePattern.test(prelude)) {
-      const nested = transformBlock(source, delimiter + 1, close, bodyClasses);
+      const nested = transformBlock(source, delimiter + 1, close, config);
 
       if (nested.coreRuleCount > 0) {
         core += prefix + opening + nested.core + "}";
@@ -239,7 +253,7 @@ function transformBlock(source, start, end, bodyClasses, isRoot = false) {
     } else {
       const selectors = splitSelectors(prelude);
       const belongsToFamily = selectors.length > 0 && selectors.every(
-        (selector) => selectorBelongsToFamily(selector, bodyClasses)
+        (selector) => selectorBelongsToFamily(selector, config)
       );
 
       if (belongsToFamily) {
@@ -275,14 +289,15 @@ function main() {
     throw new Error(`Refusing to overwrite non-empty family source: ${path.relative(projectRoot, familyPath)}`);
   }
 
-  const result = transformBlock(coreSource, 0, coreSource.length, config.bodyClasses, true);
+  const result = transformBlock(coreSource, 0, coreSource.length, config, true);
 
   if (result.movedRuleCount === 0 || result.family.trim() === "" || result.core.trim() === "") {
     throw new Error(`Safe extraction found no movable ${familyName} rules.`);
   }
 
-  const parsedCore = transformBlock(result.core, 0, result.core.length, [], true);
-  const parsedFamily = transformBlock(result.family, 0, result.family.length, [], true);
+  const validationConfig = { bodyClasses: [], selectorPrefixes: [] };
+  const parsedCore = transformBlock(result.core, 0, result.core.length, validationConfig, true);
+  const parsedFamily = transformBlock(result.family, 0, result.family.length, validationConfig, true);
   const totalAfter = parsedCore.coreRuleCount + parsedFamily.coreRuleCount;
   const totalBefore = result.coreRuleCount + result.familyRuleCount;
 
