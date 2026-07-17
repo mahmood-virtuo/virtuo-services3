@@ -10095,21 +10095,6 @@ textarea {
   min-height: 300px;
   object-fit: cover;
 }
-@media (max-width: 767.98px) {
-  body.service-page .services__details-thumb {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  body.service-page .services__details-thumb img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    min-height: 0;
-    object-fit: contain;
-  }
-}
 .services__details-thumb-two {
   margin-bottom: 40px;
 }

@@ -63,7 +63,10 @@ $faqs = virtuo_digital_service_extract_faqs($digitalActiveHtml);
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/main.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php
+    $virtuoCssFamily = 'services';
+    include __DIR__ . '/partials/main-styles.php';
+    ?>
 </head>
 
 <body class="service-page digital-marketing-page" data-digital-service-page data-current-digital-service="<?php echo htmlspecialchars($digitalActiveSlug, ENT_QUOTES, 'UTF-8'); ?>">

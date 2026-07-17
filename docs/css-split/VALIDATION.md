@@ -113,3 +113,13 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - HTTP: page, core, and contact bundle returned 200.
 - Current transfer: 675,181-byte core + 12,750-byte contact = 687,931 bytes, two requests (3.03% below original main minified).
 - Browser smoke: unavailable; contact desktop/mobile layout and functional form checks remain manual.
+
+## Phase 5 results — Services
+
+- Safe extraction: two fully service-body-scoped rules moved; unscoped/shared service components retained in core.
+- PHP syntax (all five service templates): passed.
+- CSS build and diff check: passed.
+- Rendered links: all five routes and a Digital Marketing tab query load versioned core then services, no compatibility main.
+- HTTP: all five canonical routes, non-default tab URL, dynamic content API, core, and services bundle returned 200.
+- Current transfer: 674,950-byte core + 231-byte services = 675,181 bytes, two requests (4.83% below original main minified).
+- Browser smoke: unavailable; representative interactive and responsive checks remain manual.

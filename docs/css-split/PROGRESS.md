@@ -11,7 +11,7 @@
 
 ## Current phase
 
-Phase 4 — Contact family. Conservative extraction, loading, and command-line validation are complete; commit and push are pending.
+Phase 5 — Services family. All five templates, dynamic content route, and conservative extraction are validated; commit and push are pending.
 
 ## Completed phases
 
@@ -19,10 +19,10 @@ Phase 4 — Contact family. Conservative extraction, loading, and command-line v
 - Phase 1 — deterministic multi-bundle build architecture (`bf3a8ff`, pushed to `origin/testing`)
 - Phase 2 — home family (`066ddc9`, pushed to `origin/testing`)
 - Phase 3 — About family (`aa353e5`, pushed to `origin/testing`)
+- Phase 4 — Contact family (`d5141bb`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 4 contact
 - Phase 5 services
 - Phase 6 blog listing
 - Phase 7 blog details
@@ -222,10 +222,50 @@ Validation results:
 
 Browser-smoke results: unavailable; desktop/mobile contact form, intl-tel-input, AJAX styling, FAQ, responsive layout, map/CTA overlap, footer, and console/network behavior remain manual.
 
+Commit SHA: `d5141bb`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: Contact desktop/mobile visual and form-interaction checks require human browser verification.
+
+Exact next action: migrate all five service templates together while keeping reusable service/sidebar primitives in core.
+
+### Phase 5 — Services family
+
+Files changed:
+
+- `assets/css/src/core.css`
+- `assets/css/src/pages/services.css`
+- Generated core/services/compatibility CSS outputs
+- All five active service PHP templates
+- CSS-split documentation
+
+Commands run:
+
+- Service template, AJAX partial, and JavaScript-added class audit
+- Dry-run and applied `node scripts/extract-family-css.js services`
+- `npm run build:css`
+- `php -l` on all five templates
+- Local rendered-link/status checks on all five routes plus a Digital Marketing tab query
+- Dynamic content API status/payload check with a non-default tab
+- CSS asset HTTP checks and `git diff --check`
+
+Validation results:
+
+- Extracted two complete service-only responsive image rules (299 source bytes; 231 minified bytes).
+- Reusable sidebar tabs, nested tabs, breadcrumb, FAQ, work/process, CTA, forms, and AJAX dynamic-content primitives remain in core because they are unscoped or shared/uncertain.
+- All five service routes and a non-default Digital Marketing tab query returned 200 and each rendered exactly one versioned core + services pair with no compatibility main.
+- Dynamic content API returned 200 and the requested non-default tab payload.
+- Core + services is 675,181 bytes, a 34,234-byte (4.83%) reduction from the original minified baseline.
+- PHP syntax and diff checks passed.
+- Restricted browser remains unavailable; no Playwright fallback was used.
+
+Browser-smoke results: unavailable; representative desktop/mobile service, sidebar/tab states, Digital Marketing tab transition, breadcrumb, FAQ, CTA/forms, and responsive checks remain manual.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: Contact desktop/mobile visual and form-interaction checks require human browser verification.
+Remaining risk: service interaction and responsive cascade behavior require human browser verification.
 
-Exact next action: finish deterministic validation, commit/push Phase 4, then migrate all five service templates together.
+Exact next action: finish deterministic validation, commit/push Phase 5, then migrate Blog listing/category/tag together.
