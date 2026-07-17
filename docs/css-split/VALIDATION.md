@@ -133,3 +133,14 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - HTTP: listing, valid category, valid tag, core, and blog-listing bundle returned 200.
 - Current transfer: 664,403-byte core + 10,868-byte blog-listing = 675,271 bytes, two requests (4.81% below original main minified).
 - Browser smoke: unavailable; listing interaction/sticky/responsive checks remain manual.
+
+## Phase 7 results — Blog details
+
+- Safe extraction: 647 detail-only rules moved; 39 detail scope occurrences retained in listing/detail mixed rules.
+- PHP syntax (all 11 detail templates): passed.
+- CSS build and diff check: passed.
+- Rendered links: all 11 canonical routes load versioned core then blog-details, no compatibility main.
+- HTTP: all 11 canonical routes, core, and blog-details bundle returned 200.
+- Representative specialized markup/JS: detail 2, tax, AI-company, and Emirates-map checks passed.
+- Current transfer: 556,139-byte core + 108,573-byte blog-details = 664,712 bytes, two requests (6.30% below original main minified).
+- Browser smoke: unavailable; representative article interaction and responsive checks remain manual.

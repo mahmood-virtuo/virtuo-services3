@@ -11,7 +11,7 @@
 
 ## Current phase
 
-Phase 6 — Blog listing family. Listing/category/tag extraction and command-line validation are complete; commit and push are pending.
+Phase 7 — Blog-detail family. All 11 routed templates and article-specific command-line checks are complete; commit and push are pending.
 
 ## Completed phases
 
@@ -21,10 +21,10 @@ Phase 6 — Blog listing family. Listing/category/tag extraction and command-lin
 - Phase 3 — About family (`aa353e5`, pushed to `origin/testing`)
 - Phase 4 — Contact family (`d5141bb`, pushed to `origin/testing`)
 - Phase 5 — Services family (`b659810`, pushed to `origin/testing`)
+- Phase 6 — Blog listing family (`4a0cec4`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 6 blog listing
 - Phase 7 blog details
 - Phase 8 legal
 - Phase 9 error
@@ -300,10 +300,50 @@ Validation results:
 
 Browser-smoke results: unavailable; cards, filters, taxonomy, sidebars/form, load-more, sticky behavior, columns, mobile layout, console/network remain manual.
 
+Commit SHA: `4a0cec4`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: listing interaction, sticky, and responsive cascade behavior require human browser verification.
+
+Exact next action: audit and migrate all 11 active blog-detail templates together, including subtype and interactive-component scopes.
+
+### Phase 7 — Blog-detail family
+
+Files changed:
+
+- `assets/css/src/core.css`
+- `assets/css/src/pages/blog-details.css`
+- Generated core/blog-details/compatibility CSS outputs
+- All 11 active `blog-details*.php` templates
+- CSS-split documentation
+
+Commands run:
+
+- Router/template, detail subtype, interactive JS, and article-component audit
+- Dry-run and applied `node scripts/extract-family-css.js blog-details`
+- `npm run build:css`
+- `php -l` on all 11 templates
+- Local rendered-link/status checks on all 11 canonical blog slugs
+- Article-specific markup/script checks for detail 2, tax, AI-company, and Emirates-map articles
+- CSS asset HTTP checks and `git diff --check`
+
+Validation results:
+
+- Extracted 647 complete detail-only rules (121,893 source bytes; 108,573 minified bytes), including all configured detail subtype body scopes.
+- Thirty-nine detail body-scope occurrences remain in core because their rules mix listing/detail selectors.
+- All 11 canonical blog-detail routes returned 200 and each rendered exactly one versioned core + blog-details pair with no compatibility main.
+- Specialized representative markup and its existing JS references remain present for detail 2, tax, AI-company, and Emirates-map articles.
+- Core + blog details is 664,712 bytes, a 44,703-byte (6.30%) reduction from the original minified baseline.
+- PHP syntax and diff checks passed.
+- Restricted browser remains unavailable; no Playwright fallback was used.
+
+Browser-smoke results: unavailable; standard, interactive, AI/tax/Emirates components and distributed desktop/mobile behavior remain manual.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: listing interaction, sticky, and responsive cascade behavior require human browser verification.
+Remaining risk: article component cascade, interactive states, tables/overflow, sticky widgets, and responsive behavior require human browser verification.
 
-Exact next action: finish deterministic validation, commit/push Phase 6, then audit and migrate all 11 active blog-detail templates together.
+Exact next action: finish deterministic validation, commit/push Phase 7, then migrate the two Legal templates.
