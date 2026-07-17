@@ -11,15 +11,15 @@
 
 ## Current phase
 
-Phase 1 — deterministic multi-bundle build architecture. Implementation and validation are complete; commit and push are pending. Active template loading remains unchanged.
+Phase 2 — home family. Conservative extraction, centralized loading, and command-line validation are complete; commit and push are pending.
 
 ## Completed phases
 
 - Phase 0 — baseline and inventory (`5ab29c2`, pushed to `origin/testing`)
+- Phase 1 — deterministic multi-bundle build architecture (`bf3a8ff`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 1 build architecture
 - Phase 2 home
 - Phase 3 about
 - Phase 4 contact
@@ -102,10 +102,54 @@ Validation results:
 - `git diff --check`: passed after comment-only indentation normalization.
 - Browser smoke: not applicable because delivered CSS and template loading are unchanged and compatibility hashes are exact.
 
+Commit SHA: `bf3a8ff`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: Phase 2 begins the first cascade-sensitive extraction; ambiguous rules will stay in core.
+
+Exact next action: extract only conclusively `body.home-page`-owned rules and introduce the centralized loader for `index.php`.
+
+### Phase 2 — home family
+
+Files changed:
+
+- `assets/css/src/core.css`
+- `assets/css/src/pages/home.css`
+- Generated `assets/css/bundles/core.min.css`, `home.min.css`, `main.css`, and `main.min.css`
+- `partials/main-styles.php`
+- `index.php`
+- `scripts/extract-family-css.js`
+- CSS-split documentation
+
+Commands run:
+
+- Targeted homepage selector/template/JavaScript audit with `rg` and `sed`
+- `node --check scripts/extract-family-css.js`
+- Dry-run and applied `node scripts/extract-family-css.js home`
+- `npm run build:css` twice with generated SHA-256 comparison
+- Node syntax checks for bundle, build, watch, JS build, and extractor scripts
+- `php -l partials/main-styles.php` and `php -l index.php`
+- Local `curl` rendered-link and CSS request checks
+- PHP CLI compatibility-fallback and duplicate-loader checks
+- `git diff --check`, stat, and name-status review
+
+Validation results:
+
+- Extracted 63 complete rules (11,257 source bytes; 9,926 minified bytes) whose every selector is homepage body-scoped.
+- Six mixed home/about/contact selector rules remain in core.
+- Core is 699,471 minified bytes; home is 9,926 bytes; current core + home is 709,397 bytes. This is 18 bytes (0.0025%) below the original 709,415-byte baseline. Meaningful homepage reduction will occur only after other family-only rules leave core in later phases.
+- Homepage rendered HTML loads versioned `core.min.css` followed by versioned `home.min.css`; it does not load `main.min.css`; both CSS requests return 200.
+- Invalid/unclassified loader input falls back to versioned `main.min.css`; including the loader twice emits only the original two family links.
+- PHP, Node, deterministic build, and `git diff --check` validations passed.
+- Restricted browser smoke could not run because the in-app browser runtime failed to initialize due unavailable runtime metadata. Standalone Playwright was not used under the restricted testing policy.
+
+Browser-smoke results: unavailable; desktop/mobile homepage checks remain manual.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: Phase 2 begins the first cascade-sensitive extraction; ambiguous rules will stay in core.
+Remaining risk: desktop/mobile visual cascade, slider, marquee, CTA, footer/form, image, overflow, and console/network checks require human browser verification.
 
-Exact next action: commit and push Phase 1, then extract only conclusively `body.home-page`-owned rules and introduce the centralized loader for `index.php`.
+Exact next action: commit and push Phase 2, then migrate the About family while retaining all mixed/shared selectors in core.

@@ -75,3 +75,11 @@ The centralized manifest is `scripts/css-bundles.js`. Phase 1 output mapping is:
 | `assets/css/src/pages/blog-details.css` | `assets/css/bundles/blog-details.min.css` |
 | `assets/css/src/pages/legal.css` | `assets/css/bundles/legal.min.css` |
 | `assets/css/src/pages/error.css` | `assets/css/bundles/error.min.css` |
+
+## Active migration status
+
+| Template | Selected family | Delivery status |
+|---|---|---|
+| `index.php` | `home` | versioned core + home through `partials/main-styles.php` |
+
+All other active templates still use compatibility `main.min.css` until their atomic family phase. The loader allowlist contains all eight planned family names, never reads request input, emits core before a valid family, de-duplicates links, and falls back to compatibility main for an absent or invalid family.

@@ -79,4 +79,17 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - Watcher: one deliberate source timestamp event produced one CSS build; no generated-output loop occurred during the observation window.
 - Local routes: representative home/about/contact/service/blog listing/category/tag/detail/legal routes returned 200; invalid route returned 404.
 - CSS assets: compatibility, core, and representative empty family bundle returned 200.
-- Browser smoke: not required because Phase 1 did not change active template links and compatibility output is byte-identical.
+- Browser smoke: not required because Phase 1 did not change active template links and compatibility declaration content remained equivalent.
+
+## Phase 2 results — home
+
+- Safe extraction: 63 complete homepage-only rules moved; six mixed family rules retained in core.
+- PHP syntax (`partials/main-styles.php`, `index.php`): passed.
+- Node syntax (manifest/build/watch/JS build/extractor): passed.
+- CSS build: passed twice; consecutive output hashes matched.
+- Rendered links: versioned core then home; no compatibility main link.
+- CSS HTTP status: core 200; home 200.
+- Loader safety: unknown family produced only versioned compatibility main; duplicate include produced only two links.
+- Current transfer: 699,471-byte core + 9,926-byte home = 709,397 bytes, two requests.
+- Browser smoke: attempted through the required lightweight in-app browser, but initialization failed because runtime metadata was unavailable. No Playwright fallback was used.
+- Manual checks remaining: desktop and mobile header, slider/mobile slider, marquees, About, eye section, latest blogs, CTA, footer, forms, scroll-to-top, horizontal overflow, missing images/CSS, and new console errors.
