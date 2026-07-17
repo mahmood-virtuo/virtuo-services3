@@ -70,3 +70,13 @@ For every applicable checkpoint:
 
 No browser automation was used in Phase 0 because no rendering behavior changed.
 
+## Phase 1 results
+
+- Node syntax (`css-bundles.js`, `build-css.js`, `watch-assets.js`, `build-js.js`): passed.
+- CSS build: passed twice.
+- Determinism: all generated SHA-256 hashes matched between consecutive builds.
+- Baseline equivalence: declaration content in both compatibility files matches the originals after comments are removed. Thirty-three inherited section-comment indentations were normalized solely to satisfy `git diff --check`; no selectors or declarations changed.
+- Watcher: one deliberate source timestamp event produced one CSS build; no generated-output loop occurred during the observation window.
+- Local routes: representative home/about/contact/service/blog listing/category/tag/detail/legal routes returned 200; invalid route returned 404.
+- CSS assets: compatibility, core, and representative empty family bundle returned 200.
+- Browser smoke: not required because Phase 1 did not change active template links and compatibility output is byte-identical.

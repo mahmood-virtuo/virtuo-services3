@@ -58,4 +58,3 @@ Generated page delivery assets use matching names under `assets/css/bundles/*.mi
 - `git diff --check`, `git diff --name-status`, and generated-file existence/size checks per phase.
 - Local `curl` status, expected versioned stylesheet links, and CSS asset 200 checks.
 - Restricted representative desktop/mobile browser smoke checks only where the phase requires them.
-

@@ -62,3 +62,16 @@ The CSS also contains mixed selector lists and broadly named component rules. Th
 
 `assets/css/main.css` will be the generated unminified aggregate of core followed by every page source in manifest order. `assets/css/main.min.css` will remain its minified compatibility form for unclassified/inactive templates. Classified active templates will load `core.min.css` first and exactly one family bundle second.
 
+The centralized manifest is `scripts/css-bundles.js`. Phase 1 output mapping is:
+
+| Editable source | Generated output |
+|---|---|
+| `assets/css/src/core.css` | `assets/css/bundles/core.min.css` |
+| `assets/css/src/pages/home.css` | `assets/css/bundles/home.min.css` |
+| `assets/css/src/pages/about.css` | `assets/css/bundles/about.min.css` |
+| `assets/css/src/pages/contact.css` | `assets/css/bundles/contact.min.css` |
+| `assets/css/src/pages/services.css` | `assets/css/bundles/services.min.css` |
+| `assets/css/src/pages/blog-listing.css` | `assets/css/bundles/blog-listing.min.css` |
+| `assets/css/src/pages/blog-details.css` | `assets/css/bundles/blog-details.min.css` |
+| `assets/css/src/pages/legal.css` | `assets/css/bundles/legal.min.css` |
+| `assets/css/src/pages/error.css` | `assets/css/bundles/error.min.css` |
