@@ -11,7 +11,7 @@
 
 ## Current phase
 
-Phase 9 — Error family. Exclusive error rules, loader switch, and 404 status/assets are validated; commit and push are pending.
+Phase 10 — final audit. All command-line, route, asset, build, watcher, syntax, size, and workflow checks are complete; final documentation commit and push are pending.
 
 ## Completed phases
 
@@ -24,10 +24,10 @@ Phase 9 — Error family. Exclusive error rules, loader switch, and 404 status/a
 - Phase 6 — Blog listing family (`4a0cec4`, pushed to `origin/testing`)
 - Phase 7 — Blog-detail family (`84bd724`, pushed to `origin/testing`)
 - Phase 8 — Legal family (`4a8df08`, pushed to `origin/testing`)
+- Phase 9 — Error family (`1f8cf10`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 9 error
 - Phase 10 final audit
 
 ## Phase log
@@ -416,10 +416,71 @@ Validation results:
 
 Browser-smoke results: unavailable; existing 404 design at desktop/mobile remains manual.
 
+Commit SHA: `1f8cf10`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: 404 visual cascade/responsiveness requires human browser verification; status and asset-path behavior passed command-line checks.
+
+Exact next action: run the final active-template, loader, build, watcher, route, workflow, and size audit.
+
+### Phase 10 — final audit
+
+Files changed:
+
+- CSS-split documentation only; no final code correction was required.
+
+Commands run:
+
+- Active PHP `main.css`/loader/family reference scans
+- Manifest source/output uniqueness and compatibility order validation
+- Bundle/source sizes and SHA-256 inventory
+- All 25 classified template route checks plus generic/invalid category/invalid tag 404 checks
+- All generated and compatibility CSS asset HTTP checks
+- `php -l` on every PHP file modified since baseline
+- Node syntax checks on manifest/build/watch/JS build/extractor scripts
+- `npm run build:css` twice with complete generated hash comparison
+- `npm run watch`, one harmless `legal.css` timestamp event, observation window, and clean SIGINT shutdown
+- `git diff --check`, `git status`, branch/ref, sensitive-config diff, and recent commit review
+- GitHub Actions testing-branch run review with existing authenticated CLI
+- Unauthenticated staging health probe
+
+Validation results:
+
+- Active direct compatibility references: none. Only `partials/main-styles.php` contains the safe unclassified fallback; `server.php` contains a non-loading comment.
+- All 25 active templates explicitly select the correct family through the centralized loader.
+- Every checked rendered page contained core first, exactly one intended family second, filemtime versions on both, no duplicate links, and no compatibility main.
+- All 25 canonical/classified routes returned 200. Generic missing, invalid category, and invalid tag routes returned 404 and loaded the error family.
+- All nine generated bundles plus both compatibility files returned 200 and are non-empty; legal intentionally contains the valid 50-byte placeholder because no legal-only selector was found.
+- Every modified PHP file and every relevant Node script passed syntax checks.
+- Two consecutive builds produced identical SHA-256 hashes.
+- Final watcher test triggered exactly one CSS rebuild from one source timestamp event and did not loop on generated outputs.
+- `git diff --check` passed; pre-documentation working tree was clean.
+- No `.github`, `.htaccess`, router, server, sitemap, production destination, or main-branch file/reference was modified. The only safety-sensitive template changed was the explicitly authorized `error.php` stylesheet link.
+- All ten testing checkpoint workflow runs through `1f8cf10` completed successfully. Unauthenticated `https://staging.virtuo.ae/` returned expected HTTP 401.
+- Restricted browser smoke could not run because the in-app browser runtime metadata was unavailable. Standalone Playwright was not used.
+
+Final sizes and transfer totals:
+
+| Family | Family bytes | Core + family | Reduction vs original 709,415 bytes |
+|---|---:|---:|---:|
+| Home | 9,926 | 565,174 | 144,241 (20.33%) |
+| About | 11,798 | 567,046 | 142,369 (20.07%) |
+| Contact | 12,750 | 567,998 | 141,417 (19.93%) |
+| Services | 231 | 555,479 | 153,936 (21.70%) |
+| Blog listing | 10,868 | 566,116 | 143,299 (20.20%) |
+| Blog details | 108,573 | 663,821 | 45,594 (6.43%) |
+| Legal | 50 | 555,298 | 154,117 (21.72%) |
+| Error | 891 | 556,139 | 153,276 (21.61%) |
+
+Final core: 555,248 bytes. Compatibility `main.css`: 832,762 bytes. Compatibility `main.min.css`: 710,285 bytes. Requests change from one compatibility site-CSS request to two versioned site-CSS requests on classified pages.
+
+Rules deliberately retained in core: mixed listing/detail responsive and sidebar rules; mixed home/about/contact eye-section rules; mixed family breadcrumb/marquee spacing; shared header/navigation/mega-menu/mobile-menu/footer/forms/phone-field/CTA/breadcrumb/marquee/scroll/service-sidebar utilities; all unscoped or uncertain ownership. Remaining body-scope occurrence counts are 39 detail, 36 listing, 7 contact, 5 home, 5 About, and 2 service occurrences, all inside mixed/shared rules.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: 404 visual cascade/responsiveness requires human browser verification; status and asset-path behavior passed command-line checks.
+Remaining risk: loading family CSS after core necessarily changes physical rule position for extracted rules. Classification was restricted to high-confidence scopes and declaration/specificity/query order within each destination was preserved, but command-line checks cannot prove the full visual cascade. All requested desktop/mobile visual, console, network-failure, overflow, image, sticky, slider, form, tab, chart, table, and interaction smoke checks remain manual.
 
-Exact next action: finish deterministic validation, commit/push Phase 9, then run the final active-template, loader, build, watcher, route, and size audit.
+Exact next action: commit and push the Phase 10 documentation checkpoint, confirm its testing workflow succeeds, then record the checkpoint SHA and leave the worktree clean. Do not resume code migration unless a manual browser regression is reported.

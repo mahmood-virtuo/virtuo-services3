@@ -89,4 +89,20 @@ The centralized manifest is `scripts/css-bundles.js`. Phase 1 output mapping is:
 | `privacy-policy.php`, `terms-conditions.php` | `legal` | versioned core + legal placeholder through `partials/main-styles.php` |
 | `error.php` and invalid-route rendering | `error` | versioned core + error through `partials/main-styles.php` |
 
-All other active templates still use compatibility `main.min.css` until their atomic family phase. The loader allowlist contains all eight planned family names, never reads request input, emits core before a valid family, de-duplicates links, and falls back to compatibility main for an absent or invalid family.
+All active templates are migrated; no active template uses compatibility main directly. The loader allowlist contains all eight family names, never reads request input, emits core before a valid family, de-duplicates links, and falls back to compatibility main for an absent or invalid family.
+
+## Final bundle sizes
+
+| Bundle | Bytes | Core + family | Reduction from original `main.min.css` |
+|---|---:|---:|---:|
+| `core.min.css` | 555,248 | — | — |
+| `home.min.css` | 9,926 | 565,174 | 20.33% |
+| `about.min.css` | 11,798 | 567,046 | 20.07% |
+| `contact.min.css` | 12,750 | 567,998 | 19.93% |
+| `services.min.css` | 231 | 555,479 | 21.70% |
+| `blog-listing.min.css` | 10,868 | 566,116 | 20.20% |
+| `blog-details.min.css` | 108,573 | 663,821 | 6.43% |
+| `legal.min.css` | 50 | 555,298 | 21.72% |
+| `error.min.css` | 891 | 556,139 | 21.61% |
+
+Compatibility artifacts remain generated and complete: `main.css` is 832,762 bytes and `main.min.css` is 710,285 bytes. Classified delivery changes the site CSS layer from one request to two requests (core then family).

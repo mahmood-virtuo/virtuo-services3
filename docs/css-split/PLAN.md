@@ -1,5 +1,7 @@
 # CSS Split Plan
 
+Status: implementation and command-line validation complete on `testing`; restricted visual browser verification remains manual because the in-app browser runtime was unavailable.
+
 ## Objective
 
 Replace the single active `assets/css/main.min.css` download with a conservative shared bundle plus one page-family bundle, while preserving the existing cascade, vendor stylesheet order, PHP routing, and `virtuo_asset_url()` filemtime cache busting.

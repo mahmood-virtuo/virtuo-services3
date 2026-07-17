@@ -164,3 +164,28 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - HTTP: core, error bundle, and root-relative 404 button icon returned 200.
 - Current transfer: 555,248-byte core + 891-byte error = 556,139 bytes, two requests (21.61% below original main minified).
 - Browser smoke: unavailable; 404 desktop/mobile visual check remains manual.
+
+## Phase 10 final audit
+
+- Active template audit: 25/25 explicitly classified; zero active direct main links.
+- Link audit: core exactly once, intended family exactly once, correct order, filemtime versions present, compatibility main absent.
+- Route audit: all classified/canonical routes 200; generic and taxonomy-invalid routes 404.
+- Asset audit: all nine generated bundles and both compatibility assets 200 and non-empty.
+- Manifest audit: every editable source and generated output is unique; compatibility order matches bundle source order.
+- PHP syntax: all 26 modified PHP files passed.
+- Node syntax: manifest, CSS builder, watcher, JS builder, and extractor passed.
+- CSS build: passed twice; complete generated SHA-256 sets matched.
+- Watcher: one source timestamp event produced one CSS build and no output loop.
+- Git checks: `git diff --check` passed; no deployment/routing/server/sitemap/main config changed.
+- Testing deployment: all checkpoint GitHub Actions runs through `1f8cf10` succeeded; staging unauthenticated response is expected 401.
+- Browser smoke: unavailable because the lightweight in-app browser could not initialize. No standalone Playwright fallback was used.
+
+### Manual browser matrix still required
+
+- Home desktop/mobile: header/menu, slider, mobile slider, marquees, About, eye, latest blogs, CTA, footer, forms, scroll-to-top, overflow, images, CSS/network, console.
+- About desktop/mobile: hero, mission/vision, story, service-image spacing, eye, stacking, footer, forms.
+- Contact desktop/mobile: form, phone field, AJAX states, FAQ, responsive layout, map/CTA overlap, footer.
+- Services: representative desktop/mobile route, all sidebar/nested states, breadcrumb, FAQ, forms/CTA, Digital Marketing base and one dynamic tab/History API transition.
+- Blog listing desktop/mobile: cards/overlays, taxonomy, sidebars/form, load-more, sticky widgets, columns/overflow.
+- Blog details: one standard article, detail 2 interactive article, tax or AI article, and Emirates map across distributed desktop/mobile; verify TOC, sticky widgets, tabs, accordions, charts, tables, overflow, author/CTA/forms.
+- Legal desktop/mobile and invalid-route 404 desktop/mobile.
