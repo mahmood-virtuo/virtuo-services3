@@ -11,17 +11,17 @@
 
 ## Current phase
 
-Phase 3 — About family. Conservative extraction, loading, and command-line validation are complete; commit and push are pending.
+Phase 4 — Contact family. Conservative extraction, loading, and command-line validation are complete; commit and push are pending.
 
 ## Completed phases
 
 - Phase 0 — baseline and inventory (`5ab29c2`, pushed to `origin/testing`)
 - Phase 1 — deterministic multi-bundle build architecture (`bf3a8ff`, pushed to `origin/testing`)
 - Phase 2 — home family (`066ddc9`, pushed to `origin/testing`)
+- Phase 3 — About family (`aa353e5`, pushed to `origin/testing`)
 
 ## Pending phases
 
-- Phase 3 about
 - Phase 4 contact
 - Phase 5 services
 - Phase 6 blog listing
@@ -184,10 +184,48 @@ Validation results:
 
 Browser-smoke results: unavailable; desktop/mobile hero, mission/vision, story, service-image spacing, eye image, stacking, footer, and forms remain manual.
 
+Commit SHA: `aa353e5`.
+
+Pushed: yes, to `origin/testing`.
+
+Remaining risk: About desktop/mobile cascade and responsive visual behavior require human browser verification.
+
+Exact next action: migrate Contact while keeping shared forms and phone-field foundations in core.
+
+### Phase 4 — Contact family
+
+Files changed:
+
+- `assets/css/src/core.css`
+- `assets/css/src/pages/contact.css`
+- Generated core/contact/compatibility CSS outputs
+- `contact.php`
+- CSS-split documentation
+
+Commands run:
+
+- Contact selector/form context audit
+- Dry-run and applied `node scripts/extract-family-css.js contact`
+- `npm run build:css`
+- `php -l contact.php`
+- Local rendered-link and CSS HTTP checks
+- `git diff --check`
+
+Validation results:
+
+- Extracted 92 complete Contact-only rules (14,851 source bytes; 12,750 minified bytes).
+- Shared form, phone-field, footer, eye-section, marquee, and mixed selector rules remain in core.
+- Contact rendered HTML loads versioned core then contact, no compatibility main; page and both bundles return 200.
+- Core + contact is 687,931 bytes, a 21,484-byte (3.03%) reduction from the original minified baseline.
+- PHP syntax and diff checks passed.
+- Restricted browser remains unavailable; no Playwright fallback was used.
+
+Browser-smoke results: unavailable; desktop/mobile contact form, intl-tel-input, AJAX styling, FAQ, responsive layout, map/CTA overlap, footer, and console/network behavior remain manual.
+
 Commit SHA: pending.
 
 Pushed: no.
 
-Remaining risk: About desktop/mobile cascade and responsive visual behavior require human browser verification.
+Remaining risk: Contact desktop/mobile visual and form-interaction checks require human browser verification.
 
-Exact next action: finish deterministic validation, commit/push Phase 3, then migrate Contact.
+Exact next action: finish deterministic validation, commit/push Phase 4, then migrate all five service templates together.

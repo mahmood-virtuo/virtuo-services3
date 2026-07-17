@@ -82,5 +82,6 @@ The centralized manifest is `scripts/css-bundles.js`. Phase 1 output mapping is:
 |---|---|---|
 | `index.php` | `home` | versioned core + home through `partials/main-styles.php` |
 | `about.php` | `about` | versioned core + about through `partials/main-styles.php` |
+| `contact.php` | `contact` | versioned core + contact through `partials/main-styles.php` |
 
 All other active templates still use compatibility `main.min.css` until their atomic family phase. The loader allowlist contains all eight planned family names, never reads request input, emits core before a valid family, de-duplicates links, and falls back to compatibility main for an absent or invalid family.

@@ -103,3 +103,13 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - HTTP: page, core, and about bundle returned 200.
 - Current transfer: 687,877-byte core + 11,798-byte about = 699,675 bytes, two requests (1.37% below original main minified).
 - Browser smoke: unavailable; required About desktop/mobile visual checks remain manual.
+
+## Phase 4 results — Contact
+
+- Safe extraction: 92 Contact-only rules moved; shared form/phone/footer and mixed family rules retained in core.
+- PHP syntax (`contact.php`): passed.
+- CSS build and diff check: passed.
+- Rendered links: versioned core then contact; no compatibility main.
+- HTTP: page, core, and contact bundle returned 200.
+- Current transfer: 675,181-byte core + 12,750-byte contact = 687,931 bytes, two requests (3.03% below original main minified).
+- Browser smoke: unavailable; contact desktop/mobile layout and functional form checks remain manual.
