@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 4 dormant Preloader/Search deletion validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 4 dormant shell CSS deletion, awaiting checkpoint
-- Next phase: Phase 4 inactive advisory sections after this checkpoint and green staging workflow
+- Current phase: Phase 4 advisory-section deletion validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 4 Callback/Core-value/Pricing/Career deletion, awaiting checkpoint
+- Next phase: Phase 4 commerce/account sections after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -813,7 +813,7 @@ An initial route pass observed 19 full cache-busted stylesheet URLs while rebuil
 
 ## Phase 4 — Dormant Preloader and Search-popup deletion
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -860,15 +860,71 @@ The first immediate route traversal saw cache-buster URL variants while the sour
 ### Checkpoint
 
 - Intended message: Remove dormant Preloader and Search CSS
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 5338f1fdce556b671d508db3acd54dfbda1e920f
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29665032564 succeeded
 
 ### Remaining risks
 
 - Dormant Preloader JavaScript and commented markup are deliberately deferred to Phase 7 rather than mixed into CSS deletion.
 - Search handlers are now harmless no-ops against absent elements; JavaScript comment/dead-code handling remains Phase 7.
 
+## Phase 4 — Callback, Core-value, Pricing and Career deletion
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal rules deleted: 139 (Callback 43; Core Value 19; Pricing 27; Career/apply box 50)
+- Associated media wrappers: 39
+- Component-local custom-property declarations deleted: 1 (`--bs-gutter-x` under Callback)
+- Keyframes/URLs deleted: 0
+- Rules moved or selectors/declarations rewritten: 0
+
+The seven `.apply__box` rules inside Career were independently requalified because the original Phase 2 Career token count covered only `career__`. They have no active build-source, JavaScript or DOM owner.
+
+### Before and after sizes
+
+| File | Before advisory deletion | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 535,651 | 519,499 | -16,152 |
+| assets/css/bundles/core.min.css | 451,717 | 438,152 | -13,565 |
+| assets/css/main.css | 823,166 | 807,014 | -16,152 |
+| assets/css/main.min.css | 702,373 | 688,808 | -13,565 |
+
+Every route drops the same 13,565 minified core bytes.
+
+### Validation performed
+
+- Fresh gate passed at 5338f1fdce556b671d508db3acd54dfbda1e920f after staging run 29665032564 succeeded.
+- Fresh source/runtime/89-route DOM evidence remained zero. Pricing's retained JavaScript handler targets absent markup; `.apply__box` also had zero active ownership evidence.
+- Boundary audit covered 139 complete rules/39 media wrappers, one local custom property, no keyframes/URLs and no mixed active selectors.
+- Build passed with the known remote-import notice.
+- Same-DOM desktop/mobile style/geometry parity passed all eight families: 16 states, matrix SHA-256 `407ff2a7774be57352f4d3b3af4bb7632aac832ccaeb67698be1d0e7587a157c`, 655–3,107 elements, zero candidate matches/failures.
+- All 89 probes and 17 local stylesheet paths/full URLs passed with zero inline styles and zero candidate tokens.
+
+### Checkpoint
+
+- Intended message: Remove unused advisory CSS
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Pricing's absent-node event handler remains until the Phase 7 JavaScript dead-code review.
+- The remaining approved presentation/carousel and commerce/account candidates remain untouched.
+
 ## Next exact action
 
-Run final build/diff checks, commit the dormant shell checkpoint, push only to origin/testing and wait for staging. Then gate and requalify the Callback/Core-value/Pricing/Career advisory group.
+Run final build/diff checks, commit the advisory checkpoint, push only to testing and wait for staging. Then gate Shop/Login/Checkout as the commerce/account checkpoint.

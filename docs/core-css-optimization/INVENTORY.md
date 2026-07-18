@@ -412,6 +412,10 @@ Retained separator whitespace makes the net source reduction 10,347 bytes; core.
 
 The third Phase 4 checkpoint deleted 21 normal rules (Preloader 6; Search 15) plus the two exclusively referenced `preloader` keyframe blocks. The exact source spans totaled 5,127 bytes; retained separator whitespace makes the net reduction 5,126 source and 4,336 minified bytes. Commented Preloader markup/invocation and absent Search markup re-passed the active-source, JavaScript, 89-route DOM, interaction/Coverage and same-DOM parity gates.
 
+### Callback, Core Value, Pricing and Career
+
+The fourth checkpoint deleted 139 normal rules and 39 media wrappers across four inactive advisory-theme sections. It also removed Callback's component-local `--bs-gutter-x`; no keyframe or URL was present. Career's seven `.apply__box` rules were independently requalified beyond the original prefix evidence. Net reductions: 16,152 source bytes and 13,565 minified core bytes, with full 16-state same-DOM parity.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

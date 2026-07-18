@@ -46,12 +46,13 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 ## Phase 2 narrowed legacy exceptions
 
 - project__, testimonial__, brand__ and shop__ have no active PHP match. Their main.js Swiper calls all use virtuoInitSwiper(), which returns before initialization when the requested selector is absent. The exhaustive rendered scan, restricted interaction scan and candidate Coverage all found no applicable markup or used candidate token; their CSS is approved for later Phase 4 boundary-safe deletion.
-- pricing__ selectors retain Phase 4 deletion approval because their event handlers have no active trigger/target. Search-popup CSS passed the fresh gate and was deleted; active header/mobile/menu states remain allowlisted.
+- Pricing CSS passed its fresh gate and was deleted; its absent-node handler remains for Phase 7 review. Search-popup CSS was already deleted; active header/mobile/menu states remain allowlisted.
 - Preloader CSS and its exclusive keyframes passed the fresh gate and were deleted. Commented markup and dormant-function cleanup remains a separate Phase 7 decision.
 - contact__ is referenced by ajax-form.js even when an initial PHP prefix scan does not find it. Retain form feedback/error paths until interaction validation is complete.
-- Banner, History, Counter, Video, Callback, Core value, Career, Login and Checkout have no active source/runtime owner, no DOM match across the exhaustive initial scan or representative interactions, and zero covered candidate tokens. They are approved for later Phase 4 boundary-safe deletion.
+- Banner, History, Counter, Video, Login and Checkout have no active source/runtime owner, no DOM match across the exhaustive initial scan or representative interactions, and zero covered candidate tokens. They are approved for later Phase 4 boundary-safe deletion.
 - Challenge and Strategic passed the fresh Phase 4 boundary/dependency gate and were deleted together in the first unused-rule checkpoint. They no longer require retention exceptions.
 - Benefit, Loan and Features passed the fresh Phase 4 boundary/dependency gate and were deleted together in the second unused-rule checkpoint. Their inactive SCSS archive was not edited because it is outside the active CSS build.
+- Callback, Core Value, Pricing and Career/apply-box passed fresh gates and were deleted in the advisory checkpoint.
 - Any new prefix with zero first-party text matches remains only a candidate until it independently passes the same data, plugin, pseudo-state, responsive, interaction and Coverage gates.
 
 ## Remote intl-tel-input import

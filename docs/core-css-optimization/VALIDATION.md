@@ -1098,3 +1098,33 @@ Final checkpoint commands:
     git diff --stat
     git diff --check
     git status --short
+
+The dormant shell checkpoint was committed as 5338f1fdce556b671d508db3acd54dfbda1e920f, pushed only to origin/testing, and staging run 29665032564 succeeded before the advisory gate.
+
+## Phase 4 advisory-section deletion validation
+
+The clean testing/remote gate passed at 5338f1fdce556b671d508db3acd54dfbda1e920f after staging run 29665032564.
+
+Fresh active-source, JavaScript and 89-route DOM evidence requalified Callback, Core Value, Pricing and Career. Pricing handlers still bind absent nodes. The Career span also contains seven `.apply__box` rules outside the original `career__` token count; separate searches found only inactive SCSS source and no build/runtime/DOM owner, and same-DOM parity covered their deletion.
+
+| Group | Normal rules | Media wrappers | Boundary bytes |
+| --- | ---: | ---: | ---: |
+| Callback | 43 | 15 | 4,701 |
+| Core Value | 19 | 12 | 2,119 |
+| Pricing | 27 | 2 | 3,313 |
+| Career/apply box | 50 | 10 | 6,023 |
+
+The exact spans total 16,156 bytes; retained separators make the net source reduction 16,152. Callback's scoped `--bs-gutter-x` is the sole custom-property declaration. No keyframe or URL was present.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 535,651 | 519,499 | -16,152 |
+| core.min.css | 451,717 | 438,152 | -13,565 |
+| main.css | 823,166 | 807,014 | -16,152 |
+| main.min.css | 702,373 | 688,808 | -13,565 |
+
+`npm run build:css` passed. Installed Playwright/local Chrome produced identical selected-style/geometry hashes across all eight families at desktop/mobile. Aggregate matrix SHA-256: `407ff2a7774be57352f4d3b3af4bb7632aac832ccaeb67698be1d0e7587a157c`; states 16; elements 655–3,107; candidate matches/failures 0.
+
+All 89 probes retained expected status/family/order/no-compatibility behavior; 17 local stylesheet paths/full URLs returned 200; inline styles and candidate DOM tokens were zero. No screenshots were required.
+
+Final commands: `npm run build:css`, `git diff --stat`, `git diff --check`, and `git status --short`.
