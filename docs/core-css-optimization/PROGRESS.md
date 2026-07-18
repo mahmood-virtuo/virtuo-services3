@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 3 Services-family extraction validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 3 Services-family extraction, awaiting checkpoint
-- Next phase: Phase 3 Blog-listing-family extraction after the Services checkpoint and green staging workflow
+- Current phase: Phase 3 Blog-listing-family extraction validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 3 Blog-listing-family extraction, awaiting checkpoint
+- Next phase: Phase 3 Blog-details-family extraction after the Blog-listing checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -382,7 +382,7 @@ Every non-Contact route drops the 5,025 extracted minified core bytes. The activ
 
 ## Phase 3 — Services family extraction
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -438,9 +438,9 @@ Every non-Services route drops the 36,216 extracted minified core bytes. The com
 ### Checkpoint
 
 - Intended message: Extract Services CSS from core
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 4382b8982a533bac3baecfc03ae9ffad65eb918e
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29663231827 succeeded
 
 ### Remaining risks
 
@@ -448,6 +448,72 @@ Every non-Services route drops the 36,216 extracted minified core bytes. The com
 - Digital Marketing transition states remain dynamic and were validated through the local content API, URL update and ARIA state change.
 - Each later family needs a fresh property-level cascade comparison.
 
+## Phase 3 — Blog listing family extraction
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/src/pages/blog-listing.css
+- assets/css/bundles/core.min.css
+- assets/css/bundles/blog-listing.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules moved: 11
+- CSS rules/keyframes deleted: 0
+- Selectors or declarations rewritten: 0
+- Selectors split: 0
+- Remote imports changed: 0
+
+Moved groups: the active `.blog__post-item-five`, `.blog__post-thumb-five` image and `.blog__post-content-five` title/link/paragraph rules, including their existing responsive and hover states. Shared post metadata, author/sidebar/tag primitives, mixed Blog-listing/Blog-details responsive selector lists and inactive legacy Blog variants remain in core.
+
+### Before and after sizes
+
+| File | Before Blog listing | After Blog listing | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 592,950 | 591,594 | -1,356 |
+| assets/css/src/pages/blog-listing.css | 12,660 | 14,018 | +1,358 |
+| assets/css/bundles/core.min.css | 500,128 | 498,996 | -1,132 |
+| assets/css/bundles/blog-listing.min.css | 10,868 | 12,000 | +1,132 |
+| Blog listing core + family minified | 510,996 | 510,996 | 0 |
+| assets/css/main.css | 839,932 | 839,934 | +2 |
+| assets/css/main.min.css | 716,530 | 716,530 | 0 |
+
+Every non-Blog-listing route drops the 1,132 extracted minified core bytes. The combined active Blog-listing minified byte count and compatibility main.min.css output are unchanged; the two source bytes are separation newlines around the relocated blocks.
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at 4382b8982a533bac3baecfc03ae9ffad65eb918e after staging run 29663231827 succeeded.
+- npm run build:css passed with the unchanged known remote-import notice.
+- Core normal rules changed 4,264 to 4,253; Blog-listing normal rules changed 68 to 79.
+- Same-DOM comparisons switched between committed pre-edit and current core/Blog-listing bundles after applying identical animation suppression and one real load-more batch plus title hover.
+- Desktop SHA-256 before/after: 58ac5905bbdefc2cb167c8f09ceb21c75e11a5f182a930b3ea48aa6ab9e791a1; document geometry 1,440px by 10,026px.
+- Mobile SHA-256 before/after: 142bab4d354ad81d8bfc8dac4b97272875f9ebfac875b82117fcaadafe007cf4; document geometry 390px by 11,525px.
+- Both viewports changed from 6 hidden cards to 1 after load more and had zero differing captured targets.
+- All 89 route probes passed status, exact family order and compatibility exclusion; all 17 local stylesheet requests returned 200, with zero active style attributes/blocks after comments were excluded.
+- The corrected 10-state desktop/mobile smoke covered the base Blog listing, category, tag, interactive Blog detail and Home. It exercised navigation, load more, filter-clear focus, card/title hover, the article calculator and Home tabs with no overflow, console/page errors or failed application resources.
+- The first category/tag harness used a strict locator against two intentional Clear links. Selecting the first explicit link made all four focused states pass; this was a test-harness correction, not a product change.
+
+### Checkpoint
+
+- Intended message: Extract Blog listing CSS from core
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Blog metadata, author, sidebar, tag and recent-post rules remain core-owned because they are shared with Blog details.
+- Complete mixed Blog-listing/Blog-details responsive selector lists remain in core; splitting them only for ownership would rewrite selectors without reducing the active listing payload.
+- Inactive legacy Blog card variants remain for Phase 4 evidence-driven deletion, not family extraction.
+
 ## Next exact action
 
-Run the final deterministic build/diff checks, commit the Services checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and begin Blog listing only.
+Run the final deterministic build/diff checks, commit the Blog-listing checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and begin Blog details only.

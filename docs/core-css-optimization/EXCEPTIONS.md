@@ -36,6 +36,8 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - Shared Home/About/Contact eye rules and shared form, ajax-response and intl-tel-input state rules remain in core after the Contact extraction.
 - Generic `.col-70`/`.col-30`, shared sidebar widgets/forms, breadcrumb/marquee foundations and inactive Services details/sidebar/FAQ/work variants remain in core after the Services extraction. Their selector ownership is shared or not exercised by the active Services templates, so moving them would either change other families or outrun the available evidence.
 - Services tab and Digital Marketing `is-active`, `is-open`, `digital-panel-changing` and `digital-panel-ready` rules now live in services.css because all active owners use the Services family bundle. They remain deletion-protected dynamic states.
+- Blog metadata, avatar, sidebar, tag, recent-post and sidebar-form rules remain in core after the Blog-listing extraction because Blog details shares them. Complete responsive selector lists combining `body.blog-page` and `body.blog-details-page` also remain unsplit in core.
+- The active fifth-variant listing card rules now live in blog-listing.css. Other unrendered Blog card/layout variants are still Phase 4 deletion candidates, not evidence for broad Blog ownership.
 - Legal has an empty source and uses shared core foundations. No generic typography may be moved to legal.css without exclusive ownership evidence.
 - Error has no body class, so error ownership must continue to rely on proven template-exclusive selectors rather than broad element selectors.
 

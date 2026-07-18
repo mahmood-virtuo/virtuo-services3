@@ -664,3 +664,79 @@ No screenshots were taken because exact computed parity passed and no regression
     git status --short
 
 These must pass immediately before committing the Services checkpoint.
+
+The Services checkpoint was committed as 4382b8982a533bac3baecfc03ae9ffad65eb918e, pushed only to origin/testing, and Deploy Virtuo Staging run 29663231827 succeeded before the Blog-listing safety gate.
+
+## Phase 3 Blog-listing-family extraction validation
+
+### Safety and ownership gate
+
+The Blog-listing gate passed on testing with a clean worktree and HEAD equal to origin/testing at 4382b8982a533bac3baecfc03ae9ffad65eb918e. Deploy Virtuo Staging run 29663231827 succeeded before Blog-listing editing began.
+
+Rendered class ownership across the base listing, category and tag routes proved `.blog__post-item-five`, `.blog__post-thumb-five` and `.blog__post-content-five` are listing-exclusive. Shared metadata/sidebar/tag/recent-post groups and mixed Blog-listing/Blog-details responsive rules remain complete in core.
+
+### Exact structural movement
+
+- Core normal rules: 4,264 to 4,253.
+- Blog-listing normal rules: 68 to 79.
+- Complete normal rules moved: 11.
+- Rules/keyframes deleted: 0.
+- Selector/declaration/media rewrites: 0.
+
+The move preserved the active card's base, hover and responsive rules without moving any inactive legacy variant or splitting a mixed selector list.
+
+### Build and sizes
+
+    npm run build:css
+
+Result: passed with the unchanged CleanCSS notice that the remote intl-tel-input import was not inlined.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.min.css | 500,128 | 498,996 | -1,132 |
+| blog-listing.min.css | 10,868 | 12,000 | +1,132 |
+| Blog listing core + family | 510,996 | 510,996 | 0 |
+| main.css | 839,932 | 839,934 | +2 |
+| main.min.css | 716,530 | 716,530 | 0 |
+
+### Computed-style and geometry parity
+
+Installed Playwright/Google Chrome compared the committed pre-edit core/Blog-listing bundles with the current bundles in the same DOM. Both stylesheet pairs saw identical animation suppression, one load-more batch and a title-link hover.
+
+- Desktop SHA-256 before/after: 58ac5905bbdefc2cb167c8f09ceb21c75e11a5f182a930b3ea48aa6ab9e791a1.
+- Desktop document metrics before/after: 1,440px wide and 10,026px high.
+- Mobile SHA-256 before/after: 142bab4d354ad81d8bfc8dac4b97272875f9ebfac875b82117fcaadafe007cf4.
+- Mobile document metrics before/after: 390px wide and 11,525px high.
+- Load-more state before/after interaction: 6 hidden cards to 1 at both viewports.
+- Differing captured targets: 0 at both viewports.
+
+### Exhaustive route and asset validation
+
+- Canonical routes: 86; total probes: 89.
+- Family distribution: Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 3.
+- Route/status/family/order/compatibility failures: 0.
+- Unique local stylesheet URLs: 17; HTTP failures: 0.
+- Active style attributes: 0; active style blocks: 0 after HTML comments were removed.
+
+### Restricted browser smoke
+
+The corrected final evidence covered the base listing, a category, a tag, the interactive calculator Blog detail and Home at desktop and mobile, for 10 states. It exercised desktop off-canvas/mobile navigation, listing load more, category/tag filter-clear focus, card/title hover, the article calculator and Home service tabs.
+
+Results:
+
+- HTTP/status or bundle mapping failures: 0.
+- Horizontal-overflow failures: 0.
+- Console errors: 0; page errors: 0.
+- Failed application resource responses: 0.
+- The first category/tag checks used a strict locator that matched two intentional Clear links. The focused rerun selected the first explicit link and all four states passed; this was a harness correction only.
+
+No screenshots were taken because exact computed parity passed and no regression required documentation.
+
+### Final checkpoint checks
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Blog-listing checkpoint.

@@ -351,6 +351,21 @@ The conservative selection required every selector branch in a complete rule to 
 
 Core source decreased 41,565 bytes while services.css gained 41,513 bytes. The 52-byte aggregate source decrease is blank-line normalization between previously scattered rule blocks, not declaration removal. The active minified Services payload is exactly unchanged: core.min.css decreased 36,216 bytes and services.min.css increased 36,216 bytes.
 
+### Blog listing
+
+The Blog-listing checkpoint moved 11 complete active-card rules from core.css to the beginning of blog-listing.css:
+
+| Blog-listing-exclusive logical group | Normal rules moved | Core source bytes removed |
+| --- | ---: | ---: |
+| `.blog__post-item-five` spacing | 1 | included below |
+| `.blog__post-thumb-five` image sizing/radius and responsive heights | 4 | included below |
+| `.blog__post-content-five` title/link/hover/paragraph rules and breakpoints | 6 | included below |
+| Total | 11 | 1,356 |
+
+Rendered ownership across the base listing, four category routes and 38 tag routes proved these fifth-variant card anchors are Blog-listing-only. The source gained 1,358 bytes, including two separation newlines. Core and family minified deltas are exactly balanced at 1,132 bytes.
+
+Shared `.blog__post-meta`, avatar, sidebar, tag, recent-post and form primitives remain in core because Blog details renders them. Complete responsive rules that combine `body.blog-page` and `body.blog-details-page` also remain in core rather than splitting selector lists. Unrendered Blog card variants remain Phase 4 candidates and were not reclassified as listing-owned.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:
