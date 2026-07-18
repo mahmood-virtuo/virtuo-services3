@@ -34,6 +34,8 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - The section beginning with the Footer heading at core.css line 23,602 contains footer plus later cross-family override layers. It must be classified rule-by-rule, not moved as one section.
 - The complete rule assigning `font-size: 15px` to both Contact form fields and `.footer__area-five` form fields remains in core. Splitting that selector list solely to force family ownership would rewrite a mixed shared rule without reducing the rendered Contact payload.
 - Shared Home/About/Contact eye rules and shared form, ajax-response and intl-tel-input state rules remain in core after the Contact extraction.
+- Generic `.col-70`/`.col-30`, shared sidebar widgets/forms, breadcrumb/marquee foundations and inactive Services details/sidebar/FAQ/work variants remain in core after the Services extraction. Their selector ownership is shared or not exercised by the active Services templates, so moving them would either change other families or outrun the available evidence.
+- Services tab and Digital Marketing `is-active`, `is-open`, `digital-panel-changing` and `digital-panel-ready` rules now live in services.css because all active owners use the Services family bundle. They remain deletion-protected dynamic states.
 - Legal has an empty source and uses shared core foundations. No generic typography may be moved to legal.css without exclusive ownership evidence.
 - Error has no body class, so error ownership must continue to rely on proven template-exclusive selectors rather than broad element selectors.
 

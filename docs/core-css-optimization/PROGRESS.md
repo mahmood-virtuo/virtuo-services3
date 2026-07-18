@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 3 Contact-family extraction validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 3 Contact-family extraction, awaiting checkpoint
-- Next phase: Phase 3 Services-family extraction after the Contact checkpoint and green staging workflow
+- Current phase: Phase 3 Services-family extraction validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 3 Services-family extraction, awaiting checkpoint
+- Next phase: Phase 3 Blog-listing-family extraction after the Services checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -256,7 +256,7 @@ The active Home payload is effectively unchanged apart from a 60-byte minifier/o
 
 ## Phase 3 — About family extraction
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -319,7 +319,7 @@ Every non-About route drops the 3,236 extracted minified core bytes. The active 
 
 ## Phase 3 — Contact family extraction
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -370,9 +370,9 @@ Every non-Contact route drops the 5,025 extracted minified core bytes. The activ
 ### Checkpoint
 
 - Intended message: Extract Contact CSS from core
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: f26f858fc003744705a80f948f35f6abdda44682
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29662209200 succeeded
 
 ### Remaining risks
 
@@ -380,6 +380,74 @@ Every non-Contact route drops the 5,025 extracted minified core bytes. The activ
 - Shared eye, form-feedback and phone-plugin rules remain core-owned by design.
 - Each later family needs a fresh property-level cascade comparison.
 
+## Phase 3 — Services family extraction
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/src/pages/services.css
+- assets/css/bundles/core.min.css
+- assets/css/bundles/services.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules moved: 214
+- Keyframe blocks moved: 2, the prefixed and standard dash_animation definitions
+- CSS rules/keyframes deleted: 0
+- Selectors or declarations rewritten: 0
+- Selectors split: 0
+- Remote imports changed: 0
+
+Moved groups: active Services details/content/sidebar/category-list rules; active Services FAQ layout; Services work/process cards, line shape and dash animation; standard service tabs; Digital Marketing main/sub-navigation, API transition states and responsive layers; and late Services-only workflow/gutter/mobile corrections. Shared column, sidebar/form, breadcrumb/marquee and inactive template-variant rules remain in core.
+
+### Before and after sizes
+
+| File | Before Services | After Services | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 634,515 | 592,950 | -41,565 |
+| assets/css/src/pages/services.css | 1,024 | 42,537 | +41,513 |
+| assets/css/bundles/core.min.css | 536,344 | 500,128 | -36,216 |
+| assets/css/bundles/services.min.css | 853 | 37,069 | +36,216 |
+| Services core + family minified | 537,197 | 537,197 | 0 |
+| assets/css/main.css | 839,984 | 839,932 | -52 |
+| assets/css/main.min.css | 716,530 | 716,530 | 0 |
+
+Every non-Services route drops the 36,216 extracted minified core bytes. The combined active Services minified byte count and compatibility main.min.css output are unchanged; the 52-byte source reduction is blank-line normalization between formerly scattered blocks.
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at f26f858fc003744705a80f948f35f6abdda44682 after staging run 29662209200 succeeded.
+- npm run build:css passed with the unchanged known remote-import notice.
+- Core normal rules changed 4,478 to 4,264; Services rules changed 12 to 226. Core keyframes changed 28 to 26 and Services keyframes changed 0 to 2.
+- Same-DOM comparisons switched between committed pre-edit and current core/Services bundles after applying identical animation suppression. Standard and Digital Marketing Services matched exactly at desktop and mobile.
+- Standard desktop affected-target SHA-256 before/after: bfdf4d1db61bd4b9c8871e1d1a511a0ae384dbb369c4662272c9e4452906dbf6.
+- Standard mobile full-body SHA-256 before/after: f88060dae905cd43872ec46e287ed118ff37fddebed920cec408b77a824777b8; 390px by 9,850px with zero differing elements.
+- Digital Marketing desktop SHA-256 before/after: 42b9c543eb0c4eb0a534bd9680cf9ab8345541563a10cdee2d438e6b012b9fb0.
+- Digital Marketing mobile SHA-256 before/after: bf59f107258fcec1740cd01d8aaf0728e1b0a485283db6d9cd67d0368fe245e2.
+- All 89 route probes passed status, exact family order and compatibility exclusion; all local stylesheet paths returned 200, with zero active style attributes/blocks after comments were excluded.
+- A 10-state desktop/mobile smoke covered standard Services, Digital Marketing Services, Home, Contact and Blog detail. It exercised navigation, standard tabs/FAQ, Digital Marketing API sub-navigation/URL/ARIA state, Home tabs, Contact form/phone dropdown and the Blog calculator. It found no overflow, console/page errors or failed application resources.
+- The first Contact desktop matrix context closed while its external Google Maps document was still loading. A focused rerun waited for the iframe load and passed with zero failed requests or bad responses; this was test teardown timing, not a product failure.
+
+### Checkpoint
+
+- Intended message: Extract Services CSS from core
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Generic columns, shared sidebar/form foundations, shared breadcrumb/marquee foundations and inactive Services variants remain core-owned by design.
+- Digital Marketing transition states remain dynamic and were validated through the local content API, URL update and ARIA state change.
+- Each later family needs a fresh property-level cascade comparison.
+
 ## Next exact action
 
-Run final deterministic build/diff checks, commit the Contact checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and begin Services only.
+Run the final deterministic build/diff checks, commit the Services checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and begin Blog listing only.

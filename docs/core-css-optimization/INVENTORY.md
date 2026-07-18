@@ -336,6 +336,21 @@ Contact source gained 5,710 bytes: the exact 5,709 moved bytes plus one separati
 
 Moving the complete Contact-owned rules produced exact desktop/mobile computed-style and document-geometry parity. Unlike the earlier family checkpoints, CleanCSS produced no combined active-payload delta: core.min.css decreased by 5,025 bytes and contact.min.css increased by the same 5,025 bytes.
 
+### Services
+
+The Services checkpoint moved 214 complete normal rules plus the prefixed and standard `dash_animation` keyframes from core.css to the beginning of services.css. The ownership groups are:
+
+- Active Services details thumb/content/inner-image, details-area/wrap and sidebar/category-list rules.
+- Active Services FAQ area/wrap/shape rules.
+- Active Services work/process item, icon, content, step, line-shape and dash-animation rules.
+- Standard service panel/link and active-state rules.
+- Digital Marketing main/sub-navigation, active/open/API transition states and responsive layers.
+- Late Services-only workflow, gutter and mobile corrections.
+
+The conservative selection required every selector branch in a complete rule to have a Services-only leading class anchor. No selector list was split. Generic `.col-70`/`.col-30`, shared sidebar widgets and forms, shared breadcrumb/marquee foundations, and inactive details/sidebar/FAQ/work variants remain in core.
+
+Core source decreased 41,565 bytes while services.css gained 41,513 bytes. The 52-byte aggregate source decrease is blank-line normalization between previously scattered rule blocks, not declaration removal. The active minified Services payload is exactly unchanged: core.min.css decreased 36,216 bytes and services.min.css increased 36,216 bytes.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

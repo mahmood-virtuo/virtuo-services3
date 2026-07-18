@@ -586,3 +586,81 @@ No screenshots were taken because exact computed parity passed and no regression
     git status --short
 
 These must pass immediately before committing the Contact checkpoint.
+
+The Contact checkpoint was committed as f26f858fc003744705a80f948f35f6abdda44682, pushed only to origin/testing, and Deploy Virtuo Staging run 29662209200 succeeded before the Services safety gate.
+
+## Phase 3 Services-family extraction validation
+
+### Safety and ownership gate
+
+The Services gate passed on testing with a clean worktree and HEAD equal to origin/testing at f26f858fc003744705a80f948f35f6abdda44682. Deploy Virtuo Staging run 29662209200 succeeded before Services editing began.
+
+The 86-route rendered-ownership evidence proved the active details/sidebar, FAQ, work/process, standard tab and Digital Marketing nested-tab groups are Services-only. Generic column/sidebar/form primitives, shared breadcrumb/marquee foundations and inactive Services template variants remain in core.
+
+### Exact structural movement
+
+- Core normal rules: 4,478 to 4,264.
+- Services normal rules: 12 to 226.
+- Complete normal rules moved: 214.
+- Keyframe blocks moved: 2, the prefixed and standard dash_animation definitions.
+- Rules/keyframes deleted: 0.
+- Selector/declaration/media rewrites: 0.
+
+The move preserved complete rules and media ownership. The automated selector gate accepted a rule only when every selector branch began with a proven Services-only class anchor, with a narrow exception for the Services-only work-line animation state.
+
+### Build and sizes
+
+    npm run build:css
+
+Result: passed with the unchanged CleanCSS notice that the remote intl-tel-input import was not inlined.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.min.css | 536,344 | 500,128 | -36,216 |
+| services.min.css | 853 | 37,069 | +36,216 |
+| Services core + family | 537,197 | 537,197 | 0 |
+| main.css | 839,984 | 839,932 | -52 |
+| main.min.css | 716,530 | 716,530 | 0 |
+
+### Computed-style and geometry parity
+
+Installed Playwright/Google Chrome compared the committed pre-edit core/Services bundles with the current bundles in the same DOM. Both stylesheet pairs saw the same interaction state and the same animation/transition suppression. Below-fold lazy images were requested and decoded before the final mobile standard comparison.
+
+- Standard desktop affected-target SHA-256 before/after: bfdf4d1db61bd4b9c8871e1d1a511a0ae384dbb369c4662272c9e4452906dbf6.
+- Standard mobile full-body SHA-256 before/after: f88060dae905cd43872ec46e287ed118ff37fddebed920cec408b77a824777b8.
+- Standard mobile document metrics before/after: 390px wide and 9,850px high; differing elements: 0.
+- Digital Marketing desktop SHA-256 before/after: 42b9c543eb0c4eb0a534bd9680cf9ab8345541563a10cdee2d438e6b012b9fb0.
+- Digital Marketing mobile SHA-256 before/after: bf59f107258fcec1740cd01d8aaf0728e1b0a485283db6d9cd67d0368fe245e2.
+
+An earlier mobile standard height difference was isolated to an image decoding between the two captures. Traversing the page once and decoding requested images before both captures produced the exact full-body result above; no CSS correction was required.
+
+### Exhaustive route and asset validation
+
+- Canonical routes: 86; total probes: 89.
+- Family distribution: Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 3.
+- Route/status/family/order/compatibility failures: 0.
+- Unique local stylesheet URLs: 17; HTTP failures: 0.
+- Active style attributes: 0; active style blocks: 0 after HTML comments were removed.
+
+### Restricted browser smoke
+
+The final matrix covered standard Services, Digital Marketing Services, Home, Contact and the calculator Blog detail at desktop and mobile, for 10 states. It exercised desktop off-canvas/mobile navigation, freezone tab and FAQ expansion, Digital Marketing API sub-navigation plus URL/ARIA state, Home tabs, Contact form/phone country dropdown and Blog calculator input at 45,000,000 (`$45.00M`).
+
+Results:
+
+- HTTP/status or bundle mapping failures: 0.
+- Horizontal-overflow failures: 0.
+- Console errors: 0; page errors: 0.
+- Failed application resource responses: 0.
+- One external Google Maps document was aborted when the first Contact desktop context closed. A focused rerun explicitly waited for its load and passed with zero failed requests and zero bad responses, confirming context teardown timing rather than an application failure.
+
+No screenshots were taken because exact computed parity passed and no regression required documentation.
+
+### Final checkpoint checks
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Services checkpoint.
