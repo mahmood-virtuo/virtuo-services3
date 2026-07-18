@@ -429,6 +429,21 @@ The fifth checkpoint deleted the three complete inactive commerce/account sectio
 
 No keyframe, URL or custom-property declaration was present. Generic-looking `.show-more`, `.flash-sale`, `.pagination__wrap` and `.f-right` rules were inside the inactive Shop/Checkout source and had no active PHP, built family-source, JavaScript or rendered-DOM owner. Guarded Shop Swiper setup and coupon/quantity handlers target absent markup and remain deferred to Phase 7. Net reductions: 35,977 source bytes and 30,307 minified core bytes, with exact 16-state same-DOM parity.
 
+### Banner, Brand, History, Counter and Video
+
+The sixth checkpoint deleted four complete inactive sections plus only the inactive portion of Banner:
+
+| Group | Normal rules deleted | Media wrappers | Boundary bytes |
+| --- | ---: | ---: | ---: |
+| Banner inactive portion | 211 | 120 | 25,422 audited / 25,421 net |
+| Brand | 31 | 6 | 3,954 |
+| History | 138 | 56 | 18,516 |
+| Counter | 89 | 40 | 10,492 |
+| Video | 75 | 37 | 10,285 |
+| Combined | 544 | 259 | 68,669 audited / 68,668 net |
+
+Banner was not deleted wholesale. Four active `.circle__wrap` elements on Home, About and Contact depend on 17 normal rules, seven media wrappers and the standard/prefixed `virtuo-circle-text-rotation` keyframes at its tail; all were retained in their original cascade position. The deletion removed the inactive Banner-only mask URL (two declarations), no keyframe and no custom property. Brand's guarded Swiper initializers target absent markup. Full same-DOM parity and the exhaustive route matrix passed; net minified core reduction was 56,483 bytes.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:
@@ -457,10 +472,9 @@ The import remains in generated core.min.css and main.min.css. The baseline buil
 
 ## CSS URL references
 
-Comment-free core contains 13 url() occurrences and eight unique values:
+Comment-free core now contains 11 url() occurrences and seven unique values:
 
 - One remote intl-tel-input stylesheet URL.
-- /assets/img/banner/mask_img.svg
 - /assets/img/images/about_mask_img.svg
 - /assets/img/project/project_mask_img.svg
 - /assets/img/images/faq_mask_img.svg
@@ -468,7 +482,7 @@ Comment-free core contains 13 url() occurrences and eight unique values:
 - /assets/img/images/virtuo-footer-gradient.webp
 - /assets/img/services/footerBackgroundImage-1920x1105.webp
 
-Five SVG masks occur in both prefixed and unprefixed declarations, giving 12 local core occurrences in total. In addition, home.css contains /assets/img/images/virtuo-footer-gradient-1920x908.webp and blog-details.css contains the fragment-only url(#emiratesMapGradient). Across all editable sources there are 15 active url() occurrences and 10 unique values. The CSS builder verified that every local root-relative target exists; the SVG fragment does not resolve to a filesystem asset.
+Four SVG masks occur in both prefixed and unprefixed declarations, giving 10 local core occurrences in total. In addition, home.css contains /assets/img/images/virtuo-footer-gradient-1920x908.webp and blog-details.css contains the fragment-only url(#emiratesMapGradient). Across all editable sources there are 13 active url() occurrences and nine unique values. The CSS builder verified that every local root-relative target exists; the SVG fragment does not resolve to a filesystem asset.
 
 ## Commented-out first-party code inventory
 

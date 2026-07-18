@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 4 advisory-section deletion validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 4 Callback/Core-value/Pricing/Career deletion, awaiting checkpoint
-- Next phase: Phase 4 commerce/account sections after this checkpoint and green staging workflow
+- Current phase: Phase 4 presentation-section deletion validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 4 Shop/Login/Checkout deletion, committed and staging-validated
+- Next phase: Phase 4 Project/Testimonial after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -927,7 +927,7 @@ Every route drops the same 13,565 minified core bytes.
 
 ## Phase 4 — Shop, Login and Checkout deletion
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -972,15 +972,71 @@ Every route drops the same 30,307 minified core bytes.
 ### Checkpoint
 
 - Intended message: Remove unused commerce and account CSS
+- Commit SHA: e3fa003b88b589495b63c6fdf3c79b84352f1f50
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29665494285 succeeded
+
+### Remaining risks
+
+- Shop, coupon and quantity JavaScript remains as harmless absent-node logic until the Phase 7 dead-code review.
+- Project and Testimonial remain for the final Phase 4 checkpoint.
+
+## Phase 4 — Banner, Brand, History, Counter and Video deletion
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal rules deleted: 544 (Banner inactive portion 211; Brand 31; History 138; Counter 89; Video 75)
+- Associated media wrappers: 259 (Banner 120; Brand 6; History 56; Counter 40; Video 37)
+- URL declarations deleted: 2 for one Banner-only mask asset
+- Keyframes and custom-property declarations deleted: 0
+- Rules moved or selectors/declarations rewritten: 0
+
+The Banner boundary was split conservatively. Its 17 live `.circle__wrap` rules, seven media wrappers, reduced-motion behavior and standard/prefixed `virtuo-circle-text-rotation` keyframes remain in the same cascade position because Home, About and Contact render four component instances. The inactive Banner rules plus `business-growth-box` and `happy__clients-wrap` were deleted. History's unanchored progress/planning helpers and Video's play-button helpers independently had no active rendered owner.
+
+### Before and after sizes
+
+| File | Before presentation deletion | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 483,522 | 414,854 | -68,668 |
+| assets/css/bundles/core.min.css | 407,845 | 351,362 | -56,483 |
+| assets/css/main.css | 771,037 | 702,369 | -68,668 |
+| assets/css/main.min.css | 658,501 | 602,018 | -56,483 |
+
+Every route drops the same 56,483 minified core bytes.
+
+### Validation performed
+
+- Fresh gate passed at e3fa003b88b589495b63c6fdf3c79b84352f1f50 after staging run 29665494285 succeeded.
+- Active-source and 89-route token evidence stayed zero for every deleted family/helper. Brand's guarded Swiper initializers return when markup is absent.
+- The boundary/dependency audit explicitly retained the active circle component and its two keyframe blocks; the sole deleted URL is Banner-only.
+- `npm run build:css` passed with the known remote-import notice.
+- Same-DOM desktop/mobile style and geometry parity passed all eight families: 16 states, matrix SHA-256 `87688365f205caa20ee091efcf9f7d7f48290444540f3500b9bc667dd1465dcc`, 698–3,151 elements, zero candidate matches/failures/diagnostics and eight retained circle observations.
+- All 89 probes and 17 stable local stylesheet paths/full URLs passed with zero inline styles, zero deleted candidate tokens and four retained circle instances.
+
+### Checkpoint
+
+- Intended message: Remove unused legacy presentation CSS
 - Commit SHA: pending checkpoint
 - Push target: origin/testing only
 - Staging workflow status: pending checkpoint push
 
 ### Remaining risks
 
-- Shop, coupon and quantity JavaScript remains as harmless absent-node logic until the Phase 7 dead-code review.
-- Banner, Brand, History, Counter, Video, Project and Testimonial remain for the final Phase 4 checkpoints.
+- Brand's absent-node Swiper initialization remains until Phase 7 review.
+- Project and Testimonial require their own guarded-initializer and mixed-selector audit.
 
 ## Next exact action
 
-Run final build/diff checks, commit the commerce/account checkpoint, push only to testing and wait for staging. Then gate Banner/Brand/History/Counter/Video.
+Run final deterministic build/diff checks, commit the presentation checkpoint, push only to testing and wait for staging. Then gate Project/Testimonial.

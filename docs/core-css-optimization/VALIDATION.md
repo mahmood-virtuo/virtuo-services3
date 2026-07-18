@@ -1157,3 +1157,33 @@ The exact spans total 35,977 bytes. They contain no keyframes, URLs or custom-pr
 The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths and full URLs returned 200; active inline styles and candidate DOM tokens were zero. No screenshots were required because exact same-DOM parity passed.
 
 Final commands: `npm run build:css`, `git diff --stat`, `git diff --check`, and `git status --short`.
+The commerce/account checkpoint was committed as e3fa003b88b589495b63c6fdf3c79b84352f1f50, pushed only to origin/testing, and staging run 29665494285 succeeded before the presentation gate.
+
+## Phase 4 legacy presentation deletion validation
+
+The clean testing/remote gate passed at e3fa003b88b589495b63c6fdf3c79b84352f1f50 after staging run 29665494285.
+
+Fresh source, runtime and all-route evidence requalified Brand, History, Counter, Video and most—but not all—of Banner. Home, About and Contact render four `.circle__wrap` instances. The 17 normal rules, seven media wrappers, reduced-motion rule and standard/prefixed `virtuo-circle-text-rotation` keyframes that own those instances were therefore retained at the Banner tail. All remaining Banner selectors, including `business-growth-box` and `happy__clients-wrap`, had no owner. Brand's guarded initializers return before creating Swipers when `.brand-active`/`.brand-active-two` are absent.
+
+| Group | Normal rules | Media wrappers | Audited boundary bytes |
+| --- | ---: | ---: | ---: |
+| Banner inactive portion | 211 | 120 | 25,422 |
+| Brand | 31 | 6 | 3,954 |
+| History | 138 | 56 | 18,516 |
+| Counter | 89 | 40 | 10,492 |
+| Video | 75 | 37 | 10,285 |
+
+The audited spans total 68,669 bytes; retaining one separator makes the net reduction 68,668. Two `url()` declarations for the same Banner-only mask were removed. No keyframe or custom property was deleted.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 483,522 | 414,854 | -68,668 |
+| core.min.css | 407,845 | 351,362 | -56,483 |
+| main.css | 771,037 | 702,369 | -68,668 |
+| main.min.css | 658,501 | 602,018 | -56,483 |
+
+`npm run build:css` passed. Installed Playwright/local Chrome compared the committed and selective-deletion core bundles in place before the unchanged family bundle. Comprehensive selected computed styles, every element rectangle and document geometry matched across all eight families at desktop/mobile. Aggregate matrix SHA-256: `87688365f205caa20ee091efcf9f7d7f48290444540f3500b9bc667dd1465dcc`; states 16; elements 698–3,151; inactive candidate matches/failures/browser diagnostics 0; retained circle observations 8.
+
+The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles and deleted candidate tokens were zero; four active circle instances remained. No screenshots were required because exact same-DOM parity passed.
+
+Final commands: `npm run build:css`, deterministic double-build hash comparison, `git diff --stat`, `git diff --check`, and `git status --short`.
