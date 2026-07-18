@@ -30394,7 +30394,7 @@ html {
   color: black;
 }
 
-.service-marquee-icon {
+.marquee__area .service-marquee-icon {
   position: relative;
   top: 0;
   display: inline-block;
@@ -30402,7 +30402,7 @@ html {
   height: 34px;
   margin-right: 12px;
   margin-left: -4px;
-  color: #ee4c01;
+  color: var(--tg-theme-primary);
   vertical-align: middle;
 }
 
