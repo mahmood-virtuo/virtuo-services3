@@ -3,6 +3,10 @@ body.home-page .home-hero-accent {
   color: var(--tg-theme-primary);
 }
 
+body.home-page .slider__area > .slider__bar-pagination .swiper-pagination-bullet-active {
+  background-color: #ee4c01;
+}
+
 body.home-page .home-about-orbit {
   left: auto;
   right: -291px;
