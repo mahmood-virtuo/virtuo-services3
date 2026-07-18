@@ -416,6 +416,19 @@ The third Phase 4 checkpoint deleted 21 normal rules (Preloader 6; Search 15) pl
 
 The fourth checkpoint deleted 139 normal rules and 39 media wrappers across four inactive advisory-theme sections. It also removed Callback's component-local `--bs-gutter-x`; no keyframe or URL was present. Career's seven `.apply__box` rules were independently requalified beyond the original prefix evidence. Net reductions: 16,152 source bytes and 13,565 minified core bytes, with full 16-state same-DOM parity.
 
+### Shop, Login and Checkout
+
+The fifth checkpoint deleted the three complete inactive commerce/account sections:
+
+| Group | Normal rules deleted | Media wrappers | Boundary bytes |
+| --- | ---: | ---: | ---: |
+| Shop/product | 150 | 15 | 24,032 |
+| Login/account | 28 | 6 | 3,918 |
+| Checkout/cart | 64 | 16 | 8,027 |
+| Combined | 242 | 37 | 35,977 |
+
+No keyframe, URL or custom-property declaration was present. Generic-looking `.show-more`, `.flash-sale`, `.pagination__wrap` and `.f-right` rules were inside the inactive Shop/Checkout source and had no active PHP, built family-source, JavaScript or rendered-DOM owner. Guarded Shop Swiper setup and coupon/quantity handlers target absent markup and remain deferred to Phase 7. Net reductions: 35,977 source bytes and 30,307 minified core bytes, with exact 16-state same-DOM parity.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

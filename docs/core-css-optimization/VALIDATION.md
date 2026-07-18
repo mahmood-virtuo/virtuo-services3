@@ -1128,3 +1128,32 @@ The exact spans total 16,156 bytes; retained separators make the net source redu
 All 89 probes retained expected status/family/order/no-compatibility behavior; 17 local stylesheet paths/full URLs returned 200; inline styles and candidate DOM tokens were zero. No screenshots were required.
 
 Final commands: `npm run build:css`, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The advisory checkpoint was committed as 1d2ff25b33c59ba97174ca29a69ebaab2f5859d0, pushed only to origin/testing, and staging run 29665177543 succeeded before the commerce/account gate.
+
+## Phase 4 commerce/account deletion validation
+
+The clean testing/remote gate passed at 1d2ff25b33c59ba97174ca29a69ebaab2f5859d0 after staging run 29665177543.
+
+Fresh active-source and runtime checks requalified the complete Shop, Login and Checkout spans. The only first-party JavaScript references are a guarded `.shop-active` initializer and handlers for absent `#coupon-element`, `.coupon__code-form`, `.cart-plus-minus` and `.qtybutton` nodes. The inactive SCSS archive is outside the active build. All 89 initial responses and all 16 parity states contained zero candidate nodes.
+
+| Group | Normal rules | Media wrappers | Boundary bytes |
+| --- | ---: | ---: | ---: |
+| Shop/product | 150 | 15 | 24,032 |
+| Login/account | 28 | 6 | 3,918 |
+| Checkout/cart | 64 | 16 | 8,027 |
+
+The exact spans total 35,977 bytes. They contain no keyframes, URLs or custom-property declarations. Generic-looking Shop/Checkout selectors were individually searched and remained confined to inactive archive source or absent markup.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 519,499 | 483,522 | -35,977 |
+| core.min.css | 438,152 | 407,845 | -30,307 |
+| main.css | 807,014 | 771,037 | -35,977 |
+| main.min.css | 688,808 | 658,501 | -30,307 |
+
+`npm run build:css` passed. Installed Playwright/local Chrome swapped the committed and deletion core bundles in place before the unchanged family bundle. Comprehensive selected layout, box, flex/grid, typography, color, background, border, visibility and overflow properties plus every element rectangle and document geometry matched across all eight families at desktop/mobile. Aggregate matrix SHA-256: `fb9a1d78059f16e4f83c878ab27d0afe4ef33dba525e4ec098e66e4df324ecc5`; states 16; elements 698–3,151; candidate matches/failures/browser diagnostics 0.
+
+The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths and full URLs returned 200; active inline styles and candidate DOM tokens were zero. No screenshots were required because exact same-DOM parity passed.
+
+Final commands: `npm run build:css`, `git diff --stat`, `git diff --check`, and `git status --short`.

@@ -871,7 +871,7 @@ The first immediate route traversal saw cache-buster URL variants while the sour
 
 ## Phase 4 — Callback, Core-value, Pricing and Career deletion
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -916,15 +916,71 @@ Every route drops the same 13,565 minified core bytes.
 ### Checkpoint
 
 - Intended message: Remove unused advisory CSS
+- Commit SHA: 1d2ff25b33c59ba97174ca29a69ebaab2f5859d0
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29665177543 succeeded
+
+### Remaining risks
+
+- Pricing's absent-node event handler remains until the Phase 7 JavaScript dead-code review.
+- The remaining approved presentation/carousel candidates remain untouched.
+
+## Phase 4 — Shop, Login and Checkout deletion
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal rules deleted: 242 (Shop/product 150; Login/account 28; Checkout/cart 64)
+- Associated media wrappers: 37 (Shop 15; Login 6; Checkout 16)
+- Keyframes, URLs and custom-property declarations deleted: 0
+- Rules moved or selectors/declarations rewritten: 0
+
+The complete Shop span also owned `.product-desc-wrap`, `.show-more`, `.flash-sale`, `.pagination__wrap`, `.cart-plus-minus` and `.related__product-*`. The Checkout span owned `.coupon__*`, `.customer__form-*`, `.order__info-*`, `.cart__*`, product table selectors, `.f-right` and `.update__cart-*`. Separate active-source/runtime and rendered-DOM checks found no owner for these less-specific names.
+
+### Before and after sizes
+
+| File | Before commerce/account deletion | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 519,499 | 483,522 | -35,977 |
+| assets/css/bundles/core.min.css | 438,152 | 407,845 | -30,307 |
+| assets/css/main.css | 807,014 | 771,037 | -35,977 |
+| assets/css/main.min.css | 688,808 | 658,501 | -30,307 |
+
+Every route drops the same 30,307 minified core bytes.
+
+### Validation performed
+
+- Fresh gate passed at 1d2ff25b33c59ba97174ca29a69ebaab2f5859d0 after staging run 29665177543 succeeded.
+- Active PHP/built family source remained zero. The original SCSS archive is inactive. Guarded Shop Swiper initialization and coupon/quantity handlers target absent nodes.
+- Fresh 89-route DOM validation found zero commerce/account tokens, including the generic-looking section-owned selectors.
+- Boundary audit covered 242 complete rules/37 media wrappers and no keyframe, URL, custom property or mixed active selector.
+- `npm run build:css` passed with the known remote-import notice.
+- Same-DOM desktop/mobile style and geometry parity passed all eight families: 16 states, matrix SHA-256 `fb9a1d78059f16e4f83c878ab27d0afe4ef33dba525e4ec098e66e4df324ecc5`, 698–3,151 elements, zero candidate matches/failures/diagnostics.
+- All 89 probes and 17 stable local stylesheet paths/full URLs passed with zero inline styles and zero candidate tokens.
+
+### Checkpoint
+
+- Intended message: Remove unused commerce and account CSS
 - Commit SHA: pending checkpoint
 - Push target: origin/testing only
 - Staging workflow status: pending checkpoint push
 
 ### Remaining risks
 
-- Pricing's absent-node event handler remains until the Phase 7 JavaScript dead-code review.
-- The remaining approved presentation/carousel and commerce/account candidates remain untouched.
+- Shop, coupon and quantity JavaScript remains as harmless absent-node logic until the Phase 7 dead-code review.
+- Banner, Brand, History, Counter, Video, Project and Testimonial remain for the final Phase 4 checkpoints.
 
 ## Next exact action
 
-Run final build/diff checks, commit the advisory checkpoint, push only to testing and wait for staging. Then gate Shop/Login/Checkout as the commerce/account checkpoint.
+Run final build/diff checks, commit the commerce/account checkpoint, push only to testing and wait for staging. Then gate Banner/Brand/History/Counter/Video.
