@@ -322,6 +322,20 @@ The initial candidate contained 36 rules. Property-level before/after comparison
 
 About source gained 4,034 bytes: the 3,969 moved bytes plus its ownership marker and spacing. Home/About CTA, shared about__area-four/image/content variants, mixed Home/About/Contact eye rules and shared breadcrumb/marquee rules remain in core.
 
+### Contact
+
+The Contact checkpoint moved 44 complete normal rules from core.css to the beginning of contact.css:
+
+| Contact-exclusive logical group | Normal rules moved | Source bytes moved |
+| --- | ---: | ---: |
+| Contact Figma panel, details, form-card and responsive form layout | 41 | 5,502 |
+| Contact map sizing, responsive height and iframe treatment | 3 | 207 |
+| Total | 44 | 5,709 |
+
+Contact source gained 5,710 bytes: the exact 5,709 moved bytes plus one separation newline. The mixed rule that assigns 15px form-field text to both `.contact-page-form-wrap` and `.footer__area-five` remains complete and unchanged in core. Shared Home/About/Contact eye rules, shared form primitives, intl-tel-input states and ajax-response success/error states also remain in core.
+
+Moving the complete Contact-owned rules produced exact desktop/mobile computed-style and document-geometry parity. Unlike the earlier family checkpoints, CleanCSS produced no combined active-payload delta: core.min.css decreased by 5,025 bytes and contact.min.css increased by the same 5,025 bytes.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

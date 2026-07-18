@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 3 About-family extraction validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 3 About-family extraction, awaiting checkpoint
-- Next phase: Phase 3 Contact-family extraction after the About checkpoint and green staging workflow
+- Current phase: Phase 3 Contact-family extraction validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 3 Contact-family extraction, awaiting checkpoint
+- Next phase: Phase 3 Services-family extraction after the Contact checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -192,7 +192,7 @@ Status: evidence complete; no CSS implementation performed.
 
 ## Phase 3 — Home family extraction
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -307,9 +307,9 @@ Every non-About route drops the 3,236 extracted minified core bytes. The active 
 ### Checkpoint
 
 - Intended message: Extract About CSS from core
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 1748b250814a2992c3d1e19c7c0e644ca9166f30
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29661588401 succeeded
 
 ### Remaining risks
 
@@ -317,6 +317,69 @@ Every non-About route drops the 3,236 extracted minified core bytes. The active 
 - Shared About/Home/Contact selectors remain in core.
 - Each later family needs a fresh property-level cascade comparison.
 
+## Phase 3 — Contact family extraction
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/src/pages/contact.css
+- assets/css/bundles/core.min.css
+- assets/css/bundles/contact.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules moved: 44
+- CSS rules/keyframes deleted: 0
+- Selectors or declarations rewritten: 0
+- Selectors split: 0
+- Remote imports changed: 0
+
+Moved groups: Contact Figma panel/detail/form layout and responsive rules, plus the active Contact map rules. The mixed Contact/footer field-font rule, shared eye selectors, shared form primitives, intl-tel-input states and ajax-response feedback states remain in core.
+
+### Before and after sizes
+
+| File | Before Contact | After Contact | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 640,224 | 634,515 | -5,709 |
+| assets/css/src/pages/contact.css | 15,743 | 21,453 | +5,710 |
+| assets/css/bundles/core.min.css | 541,369 | 536,344 | -5,025 |
+| assets/css/bundles/contact.min.css | 13,516 | 18,541 | +5,025 |
+| Contact core + family minified | 554,885 | 554,885 | 0 |
+| assets/css/main.css | 839,983 | 839,984 | +1 |
+| assets/css/main.min.css | 716,530 | 716,530 | 0 |
+
+Every non-Contact route drops the 5,025 extracted minified core bytes. The active Contact payload is byte-for-byte unchanged after minification.
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at 1748b250814a2992c3d1e19c7c0e644ca9166f30 after staging run 29661588401 succeeded.
+- npm run build:css passed with the unchanged known remote-import notice.
+- Core normal rules changed 4,522 to 4,478; Contact rules changed 101 to 145.
+- Desktop and mobile computed-style/geometry hashes matched the fresh pre-edit baselines exactly for 31 affected and deliberately shared targets.
+- Document geometry matched: desktop 1440px wide / 5,255px high and mobile 390px wide / 7,058px high.
+- All 89 route probes and all 17 local stylesheet requests passed; active style attributes and style blocks remained zero.
+- A 10-state desktop/mobile smoke covered Contact, Home, About, Services and Blog detail. It exercised navigation, Contact hover/form focus/phone dropdown/FAQ/map, Home tabs, About CTA/team hover, Services tabs/FAQ and the Blog calculator. It found no overflow, console/page errors or failed CSS, image, script, font or iframe resources.
+
+### Checkpoint
+
+- Intended message: Extract Contact CSS from core
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- The complete mixed Contact/footer field-font rule remains in core to preserve selector-list integrity.
+- Shared eye, form-feedback and phone-plugin rules remain core-owned by design.
+- Each later family needs a fresh property-level cascade comparison.
+
 ## Next exact action
 
-After the About checkpoint is committed, pushed to origin/testing and green on staging, begin Contact only. Keep the shared eye and form-feedback states in core; extract only exact Contact-owned card/map/layout groups, then repeat build, route and restricted desktop/mobile parity validation.
+Run final deterministic build/diff checks, commit the Contact checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and begin Services only.

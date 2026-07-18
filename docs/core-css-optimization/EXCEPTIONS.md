@@ -32,6 +32,8 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - Mixed selector lists that span families remain in core until they can be split without declaration, specificity, or cascade change.
 - Header, navigation, mobile menu, off-canvas, footer, shared forms, phone fields, common CTA, breadcrumb, marquee, scroll-top, and reusable service/sidebar primitives remain core by default.
 - The section beginning with the Footer heading at core.css line 23,602 contains footer plus later cross-family override layers. It must be classified rule-by-rule, not moved as one section.
+- The complete rule assigning `font-size: 15px` to both Contact form fields and `.footer__area-five` form fields remains in core. Splitting that selector list solely to force family ownership would rewrite a mixed shared rule without reducing the rendered Contact payload.
+- Shared Home/About/Contact eye rules and shared form, ajax-response and intl-tel-input state rules remain in core after the Contact extraction.
 - Legal has an empty source and uses shared core foundations. No generic typography may be moved to legal.css without exclusive ownership evidence.
 - Error has no body class, so error ownership must continue to rely on proven template-exclusive selectors rather than broad element selectors.
 

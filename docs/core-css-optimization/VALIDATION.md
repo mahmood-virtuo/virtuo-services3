@@ -499,3 +499,90 @@ No screenshots were taken because the detected cascade difference was corrected 
     git status --short
 
 These must pass immediately before committing the About checkpoint.
+
+The About checkpoint was committed as 1748b250814a2992c3d1e19c7c0e644ca9166f30, pushed only to origin/testing, and Deploy Virtuo Staging run 29661588401 succeeded before the Contact safety gate.
+
+## Phase 3 Contact-family extraction validation
+
+### Safety and ownership gate
+
+The Contact gate passed on testing with a clean worktree and HEAD equal to origin/testing at 1748b250814a2992c3d1e19c7c0e644ca9166f30. Deploy Virtuo Staging run 29661588401 succeeded before Contact editing began.
+
+Rendered ownership across all 86 canonical routes proved the active `.contact-page-form-section`, Contact Figma panel/detail/form-layout and `.contact-map` groups are Contact-only. The field-font rule combines Contact selectors with the global footer in one complete selector list, and the eye, form-feedback and phone-plugin states are shared or dynamic; all of those remained in core.
+
+### Exact structural movement
+
+- Core normal rules: 4,522 to 4,478.
+- Contact normal rules: 101 to 145.
+- Complete normal rules moved: 44.
+- Rules/keyframes deleted: 0.
+- Selector/declaration/media rewrites: 0.
+
+The Contact Figma and responsive form-layout group accounts for 41 moved rules / 5,502 bytes. The map group accounts for 3 moved rules / 207 bytes. The exact removed core spans total 5,709 bytes; contact.css gained 5,710 bytes including one separation newline.
+
+### Build and sizes
+
+    npm run build:css
+
+Result: passed with the unchanged CleanCSS notice that the remote intl-tel-input import was not inlined.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.min.css | 541,369 | 536,344 | -5,025 |
+| contact.min.css | 13,516 | 18,541 | +5,025 |
+| Contact core + family | 554,885 | 554,885 | 0 |
+| main.css | 839,983 | 839,984 | +1 |
+| main.min.css | 716,530 | 716,530 | 0 |
+
+### Computed-style and geometry parity
+
+Fresh before and after snapshots used installed Playwright/Google Chrome with reduced motion at 1440 x 1000 and 390 x 844. They captured 31 affected and deliberately shared targets: the Contact section/panel/grid/details, field/card/form/plugin wrappers, the retained footer field rule and the map/iframe.
+
+- Desktop SHA-256 before/after: 2ac7ee0c6ad985fa9ea0ed1a1063814ee4cb361574fa3433fd75565baddbfd3c.
+- Mobile SHA-256 before/after: a1fedd501a0a0186ceb27b14e3205e689c6ae625041c07e5073807a0543acfcb.
+- Desktop document metrics before/after: scrollWidth 1,440 and height 5,255.
+- Mobile document metrics before/after: scrollWidth 390 and height 7,058.
+- Two consecutive pre-edit snapshots and two consecutive post-edit snapshots produced the same viewport hashes.
+
+### Exhaustive route and asset validation
+
+The local validator covered all 86 sitemap routes plus invalid category, invalid tag and generic invalid probes:
+
+- Canonical routes: 86; total probes: 89.
+- Family distribution: Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 3.
+- Route/status/family/order/compatibility failures: 0.
+- Unique local stylesheet URLs: 17; HTTP failures: 0.
+- Active style attributes: 0; active style blocks: 0.
+
+The CSS builder's root-relative URL and local-target validation also passed for every editable source.
+
+### Restricted browser smoke
+
+The final evidence covered Contact, Home, About, standard Services and the calculator Blog detail at desktop and mobile, for 10 states. It exercised:
+
+- Desktop off-canvas and mobile navigation open/close.
+- Contact detail hover, form focus, intl-tel-input country dropdown, FAQ expansion and map geometry.
+- Home service-tab activation.
+- About CTA focus and team-social hover.
+- Services freezone-tab activation and FAQ expansion.
+- Blog calculator input at 45,000,000, whose current display contract is `$45.00M`.
+
+Results:
+
+- HTTP/status or bundle mapping failures: 0.
+- Horizontal-overflow failures: 0.
+- Console errors: 0; page errors: 0.
+- Failed CSS, image, script, font or iframe resources: 0.
+- The first calculator assertion expected an obsolete comma-formatted label; inspecting its unchanged JavaScript established the current `$45.00M` contract, and the focused desktop/mobile rerun passed. This was a test-harness correction, not a product change.
+- Google Analytics collect beacons aborted when isolated browser contexts closed; they were classified separately as out-of-scope telemetry and were not counted as asset failures.
+
+No screenshots were taken because exact computed parity passed and no regression required documentation.
+
+### Final checkpoint checks
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Contact checkpoint.
