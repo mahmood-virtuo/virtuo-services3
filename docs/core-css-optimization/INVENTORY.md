@@ -395,6 +395,19 @@ The first Phase 4 checkpoint requalified and deleted the adjacent legacy Challen
 
 Fresh active-source searches, all 89 initial renders and the Phase 2 interaction/Coverage evidence found zero applicable owner. The complete boundary included the base and four media-contained rules, with no keyframe, custom-property declaration, URL or mixed selector. Full computed-style and geometry parity passed across all eight families at desktop and mobile.
 
+### Benefit, Loan and Features
+
+The second Phase 4 checkpoint deleted three adjacent inactive advisory/layout sections:
+
+| Group | Normal rules deleted | Media wrappers | Boundary bytes |
+| --- | ---: | ---: | ---: |
+| Benefit | 26 | 7 | 3,078 |
+| Loan | 17 | 3 | 2,492 |
+| Features | 37 | 9 | 4,780 |
+| Combined | 80 | 19 | 10,350 |
+
+Retained separator whitespace makes the net source reduction 10,347 bytes; core.min.css dropped 8,739 bytes. The active build-source, JavaScript, 89-route DOM and Phase 2 Coverage gates were all zero. The sections defined no keyframe, URL or custom-property declaration, and same-DOM desktop/mobile style and geometry parity passed for every family.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

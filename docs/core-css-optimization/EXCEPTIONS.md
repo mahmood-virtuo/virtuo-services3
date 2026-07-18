@@ -49,8 +49,9 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - pricing__ and search-popup-only selectors have event handlers but no active trigger or target markup. The same DOM/interaction/Coverage gates found zero applicable markup and zero covered candidate tokens, so their CSS is approved for later Phase 4 boundary-safe deletion. Active header/mobile/menu states remain allowlisted.
 - Preloader markup and invocation are commented. Its dormant function found no runtime element, and its candidate selectors had zero Coverage; its CSS is approved for later Phase 4 deletion. Commented markup/function cleanup remains a separate Phase 7 decision.
 - contact__ is referenced by ajax-form.js even when an initial PHP prefix scan does not find it. Retain form feedback/error paths until interaction validation is complete.
-- Banner, History, Counter, Video, Callback, Core value, Benefit, Loan, Features, Career, Login and Checkout have no active source/runtime owner, no DOM match across the exhaustive initial scan or representative interactions, and zero covered candidate tokens. They are approved for later Phase 4 boundary-safe deletion.
+- Banner, History, Counter, Video, Callback, Core value, Career, Login and Checkout have no active source/runtime owner, no DOM match across the exhaustive initial scan or representative interactions, and zero covered candidate tokens. They are approved for later Phase 4 boundary-safe deletion.
 - Challenge and Strategic passed the fresh Phase 4 boundary/dependency gate and were deleted together in the first unused-rule checkpoint. They no longer require retention exceptions.
+- Benefit, Loan and Features passed the fresh Phase 4 boundary/dependency gate and were deleted together in the second unused-rule checkpoint. Their inactive SCSS archive was not edited because it is outside the active CSS build.
 - Any new prefix with zero first-party text matches remains only a candidate until it independently passes the same data, plugin, pseudo-state, responsive, interaction and Coverage gates.
 
 ## Remote intl-tel-input import

@@ -998,3 +998,73 @@ No screenshots were taken because exact full-style/geometry parity passed.
     git status --short
 
 These must pass immediately before committing the Challenge/Strategic checkpoint.
+
+The Challenge/Strategic checkpoint was committed as 8b68892f142a1e49ae53f133bf748559853c5938, pushed only to origin/testing, and Deploy Virtuo Staging run 29664620341 succeeded before the next Phase 4 gate.
+
+## Phase 4 Benefit/Loan/Features deletion validation
+
+### Safety, source and boundary gate
+
+The gate passed on testing with a clean worktree and HEAD equal to origin/testing at 8b68892f142a1e49ae53f133bf748559853c5938. Deploy Virtuo Staging run 29664620341 succeeded before editing.
+
+No active PHP, assets/css/src family source or first-party JavaScript owns `benefit__`, `loan__` or `features__`. The original non-built SCSS archive contains Features source, but package scripts build only assets/css/src through scripts/build-css.js. All 89 rendered responses contained zero candidate tokens. Phase 2 interaction/Coverage results were Benefit 0/26, Loan 0/19 and Features 0/39 candidate occurrences.
+
+The current boundary audit resolved:
+
+| Group | Normal rules | Media wrappers | Source bytes |
+| --- | ---: | ---: | ---: |
+| Benefit | 26 | 7 | 3,078 |
+| Loan | 17 | 3 | 2,492 |
+| Features | 37 | 9 | 4,780 |
+
+The original three spans totaled 10,350 bytes including inter-section whitespace. The boundary-safe edit retained one separator at each mechanical removal, so the net core/source reduction is 10,347 bytes. No block contained a keyframe, URL or custom-property declaration. Every selector branch remained candidate-anchored, including Features descendants that name shared Services/client primitives.
+
+### Build and size result
+
+    npm run build:css
+
+Result: passed with the unchanged remote intl-tel-input notice.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 551,124 | 540,777 | -10,347 |
+| core.min.css | 464,792 | 456,053 | -8,739 |
+| main.css | 838,639 | 828,292 | -10,347 |
+| main.min.css | 715,448 | 706,709 | -8,739 |
+
+### Same-DOM style and geometry parity
+
+Installed Playwright/local Chrome compared committed and deletion core bundles in place before the unchanged family bundle. It captured bounding rectangles, document geometry and a selected comprehensive set of layout, box, flex/grid, typography, color, background, border, transform, visibility and overflow properties for every element.
+
+| Family state | Desktop SHA-256 | Mobile SHA-256 |
+| --- | --- | --- |
+| Home | 1e8877052eccb7aa3faab865ccbc89cd035cf585d1ae7b8012b34559bd902b84 | 322cdcadfd6288b0d56d58777dfc4d6e59c55c0768a243029ae8fcbb515d7f4b |
+| About | 16b0db4a6c42c8c7894dfea78d3670c25626cdb5c5df7967f08b1cc83d362a54 | 02204e79222581245ffd7b21f7f87b35b775df8c52d857c75978052033631d5d |
+| Contact | 8edfada637777522560853a322d0008cb42cbc1d1c196035349c97708f8b72fa | 51fb11934afa594c53541812c672a190270c70cc8ce1b9d6d7a02f021b4020dc |
+| Digital Marketing Services | d025e95a1d8a2fe81eb5ee4906baeafd0a1b968f4a6c0469d6527d6e188809bd | 172e0f1c37bb599b2f1edcacd06b7fe6d5823d462d6f10bfe0219901d256e99e |
+| Blog listing | 080d8da25f62ea7e7a94d0917cdd6b8559c830d8b6ecd5a302596aebf96cfc88 | ecaff4becbba73a721fed5aed62d15aabd0729a09d46a1cdb318296a6d037287 |
+| Blog details | 57badbf1a4a5270da0941a3ebab3b46de951583cde2104c95d123bbc2cf99bb4 | f0ab87231b60229ee7d77a11ec820d66b7e4d340013f228f91efa306bc7cf2f8 |
+| Legal | d7411793c6f90e61288de88f74a1d1c401bf672c680f2b7c5a38c6923b37330a | b73df1d5b844c2cc18164a13de89c404a61fd55602930e1e8bf3bda546e13cbc |
+| Error | e0ec0cc42f5478c702f163c2f3670a1f6d1e67b8bdddc777a92fe38479d10fa8 | 1dd27b056866aaa0b2318b7eae04a62cff3cadf135f9acc0577a7f4070ca08f7 |
+
+All 16 before/after hashes and geometry records matched exactly; 655–3,107 elements were captured and candidate matches were zero.
+
+### Exhaustive route and asset validation
+
+- Canonical routes: 86; total probes: 89; expected family distribution unchanged.
+- Route/status/family/order/compatibility failures: 0.
+- Final unique local stylesheet paths: 17; unique full URLs after mtime stabilization: 17; HTTP failures: 0.
+- Active style attributes/blocks: 0; rendered candidate matches: 0.
+
+The first pass counted 19 full URLs because bundle cache-buster mtimes changed during the traversal immediately after a rebuild. Path-level uniqueness was 17, and a stable rerun showed one URL per each of the 17 paths. This was an evidence-harness timing artifact, not duplicate page markup or requests.
+
+No screenshots were taken because same-DOM hashes and geometry passed.
+
+### Final checkpoint checks
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Benefit/Loan/Features checkpoint.

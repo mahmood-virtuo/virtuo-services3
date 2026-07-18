@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 4 Challenge/Strategic deletion validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 4 Challenge/Strategic unused-rule deletion, awaiting checkpoint
-- Next phase: Phase 4 Benefit/Loan/Features deletion after this checkpoint and green staging workflow
+- Current phase: Phase 4 Benefit/Loan/Features deletion validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 4 Benefit/Loan/Features unused-rule deletion, awaiting checkpoint
+- Next phase: next approved Phase 4 logical group after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -696,7 +696,7 @@ The three invalid-route renders expose four tokens absent from canonical routes:
 
 ## Phase 4 — Challenge and Strategic unused-rule deletion
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -744,15 +744,73 @@ The first full-parity harness had a syntax typo, and its corrected version then 
 ### Checkpoint
 
 - Intended message: Remove unused Challenge and Strategic CSS
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 8b68892f142a1e49ae53f133bf748559853c5938
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29664620341 succeeded
 
 ### Remaining risks
 
 - Phase 2 approvals are candidate-specific; no adjacent Pricing rule was included.
 - The other 19 approved unused groups remain unchanged until separately requalified.
 
+## Phase 4 — Benefit, Loan and Features unused-rule deletion
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules deleted: 80 (Benefit 26; Loan 17; Features 37)
+- Associated media wrappers removed: 19
+- CSS rules moved: 0
+- Keyframes/custom-property declarations/URLs deleted: 0
+- Selectors/declarations rewritten or split: 0
+
+The deletion removed the three adjacent complete sections from `25. Benefit` through `27. Features`. Descendant references to shared class names were retained only inside selectors anchored by the absent `features__` component; the following Pricing boundary was preserved.
+
+### Before and after sizes
+
+| File | Before Benefit/Loan/Features | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 551,124 | 540,777 | -10,347 |
+| assets/css/bundles/core.min.css | 464,792 | 456,053 | -8,739 |
+| assets/css/main.css | 838,639 | 828,292 | -10,347 |
+| assets/css/main.min.css | 715,448 | 706,709 | -8,739 |
+
+Every active route drops the same 8,739 minified core bytes.
+
+### Validation performed
+
+- Fresh gate passed at 8b68892f142a1e49ae53f133bf748559853c5938 after Deploy Virtuo Staging run 29664620341 succeeded.
+- Requalified zero active build-source/JavaScript owners, zero tokens across all 89 rendered probes and Phase 2 candidate Coverage of Benefit 0/26, Loan 0/19 and Features 0/39.
+- Boundary audit found 80 complete rules in 19 media wrappers and no keyframe, URL, custom-property declaration or selector branch without a candidate prefix anchor.
+- `npm run build:css` passed with the unchanged remote-import notice.
+- Same-DOM selected computed-style and geometry hashes matched for all eight route families at desktop/mobile: 16 states, 655–3,107 elements, zero candidate matches and zero differences.
+- All 89 route probes retained expected status/family/order/no-compatibility behavior; final unique local stylesheet paths and URLs were 17, all 200, with zero inline styles.
+
+An initial route pass observed 19 full cache-busted stylesheet URLs while rebuilt bundle mtimes were settling. De-duplication by decoded pathname remained 17, and the stable rerun was 17 by both path and full URL; no duplicate link or asset request was present in a rendered page.
+
+### Checkpoint
+
+- Intended message: Remove unused Benefit Loan and Features CSS
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Original SCSS theme sources still mention Features, but the active build consumes assets/css/src rather than compiling SCSS; those inactive source archives were not edited.
+- The remaining approved groups must still pass their own current boundary and runtime gates.
+
 ## Next exact action
 
-Run the final deterministic build/diff checks, commit the Challenge/Strategic checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and requalify the adjacent Benefit/Loan/Features group.
+Run the final deterministic build/diff checks, commit the Benefit/Loan/Features checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh gate and select the next smallest coherent approved Phase 4 group.
