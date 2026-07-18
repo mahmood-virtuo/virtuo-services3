@@ -201,6 +201,7 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - Rendered links/status: the ten representative routes returned expected 200/404 statuses and loaded core exactly once followed by the expected family exactly once, with no active compatibility main.
 - Bundle HTTP status: core and all eight family bundle files returned 200 with CSS content types.
 - Resource crawl: 182 local CSS/image/font resources referenced by representative HTML/CSS were requested. Three pre-existing Government Relations HTML image paths containing spaces returned 404 through the local router despite matching files on disk; they are unrelated to CSS, predate this phase, and were not modified. Every split-CSS-originated resource returned 200.
+- Testing deployment: checkpoint `1a68f6c` was pushed only to `origin/testing`; GitHub Actions staging run `29647165392` succeeded.
 - Browser automation: not used under the requested lightweight-testing restriction.
 
 Manual checks remaining: verify the representative route matrix on staging at desktop/mobile, confirm the Network panel has no CSS-originated image/font 404s (especially the About mask), confirm no new console errors, and visually check mask/background rendering. Separately verify whether staging serves the three existing space-containing Government Relations image filenames before scoping any follow-up.

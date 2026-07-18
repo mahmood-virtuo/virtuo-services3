@@ -532,10 +532,10 @@ Validation results:
 - No PHP, routing, SEO, preload, JavaScript, deployment, or workflow file changed.
 - Browser automation was not used under the requested lightweight-testing restriction.
 
-Checkpoint commit: pending.
+Checkpoint commit: `1a68f6c` (`Fix split CSS asset URLs`).
 
-Pushed: pending, to `origin/testing` only.
+Pushed: yes, to `origin/testing` only. GitHub Actions staging run `29647165392` succeeded.
 
 Remaining risk: manual staging browser verification is still required for visual parity and the network/console matrix. The three unrelated space-containing Government Relations image paths should be checked separately against staging behavior before any independently scoped content-path change is considered.
 
-Exact next action: create and push the validated testing checkpoint, confirm its GitHub Actions run, then record the checkpoint metadata here.
+Exact next action: perform the remaining staging browser/network checks in `VALIDATION.md`; handle the unrelated space-containing Government Relations image paths only as a separately scoped task if staging reproduces them.
