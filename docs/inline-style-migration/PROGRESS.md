@@ -4,11 +4,11 @@
 
 - Starting commit: `2785b8c6f568987c19d61de9c151bafe8067c716`
 - Branch: `testing`
-- Current phase: Phase 6 — Legal and Error pages (validation complete; checkpoint pending)
-- Completed phases: Phase 0; Phase 1; Phase 2 (Homepage, About, Contact); Phase 3; Phase 4; Phase 5
-- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`; Contact `3d08de0c2e82249dcce6ba0bb3dcfd2eb55900d3`; Services `6f9d6bdb3d04a89cb318095f10a2529d7827801c`; Blog Listing `a33f54d0fa8d2180a46b8d7bad19b69d3412d1fa`; Blog Details `f7fc6ed1d5160ea1066fdba66d00e837b7859a2a`
-- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded; Contact run `29648575638` succeeded; Services run `29648841390` succeeded; Blog Listing run `29648935690` succeeded; Blog Details run `29649102386` succeeded.
-- Next exact action: commit the validated Legal/Error phase, push only `testing`, verify staging, then perform the Phase 7 full final audit and cleanup.
+- Current phase: Phase 7 — Final audit and cleanup (validation complete; checkpoint pending)
+- Completed phases: Phase 0; Phase 1; Phase 2 (Homepage, About, Contact); Phase 3; Phase 4; Phase 5; Phase 6
+- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`; Contact `3d08de0c2e82249dcce6ba0bb3dcfd2eb55900d3`; Services `6f9d6bdb3d04a89cb318095f10a2529d7827801c`; Blog Listing `a33f54d0fa8d2180a46b8d7bad19b69d3412d1fa`; Blog Details `f7fc6ed1d5160ea1066fdba66d00e837b7859a2a`; Legal/Error `f570c1737e778386bd4717525dc54c0c55ff80d6`
+- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded; Contact run `29648575638` succeeded; Services run `29648841390` succeeded; Blog Listing run `29648935690` succeeded; Blog Details run `29649102386` succeeded; Legal/Error run `29649270815` succeeded.
+- Next exact action: commit the validated Phase 7 audit, push only `testing`, verify staging, then record the final checkpoint result and close the migration.
 
 ## Original inventory
 
@@ -243,3 +243,43 @@ Government Relations references image paths containing spaces at lines 89, 108, 
 - `services.css`: 1,412 → 1,024 bytes after relocation (-388); `services.min.css`: 1,178 → 853 (-325). Combined core + services is 92 bytes smaller than before relocation.
 - `error.css`: 1,125 → 1,186 bytes (+61); `error.min.css`: 891 → 943 (+52).
 - Invalid-route HTML: 74,877 → 74,847 bytes (-30). Compatibility `main.css`/`main.min.css` are 41/40 bytes smaller than immediately before Phase 6.
+
+## Phase 7 final audit results
+
+- Final active first-party template inventory: 0 `style` attributes and 0 `<style>` blocks.
+- Removed: all 421 active template attributes representing 603 declarations (418 literal static plus 3 PHP-generated finite/static candidates).
+- Added: 55 semantic/state classes, all confirmed present in both active markup and editable CSS; no orphaned migration class was found.
+- Intentionally retained: 105 runtime style operations across 11 first-party files, exactly as registered in `EXCEPTIONS.md`.
+- Inactive matches retained: 14 attributes inside HTML comments (10 in `about.php`, 4 in `blog-details8.php`). Third-party/font-package artifacts remain excluded and untouched.
+- CSS destinations received 129 consolidated declarations: core 30, Home 43, About 11, Contact 20, Services 13, Blog Listing 0, Blog Details 11, Legal 0, Error 1. One service breadcrumb declaration reused the pre-existing core `background-size: cover` rule.
+- Changed-file count from the starting checkpoint through Phase 6: 63, including editable PHP/CSS/docs and generated CSS outputs; no temporary migration files remain.
+
+### Final generated CSS size comparison
+
+| Bundle | Baseline bytes | Final bytes | Change |
+| --- | ---: | ---: | ---: |
+| `core.min.css` | 555,333 | 556,457 | +1,124 |
+| `home.min.css` | 9,926 | 11,359 | +1,433 |
+| `about.min.css` | 11,798 | 12,310 | +512 |
+| `contact.min.css` | 12,750 | 13,516 | +766 |
+| `services.min.css` | 231 | 853 | +622 |
+| `blog-listing.min.css` | 10,868 | 10,868 | 0 |
+| `blog-details.min.css` | 108,573 | 109,467 | +894 |
+| `legal.min.css` | 50 | 50 | 0 |
+| `error.min.css` | 891 | 943 | +52 |
+| **All split bundles** | **710,420** | **715,823** | **+5,403** |
+| Compatibility `main.min.css` | 710,370 | 715,773 | +5,403 |
+
+### Final representative HTML comparison
+
+| Route | Baseline bytes | Final bytes | HTML change | Cold HTML + core/family CSS change |
+| --- | ---: | ---: | ---: | ---: |
+| `/` | 116,600 | 113,730 | -2,870 | -313 |
+| `/about` | 128,830 | 125,068 | -3,762 | -2,126 |
+| `/contact` | 99,771 | 97,396 | -2,375 | -485 |
+| Government Relations | 207,443 | 205,203 | -2,240 | -494 |
+| `/blog` | 106,323 | 104,459 | -1,864 | -740 |
+| `/privacy-policy` | 71,650 | 71,359 | -291 | +833 |
+| Invalid route | 76,829 | 74,847 | -1,982 | -806 |
+
+The Legal cold-request increase comes from the shared core rules used across every page family; repeat navigation reuses that cacheable core bundle. CSS request counts are unchanged, compatibility CSS is never rendered by active routes, and no PageSpeed claim is made.

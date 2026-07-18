@@ -363,3 +363,39 @@ No browser automation was run. Manual checks remain necessary for hero highlight
 ### Browser, responsive, console, and network findings
 
 No browser automation was run. Manual checks remain necessary for Legal typography/spacing, 404 breadcrumb/marquee/content/footer presentation, shared plain-marquee icons on every family, initial and updated service breadcrumbs, desktop/tablet/mobile layouts, horizontal overflow, and browser console/network output.
+
+### Legal/Error checkpoint and staging
+
+- Commit: `f570c1737e778386bd4717525dc54c0c55ff80d6` (`Migrate legal and error page inline styles`).
+- Push target: `origin/testing` only.
+- Staging workflow: `Deploy Virtuo Staging` run `29649270815` completed successfully.
+- Production workflow/branch and `virtuo.ae`: not modified or deployed.
+
+## Phase 7 — Final audit and cleanup
+
+### Full inventory and static validation
+
+- Comment-aware active template scan: 0 `style` attributes and 0 `<style>` blocks.
+- Raw first-party template scan: 14 matches, all inside the documented inactive comments (About 10; Blog Detail 8 cost-box prototype 4).
+- Runtime scan: 105 operations across the same 11 first-party files; retained by design and documented in `EXCEPTIONS.md`.
+- PHP syntax: all 84 active first-party PHP files passed `php -l`.
+- JavaScript syntax: all 20 non-minified first-party files under `assets/js` and `scripts` passed `node --check`.
+- `npm run build:css`: passed twice; only the existing skipped remote `intl-tel-input` `@import` notice appeared.
+- Consecutive SHA-256 manifests for all nine split bundles and both compatibility outputs: identical.
+- Watcher: the existing `node scripts/watch-assets.js` process remained healthy; source/config targets are watched and generated bundle outputs are not, so no output loop exists.
+- Migration class audit: all 55 added classes occur in active markup and editable CSS; zero missing/orphaned classes.
+- Temporary-file scan: no migration temp/log/hash files remain.
+- `git diff --check`: passed.
+
+### Complete route and bundle matrix
+
+- Checked 25 routes: Home, About, Contact, all five Service families (including a Digital Marketing non-default tab), Blog Listing, a valid category, a valid tag, all 11 routed Blog Detail articles, both Legal pages, and an invalid route.
+- All 24 valid pages returned HTTP 200; the invalid route retained HTTP 404.
+- Every response had exactly one versioned `core.min.css`, exactly one correct family bundle, no other family bundle, no compatibility bundle, zero rendered `style` attributes, and correct vendor → core → family order.
+- All five legacy Service URLs, representative old Blog Detail URLs/slugs, and a trailing-slash category URL retained HTTP 301 redirects to their established canonical destinations.
+- All nine split CSS resources returned HTTP 200.
+- `/sitemap.xml` returned HTTP 200 with a valid `urlset` response.
+
+### Browser, responsive, console, and network findings
+
+No browser automation or screenshot testing was run, per the project token-saving rule. Command-line checks prove syntax, deterministic assets, HTTP behavior, bundle mapping/order, inline-style removal, redirects, sitemap availability, and targeted asset availability; they do not prove computed visual parity. A consolidated manual desktop/tablet/mobile checklist remains required before any production release.

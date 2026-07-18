@@ -2,6 +2,8 @@
 
 This register covers style mutations that the static-template migration intentionally retains. Line numbers are the Phase 0 baseline and may move as nearby markup changes; the identifying behavior remains authoritative.
 
+Phase 7 final status: no active template inline-style exception remains. The 105 runtime operations below are intentionally retained; the 14 raw template matches listed under inactive exclusions remain inside HTML comments and do not render.
+
 ## Runtime-generated first-party styles (Category E)
 
 | File and identifying lines | Behavior | Exact reason retained |
