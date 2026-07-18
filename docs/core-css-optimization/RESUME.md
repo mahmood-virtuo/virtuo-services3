@@ -2,37 +2,35 @@
 
 ## Last completed checkpoint
 
-Phase 2 unused-CSS evidence is committed, pushed to origin/testing and green on staging. The Phase 3 Home-family extraction is implemented and validated, and is awaiting its checkpoint commit/push/staging result.
+The Phase 3 Home extraction is committed, pushed to origin/testing and green on staging. The Phase 3 About extraction is implemented and validated, and is awaiting its checkpoint commit/push/staging result.
 
 ## Repository state at this handoff
 
 - Current branch: testing
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
-- Last completed checkpoint: a090a82d2bebfb182da16f8bddf17a192d5a2f5d
-- Last completed staging run: Deploy Virtuo Staging 29660863968 succeeded
-- Current HEAD: the Home checkpoint containing this file; resolve exactly with git rev-parse HEAD
-- Required remote equality: current HEAD must equal origin/testing before About starts
+- Last completed checkpoint: a69a98d7737df2584361ee68ca3c94ba57bb0500
+- Last completed staging run: Deploy Virtuo Staging 29661325264 succeeded
+- Current HEAD: the About checkpoint containing this file; resolve exactly with git rev-parse HEAD
+- Required remote equality: current HEAD must equal origin/testing before Contact starts
 - Production/main state: untouched
 
-A committed file cannot contain its own final Git hash, so git rev-parse HEAD and git rev-parse origin/testing remain authoritative for the checkpoint containing this resume state.
+## About extraction completed locally
 
-## Home extraction completed locally
-
-- 86 complete normal rules plus 2 hoverShine keyframe blocks moved from core.css to the beginning of home.css.
-- core.css: 658,214 to 644,193 bytes.
-- core.min.css: 556,488 to 544,605 bytes.
-- home.min.css: 11,472 to 23,415 bytes.
-- Exact desktop/mobile computed hashes matched before and after.
-- All 89 route probes and 17 local stylesheet assets passed.
-- The 10-state Home/shared browser smoke passed without overflow, console/page errors or failed resources.
+- 35 complete About-only rules moved to the beginning of about.css.
+- `.virtuo-team__container` was retained at its original core position after property comparison proved its cascade dependency on a later shared gutter rule.
+- core.css: 644,193 to 640,224 bytes.
+- core.min.css: 544,605 to 541,369 bytes.
+- about.min.css: 12,802 to 16,099 bytes.
+- Exact desktop/mobile computed hashes and document geometry matched before and after.
+- All 89 route probes, 17 local stylesheets and 10 browser states passed.
 
 ## Next exact action
 
-Run final diff checks, commit the Home checkpoint with message Extract Home CSS from core, push only to origin/testing and wait for Deploy Virtuo Staging success. Then pass a fresh Git gate and begin About only.
+Run final diff checks, commit with message Extract About CSS from core, push only to origin/testing and wait for Deploy Virtuo Staging success. Then pass a fresh Git gate and begin Contact only.
 
 ## Outstanding phases
 
-- Phase 3: About, Contact, Services, Blog listing, Blog details, Legal and Error family reviews/extractions in that order.
+- Phase 3: Contact, Services, Blog listing, Blog details, Legal and Error family reviews/extractions in that order.
 - Phase 4: approved unused-group deletion in small checkpoints.
 - Phase 5: exact duplicate and keyframe consolidation.
 - Phase 6: remote intl-tel-input import optimization.
@@ -44,11 +42,11 @@ Run final diff checks, commit the Home checkpoint with message Extract Home CSS 
 
 ## Known risks
 
-- Shared Home/About/Contact/Blog selector groups intentionally remain in core.
-- Core is still 544,605 minified bytes and retains approved legacy candidates until Phase 4.
-- Every later family movement needs a new cascade/computed-style baseline.
-- The remote intl-tel-input import and duplicate candidates remain unchanged.
-- The in-app browser Node bridge remains unavailable; the approved installed Playwright/local Chrome fallback was used.
+- `.virtuo-team__container` remains in core for verified cascade order.
+- Shared Home/About/Contact selectors intentionally remain in core.
+- Core is still 541,369 minified bytes and retains approved legacy candidates until Phase 4.
+- The remote import and duplicate candidates remain unchanged.
+- The approved installed Playwright/local Chrome fallback remains necessary while the in-app browser bridge metadata is unavailable.
 
 ## Recovery rule
 

@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 3 Home-family extraction validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 3 Home-family extraction, awaiting checkpoint
-- Next phase: Phase 3 About-family extraction after the Home checkpoint and green staging workflow
+- Current phase: Phase 3 About-family extraction validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 3 About-family extraction, awaiting checkpoint
+- Next phase: Phase 3 Contact-family extraction after the About checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -244,9 +244,9 @@ The active Home payload is effectively unchanged apart from a 60-byte minifier/o
 ### Checkpoint
 
 - Intended message: Extract Home CSS from core
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: a69a98d7737df2584361ee68ca3c94ba57bb0500
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29661325264 succeeded
 
 ### Remaining risks
 
@@ -254,6 +254,69 @@ The active Home payload is effectively unchanged apart from a 60-byte minifier/o
 - Shared Home/About/Contact/Blog groups remain in core by design.
 - Compatibility main.css grew 78 source bytes due ownership separation, but remains non-rendered and preserves all rules.
 
+## Phase 3 — About family extraction
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/src/pages/about.css
+- assets/css/bundles/core.min.css
+- assets/css/bundles/about.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules moved: 35
+- CSS rules/keyframes deleted: 0
+- Selectors or declarations rewritten: 0
+- Selectors split: 0
+- Remote imports changed: 0
+
+Moved groups: About intro image wrapper, intro content/action row, and Virtuo team rules except `.virtuo-team__container`. That rule remains in core because property comparison proved its original position is required for later shared-gutter precedence.
+
+### Before and after sizes
+
+| File | Before About | After About | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 644,193 | 640,224 | -3,969 |
+| assets/css/src/pages/about.css | 15,046 | 19,080 | +4,034 |
+| assets/css/bundles/core.min.css | 544,605 | 541,369 | -3,236 |
+| assets/css/bundles/about.min.css | 12,802 | 16,099 | +3,297 |
+| About core + family minified | 557,407 | 557,468 | +61 |
+| assets/css/main.css | 839,918 | 839,983 | +65 |
+| assets/css/main.min.css | 716,469 | 716,530 | +61 |
+
+Every non-About route drops the 3,236 extracted minified core bytes. The active About payload is unchanged apart from a 61-byte minifier/order difference.
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at a69a98d7737df2584361ee68ca3c94ba57bb0500 after staging run 29661325264 succeeded.
+- npm run build:css passed.
+- Core normal rules changed 4,557 to 4,522; About rules changed 109 to 144.
+- An initial desktop parity difference traced solely to `.virtuo-team__container` overriding the shared gutter. Retaining that rule in core restored exact parity.
+- Desktop and mobile computed-style/geometry hashes matched the pre-edit baselines exactly.
+- All 89 route probes and all 17 local stylesheet requests passed.
+- A 10-state desktop/mobile smoke covered About, Home, Contact, Services and Blog detail with navigation and affected interactions. It found no overflow, console/page errors or failed resources.
+
+### Checkpoint
+
+- Intended message: Extract About CSS from core
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- `.virtuo-team__container` remains core-owned solely for cascade order; moving it would require duplicating or reordering a shared gutter rule and is not justified.
+- Shared About/Home/Contact selectors remain in core.
+- Each later family needs a fresh property-level cascade comparison.
+
 ## Next exact action
 
-After the Home checkpoint is committed, pushed to origin/testing and green on staging, begin the About family only. Re-resolve About-exclusive rules while retaining Home/About and About/Contact shared groups, then repeat build, exhaustive routes, restricted desktop/mobile computed/interactions and checkpoint validation.
+After the About checkpoint is committed, pushed to origin/testing and green on staging, begin Contact only. Keep the shared eye and form-feedback states in core; extract only exact Contact-owned card/map/layout groups, then repeat build, route and restricted desktop/mobile parity validation.

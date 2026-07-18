@@ -435,3 +435,67 @@ No screenshots were taken because no regression or correction required documenta
     git status --short
 
 These must pass immediately before committing the Home checkpoint.
+
+## Phase 3 About-family extraction validation
+
+### Safety and ownership gate
+
+The About gate passed on testing with a clean worktree and HEAD equal to origin/testing at a69a98d7737df2584361ee68ca3c94ba57bb0500. Deploy Virtuo Staging run 29661325264 succeeded before About editing began.
+
+Rendered ownership across all 86 canonical routes proved the base about__img-wrap, about__content/about__content-bottom and virtuo-team groups are About-only. home-main-cta occurs on Home and About; about__area-four/image/content occurs on both; and eye rules combine About with Home/Contact. Those shared groups remained in core.
+
+### Exact structural movement and correction
+
+The first pass selected 36 complete rules / 4,057 bytes. Desktop property comparison detected that moving `.virtuo-team__container` caused its padding-left/right: 0 declarations to outrank a later shared site-content-gutter rule. The observed differences were container padding 80px to 0, grid width 990px to 1,150px and consequent team vertical geometry changes.
+
+That 88-byte complete rule was restored to core at its original position and removed from about.css. The final movement is:
+
+- Core normal rules: 4,557 to 4,522.
+- About normal rules: 109 to 144.
+- Rules moved: 35.
+- Rules/keyframes deleted: 0.
+- Selector/declaration/media rewrites: 0.
+
+### Build and sizes
+
+    npm run build:css
+
+Result: passed with the unchanged remote import notice.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.min.css | 544,605 | 541,369 | -3,236 |
+| about.min.css | 12,802 | 16,099 | +3,297 |
+| About core + family | 557,407 | 557,468 | +61 |
+| main.css | 839,918 | 839,983 | +65 |
+| main.min.css | 716,469 | 716,530 | +61 |
+
+### Computed-style and geometry parity
+
+Snapshots at 1440 x 1000 and 390 x 844 captured 21 affected and deliberately shared selectors, including team grid placement/social hover and About intro/CTA/eye elements.
+
+- Desktop SHA-256 before/after: adf0f24301c6fdb849c42f9385ebf809c918e516e170bacfce641c1c618be17d.
+- Mobile SHA-256 before/after: 071f1e8b4e58e10d005ef3d3bfb4730054dcb03568edda1dbf34c13f5d8c3fb2.
+- Desktop document metrics: 1440 / 1440 / 8606 before and after.
+- Mobile document metrics: 390 / 390 / 12590 before and after.
+
+The comparison used the committed pre-edit bundles through browser request interception, so the cascade correction was verified property-by-property without changing checkout files to reconstruct baseline state.
+
+### Route and restricted browser results
+
+- Canonical routes: 86; total probes: 89; route/status/family/order failures: 0.
+- Local stylesheet URLs: 17; HTTP failures: 0.
+- Browser states: 10 across About, Home, Contact, Services and Blog detail at desktop/mobile.
+- Interactions: off-canvas/mobile menu, About intro CTA focus, team social hover, Home tab, Contact form focus, Services tab and Blog calculator.
+- Horizontal overflow: 0 states.
+- Console errors: 0; page errors: 0; failed resources: 0.
+
+No screenshots were taken because the detected cascade difference was corrected and verified numerically without a remaining visual regression.
+
+### Final checkpoint checks
+
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the About checkpoint.

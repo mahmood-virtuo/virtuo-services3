@@ -307,6 +307,21 @@ The following superficially Home-named groups were deliberately not moved:
 
 Their shared ownership remains Category C/A until a later safe duplication or shared-core decision.
 
+### About
+
+The About checkpoint moved 35 complete normal rules from core.css to the beginning of about.css:
+
+| About-exclusive logical group | Normal rules moved | Source bytes moved |
+| --- | ---: | ---: |
+| Intro image wrapper and responsive shape positioning | 11 | 995 |
+| Intro content and action row | 3 | 344 |
+| Virtuo team layout, members, social links and breakpoints | 21 | 2,630 |
+| Total | 35 | 3,969 |
+
+The initial candidate contained 36 rules. Property-level before/after comparison proved that moving `.virtuo-team__container` changed desktop padding from 80px to 0 because it began to outrank a later shared site-content-gutter rule. That complete 88-byte rule remains in core at its original cascade position. The correction restored exact desktop/mobile computed-style and geometry hashes without rewriting any selector or declaration.
+
+About source gained 4,034 bytes: the 3,969 moved bytes plus its ownership marker and spacing. Home/About CTA, shared about__area-four/image/content variants, mixed Home/About/Contact eye rules and shared breadcrumb/marquee rules remain in core.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:
