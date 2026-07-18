@@ -60,7 +60,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title">The <span style="color: var(--tg-theme-primary)">UAE Golden Visa:</span><br />Comparing Every Real Way to Qualify</h1>
+                                        <h1 class="title">The <span class="blog-hero-highlight">UAE Golden Visa:</span><br />Comparing Every Real Way to Qualify</h1>
                                         <p>Capital, salary, or recognition — the Golden Visa has five working routes, and most applicants only know about one. Here's how the eligibility paths actually compare.</p>
                                         <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -124,7 +124,7 @@
                         <div class="vt-stat"><div class="n"><span data-count="9800">0</span></div><div class="l">Net millionaires the UAE is set to gain in 2025 — first worldwide</div><div class="src">Henley 2025</div></div>
                         <div class="vt-stat"><div class="n"><small>AED&nbsp;</small><span data-count="2" data-dec="0">0</span><small>m</small></div><div class="l">Capital threshold that has stayed fixed through every 2026 reform</div><div class="src">ICP, Golden Residency</div></div>
                       </div>
-                      <p class="vt-psub" style="margin-top:18px">What's actually changed in 2026 isn't the AED 2 million floor — it's how flexibly you can get there. Mortgaged property, off-plan units from approved developers, and combined property portfolios now all count toward it, and the old 50% upfront-payment rule was removed in February 2026.</p>
+                      <p class="vt-psub blog-stats-followup">What's actually changed in 2026 isn't the AED 2 million floor — it's how flexibly you can get there. Mortgaged property, off-plan units from approved developers, and combined property portfolios now all count toward it, and the old 50% upfront-payment rule was removed in February 2026.</p>
                     </div>
 
                     <h2 class="title-two">What the Golden Visa actually buys you</h2>
@@ -235,7 +235,7 @@
                       <div class="vt-eyebrow">The bottom line</div>
                       <div class="vt-ptitle">The Golden Visa isn't hard to qualify for. It's hard to qualify for correctly on the first try.</div>
                       <p class="vt-psub">Five routes, five sets of evidence, and a constantly updated rulebook mean most rejections are self-inflicted — the right route applied with the wrong proof. Tell us what you can actually document, and we'll map the cleanest path to the visa.</p>
-                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" style="margin-top: 20px;" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
+                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary blog-cta-spaced" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
                     </div>
 
                     <p class="vt-sources">Sources: Golden Visa legal framework — Federal Decree-Law No. 29 of 2021, Cabinet Resolution No. 65 of 2022, administered by ICP and GDRFA. Issuance volume and category detail — GSDA Legal Consultants (2026); Ancova Associates, UAE Golden Visa Requirements 2026. Property rule changes (Feb 2026 upfront-payment removal, off-plan/mortgage eligibility) — Ancova, EGSH, UAE Insider Guide (2026). Dubai investor-visa volume — Gulf News (2026). Wealth migration — Henley Private Wealth Migration Report 2025. 2-year Taskeen property visa terms — Gulf News, Dubai Property Visa Guide 2026. Figures current as of mid-2026 and subject to change. Educational only — not legal or immigration advice.</p>

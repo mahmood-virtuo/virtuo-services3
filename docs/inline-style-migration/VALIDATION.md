@@ -295,3 +295,37 @@ No browser automation was run. Manual checks remain necessary for default and no
 ### Browser, responsive, console, and network findings
 
 No browser automation was run. Manual checks remain necessary for listing/category/tag card layouts, sidebar and sticky-widget behavior, category/tag filters, load-more click/observer behavior, image overlays/borders, desktop/tablet/mobile responsiveness, horizontal overflow, and browser console/network output.
+
+### Blog Listing checkpoint and staging
+
+- Commit: `a33f54d0fa8d2180a46b8d7bad19b69d3412d1fa` (`Migrate blog listing inline styles`).
+- Push target: `origin/testing` only.
+- Staging workflow: `Deploy Virtuo Staging` run `29648935690` completed successfully.
+- Production workflow/branch and `virtuo.ae`: not modified or deployed.
+
+## Phase 5 — Blog Detail family
+
+### Commands and results
+
+- `php -l` on all 11 active routed Blog Detail templates: passed.
+- Comment-aware Blog Detail inventory: zero active attributes; four inactive commented attributes remain in `blog-details8.php` exactly as documented.
+- Comment-aware repository inventory: one active template attribute remains, in `error.php` for Phase 6.
+- `node --check` on `blog-details.js`, `virtuo-blog-interactives.js`, `blog-detail-sticky-widgets.js`, and `blog-sticky-form.js`: passed; JavaScript was inspected but not modified.
+- `npm run build:css`: passed twice; only the existing remote `intl-tel-input` notice appeared.
+- Consecutive SHA-256 manifests for every split and compatibility output: identical.
+- `git diff --check`: passed.
+- New `!important` declarations: zero.
+
+### Route, bundle, redirect, asset, and size results
+
+- All 11 routed Blog Detail articles: HTTP 200, exactly one `core.min.css`, exactly one `blog-details.min.css`, no compatibility bundle, and zero rendered `style` attributes.
+- Required representative types passed: standard, interactive, tax, AI, and Emirates-map articles.
+- Representative old template and old article-slug requests retained HTTP 301 redirects to their current clean article URLs.
+- `core.min.css`, `blog-details.min.css`, `blog-details.min.js`, `virtuo-blog-interactives.min.js`, and `blog-detail-sticky-widgets.min.js`: HTTP 200.
+- Rendered bytes: standard 121,892; interactive 105,283; strategy 128,897; Golden Visa 114,588; freelance 115,073; relocation 131,636; tax 109,149; Ajman 119,028; brokerage 118,825; AI 172,457; Emirates map 199,758.
+- `blog-details.css`: 122,887 bytes; `blog-details.min.css`: 109,467 bytes.
+- Compatibility `main.css`: 839,159 bytes; compatibility `main.min.css`: 715,813 bytes.
+
+### Browser, responsive, console, and network findings
+
+No browser automation was run. Manual checks remain necessary for hero highlight color, panel/stat spacing, CTA spacing, Blog 2 market bars/legend/split conclusion, matrix intro, relocation source-note weight, sticky/TOC behavior, all article-specific interactives, desktop/tablet/mobile layouts, horizontal overflow, and browser console/network output.

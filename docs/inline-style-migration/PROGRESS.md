@@ -4,11 +4,11 @@
 
 - Starting commit: `2785b8c6f568987c19d61de9c151bafe8067c716`
 - Branch: `testing`
-- Current phase: Phase 4 — Blog Listing family (validation complete; checkpoint pending)
-- Completed phases: Phase 0; Phase 1; Phase 2 (Homepage, About, Contact); Phase 3
-- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`; Contact `3d08de0c2e82249dcce6ba0bb3dcfd2eb55900d3`; Services `6f9d6bdb3d04a89cb318095f10a2529d7827801c`
-- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded; Contact run `29648575638` succeeded; Services run `29648841390` succeeded.
-- Next exact action: commit the validated zero-change Blog Listing audit, push only `testing`, and verify the staging workflow before beginning Blog Detail migration.
+- Current phase: Phase 5 — Blog Detail family (validation complete; checkpoint pending)
+- Completed phases: Phase 0; Phase 1; Phase 2 (Homepage, About, Contact); Phase 3; Phase 4
+- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`; Contact `3d08de0c2e82249dcce6ba0bb3dcfd2eb55900d3`; Services `6f9d6bdb3d04a89cb318095f10a2529d7827801c`; Blog Listing `a33f54d0fa8d2180a46b8d7bad19b69d3412d1fa`
+- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded; Contact run `29648575638` succeeded; Services run `29648841390` succeeded; Blog Listing run `29648935690` succeeded.
+- Next exact action: commit the validated Blog Detail migration, push only `testing`, and verify the staging workflow before auditing Legal and migrating Error.
 
 ## Original inventory
 
@@ -74,6 +74,8 @@ Initial active template total: **421 `style` attributes across 43 files**, of wh
 | Current after About | 355 | 3 | 105 |
 | Current after Contact | 344 | 3 | 105 |
 | Current after Services | 24 | 0 | 105 |
+| Current after Blog Listing | 24 | 0 | 105 |
+| Current after Blog Details | 1 | 0 | 105 |
 
 ## Migration groups and destinations
 
@@ -85,7 +87,7 @@ Initial active template total: **421 `style` attributes across 43 files**, of wh
 | Contact | `assets/css/src/pages/contact.css` | `contact-message-input`; existing breadcrumb, contact-detail, eye/orbit, and eye-content selectors reused | Checkpoint/staging succeeded |
 | Services and active service partials | `assets/css/src/pages/services.css` | `service-detail-kicker`, `service-detail-hero`, `service-detail-gallery`, `service-detail-process-copy`, `service-detail-faq`, `service-detail-faq-column`, `service-detail-work`, `service-detail-work--compact`, `service-detail-work-icon`, `service-detail-choice-copy`, `service-marquee-icon`, `is-hidden` | Validation complete; checkpoint pending |
 | Blog listing | `assets/css/src/pages/blog-listing.css` | none required | Audit complete; no candidates; checkpoint pending |
-| Blog details | `assets/css/src/pages/blog-details.css` | none yet | Pending Phase 5 |
+| Blog details | `assets/css/src/pages/blog-details.css` | `blog-hero-highlight`, `blog-stats-followup`, `blog-cta-spaced`, `gap-fill-current--coverage`, `gap-fill-gap--mena`, `gap-fill-gap--europe`, `blog-market-swatch--current`, `blog-market-swatch--demand`, `blog-split-conclusion`, `blog-matrix-intro`, `blog-source-note` | Validation complete; checkpoint pending |
 | Legal | `assets/css/src/pages/legal.css` | none yet | Pending Phase 6 audit |
 | Error | `assets/css/src/pages/error.css` | none yet | Pending Phase 6 |
 
@@ -216,3 +218,16 @@ Government Relations references image paths containing spaces at lines 89, 108, 
 - Rendered `/blog` HTML at audit start/end: 104,459 bytes (no Phase 4 change). The reduction from the Phase 1 value is from the already-checkpointed service-marquee migration.
 - Listing, valid category, and valid tag pages use exactly one core plus one Blog Listing bundle. Invalid category/tag behavior remains HTTP 404 with the Error bundle.
 - The listing retains 11 load-more items, its sentinel, 5-item initial/batch values, and one `blog-load-more.min.js` reference.
+
+## Blog Detail results
+
+- Files processed: all 11 active routed Blog Detail templates were audited; the 23 active attributes were migrated from `blog-details.php`, `blog-details2.php`–`blog-details6.php`, and `blog-details8.php` into `assets/css/src/pages/blog-details.css`.
+- Active `style` attributes removed: 23; Blog Detail source and rendered output counts are now zero.
+- Inactive matches retained: 4 width attributes inside the commented cost-box prototype in `blog-details8.php`.
+- Original declarations represented: 23, consolidated into 11 Blog Detail-scoped declarations and semantic/modifier classes.
+- New `!important` declarations: 0. Blog 2's former inline `margin-top:16px` was already superseded by the existing `18px !important` desktop and `14px !important` mobile selectors; the migrated normal class preserves that current cascade.
+- Remaining active template `style` attributes: 1 literal static Error-page candidate; runtime operations remain 105.
+- `blog-details.css`: 121,893 → 122,887 bytes (+994).
+- `blog-details.min.css`: 108,573 → 109,467 bytes (+894; +0.82%).
+- Representative rendered HTML start/end: standard article 121,902 → 121,892 (-10); interactive article 105,288 → 105,283 (-5); tax article unchanged at 109,149; AI article unchanged at 172,457; Emirates-map article unchanged at 199,758.
+- The family bundle increase is deliberately scoped and shared by all 11 article routes; it replaces repeated title, panel, CTA, market-bar, legend, matrix, and source-note presentation and is reusable from cache. No CSS request was added.

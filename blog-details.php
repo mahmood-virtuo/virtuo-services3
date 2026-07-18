@@ -60,7 +60,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title"><span style="color: var(--tg-theme-primary)">Mainland, Free Zone, or Offshore?</span><br />The UAE Structuring Decision Serious U.S. Founders Cannot Afford to Get Wrong</h1>
+                                        <h1 class="title"><span class="blog-hero-highlight">Mainland, Free Zone, or Offshore?</span><br />The UAE Structuring Decision Serious U.S. Founders Cannot Afford to Get Wrong</h1>
                                         <p>A strategic playbook for U.S. founders, investors, and family offices building a UAE base — from an American who has made the move.</p>
                                         <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk to Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -121,7 +121,7 @@
                         <div class="vt-stat"><div class="n"><small>USD&nbsp;</small><span data-count="14.24" data-dec="2">0</span><small>&nbsp;bn</small></div><div class="l">Dubai greenfield FDI in 2024, up 33% year on year</div><div class="src">FT FDI Markets / DET</div></div>
                         <div class="vt-stat"><div class="n" data-count="0">0%</div><div class="l">UAE personal income tax</div><div class="src">UAE FTA</div></div>
                       </div>
-                      <p class="vt-psub" style="margin-top:18px">For comparison back home: 21% federal corporate tax, a combined corporate burden near 29.8% in the highest-tax states, and a 13.3% top personal rate in California. If your revenue is going global, that gap is the whole conversation.</p>
+                      <p class="vt-psub blog-stats-followup">For comparison back home: 21% federal corporate tax, a combined corporate burden near 29.8% in the highest-tax states, and a 13.3% top personal rate in California. If your revenue is going global, that gap is the whole conversation.</p>
                     </div>
 
                     <h2 class="title-two" id="vt-instruments">The three instruments</h2>
@@ -162,7 +162,7 @@
                       </div>
                       <!-- -----Decision Matrix Start---- -->
                      <h2 class="title-two" id="vt-matrix">Decision matrix</h2>
-                    <p style="color:black;">The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
+                    <p class="blog-matrix-intro">The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
                     <div class="vt-matrix-wrap">
                       <table class="vt-matrix">
                         <thead>

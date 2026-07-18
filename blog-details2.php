@@ -87,7 +87,7 @@ $default_opex    = max(5, min(45, $default_opex));
                         <div class="col-lg-8">
                             <div class="slider__content">
                                 <h1 class="title">
-                                    Why <span style="color: var(--tg-theme-primary)">U.S. Wireless and ITAD </span>Operators<br />
+                                    Why <span class="blog-hero-highlight">U.S. Wireless and ITAD </span>Operators<br />
                                     Are Looking at the UAE
                                 </h1>
 
@@ -144,20 +144,20 @@ $default_opex    = max(5, min(45, $default_opex));
             <div class="gap-list">
               <div class="gap-row">
                 <div class="gap-top"><span>LATAM &amp; Canada</span><b>Heavily covered</b></div>
-                <div class="gap-track"><div class="gap-fill-current" style="width:85%"></div></div>
+                <div class="gap-track"><div class="gap-fill-current gap-fill-current--coverage"></div></div>
               </div>
               <div class="gap-row">
                 <div class="gap-top"><span>MENA</span><b>Largely untapped</b></div>
-                <div class="gap-track"><div class="gap-fill-gap" style="width:80%"></div></div>
+                <div class="gap-track"><div class="gap-fill-gap gap-fill-gap--mena"></div></div>
               </div>
               <div class="gap-row">
                 <div class="gap-top"><span>Europe</span><b>Largely untapped</b></div>
-                <div class="gap-track"><div class="gap-fill-gap" style="width:75%"></div></div>
+                <div class="gap-track"><div class="gap-fill-gap gap-fill-gap--europe"></div></div>
               </div>
             </div>
             <div class="gap-legend">
-              <span><i class="swatch" style="background:#6e7a99;"></i> Current focus</span>
-              <span><i class="swatch" style="background:var(--gold-bright);"></i> Reachable, underdeveloped demand</span>
+              <span><i class="swatch blog-market-swatch--current"></i> Current focus</span>
+              <span><i class="swatch blog-market-swatch--demand"></i> Reachable, underdeveloped demand</span>
             </div>
             <p class="china-note"><b>On China:</b> it sits in its own category — real scale on both the sourcing and resale side, but most U.S. operators in this space haven't found a practical, compliant way to engage with it directly yet. A UAE base is a more workable vantage point for that conversation than a purely U.S. one, even as a longer-term consideration rather than a first step.</p>
           </section>
@@ -272,7 +272,7 @@ $default_opex    = max(5, min(45, $default_opex));
               <tr><td>Grading &amp; trusted supply chain</td><td>Light processing partnerships</td></tr>
               <tr><td>U.S.-sensitive client relationships</td><td>International distribution &amp; trade coordination</td></tr>
             </table>
-            <p style="margin-top:16px;">You're not choosing between the U.S. and the UAE. You're assigning each one the job it's actually good at.</p>
+            <p class="blog-split-conclusion">You're not choosing between the U.S. and the UAE. You're assigning each one the job it's actually good at.</p>
           </section>
         
           <!-- <section id="tariff">

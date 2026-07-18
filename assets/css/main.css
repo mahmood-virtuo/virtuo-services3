@@ -37178,6 +37178,51 @@ body.blog-details-page .blog-uae-emirates .em-virtuo-take strong {
   }
 }
 
+body.blog-details-page .blog-static-hero .blog-hero-highlight {
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details-page .vt-article .blog-stats-followup {
+  margin-top: 18px;
+}
+
+body.blog-details-page .vt-article .blog-cta-spaced {
+  margin-top: 20px;
+}
+
+body.blog-details2-page .blog-details2-content .gap-fill-current--coverage {
+  width: 85%;
+}
+
+body.blog-details2-page .blog-details2-content .gap-fill-gap--mena {
+  width: 80%;
+}
+
+body.blog-details2-page .blog-details2-content .gap-fill-gap--europe {
+  width: 75%;
+}
+
+body.blog-details2-page .blog-details2-content .blog-market-swatch--current {
+  background: #6e7a99;
+}
+
+body.blog-details2-page .blog-details2-content .blog-market-swatch--demand {
+  background: var(--gold-bright);
+}
+
+body.blog-details2-page .blog-details2-content .blog-split-conclusion {
+  margin-top: 16px;
+}
+
+body.blog-details-page .vt-article .blog-matrix-intro {
+  color: black;
+}
+
+body.blog-details-page .vt-article .blog-source-note {
+  font-weight: 200;
+}
+
+
 .error-area {
   padding: 120px 0;
 }
