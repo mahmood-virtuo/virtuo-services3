@@ -740,3 +740,80 @@ No screenshots were taken because exact computed parity passed and no regression
     git status --short
 
 These must pass immediately before committing the Blog-listing checkpoint.
+
+The Blog-listing checkpoint was committed as 75418029bb60303588da404bc1d2db486a765891, pushed only to origin/testing, and Deploy Virtuo Staging run 29663519655 succeeded before the Blog-details safety gate.
+
+## Phase 3 Blog-details-family extraction validation
+
+### Safety and ownership gate
+
+The Blog-details gate passed on testing with a clean worktree and HEAD equal to origin/testing at 75418029bb60303588da404bc1d2db486a765891. Deploy Virtuo Staging run 29663519655 succeeded before Blog-details editing began.
+
+The rendered-token audit covered all 11 article routes. It selected only complete rules whose selector branches begin with proven detail/article anchors, while retaining shared listing/detail and broad generic rules in core.
+
+### Exact structural movement
+
+- Core normal rules: 4,253 to 3,950.
+- Blog-details normal rules: 658 to 961.
+- Complete normal rules moved: 303.
+- Keyframe blocks moved: 1, `em-map-pulse`.
+- Rules/keyframes deleted: 0.
+- Selector/declaration/media rewrites: 0.
+
+### Build and sizes
+
+    npm run build:css
+
+Result: passed with the unchanged CleanCSS notice that the remote intl-tel-input import was not inlined.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.min.css | 498,996 | 465,901 | -33,095 |
+| blog-details.min.css | 109,467 | 142,589 | +33,122 |
+| Blog details core + family | 608,463 | 608,490 | +27 |
+| main.css | 839,934 | 839,964 | +30 |
+| main.min.css | 716,530 | 716,557 | +27 |
+
+### Computed-style and geometry parity
+
+Installed Playwright/Google Chrome compared the committed pre-edit bundles with the current bundles in the same DOM at 1,440 x 1,000 and 390 x 844. Both stylesheet pairs saw identical motion suppression and route-specific interactions.
+
+| Article state | Desktop SHA-256 | Mobile SHA-256 | Captured targets |
+| --- | --- | --- | ---: |
+| Standard structure chooser | a0e92ab34a75f487ca8d49adddb1532079d369d0532d3299faadb1397c399956 | d879d3330b784f28c066c92ce09ea97100419d4e80188d6755dbbabdf2d44e40 | 457 |
+| Calculator and market selector | 7c7c5c444d9db02113f35b0d1199adfc9bc25809ae033b60d01912156573014a | e442aadae3092214bbe5a4ea573a1dc38cae53e2d7959b32e892de413ac1fb49 | 315 |
+| Emirates interactive map | f6e001762f49be18e8b42cdc3981cea695f523b7a1bbf15bc86bee3c5ad3f7ff | 20c8a3d803100129bbad2345b5329bef6f350f8fa1f310ecdab3853446aebbd9 | 697 |
+| AI article accordion | 9d2df1b5bcce7bc30ccc07f984aaa852ebf764b185eb329ea8354e375f3814c2 | ee31ebc388c0f9913dc7d83922a1e9aabdc3053ea7d7e03d1dd198be7603baa1 | 633 |
+
+Every before/after hash and document geometry pair matched exactly; differing captured targets: 0 in all eight states.
+
+### Exhaustive route and asset validation
+
+- Canonical routes: 86; total probes: 89.
+- Family distribution: Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 3.
+- Route/status/family/order/compatibility failures: 0.
+- Unique local stylesheet URLs: 17; HTTP failures: 0.
+- Active style attributes: 0; active style blocks: 0 after HTML comments were removed.
+
+### Restricted browser smoke
+
+The corrected final evidence covered standard, calculator, Emirates and AI Blog details plus Blog listing at desktop and mobile, for 10 states. It exercised desktop off-canvas/mobile navigation, TOC or visible-link focus, calculator and market controls, Emirates selection, AI accordion and listing load more.
+
+Results:
+
+- HTTP/status or bundle mapping failures: 0.
+- Horizontal-overflow failures: 0.
+- Console errors: 0; page errors: 0.
+- Failed application resource responses: 0.
+- The standard article TOC is deliberately not visible in the mobile sidebar. Its focused rerun used a visible article link and passed; this corrected the harness without changing product code.
+
+No screenshots were taken because exact computed parity passed and no regression required documentation.
+
+### Final checkpoint checks
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Blog-details checkpoint.

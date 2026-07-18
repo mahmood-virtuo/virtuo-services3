@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 3 Blog-listing-family extraction validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 3 Blog-listing-family extraction, awaiting checkpoint
-- Next phase: Phase 3 Blog-details-family extraction after the Blog-listing checkpoint and green staging workflow
+- Current phase: Phase 3 Blog-details-family extraction validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 3 Blog-details-family extraction, awaiting checkpoint
+- Next phase: Phase 3 Legal-family review after the Blog-details checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -450,7 +450,7 @@ Every non-Services route drops the 36,216 extracted minified core bytes. The com
 
 ## Phase 3 — Blog listing family extraction
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -504,9 +504,9 @@ Every non-Blog-listing route drops the 1,132 extracted minified core bytes. The 
 ### Checkpoint
 
 - Intended message: Extract Blog listing CSS from core
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 75418029bb60303588da404bc1d2db486a765891
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29663519655 succeeded
 
 ### Remaining risks
 
@@ -514,6 +514,75 @@ Every non-Blog-listing route drops the 1,132 extracted minified core bytes. The 
 - Complete mixed Blog-listing/Blog-details responsive selector lists remain in core; splitting them only for ownership would rewrite selectors without reducing the active listing payload.
 - Inactive legacy Blog card variants remain for Phase 4 evidence-driven deletion, not family extraction.
 
+## Phase 3 — Blog details family extraction
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/src/pages/blog-details.css
+- assets/css/bundles/core.min.css
+- assets/css/bundles/blog-details.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules moved: 303
+- Keyframe blocks moved: 1, the `em-map-pulse` definition used only by the Emirates article map
+- CSS rules/keyframes deleted: 0
+- Selectors or declarations rewritten: 0
+- Selectors split: 0
+- Remote imports changed: 0
+
+Moved groups: active Blog detail content/inner/bottom/sidebar-two/avatar rules; TOC and generated TOC states; `vt-*` article systems and their interactive states; calculator/market/gap/founder-profile helpers anchored under article/detail selectors; Blog-details body/html scopes; and the three AI article color helpers. Shared listing/detail metadata/sidebar/tag/recent-post/form rules, complete mixed responsive selector lists, generic blockquotes and inactive legacy Blog variants remain in core.
+
+### Before and after sizes
+
+| File | Before Blog details | After Blog details | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 591,594 | 552,449 | -39,145 |
+| assets/css/src/pages/blog-details.css | 122,887 | 162,062 | +39,175 |
+| assets/css/bundles/core.min.css | 498,996 | 465,901 | -33,095 |
+| assets/css/bundles/blog-details.min.css | 109,467 | 142,589 | +33,122 |
+| Blog details core + family minified | 608,463 | 608,490 | +27 |
+| assets/css/main.css | 839,934 | 839,964 | +30 |
+| assets/css/main.min.css | 716,530 | 716,557 | +27 |
+
+Every non-Blog-details route drops the 33,095 extracted minified core bytes. The active Blog-details and compatibility outputs gain 27 minified bytes from changed minifier/order context; selectors, declarations and computed behavior are unchanged.
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at 75418029bb60303588da404bc1d2db486a765891 after staging run 29663519655 succeeded.
+- npm run build:css passed with the unchanged known remote-import notice.
+- Core normal rules changed 4,253 to 3,950; Blog-details normal rules changed 658 to 961. Core keyframes changed 26 to 25 and Blog-details keyframes changed 0 to 1.
+- Same-DOM comparisons switched between committed pre-edit and current bundles after identical animation suppression and representative interactions. They captured 315–697 affected article/detail elements per state.
+- Standard desktop/mobile SHA-256: a0e92ab34a75f487ca8d49adddb1532079d369d0532d3299faadb1397c399956 / d879d3330b784f28c066c92ce09ea97100419d4e80188d6755dbbabdf2d44e40.
+- Calculator desktop/mobile SHA-256: 7c7c5c444d9db02113f35b0d1199adfc9bc25809ae033b60d01912156573014a / e442aadae3092214bbe5a4ea573a1dc38cae53e2d7959b32e892de413ac1fb49.
+- Emirates desktop/mobile SHA-256: f6e001762f49be18e8b42cdc3981cea695f523b7a1bbf15bc86bee3c5ad3f7ff / 20c8a3d803100129bbad2345b5329bef6f350f8fa1f310ecdab3853446aebbd9.
+- AI desktop/mobile SHA-256: 9d2df1b5bcce7bc30ccc07f984aaa852ebf764b185eb329ea8354e375f3814c2 / ee31ebc388c0f9913dc7d83922a1e9aabdc3053ea7d7e03d1dd198be7603baa1.
+- All eight comparisons had identical document geometry and zero differing targets.
+- All 89 route probes passed status, exact family order and compatibility exclusion; all 17 local stylesheet requests returned 200, with zero active style attributes/blocks after comments were excluded.
+- The corrected 10-state desktop/mobile smoke covered standard, calculator, Emirates and AI details plus Blog listing. It exercised navigation, TOC/focus, calculator/market controls, the Emirates map, AI accordion and listing load more with no overflow, console/page errors or failed application resources.
+- The standard article sidebar TOC is intentionally hidden at mobile. Replacing that one harness action with focus on a visible article link passed; this was a test-harness correction, not a product change.
+
+### Checkpoint
+
+- Intended message: Extract Blog details CSS from core
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Shared Blog listing/detail metadata, sidebar, tag, recent-post and sidebar-form rules remain core-owned.
+- Complete mixed Blog-listing/Blog-details responsive selector lists remain unsplit in core.
+- Generic blockquote/comment rules and inactive Blog variants remain for later ownership/deletion evidence rather than being forced into the family bundle.
+
 ## Next exact action
 
-Run the final deterministic build/diff checks, commit the Blog-listing checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and begin Blog details only.
+Run the final deterministic build/diff checks, commit the Blog-details checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and review Legal only.

@@ -38,6 +38,8 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - Services tab and Digital Marketing `is-active`, `is-open`, `digital-panel-changing` and `digital-panel-ready` rules now live in services.css because all active owners use the Services family bundle. They remain deletion-protected dynamic states.
 - Blog metadata, avatar, sidebar, tag, recent-post and sidebar-form rules remain in core after the Blog-listing extraction because Blog details shares them. Complete responsive selector lists combining `body.blog-page` and `body.blog-details-page` also remain unsplit in core.
 - The active fifth-variant listing card rules now live in blog-listing.css. Other unrendered Blog card/layout variants are still Phase 4 deletion candidates, not evidence for broad Blog ownership.
+- Active Blog detail content/inner/bottom/avatar, TOC, `vt-*`, calculator/founder and article-specific helper rules now live in blog-details.css. Their dynamic selected/open/active/reveal states remain deletion-protected.
+- Shared Blog metadata, generic sidebar/search/category/tag/recent-post/form primitives and complete listing/detail responsive selector lists remain in core after the Blog-details extraction. Generic blockquote/comment rules remain core because their broad element/class ownership was not narrowed merely from current route presence.
 - Legal has an empty source and uses shared core foundations. No generic typography may be moved to legal.css without exclusive ownership evidence.
 - Error has no body class, so error ownership must continue to rely on proven template-exclusive selectors rather than broad element selectors.
 

@@ -366,6 +366,21 @@ Rendered ownership across the base listing, four category routes and 38 tag rout
 
 Shared `.blog__post-meta`, avatar, sidebar, tag, recent-post and form primitives remain in core because Blog details renders them. Complete responsive rules that combine `body.blog-page` and `body.blog-details-page` also remain in core rather than splitting selector lists. Unrendered Blog card variants remain Phase 4 candidates and were not reclassified as listing-owned.
 
+### Blog details
+
+The Blog-details checkpoint moved 303 complete normal rules and the `em-map-pulse` keyframe from core.css to the beginning of blog-details.css. The selected ownership groups are:
+
+- Active `.blog__details-content`, inner content/thumb, bottom tags/share and `.blog__sidebar-two` rules.
+- Active Blog author-avatar layout and responsive rules.
+- Blog TOC layout plus JavaScript-generated item/active/heading-depth states.
+- The `vt-*` article design system, including goal/tab/zone/cost/matrix/accordion/reveal states and responsive layers.
+- Calculator, market, gap analysis and founder-profile helpers under a proven article or Blog-details anchor.
+- Blog-details body/html scopes, the three AI article color helpers and the Emirates map pulse keyframe.
+
+Rendered ownership covered all 11 article routes and every selector branch had a proven Blog-details anchor. The source move removed 39,145 core bytes and added 39,175 family bytes. The 30-byte aggregate source and 27-byte minified increase comes from relocation/minifier context; no declarations were added.
+
+Shared post metadata, generic sidebar/search/category/tag/recent-post/form primitives and complete selector lists combining listing and detail body classes remain in core. Generic blockquote/comment rules and inactive Blog variants also remain outside this extraction because their broad ownership or deletion status requires separate evidence.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

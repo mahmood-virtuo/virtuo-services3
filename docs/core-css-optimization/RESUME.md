@@ -2,35 +2,35 @@
 
 ## Last completed checkpoint
 
-The Phase 3 Services extraction is committed as 4382b8982a533bac3baecfc03ae9ffad65eb918e, pushed to origin/testing and green in Deploy Virtuo Staging run 29663231827. The Phase 3 Blog-listing extraction is implemented and validated, and is awaiting its checkpoint commit/push/staging result.
+The Phase 3 Blog-listing extraction is committed as 75418029bb60303588da404bc1d2db486a765891, pushed to origin/testing and green in Deploy Virtuo Staging run 29663519655. The Phase 3 Blog-details extraction is implemented and validated, and is awaiting its checkpoint commit/push/staging result.
 
 ## Repository state at this handoff
 
 - Current branch: testing
-- Starting commit for Blog listing: 4382b8982a533bac3baecfc03ae9ffad65eb918e
-- Last completed checkpoint: 4382b8982a533bac3baecfc03ae9ffad65eb918e
-- Last completed staging run: Deploy Virtuo Staging 29663231827 succeeded
-- Current HEAD: the Blog-listing checkpoint containing this file after commit; resolve exactly with git rev-parse HEAD
-- Required remote equality: current HEAD must equal origin/testing before Blog details starts
+- Starting commit for Blog details: 75418029bb60303588da404bc1d2db486a765891
+- Last completed checkpoint: 75418029bb60303588da404bc1d2db486a765891
+- Last completed staging run: Deploy Virtuo Staging 29663519655 succeeded
+- Current HEAD: the Blog-details checkpoint containing this file after commit; resolve exactly with git rev-parse HEAD
+- Required remote equality: current HEAD must equal origin/testing before Legal starts
 - Production/main state: untouched
 
-## Blog-listing extraction completed locally
+## Blog-details extraction completed locally
 
-- 11 complete Blog-listing-only active-card rules moved to the beginning of blog-listing.css.
-- Shared metadata/sidebar/tag/recent-post rules and complete mixed listing/detail responsive selector lists remain in core.
-- core.css: 592,950 to 591,594 bytes.
-- core.min.css: 500,128 to 498,996 bytes.
-- blog-listing.min.css: 10,868 to 12,000 bytes; the combined active Blog-listing minified byte count is unchanged.
-- Desktop/mobile computed hashes and document geometry matched after load more and title hover.
+- 303 complete Blog-details-only normal rules and the em-map-pulse keyframe moved to the beginning of blog-details.css.
+- Shared listing/detail metadata/sidebar/tag/recent-post/form rules, mixed responsive lists and generic blockquote/comment rules remain in core.
+- core.css: 591,594 to 552,449 bytes.
+- core.min.css: 498,996 to 465,901 bytes.
+- blog-details.min.css: 109,467 to 142,589 bytes; the active combined payload increases 27 bytes from minifier/order context.
+- Eight standard/calculator/Emirates/AI desktop/mobile computed comparisons matched exactly.
 - All 89 route probes, 17 local stylesheets and the corrected 10 browser states passed.
 
 ## Next exact action
 
-Run the final deterministic build and diff checks, commit with message Extract Blog listing CSS from core, push only to origin/testing and wait for Deploy Virtuo Staging success. Then pass a fresh Git gate and begin Blog details only.
+Run the final deterministic build and diff checks, commit with message Extract Blog details CSS from core, push only to origin/testing and wait for Deploy Virtuo Staging success. Then pass a fresh Git gate and review Legal only.
 
 ## Outstanding phases
 
-- Phase 3: Blog details, Legal and Error family reviews/extractions in that order.
+- Phase 3: Legal and Error family reviews/extractions in that order.
 - Phase 4: approved unused-group deletion in small checkpoints.
 - Phase 5: exact duplicate and keyframe consolidation.
 - Phase 6: remote intl-tel-input import optimization.
@@ -44,7 +44,7 @@ Run the final deterministic build and diff checks, commit with message Extract B
 
 - `.virtuo-team__container` remains in core for verified cascade order.
 - The complete mixed Contact/footer field-font rule and shared Home/About/Contact eye selectors intentionally remain in core.
-- Core is still 498,996 minified bytes and retains approved legacy candidates until Phase 4.
+- Core is still 465,901 minified bytes and retains approved legacy candidates until Phase 4.
 - The remote import and duplicate candidates remain unchanged.
 - The approved installed Playwright/local Chrome fallback remains necessary while the in-app browser bridge metadata is unavailable.
 
