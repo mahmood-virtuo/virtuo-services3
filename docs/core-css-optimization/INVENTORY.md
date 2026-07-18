@@ -444,6 +444,18 @@ The sixth checkpoint deleted four complete inactive sections plus only the inact
 
 Banner was not deleted wholesale. Four active `.circle__wrap` elements on Home, About and Contact depend on 17 normal rules, seven media wrappers and the standard/prefixed `virtuo-circle-text-rotation` keyframes at its tail; all were retained in their original cascade position. The deletion removed the inactive Banner-only mask URL (two declarations), no keyframe and no custom property. Brand's guarded Swiper initializers target absent markup. Full same-DOM parity and the exhaustive route matrix passed; net minified core reduction was 56,483 bytes.
 
+### Project and Testimonial
+
+The seventh and final Phase 4 checkpoint deleted both complete inactive carousel/detail sections:
+
+| Group | Normal rules deleted | Media wrappers | Boundary bytes |
+| --- | ---: | ---: | ---: |
+| Project | 270 | 59 | 42,651 |
+| Testimonial | 139 | 44 | 17,810 |
+| Combined | 409 | 103 | 60,461 |
+
+All seven Project and five Testimonial Swiper initializers use the guarded helper and target absent roots. Project's standalone mobile `.section__btn` rule was separately checked and had no active source or rendered owner. Two Project-mask URL declarations were deleted; no keyframe or custom property was present. Same-DOM parity and all 89 route probes passed. The final Phase 4 minified reduction was 50,901 bytes.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:
@@ -472,17 +484,16 @@ The import remains in generated core.min.css and main.min.css. The baseline buil
 
 ## CSS URL references
 
-Comment-free core now contains 11 url() occurrences and seven unique values:
+Comment-free core now contains nine url() occurrences and six unique values:
 
 - One remote intl-tel-input stylesheet URL.
 - /assets/img/images/about_mask_img.svg
-- /assets/img/project/project_mask_img.svg
 - /assets/img/images/faq_mask_img.svg
 - /assets/img/images/h5_choose_mask_img.svg
 - /assets/img/images/virtuo-footer-gradient.webp
 - /assets/img/services/footerBackgroundImage-1920x1105.webp
 
-Four SVG masks occur in both prefixed and unprefixed declarations, giving 10 local core occurrences in total. In addition, home.css contains /assets/img/images/virtuo-footer-gradient-1920x908.webp and blog-details.css contains the fragment-only url(#emiratesMapGradient). Across all editable sources there are 13 active url() occurrences and nine unique values. The CSS builder verified that every local root-relative target exists; the SVG fragment does not resolve to a filesystem asset.
+Three SVG masks occur in both prefixed and unprefixed declarations, giving eight local core occurrences in total. In addition, home.css contains /assets/img/images/virtuo-footer-gradient-1920x908.webp and blog-details.css contains the fragment-only url(#emiratesMapGradient). Across all editable sources there are 11 active url() occurrences and eight unique values. The CSS builder verified that every local root-relative target exists; the SVG fragment does not resolve to a filesystem asset.
 
 ## Commented-out first-party code inventory
 

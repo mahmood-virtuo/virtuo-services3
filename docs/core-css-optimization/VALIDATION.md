@@ -1187,3 +1187,31 @@ The audited spans total 68,669 bytes; retaining one separator makes the net redu
 The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles and deleted candidate tokens were zero; four active circle instances remained. No screenshots were required because exact same-DOM parity passed.
 
 Final commands: `npm run build:css`, deterministic double-build hash comparison, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The presentation checkpoint was committed as cfaa7bfd90710c77fc26f9db767ad1159fc053a4, pushed only to origin/testing, and staging run 29665767749 succeeded before the Project/Testimonial gate.
+
+## Phase 4 Project/Testimonial deletion validation
+
+The clean testing/remote gate passed at cfaa7bfd90710c77fc26f9db767ad1159fc053a4 after staging run 29665767749.
+
+Fresh active-source, runtime and exhaustive DOM evidence requalified both complete sections. All seven Project and five Testimonial Swiper initializer roots are absent, so `virtuoInitSwiper()` returns before library initialization. The Project boundary's only unanchored selector, `.section__btn`, independently had zero active source or rendered owner. The commented alternate Testimonial initializer did not count as runtime ownership.
+
+| Group | Normal rules | Media wrappers | Boundary bytes |
+| --- | ---: | ---: | ---: |
+| Project | 270 | 59 | 42,651 |
+| Testimonial | 139 | 44 | 17,810 |
+
+The exact spans total 60,461 bytes. Two Project-mask `url()` declarations were removed; no keyframe or custom property was present.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 414,854 | 354,393 | -60,461 |
+| core.min.css | 351,362 | 300,461 | -50,901 |
+| main.css | 702,369 | 641,908 | -60,461 |
+| main.min.css | 602,018 | 551,117 | -50,901 |
+
+`npm run build:css` passed. Installed Playwright/local Chrome compared the committed and deletion bundles in place before the unchanged family bundle. Comprehensive selected computed styles, every element rectangle and document geometry matched across all eight families at desktop/mobile. Aggregate matrix SHA-256: `19f311f82e27ec7c5c29728cba502f3b2b12534615b38614a9938b4059f27cc4`; states 16; elements 698–3,151; candidate matches/failures/browser diagnostics 0.
+
+The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles and candidate tokens were zero. No screenshots were required because exact same-DOM parity passed.
+
+Final commands: `npm run build:css`, deterministic double-build hash comparison, `git diff --stat`, `git diff --check`, and `git status --short`.

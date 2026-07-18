@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 4 presentation-section deletion validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 4 Shop/Login/Checkout deletion, committed and staging-validated
-- Next phase: Phase 4 Project/Testimonial after this checkpoint and green staging workflow
+- Current phase: Phase 4 Project/Testimonial deletion validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 4 presentation deletion, committed and staging-validated
+- Next phase: Phase 5 duplicate consolidation after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -983,7 +983,7 @@ Every route drops the same 30,307 minified core bytes.
 
 ## Phase 4 — Banner, Brand, History, Counter and Video deletion
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1028,15 +1028,71 @@ Every route drops the same 56,483 minified core bytes.
 ### Checkpoint
 
 - Intended message: Remove unused legacy presentation CSS
+- Commit SHA: cfaa7bfd90710c77fc26f9db767ad1159fc053a4
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29665767749 succeeded
+
+### Remaining risks
+
+- Brand's absent-node Swiper initialization remains until Phase 7 review.
+- Project and Testimonial passed their separate guarded-initializer and mixed-selector audit.
+
+## Phase 4 — Project and Testimonial deletion
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal rules deleted: 409 (Project 270; Testimonial 139)
+- Associated media wrappers: 103 (Project 59; Testimonial 44)
+- URL declarations deleted: 2 for one Project-only mask asset
+- Keyframes and custom-property declarations deleted: 0
+- Rules moved or selectors/declarations rewritten: 0
+
+Project contained one unanchored mobile `.section__btn` rule. Separate source and 89-route rendered checks found zero owner, so it was included in the complete-section deletion. Every active-looking Project/Testimonial reference in first-party JavaScript is a guarded Swiper initializer whose root selector is absent; the alternative Testimonial initializer is commented.
+
+### Before and after sizes
+
+| File | Before carousel deletion | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 414,854 | 354,393 | -60,461 |
+| assets/css/bundles/core.min.css | 351,362 | 300,461 | -50,901 |
+| assets/css/main.css | 702,369 | 641,908 | -60,461 |
+| assets/css/main.min.css | 602,018 | 551,117 | -50,901 |
+
+Every route drops the same 50,901 minified core bytes.
+
+### Validation performed
+
+- Fresh gate passed at cfaa7bfd90710c77fc26f9db767ad1159fc053a4 after staging run 29665767749 succeeded.
+- Active PHP/built family source and all 89 initial DOM responses contained zero Project, Testimonial or `.section__btn` ownership tokens.
+- All Project/Testimonial Swiper calls are guarded and no initializer root exists; boundary audit found no mixed active selector.
+- `npm run build:css` passed with the known remote-import notice.
+- Same-DOM desktop/mobile style and geometry parity passed all eight families: 16 states, matrix SHA-256 `19f311f82e27ec7c5c29728cba502f3b2b12534615b38614a9938b4059f27cc4`, 698–3,151 elements, zero candidate matches/failures/diagnostics.
+- All 89 probes and 17 stable local stylesheet paths/full URLs passed with zero inline styles and zero candidate tokens.
+
+### Checkpoint
+
+- Intended message: Remove unused Project and Testimonial CSS
 - Commit SHA: pending checkpoint
 - Push target: origin/testing only
 - Staging workflow status: pending checkpoint push
 
 ### Remaining risks
 
-- Brand's absent-node Swiper initialization remains until Phase 7 review.
-- Project and Testimonial require their own guarded-initializer and mixed-selector audit.
+- Absent-node carousel initializers and the commented alternate Testimonial code remain until Phase 7.
+- Phase 5 duplicate candidates still require fresh cascade and keyframe dependency proof; no duplicate was changed in Phase 4.
 
 ## Next exact action
 
-Run final deterministic build/diff checks, commit the presentation checkpoint, push only to testing and wait for staging. Then gate Project/Testimonial.
+Run final deterministic build/diff checks, commit the final Phase 4 checkpoint, push only to testing and wait for staging. Then begin Phase 5 duplicate consolidation.

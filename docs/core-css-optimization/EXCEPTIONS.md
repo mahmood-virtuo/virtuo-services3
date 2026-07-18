@@ -45,7 +45,6 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 
 ## Phase 2 narrowed legacy exceptions
 
-- project__ and testimonial__ have no active PHP match. Their main.js Swiper calls all use virtuoInitSwiper(), which returns before initialization when the requested selector is absent. The exhaustive rendered scan, restricted interaction scan and candidate Coverage all found no applicable markup or used candidate token; their CSS is approved for later Phase 4 boundary-safe deletion.
 - Pricing CSS passed its fresh gate and was deleted; its absent-node handler remains for Phase 7 review. Search-popup CSS was already deleted; active header/mobile/menu states remain allowlisted.
 - Preloader CSS and its exclusive keyframes passed the fresh gate and were deleted. Commented markup and dormant-function cleanup remains a separate Phase 7 decision.
 - contact__ is referenced by ajax-form.js even when an initial PHP prefix scan does not find it. Retain form feedback/error paths until interaction validation is complete.
@@ -54,6 +53,7 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - Callback, Core Value, Pricing and Career/apply-box passed fresh gates and were deleted in the advisory checkpoint.
 - Shop/product, Login/account and Checkout/cart passed fresh boundary, dependency, source/runtime, 89-route DOM and same-DOM parity gates and were deleted in the commerce/account checkpoint. Their absent-node JavaScript handlers remain for Phase 7 review.
 - Brand, History, Counter, Video and the inactive Banner portion passed their fresh gates and were deleted in the presentation checkpoint. Banner's live `.circle__wrap` rules, reduced-motion rule and both `virtuo-circle-text-rotation` keyframe blocks remain because Home, About and Contact render four owners.
+- Project and Testimonial passed the final Phase 4 source/runtime, guarded-initializer, complete-boundary, 89-route DOM and same-DOM parity gates and were deleted. Their absent-node initializers and commented alternate Testimonial implementation remain for Phase 7 review.
 - Any new prefix with zero first-party text matches remains only a candidate until it independently passes the same data, plugin, pseudo-state, responsive, interaction and Coverage gates.
 
 ## Remote intl-tel-input import
