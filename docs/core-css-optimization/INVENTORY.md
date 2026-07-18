@@ -456,6 +456,18 @@ The seventh and final Phase 4 checkpoint deleted both complete inactive carousel
 
 All seven Project and five Testimonial Swiper initializers use the guarded helper and target absent roots. Project's standalone mobile `.section__btn` rule was separately checked and had no active source or rendered owner. Two Project-mask URL declarations were deleted; no keyframe or custom property was present. Same-DOM parity and all 89 route probes passed. The final Phase 4 minified reduction was 50,901 bytes.
 
+## Phase 5 duplicate-consolidation ledger
+
+### Core exact duplicates and keyframes
+
+The first Phase 5 checkpoint removed only earlier byte-identical copies while retaining the last copy with the same selector/name and media context:
+
+- Six normal rule copies: three responsive `.virtuo-services-mega__divider` rules, one `.fadeInUp2`, one hidden mega panel rule and one mega category/panel link spacing rule.
+- Five keyframe blocks: one `fadeInUp2`, the earlier standard/prefixed `pulse-border` pair and two earlier `digitalPanelFadeIn` blocks.
+- No selector, declaration, media condition or keyframe step was rewritten.
+
+Core source fell 2,003 bytes and minified core fell 1,655 bytes. The remaining core contains one copy of every exact duplicate group found by the fresh syntax-aware scan and 18 keyframe blocks. Full same-DOM parity and the 89-route matrix passed.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

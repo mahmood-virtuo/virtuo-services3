@@ -1215,3 +1215,24 @@ The exact spans total 60,461 bytes. Two Project-mask `url()` declarations were r
 The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles and candidate tokens were zero. No screenshots were required because exact same-DOM parity passed.
 
 Final commands: `npm run build:css`, deterministic double-build hash comparison, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The final Phase 4 checkpoint was committed as 5d00d1aac9aa999c45728219929e575aad52c9f8, pushed only to origin/testing, and staging run 29665925805 succeeded before Phase 5.
+
+## Phase 5 core exact-duplicate validation
+
+The clean testing/remote gate passed at 5d00d1aac9aa999c45728219929e575aad52c9f8 after staging run 29665925805.
+
+A fresh syntax-aware scan grouped rules by source file, complete selector text, declaration body and media ancestry. Core contained four exact rule groups and four exact keyframe groups. The cleanup removed six earlier rule copies and five earlier keyframe blocks while retaining the last byte-identical copy of each group. It did not merge different selectors, alter declarations or consolidate non-identical repeated states.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 354,393 | 352,390 | -2,003 |
+| core.min.css | 300,461 | 298,806 | -1,655 |
+| main.css | 641,908 | 639,905 | -2,003 |
+| main.min.css | 551,117 | 549,462 | -1,655 |
+
+Core keyframe blocks changed 23 to 18. `npm run build:css` passed. Installed Playwright/local Chrome compared committed and consolidated core bundles in place before the unchanged family bundle. Selected computed styles, every element rectangle and document geometry matched across all eight families at desktop/mobile. Aggregate matrix SHA-256: `1ceb1c864ef97bfa0eb3e050d1b28db7c5546b96d927056d2a4d922c1504e300`; states 16; elements 698–3,151; failures/browser diagnostics 0.
+
+The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles were zero. No screenshots were required because exact same-DOM parity passed.
+
+Final commands: `npm run build:css`, deterministic double-build hash comparison, exact duplicate rescan, `git diff --stat`, `git diff --check`, and `git status --short`.

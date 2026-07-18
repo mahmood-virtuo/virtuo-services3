@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 4 Project/Testimonial deletion validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 4 presentation deletion, committed and staging-validated
-- Next phase: Phase 5 duplicate consolidation after this checkpoint and green staging workflow
+- Current phase: Phase 5 core exact-duplicate consolidation validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 4 Project/Testimonial deletion, committed and staging-validated
+- Next phase: Phase 5 Services-family exact duplicates after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1039,7 +1039,7 @@ Every route drops the same 56,483 minified core bytes.
 
 ## Phase 4 — Project and Testimonial deletion
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1084,15 +1084,75 @@ Every route drops the same 50,901 minified core bytes.
 ### Checkpoint
 
 - Intended message: Remove unused Project and Testimonial CSS
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 5d00d1aac9aa999c45728219929e575aad52c9f8
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29665925805 succeeded
 
 ### Remaining risks
 
 - Absent-node carousel initializers and the commented alternate Testimonial code remain until Phase 7.
 - Phase 5 duplicate candidates still require fresh cascade and keyframe dependency proof; no duplicate was changed in Phase 4.
 
+## Phase 5 — Core exact duplicate consolidation
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact duplicate copies removed
+
+- Normal rules: 6
+  - `.virtuo-services-mega__divider` under `@media (max-width: 991px)`: 3 earlier copies
+  - `.fadeInUp2`: 1 earlier copy
+  - hidden mega panel: 1 earlier copy
+  - mega category/panel link spacing: 1 earlier copy
+- Keyframe blocks: 5
+  - `fadeInUp2`: 1 earlier copy
+  - `pulse-border`: 1 standard and 1 prefixed earlier copy
+  - `digitalPanelFadeIn`: 2 earlier copies
+- Selectors/declarations/media conditions/keyframe steps rewritten: 0
+
+Each retained copy is byte-identical and has the same context as the copies removed. Earlier copies were removed and the last cascade definition remains.
+
+### Before and after sizes
+
+| File | Before core duplicate cleanup | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 354,393 | 352,390 | -2,003 |
+| assets/css/bundles/core.min.css | 300,461 | 298,806 | -1,655 |
+| assets/css/main.css | 641,908 | 639,905 | -2,003 |
+| assets/css/main.min.css | 551,117 | 549,462 | -1,655 |
+
+Core keyframe blocks changed 23 to 18. Every route drops the same 1,655 minified core bytes.
+
+### Validation performed
+
+- Fresh gate passed at 5d00d1aac9aa999c45728219929e575aad52c9f8 after staging run 29665925805 succeeded.
+- Fresh syntax-aware scan found four exact duplicate rule groups and four exact duplicate keyframe groups in core before cleanup; one copy of every group remains.
+- `npm run build:css` passed with the known remote-import notice.
+- Same-DOM desktop/mobile selected-style and geometry parity passed all eight families: 16 states, matrix SHA-256 `1ceb1c864ef97bfa0eb3e050d1b28db7c5546b96d927056d2a4d922c1504e300`, 698–3,151 elements, zero failures/diagnostics.
+- All 89 probes and 17 stable local stylesheet paths/full URLs passed with zero inline styles.
+
+### Checkpoint
+
+- Intended message: Consolidate exact core CSS duplicates
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Services, Home and Blog-details family sources retain exact duplicate groups for later isolated checkpoints.
+- Same-declaration rules with different selectors and non-identical repeated states remain intentionally untouched.
+
 ## Next exact action
 
-Run final deterministic build/diff checks, commit the final Phase 4 checkpoint, push only to testing and wait for staging. Then begin Phase 5 duplicate consolidation.
+Run final deterministic build/diff checks, commit the core duplicate checkpoint, push only to testing and wait for staging. Then consolidate the proven Services-family exact duplicates.

@@ -62,8 +62,8 @@ Retain the current version 25.3.1 import until Phase 6 proves an explicit load c
 
 ## Keyframes and custom properties
 
-- Retain all 23 remaining core keyframe blocks until every animation/animation-name reference is audited in editable CSS, templates, injected styles, and first-party JavaScript.
-- Duplicate names fadeInUp2, pulse-border, and digitalPanelFadeIn are candidates, not approved removals; later definitions may intentionally override earlier definitions.
+- Retain all 18 remaining core keyframe blocks until every animation/animation-name reference is audited in editable CSS, templates, injected styles, and first-party JavaScript.
+- Earlier byte-identical `fadeInUp2`, standard/prefixed `pulse-border` and `digitalPanelFadeIn` blocks were removed in Phase 5 while the last identical definition of each name was retained. Any non-identical repeated name remains protected.
 - Retain all 70 unique custom-property names until both CSS var() use and JavaScript setProperty/getPropertyValue references are checked.
 
 ## Comment exclusions
