@@ -129,3 +129,38 @@ Every checked render contained exactly one `core.min.css` reference and exactly 
 ### Browser, responsive, console, and network findings
 
 No browser automation was run. Command-line validation proves syntax, deterministic output, statuses, bundle selection, and direct CSS/background-image availability, but cannot prove computed visual parity. Manual desktop/mobile header and footer checks, tablet footer layout, form field alignment, off-canvas alignment, horizontal overflow, and browser console/network inspection remain required before production use.
+
+### Phase 1 checkpoint and staging
+
+- Commit: `a149a97d83122ae35dd19531c829436a40157db1` (`Migrate shared inline styles to core CSS`).
+- Push target: `origin/testing` only.
+- Staging workflow: `Deploy Virtuo Staging` run `29648079836` completed successfully.
+- Production workflow/branch and `virtuo.ae`: not modified or deployed.
+
+## Phase 2 — Homepage
+
+### Commands and results
+
+- `php -l index.php`: passed.
+- `npm run build:css`: passed twice with only the existing remote `intl-tel-input` `@import` notice.
+- Consecutive SHA-256 manifests for all split bundles and compatibility outputs: identical.
+- `git diff --check`: passed.
+- Targeted `style=` search in `index.php`: zero remaining matches.
+- Homepage runtime background data attributes for all five hero slides and the Core Services section remain present.
+
+### Route, bundle, and asset results
+
+- `/`: HTTP 200, 115,303 bytes.
+- Bundle mapping: exactly one `core.min.css`, exactly one `home.min.css`, and no `main.css`/`main.min.css`.
+- `core.min.css`, `home.min.css`, and `/assets/img/images/virtuo-footer-gradient-1920x908.webp`: HTTP 200.
+
+### Size results
+
+- `home.css`: 12,958 bytes.
+- `home.min.css`: 11,359 bytes (baseline 9,926; +1,433).
+- Rendered HTML versus the Phase 1 checkpoint: -1,006 bytes.
+- Compatibility `main.css`: 835,563 bytes; compatibility `main.min.css`: 712,694 bytes.
+
+### Browser, responsive, console, and network findings
+
+No browser automation was run. Manual checks remain necessary for all five slider slides, both circular text/orbit placements, About-section spacing, CTA text, the eye image/content alignment, Core Services default and non-default tabs, desktop/tablet/mobile behavior, horizontal overflow, and browser console/network output.

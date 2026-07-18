@@ -30390,6 +30390,106 @@ html {
   color: black;
 }
 
+body.home-page .home-hero-accent {
+  color: var(--tg-theme-primary);
+}
+
+body.home-page .home-about-orbit {
+  left: auto;
+  right: -291px;
+  top: -159px;
+}
+
+body.home-page .home-orbit-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #564abe;
+}
+
+body.home-page .home-orbit-logo {
+  rotate: 25deg;
+}
+
+body.home-page .home-about-problem {
+  margin-bottom: -20px;
+  color: #ee4c01;
+  text-transform: uppercase;
+}
+
+body.home-page .home-about-difference {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #ee4c01;
+  text-transform: uppercase;
+}
+
+body.home-page .home-about-team-note {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ee4c01;
+}
+
+body.home-page .home-main-cta-copy {
+  color: white;
+}
+
+body.home-page .home-eye-visual {
+  position: relative;
+}
+
+body.home-page .home-eye-image {
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+}
+
+body.home-page .home-eye-orbit {
+  left: auto;
+  right: -80px;
+  top: -63px;
+}
+
+body.home-page .virtuo-eye-content {
+  max-width: auto;
+  margin-left: -21px;
+}
+
+body.home-page .home-trust-title-emphasis {
+  font-weight: 400;
+}
+
+body.home-page .home-trust-kicker {
+  margin-bottom: 10px;
+  color: #ee4c01;
+  text-transform: uppercase;
+}
+
+body.home-page .home-trust-detail {
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+
+body.home-page .home-trust-body {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+body.home-page .home-trust-closing {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ee4c01;
+}
+
+body.home-page .home-services-section {
+  background-image: url(/assets/img/images/virtuo-footer-gradient-1920x908.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.home-page .home-services-subtitle {
+  color: #ee4c01;
+}
+
 @media (max-width: 991.98px) {
   body.home-page .home-core-services-marquee {
     margin-top: 6px !important;
@@ -30798,6 +30898,7 @@ body.home-page .blog__post-area-six .blog__post-content {
     );
   }
 }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   body.about-page .about__img-wrap,
   body.about-page .about__images {

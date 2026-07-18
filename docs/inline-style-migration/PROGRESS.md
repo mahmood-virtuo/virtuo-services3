@@ -4,11 +4,11 @@
 
 - Starting commit: `2785b8c6f568987c19d61de9c151bafe8067c716`
 - Branch: `testing`
-- Current phase: Phase 1 — Shared partials and components checkpoint
-- Completed phases: Phase 0; Phase 1 migration and local validation
-- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`
-- Staging workflow result: Phase 0 `Deploy Virtuo Staging` run `29647928115` succeeded.
-- Next exact action: create the `Migrate shared inline styles to core CSS` checkpoint, push it only to `origin/testing`, confirm the staging workflow result, record its SHA/result, and begin Phase 2 with `index.php`.
+- Current phase: Phase 2 — Homepage checkpoint
+- Completed phases: Phase 0; Phase 1; Phase 2 Homepage migration and local validation
+- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`
+- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded.
+- Next exact action: create the `Migrate homepage inline styles` checkpoint, push it only to `origin/testing`, confirm staging, record its SHA/result, and then inspect `about.php` for the About checkpoint.
 
 ## Original inventory
 
@@ -70,13 +70,14 @@ Initial active template total: **435 `style` attributes across 43 files**, of wh
 | --- | ---: | ---: | ---: |
 | Baseline | 432 | 3 | 105 |
 | Current after Phase 1 | 414 | 3 | 105 |
+| Current after Homepage | 388 | 3 | 105 |
 
 ## Migration groups and destinations
 
 | Migration group | Destination | Classes added | Status |
 | --- | --- | --- | --- |
 | Shared header/footer/components | `assets/css/src/core.css` | `offcanvas-intro`, `offcanvas-whatsapp-icon`, `footer-section-heading`, `footer-contact-icon`, `footer-contact-icon--location`, `footer-address-label`, `footer-form-title`, `footer-form-intro`, `footer-message-input`, `footer-legal-link` | Phase 1 locally validated; checkpoint pending |
-| Home | `assets/css/src/pages/home.css` | none yet | Pending Phase 2 |
+| Home | `assets/css/src/pages/home.css` | `home-hero-accent`, `home-about-orbit`, `home-orbit-icon`, `home-orbit-logo`, `home-about-problem`, `home-about-difference`, `home-about-team-note`, `home-main-cta-copy`, `home-eye-visual`, `home-eye-image`, `home-eye-orbit`, `home-trust-title-emphasis`, `home-trust-kicker`, `home-trust-detail`, `home-trust-body`, `home-trust-closing`, `home-services-subtitle`; existing `virtuo-eye-content` and `home-services-section` also reused | Locally validated; checkpoint pending |
 | About | `assets/css/src/pages/about.css` | none yet | Pending Phase 2 |
 | Contact | `assets/css/src/pages/contact.css` | none yet | Pending Phase 2 |
 | Services and active service partials | `assets/css/src/pages/services.css` | none yet | Pending Phase 3 |
@@ -143,6 +144,20 @@ Every representative render loaded exactly one versioned `core.min.css` and one 
 - `core.min.css`: 555,333 → 556,224 bytes (+891; +0.16%).
 - Representative rendered HTML decreased by 291 bytes per page because the shared partial markup is emitted on every page.
 - Reuse justification: the added shared rules are loaded once in the cacheable core bundle and replace repeated header/footer declarations in every active page response. No additional CSS request was introduced.
+
+## Homepage results
+
+- Files processed: `index.php` and `assets/css/src/pages/home.css`.
+- Static `style` attributes removed: 26 (Homepage source count reduced from 26 to 0).
+- Original declarations moved: 54, consolidated into 43 page-scoped CSS declarations through repeated hero, orbit, and trust-copy styles.
+- New semantic classes: 17; existing semantic component classes reused: 2.
+- New `!important` declarations: 0.
+- Remaining active template `style` attributes: 391 total (388 literal static candidates and 3 PHP-generated finite/static candidates).
+- `home.css`: 11,257 → 12,958 bytes (+1,701).
+- `home.min.css`: 9,926 → 11,359 bytes (+1,433).
+- Rendered homepage HTML: 116,309 → 115,303 bytes (-1,006 from the Phase 1 checkpoint).
+- Cold HTML + family CSS delta: +427 bytes; the small increase is justified by consolidation of five hero accents, two orbit components, and two trust kickers plus cache reuse on repeat views. No CSS request was added.
+- The 13 remaining rendered homepage `style` attributes are repeated output from the PHP-generated service marquee and are scheduled for Phase 3; `index.php` itself now has zero.
 
 ## Pre-existing unrelated issue
 
