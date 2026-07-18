@@ -4716,8 +4716,8 @@ textarea {
   }
 }
 .banner__mask-img {
-  -webkit-mask-image: url(../img/banner/mask_img.svg);
-  mask-image: url(../img/banner/mask_img.svg);
+  -webkit-mask-image: url("/assets/img/banner/mask_img.svg");
+  mask-image: url("/assets/img/banner/mask_img.svg");
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
@@ -7260,8 +7260,8 @@ textarea {
   z-index: 1;
 }
 .about__mask-img {
-  -webkit-mask-image: url(../img/images/about_mask_img.svg);
-  mask-image: url(../img/images/about_mask_img.svg);
+  -webkit-mask-image: url("/assets/img/images/about_mask_img.svg");
+  mask-image: url("/assets/img/images/about_mask_img.svg");
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
@@ -14202,8 +14202,8 @@ textarea {
   border-color: var(--tg-theme-primary);
 }
 .project__mask-img {
-  -webkit-mask-image: url(../img/project/project_mask_img.svg);
-  mask-image: url(../img/project/project_mask_img.svg);
+  -webkit-mask-image: url("/assets/img/project/project_mask_img.svg");
+  mask-image: url("/assets/img/project/project_mask_img.svg");
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
@@ -16577,8 +16577,8 @@ textarea {
   border-radius: 10px;
 }
 .faq__mask-img {
-  -webkit-mask-image: url(../img/images/faq_mask_img.svg);
-  mask-image: url(../img/images/faq_mask_img.svg);
+  -webkit-mask-image: url("/assets/img/images/faq_mask_img.svg");
+  mask-image: url("/assets/img/images/faq_mask_img.svg");
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
@@ -19381,8 +19381,8 @@ blockquote cite {
   }
 }
 .choose__img-wrap-two .mask__img {
-  -webkit-mask-image: url(../img/images/h5_choose_mask_img.svg);
-  mask-image: url(../img/images/h5_choose_mask_img.svg);
+  -webkit-mask-image: url("/assets/img/images/h5_choose_mask_img.svg");
+  mask-image: url("/assets/img/images/h5_choose_mask_img.svg");
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
@@ -23597,7 +23597,7 @@ blockquote cite {
   overflow: hidden;
   min-height: 710px;
   padding: 70px 0 22px;
-  background-image: url("../img/images/virtuo-footer-gradient.webp");
+  background-image: url("/assets/img/images/virtuo-footer-gradient.webp");
   background-size: cover;
   background-position: center;
   color: rgba(255, 255, 255, 0.76);
@@ -26873,7 +26873,7 @@ select {
 .contact-box {
   flex: 1;
   border-radius: 22px;
-  background-image: url("../img/images/contact-card-bg.webp");
+  background-image: url("/assets/img/images/contact-card-bg.webp");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -26974,7 +26974,7 @@ select {
 .contact-box {
   flex: 1;
   border-radius: 18px;
-  /* background-image: url("../img/images/contact-card-bg.webp"); */
+  /* background-image: url("/assets/img/images/contact-card-bg.webp"); */
   background: linear-gradient(360deg, #09194e 0%, #175ab1 100%);
   background-size: cover;
   background-position: center;

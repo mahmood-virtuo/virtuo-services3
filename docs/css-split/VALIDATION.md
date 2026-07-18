@@ -189,3 +189,18 @@ No browser automation was used in Phase 0 because no rendering behavior changed.
 - Blog listing desktop/mobile: cards/overlays, taxonomy, sidebars/form, load-more, sticky widgets, columns/overflow.
 - Blog details: one standard article, detail 2 interactive article, tax or AI article, and Emirates map across distributed desktop/mobile; verify TOC, sticky widgets, tabs, accordions, charts, tables, overflow, author/CTA/forms.
 - Legal desktop/mobile and invalid-route 404 desktop/mobile.
+
+## Phase 11 results — split CSS asset URLs
+
+- URL inventory: all split sources and generated bundles scanned; seven unique local assets found in core, one external CDN URL preserved, one SVG fragment-only URL preserved, and no page-family local asset URL found.
+- URL strategy: all 13 local core occurrences now use root-relative `/assets/img/...` paths; selector/declaration order, specificity, responsive rules, and visual declarations are otherwise unchanged.
+- Build enforcement: the CSS build rejects relative local source URLs and missing root-relative local targets while preserving external, data, protocol-relative, other-scheme, and fragment-only references.
+- CSS build: passed twice; all nine bundle hashes and both compatibility hashes matched between consecutive builds.
+- Generated-path audit: no accidental `/assets/css/img/`, `/assets/css/bundles/img/`, `/assets/css/src/img/`, `/assets/css/bundles/fonts/`, relative image/font path, or old about-mask failure path remains.
+- Local asset audit: all seven target files exist and all corrected HTTP URLs return 200; the about mask resolves at `/assets/img/images/about_mask_img.svg`.
+- Rendered links/status: the ten representative routes returned expected 200/404 statuses and loaded core exactly once followed by the expected family exactly once, with no active compatibility main.
+- Bundle HTTP status: core and all eight family bundle files returned 200 with CSS content types.
+- Resource crawl: 182 local CSS/image/font resources referenced by representative HTML/CSS were requested. Three pre-existing Government Relations HTML image paths containing spaces returned 404 through the local router despite matching files on disk; they are unrelated to CSS, predate this phase, and were not modified. Every split-CSS-originated resource returned 200.
+- Browser automation: not used under the requested lightweight-testing restriction.
+
+Manual checks remaining: verify the representative route matrix on staging at desktop/mobile, confirm the Network panel has no CSS-originated image/font 404s (especially the About mask), confirm no new console errors, and visually check mask/background rendering. Separately verify whether staging serves the three existing space-containing Government Relations image filenames before scoping any follow-up.

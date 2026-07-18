@@ -47,6 +47,85 @@ function validateOutput(relativePath) {
   return outputPath;
 }
 
+function findCssUrls(source) {
+  const urls = [];
+  const urlPattern = /\burl\s*\(/gi;
+  let match;
+
+  while ((match = urlPattern.exec(source)) !== null) {
+    let index = urlPattern.lastIndex;
+
+    while (/\s/.test(source[index] || "")) {
+      index += 1;
+    }
+
+    const quote = source[index] === '"' || source[index] === "'" ? source[index++] : null;
+    let value = "";
+
+    while (index < source.length) {
+      const character = source[index];
+
+      if (character === "\\" && index + 1 < source.length) {
+        value += character + source[index + 1];
+        index += 2;
+        continue;
+      }
+
+      if ((quote && character === quote) || (!quote && character === ")")) {
+        break;
+      }
+
+      value += character;
+      index += 1;
+    }
+
+    urls.push(value.trim());
+    urlPattern.lastIndex = index + 1;
+  }
+
+  return urls;
+}
+
+function validateCssUrls(source, label) {
+  for (const url of findCssUrls(source)) {
+    if (
+      url === "" ||
+      url.startsWith("#") ||
+      /^data:/i.test(url) ||
+      /^https?:/i.test(url) ||
+      url.startsWith("//") ||
+      /^[a-z][a-z\d+.-]*:/i.test(url)
+    ) {
+      continue;
+    }
+
+    if (!url.startsWith("/")) {
+      throw new Error(
+        `Local CSS URL must be root-relative in ${label}: ${url}`
+      );
+    }
+
+    const publicPath = url.split(/[?#]/, 1)[0];
+    let decodedPath;
+
+    try {
+      decodedPath = decodeURIComponent(publicPath);
+    } catch {
+      throw new Error(`CSS URL contains invalid encoding in ${label}: ${url}`);
+    }
+
+    const assetPath = path.resolve(projectRoot, `.${decodedPath}`);
+
+    if (!assetPath.startsWith(projectRootPrefix)) {
+      throw new Error(`CSS URL resolves outside the project in ${label}: ${url}`);
+    }
+
+    if (!fs.existsSync(assetPath) || !fs.statSync(assetPath).isFile()) {
+      throw new Error(`CSS URL target does not exist in ${label}: ${url}`);
+    }
+  }
+}
+
 function minify(source, label) {
   const result = new CleanCSS({
     level: 0,
@@ -88,7 +167,9 @@ function readSources() {
     }
 
     const sourcePath = validateSource(bundle.source);
-    sourceContents.set(bundle.source, fs.readFileSync(sourcePath, "utf8"));
+    const source = fs.readFileSync(sourcePath, "utf8");
+    validateCssUrls(source, bundle.source);
+    sourceContents.set(bundle.source, source);
   }
 
   return sourceContents;
