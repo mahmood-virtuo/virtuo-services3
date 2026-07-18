@@ -32201,6 +32201,71 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
     object-fit: contain;
   }
 }
+
+body.service-page .service-detail-kicker {
+  margin-bottom: 15px;
+}
+
+body.service-page .service-detail-hero {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+body.service-page .service-detail-gallery {
+  margin-top: 45px;
+}
+
+body.service-page .service-detail-process-copy {
+  margin: 50px 0;
+  padding: 0;
+}
+
+body.service-page .service-detail-faq {
+  margin-bottom: 50px;
+}
+
+body.service-page .service-detail-faq-column {
+  width: 100%;
+}
+
+body.service-page .service-detail-work {
+  margin-top: 100px;
+}
+
+body.service-page .service-detail-work--compact {
+  margin-top: 70px;
+}
+
+body.service-page .service-detail-work-icon {
+  width: 60px;
+  height: 60px;
+}
+
+body.service-page .service-detail-choice-copy {
+  margin: 100px;
+}
+
+body.service-page .breadcrumb__bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.service-page .service-breadcrumb .is-hidden {
+  display: none;
+}
+
+body.service-page .service-marquee-icon {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-right: 12px;
+  margin-left: -4px;
+  color: #ee4c01;
+  vertical-align: middle;
+}
+
 body.blog-page .blog__post-thumb-five {
   position: relative;
   overflow: hidden;

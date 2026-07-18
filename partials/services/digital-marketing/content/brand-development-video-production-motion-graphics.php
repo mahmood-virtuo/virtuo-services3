@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Video Production &amp; Motion Graphics</p>
+                                        <p class="service-detail-kicker">Video Production &amp; Motion Graphics</p>
                                         <h2 class="title">High-Impact Visual Storytelling & Platform-Optimized Asset Production</h2>
                                         <p>In a rapidly shifting digital landscape, capturing and retaining audience attention requires more than generic templates. We engineer bespoke, high-velocity social media creative content designed to cut through feed noise, command instant visual interest, and elevate your brand's digital presence across all primary channels.</p>
                                         <p>By combining trend-aware creative direction, data-backed engagement mechanics, and precise multi-format asset creation, we eliminate low-performing and unvetted content. We build tailored, platform-native visual systems that align perfectly with modern algorithmic preferences, ensuring your brand story captivates users and effectively converts casual impressions into measurable commercial traction.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg1.webp" alt="Video Production &amp; Motion Graphics" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/VideoProduction&MotionGraphicsImg1.webp" alt="Video Production &amp; Motion Graphics" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>4. Interactive Story & Poll Kits: </b>Creating interactive engagement assets, quick-response stickers, and daily community touchpoints that spark active user participation.</p>
                                         <p class="info-one"><b>5. Curated Aesthetic Photography: </b>Executing high-end product lifestyle shoots, stylized flat-lays, and corporate culture photography to establish a premium, authentic brand aesthetic.</p>
                                         <p class="info-one"><b>6. Dynamic Graphic Animation: </b>Building energetic motion graphics, animated typographic layouts, and short GIF components that drive attention directly to your primary campaign messaging.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We map your creative campaign goals, isolate your primary target demographics, and analyze channel-specific algorithm preferences.</p>
                                         <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We design clear creative concept boards, structure visual mood direction, and outline an integrated asset production checklist.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="brand-development-video-production-and-motion-graphics-accordion">
                                                             <div class="accordion-item">

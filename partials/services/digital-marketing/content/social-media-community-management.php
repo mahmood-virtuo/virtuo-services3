@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Community Management</p>
+                                        <p class="service-detail-kicker">Community Management</p>
                                         <h2 class="title">High-Engagement Audience Cultivation & Brand Loyalty Protection</h2>
                                         <p>Building an active digital sub-culture turns passing marketing traffic into a resilient network of dedicated brand advocates. We engineer end-to-end community interaction structures designed to monitor your public reputation continuously, champion customer satisfaction across global communication channels, and scale your brand equity.</p>
                                         <p>By combining empathetic human interaction values with data-backed sentiment monitoring and real-time response mechanics, we systematically eliminate toxic commentary threads and unanswered consumer complaints. This structured community framework secures your public profile, elevates your brand trust metrics, and naturally drives customer retention across your entire digital ecosystem.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/CommunityManagementImg1.webp" alt="Community Management" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/CommunityManagementImg1.webp" alt="Community Management" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>4. Peer-to-Peer Community Engineering: </b>Establishing, managing, and scaling specialized customer sub-groups, private focus forums, and dedicated member networks to drive deeper corporate involvement.</p>
                                         <p class="info-one"><b>5. Brand Sentiment & Voice Compliance: </b>Structuring all community communication pathways to match your corporate style guide parameters, ensuring flawless tonal accuracy with every reader reply.</p>
                                         <p class="info-one"><b>6. Engagement Lifecycle Analytics Tracking: </b>Delivering transparent monthly feedback reports tracking resolution speeds, community growth patterns, and core brand perception shifts to guide strategy adjustments.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We map your target audience demographics, review your primary public communication channels, and identify existing customer service bottlenecks.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We design your customized response playbooks, establish emergency escalation procedures, and build core brand-compliant text models.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="social-media-management-community-management-accordion">
                                                             <div class="accordion-item">

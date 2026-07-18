@@ -4,11 +4,11 @@
 
 - Starting commit: `2785b8c6f568987c19d61de9c151bafe8067c716`
 - Branch: `testing`
-- Current phase: Phase 2 — Contact checkpoint
-- Completed phases: Phase 0; Phase 1; Phase 2 Homepage; About; Contact migration and local validation
-- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`
-- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded.
-- Next exact action: create the `Migrate Contact page inline styles` checkpoint, push it only to `origin/testing`, confirm staging, record its SHA/result, and then begin the all-five-services Phase 3 audit.
+- Current phase: Phase 3 — All five service pages (validation complete; checkpoint pending)
+- Completed phases: Phase 0; Phase 1; Phase 2 (Homepage, About, Contact)
+- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`; Contact `3d08de0c2e82249dcce6ba0bb3dcfd2eb55900d3`
+- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded; Contact run `29648575638` succeeded.
+- Next exact action: commit the validated service-family migration, push only `testing`, and verify the staging workflow before beginning the Blog Listing audit.
 
 ## Original inventory
 
@@ -56,7 +56,7 @@ Initial active template total: **421 `style` attributes across 43 files**, of wh
 | `partials/service-category-renderer.php` | 4 |
 | `partials/service-breadcrumb.php` | 3 |
 | `partials/service-marquee.php` | 2 |
-| 24 active `partials/services/digital-marketing/content/*.php` files | 145 |
+| 23 active `partials/services/digital-marketing/content/*.php` files | 139 |
 | `blog-details.php`, `blog-details2.php`–`blog-details6.php`, and `blog-details8.php` | 23 active + 4 inactive commented |
 | `partials/header.php` | 2 |
 | `partials/footer.php` | 16 |
@@ -73,6 +73,7 @@ Initial active template total: **421 `style` attributes across 43 files**, of wh
 | Current after Homepage | 374 | 3 | 105 |
 | Current after About | 355 | 3 | 105 |
 | Current after Contact | 344 | 3 | 105 |
+| Current after Services | 24 | 0 | 105 |
 
 ## Migration groups and destinations
 
@@ -81,8 +82,8 @@ Initial active template total: **421 `style` attributes across 43 files**, of wh
 | Shared header/footer/components | `assets/css/src/core.css` | `offcanvas-intro`, `offcanvas-whatsapp-icon`, `footer-section-heading`, `footer-contact-icon`, `footer-contact-icon--location`, `footer-address-label`, `footer-form-title`, `footer-form-intro`, `footer-message-input`, `footer-legal-link` | Checkpoint/staging succeeded |
 | Home | `assets/css/src/pages/home.css` | `home-hero-accent`, `home-about-orbit`, `home-orbit-icon`, `home-orbit-logo`, `home-about-problem`, `home-about-difference`, `home-about-team-note`, `home-main-cta-copy`, `home-eye-visual`, `home-eye-image`, `home-eye-orbit`, `home-trust-title-emphasis`, `home-trust-kicker`, `home-trust-detail`, `home-trust-body`, `home-trust-closing`, `home-services-subtitle`; existing `virtuo-eye-content` and `home-services-section` also reused | Checkpoint/staging succeeded |
 | About | `assets/css/src/pages/about.css` | `about-heading-highlight`, `about-service-name`, `about-service-name--uppercase`, `about-main-cta-copy`; existing About badge/team selectors reused | Checkpoint/staging succeeded |
-| Contact | `assets/css/src/pages/contact.css` | `contact-message-input`; existing breadcrumb, contact-detail, eye/orbit, and eye-content selectors reused | Locally validated; checkpoint pending |
-| Services and active service partials | `assets/css/src/pages/services.css` | none yet | Pending Phase 3 |
+| Contact | `assets/css/src/pages/contact.css` | `contact-message-input`; existing breadcrumb, contact-detail, eye/orbit, and eye-content selectors reused | Checkpoint/staging succeeded |
+| Services and active service partials | `assets/css/src/pages/services.css` | `service-detail-kicker`, `service-detail-hero`, `service-detail-gallery`, `service-detail-process-copy`, `service-detail-faq`, `service-detail-faq-column`, `service-detail-work`, `service-detail-work--compact`, `service-detail-work-icon`, `service-detail-choice-copy`, `service-marquee-icon`, `is-hidden` | Validation complete; checkpoint pending |
 | Blog listing | `assets/css/src/pages/blog-listing.css` | none yet | Pending Phase 4 audit |
 | Blog details | `assets/css/src/pages/blog-details.css` | none yet | Pending Phase 5 |
 | Legal | `assets/css/src/pages/legal.css` | none yet | Pending Phase 6 audit |
@@ -190,3 +191,18 @@ Every representative render loaded exactly one versioned `core.min.css` and one 
 ## Pre-existing unrelated issue
 
 Government Relations references image paths containing spaces at lines 89, 108, and 113 of `government-relations-pro-services.php`. The migration will preserve those paths exactly as requested.
+
+## Services results
+
+- Files processed: all five service entry pages, `partials/service-category-renderer.php`, `partials/service-breadcrumb.php`, `partials/service-marquee.php`, all 23 active Digital Marketing content partials, and `assets/css/src/pages/services.css`.
+- Active `style` attributes removed: 323 (320 literal static plus all 3 PHP-generated finite/static candidates); the service-family source and rendered output counts are now zero.
+- Original declarations represented: 442, consolidated into 25 service-scoped CSS declarations across 13 rules.
+- New semantic/state classes: 12; the existing `breadcrumb__bg` selector was also reused.
+- New `!important` declarations: 0.
+- Remaining active template `style` attributes: 24 literal static candidates (23 Blog Detail and 1 Error); PHP-generated finite/static candidates: 0.
+- Runtime style operations retained: 105, including the service-tab and breadcrumb updates.
+- `services.css`: 299 → 1,412 bytes (+1,113).
+- `services.min.css`: 231 → 1,178 bytes (+947).
+- Rendered service HTML versus the Phase 1 checkpoint: UAE Business Formation 305,804 → 303,832 (-1,972); Government Relations 207,152 → 205,203 (-1,949); Immigration 225,308 → 223,323 (-1,985); Digital Marketing 116,283 → 114,586 (-1,697); AI Automation 213,534 → 211,701 (-1,833).
+- Even on a cold request, every representative page's HTML reduction exceeds the 947-byte family-bundle increase; repeat views also reuse the cacheable bundle. No CSS request was added.
+- The existing Government Relations image paths containing spaces were preserved byte-for-byte. Their three local HTTP 404 responses remain a pre-existing asset-path issue outside this migration.

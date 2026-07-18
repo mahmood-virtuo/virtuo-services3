@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Content Creation</p>
+                                        <p class="service-detail-kicker">Content Creation</p>
                                         <h2 class="title">High-End Multimedia Production & Authority-Driven Copywriting</h2>
                                         <p>Impactful content execution turns raw marketing attention into valuable commercial equity. We engineer premium physical and digital asset portfolios designed to project absolute institutional credibility, capture complex industry concepts beautifully, and keep your global audience deeply connected to your brand message.
                                             By pairing meticulous cross-media technical precision with persuasive, bicultural storytelling metrics, we eliminate flat engagement rates and weak market visibility. This disciplined creative pipeline delivers highly polished visual, written, and dynamic materials that reinforce your thought leadership and drive action across all your primary marketing channels.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentCreationImg1.webp" alt="Content Creation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/ContentCreationImg1.webp" alt="Content Creation" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one">4. Bicultural Content Optimization: Refining cross-border metaphors, localizing language nuances, and fine-tuning translated messaging matrices to ensure your creative campaigns resonate across global sectors.</p>
                                         <p class="info-one">5. Performance Direct-Response Copy: Crafting benefit-focused landing page headers, persuasive email onboarding funnels, and high-performance digital ad copy that systematically lowers your acquisition costs.</p>
                                         <p class="info-one">6. Asset Formatting & Scale Synchronization: Packaging your completed visual media libraries into multiple resolution formats and platform-specific sizes for smooth, synchronized cross-channel deployment.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We unpack your underlying creative brief, assess your current asset guidelines, and lock down your exact campaign messaging targets.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We design your production outline scripts, select structural design templates, map narrative structures, and format production timelines.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="social-media-management-content-creation-accordion">
                                                             <div class="accordion-item">

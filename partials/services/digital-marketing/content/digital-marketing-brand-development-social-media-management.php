@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Social Media Management</p>
+                                    <p class="service-detail-kicker">Social Media Management</p>
                                     <h2 class="title">Command the Narrative: Scalable Social Media & Content Architecture</h2>
                                     <p>Building a prominent, highly active social media presence is a non-negotiable requirement for UAE corporations looking to build consumer trust, showcase operational authority, and capture local market share. In a fast-paced digital landscape, your social channels serve as your brand’s direct communication lines—driving consumer engagement, elevating retail or consulting pipelines, and transforming casual page visitors into long-term brand advocates.</p>
                                     <p>At Virtuo, we eliminate the complexity of cross-platform brand management. Our specialized digital strategists, copywriters, and content creators design tailored social blueprints that elevate your brand voice, ensuring your company establishes immediate structural authority across premium business and consumer networks alike.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/SocialMediaManagementImg1.webp" alt="Social Media Management" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/SocialMediaManagementImg1.webp" alt="Social Media Management" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Social Media Services Include</h2>
@@ -20,7 +20,7 @@
                                     <p class="info-two">6. Cross-Channel Analytics & Performance Reports: Delivering data-backed performance breakdowns and strategic optimization pivots to maximize organic visibility.</p>
                                     <p class="info-one">7. Bilingual Arabic & English Localization: Crafting culturally precise marketing copy and localized assets that resonate deeply with regional audiences.</p>
 
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -37,7 +37,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Why Do Businesses Choose Virtuo?</h2>
                                         <p class="info-one">Virtuo secures your company's social media presence by serving as your comprehensive, cross-functional communication partner in Dubai. By blending an intricate mastery of regional digital algorithms with deep corporate insight, we guarantee that your campaigns, brand architectures, and audience interactions are managed with absolute strategic precision. Our framework completely eliminates publishing gaps and unexpected audience disconnects by overseeing the entire creative and distribution process under one roof, providing your enterprise with a dedicated brand optimization asset that protects your marketing timelines while keeping your commercial momentum moving smoothly.</p>
 
@@ -45,7 +45,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -56,7 +56,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="digital-marketing-brand-development-social-media-management-accordion">
                                                         <div class="accordion-item">

@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">SEO &amp; Performance Optimization</p>
+                                        <p class="service-detail-kicker">SEO &amp; Performance Optimization</p>
                                         <h2 class="title">High-Velocity Search Visibility &amp; Core Web Vitals Engineering</h2>
                                         <p>Organic search visibility is the ultimate driver of sustainable corporate growth. We engineer deep technical optimizations and high-velocity asset configurations designed to position your digital platforms at the absolute peak of global search engine results pages, completely free from recurring advertising costs.</p>
                                         <p>By restructuring unoptimized source code frameworks, resolving database request blocks, and aligning your content architecture with changing crawl engine parameters, we maximize your organic platform indexing. This ensures your enterprise builds compound domain authority, drives high-intent professional traffic straight to your core assets, and maintains a distinct competitive edge online.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg1.webp" alt="SEO &amp; Performance Optimization" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/SEO&PerformanceOptimizationImg1.webp" alt="SEO &amp; Performance Optimization" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>Search Context &amp; Intent Blueprinting:</b> Auditing search behavior demographics and transaction intent metrics to map out high-yield content positioning frameworks.</p>
                                         <p class="info-one"><b>Backlink Authority Architecture:</b> Developing authoritative, white-hat platform link networks to build your overall domain equity and search position metrics safely.</p>
                                         <p class="info-one"><b>Comprehensive Performance Reporting:</b> Integrating real-time web console pipelines and organic search tracking dashboards to monitor click data and keyword velocities transparently.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one">1. Discovery Call - We extract your baseline search parameters, dissect your target sector rivals, and evaluate your primary organic visibility targets.</p>
 
@@ -47,7 +47,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -58,7 +58,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="web-digital-solutions-seo-and-performance-optimization-accordion">
                                                             <div class="accordion-item">

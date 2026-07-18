@@ -80,13 +80,13 @@
                         <div class="service-tab-panel is-active" id="government-relations-pro-services-trade-license-services" data-service-panel="government-relations-pro-services-trade-license-services">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Trade License Services In Dubai</p>
+                                    <p class="service-detail-kicker">Trade License Services In Dubai</p>
                                     <h2 class="title">Comprehensive Trade License Services In The UAE</h2>
                                     <p>Securing a valid commercial trade license is the single most critical step to legally operating an enterprise within the UAE's highly lucrative market. A corporate trade license does more than ensure legal compliance with local government departments. It acts as your primary engine for growth, granting your business the legal authorization to trade products, offer specialized services, open corporate banking facilities, and issue official residency visas for your expanding team.</p>
                                     <p>At Virtuo, we eliminate the complexities of government licensing applications. Our corporate advisors manage the entire regulatory landscape on your behalf, aligning your company with the correct legal frameworks across Mainland, Free Zone, or Offshore jurisdictions so you can focus entirely on your commercial launch.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/Trade License Image 1.webp" alt="Trade License Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/Trade License Image 1.webp" alt="Trade License Services" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Trade License Is Essential In The UAE</h2>
@@ -101,7 +101,7 @@
                                     <p class="info-one"><b>6. Hiring employees</b></p>
                                     <p class="info-one"><b>7. Participating in tenders or government contracts</b></p>
                                     <p>Without a valid trade license, a business cannot legally function in the UAE. With Virtuo, obtaining your trade license is smooth, compliant, and stress-free, giving you the foundation you need to build and grow your business successfully.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -119,14 +119,14 @@
                                 <!-- work-area -->
 
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Why Do Businesses Choose Virtuo?</h2>
                                         <p class="info-one">Virtuo safeguards your company's legal standing by acting as your dedicated interface with the UAE's regulatory bodies and external ministries. Our corporate licensing specialists possess an intricate understanding of activity classifications, ensuring your trade license is structured for maximum operational scope while completely avoiding government penalties or processing delays. Whether managing rapid multi-year renewals, complex corporate modifications, or structured entity liquidations, we deliver complete legal accuracy and transparent fee structures so your business remains permanently compliant and ready for market growth.</p>
                                      </div>
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -137,7 +137,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="government-relations-pro-services-trade-license-services-accordion">
                                                         <div class="accordion-item">
@@ -195,13 +195,13 @@
                         <div class="service-tab-panel" id="government-relations-pro-services-document-clearance-services" data-service-panel="government-relations-pro-services-document-clearance-services">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Document Clearance</p>
+                                    <p class="service-detail-kicker">Document Clearance</p>
                                     <h2 class="title">Frictionless Corporate Compliance &amp; Accelerated Government Liaison Engineering</h2>
                                     <p>Navigating the bureaucratic complexities of corporate licensing, visa processing, and ministerial approvals can create massive operational bottlenecks for growing enterprises. We engineer seamless, end-to-end document clearance and Public Relations Officer (PRO) frameworks designed to accelerate corporate legalization, secure mandatory government authorizations, and maintain absolute regulatory compliance.</p>
                                     <p>By pairing dedicated operational liaisons with automated regulatory tracking systems, we eliminate administrative drag, unexpected processing delays, and compliance penalties. We ensure your corporate entity meets all local statutory requirements with total transparency, allowing your leadership team to focus entirely on commercial scaling.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/DocumentClearanceImg1.webp" alt="Document Clearance Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/DocumentClearanceImg1.webp" alt="Document Clearance Services" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Document Clearance Matters in the UAE</h2>
@@ -218,7 +218,7 @@
                                     <p class="info-one"><b>9. Government Approvals</b></p>
                                     <p class="info-one"><b>10. Personal Documentation Updates</b></p>
                                     <p>With Virtuo, you can be confident that every document is handled correctly the first time, avoiding delays, errors, and potential legal issues.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -243,7 +243,7 @@
 
                                             <div class="row gutter-y-30 justify-content-center">
 
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Navigating complex government ministries, immigration protocols, and corporate licensing frameworks can create massive operational bottlenecks for expanding enterprises. Virtuo removes this administrative burden by providing a high-velocity, end-to-end government liaison and Public Relations Officer (PRO) framework backed by deep legal expertise and automated tracking systems. By partnering with Virtuo, businesses gain direct integration with government channels to fast-track submissions, proactively tracking that eliminates the risk of costly compliance penalties, and institutional-grade data security to safeguard sensitive corporate records. With complete cost transparency and zero hidden fees, Virtuo liberates your internal HR and legal teams from bureaucratic friction, ensuring your business stays 100% compliant and free to focus entirely on commercial scaling.</p>
                                                 </div>
@@ -253,7 +253,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -264,7 +264,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="government-relations-pro-services-document-clearance-services-accordion">
                                                         <div class="accordion-item">
@@ -322,13 +322,13 @@
                         <div class="service-tab-panel" id="government-relations-pro-services-power-of-attorney" data-service-panel="government-relations-pro-services-power-of-attorney">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Power of Attorney Dubai</p>
+                                    <p class="service-detail-kicker">Power of Attorney Dubai</p>
                                     <h2 class="title">Legally Drafted. Professionally Notarized. Globally Accepted.</h2>
                                     <p>A Power of Attorney (POA) is an indispensable legal instrument that empowers a trusted individual or corporate entity to act legally on your behalf. Whether managing your personal assets, executing complex corporate transactions, or overseeing a company setup while you are outside the country, a precisely drafted POA guarantees that your interests are fully protected and your business operations maintain absolute continuity.</p>
                                     <p>At Virtuo, we untangle the stringent legal requirements of the UAE judicial system. Our legal advisors manage the complete structural drafting, certified Arabic translation, and formal notarization of your documents, ensuring they conform perfectly to modern regulations and stand up to rigorous scrutiny by local ministries, courts, and banking institutions.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/PowerOfAttorneyImg1.webp" alt="Power of Attorney" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/PowerOfAttorneyImg1.webp" alt="Power of Attorney" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why a Power of Attorney (POA) Is Essential in the UAE</h2>
@@ -345,7 +345,7 @@
                                     <p class="info-one"><b>9. Visa &amp; Immigration Procedures</b></p>
                                     <p class="info-one"><b>10. Corporate Decision Making</b></p>
                                     <p>A properly prepared and notarized POA safeguards your rights and ensures your chosen representative can act legally and confidently on your behalf.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -368,7 +368,7 @@
 
                                             <div class="row gutter-y-30 justify-content-center">
 
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Virtuo removes the legal risk and administrative friction from corporate delegation by serving as your trusted legal architecture partner in Dubai. By combining a profound command of UAE civil codes and local notary public guidelines with direct access to digital court portals, we ensure your instruments are structured with absolute legal precision. Our framework operates with total operational transparency and absolute data privacy, assigning your file to a dedicated corporate specialist who untangles the administrative red tape so your legal proxies can step in and protect your business interests with absolute confidence.</p>
                                                 </div>
@@ -378,7 +378,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -389,7 +389,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="government-relations-pro-services-power-of-attorney-accordion">
                                                         <div class="accordion-item">
@@ -447,13 +447,13 @@
                         <div class="service-tab-panel" id="government-relations-pro-services-notary-public-services-dubai" data-service-panel="government-relations-pro-services-notary-public-services-dubai">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Notary Public Services Dubai</p>
+                                    <p class="service-detail-kicker">Notary Public Services Dubai</p>
                                     <h2 class="title">Professional Notarization and Notary Public Services in the UAE</h2>
                                     <p>Official validation from a recognized Notary Public is the final baseline requirement needed to give your contracts, agreements, and corporate declarations full legal binding authority within the UAE. Passing your documents through a notary does more than satisfy judicial administration. It legally certifies your identity, authenticates signatures, and ensures your paperwork stands up to the absolute highest standards of statutory enforcement.</p>
                                     <p>At Virtuo, we remove the guesswork and operational delays from local judicial channels. Our corporate consultants manage your complete verification pipeline, guiding your documents smoothly through digital court networks or physical notary desks so your corporate frameworks remain ironclad and ready for institutional use.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/NotaryPublicServicesImg1.webp" alt="Notary Public Services Dubai" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/NotaryPublicServicesImg1.webp" alt="Notary Public Services Dubai" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Notarization Is Essential in the UAE</h2>
@@ -470,7 +470,7 @@
                                     <p class="info-one"><b>9. Contract authentication</b></p>
                                     <p class="info-one"><b>10. Commercial agreements</b></p>
                                     <p>At Virtuo, we provide comprehensive notarization services in Dubai and across the UAE. Our team works closely with Dubai Courts Notary Public, Private Notary Offices, and other judicial authorities, managing every step of the process efficiently and accurately. By handling documentation, approvals, and compliance requirements, we ensure a seamless experience, helping businesses and individuals save time, avoid delays, and maintain full legal compliance for all critical documents.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -498,7 +498,7 @@
 
 
 
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Virtuo removes the operational risks and scheduling delays from judicial channels by serving as your dedicated interface with local notary public systems. By combining a meticulous command of UAE civil codes with direct, daily integration across digital court portals, we ensure your high-value corporate contracts and delegations are certified with flawless legal accuracy. Our framework eliminates unexpected administration friction and processing gaps by handling the preparation end-to-end, providing your enterprise with a strategic legal liaison asset that secures your operational agreements without disrupting your internal business timelines.</p>
                                                 </div>
@@ -508,7 +508,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -519,7 +519,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="government-relations-pro-services-notary-public-services-dubai-accordion">
                                                         <div class="accordion-item">
@@ -577,13 +577,13 @@
                         <div class="service-tab-panel" id="government-relations-pro-services-legal-attestation-services" data-service-panel="government-relations-pro-services-legal-attestation-services">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Attestation Services in Dubai</p>
+                                    <p class="service-detail-kicker">Attestation Services in Dubai</p>
                                     <h2 class="title">Build True Global Validity for Your Documents</h2>
                                     <p>Document attestation is an absolute legal prerequisite to ensuring your personal, educational, and commercial papers are formally recognized by UAE government authorities. Whether processing global corporate records, setting up local commercial entities, or validating certificates for executive employment visas, your international documents have no legal standing locally until they clear a structured multi-layered validation chain.</p>
                                     <p>At Virtuo, we eliminate the immense administrative burden and logistical delays of cross-border paperwork. Our dedicated document clearing specialists manage your entire validation pipeline globally and locally, navigating embassies, foreign ministries, and local judicial bodies so your certificates achieve flawless legal status efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/LegalAttestationImg1.webp" alt="Legal Attestation Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/LegalAttestationImg1.webp" alt="Legal Attestation Services" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Complete Range of Attestation Services</h2>
@@ -599,7 +599,7 @@
                                     <p class="info-one"><b>8. Power of Attorney attestation</b></p>
                                     <p class="info-one"><b>9. Court and ministry attestations</b></p>
                                     <p>With our comprehensive services, experienced team, and strong authority connections, we make document attestation fast, reliable, and stress-free, giving you full confidence that your documents are accepted wherever you need them.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -624,7 +624,7 @@
 
                                             <div class="row gutter-y-30 justify-content-center">
 
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Virtuo removes the logistical complexities and administrative friction from global document legalization by serving as your single point of contact for cross-border attestation. By pairing an intricate knowledge of international consular rules with direct, daily pipelines to the Ministry of Foreign Affairs and foreign embassies, we guarantee that your commercial or personal certificates are validated with absolute legal precision. Our framework operates on a foundation of complete fee clarity with zero surprise handling charges or hidden submission fees, providing your enterprise with a highly secure administrative asset that manages the international red tape seamlessly while completely protecting your sensitive corporate data.</p>
                                                 </div>
@@ -634,7 +634,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -645,7 +645,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="government-relations-pro-services-legal-attestation-services-accordion">
                                                         <div class="accordion-item">
@@ -703,13 +703,13 @@
                         <div class="service-tab-panel" id="government-relations-pro-services-translation-services" data-service-panel="government-relations-pro-services-translation-services">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Legal Translation Services in Dubai</p>
+                                    <p class="service-detail-kicker">Legal Translation Services in Dubai</p>
                                     <h2 class="title">Certified, Accurate, Court-Approved Legal Translations in the UAE</h2>
                                     <p>Arabic is the definitive, mandatory language of the UAE judicial system, government ministries, and local municipal authorities. Consequently, any corporate contract, personal certificate, or legal piece of evidence originally drafted in English or any other foreign language carries no legal validity locally until it undergoes official legal translation into Arabic.</p>
                                     <p>At Virtuo, we bridge the linguistic and regulatory divide. Our translations are executed by accredited professionals officially licensed by the UAE Ministry of Justice (MOJ). Every document we process bears the legally mandated translator's stamp, registration seal, and signature, ensuring it is accepted without question by local courts, immigration offices, and federal departments.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/TranslationImg1.webp" alt="Translation Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/TranslationImg1.webp" alt="Translation Services" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why Legal Translation Is Required in the UAE</h2>
@@ -728,7 +728,7 @@
                                     <p class="info-two">Translating foreign rulings, legal claims, and witness statements for local judicial proceedings.</p>
                                     <p class="info-one"><b>7. Financial Audits &amp; Bank Statements</b></p>
                                     <p class="info-two">Preparing verified financial records required by corporate banking institutions and tax authorities.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -745,14 +745,14 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Why Do Businesses Choose Virtuo?</h2>
                                         <p class="info-one">Virtuo secures your company's regulatory standing by acting as your certified, Ministry of Justice-licensed translation partner in Dubai. By pairing an intricate command of local civil code terminology with rapid turnaround capabilities, we guarantee that your high-value corporate agreements and legal files are translated with flawless accuracy. Our framework completely eliminates the risk of government rejection by managing the entire administrative submission and formatting checklist, providing your enterprise with a strategic linguistic asset that protects your legal interests while keeping your onboarding timelines moving smoothly.</p>
                                      </div>
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -763,7 +763,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="government-relations-pro-services-translation-services-accordion">
                                                         <div class="accordion-item">
@@ -821,13 +821,13 @@
                         <div class="service-tab-panel" id="government-relations-pro-services-mohre-services" data-service-panel="government-relations-pro-services-mohre-services">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">MOHRE Inquiry Services</p>
+                                    <p class="service-detail-kicker">MOHRE Inquiry Services</p>
                                     <h2 class="title">Expert Labour &amp; Employment Services Aligned with UAE Labour Law</h2>
                                     <p>Operating a business in the UAE mainland private sector requires total synchronization with the Ministry of Human Resources and Emiratisation (MOHRE). Every enterprise is legally accountable for strict regulatory compliance from day one, covering work permits, structured employment contracts, and statutory wage allocations.</p>
                                     <p>At Virtuo, we untangle the complexities of labor regulations. Our corporate compliance team manages your entire MOHRE database interface, running real-time tracking audits, contract reviews, and quota checks to keep your establishment card in perfect status and shield your business from sudden operational blocks.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/MOHRE_ServicesImg1.webp" alt="MOHRE Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/MOHRE_ServicesImg1.webp" alt="MOHRE Services" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why MOHRE Inquiry Services Are Essential</h2>
@@ -843,7 +843,7 @@
                                     <p class="info-one"><b>7. Avoiding Fines &amp; Penalties</b></p>
                                     <p class="info-one"><b>8. Ensuring Smooth Visa Processing</b></p>
                                     <p>With Virtuo, your company stays fully compliant, legally secure, and prepared for every MOHRE requirement.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -860,14 +860,14 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Why Do Businesses Choose Virtuo?</h2>
                                         <p class="info-one">Virtuo secures your corporate operations by serving as your expert interface with the Ministry of Human Resources and Emiratisation. By combining an intricate mastery of federal labor laws with continuous monitoring of digital registry portals, we ensure your workforce files are maintained with total compliance accuracy. Our framework completely eliminates the risk of sudden company blocks or hidden processing friction by identifying record variations before they turn into major violations, providing your enterprise with a dedicated labor relations asset that protects your hiring capabilities while you focus on scaling your business.</p>
                                      </div>
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -878,7 +878,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="government-relations-pro-services-mohre-services-accordion">
                                                         <div class="accordion-item">
@@ -936,13 +936,13 @@
                         <div class="service-tab-panel" id="government-relations-pro-services-mohre-inquiry-services" data-service-panel="government-relations-pro-services-mohre-inquiry-services">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">MOHRE Inquiry Services</p>
+                                    <p class="service-detail-kicker">MOHRE Inquiry Services</p>
                                     <h2 class="title">Expert Labour &amp; Employment Services Aligned with UAE Labour Law</h2>
                                     <p>Operating a business in the UAE mainland private sector requires total synchronization with the Ministry of Human Resources and Emiratisation (MOHRE). Every enterprise is legally accountable for strict regulatory compliance from day one, covering work permits, structured employment contracts, and statutory wage allocations.</p>
                                     <p>At Virtuo, we untangle the complexities of labor regulations. Our corporate compliance team manages your entire MOHRE database interface, running real-time tracking audits, contract reviews, and quota checks to keep your establishment card in perfect status and shield your business from sudden operational blocks.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/MOHRE_ServicesImg1.webp" alt="MOHRE Services" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/MOHRE_ServicesImg1.webp" alt="MOHRE Services" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Why MOHRE Inquiry Services Are Essential</h2>
@@ -958,7 +958,7 @@
                                     <p class="info-one"><b>7. Avoiding Fines &amp; Penalties</b></p>
                                     <p class="info-one"><b>8. Ensuring Smooth Visa Processing</b></p>
                                     <p>With Virtuo, your company stays fully compliant, legally secure, and prepared for every MOHRE requirement.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -975,14 +975,14 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Why Do Businesses Choose Virtuo?</h2>
                                         <p class="info-one">Virtuo secures your corporate operations by serving as your expert interface with the Ministry of Human Resources and Emiratisation. By combining an intricate mastery of federal labor laws with continuous monitoring of digital registry portals, we ensure your workforce files are maintained with total compliance accuracy. Our framework completely eliminates the risk of sudden company blocks or hidden processing friction by identifying record variations before they turn into major violations, providing your enterprise with a dedicated labor relations asset that protects your hiring capabilities while you focus on scaling your business.</p>
                                      </div>
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -993,7 +993,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="government-relations-pro-services-mohre-inquiry-services-accordion">
                                                         <div class="accordion-item">

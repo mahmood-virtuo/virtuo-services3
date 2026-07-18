@@ -81,13 +81,13 @@
                         <div class="service-tab-panel is-active" id="ai-automation-technology-solutions-ai-automation" data-service-panel="ai-automation-technology-solutions-ai-automation">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">AI Automation In The UAE</p>
+                                    <p class="service-detail-kicker">AI Automation In The UAE</p>
                                     <h2 class="title">AI Automation Built Around Your Business Needs</h2>
                                     <p>AI Automation requires careful planning, accurate documentation, and timely coordination with the relevant UAE authorities or platforms.</p>
                                     <p>Virtuo supports every step of ai automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.webp" alt="AI Automation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/services_details_img01.webp" alt="AI Automation" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our AI Automation Services Include</h2>
@@ -103,7 +103,7 @@
                                     <p class="info-two">We train your team to use, monitor, and adjust the new workflow with confidence.</p>
                                     <p class="info-one"><b>6. AI Automation Optimization And Support</b></p>
                                     <p class="info-two">We improve automation performance after launch and add new steps as the business grows.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -119,7 +119,7 @@
                                     </div>
                                 </div>
                                 <!-- work-area -->
-                                <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                <section class="work__area-two has-animation service-detail-work">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
@@ -176,7 +176,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Choosing Virtuo for ai automation gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                     <p>Our Advantages :</p>
@@ -194,7 +194,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -205,7 +205,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="ai-automation-technology-solutions-ai-automation-accordion">
                                                         <div class="accordion-item">
@@ -263,13 +263,13 @@
                         <div class="service-tab-panel" id="ai-automation-technology-solutions-workflow-automation" data-service-panel="ai-automation-technology-solutions-workflow-automation">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Workflow Automation In The UAE</p>
+                                    <p class="service-detail-kicker">Workflow Automation In The UAE</p>
                                     <h2 class="title">Workflow Automation Built Around Your Business Needs</h2>
                                     <p>Workflow Automation requires careful planning, accurate documentation, and timely coordination with the relevant UAE authorities or platforms.</p>
                                     <p>Virtuo supports every step of workflow automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.webp" alt="Workflow Automation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/services_details_img01.webp" alt="Workflow Automation" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Workflow Automation Services Include</h2>
@@ -285,7 +285,7 @@
                                     <p class="info-two">We train your team to use, monitor, and adjust the new workflow with confidence.</p>
                                     <p class="info-one"><b>6. Workflow Automation Optimization And Support</b></p>
                                     <p class="info-two">We improve automation performance after launch and add new steps as the business grows.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -301,7 +301,7 @@
                                     </div>
                                 </div>
                                 <!-- work-area -->
-                                <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                <section class="work__area-two has-animation service-detail-work">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
@@ -358,7 +358,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Choosing Virtuo for workflow automation gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                     <p>Our Advantages :</p>
@@ -376,7 +376,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -387,7 +387,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="ai-automation-technology-solutions-workflow-automation-accordion">
                                                         <div class="accordion-item">
@@ -445,13 +445,13 @@
                         <div class="service-tab-panel" id="ai-automation-technology-solutions-technology-solutions" data-service-panel="ai-automation-technology-solutions-technology-solutions">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Technology Solutions In The UAE</p>
+                                    <p class="service-detail-kicker">Technology Solutions In The UAE</p>
                                     <h2 class="title">Technology Solutions Built Around Your Business Needs</h2>
                                     <p>Technology Solutions requires careful planning, accurate documentation, and timely coordination with the relevant UAE authorities or platforms.</p>
                                     <p>Virtuo supports every step of technology solutions, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.webp" alt="Technology Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/services_details_img01.webp" alt="Technology Solutions" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Technology Solution Support Includes</h2>
@@ -467,7 +467,7 @@
                                     <p class="info-two">We train your team to use, monitor, and adjust the new workflow with confidence.</p>
                                     <p class="info-one"><b>6. Technology Solutions Optimization And Support</b></p>
                                     <p class="info-two">We improve automation performance after launch and add new steps as the business grows.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -483,7 +483,7 @@
                                     </div>
                                 </div>
                                 <!-- work-area -->
-                                <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                <section class="work__area-two has-animation service-detail-work">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
@@ -540,7 +540,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Choosing Virtuo for technology solutions gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                     <p>Our Advantages :</p>
@@ -558,7 +558,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -569,7 +569,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="ai-automation-technology-solutions-technology-solutions-accordion">
                                                         <div class="accordion-item">
@@ -627,13 +627,13 @@
                         <div class="service-tab-panel" id="ai-automation-technology-solutions-business-process-automation" data-service-panel="ai-automation-technology-solutions-business-process-automation">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Business Process Automation In The UAE</p>
+                                    <p class="service-detail-kicker">Business Process Automation In The UAE</p>
                                     <h2 class="title">Business Process Automation Built Around Your Business Needs</h2>
                                     <p>Business Process Automation requires careful planning, accurate documentation, and timely coordination with the relevant UAE authorities or platforms.</p>
                                     <p>Virtuo supports every step of business process automation, helping your team avoid avoidable delays while keeping the process transparent, compliant, and easy to manage.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.webp" alt="Business Process Automation" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/services_details_img01.webp" alt="Business Process Automation" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Business Process Automation Services Include</h2>
@@ -649,7 +649,7 @@
                                     <p class="info-two">We train your team to use, monitor, and adjust the new workflow with confidence.</p>
                                     <p class="info-one"><b>6. Business Process Automation Optimization And Support</b></p>
                                     <p class="info-two">We improve automation performance after launch and add new steps as the business grows.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -665,7 +665,7 @@
                                     </div>
                                 </div>
                                 <!-- work-area -->
-                                <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                <section class="work__area-two has-animation service-detail-work">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
@@ -722,7 +722,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Choosing Virtuo for business process automation gives you one coordinated team that understands the documents, approvals, timelines, and follow-up work required to complete the process properly.</p>
                                                     <p>Our Advantages :</p>
@@ -740,7 +740,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -751,7 +751,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="ai-automation-technology-solutions-business-process-automation-accordion">
                                                         <div class="accordion-item">

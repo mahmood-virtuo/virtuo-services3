@@ -63,7 +63,7 @@ if (!function_exists('virtuo_render_work_section')) {
     {
         ?>
         <!-- work-area -->
-        <section class="work__area-two has-animation" style="margin-top: 100px;">
+        <section class="work__area-two has-animation service-detail-work">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8">
@@ -124,7 +124,7 @@ if (!function_exists('virtuo_render_work_section')) {
                                 </div>
                             </div>
                         </div>
-                        <div style="margin:100px;" class="services__details-content-top">
+                        <div class="services__details-content-top service-detail-choice-copy">
                             <h2 class="title">
                                 Why Do Businesses Choose Virtuo?
                             </h2>
@@ -173,7 +173,7 @@ if (!function_exists('virtuo_render_faq_section')) {
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                    <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                         <div class="faq__wrap faq__wrap-three">
                             <div class="accordion" id="<?php echo htmlspecialchars($accordionId); ?>">
                                 <?php foreach ($faqs as $index => $faq) :
@@ -217,7 +217,7 @@ if (!function_exists('virtuo_render_service_panels')) {
             <div class="service-tab-panel<?php echo $index === 0 ? ' is-active' : ''; ?>" id="<?php echo htmlspecialchars($panelId); ?>" data-service-panel="<?php echo htmlspecialchars($panelId); ?>">
                 <div class="services__details-wrap">
                     <div class="services__details-content-top">
-                        <p style="margin-bottom: 15px;"> Business Setup in Dubai Free Zones </p>
+                        <p class="service-detail-kicker"> Business Setup in Dubai Free Zones </p>
                         <h2 class="title">
                             Build Your UAE Business with Confidence
                         </h2>

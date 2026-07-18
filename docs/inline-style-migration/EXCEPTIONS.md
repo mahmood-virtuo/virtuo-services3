@@ -22,15 +22,9 @@ This register covers style mutations that the static-template migration intentio
 
 The Phase 0 search found 105 individual runtime style operations across these 11 files. They are intentionally retained unless a later static migration exposes a direct, minimal reason to alter an initial state.
 
-## PHP-generated finite/static values (Category C; migration candidates)
+## Resolved PHP-generated finite/static values (Category C)
 
-These are not final exceptions. They are recorded here until Phase 3 replaces them safely:
-
-| File and element | Current behavior | Planned treatment |
-| --- | --- | --- |
-| `partials/service-marquee.php:28`, marquee SVG | Outputs a constant CSS declaration string through PHP. | Replace with a semantic SVG class in `services.css` (or `core.css` only if confirmed genuinely cross-family). |
-| `partials/service-breadcrumb.php:42`, sub-separator | Emits either no style or `display: none` from a finite initial state. | Replace with an allowlisted hidden-state modifier class while retaining JavaScript tab updates. |
-| `partials/service-breadcrumb.php:46`, sub-label | Emits either no style or `display: none` from a finite initial state. | Replace with an allowlisted hidden-state modifier class while retaining JavaScript tab updates. |
+Phase 3 resolved all three candidates. The service marquee now uses `service-marquee-icon`; the breadcrumb sub-label and separator receive an allowlisted `is-hidden` class for their finite initial state. Existing JavaScript continues to apply runtime `display` values when service tabs change, as recorded under Category E. No Category C exception remains.
 
 ## Third-party/inactive exclusions (Categories F and H)
 

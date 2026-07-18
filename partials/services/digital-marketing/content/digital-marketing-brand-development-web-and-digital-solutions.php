@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Web &amp; Digital Solutions</p>
+                                    <p class="service-detail-kicker">Web &amp; Digital Solutions</p>
                                     <h2 class="title">Build Your Identity: High-Performance Corporate Web & Digital Engineering</h2>
                                     <p>Establishing an impactful, conversion-ready corporate web identity is the ultimate requirement for newly formed UAE entities and scaling international brands. In a highly competitive commercial ecosystem, your business website serves as more than a digital brochure—it acts as your central command hub, managing customer acquisitions, facilitating high-stakes product distribution, hosting secure corporate emails, and driving your overall brand visibility online.</p>
                                     <p>At Virtuo, we bridge the technical gap between business formation and digital execution. Our specialized creative developers and digital technicians design bespoke corporate sites that align perfectly with the modern performance metrics demanded by search platforms, ensuring your company establishes an instant, highly credible presence from the moment you hit the market.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/Web&DigitalSolutionsImg1.webp" alt="Web &amp; Digital Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/Web&DigitalSolutionsImg1.webp" alt="Web &amp; Digital Solutions" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Web & Digital Services Include</h2>
@@ -18,7 +18,7 @@
                                     <p class="info-one">5. Brand Identity & Graphic Architecture: Crafting tailored corporate visual frameworks, digital marketing collateral, landing configurations, and company logo guidelines.</p>
                                     <p class="info-one">6. Secure Payment Gateway Implementation: Linking trusted financial processing networks and localized merchant options into your digital platforms for smooth client transactions.</p>
                                     <p class="info-one">7. System Maintenance & Security Assurances: Providing continuous security tracking, automated server-level file backups, and patch management to shield your platforms from vulnerabilities.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -35,7 +35,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Why Do Businesses Choose Virtuo?</h2>
                                         <p class="info-one">Virtuo secures your company's digital presence by serving as your comprehensive, cross-functional tech partner in Dubai. By blending an intricate mastery of modern code standards with deep local market acumen, we guarantee that your corporate platforms, brand architectures, and hosting files are compiled with flawless technical precision. Our framework completely eliminates development friction and unexpected launch delays by managing the entire deployment checklist under one roof, providing your enterprise with a dedicated web optimization asset that protects your launch timelines while keeping your operational momentum moving smoothly.</p>
 
@@ -45,7 +45,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -56,7 +56,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="digital-marketing-brand-development-web-and-digital-solutions-accordion">
                                                         <div class="accordion-item">

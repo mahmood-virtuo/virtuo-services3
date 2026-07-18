@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Content Plan &amp; Stratergy</p>
+                                        <p class="service-detail-kicker">Content Plan &amp; Stratergy</p>
                                         <h2 class="title">High-Impact Corporate Narrative Architecture & Authority Positioning</h2>
                                         <p>A calculated content blueprint is the driving engine behind global digital authority. We engineer comprehensive content planning and distribution strategies designed to transform your corporate insights into high-value brand equity, ensuring your business consistently commands the narrative within your industry vertical.</p>
                                         <p>By matching meticulous market data extraction with advanced audience persona mapping, we build structured asset frameworks that resolve your prospects' most complex pain points. This disciplined positioning removes guesswork from your marketing channels, establishing clear operational thought leadership that drives high-intent organic traffic directly into your commercial conversion funnels.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentPlan&StrategyImg1.webp" alt="Content Plan &amp; Stratergy" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/ContentPlan&StrategyImg1.webp" alt="Content Plan &amp; Stratergy" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>4. Bicultural Messaging & Localization: </b>Refinement of communication guides and editorial tones to ensure visual metaphors and written assets resonate across diverse global demographics.</p>
                                         <p class="info-one"><b>5. Lead Magnet & Premium Asset Layouts: </b>Engineering authoritative corporate whitepapers, technical industry briefs, and conversion-optimized informational materials to capture qualified database contacts.</p>
                                         <p class="info-one"><b>6. Performance Content Lifecycle Tracking: </b>Deploying clear distribution tracking pipelines and engagement analytics dashboards to measure asset performance and systematically guide future strategy updates.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Structural Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We unpack your high-level business goals, current asset library, and targeted audience segments to build a precise strategic alignment framework.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We design your comprehensive content roadmap, establishing core topic pillars, keyword clustering models, and a centralized publishing schedule.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="social-media-management-content-plan-and-stratergy-accordion">
                                                             <div class="accordion-item">

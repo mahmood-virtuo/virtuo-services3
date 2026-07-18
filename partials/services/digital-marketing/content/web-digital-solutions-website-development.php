@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Website Development</p>
+                                        <p class="service-detail-kicker">Website Development</p>
                                         <h2 class="title">High-Performance Web Engineering</h2>
                                         <p>A professional website serves as the central command hub of your modern corporate infrastructure. We engineer fast, secure, and conversion-optimized web platforms designed to establish instant market credibility with institutional vendors, banking compliance officers, and global clients alike.</p>
                                         <p>By prioritizing robust source code structure, clean data architectures, and lightweight page logic, we build secure digital assets that fully protect your company's sensitive communications, minimize bounce rates, and systematically convert inbound interest into recurring commercial revenue.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteDevelopmentImg1.webp" alt="Website Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/WebsiteDevelopmentImg1.webp" alt="Website Development" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-two"><b>4. Search Engine Optimization: </b>Structuring core technical site code, meta tags, and schema markers to ensure your business ranks highly on major global organic search engines.</p>
                                         <p class="info-one"><b>5. Payment Gateway Integration: </b>Linking trusted international credit card processors and localized merchant platforms smoothly into your digital transaction pipelines.</p>
                                         <p class="info-two"><b>6. Maintenance & Security Systems: </b>Running continuous vulnerability tracking, proactive patch management, and automated malware screenings to safeguard your site against technical downtime.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Structural Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We map your commercial goals, technical integrations, and backend requirements into a comprehensive technical brief.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We design your complete platform architecture layout, defining the absolute sitemap structure, server configurations, and user permission flows.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="web-digital-solutions-website-development-accordion">
                                                             <div class="accordion-item">

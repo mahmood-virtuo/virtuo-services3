@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">MARKETING SOLUTIONS</p>
+                                    <p class="service-detail-kicker">MARKETING SOLUTIONS</p>
                                     <h2 class="title">Accelerate Growth: High-Performance Omnichannel Marketing &amp; Client Acquisition</h2>
                                     <p>Deploying a sophisticated, data-driven marketing strategy is the ultimate engine for companies looking to secure commercial velocity and dominate the UAE's rapidly expanding business sectors. In an interconnected marketplace, corporate growth demands more than baseline promotions; it requires a highly synchronized client acquisition machine that identifies high-value leads, builds institutional trust, maximizes regional brand distribution, and converts pipeline opportunities into recurring revenue.</p>
                                     <p>At Virtuo, we bridge the gap between corporate infrastructure and market capturing. Our specialized marketing strategists, media buyers, and demand generation experts construct robust, integrated growth systems that put your commercial offerings directly in front of targeted decision-makers, ensuring your company achieves immediate traction and sustains long-term operational scaling.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/MarketingSolutionsImg1.webp" alt="Marketing Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/MarketingSolutionsImg1.webp" alt="Marketing Solutions" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Marketing Solutions Include</h2>
@@ -24,7 +24,7 @@
                                     <p class="info-two">Crafting highly persuasive, bicultural marketing narratives and structural sales copy that drive measurable engagement.</p>
                                     <p class="info-one"><b>7. Comprehensive Marketing Attribution &amp; Analytics</b></p>
                                     <p class="info-two">Implementing advanced tracking models and performance dashboards to provide transparent visibility over conversion data.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -41,7 +41,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Our Process</h2>
                                         <p class="info-one">1. Discovery Call – We audit your market, competition, demand signals, and commercial goals.</p>
 
@@ -55,7 +55,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -66,7 +66,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="digital-marketing-brand-development-marketing-solutions-accordion">
                                                         <div class="accordion-item">
