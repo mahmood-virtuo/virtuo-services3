@@ -40,7 +40,7 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - The active fifth-variant listing card rules now live in blog-listing.css. Other unrendered Blog card/layout variants are still Phase 4 deletion candidates, not evidence for broad Blog ownership.
 - Active Blog detail content/inner/bottom/avatar, TOC, `vt-*`, calculator/founder and article-specific helper rules now live in blog-details.css. Their dynamic selected/open/active/reveal states remain deletion-protected.
 - Shared Blog metadata, generic sidebar/search/category/tag/recent-post/form primitives and complete listing/detail responsive selector lists remain in core after the Blog-details extraction. Generic blockquote/comment rules remain core because their broad element/class ownership was not narrowed merely from current route presence.
-- Legal has an empty source and uses shared core foundations. No generic typography may be moved to legal.css without exclusive ownership evidence.
+- Legal has an empty source and uses shared core foundations. The Phase 3 rendered audit found one Legal-exclusive token, `legal-content`, but no matching core selector; therefore zero core rules were movable. No generic typography may be moved to legal.css without exclusive ownership evidence.
 - Error has no body class, so error ownership must continue to rely on proven template-exclusive selectors rather than broad element selectors.
 
 ## Phase 2 narrowed legacy exceptions

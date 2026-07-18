@@ -817,3 +817,59 @@ No screenshots were taken because exact computed parity passed and no regression
     git status --short
 
 These must pass immediately before committing the Blog-details checkpoint.
+
+The Blog-details checkpoint was committed as b274be5445a629151c17fb93501d4f7589a61912, pushed only to origin/testing, and Deploy Virtuo Staging run 29663903620 succeeded before the Legal safety gate.
+
+## Phase 3 Legal-family ownership-review validation
+
+### Safety and ownership gate
+
+The Legal gate passed on testing with a clean worktree and HEAD equal to origin/testing at b274be5445a629151c17fb93501d4f7589a61912. Deploy Virtuo Staging run 29663903620 succeeded before the review began.
+
+Both Legal templates load the Legal family bundle and render without a body class. Their combined rendered-token set contains 153 tokens. Only `legal-content` is exclusive to Legal, and that token has no selector in core.css. No Legal-exclusive rendered token therefore identifies a movable core rule. Shared container, breadcrumb, typography, header and footer rules remained in core.
+
+### Exact structural movement and sizes
+
+- Normal rules/keyframes moved: 0.
+- Rules/keyframes deleted: 0.
+- Selector/declaration/media rewrites: 0.
+- core.css: 552,449 bytes before and after.
+- legal.css: 0 bytes before and after.
+- core.min.css: 465,901 bytes before and after.
+- legal.min.css: 50 bytes before and after.
+- main.css: 839,964 bytes before and after.
+- main.min.css: 716,557 bytes before and after.
+
+Computed-style and geometry parity was not applicable because the review changed no CSS source, generated bundle, cascade order or loader behavior.
+
+### Exhaustive route and asset validation
+
+- Canonical routes: 86; total probes: 89.
+- Family distribution: Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 3.
+- Route/status/family/order/compatibility failures: 0.
+- Unique local stylesheet URLs: 17; HTTP failures: 0.
+- Active style attributes: 0; active style blocks: 0 after HTML comments were removed.
+
+The first exhaustive validator invocation declared its mutable style counters with `const` and stopped locally with `TypeError: Assignment to constant variable`. Correcting those harness counters to `let` produced the clean result above; no product file or response caused the harness error.
+
+### Restricted browser smoke
+
+Installed Playwright/local Chrome covered `/privacy-policy` and `/terms-conditions` at 1,440 x 1,000 and 390 x 844, for four states. It exercised desktop off-canvas/mobile navigation and keyboard focus on visible Legal content links.
+
+Results:
+
+- HTTP/status or bundle mapping failures: 0.
+- Horizontal-overflow failures: 0.
+- Console errors: 0; page errors: 0.
+- Failed application resource responses: 0.
+
+No screenshots were taken because the review changed no CSS and no regression required documentation.
+
+### Final checkpoint checks
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Legal documentation checkpoint.

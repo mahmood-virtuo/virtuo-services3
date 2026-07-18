@@ -438,6 +438,12 @@ This is a review inventory, not a deletion list. License headers, structural com
 
 The automated scan produced 136 code-shaped comment candidates across 25 active first-party files, including the 66 CSS candidates. Phase 7 must inspect HTML comment boundaries and surrounding PHP control flow before removing any group; counts may decrease when explanatory/security/compatibility comments are excluded.
 
+## Phase 3 Legal ownership review
+
+Both canonical Legal routes render 153 distinct class/id/body tokens in total. Only `legal-content` is exclusive to the Legal family, and core.css contains no selector for that token. The templates have no family body class, while all other applicable tokens identify shared container, breadcrumb, typography, header or footer foundations.
+
+Therefore the Legal review moves zero rules and leaves legal.css intentionally empty. Generic element/typography rules are not Legal-owned merely because they apply on Legal pages; moving them without an exclusive scope would change other route families.
+
 ## Exhaustive active route-family map
 
 The local sitemap contained 86 canonical URLs. All returned 200 and selected the family listed below.

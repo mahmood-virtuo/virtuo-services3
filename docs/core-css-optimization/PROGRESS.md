@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 3 Blog-details-family extraction validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 3 Blog-details-family extraction, awaiting checkpoint
-- Next phase: Phase 3 Legal-family review after the Blog-details checkpoint and green staging workflow
+- Current phase: Phase 3 Legal-family ownership review validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 3 Blog-details-family extraction, committed and green on staging
+- Next phase: Phase 3 Error-family review after the Legal checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -516,7 +516,7 @@ Every non-Blog-listing route drops the 1,132 extracted minified core bytes. The 
 
 ## Phase 3 — Blog details family extraction
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -573,9 +573,9 @@ Every non-Blog-details route drops the 33,095 extracted minified core bytes. The
 ### Checkpoint
 
 - Intended message: Extract Blog details CSS from core
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: b274be5445a629151c17fb93501d4f7589a61912
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29663903620 succeeded
 
 ### Remaining risks
 
@@ -583,6 +583,61 @@ Every non-Blog-details route drops the 33,095 extracted minified core bytes. The
 - Complete mixed Blog-listing/Blog-details responsive selector lists remain unsplit in core.
 - Generic blockquote/comment rules and inactive Blog variants remain for later ownership/deletion evidence rather than being forced into the family bundle.
 
+## Phase 3 — Legal family ownership review
+
+Status: ownership review and validation complete; no CSS extraction was justified; documentation checkpoint pending.
+
+### Files changed
+
+- docs/core-css-optimization/INVENTORY.md
+- docs/core-css-optimization/PROGRESS.md
+- docs/core-css-optimization/VALIDATION.md
+- docs/core-css-optimization/EXCEPTIONS.md
+- docs/core-css-optimization/RESUME.md
+
+No CSS, PHP, JavaScript, route, server, sitemap, loader, generated asset, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- CSS rules/keyframes moved: 0
+- CSS rules/keyframes deleted: 0
+- Selectors or declarations rewritten: 0
+- Selectors split: 0
+- Remote imports changed: 0
+
+Both Legal routes render the page-specific `legal-content` class, but that token has no rule in core.css. No other Legal-exclusive rendered class token occurs in core. The remaining applicable core rules are shared container, breadcrumb, typography, header and footer foundations, so moving them would violate family ownership and alter other routes.
+
+### Before and after sizes
+
+| File | Before Legal review | After Legal review | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 552,449 | 552,449 | 0 |
+| assets/css/src/pages/legal.css | 0 | 0 | 0 |
+| assets/css/bundles/core.min.css | 465,901 | 465,901 | 0 |
+| assets/css/bundles/legal.min.css | 50 | 50 | 0 |
+| assets/css/main.css | 839,964 | 839,964 | 0 |
+| assets/css/main.min.css | 716,557 | 716,557 | 0 |
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at b274be5445a629151c17fb93501d4f7589a61912 after Deploy Virtuo Staging run 29663903620 succeeded.
+- Rendered-token ownership covered both `/privacy-policy` and `/terms-conditions`: 153 rendered tokens, one Legal-exclusive token (`legal-content`), and zero Legal-exclusive tokens present in core.css.
+- The restricted four-state desktop/mobile Legal smoke passed status, exact core/Legal bundle mapping, navigation/focus, overflow, console/page-error and application-resource checks.
+- All 89 route probes passed status, exact family order and compatibility exclusion; all 17 local stylesheet requests returned 200, with zero active style attributes/blocks after comments were excluded.
+- Computed-style before/after comparison was not applicable because no CSS source, generated output, cascade order or loader behavior changed.
+
+### Checkpoint
+
+- Intended message: Document Legal CSS ownership review
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Legal templates have no family body class, so broad element or typography selectors cannot be scoped safely to legal.css without changing markup.
+- Generic Legal presentation continues to depend on shared core foundations by design.
+
 ## Next exact action
 
-Run the final deterministic build/diff checks, commit the Blog-details checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and review Legal only.
+Run the final deterministic build/diff checks, commit the Legal documentation checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and review Error only.
