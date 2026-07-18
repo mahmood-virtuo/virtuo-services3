@@ -100,6 +100,104 @@ The original theme index and later first-party override layers remain in one fil
 
 The final measured range is not footer-only. It also contains successive mega-menu, About, marquee, service-tab, breadcrumb, contact, blog, responsive, shared component, and footer correction layers through the end of core.css. That mixed ownership is a primary Phase 1 classification target.
 
+## Phase 1 ownership classification
+
+Phase 1 classified complete logical groups using all 86 canonical rendered routes, an Error render, active PHP templates/partials, first-party JavaScript queries and class mutations, body-family scopes, responsive contexts, and plugin-generated state risks. Selector names alone were not treated as ownership evidence.
+
+The classification unit is a complete logical rule group rather than a whole original heading. Some headings contain several categories and must be split only at complete rule boundaries in later phases.
+
+| Current core range | Logical groups and evidence | Classification | Phase decision |
+| --- | --- | --- | --- |
+| 1–45 | License header and remote intl-tel-input import | E | Retain header; isolate import only in Phase 6. |
+| 46–893 | Variables, typography, placeholders, common helpers, containers, Bootstrap adjustments, buttons | A | Retain in core. |
+| 894–956 | Preloader | D candidate | Markup and invocation are commented out; require Phase 2 browser/interaction evidence before removal. |
+| 957–1,971 | Background helpers, off-canvas, breadcrumb foundations, scroll top, section titles, mobile menu | A with E runtime states | Retain shared rules and dynamic menu/background states in core. |
+| 1,972–2,298 | General keyframes and animation helper classes | E | Retain until animation-name and runtime-class dependency audit is complete. |
+| 2,299–2,465 | Search popup | E / D candidate | Search states are toggled in main.js, but no initial rendered search class was found; retain pending interaction evidence. |
+| 2,466–4,072 | Desktop/sticky header and navigation variants | A with E states | Active shared header uses tg-header__, tgmenu__, mobile, sticky and mega-menu states on all families. Retain active variants; legacy variants require Phase 2 proof. |
+| 4,073–5,541 | Banner variants | D candidate | No banner__ class appeared in active rendered DOM or first-party runtime generation. Phase 2 must still check pseudo/responsive/plugin evidence. |
+| 5,542–6,659 | Slider, hero animations and Swiper states | C and E | slider__ markup is used by Home and Blog details; slider marquee appears on seven families; Swiper states are plugin-owned. Classify variant-by-variant, never move the whole section. |
+| 6,660–6,851 | Brand carousel | D candidate | No brand__ rendered class; main.js initializer requires Phase 2 review before removal. |
+| 6,852–8,706 | About variants | B, C and D candidate | Active about__ groups occur on Home, About and Services. Assign exclusive variants to their family, shared Home/About variants to C, and unmatched legacy variants to Phase 2. |
+| 8,707–10,859 | Service cards/details/sidebar variants | B, C, D candidate and E | Home owns active service cards; Services owns details/sidebar/tabs; service state changes are dynamic. Unmatched theme variants remain candidates only. |
+| 10,860–11,347 | CTA variants | A and C | Shared footer/section CTA markup spans all families; some page variants are limited to Home/About. Retain shared primitives and classify scoped variants separately. |
+| 11,348–12,247 | History variants | D candidate | No history__ rendered or runtime-generated match found. |
+| 12,248–12,793 | Counter variants | D candidate | No counter__ rendered or runtime-generated match found. |
+| 12,794–13,326 | Video variants | D candidate | No video__ rendered or runtime-generated match found. |
+| 13,327–15,225 | Project variants | E / D candidate | No project__ DOM match, but main.js contains a project carousel initializer. Retain until Phase 2 proves the initializer has no applicable markup. |
+| 15,226–16,470 | Team variants | B and D candidate | The active Virtuo team is About-only; unmatched theme team variants require Phase 2 evidence. |
+| 16,471–16,845 | FAQ variants | B and E | Active FAQ markup is Services-only; accordion open/collapsed states are runtime and pseudo-state sensitive. |
+| 16,846–17,699 | Testimonial variants | E / D candidate | No testimonial__ DOM match, but main.js contains testimonial initialization including an obsolete commented implementation. Retain until Phase 2. |
+| 17,700–18,894 | Blog cards, sidebars, comments and detail helpers | B, C and E | Active groups span Home, Blog listing and Blog details. Sticky, load-more, TOC and interactive states remain E. |
+| 18,895–19,122 | Callback variants | D candidate | No call__back rendered or runtime-generated match found. |
+| 19,123–19,281 | Marquee variants | C and E | Shared across Home, About, Contact, Services, Blog listing, Blog details and Error; runtime wrappers/clones are plugin-owned. |
+| 19,282–19,789 | Choose/eye variants | C | Active on Home, About and Contact; destination may use small family duplication after cascade review. |
+| 19,790–19,903 | Core-value variants | D candidate | No core__value rendered or runtime-generated match found. |
+| 19,904–20,179 | Work/process variants | B and E | Active Services-only process markup; animation activation and dashed-line states are runtime-sensitive. |
+| 20,180–21,261 | Shop/product/cart variants | D candidate | No shop__ rendered or runtime-generated match found. |
+| 21,262–21,504 | Estimate/form primitives | A and E | estimate__ footer form markup appears on every family; form and phone states are dynamic. |
+| 21,505–21,991 | Benefit, loan and feature variants | D candidate | No corresponding active rendered or runtime-generated class match found. |
+| 21,992–22,513 | Challenge, strategic, pricing and career variants | D candidate / E | No active DOM match; pricing has a main.js initializer and remains uncertain until Phase 2. |
+| 22,514–23,006 | Contact layouts and AJAX response states | B, A and E | Contact-page layouts are B; shared form response success/error states are A/E and must remain available on footer/sidebar forms. |
+| 23,007–23,601 | Login and checkout variants | D candidate | No active rendered or runtime-generated class match found. |
+| 23,602–24,766 | Footer foundations and shared footer form | A and E | footer__ and estimate__ markup appears on every family; phone, AJAX and responsive states stay core. |
+| 24,767–25,375 | Global gutters and mega-menu correction layers | A and E | Site gutters and mega menu are shared; is-active/mobile states are runtime-owned. |
+| 25,376–25,580 | Choose, marquee and About-image corrections | C | Limited to Home/About/Contact, seven marquee families, or Home/About depending on the complete selector. |
+| 25,581–26,854 | Service panels, footer responsive layers, nested Digital Marketing tabs and breadcrumbs | B, A and E | Service panel/tab rules are Services-owned; interleaved footer rules are A; panel/breadcrumb transition states are E. Move only complete proven service rules. |
+| 26,855–27,272 | FAQ, Contact cards/map and shared sidebar form | B, C and E | FAQ is Services; Contact card/map is Contact; sidebar form primitives are shared by Services and Blog families; form states remain dynamic. |
+| 27,273–28,668 | Breadcrumb corrections, Blog article systems, author/sidebar/sticky helpers | A, B, C and E | Breadcrumb foundations are shared; article systems are Blog-details-owned; author/sidebar rules cross Blog listing/details; sticky/interactive states are E. |
+| 28,669–29,893 | Service gutter/work corrections, Home hero fix, Blog-detail helper systems, footer layout | A, B, C and E | Classify each named correction by its proven family; do not move the range wholesale. |
+| 29,894–30,407 | Blog responsive layers, global breadcrumb/footer/container fixes, shared Built for Entrepreneurs/eye sections, Emirates map | A, B, C and E | Blog combined rules are C; blog-detail form/map rules are B/E; footer/container/breadcrumb rules are A; shared eye/built sections are C. |
+
+### Category A — retained global core
+
+Global ownership is proven for design tokens/base typography, common containers and gutters, active buttons, off-canvas, shared header/navigation/mobile menu/mega menu, breadcrumb foundations, scroll top, shared CTA primitives, shared footer, footer/estimate form primitives, shared phone overrides, shared response states, and cross-family accessibility/responsive foundations.
+
+### Category B — family-exclusive extraction candidates
+
+| Family | Proven logical groups currently remaining in core |
+| --- | --- |
+| Home | Active Home-only service-card/hero corrections and Home-only late overrides not mixed with another family. |
+| About | Active About-only base/team/content variants not shared with Home or Services. |
+| Contact | Contact card/map/layout groups and Contact-only late corrections; shared form feedback remains core. |
+| Services | Service details/sidebar/process/FAQ and Digital Marketing tab/panel groups, excluding shared form/marquee/breadcrumb primitives. |
+| Blog listing | Listing-only card/filter/load-more layout groups not mixed with Blog details. |
+| Blog details | Article systems, detail-only TOC/interactive/map/form helpers, excluding listing/detail shared sidebars and author primitives. |
+| Legal | No exclusive rule group proved in core; shared typography remains A. |
+| Error | No additional exclusive group proved beyond the existing error.css extraction; broad breadcrumb/footer/marquee rules remain shared. |
+
+Phase 3 must re-check every candidate at its exact selector/media context before moving it. Body-scoped mixed selector lists remain Category C unless they can be separated without cascade risk.
+
+### Category C — limited-family shared groups
+
+- Slider/hero primitives: Home and Blog details; Swiper state rules remain E.
+- About image/content variants: Home and About, with isolated Services list variants handled separately.
+- Marquee: seven families, excluding Legal at baseline.
+- Choose/eye: Home, About and Contact.
+- Blog cards/author/sidebar/responsive primitives: Home, Blog listing and Blog details, with smaller two-family subsets.
+- Built for Entrepreneurs: Home and About.
+- Shared sidebar consultation/form primitives: Services and Blog families.
+
+Small stable duplication into the applicable existing family files is preferred only after exact bytes and cascade effects are measured. Otherwise these groups stay in core.
+
+### Category D — legacy candidates requiring Phase 2 proof
+
+The zero-rendered-match candidates are Preloader, Banner, Brand, History, Counter, Video, Callback, Core value, Shop, Benefit, Loan, Features, Challenge, Strategic, Career, Login and Checkout. Project, Testimonial, Pricing and Search remain E/D because first-party JavaScript references their states or initializers.
+
+No Category D rule is deletion-approved in Phase 1.
+
+### Category E — retained dynamic/generated/uncertain
+
+The finalized Phase 1 allowlist is maintained in EXCEPTIONS.md. It covers Swiper, marquee, intl-tel-input, AOS/WOW, header/mobile/search states, mega menu, service tabs/breadcrumbs/API content, Blog load-more/sticky/TOC/interactives, forms, SVG injection, runtime backgrounds, animation helpers/keyframes, generic pseudo states and responsive-only states.
+
+### Phase 1 rendered evidence summary
+
+- Canonical routes inspected: 86 plus one Error render.
+- Unique rendered class tokens by family: Home 267; About 243; Contact 217; Services 249; Blog listing 209; Blog details 618; Legal 153; Error 170.
+- Shared components found on all eight families: off-canvas, header/navigation, mobile menu, scroll top, footer, footer estimate form and mega menu.
+- No initial rendered prefix match: preloader, banner__, brand__, history__, counter__, video__, project__, testimonial__, call__back, core__value, shop__, benefit__, loan__, features__, challenge__, strategic__, pricing__, career__, contact__, login__, checkout__.
+- JavaScript exceptions prevent treating Search, Project, Testimonial, Pricing and Contact/AJAX states as unused from that initial-render result alone.
+
 ## Duplicate-rule candidates
 
 These are candidates, not approved edits. The syntax-aware scan included media ancestry and found:

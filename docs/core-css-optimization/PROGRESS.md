@@ -4,7 +4,7 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 0 baseline, inventory, checkpoint, and staging validation complete
+- Current phase: Phase 1 ownership classification complete; documentation validation in progress
 - Last completed implementation phase: none
 - Next phase: Phase 1 selector and component classification, documentation only
 - Main and production: untouched
@@ -78,4 +78,65 @@ Full commands and results are in VALIDATION.md.
 
 ## Next exact action
 
-After the documentation checkpoint and successful staging workflow, begin Phase 1 only: classify every logical rule group as global, family-exclusive, shared-by-some, unused candidate, or dynamic/uncertain. Do not edit CSS during Phase 1.
+After the Phase 1 documentation checkpoint and successful staging workflow, begin Phase 2 only: apply the complete unused-CSS evidence standard to every Category D and E/D candidate. Do not delete CSS during the evidence checkpoint.
+
+## Phase 1 — Complete CSS ownership classification
+
+Status: classification complete; no CSS implementation performed.
+
+### Files changed
+
+- docs/core-css-optimization/INVENTORY.md
+- docs/core-css-optimization/PROGRESS.md
+- docs/core-css-optimization/VALIDATION.md
+- docs/core-css-optimization/EXCEPTIONS.md
+- docs/core-css-optimization/RESUME.md
+
+### Exact rules moved or removed
+
+- CSS rules moved: 0
+- CSS rules removed: 0
+- Selectors removed: 0
+- Declarations consolidated: 0
+- Remote imports changed: 0
+- Commented code removed: 0
+
+### Before and after sizes
+
+| File | Before Phase 1 | After Phase 1 | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 658,214 bytes | 658,214 bytes | 0 |
+| assets/css/bundles/core.min.css | 556,488 bytes | 556,488 bytes | 0 |
+| assets/css/main.css | 839,840 bytes | 839,840 bytes | 0 |
+| assets/css/main.min.css | 716,409 bytes | 716,409 bytes | 0 |
+
+### Classification result
+
+- Category A: global foundations, active shared header/navigation/mobile/mega menu, off-canvas, breadcrumb, scroll, shared CTA/footer/forms/phone states, common utilities and responsive foundations.
+- Category B: proven family-exclusive logical groups for Home, About, Contact, Services, Blog listing and Blog details; no new Legal or Error group proved.
+- Category C: Slider, selected About groups, marquee, choose/eye, Blog shared groups, Built for Entrepreneurs and shared sidebar form groups.
+- Category D candidates: Preloader, Banner, Brand, History, Counter, Video, Callback, Core value, Shop, Benefit, Loan, Features, Challenge, Strategic, Career, Login and Checkout.
+- Category E/D candidates: Search, Project, Testimonial and Pricing due JavaScript references despite no initial rendered DOM match.
+- Category E: plugin/runtime/generic state allowlist retained and expanded in EXCEPTIONS.md.
+
+### Validation performed
+
+- Git continuation gate passed at a2f457e8eff221153834145acd09ae7a19948eb2.
+- All 86 sitemap routes plus an Error render were inspected for class ownership by family.
+- Active PHP templates, shared partials and first-party JavaScript class/query mutations were reviewed.
+- Responsive, pseudo-state, plugin, injected markup, sticky, loading, success/error and animation risks were included in the classification.
+- No source or generated CSS file changed.
+
+### Checkpoint
+
+- Intended message: Classify core CSS ownership
+- Commit SHA: pending documentation checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Category B entries still require exact per-rule cascade review before movement.
+- Category D entries are candidates only until Phase 2 DOM, interaction and Coverage evidence passes.
+- Original headings are mixed ownership and cannot be moved/deleted wholesale.
+- Generic states and plugin-generated classes remain deliberately retained.

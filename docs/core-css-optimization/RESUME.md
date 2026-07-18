@@ -2,7 +2,7 @@
 
 ## Last completed phase
 
-Phase 0 baseline, inventory, documentation checkpoint, and staging workflow are complete. No CSS/PHP/JavaScript implementation has started.
+Phase 0 is complete. Phase 1 ownership classification is complete and awaiting its documentation checkpoint. No CSS/PHP/JavaScript implementation has started.
 
 ## Repository state at this handoff
 
@@ -18,12 +18,14 @@ The completed phase checkpoint and staging run are recorded above. A committed f
 
 ## Next exact action
 
-Begin Phase 1 only: verify the Git safety gate, then document rule-group classification and the finalized dynamic-selector allowlist. Do not edit CSS in Phase 1.
+Validate, commit and push the Phase 1 documentation checkpoint. Confirm the staging workflow succeeds. Then begin Phase 2 only: gather DOM, interaction, plugin and restricted Coverage evidence for every Category D and E/D candidate. Do not delete CSS during Phase 2.
 
 ## Outstanding validation
 
 - Phase 0 required validation: complete.
-- Later phases: computed-style, Coverage, interaction, responsive, console, resource, watcher, and controlled performance comparisons.
+- Phase 1 documentation build/diff/check and staging checkpoint: pending.
+- Phase 2: DOM matching, interaction and Coverage evidence.
+- Later phases: computed-style, responsive, console, resource, watcher, and controlled performance comparisons.
 
 ## Known risks
 
@@ -34,6 +36,7 @@ Begin Phase 1 only: verify the Git safety gate, then document rule-group classif
 - Seventeen same-context exact duplicate groups require cascade-position review.
 - The remote intl-tel-input import remains in generated core and compatibility CSS.
 - Visual/cascade parity remains untested until an implementation checkpoint warrants restricted browser checks.
+- Whole original CSS headings contain mixed categories; only complete rule groups may move or be removed.
 
 ## Recovery rule
 

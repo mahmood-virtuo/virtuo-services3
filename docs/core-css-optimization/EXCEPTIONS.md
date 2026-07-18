@@ -2,6 +2,8 @@
 
 This register starts in Phase 0. An entry means retain until stronger evidence proves a safe move or deletion; it does not mean the selector must remain in core forever.
 
+Phase 1 status: the allowlist below was revalidated against all canonical rendered route families and the active first-party JavaScript sources. Every listed group remains retained for Phase 2 unless direct runtime evidence narrows it.
+
 ## Dynamic and third-party selector allowlist
 
 | Owner | Retained selectors/states | Reason |
@@ -18,6 +20,8 @@ This register starts in Phase 0. An entry means retain until stronger evidence p
 | Forms | ajax-response, success, error, loading/is-loading/disabled candidates, intl-tel-input validation states | Submission and validation states occur only after interaction and error paths. |
 | SVG/background runtime | injectable, injected SVG classes, data-inject-url, data-background, data-background-mobile, data-lazy-background, breadcrumb__bg | Plugins or first-party scripts replace SVG/image/background content dynamically. |
 | Sticky widgets | blog listing/detail slot/inner/layout selectors and runtime position/size styles | Scripts set continuous measured geometry without necessarily toggling a dedicated class. |
+
+Additional first-party runtime classes observed during Phase 1 include active-animation, active-height, selected/seleceted legacy state spelling, fa-times, title-two, vt-ptitle, reveal, vt-reveal and article-specific generated state combinations. Generic class names must be associated with their component and JavaScript owner before any matching rule is removed.
 
 ## Generic CSS states
 
@@ -36,6 +40,8 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - project__, testimonial__, and pricing__ have no active PHP match but are referenced by main.js. Retain until JavaScript initialization, rendered DOM, interactions, and Coverage prove whether their variants are active.
 - contact__ is referenced by ajax-form.js even when an initial PHP prefix scan does not find it. Retain form feedback/error paths until interaction validation is complete.
 - Any prefix with zero first-party text matches remains only a candidate. Data, plugin generation, pseudo states, and Coverage must still be checked.
+- Search popup rules remain retained even though no initial rendered search class was found because main.js toggles search-opened and search-popup-overlay-open.
+- Preloader markup and invocation are commented, but the function and CSS remain first-party source. Treat as a Phase 2 deletion candidate, not an automatic Phase 1 removal.
 
 ## Remote intl-tel-input import
 
@@ -68,3 +74,14 @@ The 136 code-shaped Phase 0 comment candidates require manual context review. No
 - No production or staging browser observation was used as deletion proof.
 
 These gaps are expected at baseline and prevent any unused-selector deletion until later phases satisfy the evidence standard.
+
+## Phase 1 limited-family exceptions
+
+- Slider rules cannot be assigned to Home wholesale because Blog details also renders slider__ hero markup and seven families render slider marquee helpers.
+- About rules cannot be assigned wholesale because active variants occur on Home, About and Services.
+- Service rules cannot be assigned wholesale because Home uses service cards while Services uses details/sidebar/tab variants.
+- CTA, estimate/form and footer rules remain core because shared partials render them across all families.
+- Blog rules include Home cards, Blog listing, Blog details and listing/detail shared sidebar/author/responsive primitives.
+- Marquee rules remain limited-shared because every family except Legal renders the service marquee at baseline.
+- Choose/eye rules remain limited-shared across Home, About and Contact.
+- Legal has no proven exclusive core group; Error has no additional safe broad extraction group.

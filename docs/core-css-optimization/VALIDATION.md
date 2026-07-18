@@ -224,3 +224,53 @@ No browser automation, screenshots, Playwright, or visual walkthrough was run in
 ## Manual browser tests still needed
 
 None are caused by Phase 0 documentation. Before implementation checkpoints can be promoted, the requested restricted desktop/mobile matrix must validate Home, About, Contact, representative Services including Digital Marketing, Blog listing, representative Blog details, Legal, and Error, including interactions, console, failed resources, overflow, and responsive behavior.
+
+## Phase 1 ownership classification validation
+
+Phase 1 was documentation-only. It did not change CSS ownership, specificity, order or cascade, so no browser smoke test was required for the checkpoint.
+
+Safety commands:
+
+    git branch --show-current
+    git status --short
+    git rev-parse HEAD
+    git rev-parse origin/testing
+
+Starting result: testing, clean worktree, and both refs at a2f457e8eff221153834145acd09ae7a19948eb2.
+
+Evidence checks:
+
+- Fetched all 86 sitemap routes plus one invalid Error render from the existing local server.
+- Removed inactive HTML comments and collected unique rendered class tokens by family.
+- Reviewed active PHP family assignments, shared partial includes, Digital Marketing registry/content routes, and first-party non-minified JavaScript class additions/removals/toggles/queries.
+- Cross-checked original core headings and later named correction layers against rendered family ownership.
+- Preserved responsive, pseudo, plugin, injected, sticky, animation, loading, form success/error and generic state risks in EXCEPTIONS.md.
+
+Rendered class-token result:
+
+| Family | Unique initial rendered class tokens |
+| --- | ---: |
+| Home | 267 |
+| About | 243 |
+| Contact | 217 |
+| Services | 249 |
+| Blog listing | 209 |
+| Blog details | 618 |
+| Legal | 153 |
+| Error | 170 |
+
+Phase 1 classification limitations:
+
+- Initial DOM absence is not deletion evidence.
+- JavaScript/plugin-generated states and interaction-only markup remain allowlisted.
+- Coverage and computed DOM matching are deferred to Phase 2 as required.
+- No CSS rule was moved, removed or rewritten.
+
+Final documentation checks before checkpoint:
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+Expected CSS sizes remain core.css 658,214 bytes and core.min.css 556,488 bytes.
