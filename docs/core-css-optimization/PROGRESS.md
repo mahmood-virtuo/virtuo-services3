@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 3 Error-family ownership review validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 3 Blog-details-family extraction; Legal ownership review committed and green on staging
-- Next phase: Phase 4 approved unused-group deletion after the Error checkpoint and green staging workflow
+- Current phase: Phase 4 Challenge/Strategic deletion validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 4 Challenge/Strategic unused-rule deletion, awaiting checkpoint
+- Next phase: Phase 4 Benefit/Loan/Features deletion after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -640,7 +640,7 @@ Both Legal routes render the page-specific `legal-content` class, but that token
 
 ## Phase 3 — Error family ownership review
 
-Status: ownership review and validation complete; no additional CSS extraction was justified; documentation checkpoint pending.
+Status: ownership review and validation complete; no additional CSS extraction was justified; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -685,15 +685,74 @@ The three invalid-route renders expose four tokens absent from canonical routes:
 ### Checkpoint
 
 - Intended message: Document Error CSS ownership review
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: ad9cb696e8c973fde2e19f8fad6b8f884215df81
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29664258608 succeeded
 
 ### Remaining risks
 
 - Error has no family body class; its ownership must remain anchored to template-exclusive component selectors.
 - The commented `.error-img` markup and its existing error.css rules are not an extraction concern. Their dead-code disposition remains separated between the approved later CSS/comment-review phases.
 
+## Phase 4 — Challenge and Strategic unused-rule deletion
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules deleted: 15 (Challenge 9; Strategic 6)
+- CSS rules moved: 0
+- Keyframes deleted: 0
+- Custom-property declarations deleted: 0
+- URLs removed: 0
+- Selectors/declarations rewritten or split: 0
+
+The deletion removed the two adjacent, complete `21. Challenge` and `21. Strategic` sections. Their media rules were deleted with their base rules; the following Pricing boundary was preserved unchanged.
+
+### Before and after sizes
+
+| File | Before Challenge/Strategic | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 552,449 | 551,124 | -1,325 |
+| assets/css/bundles/core.min.css | 465,901 | 464,792 | -1,109 |
+| assets/css/main.css | 839,964 | 838,639 | -1,325 |
+| assets/css/main.min.css | 716,557 | 715,448 | -1,109 |
+
+Every active route drops the same 1,109 minified core bytes.
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at ad9cb696e8c973fde2e19f8fad6b8f884215df81 after Deploy Virtuo Staging run 29664258608 succeeded.
+- Requalified the Phase 2 evidence: zero active PHP/JavaScript references, zero initial DOM matches across all 89 probes, and zero candidate-specific covered occurrences in the interaction/Coverage matrix (Challenge 0/9; Strategic 0/6).
+- Boundary audit confirmed 15 complete rules, four associated media wrappers, no keyframes, no custom-property declarations, no URLs and no mixed selectors.
+- `npm run build:css` passed with the unchanged remote-import notice.
+- Same-DOM full computed-style and geometry hashes matched exactly before/after for Home, About, Contact, Digital Marketing Services, Blog listing, Blog details, Legal and Error at desktop/mobile: 16 states, 655–3,107 captured elements, zero candidate matches and zero differing hashes.
+- All 89 route probes passed status, family order and compatibility exclusion; all 17 local stylesheet requests returned 200, with zero active inline styles and zero Challenge/Strategic DOM tokens.
+
+The first full-parity harness had a syntax typo, and its corrected version then waited indefinitely for below-the-fold lazy images that had not been requested. That disposable process was stopped; the final harness compared both bundles against the identical already-rendered DOM/asset state and passed all 16 states.
+
+### Checkpoint
+
+- Intended message: Remove unused Challenge and Strategic CSS
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Phase 2 approvals are candidate-specific; no adjacent Pricing rule was included.
+- The other 19 approved unused groups remain unchanged until separately requalified.
+
 ## Next exact action
 
-Run the final deterministic build/diff checks, commit the Error documentation checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and begin Phase 4 with the smallest approved unused group.
+Run the final deterministic build/diff checks, commit the Challenge/Strategic checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and requalify the adjacent Benefit/Loan/Features group.

@@ -934,3 +934,67 @@ No screenshots were taken because the review changed no CSS and no regression re
     git status --short
 
 These must pass immediately before committing the Error documentation checkpoint.
+
+The Error checkpoint was committed as ad9cb696e8c973fde2e19f8fad6b8f884215df81, pushed only to origin/testing, and Deploy Virtuo Staging run 29664258608 succeeded before the Phase 4 safety gate.
+
+## Phase 4 Challenge/Strategic deletion validation
+
+### Safety and evidence gate
+
+The gate passed on testing with a clean worktree and HEAD equal to origin/testing at ad9cb696e8c973fde2e19f8fad6b8f884215df81. Deploy Virtuo Staging run 29664258608 succeeded before source editing began.
+
+Fresh source searches found no active `challenge__` or `strategic__` reference outside core.css. First-party JavaScript does not query, generate or mutate either prefix. The exhaustive rendered check found zero candidate tokens across all 86 canonical and three invalid-route responses. Phase 2 interaction/Coverage evidence remained zero for all 9 Challenge and 6 Strategic candidate occurrences.
+
+The exact current boundary contained 15 complete normal rules: nine Challenge and six Strategic, including four media-contained rules. It defined no keyframe, custom property or URL and contained no selector mixed with a retained component. The edit deleted the two adjacent named sections and preserved the following Pricing heading/rules.
+
+### Build and size result
+
+    npm run build:css
+
+Result: passed with the unchanged CleanCSS notice that the remote intl-tel-input import was not inlined.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 552,449 | 551,124 | -1,325 |
+| core.min.css | 465,901 | 464,792 | -1,109 |
+| main.css | 839,964 | 838,639 | -1,325 |
+| main.min.css | 716,557 | 715,448 | -1,109 |
+
+### Full computed-style and geometry parity
+
+Installed Playwright/local Chrome replaced the current core link in place with a style element, preserving core-before-family order. In each same-DOM state it captured every rendered element's full computed-style property set, bounding rectangle and document geometry with the committed core bundle, then with the deletion bundle. Identical motion suppression applied to both states.
+
+| Family state | Desktop SHA-256 | Mobile SHA-256 |
+| --- | --- | --- |
+| Home | 64bfe4c621fc6b658bc370104103d596c4145eeadaae1d0490294b233afdfad0 | d956770143330b3595cdc66f6dd15e6a35cd3cfe23dc0c682208b2743c724ddd |
+| About | 80a40870c7fab731ec170e8d8467150215e08fbb24315f008584a5c73c86896f | 93ac6a3df300590ef3f9a509945229595bce63ba2713c38bcc1b0cf854f4f1d2 |
+| Contact | 95ca19d5a173dae25be60917f6324c251389f3c983fc54fe5b810b5611effe21 | cf15d6c178a02d35eeabe78cbba0da4105ce2b514aa9f398cd8c546387d36577 |
+| Digital Marketing Services | 59f52643ee8995c29675d1496d6645f924116449a0c2f0e1c493538a919cf5cd | a2ef6c2caab13721378f74d290c4836cf160b40b4b3059bf5a2e3235430b4072 |
+| Blog listing | d0cc049bfb97d41044374e0d19bab3e6cb6a386504fb46d3ece924b6fdb63b41 | 7552b6b477fabe6b298b2f2ed6f28125d7db511fbc5607a2da08925fd08a2884 |
+| Blog details | 2912695743d6d1d702c62b45617b0516839c4e2fd7c3a9cb87e71534329de853 | 3567a06ff6007373e1216cc9f7f8b2ea4e28ba6ad98c3ad18f39dc13db15d93a |
+| Legal | 6e25570c595c87c7673d4b126d71ba7393d56a8fc6aad4b5e9c64f9cd504bd19 | b299635345b2678c148302c21952401d044c477a0e0f083769756b5e8351f16b |
+| Error | 5548549e42eeb6d33c3d582dc4118012d31413fd7632f97b7f7df43cf0078482 | b39fd3e46ce9585cf5cae731e7e847c627a500687fbdd6f4722d7d3448b2bcf0 |
+
+Before/after hashes and geometry matched in all 16 states. Captured element counts ranged from 655 to 3,107; candidate matches and differing hashes were zero.
+
+The first inline comparison script contained a syntax typo. After correction it waited on `decode()` for intentionally lazy images outside the viewport, so that disposable run was stopped. The final comparison did not force lazy images and gave both bundle states the same rendered DOM and asset state; no product code was implicated.
+
+### Exhaustive route and asset validation
+
+- Canonical routes: 86; total probes: 89.
+- Family distribution: Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 3.
+- Route/status/family/order/compatibility failures: 0.
+- Unique local stylesheet URLs: 17; HTTP failures: 0.
+- Active style attributes: 0; active style blocks: 0 after HTML comments were removed.
+- Rendered `challenge__`/`strategic__` matches: 0.
+
+No screenshots were taken because exact full-style/geometry parity passed.
+
+### Final checkpoint checks
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Challenge/Strategic checkpoint.

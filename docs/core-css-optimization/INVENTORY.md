@@ -381,6 +381,20 @@ Rendered ownership covered all 11 article routes and every selector branch had a
 
 Shared post metadata, generic sidebar/search/category/tag/recent-post/form primitives and complete selector lists combining listing and detail body classes remain in core. Generic blockquote/comment rules and inactive Blog variants also remain outside this extraction because their broad ownership or deletion status requires separate evidence.
 
+## Phase 4 deletion ledger
+
+### Challenge and Strategic
+
+The first Phase 4 checkpoint requalified and deleted the adjacent legacy Challenge and Strategic sections:
+
+| Group | Normal rules deleted | Source bytes deleted | Minified core bytes deleted |
+| --- | ---: | ---: | ---: |
+| Challenge | 9 | included below | included below |
+| Strategic | 6 | included below | included below |
+| Combined | 15 | 1,325 | 1,109 |
+
+Fresh active-source searches, all 89 initial renders and the Phase 2 interaction/Coverage evidence found zero applicable owner. The complete boundary included the base and four media-contained rules, with no keyframe, custom-property declaration, URL or mixed selector. Full computed-style and geometry parity passed across all eight families at desktop and mobile.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:
