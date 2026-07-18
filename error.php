@@ -75,7 +75,7 @@
         <!-- error-area -->
         <section class="error-area section-py-130">
             <div class="container">
-                <div class="row justify-content-center" style="margin-bottom: 100px;">
+                <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="error-wrap text-center">
                             <!-- <div class="error-img">

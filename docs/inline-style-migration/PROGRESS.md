@@ -4,11 +4,11 @@
 
 - Starting commit: `2785b8c6f568987c19d61de9c151bafe8067c716`
 - Branch: `testing`
-- Current phase: Phase 5 — Blog Detail family (validation complete; checkpoint pending)
-- Completed phases: Phase 0; Phase 1; Phase 2 (Homepage, About, Contact); Phase 3; Phase 4
-- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`; Contact `3d08de0c2e82249dcce6ba0bb3dcfd2eb55900d3`; Services `6f9d6bdb3d04a89cb318095f10a2529d7827801c`; Blog Listing `a33f54d0fa8d2180a46b8d7bad19b69d3412d1fa`
-- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded; Contact run `29648575638` succeeded; Services run `29648841390` succeeded; Blog Listing run `29648935690` succeeded.
-- Next exact action: commit the validated Blog Detail migration, push only `testing`, and verify the staging workflow before auditing Legal and migrating Error.
+- Current phase: Phase 6 — Legal and Error pages (validation complete; checkpoint pending)
+- Completed phases: Phase 0; Phase 1; Phase 2 (Homepage, About, Contact); Phase 3; Phase 4; Phase 5
+- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`; Contact `3d08de0c2e82249dcce6ba0bb3dcfd2eb55900d3`; Services `6f9d6bdb3d04a89cb318095f10a2529d7827801c`; Blog Listing `a33f54d0fa8d2180a46b8d7bad19b69d3412d1fa`; Blog Details `f7fc6ed1d5160ea1066fdba66d00e837b7859a2a`
+- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded; Contact run `29648575638` succeeded; Services run `29648841390` succeeded; Blog Listing run `29648935690` succeeded; Blog Details run `29649102386` succeeded.
+- Next exact action: commit the validated Legal/Error phase, push only `testing`, verify staging, then perform the Phase 7 full final audit and cleanup.
 
 ## Original inventory
 
@@ -76,20 +76,21 @@ Initial active template total: **421 `style` attributes across 43 files**, of wh
 | Current after Services | 24 | 0 | 105 |
 | Current after Blog Listing | 24 | 0 | 105 |
 | Current after Blog Details | 1 | 0 | 105 |
+| Current after Legal and Error | 0 | 0 | 105 |
 
 ## Migration groups and destinations
 
 | Migration group | Destination | Classes added | Status |
 | --- | --- | --- | --- |
-| Shared header/footer/components | `assets/css/src/core.css` | `offcanvas-intro`, `offcanvas-whatsapp-icon`, `footer-section-heading`, `footer-contact-icon`, `footer-contact-icon--location`, `footer-address-label`, `footer-form-title`, `footer-form-intro`, `footer-message-input`, `footer-legal-link` | Checkpoint/staging succeeded |
+| Shared header/footer/components | `assets/css/src/core.css` | `offcanvas-intro`, `offcanvas-whatsapp-icon`, `footer-section-heading`, `footer-contact-icon`, `footer-contact-icon--location`, `footer-address-label`, `footer-form-title`, `footer-form-intro`, `footer-message-input`, `footer-legal-link`, `service-marquee-icon`, `is-hidden` | Checkpoint/staging succeeded; shared marquee/breadcrumb placement finalized in Phase 6 |
 | Home | `assets/css/src/pages/home.css` | `home-hero-accent`, `home-about-orbit`, `home-orbit-icon`, `home-orbit-logo`, `home-about-problem`, `home-about-difference`, `home-about-team-note`, `home-main-cta-copy`, `home-eye-visual`, `home-eye-image`, `home-eye-orbit`, `home-trust-title-emphasis`, `home-trust-kicker`, `home-trust-detail`, `home-trust-body`, `home-trust-closing`, `home-services-subtitle`; existing `virtuo-eye-content` and `home-services-section` also reused | Checkpoint/staging succeeded |
 | About | `assets/css/src/pages/about.css` | `about-heading-highlight`, `about-service-name`, `about-service-name--uppercase`, `about-main-cta-copy`; existing About badge/team selectors reused | Checkpoint/staging succeeded |
 | Contact | `assets/css/src/pages/contact.css` | `contact-message-input`; existing breadcrumb, contact-detail, eye/orbit, and eye-content selectors reused | Checkpoint/staging succeeded |
-| Services and active service partials | `assets/css/src/pages/services.css` | `service-detail-kicker`, `service-detail-hero`, `service-detail-gallery`, `service-detail-process-copy`, `service-detail-faq`, `service-detail-faq-column`, `service-detail-work`, `service-detail-work--compact`, `service-detail-work-icon`, `service-detail-choice-copy`, `service-marquee-icon`, `is-hidden` | Validation complete; checkpoint pending |
+| Services and active service partials | `assets/css/src/pages/services.css` | `service-detail-kicker`, `service-detail-hero`, `service-detail-gallery`, `service-detail-process-copy`, `service-detail-faq`, `service-detail-faq-column`, `service-detail-work`, `service-detail-work--compact`, `service-detail-work-icon`, `service-detail-choice-copy` | Checkpoint/staging succeeded; shared marquee/breadcrumb classes live in core |
 | Blog listing | `assets/css/src/pages/blog-listing.css` | none required | Audit complete; no candidates; checkpoint pending |
 | Blog details | `assets/css/src/pages/blog-details.css` | `blog-hero-highlight`, `blog-stats-followup`, `blog-cta-spaced`, `gap-fill-current--coverage`, `gap-fill-gap--mena`, `gap-fill-gap--europe`, `blog-market-swatch--current`, `blog-market-swatch--demand`, `blog-split-conclusion`, `blog-matrix-intro`, `blog-source-note` | Validation complete; checkpoint pending |
-| Legal | `assets/css/src/pages/legal.css` | none yet | Pending Phase 6 audit |
-| Error | `assets/css/src/pages/error.css` | none yet | Pending Phase 6 |
+| Legal | `assets/css/src/pages/legal.css` | none required | Audit complete; no candidates; checkpoint pending |
+| Error | `assets/css/src/pages/error.css` | existing Error structure reused | Validation complete; checkpoint pending |
 
 ## Baseline sizes
 
@@ -231,3 +232,14 @@ Government Relations references image paths containing spaces at lines 89, 108, 
 - `blog-details.min.css`: 108,573 → 109,467 bytes (+894; +0.82%).
 - Representative rendered HTML start/end: standard article 121,902 → 121,892 (-10); interactive article 105,288 → 105,283 (-5); tax article unchanged at 109,149; AI article unchanged at 172,457; Emirates-map article unchanged at 199,758.
 - The family bundle increase is deliberately scoped and shared by all 11 article routes; it replaces repeated title, panel, CTA, market-bar, legend, matrix, and source-note presentation and is reusable from cache. No CSS request was added.
+
+## Legal and Error results
+
+- `privacy-policy.php` and `terms-conditions.php` contained zero active inline-style candidates; `legal.css` and `legal.min.css` remain unchanged at 0 and 50 bytes.
+- `error.php` contained the final active static attribute. Its row spacing moved to the existing Error structure in `error.css`; no new markup class was needed.
+- Final active template candidate count after Phase 6: 0 literal static and 0 PHP-generated finite/static. Runtime operations remain 105 and documented.
+- The Phase 6 cross-family audit found that the plain marquee and service breadcrumb partials are rendered outside service pages. `service-marquee-icon`, initial `is-hidden`, and breadcrumb `background-repeat` presentation were therefore relocated from the Service family to the shared core source; the already-existing core breadcrumb `background-size: cover` rule eliminated one duplicate declaration.
+- `core.css`: 657,897 → 658,183 bytes from the Phase 1 checkpoint (+286); `core.min.css`: 556,224 → 556,457 (+233).
+- `services.css`: 1,412 → 1,024 bytes after relocation (-388); `services.min.css`: 1,178 → 853 (-325). Combined core + services is 92 bytes smaller than before relocation.
+- `error.css`: 1,125 → 1,186 bytes (+61); `error.min.css`: 891 → 943 (+52).
+- Invalid-route HTML: 74,877 → 74,847 bytes (-30). Compatibility `main.css`/`main.min.css` are 41/40 bytes smaller than immediately before Phase 6.

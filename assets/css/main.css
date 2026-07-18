@@ -1251,6 +1251,7 @@ textarea {
 }
 .breadcrumb__bg {
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   position: absolute;
   left: 0;
@@ -1328,6 +1329,9 @@ textarea {
   font-size: 16px;
   font-weight: 700;
   color: #939ac6;
+}
+.service-breadcrumb .is-hidden {
+  display: none;
 }
 .breadcrumb__content-two {
   text-align: center;
@@ -30390,6 +30394,18 @@ html {
   color: black;
 }
 
+.service-marquee-icon {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-right: 12px;
+  margin-left: -4px;
+  color: #ee4c01;
+  vertical-align: middle;
+}
+
 body.home-page .home-hero-accent {
   color: var(--tg-theme-primary);
 }
@@ -32243,27 +32259,6 @@ body.service-page .service-detail-work-icon {
 
 body.service-page .service-detail-choice-copy {
   margin: 100px;
-}
-
-body.service-page .breadcrumb__bg {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-body.service-page .service-breadcrumb .is-hidden {
-  display: none;
-}
-
-body.service-page .service-marquee-icon {
-  position: relative;
-  top: 0;
-  display: inline-block;
-  width: 34px;
-  height: 34px;
-  margin-right: 12px;
-  margin-left: -4px;
-  color: #ee4c01;
-  vertical-align: middle;
 }
 
 body.blog-page .blog__post-thumb-five {
@@ -37225,6 +37220,9 @@ body.blog-details-page .vt-article .blog-source-note {
 
 .error-area {
   padding: 120px 0;
+}
+.error-area > .container > .row {
+  margin-bottom: 100px;
 }
 @media (max-width: 1500px) {
   .error-area {

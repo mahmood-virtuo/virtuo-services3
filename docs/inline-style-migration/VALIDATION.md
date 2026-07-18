@@ -329,3 +329,37 @@ No browser automation was run. Manual checks remain necessary for listing/catego
 ### Browser, responsive, console, and network findings
 
 No browser automation was run. Manual checks remain necessary for hero highlight color, panel/stat spacing, CTA spacing, Blog 2 market bars/legend/split conclusion, matrix intro, relocation source-note weight, sticky/TOC behavior, all article-specific interactives, desktop/tablet/mobile layouts, horizontal overflow, and browser console/network output.
+
+### Blog Detail checkpoint and staging
+
+- Commit: `f7fc6ed1d5160ea1066fdba66d00e837b7859a2a` (`Migrate blog detail inline styles`).
+- Push target: `origin/testing` only.
+- Staging workflow: `Deploy Virtuo Staging` run `29649102386` completed successfully.
+- Production workflow/branch and `virtuo.ae`: not modified or deployed.
+
+## Phase 6 — Legal and Error pages
+
+### Commands and results
+
+- `php -l privacy-policy.php`, `php -l terms-conditions.php`, and `php -l error.php`: passed.
+- Legal audit: zero active attributes or `<style>` blocks; no Legal markup/CSS source change required.
+- Comment-aware repository inventory after Error migration: zero active template `style` attributes.
+- Cross-family include audit: confirmed the plain service marquee is shared by Home, About, Contact, Services, Blog Listing, Blog Details, and Error, while the service breadcrumb is shared by Services and Error. Their applicable rules were moved from `services.css` to `core.css` without duplication.
+- `npm run build:css`: passed twice after the final source edit; only the existing remote `intl-tel-input` notice appeared.
+- Consecutive SHA-256 manifests for every split and compatibility output: identical.
+- `git diff --check`: passed.
+- New `!important` declarations: zero.
+
+### Route, bundle, shared-component, asset, and size results
+
+- `/privacy-policy` and `/terms-conditions`: HTTP 200, exactly one core plus one Legal bundle, no compatibility bundle, and zero rendered `style` attributes.
+- `/definitely-invalid-inline-style-audit`: retained HTTP 404, exactly one core plus one Error bundle, no compatibility bundle, and zero rendered `style` attributes.
+- Cross-family checks on Home, About, Contact, Blog Listing, a Blog Detail, and a Service route: correct 200 status, exact core/family bundle mapping, and zero rendered `style` attributes.
+- Plain-marquee class output was present on Home, Blog Listing, and Error; both initial breadcrumb hidden-state classes were present on the representative Service page.
+- `core.min.css`, `legal.min.css`, `error.min.css`, the 404 breadcrumb image, footer background, and home-arrow icon: HTTP 200.
+- Rendered bytes: Privacy 71,359; Terms 71,529; invalid route 74,847.
+- Final phase sizes: `core.min.css` 556,457; `services.min.css` 853; `legal.min.css` 50; `error.min.css` 943; compatibility `main.css` 839,118; compatibility `main.min.css` 715,773.
+
+### Browser, responsive, console, and network findings
+
+No browser automation was run. Manual checks remain necessary for Legal typography/spacing, 404 breadcrumb/marquee/content/footer presentation, shared plain-marquee icons on every family, initial and updated service breadcrumbs, desktop/tablet/mobile layouts, horizontal overflow, and browser console/network output.

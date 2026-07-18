@@ -57,24 +57,3 @@ body.service-page .service-detail-work-icon {
 body.service-page .service-detail-choice-copy {
   margin: 100px;
 }
-
-body.service-page .breadcrumb__bg {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-body.service-page .service-breadcrumb .is-hidden {
-  display: none;
-}
-
-body.service-page .service-marquee-icon {
-  position: relative;
-  top: 0;
-  display: inline-block;
-  width: 34px;
-  height: 34px;
-  margin-right: 12px;
-  margin-left: -4px;
-  color: #ee4c01;
-  vertical-align: middle;
-}

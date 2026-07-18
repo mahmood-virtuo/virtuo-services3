@@ -1251,6 +1251,7 @@ textarea {
 }
 .breadcrumb__bg {
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   position: absolute;
   left: 0;
@@ -1328,6 +1329,9 @@ textarea {
   font-size: 16px;
   font-weight: 700;
   color: #939ac6;
+}
+.service-breadcrumb .is-hidden {
+  display: none;
 }
 .breadcrumb__content-two {
   text-align: center;
@@ -30388,4 +30392,16 @@ html {
 }
 .ai-cost-value {
   color: black;
+}
+
+.service-marquee-icon {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-right: 12px;
+  margin-left: -4px;
+  color: #ee4c01;
+  vertical-align: middle;
 }
