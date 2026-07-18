@@ -873,3 +873,64 @@ No screenshots were taken because the review changed no CSS and no regression re
     git status --short
 
 These must pass immediately before committing the Legal documentation checkpoint.
+
+The Legal checkpoint was committed as 92b7b3f92ca83014fc5859b0b294121e5be99b88, pushed only to origin/testing, and Deploy Virtuo Staging run 29664073969 succeeded before the Error safety gate.
+
+## Phase 3 Error-family ownership-review validation
+
+### Safety and ownership gate
+
+The Error gate passed on testing with a clean worktree and HEAD equal to origin/testing at 92b7b3f92ca83014fc5859b0b294121e5be99b88. Deploy Virtuo Staging run 29664073969 succeeded before the review began.
+
+The rendered audit compared all 86 canonical routes with invalid category, invalid tag and generic invalid renders. Canonical routes contained 1,356 distinct class/id tokens; Error contained 174. Four tokens occurred only on Error: `error-area`, `error-content`, `error-wrap` and `tg-button-wrap`.
+
+The first three have no core selector because their active rules already live in error.css. Core's sole match is `.tg-button-wrap`, the complete generic flex-layout rule under the shared Button component. Active PHP uses that helper only in error.php today, first-party JavaScript does not generate it, and the SCSS source retains it as a generic component primitive. Consistent with the Phase 1 Category A classification, current-route exclusivity alone was insufficient to reclassify this broad helper as Error-owned.
+
+The first ownership-script invocation mixed CommonJS `require()` with top-level `await` under Node 24 and stopped with an ambiguous-module-format error. Wrapping the harness in an async CommonJS function produced the evidence above; no project file caused the harness error.
+
+### Exact structural movement and sizes
+
+- Normal rules/keyframes moved: 0.
+- Rules/keyframes deleted: 0.
+- Selector/declaration/media rewrites: 0.
+- core.css: 552,449 bytes before and after.
+- error.css: 1,186 bytes before and after.
+- core.min.css: 465,901 bytes before and after.
+- error.min.css: 943 bytes before and after.
+- main.css: 839,964 bytes before and after.
+- main.min.css: 716,557 bytes before and after.
+
+Computed-style and geometry parity was not applicable because the review changed no CSS source, generated bundle, cascade order or loader behavior.
+
+### Exhaustive route and asset validation
+
+- Canonical routes: 86; total probes: 89.
+- Family distribution: Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 3.
+- Route/status/family/order/compatibility failures: 0.
+- Unique local stylesheet URLs: 17; HTTP failures: 0.
+- Active style attributes: 0; active style blocks: 0 after HTML comments were removed.
+
+### Restricted browser smoke
+
+Installed Playwright/local Chrome covered invalid category, invalid tag and generic invalid routes at 1,440 x 1,000 and 390 x 844, for six states. It exercised desktop off-canvas/mobile navigation, keyboard focus on the home CTA, the Error content layout and the generic button-wrap flex foundation.
+
+Results:
+
+- All six main documents returned the expected 404.
+- HTTP/status or bundle mapping failures: 0.
+- Horizontal-overflow failures: 0.
+- Unexpected console errors: 0; page errors: 0.
+- Failed application resource responses: 0.
+- Chromium emitted one expected main-document `Failed to load resource` console diagnostic per state because the requested document correctly returned 404. The initial harness counted those required document diagnostics as failures; the corrected pass excluded only that exact expected diagnostic and continued to track every subresource response/request failure separately.
+- One corrected rerun also fixed a local evidence-output variable name; it changed no test condition or product file.
+
+No screenshots were taken because the review changed no CSS and no regression required documentation.
+
+### Final checkpoint checks
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Error documentation checkpoint.

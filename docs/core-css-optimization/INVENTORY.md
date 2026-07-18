@@ -444,6 +444,12 @@ Both canonical Legal routes render 153 distinct class/id/body tokens in total. O
 
 Therefore the Legal review moves zero rules and leaves legal.css intentionally empty. Generic element/typography rules are not Legal-owned merely because they apply on Legal pages; moving them without an exclusive scope would change other route families.
 
+## Phase 3 Error ownership review
+
+Invalid category, invalid tag and generic invalid renders expose 174 distinct class/id tokens. Compared with all 86 canonical routes, the Error-exclusive set is `error-area`, `error-content`, `error-wrap` and `tg-button-wrap`.
+
+The first three have no selector in core because their active component rules already live in error.css. Core contains `.tg-button-wrap`, but it is a generic flex helper under the shared Button component, not an Error-scoped rule; current-route presence alone does not override its Category A source ownership. Error has no body class, so no broad selector can be made family-owned safely. The review therefore moves zero additional rules.
+
 ## Exhaustive active route-family map
 
 The local sitemap contained 86 canonical URLs. All returned 200 and selected the family listed below.

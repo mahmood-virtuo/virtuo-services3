@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 3 Legal-family ownership review validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 3 Blog-details-family extraction, committed and green on staging
-- Next phase: Phase 3 Error-family review after the Legal checkpoint and green staging workflow
+- Current phase: Phase 3 Error-family ownership review validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 3 Blog-details-family extraction; Legal ownership review committed and green on staging
+- Next phase: Phase 4 approved unused-group deletion after the Error checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -585,7 +585,7 @@ Every non-Blog-details route drops the 33,095 extracted minified core bytes. The
 
 ## Phase 3 — Legal family ownership review
 
-Status: ownership review and validation complete; no CSS extraction was justified; documentation checkpoint pending.
+Status: ownership review and validation complete; no CSS extraction was justified; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -629,15 +629,71 @@ Both Legal routes render the page-specific `legal-content` class, but that token
 ### Checkpoint
 
 - Intended message: Document Legal CSS ownership review
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 92b7b3f92ca83014fc5859b0b294121e5be99b88
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29664073969 succeeded
 
 ### Remaining risks
 
 - Legal templates have no family body class, so broad element or typography selectors cannot be scoped safely to legal.css without changing markup.
 - Generic Legal presentation continues to depend on shared core foundations by design.
 
+## Phase 3 — Error family ownership review
+
+Status: ownership review and validation complete; no additional CSS extraction was justified; documentation checkpoint pending.
+
+### Files changed
+
+- docs/core-css-optimization/INVENTORY.md
+- docs/core-css-optimization/PROGRESS.md
+- docs/core-css-optimization/VALIDATION.md
+- docs/core-css-optimization/EXCEPTIONS.md
+- docs/core-css-optimization/RESUME.md
+
+No CSS, PHP, JavaScript, route, server, sitemap, loader, generated asset, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- CSS rules/keyframes moved: 0
+- CSS rules/keyframes deleted: 0
+- Selectors or declarations rewritten: 0
+- Selectors split: 0
+- Remote imports changed: 0
+
+The three invalid-route renders expose four tokens absent from canonical routes: `error-area`, `error-content`, `error-wrap` and `tg-button-wrap`. The first three have no core selector because their active rules already live in error.css. The only core match, `.tg-button-wrap`, is the complete generic button-layout primitive owned by the shared button component; selector-name and current-route exclusivity do not make that generic helper Error-owned. It therefore remains in core.
+
+### Before and after sizes
+
+| File | Before Error review | After Error review | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 552,449 | 552,449 | 0 |
+| assets/css/src/pages/error.css | 1,186 | 1,186 | 0 |
+| assets/css/bundles/core.min.css | 465,901 | 465,901 | 0 |
+| assets/css/bundles/error.min.css | 943 | 943 | 0 |
+| assets/css/main.css | 839,964 | 839,964 | 0 |
+| assets/css/main.min.css | 716,557 | 716,557 | 0 |
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at 92b7b3f92ca83014fc5859b0b294121e5be99b88 after Deploy Virtuo Staging run 29664073969 succeeded.
+- Ownership evidence compared all 86 canonical routes with invalid category, invalid tag and generic invalid renders: 1,356 canonical tokens, 174 Error tokens and the four Error-exclusive tokens listed above.
+- Source search found `tg-button-wrap` only in active error.php, the generic core button rule and its shared SCSS component source; first-party JavaScript does not generate it.
+- The corrected six-state desktop/mobile Error smoke passed expected status, exact core/Error bundle mapping, navigation/focus, layout, overflow, unexpected console/page-error and application-resource checks.
+- All 89 route probes passed status, exact family order and compatibility exclusion; all 17 local stylesheet requests returned 200, with zero active style attributes/blocks after comments were excluded.
+- Computed-style before/after comparison was not applicable because no CSS source, generated output, cascade order or loader behavior changed.
+
+### Checkpoint
+
+- Intended message: Document Error CSS ownership review
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Error has no family body class; its ownership must remain anchored to template-exclusive component selectors.
+- The commented `.error-img` markup and its existing error.css rules are not an extraction concern. Their dead-code disposition remains separated between the approved later CSS/comment-review phases.
+
 ## Next exact action
 
-Run the final deterministic build/diff checks, commit the Legal documentation checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and review Error only.
+Run the final deterministic build/diff checks, commit the Error documentation checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh Git gate and begin Phase 4 with the smallest approved unused group.
