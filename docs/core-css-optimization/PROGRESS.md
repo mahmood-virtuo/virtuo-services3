@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 4 Benefit/Loan/Features deletion validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 4 Benefit/Loan/Features unused-rule deletion, awaiting checkpoint
-- Next phase: next approved Phase 4 logical group after this checkpoint and green staging workflow
+- Current phase: Phase 4 dormant Preloader/Search deletion validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 4 dormant shell CSS deletion, awaiting checkpoint
+- Next phase: Phase 4 inactive advisory sections after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -755,7 +755,7 @@ The first full-parity harness had a syntax typo, and its corrected version then 
 
 ## Phase 4 — Benefit, Loan and Features unused-rule deletion
 
-Status: implementation and validation complete; checkpoint pending.
+Status: implementation and validation complete; checkpoint committed, pushed and green on staging.
 
 ### Files changed
 
@@ -802,15 +802,73 @@ An initial route pass observed 19 full cache-busted stylesheet URLs while rebuil
 ### Checkpoint
 
 - Intended message: Remove unused Benefit Loan and Features CSS
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 68ef25a1a02ed3fe2ca7f4394bf51defe6996ec6
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29664834471 succeeded
 
 ### Remaining risks
 
 - Original SCSS theme sources still mention Features, but the active build consumes assets/css/src rather than compiling SCSS; those inactive source archives were not edited.
 - The remaining approved groups must still pass their own current boundary and runtime gates.
 
+## Phase 4 — Dormant Preloader and Search-popup deletion
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules deleted: 21 (Preloader 6; Search popup 15)
+- Keyframe blocks deleted: 2 (prefixed and standard `preloader`)
+- CSS rules moved: 0
+- Custom-property declarations/URLs deleted: 0
+- Selectors/declarations rewritten or split: 0
+
+The Preloader markup and invocation remain commented and are reserved for Phase 7 source-comment review. Search event handlers bind only to absent opener/popup nodes. No active shell or Blog search selector was included.
+
+### Before and after sizes
+
+| File | Before dormant shell deletion | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 540,777 | 535,651 | -5,126 |
+| assets/css/bundles/core.min.css | 456,053 | 451,717 | -4,336 |
+| assets/css/main.css | 828,292 | 823,166 | -5,126 |
+| assets/css/main.min.css | 706,709 | 702,373 | -4,336 |
+
+Every route drops the same 4,336 minified core bytes.
+
+### Validation performed
+
+- Fresh gate passed at 68ef25a1a02ed3fe2ca7f4394bf51defe6996ec6 after Deploy Virtuo Staging run 29664834471 succeeded.
+- Requalified commented/absent markup, uncalled/absent-node JavaScript, zero DOM tokens across all 89 probes and Phase 2 Coverage of Preloader 0/6 and Search 0/15.
+- Boundary audit found 21 complete rules plus both exclusively referenced Preloader keyframes, with no URLs, custom-property declarations or mixed active selectors.
+- Build passed; core keyframes decreased from 25 to 23.
+- Same-DOM desktop/mobile style and geometry parity passed for all eight families: 16 states, matrix SHA-256 `2ebefb75f01980397e229719eaa038f912c3124e1163f62a74649ac80bd37f1f`, 655–3,107 elements, zero candidate matches/failures.
+- All 89 route probes and 17 stable stylesheet paths/full URLs passed; zero inline styles or candidate tokens were rendered.
+
+The first immediate route traversal saw cache-buster URL variants while the source watcher completed its rebuild. Path-level uniqueness stayed 17, and the stable rerun returned 17 full URLs.
+
+### Checkpoint
+
+- Intended message: Remove dormant Preloader and Search CSS
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Dormant Preloader JavaScript and commented markup are deliberately deferred to Phase 7 rather than mixed into CSS deletion.
+- Search handlers are now harmless no-ops against absent elements; JavaScript comment/dead-code handling remains Phase 7.
+
 ## Next exact action
 
-Run the final deterministic build/diff checks, commit the Benefit/Loan/Features checkpoint, push only to origin/testing and confirm Deploy Virtuo Staging succeeds. Then pass a fresh gate and select the next smallest coherent approved Phase 4 group.
+Run final build/diff checks, commit the dormant shell checkpoint, push only to origin/testing and wait for staging. Then gate and requalify the Callback/Core-value/Pricing/Career advisory group.

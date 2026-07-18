@@ -1068,3 +1068,33 @@ No screenshots were taken because same-DOM hashes and geometry passed.
     git status --short
 
 These must pass immediately before committing the Benefit/Loan/Features checkpoint.
+
+The Benefit/Loan/Features checkpoint was committed as 68ef25a1a02ed3fe2ca7f4394bf51defe6996ec6, pushed only to origin/testing, and Deploy Virtuo Staging run 29664834471 succeeded before the next Phase 4 gate.
+
+## Phase 4 dormant Preloader/Search deletion validation
+
+The clean testing/remote gate passed at 68ef25a1a02ed3fe2ca7f4394bf51defe6996ec6 after staging run 29664834471 succeeded.
+
+The current Preloader boundary contained six normal rules and the prefixed/standard `preloader` keyframes; no other editable CSS references that animation name. Header markup and its call remain commented, while the retained function is uncalled. The Search boundary contained exactly 15 approved popup/input/overlay rules. Its JavaScript binds absent opener/close/popup nodes; exhaustive DOM and interaction evidence remains zero. Neither boundary defined a URL or custom property.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 540,777 | 535,651 | -5,126 |
+| core.min.css | 456,053 | 451,717 | -4,336 |
+| main.css | 828,292 | 823,166 | -5,126 |
+| main.min.css | 706,709 | 702,373 | -4,336 |
+
+`npm run build:css` passed with the known remote-import notice. Core keyframes changed 25 to 23.
+
+Installed Playwright/local Chrome compared committed and deletion core bundles before the unchanged family bundle. Selected layout/box/flex/grid/typography/color/background/border/visibility properties plus every element rectangle and document geometry matched in Home, About, Contact, Digital Marketing Services, Blog listing, Blog details, Legal and Error at desktop/mobile. All 16 state hashes matched before/after; aggregate matrix SHA-256: `2ebefb75f01980397e229719eaa038f912c3124e1163f62a74649ac80bd37f1f`. Captured elements ranged 655–3,107; candidate matches/failures: 0.
+
+All 89 probes retained expected status/family/order/no-compatibility behavior. All 17 stable local stylesheet paths and URLs returned 200; active inline styles and candidate DOM matches remained zero. One immediate traversal observed cache-buster variants during watcher regeneration, but path uniqueness stayed 17 and the stable rerun produced 17 full URLs.
+
+No screenshots were taken because exact same-DOM parity passed.
+
+Final checkpoint commands:
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short

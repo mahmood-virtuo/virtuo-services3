@@ -46,8 +46,8 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 ## Phase 2 narrowed legacy exceptions
 
 - project__, testimonial__, brand__ and shop__ have no active PHP match. Their main.js Swiper calls all use virtuoInitSwiper(), which returns before initialization when the requested selector is absent. The exhaustive rendered scan, restricted interaction scan and candidate Coverage all found no applicable markup or used candidate token; their CSS is approved for later Phase 4 boundary-safe deletion.
-- pricing__ and search-popup-only selectors have event handlers but no active trigger or target markup. The same DOM/interaction/Coverage gates found zero applicable markup and zero covered candidate tokens, so their CSS is approved for later Phase 4 boundary-safe deletion. Active header/mobile/menu states remain allowlisted.
-- Preloader markup and invocation are commented. Its dormant function found no runtime element, and its candidate selectors had zero Coverage; its CSS is approved for later Phase 4 deletion. Commented markup/function cleanup remains a separate Phase 7 decision.
+- pricing__ selectors retain Phase 4 deletion approval because their event handlers have no active trigger/target. Search-popup CSS passed the fresh gate and was deleted; active header/mobile/menu states remain allowlisted.
+- Preloader CSS and its exclusive keyframes passed the fresh gate and were deleted. Commented markup and dormant-function cleanup remains a separate Phase 7 decision.
 - contact__ is referenced by ajax-form.js even when an initial PHP prefix scan does not find it. Retain form feedback/error paths until interaction validation is complete.
 - Banner, History, Counter, Video, Callback, Core value, Career, Login and Checkout have no active source/runtime owner, no DOM match across the exhaustive initial scan or representative interactions, and zero covered candidate tokens. They are approved for later Phase 4 boundary-safe deletion.
 - Challenge and Strategic passed the fresh Phase 4 boundary/dependency gate and were deleted together in the first unused-rule checkpoint. They no longer require retention exceptions.

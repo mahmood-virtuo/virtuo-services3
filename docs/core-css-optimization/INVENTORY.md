@@ -408,6 +408,10 @@ The second Phase 4 checkpoint deleted three adjacent inactive advisory/layout se
 
 Retained separator whitespace makes the net source reduction 10,347 bytes; core.min.css dropped 8,739 bytes. The active build-source, JavaScript, 89-route DOM and Phase 2 Coverage gates were all zero. The sections defined no keyframe, URL or custom-property declaration, and same-DOM desktop/mobile style and geometry parity passed for every family.
 
+### Dormant Preloader and Search popup
+
+The third Phase 4 checkpoint deleted 21 normal rules (Preloader 6; Search 15) plus the two exclusively referenced `preloader` keyframe blocks. The exact source spans totaled 5,127 bytes; retained separator whitespace makes the net reduction 5,126 source and 4,336 minified bytes. Commented Preloader markup/invocation and absent Search markup re-passed the active-source, JavaScript, 89-route DOM, interaction/Coverage and same-DOM parity gates.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

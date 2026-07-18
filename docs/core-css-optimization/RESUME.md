@@ -2,29 +2,28 @@
 
 ## Last completed checkpoint
 
-Phase 4 Challenge/Strategic deletion is committed as 8b68892f142a1e49ae53f133bf748559853c5938, pushed to origin/testing and green in Deploy Virtuo Staging run 29664620341. Benefit/Loan/Features deletion is implemented and validated, and is awaiting its checkpoint commit/push/staging result.
+Phase 4 Benefit/Loan/Features deletion is committed as 68ef25a1a02ed3fe2ca7f4394bf51defe6996ec6, pushed to origin/testing and green in Deploy Virtuo Staging run 29664834471. Dormant Preloader/Search deletion is implemented and validated, awaiting checkpoint commit/push/staging.
 
 ## Repository state at this handoff
 
 - Current branch: testing
-- Starting commit for Benefit/Loan/Features deletion: 8b68892f142a1e49ae53f133bf748559853c5938
-- Last completed checkpoint: 8b68892f142a1e49ae53f133bf748559853c5938
-- Last completed staging run: Deploy Virtuo Staging 29664620341 succeeded
-- Current HEAD: the Benefit/Loan/Features checkpoint containing this file after commit; resolve exactly with git rev-parse HEAD
+- Starting commit for dormant shell deletion: 68ef25a1a02ed3fe2ca7f4394bf51defe6996ec6
+- Last completed checkpoint: 68ef25a1a02ed3fe2ca7f4394bf51defe6996ec6
+- Last completed staging run: Deploy Virtuo Staging 29664834471 succeeded
+- Current HEAD: the dormant shell checkpoint containing this file after commit; resolve exactly with git rev-parse HEAD
 - Required remote equality: current HEAD must equal origin/testing before the next Phase 4 group starts
 - Production/main state: untouched
 
-## Benefit/Loan/Features deletion completed locally
+## Dormant shell deletion completed locally
 
-- Deleted 80 complete normal rules and their 19 media wrappers.
-- core.css dropped 10,347 bytes; core.min.css and every route dropped 8,739 bytes.
-- No keyframe, custom-property declaration, URL or retained adjacent Pricing rule changed.
-- Same-DOM style and geometry hashes matched across all eight families at desktop/mobile.
-- All 89 route probes and 17 stable local stylesheet paths passed; candidate DOM matches remained zero.
+- Deleted 21 normal rules and both exclusive Preloader keyframes.
+- core.css dropped 5,126 bytes; core.min.css and every route dropped 4,336 bytes.
+- Same-DOM matrix parity passed all eight families at desktop/mobile.
+- All 89 probes and 17 stable stylesheet paths/URLs passed; candidate DOM matches remained zero.
 
 ## Next exact action
 
-Run the final deterministic build and diff checks, commit with message Remove unused Benefit Loan and Features CSS, push only to origin/testing and wait for Deploy Virtuo Staging success. Then pass a fresh Git gate and select the next coherent approved Phase 4 group.
+Run final deterministic build/diff checks, commit with message Remove dormant Preloader and Search CSS, push only to origin/testing and wait for staging. Then gate the Callback/Core-value/Pricing/Career group.
 
 ## Outstanding phases
 
@@ -41,7 +40,7 @@ Run the final deterministic build and diff checks, commit with message Remove un
 
 - `.virtuo-team__container` remains in core for verified cascade order.
 - The complete mixed Contact/footer field-font rule and shared Home/About/Contact eye selectors intentionally remain in core.
-- Core is now 456,053 minified bytes and retains the remaining approved legacy candidates until their Phase 4 gates pass.
+- Core is now 451,717 minified bytes and retains the remaining approved legacy candidates until their Phase 4 gates pass.
 - The remote import and duplicate candidates remain unchanged.
 - The approved installed Playwright/local Chrome fallback remains necessary while the in-app browser bridge metadata is unavailable.
 
