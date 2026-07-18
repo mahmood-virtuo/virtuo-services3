@@ -20,7 +20,7 @@
 - Branch: `testing`.
 - Local starting HEAD and `origin/testing`: `2785b8c6f568987c19d61de9c151bafe8067c716`.
 - Initial worktree: clean.
-- Active template inventory: 435 `style` attributes in 43 files; 0 active first-party `<style>` blocks.
+- Active template inventory: 421 `style` attributes in 43 files; 14 additional textual matches are inside inactive HTML comments; 0 active first-party `<style>` blocks. The comment-aware count corrected the initial raw-text tally during the About audit.
 - Runtime inventory: 105 first-party style operations in 11 files; retained for runtime safety.
 - Representative route/bundle results are recorded in `PROGRESS.md`.
 
@@ -164,3 +164,34 @@ No browser automation was run. Command-line validation proves syntax, determinis
 ### Browser, responsive, console, and network findings
 
 No browser automation was run. Manual checks remain necessary for all five slider slides, both circular text/orbit placements, About-section spacing, CTA text, the eye image/content alignment, Core Services default and non-default tabs, desktop/tablet/mobile behavior, horizontal overflow, and browser console/network output.
+
+### Homepage checkpoint and staging
+
+- Commit: `6fdf13195dc0815f8a3d575903836a798fc4e8a5` (`Migrate homepage inline styles`).
+- Push target: `origin/testing` only.
+- Staging workflow: `Deploy Virtuo Staging` run `29648220421` completed successfully.
+- Production workflow/branch and `virtuo.ae`: not modified or deployed.
+
+## Phase 2 — About
+
+### Commands and results
+
+- `php -l about.php`: passed.
+- Comment-aware `style=` search: zero active matches; 10 raw matches remain solely inside inactive commented WhatsApp blocks.
+- `npm run build:css`: successful.
+- First deterministic comparison attempt: failed because the already-running asset watcher concurrently rewrote generated outputs while hashes were captured; `main.css` was observed transiently at zero bytes. No source validation failed and nothing was pushed.
+- Resolution: waited until the watcher-owned CSS build process was idle, rebuilt twice, and compared fresh SHA-256 manifests. All split and compatibility hashes were then identical.
+- `git diff --check`: passed.
+
+### Route, bundle, asset, and size results
+
+- `/about`: HTTP 200, 128,214 bytes.
+- Bundle mapping: exactly one `core.min.css`, exactly one `about.min.css`, and no compatibility bundle.
+- `core.min.css`, `about.min.css`, mission/vision background, and Virtuo orbit SVG: HTTP 200.
+- `about.css`: 14,477 bytes; `about.min.css`: 12,310 bytes.
+- About HTML versus the Phase 1 checkpoint: -325 bytes.
+- Compatibility `main.css`: 836,160 bytes; compatibility `main.min.css`: 713,206 bytes.
+
+### Browser, responsive, console, and network findings
+
+No browser automation was run. Manual checks remain necessary for intro highlighting, mission/vision cards, service labels, CTA, Why Virtuo badge at desktop/tablet/mobile widths, team social icons/hover states, horizontal overflow, and browser console/network output.

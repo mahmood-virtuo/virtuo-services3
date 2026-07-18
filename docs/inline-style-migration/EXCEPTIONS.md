@@ -35,6 +35,8 @@ These are not final exceptions. They are recorded here until Phase 3 replaces th
 ## Third-party/inactive exclusions (Categories F and H)
 
 - Font-package helper/demo PHP under `assets/fonts/**` contains 12 `style` attributes and 2 `<style>` tokens. These files are third-party/inactive package artifacts, not active Virtuo templates, and will not be modified.
+- `about.php` baseline lines 321-390 contains five commented-out WhatsApp anchor/SVG pairs with 10 `style` attributes. They are inactive HTML comments, do not create DOM nodes, and are left untouched to avoid changing unrelated dormant code.
+- `blog-details8.php` baseline lines 292-313 contains a commented-out cost-box prototype with four static fill-width attributes. It is inactive HTML-comment markup and will be left untouched.
 - `_unused_pages_backup`, `node_modules`, vendor libraries, generated/minified CSS/JavaScript, and plugin sources are excluded from the migration and counts.
 
 ## Critical CSS (Category G)

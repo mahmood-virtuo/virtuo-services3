@@ -30899,6 +30899,41 @@ body.home-page .blog__post-area-six .blog__post-content {
   }
 }
 
+body.about-page .about-heading-highlight {
+  color: var(--tg-theme-primary);
+  font-weight: 700;
+}
+
+body.about-page .about-service-name {
+  color: #ee4c01;
+}
+
+body.about-page .about-service-name--uppercase {
+  text-transform: uppercase;
+}
+
+body.about-page .about-main-cta-copy {
+  color: white;
+}
+
+body.about-page .about-eye-badge .icon {
+  width: 100px;
+  height: 100px;
+  background-color: #564abe;
+}
+
+body.about-page .about-eye-badge .icon img {
+  rotate: 25deg;
+}
+
+body.about-page .virtuo-team__social a {
+  background: none;
+}
+
+body.about-page .virtuo-team__social svg {
+  fill: #ee4c01;
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   body.about-page .about__img-wrap,
   body.about-page .about__images {
@@ -31496,6 +31531,7 @@ body.about-page .about-page-container {
     max-width: 100%;
     height: auto;
   }}
+
 /* ------------Second Banner Button Ends-------------- */
 
 /* ---------- Contact Page FAQ ---------- */

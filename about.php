@@ -101,7 +101,7 @@
                         <div class="about__content">
                             <div class="section__title mb-15">
                                 <span class="sub-title">about Us</span>
-                                <h2 class="title">Virtuo was created for <span style="color: var(--tg-theme-primary);font-weight:700;" >entrepreneurs, Investors, Freelancers, Professionals, and Families</span> who want to enter the UAE with clarity, confidence, and the right structure from day one.</h2>
+                                <h2 class="title">Virtuo was created for <span class="about-heading-highlight">entrepreneurs, Investors, Freelancers, Professionals, and Families</span> who want to enter the UAE with clarity, confidence, and the right structure from day one.</h2>
                             </div>
                             <p>The UAE is one of the world’s fastest-growing business hubs, offering access to global markets, tax-efficient opportunities, residency options, banking, investment pathways, and a lifestyle built for ambition. But for many founders and foreign investors, the process can feel confusing: mainland or free zone, the right license activity, visa requirements, banking readiness, compliance, office options, relocation planning, and ongoing government procedures.</p>
                             <p>That is where Virtuo comes in.</p>
@@ -191,17 +191,17 @@
                                 <h2 class="title">What We Do</h2>
                             </div>
                             <p>Virtuo supports clients across five core areas:</p><br/>
-                            <p style="color: #EE4C01; text-transform: uppercase;">UAE Business Formation, Structuring & Compliance</p>
+                            <p class="about-service-name about-service-name--uppercase">UAE Business Formation, Structuring & Compliance</p>
                             <p>We help clients choose the right setup structure, whether mainland, free zone, or offshore, based on their business model, ownership goals, market access, visa needs, banking requirements, and long-term plans.</p><br/>
-                            <p style="color: #ee4c01;text-transform: uppercase;">
+                            <p class="about-service-name about-service-name--uppercase">
                                 Government Relations & PRO Services
                             </p>
                             <p>We manage key government processes, document handling, approvals, renewals, amendments, attestations, and corporate administration so clients can focus on building their business.</p><br/>
-                            <p style="color: #ee4c01">Immigration & Residency Solutions</p>
+                            <p class="about-service-name">Immigration & Residency Solutions</p>
                             <p>We assist entrepreneurs, investors, professionals, and families with UAE residency pathways, visa support, Golden Visa guidance, dependent visas, and relocation requirements.</p><br/>
-                            <p style="color: #ee4c01">Digital Marketing & Brand Development</p>
+                            <p class="about-service-name">Digital Marketing & Brand Development</p>
                             <p>We help new and growing businesses build a credible market presence through brand strategy, website guidance, content, lead generation, and digital positioning.</p><br/>
-                            <p style="color: #ee4c01">AI Automation & Technology Solutions</p>
+                            <p class="about-service-name">AI Automation & Technology Solutions</p>
                             <p>We support businesses with practical AI and automation solutions designed to improve operations, save time, and create more efficient customer and internal workflows.</p>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                     <div class="col-xl-6 col-lg-5">
                         <div class="cta__content-five">
                             <h2 class="title">Start Your UAE Move With the Right Structure.</h2>
-                            <p style="color:white;">From business setup and residency to banking readiness, market entry, and relocation support, Virtuo helps entrepreneurs, investors, freelancers, and families enter the UAE with clarity.</p>
+                            <p class="about-main-cta-copy">From business setup and residency to banking readiness, market entry, and relocation support, Virtuo helps entrepreneurs, investors, freelancers, and families enter the UAE with clarity.</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-7">
@@ -273,8 +273,8 @@
             height="450"
         >
 <div class="circle__wrap circle__wrap-two about-eye-badge" data-aos="zoom-in" data-aos-delay="600">
-            <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
-                <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" style="rotate: 25deg;" />
+            <div class="icon">
+                <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" />
             </div>
             <div class="content">
                 <h6 class="circle rotateme">VIRTUO • ESTABLISH • OPERATE • INNOVATE •</h6>
@@ -315,8 +315,8 @@
                                 <h3>Jonaid Ali Mohammad</h3>
                                 <span>Business Consultant</span>
                                 <div class="virtuo-team__social" aria-label="Jonaid Ali Mohammad social links">
-                                    <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" aria-label="Jonaid Ali Mohammad on LinkedIn" style="background: none;" class="injectable">
-                                    <svg xmlns="http://www.w3.org/2000/svg" style="fill: #EE4C01;" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><rect width="512" height="512" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
+                                    <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" aria-label="Jonaid Ali Mohammad on LinkedIn" class="injectable">
+                                    <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><rect width="512" height="512" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
                                     </a>
                                     <!-- <a href="https://wa.me/971565151315" target="_blank" aria-label="Jonaid Ali Mohammad on WhatsApp" class="injectable" style="background: none;">
                                         <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512" style="width: 512; height: 512; display: inline-block; vertical-align: middle;">
@@ -332,8 +332,8 @@
                                 <h3>Hasan Rauf</h3>
                                 <span>Technology Advisor</span>
                                 <div class="virtuo-team__social" aria-label="Hasan Rauf social links">
-                                    <a href="https://www.linkedin.com/company/virtuouae/" target="_blank" aria-label="Hasan Rauf on LinkedIn" class="injectable" style="background: none;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" style="fill: #EE4C01;" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
+                                    <a href="https://www.linkedin.com/company/virtuouae/" target="_blank" aria-label="Hasan Rauf on LinkedIn" class="injectable">
+                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
                                     </a>
                                     <!-- <a href="https://wa.me/971504805240" target="_blank" aria-label="Hasan Rauf on WhatsApp" class="injectable" style="background: none;">
                                          <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512" style="width: 512; height: 512; display: inline-block; vertical-align: middle;">
@@ -349,8 +349,8 @@
                                 <h3>Mohammad Affan</h3>
                                 <span>Public Relations Manager</span>
                                 <div class="virtuo-team__social" aria-label="Mohammad Affan social links">
-                                    <a href="https://www.linkedin.com/in/mohammadaffan20" target="_blank" aria-label="Mohammad Affan on LinkedIn" style="background: none;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" style="fill: #EE4C01;" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
+                                    <a href="https://www.linkedin.com/in/mohammadaffan20" target="_blank" aria-label="Mohammad Affan on LinkedIn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
                                     </a>
                                     <!-- <a href="https://wa.me/971569928422" target="_blank" aria-label="Mohammad Affan on WhatsApp" class="injectable" style="background: none;">
                                          <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512" style="width: 512; height: 512; display: inline-block; vertical-align: middle;">
@@ -366,8 +366,8 @@
                                 <h3>Junaid Mahmood</h3>
                                 <span>Sr. IT Developer</span>
                                 <div class="virtuo-team__social" aria-label="Junaid Mahmood social links">
-                                    <a href="https://www.linkedin.com/company/virtuouae/" target="_blank" aria-label="Junaid Mahmood on LinkedIn" class="injectable" style="background: none;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" style="fill: #EE4C01;" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
+                                    <a href="https://www.linkedin.com/company/virtuouae/" target="_blank" aria-label="Junaid Mahmood on LinkedIn" class="injectable">
+                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
                                     </a>
                                     <!-- <a href="https://wa.me/971543851668" target="_blank" aria-label="Junaid Mahmood on WhatsApp" class="injectable" style="background: none;">
                                           <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512" style="width: 512; height: 512; display: inline-block; vertical-align: middle;">
@@ -383,8 +383,8 @@
                                 <h3>Zayn Ali</h3>
                                 <span>Sr. Product Designer</span>
                                 <div class="virtuo-team__social" aria-label="Zayn Ali social links">
-                                    <a href="https://www.linkedin.com/company/virtuouae/" target="_blank" aria-label="Zayn Ali on LinkedIn" style="background: none;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" style="fill: #EE4C01;" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
+                                    <a href="https://www.linkedin.com/company/virtuouae/" target="_blank" aria-label="Zayn Ali on LinkedIn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="currentColor" d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"/></svg>
                                     </a>
                                     <!-- <a href="https://wa.me/971523746030" target="_blank" aria-label="Zayn Ali on WhatsApp" style="background: none;">
                                          <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512" style="width: 512; height: 512; display: inline-block; vertical-align: middle;">
