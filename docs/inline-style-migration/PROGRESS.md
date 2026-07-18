@@ -4,11 +4,11 @@
 
 - Starting commit: `2785b8c6f568987c19d61de9c151bafe8067c716`
 - Branch: `testing`
-- Current phase: Phase 0 — Inventory and baseline checkpoint
-- Completed phases: Phase 0 inventory, documentation, and local validation
-- Checkpoint commit SHA: pending
-- Staging workflow result: pending
-- Next exact action: create the `Document inline style migration plan` checkpoint, push it only to `origin/testing`, confirm the staging workflow result, record its SHA/result, and begin Phase 1 from shared partials.
+- Current phase: Phase 1 — Shared partials and components checkpoint
+- Completed phases: Phase 0; Phase 1 migration and local validation
+- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`
+- Staging workflow result: Phase 0 `Deploy Virtuo Staging` run `29647928115` succeeded.
+- Next exact action: create the `Migrate shared inline styles to core CSS` checkpoint, push it only to `origin/testing`, confirm the staging workflow result, record its SHA/result, and begin Phase 2 with `index.php`.
 
 ## Original inventory
 
@@ -69,13 +69,13 @@ Initial active template total: **435 `style` attributes across 43 files**, of wh
 | Point in time | Static candidates | PHP-generated finite/static | Retained runtime operations |
 | --- | ---: | ---: | ---: |
 | Baseline | 432 | 3 | 105 |
-| Current | 432 | 3 | 105 |
+| Current after Phase 1 | 414 | 3 | 105 |
 
 ## Migration groups and destinations
 
 | Migration group | Destination | Classes added | Status |
 | --- | --- | --- | --- |
-| Shared header/footer/components | `assets/css/src/core.css` | none yet | Pending Phase 1 |
+| Shared header/footer/components | `assets/css/src/core.css` | `offcanvas-intro`, `offcanvas-whatsapp-icon`, `footer-section-heading`, `footer-contact-icon`, `footer-contact-icon--location`, `footer-address-label`, `footer-form-title`, `footer-form-intro`, `footer-message-input`, `footer-legal-link` | Phase 1 locally validated; checkpoint pending |
 | Home | `assets/css/src/pages/home.css` | none yet | Pending Phase 2 |
 | About | `assets/css/src/pages/about.css` | none yet | Pending Phase 2 |
 | Contact | `assets/css/src/pages/contact.css` | none yet | Pending Phase 2 |
@@ -130,6 +130,19 @@ Initial active template total: **435 `style` attributes across 43 files**, of wh
 | `/definitely-invalid-inline-style-audit` | 404 | 76,829 | core + error |
 
 Every representative render loaded exactly one versioned `core.min.css` and one correct family bundle. None loaded compatibility `main.css` or `main.min.css`.
+
+## Phase 1 results
+
+- Files processed: `partials/header.php`, `partials/footer.php`, and `assets/css/src/core.css`.
+- Static `style` attributes removed: 18 (shared count reduced from 18 to 0).
+- Original declarations moved: 33 declarations, consolidated into 19 scoped CSS declarations through reusable classes/modifiers.
+- Semantic classes added: 10.
+- Remaining active template `style` attributes: 417 total (414 literal static candidates and 3 PHP-generated finite/static candidates).
+- Runtime style operations retained: 105.
+- `core.css`: 656,882 → 657,897 bytes (+1,015).
+- `core.min.css`: 555,333 → 556,224 bytes (+891; +0.16%).
+- Representative rendered HTML decreased by 291 bytes per page because the shared partial markup is emitted on every page.
+- Reuse justification: the added shared rules are loaded once in the cacheable core bundle and replace repeated header/footer declarations in every active page response. No additional CSS request was introduced.
 
 ## Pre-existing unrelated issue
 

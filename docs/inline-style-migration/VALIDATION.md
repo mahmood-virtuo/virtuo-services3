@@ -64,6 +64,13 @@ No browser console inspection was run. Command-line HTML responses loaded the ex
 
 Not applicable before migration edits. Manual desktop/tablet/mobile checks remain pending.
 
+### Phase 0 checkpoint and staging
+
+- Commit: `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50` (`Document inline style migration plan`).
+- Push target: `origin/testing` only.
+- Staging workflow: `Deploy Virtuo Staging` run `29647928115` completed successfully.
+- Production workflow/branch and `virtuo.ae`: not modified or deployed.
+
 ## Baseline CSS hashes
 
 | Output | SHA-256 |
@@ -79,3 +86,46 @@ Not applicable before migration edits. Manual desktop/tablet/mobile checks remai
 | `services.min.css` | `c6a4537db7a8f458514c6dde3e955b1591a6a5fbd84a957c3e3d9c2ba1007a73` |
 | compatibility `main.css` | `18d1a5f35b5e7227a66858a17502d7cf1b0952920bcc8f83f37bf35258c9c503` |
 | compatibility `main.min.css` | `90b23bba376410d64745c4c0844cae6e231e5d0cb5dab30dacf185eb447890b5` |
+
+## Phase 1 — Shared partials and components
+
+### Files changed
+
+- `partials/header.php`
+- `partials/footer.php`
+- `assets/css/src/core.css`
+- Generated outputs: `assets/css/bundles/core.min.css`, compatibility `assets/css/main.css`, and compatibility `assets/css/main.min.css`
+- Migration progress/validation documentation
+
+### Commands and results
+
+- `php -l partials/header.php`: passed.
+- `php -l partials/footer.php`: passed.
+- `npm run build:css`: passed twice; the only notice was the pre-existing skipped remote `intl-tel-input` `@import`.
+- Consecutive SHA-256 manifests for all split bundles and compatibility outputs: identical.
+- `git diff --check`: passed.
+- Targeted active-style search in `partials/header.php` and `partials/footer.php`: zero remaining `style` attributes.
+
+### Route and bundle results
+
+Command-line requests returned HTTP 200 for Home, About, Contact, all five service routes, Blog Listing, a representative Blog Detail article, Privacy Policy, and Terms. The invalid audit route retained HTTP 404.
+
+Every checked render contained exactly one `core.min.css` reference and exactly one correct family bundle reference, with zero `main.css`/`main.min.css` references. All nine split CSS resources and the footer background image returned HTTP 200.
+
+### HTML and CSS size results
+
+| Representative route | Baseline HTML | Phase 1 HTML | Change |
+| --- | ---: | ---: | ---: |
+| `/` | 116,600 | 116,309 | -291 |
+| `/about` | 128,830 | 128,539 | -291 |
+| `/contact` | 99,771 | 99,480 | -291 |
+| `/government-relations-and-pro-services` | 207,443 | 207,152 | -291 |
+| `/blog` | 106,323 | 106,032 | -291 |
+| `/privacy-policy` | 71,650 | 71,359 | -291 |
+| `/definitely-invalid-inline-style-audit` | 76,829 | 76,538 | -291 |
+
+`core.min.css` increased from 555,333 to 556,224 bytes (+891, 0.16%). This shared, cacheable increase replaces repeated markup on every page and introduces no extra CSS request. Compatibility `main.css` is 833,862 bytes and `main.min.css` is 711,261 bytes.
+
+### Browser, responsive, console, and network findings
+
+No browser automation was run. Command-line validation proves syntax, deterministic output, statuses, bundle selection, and direct CSS/background-image availability, but cannot prove computed visual parity. Manual desktop/mobile header and footer checks, tablet footer layout, form field alignment, off-canvas alignment, horizontal overflow, and browser console/network inspection remain required before production use.

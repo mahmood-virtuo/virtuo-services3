@@ -1114,6 +1114,9 @@ textarea {
   margin-bottom: 0;
   text-align: center;
 }
+.offCanvas__content .offcanvas-intro {
+  text-align: left;
+}
 .offCanvas__img {
   margin-bottom: 40px;
 }
@@ -1144,6 +1147,9 @@ textarea {
   font-size: 24px;
   color: var(--tg-theme-primary);
   transform: translateY(1px);
+}
+.offCanvas__side-info .contact-list .offcanvas-whatsapp-icon {
+  padding-right: 18px;
 }
 .offCanvas__side-info .contact-list a,
 .offCanvas__side-info .contact-list p {
@@ -25590,6 +25596,7 @@ select {
 
 /* ---------- Responsive Footer Layout Fix ---------- */
 .footer__area-five {
+  background-image: url(/assets/img/services/footerBackgroundImage-1920x1105.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -25686,6 +25693,21 @@ select {
   align-items: start;
 }
 
+.footer__area-five .footer-reference-left__contact .footer-contact-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+}
+
+.footer__area-five .footer-reference-left__contact .footer-contact-icon--location {
+  margin-top: 8px;
+}
+
+.footer__area-five .footer-address-label {
+  font-size: 19px;
+  font-weight: 400;
+}
+
 .footer__area-five .footer-reference-left__contact p > a,
 .footer__area-five .footer-reference-left__contact > a {
   display: grid;
@@ -25714,6 +25736,22 @@ select {
   max-width: 420px;
 }
 
+.footer__area-five .footer-section-heading {
+  color: #ee4c01;
+}
+
+.footer__area-five .footer-form-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer__area-five .footer-form-intro {
+  color: #ffffffb8;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .footer__area-five .estimate__tab-wrap {
   width: 100%;
   max-width: 520px;
@@ -25728,6 +25766,10 @@ select {
 .footer__area-five .estimate-form-wrap .form-grp input,
 .footer__area-five .estimate-form-wrap .form-grp select {
   width: 100%;
+}
+
+.footer__area-five .estimate-form-wrap .form-grp .footer-message-input {
+  padding: 18px 10px 100px 10px;
 }
 
 .footer__area-five .estimate__tab-inner,
@@ -25786,6 +25828,11 @@ select {
 .footer__area-five .footer__social-two .list-wrap p,
 .footer__area-five .copyright__content-two p {
   margin: 0;
+}
+
+.footer__area-five .footer-legal-link {
+  color: #878ba8;
+  font-weight: 300;
 }
 
 @media (max-width: 1800px) {

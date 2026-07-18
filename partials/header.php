@@ -283,7 +283,7 @@ preloader disabled end -->
             <a href="/"><img src="/assets/img/logo/logo.svg" alt="Virtuo Services" width="145" height="39"></a>
         </div>
         <div class="offCanvas__content">
-            <p style="text-align: left;">Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
+            <p class="offcanvas-intro">Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
         </div>
         <!-- <div class="offCanvas__img">
                 <ul class="list-wrap">
@@ -301,7 +301,7 @@ preloader disabled end -->
                 <p><span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
             </div>
             <div class="contact-list">
-                <a href="https://wa.me/971565151315" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" style="padding-right: 18px;" aria-hidden="true"></i><span>+971 56 515 1315</span></a>
+                <a href="https://wa.me/971565151315" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp offcanvas-whatsapp-icon" aria-hidden="true"></i><span>+971 56 515 1315</span></a>
             </div>
             <div class="contact-list">
                 <i class="flaticon-envelope"></i>
