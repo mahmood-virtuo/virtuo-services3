@@ -204,7 +204,18 @@ Run immediately before commit:
     git status --short
     git diff -- docs/core-css-optimization
 
-Expected result: exactly the six files under docs/core-css-optimization are changed, with no whitespace errors.
+Result: passed. Exactly the six files under docs/core-css-optimization were committed, with no whitespace errors.
+
+## Phase 0 checkpoint and staging
+
+- Checkpoint: bc8c96789f822bb2b4a7af6ce7769785bcbeb973
+- Commit message: Document core CSS optimization baseline
+- Push target: origin/testing only
+- Push result: succeeded
+- Workflow: Deploy Virtuo Staging
+- Run: 29659795632
+- Result: success
+- Main and production: untouched
 
 ## Browser testing
 

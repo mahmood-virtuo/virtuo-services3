@@ -2,33 +2,27 @@
 
 ## Last completed phase
 
-Phase 0 baseline and inventory are complete. Only the six documentation files in this directory are being prepared for the checkpoint. No CSS/PHP/JavaScript implementation has started.
+Phase 0 baseline, inventory, documentation checkpoint, and staging workflow are complete. No CSS/PHP/JavaScript implementation has started.
 
 ## Repository state at this handoff
 
 - Current branch: testing
-- Starting/current pre-checkpoint HEAD: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
-- origin/testing at the Phase 0 safety gate: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
-- Last successful existing commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
-- Pending checkpoint: documentation-only commit named Document core CSS optimization baseline
+- Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
+- Last completed phase checkpoint: bc8c96789f822bb2b4a7af6ce7769785bcbeb973
+- Checkpoint staging run: Deploy Virtuo Staging 29659795632 succeeded
+- Current HEAD: the documentation metadata commit containing this file; resolve exactly with git rev-parse HEAD
+- Required remote equality: current HEAD must equal origin/testing before Phase 1 starts
 - Production/main state: untouched
 
-After the checkpoint is created, use git rev-parse HEAD and git rev-parse origin/testing as the authoritative immutable checkpoint values. The resulting SHA and staging run are reported in the Phase 0 handoff and must be copied into PROGRESS.md when Phase 1 begins; a commit cannot contain its own final hash.
+The completed phase checkpoint and staging run are recorded above. A committed file cannot contain its own final Git hash, so git rev-parse HEAD and git rev-parse origin/testing remain the authoritative values for the metadata commit containing this resume state.
 
 ## Next exact action
 
-1. Validate that exactly the six docs/core-css-optimization files changed.
-2. Run git diff --check and review the complete documentation diff.
-3. Commit with Document core CSS optimization baseline.
-4. Push only testing to origin/testing.
-5. Confirm the existing staging workflow succeeds.
-6. Begin Phase 1 only: document rule-group classification and the finalized dynamic-selector allowlist. Do not edit CSS in Phase 1.
+Begin Phase 1 only: verify the Git safety gate, then document rule-group classification and the finalized dynamic-selector allowlist. Do not edit CSS in Phase 1.
 
 ## Outstanding validation
 
-- Documentation diff/stat/check and final status review.
-- Documentation checkpoint push to origin/testing.
-- Staging workflow result for the documentation checkpoint.
+- Phase 0 required validation: complete.
 - Later phases: computed-style, Coverage, interaction, responsive, console, resource, watcher, and controlled performance comparisons.
 
 ## Known risks

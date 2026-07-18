@@ -4,7 +4,7 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 0 baseline and inventory complete; documentation checkpoint preparation in progress
+- Current phase: Phase 0 baseline, inventory, checkpoint, and staging validation complete
 - Last completed implementation phase: none
 - Next phase: Phase 1 selector and component classification, documentation only
 - Main and production: untouched
@@ -62,9 +62,9 @@ Full commands and results are in VALIDATION.md.
 ### Checkpoint
 
 - Intended message: Document core CSS optimization baseline
-- Commit SHA: pending until this documentation-only checkpoint is created; the resulting immutable SHA is reported in the Phase 0 handoff and will be recorded at the start of Phase 1.
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: bc8c96789f822bb2b4a7af6ce7769785bcbeb973
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29659795632 succeeded
 
 ### Remaining risks
 
