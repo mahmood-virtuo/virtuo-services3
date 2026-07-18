@@ -234,9 +234,45 @@ A targeted first-party PHP/non-minified JavaScript prefix scan found no textual 
 - shop__, benefit__, loan__, features__, challenge__, strategic__, career__
 - login__ and checkout__
 
-The same scan found project__, testimonial__, and pricing__ only in main.js, making them dynamic/uncertain rather than unused. contact__ appears in ajax-form.js. These results are candidate evidence only: comments, PHP generation, plugin output, generic selector parts, pseudo states, breakpoints, and browser DOM/Coverage still must be checked before deletion.
+The same scan found project__, testimonial__, and pricing__ only in main.js, making them dynamic/uncertain rather than unused. contact__ appears in ajax-form.js. These results were candidate evidence only in Phase 1. Phase 2 completed the required rendered DOM, interaction, plugin-initializer and Chromium Coverage checks described below.
 
 Large active or shared prefixes include header/menu, slider, about, services, CTA, team, FAQ, blog, marquee, choose, work, estimate, contact form, and footer. A whole family must not be removed when even one live variant remains.
+
+## Phase 2 unused-CSS evidence disposition
+
+Phase 2 remained evidence-only: no CSS rule was removed or moved. It combined the Phase 1 exhaustive initial-render scan of all 86 canonical routes plus Error with a restricted Chromium interaction/Coverage pass over 12 representative routes at 1440 x 1000 and 390 x 844.
+
+The representative browser matrix covered Home, About, Contact, a standard service, a Digital Marketing query tab, Blog listing, Blog category, a standard Blog detail, a calculator Blog detail, an interactive Emirates Blog detail, Legal and Error. It exercised desktop off-canvas, mobile navigation, phone-country UI, Home slider and service tabs, service accordion and panel tabs, Digital Marketing dynamic navigation, Blog load-more, Blog TOC, calculator input, Emirates filtering, footer form focus and link hover states.
+
+Chromium CSS Coverage aggregated 195 used ranges and 67,227 decoded characters, or 12.08% of the 556,477-character browser representation of core.min.css. Coverage is a candidate-specific signal rather than an instruction to delete the other 87.92%: only the groups below passed every applicable evidence gate.
+
+| Candidate group | Active PHP/source evidence | Runtime/plugin evidence | DOM before/after interactions | Candidate token occurrences covered | Phase 2 disposition |
+| --- | --- | --- | --- | ---: | --- |
+| Preloader | Markup and invocation are commented | Dormant function only | 0 | 0 / 6 | Approved for a later small Phase 4 deletion checkpoint; commented source is handled separately in Phase 7. |
+| Search popup | No popup or opener markup | Event handlers bind to absent elements | 0 | 0 / 15 | Approved for later Phase 4 deletion; active header/mobile states remain retained. |
+| Banner | No active class reference | No generator/initializer | 0 | 0 / 197 | Approved for later Phase 4 deletion. |
+| Brand | No active class reference | Guarded Swiper initializers return when markup is absent | 0 | 0 / 31 | Approved for later Phase 4 deletion. |
+| History | No active class reference | No generator/initializer | 0 | 0 / 117 | Approved for later Phase 4 deletion. |
+| Counter | No active class reference | No generator/initializer | 0 | 0 / 92 | Approved for later Phase 4 deletion. |
+| Video | No active class reference | No generator/initializer | 0 | 0 / 65 | Approved for later Phase 4 deletion. |
+| Project | No active PHP class reference | Guarded Swiper initializers return when markup is absent | 0 | 0 / 297 | Approved for later Phase 4 deletion. |
+| Testimonial | No active PHP class reference | Guarded Swiper initializers return when markup is absent; alternate implementation is commented | 0 | 0 / 155 | Approved for later Phase 4 deletion. |
+| Callback | No active class reference | No generator/initializer | 0 | 0 / 46 | Approved for later Phase 4 deletion. |
+| Core value | No active class reference | No generator/initializer | 0 | 0 / 19 | Approved for later Phase 4 deletion. |
+| Shop/product | No active PHP class reference | Guarded Swiper and absent-element coupon handlers | 0 | 0 / 144 | Approved for later Phase 4 deletion. |
+| Benefit | No active class reference | No generator/initializer | 0 | 0 / 26 | Approved for later Phase 4 deletion. |
+| Loan | No active class reference | No generator/initializer | 0 | 0 / 19 | Approved for later Phase 4 deletion. |
+| Features | No active class reference | No generator/initializer | 0 | 0 / 39 | Approved for later Phase 4 deletion. |
+| Challenge | No active class reference | No generator/initializer | 0 | 0 / 9 | Approved for later Phase 4 deletion. |
+| Strategic | No active class reference | No generator/initializer | 0 | 0 / 6 | Approved for later Phase 4 deletion. |
+| Pricing | No active PHP class reference | Event handlers bind to absent trigger/target elements | 0 | 0 / 30 | Approved for later Phase 4 deletion. |
+| Career | No active class reference | No generator/initializer | 0 | 0 / 43 | Approved for later Phase 4 deletion. |
+| Login | No active class reference | No generator/initializer | 0 | 0 / 19 | Approved for later Phase 4 deletion. |
+| Checkout/cart | No active PHP class reference | Guarded shop initializer and absent-element coupon handler only | 0 | 0 / 32 | Approved for later Phase 4 deletion. |
+
+The coverage token sets were deliberately candidate-specific: preloader, search popup, banner, brand, history, counter, video, project, testimonial, callback, core value, shop/related product, benefit, loan, features, challenge, strategic, pricing, career, login and checkout/cart. Generic tokens such as active, title, row, form-grp, swiper-slide and tab-btn were not used as deletion evidence because live components share them.
+
+No group is to be removed wholesale merely from this table. Phase 4 must re-resolve exact current rule boundaries, related media rules, keyframes, custom properties and URLs immediately before each small deletion checkpoint.
 
 ## Dynamic-selector risks and initial allowlist
 

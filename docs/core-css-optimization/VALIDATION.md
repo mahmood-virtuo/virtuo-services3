@@ -274,3 +274,87 @@ Final documentation checks before checkpoint:
     git status --short
 
 Expected CSS sizes remain core.css 658,214 bytes and core.min.css 556,488 bytes.
+
+## Phase 2 unused-CSS evidence validation
+
+Safety gate before evidence collection:
+
+    git branch --show-current
+    git status --short
+    git rev-parse HEAD
+    git rev-parse origin/testing
+
+Result: testing, clean worktree, and both refs at b31857f3febeb04b82053c88e79310d0fad6e0e1. The Phase 1 checkpoint had already passed Deploy Virtuo Staging run 29660320319.
+
+### Repository/runtime-owner audit
+
+A focused active PHP and non-minified first-party JavaScript search found:
+
+- Preloader markup and invocation only in comments; a dormant function remains in main.js.
+- Search popup event handlers but no active opener or popup markup.
+- Guarded Swiper calls for Brand, Project, Testimonial and Shop. virtuoInitSwiper() returns null before construction when the selector is absent.
+- Pricing and coupon handlers bound to absent triggers/targets.
+- No active first-party class reference or generator for the other approved legacy groups.
+- contact__ and the active form response states remain excluded from deletion because ajax-form.js owns them.
+
+### Browser setup and matrix
+
+The in-app browser skill was selected because the phase required browser evidence. Its required Node bridge rejected the session before navigation because codex/sandbox-state-meta did not include sandboxPolicy, and the nested tool interface did not permit supplying that metadata. Following the skill fallback, the already-installed Playwright package launched the local Google Chrome binary; no package or browser was installed. No screenshot was taken because no regression/correction needed documenting.
+
+The browser tested 12 routes at desktop 1440 x 1000 and mobile 390 x 844, for 24 total route states:
+
+- Home, About, Contact.
+- Standard Services and a Digital Marketing query-tab route.
+- Blog listing and a category listing.
+- Standard, calculator and interactive Emirates Blog details.
+- Legal and a generic invalid Error route.
+
+All 22 valid route states returned 200; both invalid states returned 404. Every state loaded core first, exactly one expected family bundle second, and no compatibility main.css/main.min.css.
+
+### Interaction results
+
+- Desktop off-canvas and mobile menu opened and closed.
+- Phone-country UI opened; footer inputs received focus.
+- Home slide pagination and service tabs changed state where available.
+- Standard Services selected the freezone panel and verified both link and panel is-active.
+- Digital Marketing changed from paid advertising to analytics/performance marketing and updated both URL and aria-current selection.
+- Services FAQ accordion opened.
+- Blog load-more reduced blog-load-hidden items from 6 to 1 on both viewports.
+- Desktop Blog TOC navigation activated; its mobile sidebar link is intentionally absent at the tested breakpoint.
+- The wireless/ITAD calculator revenue input changed from 5,000,000 to 45,000,000 on both viewports.
+- The Emirates article Tech/AI/SaaS filter reported aria-selected=true on both viewports.
+- Representative links were hovered and article/footer controls focused without an unexpected page error.
+
+### DOM matching and Chromium CSS Coverage
+
+Before and after the interaction pass, no class matching any of the 21 candidate groups appeared on any tested state. This corroborates the Phase 1 exhaustive initial DOM scan of all 86 canonical routes plus Error.
+
+The aggregated core result was:
+
+- Browser-decoded core text: 556,477 characters. The checked-in filesystem asset remains 556,488 bytes.
+- Normalized used ranges: 195.
+- Used decoded characters: 67,227 / 12.08%.
+- Candidate-specific covered occurrences: zero for all groups.
+
+Candidate occurrence totals were Preloader 6, Search 15, Banner 197, Brand 31, History 117, Counter 92, Video 65, Project 297, Testimonial 155, Callback 46, Core value 19, Shop/related product 144, Benefit 26, Loan 19, Features 39, Challenge 9, Strategic 6, Pricing 30, Career 43, Login 19 and Checkout/cart 32.
+
+Generic/shared class tokens were intentionally excluded from the coverage decision. Coverage did not authorize removal of all uncovered CSS; only the selector groups passing the complete evidence standard were dispositioned in INVENTORY.md.
+
+### Console and resource result
+
+- Page errors: 0.
+- Unexpected failed asset requests: 0.
+- The invalid document produced the expected 404 console resource entry once per viewport.
+- Nine preload-unused warnings referenced existing HEADER/HEADER_Mobile or Blog hero images. They predate and are unrelated to this documentation-only phase.
+- One initial desktop load-more click became unstable as its IntersectionObserver hid the sentinel during scrolling. A focused follow-up dispatched the real click event before intersection and verified the 6-to-1 state change on both viewports.
+
+### Phase 2 checkpoint validation
+
+Run before commit:
+
+    npm run build:css
+    git diff --stat
+    git diff --check
+    git status --short
+
+Expected result: deterministic CSS outputs remain unchanged and exactly the five Phase 2 documentation files are modified.

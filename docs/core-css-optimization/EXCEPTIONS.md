@@ -2,7 +2,7 @@
 
 This register starts in Phase 0. An entry means retain until stronger evidence proves a safe move or deletion; it does not mean the selector must remain in core forever.
 
-Phase 1 status: the allowlist below was revalidated against all canonical rendered route families and the active first-party JavaScript sources. Every listed group remains retained for Phase 2 unless direct runtime evidence narrows it.
+Phase 2 status: the allowlist below was revalidated against all canonical rendered route families and the active first-party JavaScript sources. Restricted desktop/mobile DOM, interaction and Coverage evidence narrowed the legacy exceptions listed in the Phase 2 disposition section; all other dynamic/plugin groups remain retained.
 
 ## Dynamic and third-party selector allowlist
 
@@ -12,7 +12,7 @@ Phase 1 status: the allowlist below was revalidated against all canonical render
 | jQuery Marquee | js-marquee, js-marquee-wrapper, marquee__*, is-marquee-ready, change-subs-duration | Wrappers/clones and ready states are created at runtime. |
 | intl-tel-input | iti, iti__*, country/list/dropdown/flag/selected-country/validation states | The phone library generates markup and state classes around every shared footer phone input. |
 | AOS/WOW | aos-init, aos-animate, wow, animated, data-aos states | Third-party animation libraries add/remove these at runtime. |
-| Header/mobile/search | mobile-menu-visible, sticky-menu, search-opened, search-popup-overlay-open, open, active, menu-item-has-children, virtuo-mega-menu-trigger, mega-menu is-active | main.js and virtuo-mega-menu.js create/toggle these interaction states. |
+| Header/mobile | mobile-menu-visible, sticky-menu, open, active, menu-item-has-children, virtuo-mega-menu-trigger, mega-menu is-active | main.js and virtuo-mega-menu.js create/toggle these interaction states. Search-popup-only states were narrowed separately by Phase 2 evidence. |
 | Service tabs | is-active, is-open, digital-panel-changing, digital-panel-ready, service-tab-*, digital-service-*, data-service-*, data-digital-service-* | First-party JavaScript changes panels, tabs, nested tabs, content, and API-injected markup. |
 | Service breadcrumbs | is-hidden, js-service-breadcrumb-* | Initial PHP state and runtime breadcrumb updates both use these classes. |
 | Blog listing | blog-load-hidden, listing sticky slot/inner classes, load-more button/sentinel/data attributes | Load-more and sticky behavior depends on runtime visibility and measured geometry. |
@@ -35,13 +35,14 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 - Legal has an empty source and uses shared core foundations. No generic typography may be moved to legal.css without exclusive ownership evidence.
 - Error has no body class, so error ownership must continue to rely on proven template-exclusive selectors rather than broad element selectors.
 
-## Static-search candidate exceptions
+## Phase 2 narrowed legacy exceptions
 
-- project__, testimonial__, and pricing__ have no active PHP match but are referenced by main.js. Retain until JavaScript initialization, rendered DOM, interactions, and Coverage prove whether their variants are active.
+- project__, testimonial__, brand__ and shop__ have no active PHP match. Their main.js Swiper calls all use virtuoInitSwiper(), which returns before initialization when the requested selector is absent. The exhaustive rendered scan, restricted interaction scan and candidate Coverage all found no applicable markup or used candidate token; their CSS is approved for later Phase 4 boundary-safe deletion.
+- pricing__ and search-popup-only selectors have event handlers but no active trigger or target markup. The same DOM/interaction/Coverage gates found zero applicable markup and zero covered candidate tokens, so their CSS is approved for later Phase 4 boundary-safe deletion. Active header/mobile/menu states remain allowlisted.
+- Preloader markup and invocation are commented. Its dormant function found no runtime element, and its candidate selectors had zero Coverage; its CSS is approved for later Phase 4 deletion. Commented markup/function cleanup remains a separate Phase 7 decision.
 - contact__ is referenced by ajax-form.js even when an initial PHP prefix scan does not find it. Retain form feedback/error paths until interaction validation is complete.
-- Any prefix with zero first-party text matches remains only a candidate. Data, plugin generation, pseudo states, and Coverage must still be checked.
-- Search popup rules remain retained even though no initial rendered search class was found because main.js toggles search-opened and search-popup-overlay-open.
-- Preloader markup and invocation are commented, but the function and CSS remain first-party source. Treat as a Phase 2 deletion candidate, not an automatic Phase 1 removal.
+- Banner, History, Counter, Video, Callback, Core value, Benefit, Loan, Features, Challenge, Strategic, Career, Login and Checkout have no active source/runtime owner, no DOM match across the exhaustive initial scan or representative interactions, and zero covered candidate tokens. They are approved for later Phase 4 boundary-safe deletion.
+- Any new prefix with zero first-party text matches remains only a candidate until it independently passes the same data, plugin, pseudo-state, responsive, interaction and Coverage gates.
 
 ## Remote intl-tel-input import
 
@@ -66,14 +67,12 @@ Phase 7 must retain:
 
 The 136 code-shaped Phase 0 comment candidates require manual context review. No candidate is deletion-approved merely because it resembles code.
 
-## Phase 0 unresolved evidence
+## Phase 2 evidence closure
 
-- No browser DOM matching or Coverage was run because Phase 0 changed no CSS.
-- No computed-style comparison exists yet.
-- No interaction-state Coverage exists yet.
-- No production or staging browser observation was used as deletion proof.
-
-These gaps are expected at baseline and prevent any unused-selector deletion until later phases satisfy the evidence standard.
+- Browser DOM matching and interaction-state Coverage are now complete for the approved legacy candidates at representative desktop and mobile viewports.
+- The 86-route initial DOM scan plus Error remains the exhaustive route-presence evidence; the 24-state browser matrix supplies interaction, plugin and responsive evidence.
+- No production browser observation was used. Evidence came from the tested local checkout at the exact testing-branch checkpoint.
+- Computed-style parity remains required after actual extraction/deletion checkpoints; Phase 2 itself changed no CSS.
 
 ## Phase 1 limited-family exceptions
 

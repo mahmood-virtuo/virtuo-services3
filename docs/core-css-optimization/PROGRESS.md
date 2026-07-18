@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 1 ownership classification complete; documentation validation in progress
+- Current phase: Phase 2 unused-CSS evidence complete; documentation checkpoint in progress
 - Last completed implementation phase: none
-- Next phase: Phase 1 selector and component classification, documentation only
+- Next phase: Phase 3 Home-family extraction after the Phase 2 checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -76,10 +76,6 @@ Full commands and results are in VALIDATION.md.
 - Visual/cascade parity is not established by command-line Phase 0 checks; restricted browser testing is required after implementation starts.
 - The large mixed section after the Footer heading must be classified carefully rather than treated as footer-owned.
 
-## Next exact action
-
-After the Phase 1 documentation checkpoint and successful staging workflow, begin Phase 2 only: apply the complete unused-CSS evidence standard to every Category D and E/D candidate. Do not delete CSS during the evidence checkpoint.
-
 ## Phase 1 — Complete CSS ownership classification
 
 Status: classification complete; no CSS implementation performed.
@@ -130,9 +126,9 @@ Status: classification complete; no CSS implementation performed.
 ### Checkpoint
 
 - Intended message: Classify core CSS ownership
-- Commit SHA: pending documentation checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: b31857f3febeb04b82053c88e79310d0fad6e0e1
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29660320319 succeeded
 
 ### Remaining risks
 
@@ -140,3 +136,60 @@ Status: classification complete; no CSS implementation performed.
 - Category D entries are candidates only until Phase 2 DOM, interaction and Coverage evidence passes.
 - Original headings are mixed ownership and cannot be moved/deleted wholesale.
 - Generic states and plugin-generated classes remain deliberately retained.
+
+## Phase 2 — Unused CSS evidence checkpoint
+
+Status: evidence complete; no CSS implementation performed.
+
+### Files changed
+
+- docs/core-css-optimization/INVENTORY.md
+- docs/core-css-optimization/PROGRESS.md
+- docs/core-css-optimization/VALIDATION.md
+- docs/core-css-optimization/EXCEPTIONS.md
+- docs/core-css-optimization/RESUME.md
+
+### Exact rules moved or removed
+
+- CSS rules moved: 0
+- CSS rules removed: 0
+- Selectors removed: 0
+- Declarations consolidated: 0
+- Remote imports changed: 0
+- Commented code removed: 0
+
+### Before and after sizes
+
+| File | Before Phase 2 | After Phase 2 | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 658,214 bytes | 658,214 bytes | 0 |
+| assets/css/bundles/core.min.css | 556,488 bytes | 556,488 bytes | 0 |
+| assets/css/main.css | 839,840 bytes | 839,840 bytes | 0 |
+| assets/css/main.min.css | 716,409 bytes | 716,409 bytes | 0 |
+
+### Evidence result
+
+- Combined the exhaustive 86-canonical-route plus Error initial DOM evidence with 24 representative desktop/mobile browser states.
+- Exercised shared navigation/off-canvas/phone/form states, Home slider and tabs, Services panels/accordion/Digital Marketing navigation, Blog load-more/TOC/calculator/Emirates interactions, Legal and Error.
+- All route/status/family-order checks passed in the browser matrix.
+- No candidate group appeared before or after interactions.
+- Candidate-specific Chromium Coverage found zero covered token occurrences for all 21 candidate groups.
+- Approved only the candidate groups recorded in INVENTORY.md for later small Phase 4 deletion checkpoints; no broad unused-percentage deletion is authorized.
+
+### Checkpoint
+
+- Intended message: Document unused core CSS evidence
+- Commit SHA: pending documentation checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Candidate approval does not replace exact rule-boundary, keyframe, custom-property, URL and media dependency checks immediately before deletion.
+- Phase 3 extraction changes cascade ownership and needs computed-style/browser parity per family checkpoint.
+- Known preload warnings remain unrelated to this documentation-only phase.
+- The in-app browser bridge was unavailable because required sandbox metadata was not forwarded; the browser skill fallback used the installed Playwright and local Google Chrome without installing dependencies.
+
+## Next exact action
+
+After this Phase 2 documentation checkpoint is committed, pushed to origin/testing and its staging workflow succeeds, begin Phase 3 with the Home family only. Move complete Home-exclusive groups into home.css, rebuild, validate the complete route map plus restricted desktop/mobile interaction/computed-style parity, then checkpoint before continuing to About.
