@@ -1,51 +1,54 @@
 # Core CSS Optimization Resume State
 
-## Last completed phase
+## Last completed checkpoint
 
-Phase 1 ownership classification is committed, pushed to origin/testing and green on staging. Phase 2 unused-CSS evidence is complete and awaiting its documentation checkpoint. No CSS/PHP/JavaScript implementation has started.
+Phase 2 unused-CSS evidence is committed, pushed to origin/testing and green on staging. The Phase 3 Home-family extraction is implemented and validated, and is awaiting its checkpoint commit/push/staging result.
 
 ## Repository state at this handoff
 
 - Current branch: testing
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
-- Last completed phase checkpoint: b31857f3febeb04b82053c88e79310d0fad6e0e1
-- Checkpoint staging run: Deploy Virtuo Staging 29660320319 succeeded
-- Current HEAD: the documentation commit containing this file; resolve exactly with git rev-parse HEAD
-- Required remote equality: current HEAD must equal origin/testing before Phase 3 starts
+- Last completed checkpoint: a090a82d2bebfb182da16f8bddf17a192d5a2f5d
+- Last completed staging run: Deploy Virtuo Staging 29660863968 succeeded
+- Current HEAD: the Home checkpoint containing this file; resolve exactly with git rev-parse HEAD
+- Required remote equality: current HEAD must equal origin/testing before About starts
 - Production/main state: untouched
 
-A committed file cannot contain its own final Git hash, so git rev-parse HEAD and git rev-parse origin/testing remain authoritative for the metadata commit containing this resume state.
+A committed file cannot contain its own final Git hash, so git rev-parse HEAD and git rev-parse origin/testing remain authoritative for the checkpoint containing this resume state.
+
+## Home extraction completed locally
+
+- 86 complete normal rules plus 2 hoverShine keyframe blocks moved from core.css to the beginning of home.css.
+- core.css: 658,214 to 644,193 bytes.
+- core.min.css: 556,488 to 544,605 bytes.
+- home.min.css: 11,472 to 23,415 bytes.
+- Exact desktop/mobile computed hashes matched before and after.
+- All 89 route probes and 17 local stylesheet assets passed.
+- The 10-state Home/shared browser smoke passed without overflow, console/page errors or failed resources.
 
 ## Next exact action
 
-Validate, commit and push the Phase 2 documentation checkpoint to origin/testing. Confirm the Deploy Virtuo Staging workflow succeeds. Then begin Phase 3 with Home only: re-resolve exact complete Home-exclusive rules, move them to home.css without selector/declaration/media changes, rebuild, run route and restricted desktop/mobile parity validation, and checkpoint before About.
+Run final diff checks, commit the Home checkpoint with message Extract Home CSS from core, push only to origin/testing and wait for Deploy Virtuo Staging success. Then pass a fresh Git gate and begin About only.
 
-## Completed Phase 2 evidence
+## Outstanding phases
 
-- 86 canonical routes plus Error supplied exhaustive initial rendered-class evidence.
-- 12 representative routes at desktop and mobile supplied 24 DOM/interaction/Coverage states.
-- All route/status/core/family/order checks passed.
-- All required interaction families were exercised, with focused follow-up closing load-more, service tab, Digital Marketing, calculator and Emirates-filter states on both viewports.
-- No candidate group matched the DOM before or after interactions.
-- All 21 candidate groups recorded zero covered candidate token occurrences in Chromium CSS Coverage.
-- No CSS rule was moved or deleted in Phase 2.
-
-## Outstanding validation
-
-- Phase 2 documentation build/diff/check and staging checkpoint: pending.
-- Phase 3: family extraction in the fixed order Home, About, Contact, Services, Blog listing, Blog details, Legal, Error.
-- Later phases: approved unused-group deletion, duplicate consolidation, remote import optimization, dead-comment cleanup, build/watcher, exhaustive route matrix, restricted regression and controlled performance comparison.
+- Phase 3: About, Contact, Services, Blog listing, Blog details, Legal and Error family reviews/extractions in that order.
+- Phase 4: approved unused-group deletion in small checkpoints.
+- Phase 5: exact duplicate and keyframe consolidation.
+- Phase 6: remote intl-tel-input import optimization.
+- Phase 7: dead commented-code review/removal.
+- Phase 8: build/watcher verification.
+- Phase 9: exhaustive route/status/asset validation.
+- Phase 10: restricted desktop/mobile regression.
+- Phase 11: controlled performance comparison and final report.
 
 ## Known risks
 
-- core.css remains 658,214 bytes and core.min.css remains 556,488 bytes.
-- Approved unused candidates still require exact current rule/media/keyframe/custom-property/URL boundary checks immediately before deletion.
-- The final 158,122-byte measured section contains footer plus mixed later overrides and cannot be assigned wholesale.
-- Dynamic/plugin selectors and generic state names remain allowlisted.
-- Seventeen same-context exact duplicate groups require cascade-position review.
-- The remote intl-tel-input import remains in generated core and compatibility CSS.
-- Computed-style parity is still required after each implementation checkpoint.
-- The in-app browser Node bridge was unavailable in Phase 2; the approved fallback used installed Playwright and local Google Chrome without installing dependencies.
+- Shared Home/About/Contact/Blog selector groups intentionally remain in core.
+- Core is still 544,605 minified bytes and retains approved legacy candidates until Phase 4.
+- Every later family movement needs a new cascade/computed-style baseline.
+- The remote intl-tel-input import and duplicate candidates remain unchanged.
+- The in-app browser Node bridge remains unavailable; the approved installed Playwright/local Chrome fallback was used.
 
 ## Recovery rule
 

@@ -358,3 +358,80 @@ Run before commit:
     git status --short
 
 Expected result: deterministic CSS outputs remain unchanged and exactly the five Phase 2 documentation files are modified.
+
+## Phase 3 Home-family extraction validation
+
+### Safety and ownership gate
+
+The post-Phase-2 gate passed on testing with a clean worktree and HEAD equal to origin/testing at a090a82d2bebfb182da16f8bddf17a192d5a2f5d. Deploy Virtuo Staging run 29660863968 had succeeded before source editing began.
+
+All 86 canonical rendered routes were rechecked for the candidate component classes. The extracted Core Services item/wrap/thumb/content classes occur only on Home. Home Blog item/thumb/date/content/tag/author primitives occur only on Home. White-title, slider navigation/pagination, About mask/shape, shine helper and the mobile non-Blog slider fix likewise have an applicable active owner only on Home.
+
+home-main-cta was found on Home and About, so it was not moved. The mixed body.home-page/body.contact-page/body.about-page eye rules and Home/Blog-details slider primitives were also retained in core.
+
+### Exact structural movement
+
+- Core normal rules: 4,643 to 4,557.
+- Home normal rules: 83 to 169.
+- Core keyframes: 30 to 28.
+- Home keyframes: 0 to 2.
+- Normal rules moved: 86; keyframe blocks moved: 2; rules deleted: 0.
+
+Extracted source spans totaled 14,021 core bytes. The Home source gained 14,099 bytes including review separation and the ownership comment.
+
+### Build and sizes
+
+Command:
+
+    npm run build:css
+
+Result: passed with the unchanged known remote intl-tel-input import notice.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.min.css | 556,488 | 544,605 | -11,883 |
+| home.min.css | 11,472 | 23,415 | +11,943 |
+| Home core + family | 567,960 | 568,020 | +60 |
+| main.css | 839,840 | 839,918 | +78 |
+| main.min.css | 716,409 | 716,469 | +60 |
+
+### Computed-style and geometry parity
+
+Before and after snapshots used installed Playwright/Google Chrome with reduced motion at 1440 x 1000 and 390 x 844. They captured geometry plus display, position, dimensions, spacing, color/background/border, overflow/object-fit, flex alignment, opacity/visibility/transform and typography for 23 affected targets after activating a Home service tab.
+
+- Desktop SHA-256 before/after: 28c6957f3498a1c5aa724bc1b72fe7a0504ce905cd102e913462cbec0eb11efa.
+- Mobile SHA-256 before/after: 7f8a38ea17d55d0659d378fc6f3d926ea289219a6e0f404733c3cf2b18e2e61e.
+- Desktop document metrics before/after: scrollWidth 1440, clientWidth 1440, body height 6633.
+- Mobile document metrics before/after: scrollWidth 390, clientWidth 390, body height 10487.
+
+### Exhaustive route and asset validation
+
+The local validator covered 86 sitemap routes plus invalid category, invalid tag and generic invalid probes:
+
+- Route/status/family/order/compatibility failures: 0.
+- Unique local stylesheet URLs: 17.
+- Local stylesheet HTTP failures: 0.
+
+### Restricted browser smoke
+
+The final smoke covered Home, About, standard Services, Blog listing and calculator Blog detail at both desktop and mobile, for 10 states. It exercised desktop off-canvas, mobile menu, Home hero pagination, Home service tabs, Home Blog card hover, Services panel and FAQ, Blog load-more and the article calculator.
+
+Results:
+
+- HTTP/status or bundle mapping failures: 0.
+- Horizontal-overflow failures: 0.
+- Console errors: 0.
+- Page errors: 0.
+- Failed resource responses: 0.
+- Blog load-more hidden count: 6 to 1 on both viewports.
+- Calculator value: 45,000,000 on both viewports.
+
+No screenshots were taken because no regression or correction required documentation.
+
+### Final checkpoint checks
+
+    git diff --stat
+    git diff --check
+    git status --short
+
+These must pass immediately before committing the Home checkpoint.

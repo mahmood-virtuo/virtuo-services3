@@ -274,6 +274,39 @@ The coverage token sets were deliberately candidate-specific: preloader, search 
 
 No group is to be removed wholesale merely from this table. Phase 4 must re-resolve exact current rule boundaries, related media rules, keyframes, custom properties and URLs immediately before each small deletion checkpoint.
 
+## Phase 3 family extraction ledger
+
+### Home
+
+The Home checkpoint moved 86 complete normal rules and both hoverShine keyframe blocks from core.css to the beginning of home.css. Prepending the extracted rules preserves their order relative to the already-extracted Home override layer; selector text, declaration text/order and media contexts were unchanged.
+
+| Home-exclusive logical group | Normal rules | Keyframe blocks | Source bytes moved |
+| --- | ---: | ---: | ---: |
+| White section-title modifier | 3 | 0 | 214 |
+| hoverShine animation | 0 | 2 | 118 |
+| Slider navigation and bar pagination | 18 | 0 | 2,864 |
+| Home About mask | 6 | 0 | 858 |
+| Home About decorative shape | 3 | 0 | 255 |
+| Core Services item | 1 | 0 | 225 |
+| Core Services tab layout and states | 19 | 0 | 3,094 |
+| Core Services image | 2 | 0 | 171 |
+| Core Services content | 7 | 0 | 1,012 |
+| Shine helper | 3 | 0 | 833 |
+| Home Blog area/item/thumb/date/content/tag/author primitives | 19 | 0 | 3,327 |
+| Mobile Home hero containment/state fix | 5 | 0 | 1,050 |
+| Total | 86 | 2 | 14,021 |
+
+The exact removed core spans total 14,021 bytes. home.css gained 14,099 bytes because the moved content is separated for review and includes a 78-byte ownership heading plus spacing.
+
+The following superficially Home-named groups were deliberately not moved:
+
+- home-main-cta renders on both Home and About.
+- virtuo-eye responsive rules combine Home with Contact and About selectors.
+- slider area/content/background primitives render on Home and Blog details.
+- about__area-four and about__img-four render on Home and About.
+
+Their shared ownership remains Category C/A until a later safe duplication or shared-core decision.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

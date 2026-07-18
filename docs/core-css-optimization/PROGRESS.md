@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 2 unused-CSS evidence complete; documentation checkpoint in progress
-- Last completed implementation phase: none
-- Next phase: Phase 3 Home-family extraction after the Phase 2 checkpoint and green staging workflow
+- Current phase: Phase 3 Home-family extraction validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 3 Home-family extraction, awaiting checkpoint
+- Next phase: Phase 3 About-family extraction after the Home checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -179,9 +179,9 @@ Status: evidence complete; no CSS implementation performed.
 ### Checkpoint
 
 - Intended message: Document unused core CSS evidence
-- Commit SHA: pending documentation checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: a090a82d2bebfb182da16f8bddf17a192d5a2f5d
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29660863968 succeeded
 
 ### Remaining risks
 
@@ -190,6 +190,70 @@ Status: evidence complete; no CSS implementation performed.
 - Known preload warnings remain unrelated to this documentation-only phase.
 - The in-app browser bridge was unavailable because required sandbox metadata was not forwarded; the browser skill fallback used the installed Playwright and local Google Chrome without installing dependencies.
 
+## Phase 3 — Home family extraction
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/src/pages/home.css
+- assets/css/bundles/core.min.css
+- assets/css/bundles/home.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+No PHP, JavaScript, route, server, sitemap, loader, dependency or workflow file changed.
+
+### Exact rules moved or removed
+
+- Normal CSS rules moved: 86
+- Keyframe blocks moved: 2, both hoverShine definitions
+- CSS rules deleted: 0
+- Selectors or declarations rewritten: 0
+- Selectors split: 0
+- Remote imports changed: 0
+
+Moved logical groups: Home-only white title modifier, slider navigation/bar pagination, About mask/shape, Core Services item/tab/thumb/content/shine rules, Home Blog card primitives and the mobile Home hero fix. Exact per-group counts are in INVENTORY.md.
+
+### Before and after sizes
+
+| File | Before Home | After Home | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 658,214 | 644,193 | -14,021 |
+| assets/css/src/pages/home.css | 13,080 | 27,179 | +14,099 |
+| assets/css/bundles/core.min.css | 556,488 | 544,605 | -11,883 |
+| assets/css/bundles/home.min.css | 11,472 | 23,415 | +11,943 |
+| Home core + family minified | 567,960 | 568,020 | +60 |
+| assets/css/main.css | 839,840 | 839,918 | +78 |
+| assets/css/main.min.css | 716,409 | 716,469 | +60 |
+
+The active Home payload is effectively unchanged apart from a 60-byte minifier/order difference. Every non-Home route drops the full 11,883 minified core bytes because it does not load home.min.css. Compatibility main CSS remains non-rendered and retains all moved rules.
+
+### Validation performed
+
+- Fresh branch/worktree/remote gate passed at a090a82d2bebfb182da16f8bddf17a192d5a2f5d.
+- npm run build:css passed and generated all expected bundles.
+- Structural count moved from core 4,643 to 4,557 normal rules and from Home 83 to 169; core keyframes dropped from 30 to 28 and Home gained 2.
+- Desktop and mobile computed-style/geometry hashes for 23 affected selectors matched the pre-edit baselines exactly.
+- Document widths and heights matched: desktop 1440/1440/6633 and mobile 390/390/10487.
+- All 86 sitemap routes plus three invalid probes passed status, exact core/family order and no-compatibility checks; all 17 local stylesheets returned 200.
+- A 10-state desktop/mobile smoke covered Home, About, Services, Blog listing and Blog detail with shared navigation and affected interactions. It found no overflow, console errors, page errors or failed resources.
+
+### Checkpoint
+
+- Intended message: Extract Home CSS from core
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Moving rules between bundles can change cascade order; exact computed parity passed for the Home-owned targets, but later family extractions require their own fresh baselines.
+- Shared Home/About/Contact/Blog groups remain in core by design.
+- Compatibility main.css grew 78 source bytes due ownership separation, but remains non-rendered and preserves all rules.
+
 ## Next exact action
 
-After this Phase 2 documentation checkpoint is committed, pushed to origin/testing and its staging workflow succeeds, begin Phase 3 with the Home family only. Move complete Home-exclusive groups into home.css, rebuild, validate the complete route map plus restricted desktop/mobile interaction/computed-style parity, then checkpoint before continuing to About.
+After the Home checkpoint is committed, pushed to origin/testing and green on staging, begin the About family only. Re-resolve About-exclusive rules while retaining Home/About and About/Contact shared groups, then repeat build, exhaustive routes, restricted desktop/mobile computed/interactions and checkpoint validation.
