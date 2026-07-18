@@ -90,14 +90,14 @@
         <section class="about__area section-py-130 about-intro-section">
             <div class="container site-content-gutter custom-container about-page-container">
                 <div class="row align-items-center justify-content-center about-split-row">
-                    <div class="col-lg-6 col-md-9">
+                    <div class="col-lg-6 col-md-9 about-intro-media-column">
                         <div class="about__img-wrap">
                             <div>
                                 <img src="assets/img/images/about_img01.webp" alt="About Img01" loading="eager" fetchpriority="high" decoding="async" width="713" height="755">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 about-intro-content-column">
                         <div class="about__content">
                             <div class="section__title mb-15">
                                 <span class="sub-title">about Us</span>
