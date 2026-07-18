@@ -39,7 +39,10 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/main.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php
+    $virtuoCssFamily = 'services';
+    include __DIR__ . '/partials/main-styles.php';
+    ?>
 </head>
 
 <body class="service-page uae-business-formation-page">
@@ -78,13 +81,13 @@
                         <div class="service-tab-panel is-active" id="mainland" data-service-panel="mainland">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Business Setup In Dubai Mainland</p>
+                                    <p class="service-detail-kicker">Business Setup In Dubai Mainland</p>
                                     <h2 class="title">Establish Your Dubai Enterprise With Confidence</h2>
                                     <p>Mainland company formation gives businesses direct access to the UAE market, government contracts, retail locations, and flexible commercial activity across the Emirates.</p>
                                     <p>Virtuo manages the full process from activity selection and Department of Economy and Tourism approvals to licensing, office guidance, immigration file opening, and launch support.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/MainLandImage1_services_details.webp" alt="Mainland Business Setup" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/MainLandImage1_services_details.webp" alt="Mainland Business Setup" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Mainland Business Setup Services Include</h2>
@@ -104,7 +107,7 @@
                                     <p class="info-two">We organize the company profile and documents required for corporate bank account review.</p>
                                     <p class="info-one"><b>8. Renewal And Compliance Support</b></p>
                                     <p class="info-two">We continue supporting license renewals, activity amendments, and government follow-ups after setup.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -120,7 +123,7 @@
                                     </div>
                                 </div>
                                 <!-- work-area -->
-                                <section class="work__area-two has-animation" style="margin-top: 70px;">
+                                <section class="work__area-two has-animation service-detail-work--compact">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
@@ -142,7 +145,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-health-insurance"></i> -->
-                                                             <img src="assets/img/icons/business_activities.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/business_activities.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-1/12</span>
@@ -155,7 +158,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-growth"></i> -->
-                                                             <img src="assets/img/icons/Partner_Details_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/Partner_Details_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-2/12</span>
@@ -168,7 +171,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/Legal_Type.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/Legal_Type.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-3/12</span>
@@ -192,7 +195,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/License_Type.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/License_Type.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-4/12</span>
@@ -205,7 +208,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/License_Details_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/License_Details_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-5/12</span>
@@ -218,7 +221,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/Final_Partner_Details_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/Final_Partner_Details_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-6/12</span>
@@ -244,7 +247,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                            <img src="assets/img/icons/Initital_Approval_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                            <img src="assets/img/icons/Initital_Approval_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-7/12</span>
@@ -257,7 +260,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/Get_Business_Name_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/Get_Business_Name_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-8/12</span>
@@ -270,7 +273,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/Location_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/Location_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-9/12</span>
@@ -295,7 +298,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/Legal_Documents_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/Legal_Documents_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-10/12</span>
@@ -308,7 +311,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/Final_License_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/Final_License_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-11/12</span>
@@ -321,7 +324,7 @@
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
                                                             <!-- <i class="flaticon-handshake"></i> -->
-                                                             <img src="assets/img/icons/Additional_Approvals_Icon.svg" style="height: 60px; width: 60px;" alt="" class="injectable">
+                                                             <img src="assets/img/icons/Additional_Approvals_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
                                                             <span class="work__step">Step-12/12</span>
@@ -330,7 +333,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Mainland setup can unlock broad UAE market access, but the licensing path must be structured correctly. Virtuo keeps the process clear, compliant, and coordinated across government touchpoints.</p>
                                                     <p>Our Advantages :</p>
@@ -350,7 +353,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -361,7 +364,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="mainland-accordion">
                                                         <div class="accordion-item">
@@ -419,13 +422,13 @@
                         <div class="service-tab-panel" id="freezone" data-service-panel="freezone">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Business Setup In Dubai Free Zones</p>
+                                    <p class="service-detail-kicker">Business Setup In Dubai Free Zones</p>
                                     <h2 class="title">Build Your UAE Business With Confidence</h2>
                                     <p>Dubai's Free Zones have become a global gateway for entrepreneurs, investors, and international companies seeking a business-friendly environment with world-class infrastructure and regulatory efficiency.</p>
                                     <p>At Virtuo, we simplify the entire company formation journey from selecting the right Free Zone and obtaining licenses to managing visas and compliance requirements.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/services_details_img01.webp" alt="Free Zone Business Setup" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/services_details_img01.webp" alt="Free Zone Business Setup" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Our Free Zone Setup Services Include</h2>
@@ -445,7 +448,7 @@
                                     <p class="info-two">Handling all interactions, submissions, and approvals with government bodies and ministries, minimizing administrative friction for your team.</p>
                                     <p class="info-one"><b>8. Post-Incorporation Corporate Support</b></p>
                                     <p class="info-two">Continued operational assistance after incorporation, covering annual license renewals and ongoing corporate compliance.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -461,7 +464,7 @@
                                     </div>
                                 </div>
                                 <!-- work-area -->
-                                <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                <section class="work__area-two has-animation service-detail-work">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
@@ -528,7 +531,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                               <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                               <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Setting up a company in a UAE Free Zone requires the right jurisdiction, activity, license package, visa allocation, and banking readiness. Virtuo helps compare options and move through the process transparently.</p>
                                                     <p>Our Advantages :</p>
@@ -547,7 +550,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -558,7 +561,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="freezone-accordion">
                                                         <div class="accordion-item">
@@ -616,13 +619,13 @@
                         <div class="service-tab-panel" id="offshore" data-service-panel="offshore">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Business Setup In Offshore</p>
+                                    <p class="service-detail-kicker">Business Setup In Offshore</p>
                                     <h2 class="title">Expand Your Global Footprint With Confidence</h2>
                                     <p>Setting up an offshore company in the UAE is the ultimate choice for international entrepreneurs looking to protect assets, manage global wealth, and minimize tax liabilities. Operating under highly secure regulatory frameworks like JAFZA or RAK ICC, an offshore entity allows you to manage international trade, hold global real estate investments, and operate multi-currency bank accounts with absolute confidentiality and complete legal backing.</p>
                                     <p>At Virtuo, we navigate the complex international compliance and documentation pipelines on your behalf. Our experts streamline the incorporation framework so you can establish a secure, tax-optimized international vehicle efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/OffshoreBusinessSetup3_services_details.webp" alt="Offshore Business Setup" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/OffshoreBusinessSetup3_services_details.webp" alt="Offshore Business Setup" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Offshore Business Setup Includes</h2>
@@ -644,7 +647,7 @@
                                     <p class="info-two">Overseeing statutory requirements, mandatory legal document filings, and corporate transparency updates required by international financial oversight standards.</p>
                                     <p class="info-one"><b>9. Annual Renewal And Statutory Filings</b></p>
                                     <p class="info-two">Managing the yearly renewal of your offshore registration, registered office space maintenance, and associated governmental administration to avoid structural lapses.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -660,7 +663,7 @@
                                     </div>
                                 </div>
                                 <!-- work-area -->
-                                <section class="work__area-two has-animation" style="margin-top: 100px;">
+                                <section class="work__area-two has-animation service-detail-work">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-xl-6 col-lg-8">
@@ -727,7 +730,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                               <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                               <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Setting up an offshore company requires specialized knowledge, careful planning, and strict compliance with international regulations. Virtuo  provides expert guidance for entrepreneurs, investors, and global companies looking to establish offshore entities in the UAE. Our team ensures a seamless, secure, and fully compliant setup process while protecting your business interests and maintaining the highest level of confidentiality.</p>
                                                     <p>Benefits Of Business Setup In Offshore:</p>
@@ -746,7 +749,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -757,7 +760,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="offshore-accordion">
                                                         <div class="accordion-item">
@@ -815,13 +818,13 @@
                         <div class="service-tab-panel" id="virtual" data-service-panel="virtual">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Virtual Office In Dubai</p>
+                                    <p class="service-detail-kicker">Virtual Office In Dubai</p>
                                     <h2 class="title">Prestigious Business Address. Zero Overheads. 100% UAE Compliance.</h2>
                                     <p>In a dynamic global business ecosystem, establishing a premium corporate presence shouldn't require the massive financial burden of traditional long-term commercial leases. A virtual office offers international businesses, remote teams, and growing startups the perfect strategic solution: a prestigious, fully compliant business address in the heart of Dubai without the expensive overhead costs.</p>
                                     <p>At Virtuo, we provide more than just a premium mailbox. Our virtual office packages supply your enterprise with an official, government-recognized corporate address necessary for business registration, Department of Economy and Tourism (DET) compliance, and immediate market trust, all while keeping your operations agile and lean.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/VirtualOffice1_services_details.webp" alt="Virtual Office" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/VirtualOffice1_services_details.webp" alt="Virtual Office" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Virtual Office Packages Include</h2>
@@ -839,7 +842,7 @@
                                     <p class="info-two">On-demand booking access to premium, fully equipped conference rooms and corporate boardrooms to host vital face-to-face client pitches, investor meetings, or team huddles.</p>
                                     <p class="info-one"><b>7. Complete Office Amenities &amp; Support Systems</b></p>
                                     <p class="info-two">Full access to secure enterprise-grade Wi-Fi networks, high-end copying, scanning, and printing systems during your on-site corporate workspace sessions.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -863,7 +866,7 @@
                                             <div class="row gutter-y-30 justify-content-center">
 
 
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>We provide professional virtual office solutions designed to give your business credibility, flexibility, and full regulatory compliance in the UAE. Our expert team ensures that your company gains a prestigious Dubai business address while handling all licensing approvals, government requirements, and operational support efficiently. By choosing Virtuo, you get a seamless, reliable, and cost-effective virtual office experience that strengthens your brand presence and allows you to focus on growing your business.</p>
                                                     <p>A Virtual Office Is Ideal For:</p>
@@ -884,7 +887,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -895,7 +898,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="virtual-accordion">
                                                         <div class="accordion-item">
@@ -953,13 +956,13 @@
                         <div class="service-tab-panel" id="business-bank-account-opening" data-service-panel="business-bank-account-opening">
                             <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Business Bank Account Opening In Dubai</p>
+                                    <p class="service-detail-kicker">Business Bank Account Opening In Dubai</p>
                                     <h2 class="title">Secure Corporate Banking: The Essential Foundation For Commercial Operations</h2>
                                     <p>Securing a dedicated corporate bank account is the single most critical step an international entrepreneur must take after finalizing a UAE trade license. Without an active, fully verified business account, a newly incorporated company cannot execute commercial transactions, register for federal corporate tax systems, integrate digital merchant payment gateways, or legally distribute operational dividends to its shareholders.</p>
                                     <p>At Virtuo, we untangle the complex compliance webs of corporate banking. Our specialized banking coordinators pre-audit your legal documentation, align your business activities with the precise preferences of various banking institutions, and manage the extensive due diligence questionnaires to streamline your account approvals smoothly and efficiently.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/BankAccountOpening1_services_details.webp" alt="Business Bank Account Opening" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/BankAccountOpening1_services_details.webp" alt="Business Bank Account Opening" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">What Our Bank Account Opening Services Include</h2>
@@ -971,7 +974,7 @@
                                         B2B Counterparty Risk Assessments: Reviewing and listing your projected international suppliers and target client networks to satisfy compliance checklists.
                                         Multi-Currency Account Configuration: Setting up flexible corporate operational accounts capable of handling local and major international trade currencies.
                                         In-Person Signatory Meeting Coordination: Arranging and managing the mandatory face-to-face identity verifications between your authorized corporate signatories and bank managers.</p>
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -997,7 +1000,7 @@
 
 
 
-                                                <div style="margin: 50px 0px; padding: 0px;" class="services__details-content-top">
+                                                <div class="services__details-content-top service-detail-process-copy">
                                                     <h2 class="title">Why Do Businesses Choose Virtuo?</h2>
                                                     <p>Virtuo secures your corporate financial setup by serving as your direct, expert interface with local and international banking networks. By pairing an intricate command of Central Bank anti-money laundering regulations with established relationships across multiple financial institutions, we guarantee that your corporate profiles, source-of-funds files, and business plans are presented with absolute legal precision. Our framework completely eliminates administrative friction and unexpected application rejections by pre-auditing your commercial files prior to submission, providing your enterprise with a dedicated financial liaison asset that protects your onboarding timelines while keeping your operational momentum moving smoothly.</p>
                                                     <p>Our Advantages :</p>
@@ -1015,7 +1018,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -1026,7 +1029,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="business-bank-account-opening-accordion">
                                                         <div class="accordion-item">

@@ -5,7 +5,9 @@ const chokidar = require("chokidar");
 const projectRoot = path.resolve(__dirname, "..");
 
 const cssSources = [
-  path.join(projectRoot, "assets/css/main.css"),
+  path.join(projectRoot, "assets/css/src"),
+  path.join(projectRoot, "scripts/css-bundles.js"),
+  path.join(projectRoot, "scripts/build-css.js"),
 ];
 
 const jsSources = [
@@ -114,7 +116,7 @@ const cssWatcher = chokidar.watch(cssSources, watcherOptions);
 const jsWatcher = chokidar.watch(jsSources, watcherOptions);
 
 cssWatcher.on("all", (event, filePath) => {
-  if (event === "add" || event === "change") {
+  if (event === "add" || event === "change" || event === "unlink") {
     scheduleBuild("css", filePath);
   }
 });
@@ -134,7 +136,7 @@ jsWatcher.on("error", (error) => {
 });
 
 console.log("Virtuo asset watcher started.");
-console.log("Watching: assets/css/main.css");
+console.log("Watching: assets/css/src recursively and CSS build configuration");
 console.log(`Watching: ${jsSources.length} JavaScript source files`);
 console.log("Press Control + C to stop watching.");
 

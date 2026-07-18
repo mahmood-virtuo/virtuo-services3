@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">E-Commerce Solutions</p>
+                                        <p class="service-detail-kicker">E-Commerce Solutions</p>
                                         <h2 class="title">Scalable Digital Retail Engineering</h2>
                                         <p>An e-commerce platform is the foundational framework of your global retail operation. We engineer secure, high-capacity, and conversion-optimized digital storefronts designed to capture active market demand, process high-volume international transactions, and manage inventory fluidly across multiple channels.</p>
                                         <p>By integrating reliable database infrastructures, lightning-fast product filtering logic, and localized merchant features, we remove all purchasing friction. This ensures your digital storefront minimizes cart abandonment, protects sensitive customer payment data, and scales your transactional revenue securely around the clock.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/EcommerceSolutionsImg1.webp" alt="E-Commerce Solutions" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/EcommerceSolutionsImg1.webp" alt="E-Commerce Solutions" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>Inventory &amp; Order Management:</b> Linking automated stock-tracking databases, real-time supplier notification alerts, and centralized fulfillment systems directly to your backend.</p>
                                         <p class="info-one"><b>Customer Data Analytics Systems:</b> Deploying advanced conversion tracking pixels and detailed sales dashboard reporting to monitor user acquisition and average order values transparently.</p>
                                         <p class="info-one"><b>Data Privacy &amp; Fraud Protection:</b> Implementing secure server encryptions, anti-fraud screening tools, and global compliance standards to defend your platform against payment vulnerabilities.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one">1. Discovery Call - We evaluate your product assortment, target customer demographics, and corporate financial processing requirements into a clear structural plan.</p>
 
@@ -47,7 +47,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -58,7 +58,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="web-digital-solutions-e-commerce-solutions-accordion">
                                                             <div class="accordion-item">

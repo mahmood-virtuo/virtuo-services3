@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Influencer Marketing</p>
+                                        <p class="service-detail-kicker">Influencer Marketing</p>
                                         <h2 class="title">High-Impact Creator Partnerships & Performance-Driven Influencer Commerce</h2>
                                         <p>Partnering with trusted digital voices is the most direct pathway to establishing authentic customer trust and scaling global consumer acquisition. We engineer structured creator partnership frameworks designed to match your brand with precise, contextually relevant voices, moving your marketing efforts beyond basic views to drive measurable performance outcomes.</p>
                                         <p>By managing the complex logistics of contract negotiations, creative alignment, compliance tracking, and automated performance tracking under a single unified system, we eliminate administrative drag and unvetted profile risks. This provides your enterprise with a scalable brand ambassador infrastructure that maximizes your media return on investment, lowers customer acquisition costs, and drives high-intent traffic straight into your conversion funnels.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/InfluencerMarketingImg1.webp" alt="Influencer Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/InfluencerMarketingImg1.webp" alt="Influencer Marketing" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>4. Omnichannel Amplification Systems: </b>Enforcing absolute compliance with local and international advertising transparency guidelines across all active sponsorships to protect your brand reputation.</p>
                                         <p class="info-one"><b>5. Global Disclosure Compliance: </b>Engineering authoritative corporate whitepapers, technical industry briefs, and conversion-optimized informational materials to capture qualified database contacts.</p>
                                         <p class="info-one"><b>6. Full-Funnel Metric Tracking: </b>Deploying advanced tracking links and pixel instrumentation to measure exact customer acquisition costs, average order values, and overall campaign return on investment.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We align on your core campaign objectives, target consumer behaviors, and primary performance tracking goals to build a clear partnership roadmap.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We design your comprehensive creator criteria matrix, establish tiered compensation parameters, and organize your digital asset distribution pathways.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="social-media-management-influencer-marketing-accordion">
                                                             <div class="accordion-item">

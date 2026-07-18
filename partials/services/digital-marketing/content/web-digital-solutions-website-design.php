@@ -1,11 +1,11 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Website Design (UI/UX)</p>
+                                        <p class="service-detail-kicker">Website Design (UI/UX)</p>
                                         <h2 class="title">Human-Centric Interface Design & User Experience Optimization</h2>
                                         <p>Crafting an intuitive user interface (UI) and a seamless user experience (UX) is the absolute cornerstone of digital consumer trust inside a technology-forward marketplace. True interface design serves as your company's digital empathy layer—mapping out clean customer loops, eliminating navigation friction, reducing cognitive overload, and guiding visitors naturally toward your core business goals. Virtuo treats interface layout as a precise behavioral science, engineering high-performance visual frameworks that anticipate user paths to ensure your corporate web platforms feel incredibly natural, fully accessible, and intensely engaging on every device.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img1.webp" alt="Website Design (UI/UX)" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/WebsiteDesignUI-UX_Img1.webp" alt="Website Design (UI/UX)" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>5. Micro-Interactions & Kinetic Motion: </b>Developing subtle motion transitions and interactive feedback triggers that lock in page attention and guide users along forms.</p>
                                         <p class="info-two"><b>6. Mobile-First Interface Optimization: </b>Engineering touchpoint controls and inputs optimized for handheld systems, placing primary conversion buttons within natural reach.</p>
                                         <p class="info-one"><b>7. Accessibility System Audits: </b>Conducting contrast evaluations and usability validation checks to guarantee long-term asset scalability and international accessibility compliance.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Structural Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We align on your business goals and target audience.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We map out the navigation hierarchy and user journeys.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="web-digital-solutions-website-design-ui-ux-accordion">
                                                             <div class="accordion-item">

@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Landing Page Development</p>
+                                        <p class="service-detail-kicker">Landing Page Development</p>
                                         <h2 class="title">High-Conversion Digital Campaign Engineering</h2>
                                         <p>A professionally engineered landing page is the single most critical asset for maximizing marketing return on investment. Unlike broad corporate websites, we construct highly focused, hyper-optimized single-page environments designed to capture specific traffic streams, eliminate user navigation choices, and guide visitors directly toward a single, decisive action.</p>
                                         <p>By pairing ultra-fast loading velocities and clean structural layouts with psychologically driven information hierarchies, we build direct-response environments that lower your customer acquisition costs, elevate your quality scores on advertising networks, and systematically convert cold marketing traffic into verified corporate leads and sales.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/LandingPageDevelopmentImg1.webp" alt="Landing Page Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/LandingPageDevelopmentImg1.webp" alt="Landing Page Development" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>A/B Dynamic Split Testing:</b> Implementing backend testing frameworks to simultaneously evaluate variations in imagery, headers, and buttons to isolate the highest-converting models.</p>
                                         <p class="info-one"><b>Lightning-Fast Page Optimization:</b> Auditing core source code, compressing visual media, and utilizing advanced server caching to ensure near-instantaneous load times on mobile networks.</p>
                                         <p class="info-one"><b>CRM &amp; Automation Integrations:</b> Connecting your data input fields directly to your existing customer relationship management systems and automated email onboarding pipelines.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one">1. Discovery Call - We extract your distinct campaign metrics, dissect your target buyer demographics, and lock in the single primary user action requirement.</p>
 
@@ -47,7 +47,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -58,7 +58,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="web-digital-solutions-landing-page-development-accordion">
                                                             <div class="accordion-item">

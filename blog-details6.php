@@ -46,7 +46,10 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/main.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php
+    $virtuoCssFamily = 'blog-details';
+    include __DIR__ . '/partials/main-styles.php';
+    ?>
 
     <script type="application/ld+json">
     {
@@ -103,7 +106,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title">Why <span style="color: var(--tg-theme-primary)">Smart Americans</span> Are Moving<br />to the UAE in 2026</h1>
+                                        <h1 class="title">Why <span class="blog-hero-highlight">Smart Americans</span> Are Moving<br />to the UAE in 2026</h1>
                                         <p>After the war. After the tariffs. After the chaos. Here's the honest case — property, tax, safety, business, and the numbers — for why the UAE is becoming the relocation decision serious operators keep making.</p>
                                         <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -186,7 +189,7 @@
                                             <p>The challenge isn't the size of the tariffs. It's the environment they're delivered in — one of deliberate, sustained chaos that makes it effectively impossible to predict what you'll pay next month.</p>
                                             <cite>East Asia Forum / Bloomberg, March 2026</cite>
                                         </blockquote> -->
-                                        <p class="vt-zone-reco">The challenge isn't the size of the tariffs. It's the environment they're delivered in — one of deliberate, sustained chaos that makes it effectively impossible to predict what you'll pay next month.<br/><span style="font-weight: 200;">East Asia Forum / Bloomberg, March 2026</span></p>
+                                        <p class="vt-zone-reco">The challenge isn't the size of the tariffs. It's the environment they're delivered in — one of deliberate, sustained chaos that makes it effectively impossible to predict what you'll pay next month.<br/><span class="blog-source-note">East Asia Forum / Bloomberg, March 2026</span></p>
                                     </div>
 
                                     <div class="us-chapter vt-reveal" id="us-safety">
@@ -351,7 +354,7 @@
                                             <p>Dubai's openness makes it vulnerable to shocks in travel and confidence. Abu Dhabi's balance sheet gives the federation the capacity to absorb the blow.</p>
                                             <cite>Institute of International Finance, May 2026 — and both parts of that sentence proved accurate</cite>
                                         </blockquote> -->
-                                        <p class="vt-zone-reco">Dubai's openness makes it vulnerable to shocks in travel and confidence. Abu Dhabi's balance sheet gives the federation the capacity to absorb the blow.<br/><span style="font-weight: 200;">Institute of International Finance, May 2026 — and both parts of that sentence proved accurate</span></p>
+                                        <p class="vt-zone-reco">Dubai's openness makes it vulnerable to shocks in travel and confidence. Abu Dhabi's balance sheet gives the federation the capacity to absorb the blow.<br/><span class="blog-source-note">Institute of International Finance, May 2026 — and both parts of that sentence proved accurate</span></p>
                                     </div>
 
                                     <div class="us-chapter vt-reveal" id="us-business-setup">

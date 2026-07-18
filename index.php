@@ -62,7 +62,10 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/main.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php
+    $virtuoCssFamily = 'home';
+    include __DIR__ . '/partials/main-styles.php';
+    ?>
 </head>
 
 <body class="home-page">
@@ -83,7 +86,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title">Build Your Business On a <span style="color: var(--tg-theme-primary)">Strong Foundation</span></h1>
+                                        <h1 class="title">Build Your Business On a <span class="home-hero-accent">Strong Foundation</span></h1>
                                         <p>We provide end-to-end company formation and corporate structuring solutions across the UAE, specializing in Mainland, Free Zone, and Offshore setups. From licensing and compliance to ongoing corporate support, we help businesses launch and grow with confidence.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn more <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -96,7 +99,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Navigating <span style="color: var(--tg-theme-primary)">Government Processes</span>, Seamlessly</h2>
+                                        <h2 class="title">Navigating <span class="home-hero-accent">Government Processes</span>, Seamlessly</h2>
                                         <p>Our dedicated PRO specialists manage government approvals, document processing, labor and immigration requirements, and regulatory procedures, ensuring your business remains compliant and operational without administrative burdens.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -109,7 +112,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Your <span style="color: var(--tg-theme-primary)">Pathway to Living and Working</span> in the UAE</h2>
+                                        <h2 class="title">Your <span class="home-hero-accent">Pathway to Living and Working</span> in the UAE</h2>
                                         <p>We offer comprehensive immigration and residency services, assisting individuals, families, and businesses with visa applications, residency permits, sponsorships, and related government procedures through a streamlined process.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -122,7 +125,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Turning Visibility into <span style="color: var(--tg-theme-primary)">Measurable Growth</span></h2>
+                                        <h2 class="title">Turning Visibility into <span class="home-hero-accent">Measurable Growth</span></h2>
                                         <p>We help businesses strengthen their digital presence through strategic marketing, branding, content creation, social media management, performance advertising, and lead generation campaigns designed to drive sustainable growth.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -135,7 +138,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h2 class="title">Empowering Businesses Through <span style="color: var(--tg-theme-primary)">Intelligent Automation</span></h2>
+                                        <h2 class="title">Empowering Businesses Through <span class="home-hero-accent">Intelligent Automation</span></h2>
                                         <p>Leverage the power of artificial intelligence to optimize operations, automate workflows, enhance customer experiences, and improve decision-making with tailored technology solutions built for modern businesses.</p>
                                         <a href="/about" class="tg-btn tg-btn-four">Learn More <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -176,10 +179,10 @@
                                 <img src="assets/img/images/h4_about_shape.svg" alt="" aria-hidden="true" class="alltuchtopdown">
                             </div>
 
-                            <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -291px; top:-159px;">
-                                <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
+                            <div class="circle__wrap circle__wrap-two home-about-orbit" data-aos="zoom-in" data-aos-delay="600">
+                                <div class="icon home-orbit-icon">
                                     
-                                    <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" style="rotate: 25deg;" />
+                                    <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" class="home-orbit-logo" />
                                 </div>
                                 <div class="content">
                                     <h6 class="circle rotateme">VIRTUO • ESTABLISH • OPERATE • INNOVATE •</h6>
@@ -196,7 +199,7 @@
                                 <span class="sub-title">Who we are</span>
                                 <h2 class="title">Building A Business In The UAE <strong>Shouldn't Feel Like</strong> Managing Five Different Companies.</h2>
                             </div>
-                            <p style="margin-bottom:-20px !important; color: #EE4C01; text-transform: uppercase;">FOR MANY ENTREPRENURS, IT DOES</p><br>
+                            <p class="home-about-problem">FOR MANY ENTREPRENURS, IT DOES</p><br>
 
 
                             <p>
@@ -208,12 +211,7 @@
                                 your business.
                             </p>
 
-                            <p style="
-                                   margin-top: 10px;
-                                   margin-bottom: 20px !important;
-                                   color: #ee4c01;
-                                   text-transform: uppercase;
-                            ">
+                            <p class="home-about-difference">
                                 That's why Virtuo was built differently.
                             </p>
 
@@ -226,7 +224,7 @@
                                 be more than a service provider.
                             </p>
 
-                            <p style="margin-top: 10px; margin-bottom: 10px; color: #ee4c01">
+                            <p class="home-about-team-note">
                                 <i><b>We're built to become part of your team.</b></i>
                             </p>
 
@@ -257,7 +255,7 @@
                     <div class="col-xl-6 col-lg-5">
                         <div class="cta__content-five">
                             <h2 class="title">Start Your UAE Move With the Right Structure.</h2>
-                            <p style="color:white;">From business setup and residency to banking readiness, market entry, and relocation support, Virtuo helps entrepreneurs, investors, freelancers, and families enter the UAE with clarity.</p>
+                            <p class="home-main-cta-copy">From business setup and residency to banking readiness, market entry, and relocation support, Virtuo helps entrepreneurs, investors, freelancers, and families enter the UAE with clarity.</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-7">
@@ -295,13 +293,13 @@
             <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-12 virtuo-eye-media-col">
-                        <div class="choose__img-wrap-four virtuo-eye-visual" style="position: relative;">
-                            <img src="assets/img/images//about_virtuo_eye.webp" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
+                        <div class="choose__img-wrap-four virtuo-eye-visual home-eye-visual">
+                            <img src="assets/img/images//about_virtuo_eye.webp" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" class="home-eye-image" loading="lazy" decoding="async" width="600" height="450">
                             
-                            <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -80px; top:-63px;">
-                                <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
+                            <div class="circle__wrap circle__wrap-two home-eye-orbit" data-aos="zoom-in" data-aos-delay="600">
+                                <div class="icon home-orbit-icon">
                                     
-                                    <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" style="rotate: 25deg;" />
+                                    <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" class="home-orbit-logo" />
                                 </div>
                                 <div class="content">
                                     <h6 class="circle rotateme">VIRTUO • ESTABLISH • OPERATE • INNOVATE •</h6>
@@ -311,24 +309,24 @@
                     </div>
 
                     <div class="col-lg-6 col-12 virtuo-eye-content-col">
-                        <div class="choose__content-five virtuo-eye-content" style="max-width: auto; margin-left: -21px;">
+                        <div class="choose__content-five virtuo-eye-content">
                             <div class="section__title mb-15">
                                 <span class="sub-title">Why Choose us</span>
-                                <h2 class="title">Businesses Don't <span style="font-weight: 400;"><i>Grow On Paper</i></span>. They Grow On Trust.</h2>
+                                <h2 class="title">Businesses Don't <span class="home-trust-title-emphasis"><i>Grow On Paper</i></span>. They Grow On Trust.</h2>
                             </div>
-                            <p style="margin-bottom:10px !important; color: #EE4C01; text-transform: uppercase;">Anyone can process paperwork.</p>
+                            <p class="home-trust-kicker">Anyone can process paperwork.</p>
 
                             <p>What clients remember—and what ultimately determines the success of a long-term relationship—is how they're treated along the way.
 
-                            <p style="margin-bottom:10px !important; margin-top: -25px;">At Virtuo, we believe that business owners deserve more than generic support and one-size-fits-all solutions. They deserve a team that listens, communicates clearly, and takes ownership from start to finish.
+                            <p class="home-trust-detail">At Virtuo, we believe that business owners deserve more than generic support and one-size-fits-all solutions. They deserve a team that listens, communicates clearly, and takes ownership from start to finish.
 
                                 That's why we've built our approach around responsiveness, transparency, and accountability. Every client engagement is handled with the same level of care and attention we would expect for our own businesses. </p>
-                            <p style="margin-bottom:10px !important; color: #EE4C01; text-transform: uppercase;">Deadlines matter. Communication matters. Trust matters.</p>
+                            <p class="home-trust-kicker">Deadlines matter. Communication matters. Trust matters.</p>
 
 
-                            <p style="margin-bottom:10px !important; margin-top: 0px;">Whether we're helping a founder launch their first venture, supporting an established company with compliance, or implementing solutions to help a business grow, we approach every relationship with the same commitment—to deliver reliable advice, responsive service, and results that create lasting value.</p>
+                            <p class="home-trust-body">Whether we're helping a founder launch their first venture, supporting an established company with compliance, or implementing solutions to help a business grow, we approach every relationship with the same commitment—to deliver reliable advice, responsive service, and results that create lasting value.</p>
 
-                            <p style="margin-bottom:10px !important; margin-top: 10px; color: #EE4C01;"><b><i>Because in the end, exceptional service isn't about promises.</i></b></p>
+                            <p class="home-trust-closing"><b><i>Because in the end, exceptional service isn't about promises.</i></b></p>
 
                             <p><b>It's about being the team people trust when something important needs to get done.</b></p>
                         </div>
@@ -340,14 +338,13 @@
         </section>
             <section
   class="section-py-130 home-services-section"
-  style="background-repeat: no-repeat; background-size: cover; background-image: url('assets/img/images/virtuo-footer-gradient-1920x908.webp');"
   data-background="assets/img/images/virtuo-footer-gradient-1920x908.webp"
 >
             <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-8">
                         <div class="section__title white-title text-center mb-50">
-                            <span class="sub-title" style="color: #EE4c01">Core Services</span>
+                            <span class="sub-title home-services-subtitle">Core Services</span>
                             <h2 class="title">Expert Solutions for Accelerated Business Growth</h2>
                         </div>
                     </div>

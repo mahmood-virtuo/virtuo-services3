@@ -18,14 +18,13 @@ if (($serviceMarqueeVariant ?? '') === 'plain') {
         ['/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-marketing-solutions', 'MARKETING SOLUTION'],
     ];
     $serviceMarqueeSectionClass = trim('marquee__area ' . ($serviceMarqueeExtraClass ?? ''));
-    $serviceMarqueeIconStyle = 'margin-left:-4px;width:34px;height:34px;display:inline-block;vertical-align:middle;margin-right:12px;position:relative;top:0px;color:#EE4C01;';
     ?>
 <section class="<?php echo htmlspecialchars($serviceMarqueeSectionClass, ENT_QUOTES, 'UTF-8'); ?>">
     <div class="slider__marquee clearfix marquee-wrap">
         <div class="marquee_mode marquee__group">
             <?php foreach ($serviceMarqueeItems as [$serviceMarqueeHref, $serviceMarqueeLabel]) : ?>
                 <h6 class="marquee__item">
-                    <a href="<?php echo htmlspecialchars($serviceMarqueeHref, ENT_QUOTES, 'UTF-8'); ?>"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" aria-hidden="true" focusable="false" style="<?php echo htmlspecialchars($serviceMarqueeIconStyle, ENT_QUOTES, 'UTF-8'); ?>">
+                    <a href="<?php echo htmlspecialchars($serviceMarqueeHref, ENT_QUOTES, 'UTF-8'); ?>"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 500 500" fill="none" class="service-marquee-icon" aria-hidden="true" focusable="false">
                             <path fill="currentColor" d="M0 250C0 111.929 111.929 0 250 0h250v250c0 138.071-111.929 250-250 250S0 388.071 0 250Z"></path>
                         </svg><?php echo htmlspecialchars($serviceMarqueeLabel, ENT_QUOTES, 'UTF-8'); ?></a>
                 </h6>

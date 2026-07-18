@@ -22,7 +22,7 @@
                 </div>
             </div>
         </section>
- <footer class="footer__area-two footer__area-five fix" style="background-image: url(/assets/img/services/footerBackgroundImage-1920x1105.webp);">
+ <footer class="footer__area-two footer__area-five fix">
      <div class="container site-content-gutter custom-container footer-reference-container">
          <div class="footer__top-two">
              <div class="row">
@@ -48,7 +48,7 @@
                                  </div>
                              </div>
                              <nav class="footer-reference-left__services footer-reference-left__services--wide" aria-label="Essential services">
-    <h4 style="color: #EE4c01;">Our Essential Services</h4>
+    <h4 class="footer-section-heading">Our Essential Services</h4>
     <div class="footer-reference-left__services-columns">
         <div class="footer-reference-left__services-column">
             <a href="/uae-business-formation-structuring-and-compliance#mainland">Mainland Business Setup</a>
@@ -72,14 +72,14 @@
 
                          <div class="footer-reference-left__bottom">
                              <address class="footer-reference-left__contact">
-                                 <h4 style="color: #EE4c01;">Get In Touch</h4>
-                                 <p class="forFooterAddress"><img style="height: 18px; width: 18px; margin-top: 8px;" src="/assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span><span><b class="forFooterAddress" style="font-size: 19px; font-weight: 400;"></b></span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
+                                 <h4 class="footer-section-heading">Get In Touch</h4>
+                                 <p class="forFooterAddress"><img class="footer-contact-icon footer-contact-icon--location" src="/assets/img/icons/footer-location.svg" alt="" aria-hidden="true"><span><span><b class="forFooterAddress footer-address-label"></b></span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
 
-                                 <a href="mailto:setup@virtuo.ae"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>setup@virtuo.ae</span></a>
-                                 <a href="tel:+971565151315"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"><span>+971 56 515 1315</span></a>
+                                 <a href="mailto:setup@virtuo.ae"><img class="footer-contact-icon" src="/assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"><span>setup@virtuo.ae</span></a>
+                                 <a href="tel:+971565151315"><img class="footer-contact-icon" src="/assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"><span>+971 56 515 1315</span></a>
                              </address>
                              <nav class="footer-reference-left__quick" aria-label="Quick links">
-                                 <h4 style="color: #EE4c01;">Quick Links</h4>
+                                 <h4 class="footer-section-heading">Quick Links</h4>
                                  <div>
                                      <a href="/">Home <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
                                      <a href="/about">About Us <img src="/assets/img/icons/footer-link-arrow.svg" alt="" aria-hidden="true"></a>
@@ -92,8 +92,8 @@
                  </div>
                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="footer-reference-form-panel">
-                         <h4 style="color: #EE4c01; font-size: 20px; font-weight: 600;" id="virtuo-footer-form-title">Let's Discuss Your Business Goals</h4>
-                         <p style="font-size:16px; font-weight: 300; font-family: poppins; color:#ffffffb8;">From company formation and immigration to marketing and AI solutions, our experts are ready to help you build, grow, and scale in the UAE.</p>
+                         <h4 class="footer-section-heading footer-form-title" id="virtuo-footer-form-title">Let's Discuss Your Business Goals</h4>
+                         <p class="footer-form-intro">From company formation and immigration to marketing and AI solutions, our experts are ready to help you build, grow, and scale in the UAE.</p>
                          <div class="virtuo-reference-form">
                              <div class="estimate__tab-wrap" data-aos="fade-left" data-aos-delay="200">
 
@@ -152,7 +152,7 @@
                                                          </select>
                                                      </div>
                                                      <div class="form-grp">
-                                                         <input type="text" name="message" style="padding: 18px 10px 100px 10px;" placeholder="Message" required>
+                                                         <input type="text" name="message" class="footer-message-input" placeholder="Message" required>
                                                      </div>
                                                      <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
@@ -180,7 +180,7 @@
                                                          <input type="number" placeholder="Phone">
                                                      </div>
                                                      <div class="form-grp">
-                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                         <input type="textarea" class="footer-message-input" placeholder="Message">
                                                      </div>
                                                      <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
@@ -207,7 +207,7 @@
                                                          <input type="number" placeholder="Phone">
                                                      </div>
                                                      <div class="form-grp">
-                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                         <input type="textarea" class="footer-message-input" placeholder="Message">
                                                      </div>
                                                      <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
@@ -234,7 +234,7 @@
                                                          <input type="number" placeholder="Phone">
                                                      </div>
                                                      <div class="form-grp">
-                                                         <input type="textarea" style="padding: 18px 10px 100px 10px;" placeholder="Message">
+                                                         <input type="textarea" class="footer-message-input" placeholder="Message">
                                                      </div>
                                                      <!-- <div class="range-slider-wrap">
                                                     <div class="content-top">
@@ -266,8 +266,8 @@
                  <div class="col-md-6">
                      <div class="footer__social footer__social-two">
                          <ul class="list-wrap">
-                             <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="privacy-policy.php">Privacy Policy</a></p>
-                             <p><a style="color:#878BA8; font-weight: 300;" class="footer-reference-left__services a" href="terms-conditions.php">Terms and Conditions</a></p>
+                             <p><a class="footer-reference-left__services a footer-legal-link" href="privacy-policy.php">Privacy Policy</a></p>
+                             <p><a class="footer-reference-left__services a footer-legal-link" href="terms-conditions.php">Terms and Conditions</a></p>
                          </ul>
                      </div>
                  </div>

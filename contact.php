@@ -40,7 +40,10 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/main.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php
+    $virtuoCssFamily = 'contact';
+    include __DIR__ . '/partials/main-styles.php';
+    ?>
 </head>
 
 <body class="contact-page">
@@ -58,7 +61,7 @@
 
         <!-- breadcrumb-area -->
         <section class="breadcrumb__area">
-            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp" style="background-size:cover; background-repeat: no-repeat;"></div>
+            <div class="breadcrumb__bg" data-background="assets/img/bg/HEADER.webp"></div>
             <div class="container site-content-gutter custom-container">
                 <div class="row">
                     <div class="col-12">
@@ -100,15 +103,15 @@
 
                             <div class="contact-figma-details">
                                 <a href="tel:+971565151315" class="contact-figma-detail">
-                                    <span class="contact-figma-detail__icon"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"></span>
+                                    <span class="contact-figma-detail__icon"><img src="/assets/img/icons/footer-phone.svg" alt="" aria-hidden="true"></span>
                                     <span>+971 56 515 1315</span>
                                 </a>
                                 <a href="mailto:info@virtuo.ae" class="contact-figma-detail">
-                                    <span class="contact-figma-detail__icon"><img style="height: 18px; width: 18px; margin-top: 3px;" src="/assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"></span>
+                                    <span class="contact-figma-detail__icon"><img src="/assets/img/icons/footer-mail.svg" alt="" aria-hidden="true"></span>
                                     <span>info@virtuo.ae</span>
                                 </a>
                                 <a class="contact-figma-detail contact-figma-detail--address">
-                                    <span class="contact-figma-detail__icon"><img style="height: 18px; width: 18px; margin-top: 8px;" src="/assets/img/icons/footer-location.svg" alt="" aria-hidden="true"></span>
+                                    <span class="contact-figma-detail__icon"><img src="/assets/img/icons/footer-location.svg" alt="" aria-hidden="true"></span>
                                     <span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span>
                                 </a>
                             </div>
@@ -181,7 +184,7 @@
                                                                 </select>
                                                             </div>
                                                             <div class="form-grp">
-                                                                <input type="text" name="message" style="padding: 18px 10px 100px 10px;" placeholder="Message" required>
+                                                                <input type="text" name="message" class="contact-message-input" placeholder="Message" required>
                                                             </div>
                                                             <button class="tg-btn tg-btn-seven" type="submit">Talk to an Expert</button>
                                                             <p class="ajax-response mb-0"></p>
@@ -311,13 +314,13 @@
             <div class="container site-content-gutter custom-container home-page-container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-12 virtuo-eye-media-col">
-                        <div class="choose__img-wrap-four virtuo-eye-visual" style="position: relative;">
-                            <img src="assets/img/images//about_virtuo_eye.webp" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" style="width: 100%; height: auto; padding-left: 0px !important;" loading="lazy" decoding="async" width="600" height="450">
+                        <div class="choose__img-wrap-four virtuo-eye-visual">
+                            <img src="assets/img/images//about_virtuo_eye.webp" alt="Client trust and business relationship visual" data-aos="fade-left" data-aos-delay="200" loading="lazy" decoding="async" width="600" height="450">
 
-                            <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600" style="left: auto; right: -55px; top: auto; bottom: -45px;">
-                                <div class="icon" style="background-color: #564ABE; height: 100px; width: 100px;">
+                            <div class="circle__wrap circle__wrap-two" data-aos="zoom-in" data-aos-delay="600">
+                                <div class="icon">
 
-                                    <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" style="rotate: 25deg;" />
+                                    <img src="/assets/img/icons/Virtuo.svg" width="55" height="55" alt="" />
                                 </div>
                                 <div class="content">
                                     <h6 class="circle rotateme">VIRTUO • ESTABLISH • OPERATE • INNOVATE •</h6>
@@ -327,7 +330,7 @@
                     </div>
 
                     <div class="col-lg-6 col-12 virtuo-eye-content-col">
-                        <div class="choose__content-five virtuo-eye-content" style="max-width: auto; margin-left: -21px;">
+                        <div class="choose__content-five virtuo-eye-content">
                             <div class="section__title mb-15">
                                 <h2 class="title">Why Virtuo</h2>
                             </div>

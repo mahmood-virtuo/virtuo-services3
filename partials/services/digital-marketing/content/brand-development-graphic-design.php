@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Graphic Design</p>
+                                        <p class="service-detail-kicker">Graphic Design</p>
                                         <h2 class="title">High-Impact Visual Communication & Commercial Asset Engineering</h2>
                                         <p>Premium graphic design is the visual vehicle that translates your strategic business goals into clear, high-converting customer actions. We engineer immaculate, market-calibrated visual assets designed to capture immediate consumer attention, clarify complex corporate data, and elevate your perceived brand equity across every digital and physical medium.</p>
                                         <p>By combining disciplined grid layouts, strategic focal points, and strict color-reproduction standards, we eliminate low-quality, unvetted creative output. This ensures all your marketing materials—from corporate digital presentations to high-end print collateral—function as professional, high-performance touchpoints that drive customer engagement and solidify your industry authority.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/GraphicDesignImg1.webp" alt="Graphic Design" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/GraphicDesignImg1.webp" alt="Graphic Design" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>4. Premium Presentation Deck Architecture: </b>Crafting executive-level slide decks, pitch layouts, and keynote presentations using custom typography and structural visual hierarchies.</p>
                                         <p class="info-one"><b>5. Commercial Print & Packaging Layouts: </b>Developing production-ready designs for physical packaging, large-scale event signage, trade show backdrops, and promotional print media.</p>
                                         <p class="info-one"><b>6. Digital Asset & Social Media Kits: </b>Creating structured sets of custom templates, UI accents, and digital assets optimized for immediate, cohesive use across your internal marketing teams.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We extract your project requirements, establish target distribution formats (print or digital), and break down your campaign-specific messaging goals.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We sketch initial layout wireframes, select the optimal typography hierarchies, and coordinate the specific color profiles required for the medium.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="brand-development-graphic-design-accordion">
                                                             <div class="accordion-item">

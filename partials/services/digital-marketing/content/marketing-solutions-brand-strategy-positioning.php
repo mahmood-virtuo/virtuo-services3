@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Brand Strategy &amp; Positioning</p>
+                                        <p class="service-detail-kicker">Brand Strategy &amp; Positioning</p>
                                         <h2 class="title">Market Disruption Blueprints & Institutional Value Engineering</h2>
                                         <p>A business operating without an elite, distinct market position is forced to compete solely on razor-thin pricing margins. We engineer rigorous corporate brand strategies and market positioning frameworks designed to detach your enterprise from lookalike alternatives, command premium pricing power, and claim an unshakeable space in your industry.</p>
                                         <p>By cross-referencing competitive blind spots with deep customer behavioral psychology and product differentiation models, we develop a bulletproof corporate identity blueprint. This structural engineering clarifies your overarching marketplace value, streamlines your company's core messaging, and provides a clear operational manual that unifies all downstream marketing, sales, and product initiatives.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/BrandStrategy&PositioningImg1.webp" alt="Brand Strategy &amp; Positioning" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/BrandStrategy&PositioningImg1.webp" alt="Brand Strategy &amp; Positioning" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -15,7 +15,7 @@
                                         <p class="info-one"><b>3. Audience Behavioral Segmentation: </b>Dividing broad market data into precise, actionable customer groups defined by psychological pain points and spending behaviors.</p>
                                         <p class="info-one"><b>4. Market Pricing Power Engineering: </b>Formulating high-end commercial packaging models, premium service structures, and pricing tier hierarchies that maximize margin values.</p>
                                         <p class="info-one"><b>5. Unified Verbal Brand Manuals: </b>Authoring definitive corporate messaging rulebooks covering brand voice parameters, taglines, and strict industry vocabulary guardrails.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -32,7 +32,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We interrogate your business model, current profit profiles, customer satisfaction baselines, and primary long-term operational targets.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We run deep quantitative competitive studies, formulate distinct positioning angles, and outline the overarching brand blueprint.</p>
@@ -43,7 +43,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -54,7 +54,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="marketing-solutions-brand-strategy-and-positioning-accordion">
                                                             <div class="accordion-item">

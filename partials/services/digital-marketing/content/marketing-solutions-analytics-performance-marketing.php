@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Analytics &amp; Performance Marketing</p>
+                                        <p class="service-detail-kicker">Analytics &amp; Performance Marketing</p>
                                         <h2 class="title">Advanced Attribution Architecture & Predictive Performance Optimization</h2>
                                         <p>Scaling a modern enterprise without flawless data tracking is simply gambling with your growth budget. We engineer rigorous marketing attribution systems and end-to-end performance analytics frameworks, turning raw user data into clear, actionable growth blueprints that show you exactly where to scale.</p>
                                         <p>By deploying server-side tracking networks, advanced data warehouse connections, and customized cross-channel business intelligence dashboards, we eliminate the blind spots of modern privacy updates. This gives your leadership team complete transparency over your customer acquisition paths, customer lifetime values, and true marketing efficiency metrics to back up every investment decision.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg1.webp" alt="Analytics &amp; Performance Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/Analytics&PerformanceMarketingImg1.webp" alt="Analytics &amp; Performance Marketing" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -19,7 +19,7 @@
                                         <p class="info-one">4. Granular Funnel Drop-Off Diagnostics: Mapping entire multi-page user journeys to pinpoint and resolve UX friction points, layout leaks, and software drop-off events.</p>
 
                                         <p class="info-one">5. Data Governance & Privacy Compliance: Structuring your data tracking infrastructure to fully comply with global data privacy frameworks like GDPR and CCPA to protect your enterprise.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -36,7 +36,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one">1. Discovery Call – We map out your current analytics tech stack, identify data silos, and establish your core business KPI requirements.</p>
 
@@ -50,7 +50,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -61,7 +61,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="marketing-solutions-analytics-and-performance-marketing-accordion">
                                                             <div class="accordion-item">

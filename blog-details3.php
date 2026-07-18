@@ -43,7 +43,10 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/main.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php
+    $virtuoCssFamily = 'blog-details';
+    include __DIR__ . '/partials/main-styles.php';
+    ?>
 </head>
 <body class="blog-details-page">
     <!-- header-area -->
@@ -57,7 +60,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="slider__content">
-                                        <h1 class="title">Beyond <span style="color: var(--tg-theme-primary)">Company Formation:</span><br />Why the UAE Is Becoming a Strategic Business Base in 2026</h1>
+                                        <h1 class="title">Beyond <span class="blog-hero-highlight">Company Formation:</span><br />Why the UAE Is Becoming a Strategic Business Base in 2026</h1>
                                         <p>The region is under real strain. The UAE's response to it — fiscal discipline, trade diversification, tax credibility — is the actual story for serious operators, not the headlines.</p>
                                         <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
@@ -128,7 +131,7 @@
                                             <div class="vt-stat"><div class="n"><span data-count="5.6" data-dec="1">0</span><small>%</small></div><div class="l">Average annual fiscal surplus as a share of GDP, 2021–2025</div><div class="src">S&amp;P, 2026</div></div>
                                             <div class="vt-stat"><div class="n"><span data-count="14" data-suffix="/32">0</span></div><div class="l">CEPA trade agreements in force, out of 32 signed as of Jan 2026</div><div class="src">UAE MOFAIC / ATB Legal</div></div>
                                         </div>
-                                        <p class="vt-psub" style="margin-top:18px">This is the part most "UAE is a safe haven" content skips: the resilience isn't a personality trait. It's a balance sheet, built deliberately over a decade of running fiscal surpluses and diversifying away from a single export and a single trading partner.</p>
+                                        <p class="vt-psub blog-stats-followup">This is the part most "UAE is a safe haven" content skips: the resilience isn't a personality trait. It's a balance sheet, built deliberately over a decade of running fiscal surpluses and diversifying away from a single export and a single trading partner.</p>
                                     </div>
 
                                     <h2 class="title-two" id="vt-government-action">What the Government Has Actually Done — Beyond Crisis Response</h2>
@@ -396,7 +399,7 @@
                                         <div class="vt-eyebrow">The bottom line</div>
                                         <div class="vt-ptitle">The UAE didn't avoid a hard year. It absorbed one — and that's the more useful data point for a serious operator.</div>
                                         <p class="vt-psub">A sovereign rating that held, trade diversification that kept widening, a tax framework that kept maturing toward international credibility rather than away from it — that's what a platform built for resilience actually looks like under pressure, not just in a pitch deck. Tell us what you're building, and we'll map the structure that holds regardless of what the next news cycle brings.</p>
-                                        <a class="tg-btn blog-cta-btn blog-cta-btn--primary" style="margin-top:20px;" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
+                                        <a class="tg-btn blog-cta-btn blog-cta-btn--primary blog-cta-spaced" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
                                     </div>
 
                                     <p class="vt-sources">Sources: UAE corporate tax framework — Federal Decree-Law No. 47 of 2022; Ministerial Decision No. 229 of 2025 on Qualifying Free Zone Persons; Cabinet Decision No. 142 of 2024 on the Domestic Minimum Top-up Tax, UAE Ministry of Finance. CEPA programme — UAE Ministry of Foreign Trade / MOFAIC; ATB Legal, "UAE CEPA Overview" (Jan 2026); Gulf Business, "Full list: the UAE's 27 CEPA agreements" (2025); The National, UAE CEPA coverage (2025). Non-oil trade figures — Sheikh Mohammed bin Rashid statement via The National (2025); ORF Middle East CEPA analysis (2025). Sovereign rating and fiscal data — S&amp;P Global Ratings, reported via Gulf News, "6 Reasons the UAE Economy Can Withstand Iran-US Conflict Shocks" (March 2026); Coface UAE Country Risk File (2026). Regional conflict impact — Associated Press / Yahoo Finance, "The UAE's image as a Middle Eastern haven is tested by the Iran war" (May 2026); The New Arab (May 2026); Moshe Dayan Center, Tel Aviv University (2026), on the UAE's May 2026 OPEC withdrawal. Golden Visa data — GSDA Legal Consultants (2026); ICP, Golden Residency. Figures current as of mid-2026 and subject to change. Educational only — not tax, legal, or investment advice.</p>

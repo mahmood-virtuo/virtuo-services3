@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Content Marketing</p>
+                                        <p class="service-detail-kicker">Content Marketing</p>
                                         <h2 class="title">Inbound Lead Generation & High-Yield Content Asset Engineering</h2>
                                         <p>Randomly publishing unvetted articles without a strategic backend fails to move your business goals forward. We engineer comprehensive, conversion-focused content marketing engines designed to capture market interest, educate prospective buyers throughout their research phase, and construct an authoritative inbound lead generation ecosystem.</p>
                                         <p>By pairing meticulous intent analysis with semantic keyword structures and high-value educational assets, we eliminate the need for purely transactional outreach. We establish an evergreen brand framework that builds deep consumer trust, boosts your organic search presence, and seamlessly funnels qualified web traffic toward your primary sales pipelines.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/ContentMarketingImg1.webp" alt="Content Marketing" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/ContentMarketingImg1.webp" alt="Content Marketing" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -15,7 +15,7 @@
                                         <p class="info-one"><b>3. Lead Magnet & Whitepaper Production: </b>Researching, writing, and formatting premium, deep-dive industry resources, case studies, and corporate e-books built for lead capture.</p>
                                         <p class="info-one"><b>4. Multi-Channel Distribution Blueprints: </b>Structuring optimized content syndication paths across native blogs, corporate newsletters, and high-influence external networks.</p>
                                         <p class="info-one"><b>5. Content Conversion Performance Audits: </b>Tracking user scroll depths, asset download counts, and direct assisted conversions to consistently improve content performance.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -32,7 +32,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We isolate your core business offerings, profile your ideal buyer demographics, and pinpoint their primary search habits.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We build a complete multi-month editorial calendar, map out informational hierarchies, and outline clear call-to-action touchpoints.</p>
@@ -43,7 +43,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -54,7 +54,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="marketing-solutions-content-marketing-accordion">
                                                             <div class="accordion-item">

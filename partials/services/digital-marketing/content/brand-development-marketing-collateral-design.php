@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Marketing Collateral Design</p>
+                                        <p class="service-detail-kicker">Marketing Collateral Design</p>
                                         <h2 class="title">High-Impact Print & Digital Collateral Engineering</h2>
                                         <p>Premium marketing collateral is the physical and digital touchpoint that seals corporate deals and validates market authority. We engineer immaculate, business-calibrated marketing collateral designed to capture institutional interest, distill complex service portfolios, and elevate your perceived brand value during high-stakes sales cycles and industry events.</p>
                                         <p>By combining disciplined structural grids, advanced typography hierarchies, and strict material-reproduction standards, we eliminate low-quality, unvetted marketing materials. We ensure all your physical and digital assets—from elite corporate brochures to high-end presentation kits—function as professional, high-performance tools that accelerate the buyer's journey.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/MarketingCollateralDesignImg1.webp" alt="Marketing Collateral Design" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/MarketingCollateralDesignImg1.webp" alt="Marketing Collateral Design" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>4. Premium Stationery & Correspondence Kits: </b>Developing high-end business cards, executive letterheads, branded envelopes, and digital corporate presentation templates that unify your operational identity.</p>
                                         <p class="info-one"><b>5. Custom Promotional & Print Packaging: </b>Designing structural layouts for physical product packaging, premium corporate gift sets, and tangible promotional media built for a premium unboxing experience.</p>
                                         <p class="info-one"><b>6. Digital Collateral & Interactive PDFs: </b>Transforming static offline print materials into high-performance, interactive digital documents complete with clickable navigation loops and embedded contact webhooks.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We extract your precise collateral requirements, establish final distribution methods (print, digital, or hybrid), and analyze your campaign-specific messaging goals.</p>
                                         <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We sketch the structural layout grids, establish font scale hierarchies, and coordinate exact material specs, paper weights, or screen-responsive parameters.</p>
@@ -44,7 +44,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="brand-development-marketing-collateral-design-accordion">
                                                             <div class="accordion-item">

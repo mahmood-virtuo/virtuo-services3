@@ -1,0 +1,80 @@
+name: Deploy Virtuo Staging
+
+on:
+  push:
+    branches:
+      - testing
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-virtuo-staging
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Deploy testing branch to staging.virtuo.ae
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            set -Eeuo pipefail
+
+            SOURCE="/home/mahmood/deploy/virtuo-services3-testing"
+            TARGET="/home/mahmood/web/staging.virtuo.ae/public_html"
+
+            if [ ! -d "$SOURCE/.git" ]; then
+              echo "ERROR: Testing Git repository was not found at $SOURCE"
+              exit 1
+            fi
+
+            if [ ! -d "$TARGET" ]; then
+              echo "ERROR: Staging document root was not found at $TARGET"
+              exit 1
+            fi
+
+            git config --global --add safe.directory "$SOURCE"
+
+            cd "$SOURCE"
+
+            git fetch --prune origin testing
+            git checkout testing
+            git reset --hard origin/testing
+            git clean -fd
+
+            DEPLOY_COMMIT="$(git rev-parse --short HEAD)"
+            echo "Deploying testing commit: $DEPLOY_COMMIT"
+
+            rsync -av --delete \
+              --exclude='.git' \
+              --exclude='.github' \
+              --exclude='.gitignore' \
+              --exclude='.agents' \
+              --exclude='.cursor' \
+              --exclude='.gemini' \
+              --exclude='.well-known/' \
+              --exclude='AGENTS.md' \
+              "$SOURCE/" "$TARGET/"
+
+            printf 'User-agent: *\nDisallow: /\n' > "$TARGET/robots.txt"
+
+            chown -R mahmood:www-data "$TARGET"
+
+            find "$TARGET" -type d -exec chmod 755 {} \;
+            find "$TARGET" -type f -exec chmod 644 {} \;
+
+            HTTP_STATUS="$(curl -sS -o /dev/null -w '%{http_code}' --max-time 20 https://staging.virtuo.ae)"
+
+            if [ "$HTTP_STATUS" != "401" ]; then
+              echo "ERROR: Expected staging Basic Authentication to return HTTP 401, but received HTTP $HTTP_STATUS."
+              exit 1
+            fi
+
+            echo "Staging Basic Authentication health check passed with HTTP 401."
+
+            echo "Staging deployment completed successfully."

@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Website Maintenance &amp; Support</p>
+                                        <p class="service-detail-kicker">Website Maintenance &amp; Support</p>
                                         <h2 class="title">Proactive Digital Infrastructure Maintenance &amp; Continuous Operational Support</h2>
                                         <p>An enterprise web asset requires continuous, expert technical oversight to maintain peak efficiency and defend against emerging digital vulnerabilities. We engineer comprehensive, proactive maintenance frameworks designed to keep your core business platforms stable, fully secure, and perfectly synchronized with the latest software standards, entirely removing the risk of sudden operational downtime.</p>
                                         <p>By managing the behind-the-scenes complexities of server infrastructure, code patch deployments, and real-time database tracking, we protect your company's digital investment. This ensures your global clients experience flawless application performance every day, keeping your communication pipelines clear and your transactions processing without structural friction.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg1.webp" alt="Website Maintenance &amp; Support" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/WebsiteMaintenance&SupportImg1.webp" alt="Website Maintenance &amp; Support" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -16,7 +16,7 @@
                                         <p class="info-one"><b>Technical Performance Tuning:</b> Tracking server response metrics, resolving slow query loops, and clearing out database overhead to maintain top loading speeds.</p>
                                         <p class="info-one"><b>Broken Link &amp; Error Rectification:</b> Running diagnostic scans to fix broken navigation elements, script conflicts, and media load errors across your entire platform.</p>
                                         <p class="info-one"><b>On-Demand Content Updates:</b> Providing rapid administrative changes for fresh promotional announcements, graphic layout tweaks, and corporate documentation files.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -33,7 +33,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one">1. Discovery Call - We audit your existing web architecture, review active host configurations, and establish your unique operational uptime requirements.</p>
 
@@ -47,7 +47,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -58,7 +58,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="web-digital-solutions-website-maintenance-and-support-accordion">
                                                             <div class="accordion-item">

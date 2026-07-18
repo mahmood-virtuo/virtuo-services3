@@ -3,11 +3,12 @@ $breadcrumbPageTitle = $breadcrumbPageTitle ?? '';
 $breadcrumbPageUrl = $breadcrumbPageUrl ?? basename($_SERVER['PHP_SELF']);
 $breadcrumbDefaultMain = $breadcrumbDefaultMain ?? '';
 $breadcrumbDefaultSub = $breadcrumbDefaultSub ?? '';
+$breadcrumbSubVisibilityClass = $breadcrumbDefaultSub !== '' ? '' : ' is-hidden';
 ?>
 
 <!-- breadcrumb-area -->
 <section class="breadcrumb__area">
-    <div class="breadcrumb__bg" data-background="/assets/img/bg/HEADER.webp" style="background-size: cover; background-repeat: no-repeat;"></div>
+    <div class="breadcrumb__bg" data-background="/assets/img/bg/HEADER.webp"></div>
 
     <div class="container site-content-gutter custom-container">
         <div class="row">
@@ -39,11 +40,11 @@ $breadcrumbDefaultSub = $breadcrumbDefaultSub ?? '';
                             <?php echo htmlspecialchars($breadcrumbDefaultMain); ?>
                         </span>
 
-                        <span class="breadcrumb-separator js-service-breadcrumb-sub-separator" style="<?php echo $breadcrumbDefaultSub !== '' ? '' : 'display: none;'; ?>">
+                        <span class="breadcrumb-separator js-service-breadcrumb-sub-separator<?php echo $breadcrumbSubVisibilityClass; ?>">
                             <i class="fas fa-angle-right"></i>
                         </span>
 
-                        <span class="js-service-breadcrumb-sub" property="itemListElement" typeof="ListItem" aria-current="page" style="<?php echo $breadcrumbDefaultSub !== '' ? '' : 'display: none;'; ?>"><?php echo htmlspecialchars($breadcrumbDefaultSub); ?></span>
+                        <span class="js-service-breadcrumb-sub<?php echo $breadcrumbSubVisibilityClass; ?>" property="itemListElement" typeof="ListItem" aria-current="page"><?php echo htmlspecialchars($breadcrumbDefaultSub); ?></span>
                     </nav>
                 </div>
             </div>

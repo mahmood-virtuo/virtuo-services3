@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                     <div class="services__details-content-top">
-                                        <p style="margin-bottom: 15px;">Paid Advertising (Meta &amp; Google Ads)</p>
+                                        <p class="service-detail-kicker">Paid Advertising (Meta &amp; Google Ads)</p>
                                         <h2 class="title">Precision Customer Acquisition & Data-Driven Revenue Scaling</h2>
                                         <p>Deploying unoptimized ad spend on digital networks is the fastest way to drain capital without a return. We engineer highly targeted, performance-focused advertising campaigns across Meta and Google ecosystems, transforming your paid media budget from an unpredictable operational expense into a highly scalable, predictable revenue-generating engine.</p>
                                         <p>By pairing predictive demographic matrix modeling with rapid creative iteration, strict bidding management, and precise attribution tracking, we eliminate wasted ad impressions. We build data-backed conversion funnels that put your solutions right in front of high-intent buyers exactly when they are ready to convert, drastically accelerating your market traction.</p>
                                     </div>
                                     <div class="services__details-thumb">
-                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img1.webp" alt="Paid Advertising (Meta &amp; Google Ads)" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                        <img src="assets/img/services/PaidAdvertising(Meta&GoogleAds)Img1.webp" alt="Paid Advertising (Meta &amp; Google Ads)" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                     </div>
                                     <div class="services__details-content">
                                         <h2 class="title-two">Service Capabilities</h2>
@@ -15,7 +15,7 @@
                                         <p class="info-one"><b>3. Dynamic Retargeting Funnels: </b>Engineering multi-tier remarketing campaigns to re-engage past site visitors, reducing cart abandonment and driving recurring sales.</p>
                                         <p class="info-one"><b>4. Conversion Rate Optimization (CRO): </b> Optimizing post-click architectures, landing page speeds, and ad-to-page messaging alignment to extract maximum volume from every single ad dollar.</p>
                                         <p class="info-one"><b>5. Cross-Channel Attribution Architecture: </b>Implementing server-side tracking, advanced pixels, and multi-touch attribution loops to transparently map your exact marketing return on investment.</p>
-                                        <div class="services__details-inner-images" style="margin-top:45px;">
+                                        <div class="services__details-inner-images service-detail-gallery">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="img-one">
@@ -32,7 +32,7 @@
                                     </div>
                                     <!-- work-area -->
                                     <section class="work__area-two has-animation">
-                                        <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                        <div class="services__details-content service-detail-process-copy">
                                             <h2 class="title-two">Our Process</h2>
                                             <p class="info-one"><b>Step 1: Discovery Call </b>– We establish your customer acquisition targets, maximum cost-per-lead limits, historical performance baselines, and active budget scale parameters.</p>
                                             <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We design your specific keyword, interest, and programmatic audience targeting map, pairing it with an integrated asset distribution framework.</p>
@@ -43,7 +43,7 @@
                                     </section>
                                     <!-- work-area-end -->
                                     <!-- faq-area -->
-                                    <section class="faq__area-three" style="margin-bottom: 50px;">
+                                    <section class="faq__area-three service-detail-faq">
                                         <div class="container">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-6">
@@ -54,7 +54,7 @@
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center">
-                                                <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                                <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                     <div class="faq__wrap faq__wrap-three">
                                                         <div class="accordion" id="marketing-solutions-paid-advertising-meta-and-google-ads-accordion">
                                                             <div class="accordion-item">

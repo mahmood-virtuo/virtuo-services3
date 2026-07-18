@@ -77,7 +77,10 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/main.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php
+    $virtuoCssFamily = 'blog-details';
+    include __DIR__ . '/partials/main-styles.php';
+    ?>
 
     <script type="application/ld+json">
     {
@@ -140,7 +143,7 @@
                             <div class="row">
                                 <div class="col-lg-9">
                                     <div class="slider__content">
-                                        <h1 class="title">Ajman Free Zone in 2026: What It Costs, Why the Tax Works, and the <span style="color: var(--tg-theme-primary)">$10 Billion Economy</span> Behind It</h1>
+                                        <h1 class="title">Ajman Free Zone in 2026: What It Costs, Why the Tax Works, and the <span class="blog-hero-highlight">$10 Billion Economy</span> Behind It</h1>
                                         <p>Setup that used to take two weeks now takes about an hour. Packages start from Dh4,166. And the "budget" free zone everyone underestimates is quietly running a ten-billion-dollar trading economy. Here's the honest, insider read.</p>
                                         <a href="https://virtuo.ae/contact" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>

@@ -1,12 +1,12 @@
 <div class="services__details-wrap">
                                 <div class="services__details-content-top">
-                                    <p style="margin-bottom: 15px;">Brand Development</p>
+                                    <p class="service-detail-kicker">Brand Development</p>
                                     <h2 class="title">Strategic Brand Positioning, Market Differentiation & Long-Term Growth Architecture</h2>
                                     <p>A successful brand is far more than a logo, website, or marketing campaign. It is the strategic foundation that shapes how customers perceive your company, why they choose your business over competitors, and how they emotionally connect with your products and services.</p>
                                     <p>At Virtuo, we develop powerful, market-ready brand frameworks that transform businesses from service providers into recognized industry authorities. Through deep market analysis, audience psychology, competitive positioning, and strategic messaging development, we create distinctive brand ecosystems that drive customer trust, strengthen market relevance, and support sustainable long-term growth. By aligning your vision, values, voice, customer experience, and market positioning into a unified strategic framework, we establish a brand identity that resonates consistently across every customer interaction. The result is a stronger market presence, increased brand recognition, and a scalable foundation capable of supporting future expansion and premium market positioning.</p>
                                 </div>
                                 <div class="services__details-thumb">
-                                    <img src="assets/img/services/BrandDevelopmentImg1.webp" alt="Brand Development" style="margin-top:20px; margin-bottom: 10px;" loading="lazy" decoding="async" width="860" height="452">
+                                    <img src="assets/img/services/BrandDevelopmentImg1.webp" alt="Brand Development" class="service-detail-hero" loading="lazy" decoding="async" width="860" height="452">
                                 </div>
                                 <div class="services__details-content">
                                     <h2 class="title-two">Service Capabilities</h2>
@@ -19,7 +19,7 @@
                                     <p class="info-one"><b>7. Competitive Landscape Analysis : </b>Conducting detailed industry research to identify competitor strengths, weaknesses, market gaps, and strategic opportunities that can be leveraged for accelerated growth.</p>
                                     <p class="info-one"><b>8. Brand Growth Roadmaps : </b>Designing scalable brand expansion strategies that support future product launches, geographic expansion, service diversification, and evolving market demands.</p>
 
-                                    <div class="services__details-inner-images" style="margin-top:45px;">
+                                    <div class="services__details-inner-images service-detail-gallery">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="img-one">
@@ -36,7 +36,7 @@
                                 </div>
                                 <!-- work-area -->
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Our Process</h2>
                                         <p class="info-one"><b>Step 1: Discovery Call </b>– We extract your underlying business values, analyze competitive corporate landscapes, and define the core emotional positioning of your market.</p>
                                         <p class="info-two"><b>Step 2: Strategy Blueprint </b>– We design your initial conceptual mood boards, construct distinct thematic directions, and map out the required asset deployment checklists.</p>
@@ -46,7 +46,7 @@
                                     </div>
                                 </section>
                                 <section class="work__area-two has-animation">
-                                    <div class="services__details-content" style="margin: 50px 0px; padding: 0px;">
+                                    <div class="services__details-content service-detail-process-copy">
                                         <h2 class="title-two">Why Choose Virtuo?</h2>
                                         <p class="info-one">At Virtuo, we go beyond traditional branding by combining market research, strategic positioning, customer psychology, and brand development expertise to create brands that drive real business growth. Our approach ensures every element of your brand—from its purpose and messaging to its market presence and customer experience—works together as a unified system designed to build trust, strengthen differentiation, and support long-term commercial success. Whether you're launching a new venture or scaling an established business, we develop future-ready brand foundations that help you compete with confidence and lead your market.</p>
 
@@ -54,7 +54,7 @@
                                 </section>
                                 <!-- work-area-end -->
                                 <!-- faq-area -->
-                                <section class="faq__area-three" style="margin-bottom: 50px;">
+                                <section class="faq__area-three service-detail-faq">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6">
@@ -65,7 +65,7 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                            <div class="col-xl-8 col-lg-10" style="width: 100%;">
+                                            <div class="col-xl-8 col-lg-10 service-detail-faq-column">
                                                 <div class="faq__wrap faq__wrap-three">
                                                     <div class="accordion" id="digital-marketing-brand-development-brand-development-accordion">
                                                         <div class="accordion-item">
