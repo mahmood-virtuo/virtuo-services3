@@ -4,11 +4,11 @@
 
 - Starting commit: `2785b8c6f568987c19d61de9c151bafe8067c716`
 - Branch: `testing`
-- Current phase: Phase 2 — About checkpoint
-- Completed phases: Phase 0; Phase 1; Phase 2 Homepage; About migration and local validation
-- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`
-- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded.
-- Next exact action: create the `Migrate About page inline styles` checkpoint, push it only to `origin/testing`, confirm staging, record its SHA/result, and then inspect `contact.php` for the Contact checkpoint.
+- Current phase: Phase 2 — Contact checkpoint
+- Completed phases: Phase 0; Phase 1; Phase 2 Homepage; About; Contact migration and local validation
+- Checkpoint commit SHA: Phase 0 `6ea81ee33acef3d9a0bd23240f1b98e7bb997c50`; Phase 1 `a149a97d83122ae35dd19531c829436a40157db1`; Homepage `6fdf13195dc0815f8a3d575903836a798fc4e8a5`; About `46597775dfcacb7b404b7dc1c13b70c1910c96ca`
+- Staging workflow result: Phase 0 run `29647928115` succeeded; Phase 1 run `29648079836` succeeded; Homepage run `29648220421` succeeded; About run `29648461735` succeeded.
+- Next exact action: create the `Migrate Contact page inline styles` checkpoint, push it only to `origin/testing`, confirm staging, record its SHA/result, and then begin the all-five-services Phase 3 audit.
 
 ## Original inventory
 
@@ -72,6 +72,7 @@ Initial active template total: **421 `style` attributes across 43 files**, of wh
 | Current after Phase 1 | 400 | 3 | 105 |
 | Current after Homepage | 374 | 3 | 105 |
 | Current after About | 355 | 3 | 105 |
+| Current after Contact | 344 | 3 | 105 |
 
 ## Migration groups and destinations
 
@@ -79,8 +80,8 @@ Initial active template total: **421 `style` attributes across 43 files**, of wh
 | --- | --- | --- | --- |
 | Shared header/footer/components | `assets/css/src/core.css` | `offcanvas-intro`, `offcanvas-whatsapp-icon`, `footer-section-heading`, `footer-contact-icon`, `footer-contact-icon--location`, `footer-address-label`, `footer-form-title`, `footer-form-intro`, `footer-message-input`, `footer-legal-link` | Checkpoint/staging succeeded |
 | Home | `assets/css/src/pages/home.css` | `home-hero-accent`, `home-about-orbit`, `home-orbit-icon`, `home-orbit-logo`, `home-about-problem`, `home-about-difference`, `home-about-team-note`, `home-main-cta-copy`, `home-eye-visual`, `home-eye-image`, `home-eye-orbit`, `home-trust-title-emphasis`, `home-trust-kicker`, `home-trust-detail`, `home-trust-body`, `home-trust-closing`, `home-services-subtitle`; existing `virtuo-eye-content` and `home-services-section` also reused | Checkpoint/staging succeeded |
-| About | `assets/css/src/pages/about.css` | `about-heading-highlight`, `about-service-name`, `about-service-name--uppercase`, `about-main-cta-copy`; existing About badge/team selectors reused | Locally validated; checkpoint pending |
-| Contact | `assets/css/src/pages/contact.css` | none yet | Pending Phase 2 |
+| About | `assets/css/src/pages/about.css` | `about-heading-highlight`, `about-service-name`, `about-service-name--uppercase`, `about-main-cta-copy`; existing About badge/team selectors reused | Checkpoint/staging succeeded |
+| Contact | `assets/css/src/pages/contact.css` | `contact-message-input`; existing breadcrumb, contact-detail, eye/orbit, and eye-content selectors reused | Locally validated; checkpoint pending |
 | Services and active service partials | `assets/css/src/pages/services.css` | none yet | Pending Phase 3 |
 | Blog listing | `assets/css/src/pages/blog-listing.css` | none yet | Pending Phase 4 audit |
 | Blog details | `assets/css/src/pages/blog-details.css` | none yet | Pending Phase 5 |
@@ -172,6 +173,19 @@ Every representative render loaded exactly one versioned `core.min.css` and one 
 - `about.min.css`: 11,798 → 12,310 bytes (+512).
 - Rendered About HTML: 128,539 → 128,214 bytes (-325 from the Phase 1 checkpoint).
 - Cold HTML + family CSS delta: +187 bytes; reuse across five service names, five team links, and five team SVGs plus repeat-view caching justifies the small increase. No CSS request was added.
+
+## Contact results
+
+- Files processed: `contact.php` and `assets/css/src/pages/contact.css`.
+- Active static `style` attributes removed: 11 (Contact count reduced from 11 to 0).
+- Original declarations represented: 26, consolidated into 20 Contact-scoped declarations plus the existing `choose__img-wrap-four` positioning rule.
+- New semantic classes: 1 (`contact-message-input`); existing component selectors reused for every other migration.
+- New `!important` declarations: 0.
+- Remaining active template `style` attributes: 347 total (344 literal static candidates and 3 PHP-generated finite/static candidates).
+- `contact.css`: 14,851 → 15,743 bytes (+892).
+- `contact.min.css`: 12,750 → 13,516 bytes (+766).
+- Rendered Contact HTML: 99,480 → 98,969 bytes (-511 from the Phase 1 checkpoint).
+- Cold HTML + family CSS delta: +255 bytes; repeated contact icons and component-level eye/orbit rules plus repeat-view caching justify the small increase. No CSS request was added.
 
 ## Pre-existing unrelated issue
 

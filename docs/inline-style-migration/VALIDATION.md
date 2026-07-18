@@ -195,3 +195,34 @@ No browser automation was run. Manual checks remain necessary for all five slide
 ### Browser, responsive, console, and network findings
 
 No browser automation was run. Manual checks remain necessary for intro highlighting, mission/vision cards, service labels, CTA, Why Virtuo badge at desktop/tablet/mobile widths, team social icons/hover states, horizontal overflow, and browser console/network output.
+
+### About checkpoint and staging
+
+- Commit: `46597775dfcacb7b404b7dc1c13b70c1910c96ca` (`Migrate About page inline styles`).
+- Push target: `origin/testing` only.
+- Staging workflow: `Deploy Virtuo Staging` run `29648461735` completed successfully.
+- Production workflow/branch and `virtuo.ae`: not modified or deployed.
+
+## Phase 2 — Contact
+
+### Commands and results
+
+- `php -l contact.php`: passed.
+- Active `style=` search: zero matches.
+- `npm run build:css`: passed twice after waiting for the watcher-owned build to become idle; only the existing remote `intl-tel-input` notice appeared.
+- Consecutive SHA-256 manifests for every split and compatibility output: identical.
+- `git diff --check`: passed.
+- Breadcrumb `data-background` remains present for the existing runtime initializer.
+
+### Route, bundle, asset, and size results
+
+- `/contact`: HTTP 200, 98,969 bytes.
+- Bundle mapping: exactly one `core.min.css`, exactly one `contact.min.css`, and no compatibility bundle.
+- `core.min.css`, `contact.min.css`, the breadcrumb image, and all three contact icon assets: HTTP 200.
+- `contact.css`: 15,743 bytes; `contact.min.css`: 13,516 bytes.
+- Contact HTML versus the Phase 1 checkpoint: -511 bytes.
+- Compatibility `main.css`: 837,052 bytes; compatibility `main.min.css`: 713,972 bytes.
+
+### Browser, responsive, console, and network findings
+
+No browser automation was run. Manual checks remain necessary for breadcrumb rendering, phone/email/address icon alignment, form message-field height, FAQ interactions, eye/orbit positioning and content alignment at desktop/tablet/mobile widths, map/CTA overlap, horizontal overflow, and browser console/network output.

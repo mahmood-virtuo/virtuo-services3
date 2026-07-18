@@ -31532,6 +31532,53 @@ body.about-page .about-page-container {
     height: auto;
   }}
 
+body.contact-page .breadcrumb__bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.contact-page .contact-figma-detail__icon img {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+}
+
+body.contact-page .contact-figma-detail--address .contact-figma-detail__icon img {
+  margin-top: 8px;
+}
+
+body.contact-page .contact-message-input {
+  padding: 18px 10px 100px 10px;
+}
+
+body.contact-page .virtuo-eye-visual > img {
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+}
+
+body.contact-page .virtuo-eye-visual .circle__wrap {
+  left: auto;
+  right: -55px;
+  top: auto;
+  bottom: -45px;
+}
+
+body.contact-page .virtuo-eye-visual .circle__wrap .icon {
+  width: 100px;
+  height: 100px;
+  background-color: #564abe;
+}
+
+body.contact-page .virtuo-eye-visual .circle__wrap .icon img {
+  rotate: 25deg;
+}
+
+body.contact-page .virtuo-eye-content {
+  max-width: auto;
+  margin-left: -21px;
+}
+
 /* ------------Second Banner Button Ends-------------- */
 
 /* ---------- Contact Page FAQ ---------- */
@@ -32138,6 +32185,7 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
   object-fit: contain;
   display: block;
 }
+
 @media (max-width: 767.98px) {
   body.service-page .services__details-thumb {
     width: 100%;
