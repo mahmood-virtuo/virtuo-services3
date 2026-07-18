@@ -261,3 +261,37 @@ No browser automation was run. Manual checks remain necessary for breadcrumb ren
 ### Browser, responsive, console, and network findings
 
 No browser automation was run. Manual checks remain necessary for default and non-default tabs, initial and updated breadcrumbs, hero/gallery/process/FAQ spacing, UAE setup process icons, marquee icons, Digital Marketing asynchronous content swaps, desktop/tablet/mobile layout, horizontal overflow, and browser console/network output.
+
+### Services checkpoint and staging
+
+- Commit: `6f9d6bdb3d04a89cb318095f10a2529d7827801c` (`Migrate service page inline styles`).
+- Push target: `origin/testing` only.
+- Staging workflow: `Deploy Virtuo Staging` run `29648841390` completed successfully.
+- Production workflow/branch and `virtuo.ae`: not modified or deployed.
+
+## Phase 4 — Blog Listing family
+
+### Commands and results
+
+- Targeted source inspection across the three entry templates and active listing partials: zero active `style` attributes and zero `<style>` blocks; no code/CSS edit required.
+- `php -l` on the three entry templates and nine active listing data/layout/sidebar/card/form partials: passed.
+- `node --check assets/js/blog-load-more.js`: passed; JavaScript was inspected but not modified.
+- `npm run build:css`: passed twice; only the existing remote `intl-tel-input` notice appeared.
+- Consecutive SHA-256 manifests for every split and compatibility output: identical.
+- `git diff --check`: passed.
+
+### Route, bundle, load-more, asset, and size results
+
+- `/blog`: HTTP 200, 104,459 bytes, zero rendered `style` attributes.
+- `/blog/category/business-setup-structuring`: HTTP 200, 83,791 bytes, zero rendered `style` attributes.
+- `/blog/tag/corporate-tax`: HTTP 200, 80,247 bytes, zero rendered `style` attributes.
+- Invalid category and tag routes: retained HTTP 404 and the Error family bundle; each still renders the one Error-page static candidate scheduled for Phase 6.
+- Every valid route contains exactly one `core.min.css`, exactly one `blog-listing.min.css`, and no compatibility bundle.
+- Load-more output contains 11 items, one sentinel, initial/batch values of 5, and exactly one `blog-load-more.min.js` reference.
+- `core.min.css`, `blog-listing.min.css`, `blog-load-more.min.js`, `blog-sticky-widgets.min.js`, and the breadcrumb image: HTTP 200.
+- `blog-listing.css`: 12,660 bytes; `blog-listing.min.css`: 10,868 bytes; no Phase 4 size change.
+- Compatibility `main.css`: 838,165 bytes; compatibility `main.min.css`: 714,919 bytes.
+
+### Browser, responsive, console, and network findings
+
+No browser automation was run. Manual checks remain necessary for listing/category/tag card layouts, sidebar and sticky-widget behavior, category/tag filters, load-more click/observer behavior, image overlays/borders, desktop/tablet/mobile responsiveness, horizontal overflow, and browser console/network output.
