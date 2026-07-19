@@ -1519,3 +1519,13 @@ The aggregate style-recalculation median fell 27.20%. Aggregate layout time fell
 The canonical measurement summary SHA-256 is `65ecc3808d0667d95195da03f1d2b2a5549f474b9f8e83722f4c221727ab86d5`.
 
 Two final explicit `npm run build:css` executions reproduced identical SHA-256 hashes and byte sizes for all nine core/family bundles and both compatibility outputs. The final core hash remained `a177711f21b8ef0dca4100671fec933ee2ac5c017d787cb819386f7598b23e5d`; `git diff --check` passed and generated files remained outside the documentation-only diff.
+
+The Phase 11 documentation checkpoint was committed as 787c9a21375363c2d03bd39b3fc9fc62903dd8cf, pushed only to origin/testing, and staging run 29669167488 succeeded.
+
+## Final acceptance audit
+
+At the completed Phase 11 checkpoint, `git status --porcelain` was empty and local HEAD, origin/testing and the remote testing ref all resolved to 787c9a21375363c2d03bd39b3fc9fc62903dd8cf. Local main, origin/main and the remote main ref all resolved to 7d03d15be54a05e4616a7bec5faa334edc094532. The testing checkpoint is not an ancestor of main.
+
+The latest `Deploy Virtuo Services` production run remained 29656256900 for the pre-task main commit on 2026-07-18. All task checkpoints triggered only `Deploy Virtuo Staging`; no production workflow or production deployment was triggered by this task.
+
+Core and aggregate size goals, ownership, unused-rule deletion, safe duplicate consolidation, remote-import removal, commented-code cleanup, deterministic build, route/resource/bundle/inline-style contracts, restricted browser regression, clean Git synchronization, staging success and main/production isolation all passed. The migration meets its final acceptance conditions.

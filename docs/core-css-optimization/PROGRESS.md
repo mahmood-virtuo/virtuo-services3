@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 11 controlled performance comparison complete; final documentation checkpoint in progress
-- Last completed phase: Phase 10 restricted browser regression, committed and staging-validated
-- Next phase: final acceptance verification after this checkpoint and green staging workflow
+- Current phase: complete; final acceptance passed
+- Last completed phase: Phase 11 controlled performance comparison, committed and staging-validated
+- Next phase: none
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1628,7 +1628,7 @@ No product source, generated output, PHP, JavaScript, route, redirect, server, s
 
 ## Phase 11 — Final performance comparison
 
-Status: validation complete; final documentation checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1658,15 +1658,21 @@ No product source, generated output, PHP, JavaScript, route, redirect, server, s
 ### Checkpoint
 
 - Intended message: Document final CSS performance comparison
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 787c9a21375363c2d03bd39b3fc9fc62903dd8cf
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29669167488 succeeded
 
 ### Remaining risks
 
 - Local cold-cache timing medians are sensitive to host/browser scheduling; production paint improvement was not established.
 - The pre-existing Government Relations encoded-space local-router exceptions and the external pinned intl-tel-input dependency remain unchanged and outside task scope.
 
-## Next exact action
+## Final acceptance audit
 
-Run the final explicit build/diff checks, commit this documentation-only checkpoint, push only to testing and wait for staging. Then verify a clean testing worktree, HEAD equal to origin/testing, the final staging workflow green, and main/production untouched.
+- Phase 11 checkpoint worktree: clean.
+- Phase 11 checkpoint HEAD and origin/testing: `787c9a21375363c2d03bd39b3fc9fc62903dd8cf`.
+- Final Phase 11 staging run: 29669167488 succeeded.
+- Local main, origin/main and remote main: `7d03d15be54a05e4616a7bec5faa334edc094532`.
+- The testing Phase 11 checkpoint is not contained in main.
+- Latest production workflow run remains 29656256900 from 2026-07-18, before this task; no production workflow was triggered by these testing pushes.
+- All final acceptance conditions are satisfied. No implementation phase remains.

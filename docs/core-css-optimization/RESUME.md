@@ -2,16 +2,16 @@
 
 ## Last completed checkpoint
 
-Phase 10 restricted browser regression is committed as d9340718ee7e6de84f73bce4bdb70bc8438e7323, pushed to origin/testing and green in staging run 29668874067. Phase 11 controlled performance comparison is complete and awaiting its final documentation checkpoint.
+Phase 11 controlled performance comparison is committed as 787c9a21375363c2d03bd39b3fc9fc62903dd8cf, pushed to origin/testing and green in staging run 29669167488. The final acceptance audit passed; all implementation phases are complete.
 
 ## Repository state at this handoff
 
 - Current branch: testing
 - Starting commit for Phase 11: d9340718ee7e6de84f73bce4bdb70bc8438e7323
-- Last completed checkpoint: d9340718ee7e6de84f73bce4bdb70bc8438e7323
-- Last completed staging run: Deploy Virtuo Staging 29668874067 succeeded
-- Current HEAD: the Phase 11 documentation checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
-- Required remote equality: current HEAD must equal origin/testing for final acceptance
+- Last completed phase checkpoint: 787c9a21375363c2d03bd39b3fc9fc62903dd8cf
+- Last completed phase staging run: Deploy Virtuo Staging 29669167488 succeeded
+- Current HEAD: the closure documentation checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
+- Required remote equality: current HEAD must equal origin/testing
 - Production/main state: untouched
 
 ## Phase 11 controlled comparison completed locally
@@ -24,7 +24,7 @@ Phase 10 restricted browser regression is committed as d9340718ee7e6de84f73bce4b
 
 ## Next exact action
 
-Run the final explicit CSS build and diff checks, commit with message `Document final CSS performance comparison`, push only to testing and wait for staging. Then verify the clean/ref/workflow/main safety gates and close the task.
+No implementation work remains. Confirm the closure documentation commit is equal to origin/testing and its staging run is green before handing off.
 
 ## Outstanding phases
 
@@ -33,7 +33,8 @@ Run the final explicit CSS build and diff checks, commit with message `Document 
 - Phase 8: complete and staging-validated.
 - Phase 9: complete and staging-validated.
 - Phase 10: complete and staging-validated.
-- Phase 11: controlled performance comparison and final report complete; checkpoint pending.
+- Phase 11: complete and staging-validated.
+- Final acceptance: complete.
 
 ## Known risks
 

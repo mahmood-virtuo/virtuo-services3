@@ -85,7 +85,7 @@ No later phase begins when its checkpoint fails or when selector ownership remai
 
 ## Completion status
 
-Phases 0 through 10 are committed, pushed only to origin/testing and staging-validated. Phase 11's controlled comparison is complete and awaiting its final documentation checkpoint. The final measured result reduces core source/minified size by 47.16%/47.11% without adding stylesheet requests on the representative routes; exhaustive route/resource validation and the 30-state restricted browser matrix pass. Final acceptance still requires the Phase 11 checkpoint, green staging, clean worktree and HEAD equal to origin/testing.
+Phases 0 through 11 are committed, pushed only to origin/testing and staging-validated. The final measured result reduces core source/minified size by 47.16%/47.11% without adding stylesheet requests on the representative routes; exhaustive route/resource validation and the 30-state restricted browser matrix pass. Final acceptance passed at the Phase 11 checkpoint: the worktree was clean, HEAD equaled origin/testing, main equaled origin/main, the testing checkpoint was absent from main, and no production workflow was triggered by this task.
 
 ## Validation requirements
 
