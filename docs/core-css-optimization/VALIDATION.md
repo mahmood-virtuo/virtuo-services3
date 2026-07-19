@@ -1305,3 +1305,19 @@ A same-DOM architecture swap compared the explicit link with a legacy-position `
 The post-change validator passed all 86 canonical routes and three negative probes with the expected family/order/no-compatibility behavior. Every response contained exactly one intl-tel-input stylesheet immediately before core, one matching script and at least one phone field. All 17 local stylesheet paths/full URLs returned 200; the pinned remote stylesheet returned 200; active inline styles were zero.
 
 Final commands: `npm run build:css`, deterministic double-build hash comparison, `php -l partials/main-styles.php`, remote-import searches, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The Phase 6 checkpoint was committed as 1f69ca7c9f45b57366eba67858b2381f106986f9, pushed only to origin/testing, and staging run 29667108255 succeeded before Phase 7.
+
+## Phase 7 obsolete commented-out CSS validation
+
+The clean testing/remote gate passed at 1f69ca7c9f45b57366eba67858b2381f106986f9 after staging run 29667108255.
+
+A fresh scanner selected CSS block comments only when their contents contained declaration terminators or rule braces. Manual review confirmed 68 true disabled first-party blocks across current core, About, Blog details, Blog listing, Contact, Home and Services sources. License, phase-ownership, structural, responsive, compatibility and explanatory comments were excluded. Removing the 68 blocks deleted 292 source lines and 7,402 source bytes without changing an active selector, declaration, media block, keyframe or URL.
+
+CleanCSS had retained disabled comments and comment-only empty rules, so generated minified CSS also shrank. Core minified output fell 4,416 bytes; family reductions were Home 565, About 278, Contact 199, Services 16, Blog listing 505 and Blog details 1,225. Compatibility CSS fell 7,402 source bytes and 7,204 minified bytes. Canonical re-minification after stripping comments matched the committed version for every one of the nine bundles and compatibility CSS.
+
+`npm run build:css` passed. Installed Playwright/local Chrome compared committed and cleaned core/family bundles in place at 1,440×1,000 and 390×844. Comprehensive selected computed styles, pseudo-element presentation, every element rectangle and document-family DOM count matched across Home, About, Contact, Services, Blog listing, Blog details, Legal and Error. Aggregate matrix SHA-256: `2ace9480e7b74fb98ee1f0013c317bea793e8d5be4b93c0d8646ad1d2b287648`; states 16; elements 640–3,390; failures 0. A short Contact-mobile capture was rejected as transient; the corrected 500 ms run matched. The invalid route's two expected 404 console messages and 16 Google Analytics unload-beacon aborts were separated from diagnostics; first-party/asset failures were zero.
+
+The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200 and active inline styles remained zero.
+
+Final commands: `npm run build:css`, deterministic double-build hash comparison, disabled-code comment rescan, canonical comment-stripped comparison, `git diff --stat`, `git diff --check`, and `git status --short`.

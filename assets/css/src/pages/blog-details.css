@@ -283,18 +283,15 @@
 
 /* Blog details article */
 .vt-article {
-  /* --ink: #040426; */
   --bronze: #ee4c01;
   --bronze-lt: #ff6a2b;
   --teal: #0047ff;
-  /* --soft: #f4f5fb; */
   --line: black;
   --line-soft: black;
   --muted: #667594;
 }
 .vt-article .vt-lead {
   font-size: 16px;
-  /* line-height: 1.55; */
   font-weight: 400;
   color: linear-gradient(360deg, #09194e 0%, #175ab1 100%);
   margin: 0 0 22px;
@@ -345,8 +342,6 @@
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
-  /* max-width: 62ch; */
-  /* font-weight: 400; */
 }
 .vt-article .vt-stats {
   display: grid;
@@ -377,7 +372,6 @@
 .vt-article .vt-stat .l {
   font-size: 16px;
   letter-spacing: 0.07em;
-  /* text-transform: uppercase; */
   color: var(--tg-color-white-default);
   margin-top: 10px;
   line-height: 1.5;
@@ -674,7 +668,6 @@
 .vt-article table.vt-matrix tbody th {
   font-size: 16px;
   letter-spacing: 0.03em;
-  /* text-transform: uppercase; */
   color: black;
   font-weight: 400;
   width: 160px;
@@ -725,7 +718,6 @@
   color: black;
   font-size: 15.5px;
   line-height: 1.6;
-  /* max-width: 64ch; */
 }
 .vt-article .vt-cards {
   display: grid;
@@ -805,7 +797,6 @@
 }
 .vt-article .vt-sources {
   font-size: 16px;
-  /* color: var(--muted); */
   line-height: 1.7;
   margin-top: 30px;
   padding-top: 18px;
@@ -881,7 +872,6 @@
   font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--tg-theme-primary);
-  /* background: rgba(238, 76, 1, 0.14); */
   border: 1px solid rgba(238, 76, 1, 0.42);
   padding: 5px 14px;
   border-radius: 30px;
@@ -2688,11 +2678,6 @@ body.blog-details-page .blog-toc .blog-toc__text {
   }
 
   body.blog-details-page .blog-details-sticky-sidebar {
-    /* position: -webkit-sticky;
-    position: sticky;
-    top: 125px;
-    z-index: 1;
-    width: 100%; */
   }
 
   body.blog-details-page .blog-details-sticky-sidebar-inner {
@@ -2705,16 +2690,6 @@ body.blog-details-page .blog-toc .blog-toc__text {
   }}
 /* -----------Home Page Slider---------------- */
 /* Home page desktop slider height fix */
-/* @media (min-width: 992px) {
-  body:not(.blog-page):not(.blog-details-page) .slider__area .slider-active,
-  body:not(.blog-page):not(.blog-details-page) .slider__area .swiper-wrapper,
-  body:not(.blog-page):not(.blog-details-page)
-    .slider__area
-    .swiper-slide.slider__bg {
-    height: 92vh;
-    min-height: 92vh;
-  }
-} */
 /* -----------Blog Page Slider---------------- */
 /* Blog page desktop slider height fix */
 @media (min-width: 992px) {
@@ -3267,7 +3242,6 @@ body.blog-details-page .vt-article .vt-tldr {
 body.blog-details-page .vt-article .vt-panel .vt-ptitle,
 body.blog-details-page .vt-article .vt-tldr .vt-ptitle {
   margin: 4px 0 14px !important;
-  /* max-width: 850px; */
   font-size: 30px !important;
   line-height: 1.2 !important;
   font-weight: 600 !important;
@@ -3803,7 +3777,6 @@ body.blog-details-page .blog-us-uae-relocation .us-city-btn:last-child {
 
 body.blog-details-page .blog-us-uae-relocation .us-city-btn:hover,
 body.blog-details-page .blog-us-uae-relocation .us-city-btn[aria-pressed="true"] {
-  /* background: var(--tg-heading-color); */
   background: linear-gradient(360deg, #09194e 0%, #175ab1 100%);
   color: var(--tg-color-white-default);
 }
@@ -4714,15 +4687,6 @@ body.blog-details-page .blog-details-right-sticky-inner {
   box-sizing: border-box;
 }
 /* -----------Blog Details Page Form Sticky Fix------------ */
-/* @media (min-width: 992px) and (max-width: 1650px) {
-  body.blog-details-page .blog-details-sidebar-stack .sidebar__widget,
-  body.blog-details-page .blog-details-right-sticky-inner,
-  body.blog-details-page .blog-details-right-sticky-inner .sidebar__widget,
-  body.blog-details-page .blog-details-right-sticky-inner .sidebar__contact,
-  body.blog-details-page .blog-sidebar-form-sticky-slot {
-    width: 320px !important;
-  }
-} */
 /* -----------Blog Details Page Form Sticky Width Fix------------ */
 @media (min-width: 992px) and (max-width: 1650px) {
   body.blog-details-page #blog-detail-content .blog-details-right-sticky-inner,
@@ -6124,7 +6088,6 @@ body.blog-details-page .vt-article .blog-cta-btn--primary {
 body.blog-details-page .vt-article .blog-cta-btn--primary:hover,
 body.blog-details-page .vt-article .blog-cta-btn--primary:focus-visible {
   border-color: var(--tg-theme-primary);
-  /* border: none !important; */
   background: var(--tg-theme-primary);
   color: var(--tg-color-white-default);
 }

@@ -161,7 +161,6 @@
   line-height: 1;
 }
 .virtuo-team__social a:hover {
-  /* background: #ff4b00; */
   color: #fff;
 }
 @media (max-width: 1199.98px) {
@@ -391,14 +390,6 @@ body.about-page .about-story-image-wrap {
 }
 
 body.about-page .about-story-image-wrap::before {
-  /* position: absolute;
-  left: 0;
-  bottom: 0;
-  width: calc(100% - 16px);
-  height: calc(100% - 16px);
-  content: "";
-  border-radius: 22px;
-  background: #ee4c01; */
 }
 
 body.about-page .about-story-image-wrap img {
@@ -513,8 +504,6 @@ body.about-page .choose__area-five .about-eye-badge.circle__wrap.circle__wrap-tw
 /* About page consistent two-column layout */
 body.about-page {
   --about-split-gap: clamp(56px, 5.2vw, 92px);
-  /* --about-media-max: 680px; */
-  /* --about-text-max: 720px; */
 }
 
 body.about-page .about-page-container {
@@ -820,7 +809,6 @@ body.about-page .about-intro-section .about-intro-media-column img {
   }
 
   body.about-page .home-main-cta.cta__area-five {
-    /* padding-bottom: 0; */
   }
 
   body.about-page .about-why-virtuo-section.section-py-130 {

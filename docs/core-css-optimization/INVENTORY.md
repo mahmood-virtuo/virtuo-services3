@@ -521,7 +521,7 @@ The FAQ and Choose SVG masks occur in both prefixed and unprefixed declarations,
 
 This is a review inventory, not a deletion list. License headers, structural comments, third-party/vendor files, generated files, minified files, and excluded backup/font-package content are not candidates.
 
-- Editable CSS: 66 code-shaped comment blocks were detected: 54 in core.css, 4 in about.css, 6 in blog-details.css, and 2 in home.css. They include disabled declarations, full disabled contact blocks, disabled media blocks, and old override experiments. Each must be inspected in Phase 7 because some may be documentation rather than dead code.
+- Editable CSS: the Phase 0 scan found 66 candidates before later ownership moves. A fresh Phase 7 scan across the current editable sources found and removed 68 true disabled declaration/rule blocks: 35 core, 5 About, 16 Blog details, 2 Blog listing, 4 Contact, 5 Home and 1 Services. License, ownership, structural, responsive, compatibility and explanatory prose comments remain.
 - main.js: disabled preloader call, disabled testimonial Swiper implementation, and disabled IntersectionObserver image assignment. The preloader function remains live source but is currently uncalled.
 - virtuo-service-tabs-breadcrumb.js: seven commented statements/groups around superseded panel selection, hash replacement, and panel-update behavior.
 - about.php: one disabled story wrapper and five disabled WhatsApp/SVG blocks.
@@ -531,7 +531,7 @@ This is a review inventory, not a deletion list. License headers, structural com
 - error.php: one disabled SVG image block and two commented breadcrumb assignments.
 - Service content/templates: seven disabled content paragraphs across Digital Marketing partials, one sidebar form fragment, and 12 disabled icon fragments in uae-business-formation.php.
 
-The automated scan produced 136 code-shaped comment candidates across 25 active first-party files, including the 66 CSS candidates. Phase 7 must inspect HTML comment boundaries and surrounding PHP control flow before removing any group; counts may decrease when explanatory/security/compatibility comments are excluded.
+The automated Phase 0 scan produced 136 code-shaped candidates across 25 active first-party files. The 68 current CSS blocks are now resolved with canonical and browser parity proof. Remaining JavaScript and PHP/HTML candidates still require surrounding-control-flow review; counts decrease when explanatory/security/compatibility comments are excluded.
 
 ## Phase 3 Legal ownership review
 

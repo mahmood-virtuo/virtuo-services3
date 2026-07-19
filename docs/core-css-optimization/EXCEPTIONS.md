@@ -79,7 +79,7 @@ Phase 7 must retain:
 - Active TODO/FIXME notes that describe unresolved work.
 - All comments under _unused_pages_backup, node_modules, vendor, generated bundles, minified assets, and font-package source.
 
-The 136 code-shaped Phase 0 comment candidates require manual context review. No candidate is deletion-approved merely because it resembles code.
+Phase 7 removed 68 current CSS comments only after confirming they contained actual disabled declarations/rules and proving canonical/browser equivalence. Remaining JavaScript and PHP/HTML candidates still require manual context review. No candidate is deletion-approved merely because it resembles code.
 
 ## Phase 2 evidence closure
 

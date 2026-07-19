@@ -6,10 +6,8 @@
   padding: clamp(70px, 7vw, 80px) 0 40px;
 }
 .contact-figma-panel {
-  /* background: linear-gradient(120deg, #14489b 0%, #09194e 100%); */
   border-radius: 20px;
   overflow: hidden;
-  /* padding: clamp(20px, 3vw, 30px); */
   padding: 0;
 }
 .contact-figma-main {
@@ -53,7 +51,6 @@
   line-height: var(--tg-body-line-height);
 }
 .contact-figma-detail:hover {
-  /* color: var(--tg-color-white-default); */
 }
 .contact-figma-detail--address {
   align-items: start;
@@ -80,7 +77,6 @@
   background: #fff;
   border-radius: 20px;
   padding: clamp(24px, 3vw, 42px);
-  /* box-shadow: 0 24px 55px rgba(0, 0, 0, 0.18); */
 }
 .contact-page-form-wrap {
   width: 100%;

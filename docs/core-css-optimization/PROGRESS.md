@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 6 explicit intl-tel-input stylesheet loading validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 5 Home/Blog-details exact duplicates, committed and staging-validated
-- Next phase: Phase 7 dead commented-out first-party code review after this checkpoint and green staging workflow
+- Current phase: Phase 7 obsolete commented-out CSS cleanup validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 6 explicit intl-tel-input loading, committed and staging-validated
+- Next phase: Phase 7 JavaScript/PHP commented-code cleanup after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1268,7 +1268,7 @@ Home routes drop 419 minified family bytes and Blog-details routes drop 366; oth
 
 ## Phase 6 — Explicit intl-tel-input stylesheet loading
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1311,15 +1311,76 @@ The browser still requests the same third-party stylesheet once; the benefit is 
 ### Checkpoint
 
 - Intended message: Load intl-tel-input CSS explicitly
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 1f69ca7c9f45b57366eba67858b2381f106986f9
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29667108255 succeeded
 
 ### Remaining risks
 
 - The stylesheet and script still depend on the existing pinned jsDelivr availability; Phase 6 changes discovery, not hosting.
 - Phase 7 comment candidates require manual context review and syntax-checked small groups.
 
+## Phase 7 — Obsolete commented-out CSS cleanup
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/src/pages/about.css
+- assets/css/src/pages/blog-details.css
+- assets/css/src/pages/blog-listing.css
+- assets/css/src/pages/contact.css
+- assets/css/src/pages/home.css
+- assets/css/src/pages/services.css
+- Corresponding generated bundles and compatibility CSS
+- Phase documentation under docs/core-css-optimization
+
+PHP, JavaScript, HTML markup, routes, loader, server, sitemap, dependency and workflow files did not change.
+
+### Exact cleanup
+
+- Removed 68 disabled first-party CSS comment blocks totaling 292 source lines and 7,402 source bytes.
+- The selection required actual declaration terminators or rule braces; license, phase-ownership, section, responsive, compatibility and explanatory prose comments were retained.
+- Active selectors, declarations, media blocks, keyframes and URLs changed: 0.
+
+### Before and after sizes
+
+| Source / output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 352,295 | 347,786 | -4,509 |
+| core.min.css | 298,715 | 294,299 | -4,416 |
+| Home source / min | 26,686 / 22,996 | 26,104 / 22,431 | -582 / -565 |
+| About source / min | 19,080 / 16,099 | 18,785 / 15,821 | -295 / -278 |
+| Contact source / min | 21,453 / 18,541 | 21,242 / 18,342 | -211 / -199 |
+| Services source / min | 40,597 / 35,376 | 40,576 / 35,360 | -21 / -16 |
+| Blog-listing source / min | 14,018 / 12,000 | 13,505 / 11,495 | -513 / -505 |
+| Blog-details source / min | 161,636 / 142,223 | 160,365 / 140,998 | -1,271 / -1,225 |
+| main.css / main.min.css | 636,951 / 546,893 | 629,549 / 539,689 | -7,402 / -7,204 |
+
+CleanCSS had preserved disabled comments and comment-only empty rules, so minified payloads shrink even though CSS semantics do not change.
+
+### Validation performed
+
+- Fresh gate passed at 1f69ca7c9f45b57366eba67858b2381f106986f9 after staging run 29667108255 succeeded.
+- Fresh scanner found 68 declaration/rule comments before cleanup and zero afterward.
+- `npm run build:css` passed. Canonical re-minification after stripping comments matched the committed version for all nine bundles and compatibility CSS.
+- Same-DOM committed-vs-cleaned parity passed all eight families at desktop/mobile: 16 states, 640–3,390 elements, aggregate matrix SHA-256 `2ace9480e7b74fb98ee1f0013c317bea793e8d5be4b93c0d8646ad1d2b287648`, zero failures.
+- The corrected parity run used a 500 ms settle; an earlier Contact-mobile short capture was rejected as transient. Expected invalid-route 404 console messages and Analytics unload-beacon aborts were classified separately; first-party/asset diagnostics were zero.
+- All 89 probes and 17 stable local stylesheet paths/full URLs passed with expected status/family/order and zero active inline styles.
+
+### Checkpoint
+
+- Intended message: Remove obsolete commented CSS code
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Commented JavaScript and PHP/HTML candidates remain for separate syntax-checked groups.
+- License, ownership, responsive, compatibility and active explanatory CSS comments remain intentionally.
+
 ## Next exact action
 
-Run final deterministic build/diff checks, commit the explicit intl-tel-input loading checkpoint, push only to testing and wait for staging. Then begin Phase 7 from a clean synchronized gate.
+Run final deterministic build/diff checks, commit the CSS-comment cleanup checkpoint, push only to testing and wait for staging. Then review JavaScript and PHP/HTML comment candidates from a clean synchronized gate.
