@@ -47,7 +47,6 @@ preloader disabled end -->
                                 <div class="tg-header__top-social">
                                     <ul class="list-wrap">
                                         <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="/assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                        <!-- <li><a href="https://x.com/home" target="_blank"><img src="/assets/img/icons/twitter.svg" alt="" class="injectable"></a></li> -->
                                         <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="/assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
                                         <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="/assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
                                     </ul>
@@ -83,7 +82,6 @@ preloader disabled end -->
                                             <button type="button" class="is-active" data-mega-category="formation" data-mega-link="/uae-business-formation-structuring-and-compliance">UAE Business Formation, Structuring &amp; Compliance</button>
                                             <button type="button" data-mega-category="pro" data-mega-link="/government-relations-and-pro-services">Government Relations &amp; PRO Services</button>
                                             <button type="button" data-mega-category="immigration" data-mega-link="/immigration-and-residency-solutions">Immigration &amp; Residency Solutions</button>
-                                            <!-- <button type="button" data-mega-category="marketing" data-mega-link="/immigration-and-residency-solutions">Digital Marketing &amp; Brand Development</button> -->
                                            <button type="button" data-mega-category="marketing" data-mega-link="/digital-marketing-and-brand-development">Digital Marketing &amp; Brand Development</button>
                                             <button type="button" data-mega-category="ai" data-mega-link="/ai-automation-and-technology-solutions">AI Automation &amp; Technology Solutions</button>
                                         </div>
@@ -117,13 +115,6 @@ preloader disabled end -->
                                                 <a href="/immigration-and-residency-solutions?tab=immigration-residency-solutions-employment-visa">Employment Visa</a>
                                                 <a href="/immigration-and-residency-solutions?tab=immigration-residency-solutions-consulate-services-dubai">Consulate Services Dubai</a>
                                             </div>
-                                            <!-- <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
-                                                    <a href="web-digital-solutions.php">WEB & DIGITAL SOLUTIONS</a>
-                                                    <a href="social-media-management.php">SOCIAL MEDIA MANAGEMENT</a>
-                                                    <a href="brand-development.php">BRAND DEVELOPMENT</a>
-                                                    <a href="marketing-solutions.php">MARKETING SOLUTIONS</a>
-                                                </div> -->
-                                            <!-- <div class="virtuo-services-mega__panel is-active" data-mega-panel="marketing"> -->
                                                 <div class="virtuo-services-mega__panel" data-mega-panel="marketing">
                                                 <a href="/digital-marketing-and-brand-development">WEB &amp; DIGITAL SOLUTIONS</a>
                                                 <a href="/digital-marketing-and-brand-development?tab=digital-marketing-brand-development-social-media-management">SOCIAL MEDIA MANAGEMENT</a>
@@ -198,14 +189,6 @@ preloader disabled end -->
                                         </ul>
                                     </li>
                                 </ul>
-                                <!-- <ul class="sub-menu">
-                                        <li><a href="services.php">Our Services</a></li>
-                                        <li><a href="services-details.php">Services Details One</a></li>
-                                        <li><a href="services-details-2.php">Services Details Two</a></li>
-                                        <li><a href="services-details-3.php">Services Details Three</a></li>
-                                        <li><a href="services-details-4.php">Services Details Four</a></li>
-                                        <li><a href="services-details-5.php">Services Details Five</a></li>
-                                    </ul> -->
                             </li>
                             <li>
                                 <a href="/blog">Blog</a>
@@ -252,11 +235,6 @@ preloader disabled end -->
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             </div>
             <div class="social-links">
-                <!-- <ul class="list-wrap">
-                    <li><a href="#"><i class="fab fa-facebook-f" class="injectable"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram" class="injectable"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in" class="injectable"></i></a></li>
-                </ul> -->
                 <ul class="list-wrap">
                 <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
                                     <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
@@ -285,16 +263,6 @@ preloader disabled end -->
         <div class="offCanvas__content">
             <p class="offcanvas-intro">Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
         </div>
-        <!-- <div class="offCanvas__img">
-                <ul class="list-wrap">
-                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta01.jpg" alt="Virtuo Services Instagram image 01" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta02.jpg" alt="Virtuo Services Instagram image 02" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta03.jpg" alt="Virtuo Services Instagram image 03" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta04.jpg" alt="Virtuo Services Instagram image 04" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta05.jpg" alt="Virtuo Services Instagram image 05" loading="lazy" decoding="async"></a></li>
-                    <li><a href="javascript:void(0)"><img src="/assets/img/images/footer_insta06.jpg" alt="Virtuo Services Instagram image 06" loading="lazy" decoding="async"></a></li>
-                </ul>
-            </div> -->
         <div class="offCanvas__side-info">
             <div class="contact-list">
                 <i class="flaticon-placeholder"></i>

@@ -524,14 +524,15 @@ This is a review inventory, not a deletion list. License headers, structural com
 - Editable CSS: the Phase 0 scan found 66 candidates before later ownership moves. A fresh Phase 7 scan across the current editable sources found and removed 68 true disabled declaration/rule blocks: 35 core, 5 About, 16 Blog details, 2 Blog listing, 4 Contact, 5 Home and 1 Services. License, ownership, structural, responsive, compatibility and explanatory prose comments remain.
 - main.js: Phase 7 removed the duplicate alternate Testimonial Swiper implementation and unused `data-src` assignment. The disabled preloader call/rollback note remains because it records a deliberate user-requested state; the uncalled function remains active source.
 - virtuo-service-tabs-breadcrumb.js: Phase 7 removed the superseded commented panel selection, hash replacement and panel-update statements. The active replacement logic and provenance markers remain.
-- about.php: one disabled story wrapper and five disabled WhatsApp/SVG blocks.
-- partials/header.php: eight disabled markup groups including the preloader, former social items, mega-menu prototypes, mobile submenu, and off-canvas image strip.
-- partials/footer.php: one disabled tab navigation block and four disabled range-slider blocks.
+- about.php: Phase 7 removed the disabled story wrapper and five disabled WhatsApp/SVG blocks.
+- partials/header.php: Phase 7 removed seven superseded social/menu/off-canvas groups; the deliberate preloader rollback block remains.
+- partials/footer.php: Phase 7 removed the disabled tab navigation and four range-slider blocks.
 - Blog detail templates: 16 disabled HTML groups across blog-details.php, blog-details2.php, blog-details3.php, blog-details6.php, blog-details7.php, and blog-details8.php.
-- error.php: one disabled SVG image block and two commented breadcrumb assignments.
-- Service content/templates: seven disabled content paragraphs across Digital Marketing partials, one sidebar form fragment, and 12 disabled icon fragments in uae-business-formation.php.
+- error.php: Phase 7 removed the disabled SVG image block and two commented breadcrumb assignments without changing active 404/breadcrumb behavior.
+- Service content/templates: Phase 7 removed seven disabled Digital Marketing paragraphs, one sidebar form fragment, and 12 superseded icons in uae-business-formation.php.
+- index.php: the Phase 7 boundary review discovered and removed two obsolete commented closing tags after confirming the active main-area `div` and image wrapper already close correctly.
 
-The automated Phase 0 scan produced 136 code-shaped candidates across 25 active first-party files. The 68 current CSS blocks are now resolved with canonical and browser parity proof. Remaining JavaScript and PHP/HTML candidates still require surrounding-control-flow review; counts decrease when explanatory/security/compatibility comments are excluded.
+The automated Phase 0 scan produced 136 code-shaped candidates across 25 active first-party files. The 68 CSS blocks, JavaScript group and 41 shared/page HTML blocks plus two PHP assignment comments are now resolved. Sixteen Blog-detail groups remain; the preloader and two dynamic service-panel comments are intentional exclusions, not deletion candidates.
 
 ## Phase 3 Legal ownership review
 

@@ -2,33 +2,33 @@
 
 ## Last completed checkpoint
 
-The Phase 7 CSS-comment cleanup is committed as 75affdf5e834b6517832f845c134ba7a23bc2c7c, pushed to origin/testing and green in staging run 29667359175. The JavaScript-comment cleanup is implemented and validated, awaiting checkpoint commit/push/staging.
+The Phase 7 JavaScript-comment cleanup is committed as e943611dcee39f8410a48c87ad1a82dc52de165a, pushed to origin/testing and green in staging run 29667480013. The shared PHP/HTML cleanup is implemented and validated, awaiting checkpoint commit/push/staging.
 
 ## Repository state at this handoff
 
 - Current branch: testing
-- Starting commit for the JavaScript-comment group: 75affdf5e834b6517832f845c134ba7a23bc2c7c
-- Last completed checkpoint: 75affdf5e834b6517832f845c134ba7a23bc2c7c
-- Last completed staging run: Deploy Virtuo Staging 29667359175 succeeded
-- Current HEAD: the JavaScript-comment checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
-- Required remote equality: current HEAD must equal origin/testing before the PHP/HTML group starts
+- Starting commit for the shared PHP/HTML group: e943611dcee39f8410a48c87ad1a82dc52de165a
+- Last completed checkpoint: e943611dcee39f8410a48c87ad1a82dc52de165a
+- Last completed staging run: Deploy Virtuo Staging 29667480013 succeeded
+- Current HEAD: the shared PHP/HTML checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
+- Required remote equality: current HEAD must equal origin/testing before the Blog-detail group starts
 - Production/main state: untouched
 
-## Phase 7 JavaScript-comment group completed locally
+## Phase 7 shared PHP/HTML group completed locally
 
-- Removed 28 lines/1,072 bytes of superseded Testimonial, IntersectionObserver and Services-tab comments from two sources.
-- Retained the deliberate preloader rollback note and all active guarded initializers/handlers.
-- Double JS build, source/output syntax checks and canonical Terser comparison passed.
-- Both corresponding generated minified files remained byte-identical.
+- Removed 41 disabled HTML blocks and two inactive breadcrumb assignment comments from 13 PHP files: 144 lines/25,931 bytes.
+- Retained the deliberate preloader rollback block, dynamic service-panel labels and structural/explanatory comments.
+- Exact allowlist transformation, `php -l`, 89-route status and whitespace-aware response checks passed.
+- CSS, JavaScript, routing, server, sitemap and dependency behavior remain unchanged.
 
 ## Next exact action
 
-Run final deterministic build/diff checks, commit with message `Remove obsolete commented JavaScript code`, push only to testing and wait for staging. Then inspect PHP/HTML comment candidates and remove only clearly obsolete markup in syntax-checked groups.
+Run the explicit CSS build and final diff/PHP checks, commit with message `Remove obsolete shared PHP comments`, push only to testing and wait for staging. Then remove the 16 isolated Blog-detail comment groups in a separate syntax-checked checkpoint.
 
 ## Outstanding phases
 
 - Phases 4–6: complete and staging-validated.
-- Phase 7: CSS group complete; JavaScript group validated; PHP/HTML group remains.
+- Phase 7: CSS and JavaScript groups complete; shared PHP/HTML group validated; Blog-detail group remains.
 - Phase 8: build/watcher verification.
 - Phase 9: exhaustive route/status/asset validation.
 - Phase 10: restricted desktop/mobile regression.
@@ -40,7 +40,7 @@ Run final deterministic build/diff checks, commit with message `Remove obsolete 
 - Core is 294,299 minified bytes.
 - The preloader disable/rollback comment remains intentionally.
 - Active but absent-node carousel/shop/pricing JavaScript remains outside the commented-code scope.
-- PHP/HTML candidates require control-flow and tag-boundary review before deletion.
+- Sixteen Blog-detail candidates remain isolated for the final Phase 7 cleanup group.
 - The pinned intl-tel-input CSS/JS remains an external jsDelivr dependency.
 
 ## Recovery rule

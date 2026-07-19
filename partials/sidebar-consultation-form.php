@@ -53,9 +53,6 @@ $sidebarConsultationFormId = $sidebarConsultationFormId ?? 'sidebar-quote-form';
                 </div>
 
                 <input type="hidden" name="message" value="Sidebar consultation request">
-                <!-- <div class="form-grp">
-                    <textarea name="message" placeholder="How can we help you?" required></textarea>
-                </div> -->
 
                 <div class="sidebar-form-benefits">
                     <h5>Our team can help you with :</h5>

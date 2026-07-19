@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 7 obsolete commented-out JavaScript cleanup validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 7 CSS-comment cleanup, committed and staging-validated
-- Next phase: Phase 7 PHP/HTML commented-markup cleanup after this checkpoint and green staging workflow
+- Current phase: Phase 7 shared PHP/HTML commented-markup cleanup validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 7 JavaScript-comment cleanup, committed and staging-validated
+- Next phase: Phase 7 Blog-detail commented-markup cleanup after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1383,7 +1383,7 @@ CleanCSS had preserved disabled comments and comment-only empty rules, so minifi
 
 ## Phase 7 — Obsolete commented-out JavaScript cleanup
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1415,15 +1415,61 @@ The two source files drop 28 lines and 1,072 bytes; generated runtime JavaScript
 ### Checkpoint
 
 - Intended message: Remove obsolete commented JavaScript code
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: e943611dcee39f8410a48c87ad1a82dc52de165a
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29667480013 succeeded
 
 ### Remaining risks
 
 - PHP/HTML comment candidates remain and require tag-boundary/control-flow review plus `php -l` on every changed template.
 - Active but absent-node carousel/shop/pricing handlers remain outside the commented-code cleanup scope.
 
+## Phase 7 — Shared PHP/HTML commented-markup cleanup
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- about.php
+- error.php
+- index.php
+- uae-business-formation.php
+- partials/header.php
+- partials/footer.php
+- partials/sidebar-consultation-form.php
+- Six Digital Marketing content partials under partials/services/digital-marketing/content
+- Phase documentation under docs/core-css-optimization
+
+CSS, JavaScript, routes, loader behavior, server, sitemap, dependencies and workflow files are unchanged.
+
+### Exact cleanup
+
+- Removed 41 proven disabled HTML comment blocks and two inactive breadcrumb assignments: 144 source lines and 25,931 bytes across 13 PHP files.
+- The removed alternatives were superseded story/social/menu/footer/form/icon/content/error markup plus two obsolete commented closing tags whose active `div` container already closes correctly.
+- Retained the deliberate preloader rollback block, the two PHP-generated service-panel structural comments, ordinary section labels, active explanations and all PHP control flow.
+- No selected HTML comment contains PHP, so deleting the selected blocks cannot suppress an executed PHP side effect.
+
+### Validation performed
+
+- Fresh clean gate passed at e943611dcee39f8410a48c87ad1a82dc52de165a after staging run 29667480013 succeeded.
+- An exact committed-source transform proved every changed PHP byte equals removal of only the 41 allowlisted HTML comments and two named breadcrumb assignment comments.
+- `php -l` passed all 13 changed PHP files; `git diff --check` passed.
+- All 86 sitemap routes returned 200 and all three negative probes returned 404 after cleanup.
+- The raw comment-stripped response aggregate changed only because whole comment-line deletion also removes the whitespace left by a regex that strips comment tokens alone; source-transform proof establishes that active markup/PHP is unchanged.
+- The remaining markup-bearing comment scan found exactly 19 blocks: 16 Blog-detail candidates plus the protected preloader and two dynamic service-panel labels.
+
+### Checkpoint
+
+- Intended message: Remove obsolete shared PHP comments
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- The 16 Blog-detail comment groups remain for a separate PHP-syntax-checked checkpoint.
+- Whitespace-only response bytes shrink where removed comment lines previously appeared; browser DOM and layout are not expected to change.
+
 ## Next exact action
 
-Run final deterministic JavaScript build/diff checks, commit the JavaScript-comment cleanup checkpoint, push only to testing and wait for staging. Then review PHP/HTML comment candidates from a clean synchronized gate.
+Run the explicit CSS build and final shared-PHP checks, commit this checkpoint, push only to testing and wait for staging. Then remove the 16 already-inventoried Blog-detail groups from a fresh synchronized gate.

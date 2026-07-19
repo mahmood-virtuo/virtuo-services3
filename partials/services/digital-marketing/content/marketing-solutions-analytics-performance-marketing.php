@@ -15,7 +15,6 @@
                                         <p class="info-one">2. Custom Business Intelligence Dashboards: Engineering clean, real-time data visualization layouts that combine your sales pipelines, paid ad accounts, and operational data into one view.</b></p>
 
                                         <p class="info-one">3. Multi-Touch Attribution Modeling: Building statistical data models to accurately distribute conversion credit across the entire user journey, identifying exactly what drove the sale.</p>
-                                        <!-- <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p> -->
                                         <p class="info-one">4. Granular Funnel Drop-Off Diagnostics: Mapping entire multi-page user journeys to pinpoint and resolve UX friction points, layout leaks, and software drop-off events.</p>
 
                                         <p class="info-one">5. Data Governance & Privacy Compliance: Structuring your data tracking infrastructure to fully comply with global data privacy frameworks like GDPR and CCPA to protect your enterprise.</p>
@@ -43,7 +42,6 @@
                                             <p class="info-one">2. Strategy Blueprint We design a comprehensive data measurement plan, detailing custom event definitions, server tracking routes, and reporting structures.</b></p>
 
                                             <p class="info-one">3. Core Processing – Our technical analytics engineers write tracking scripts, connect cloud databases, configure server containers, and build your custom visual dashboards.</p>
-                                            <!-- <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p> -->
                                             <p class="info-one">4. Verification & Handover – We run strict data validation audits and test event accuracy across platforms before handing over your completed business intelligence dashboard.</p>
 
                                         </div>

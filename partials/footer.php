@@ -99,20 +99,6 @@
 
                                  <div class="estimate__tab-inner">
 
-                                     <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Business Setup</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="vehicles-tab" data-bs-toggle="tab" data-bs-target="#vehicles-tab-pane" type="button" role="tab" aria-controls="vehicles-tab-pane" aria-selected="false">PRO Services</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="health-tab" data-bs-toggle="tab" data-bs-target="#health-tab-pane" type="button" role="tab" aria-controls="health-tab-pane" aria-selected="false">Immigration</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="life-tab" data-bs-toggle="tab" data-bs-target="#life-tab-pane" type="button" role="tab" aria-controls="life-tab-pane" aria-selected="false">Marketing</button>
-                                    </li>
-                                </ul> -->
                                      <div class="tab-content">
                                          <div class="tab-pane fade show active">
                                              <div class="estimate-form-wrap">
@@ -154,14 +140,6 @@
                                                      <div class="form-grp">
                                                          <input type="text" name="message" class="footer-message-input" placeholder="Message" required>
                                                      </div>
-                                                     <!-- <div class="range-slider-wrap">
-                                                    <div class="content-top">
-                                                        <p>Limits of balance:</p>
-                                                        <span>$<strong id="rangeValue">400000</strong></span>
-                                                    </div>
-                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
-                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                                                </div> -->
                                                      <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
                                                      <p class="ajax-response mb-0"></p>
                                                  </form>
@@ -182,14 +160,6 @@
                                                      <div class="form-grp">
                                                          <input type="textarea" class="footer-message-input" placeholder="Message">
                                                      </div>
-                                                     <!-- <div class="range-slider-wrap">
-                                                    <div class="content-top">
-                                                        <p>Limits of balance:</p>
-                                                        <span>$<strong id="rangeValueTwo">400000</strong></span>
-                                                    </div>
-                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
-                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                                                </div> -->
                                                      <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
                                                  </form>
                                              </div>
@@ -209,14 +179,6 @@
                                                      <div class="form-grp">
                                                          <input type="textarea" class="footer-message-input" placeholder="Message">
                                                      </div>
-                                                     <!-- <div class="range-slider-wrap">
-                                                    <div class="content-top">
-                                                        <p>Limits of balance:</p>
-                                                        <span>$<strong id="rangeValueThree">400000</strong></span>
-                                                    </div>
-                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
-                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                                                </div> -->
                                                      <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
                                                  </form>
                                              </div>
@@ -236,14 +198,6 @@
                                                      <div class="form-grp">
                                                          <input type="textarea" class="footer-message-input" placeholder="Message">
                                                      </div>
-                                                     <!-- <div class="range-slider-wrap">
-                                                    <div class="content-top">
-                                                        <p>Limits of balance:</p>
-                                                        <span>$<strong id="rangeValueFour">400000</strong></span>
-                                                    </div>
-                                                    <Input class="range" type="range" value="400000" min="0" max="600000"
-                                                        onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                                                </div> -->
                                                      <button class="tg-btn tg-btn-seven" type="submit">Get a Quote Now</button>
                                                  </form>
                                              </div>

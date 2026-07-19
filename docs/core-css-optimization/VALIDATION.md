@@ -1333,3 +1333,17 @@ The cleanup removed the duplicate commented `.testimonial-active-five` Swiper im
 `npm run build:js` rebuilt all configured first-party outputs. `node --check` passed both edited sources and corresponding generated outputs. `main.min.js` and `virtuo-service-tabs-breadcrumb.min.js` remained byte-identical to the committed checkpoint. Aggressive canonical Terser output also matched for both committed/current sources, proving executable equivalence. Candidate searches returned zero for the removed statements.
 
 Final commands: deterministic double `npm run build:js`, source/output syntax checks, generated hash comparison, canonical Terser comparison, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The JavaScript-comment checkpoint was committed as e943611dcee39f8410a48c87ad1a82dc52de165a, pushed only to origin/testing, and staging run 29667480013 succeeded before the PHP/HTML groups.
+
+## Phase 7 shared PHP/HTML commented-markup validation
+
+The clean testing/remote gate passed at e943611dcee39f8410a48c87ad1a82dc52de165a after staging run 29667480013.
+
+Manual boundary review selected 41 disabled HTML blocks across 13 shared/page PHP files. Every selected block is line-isolated, contains no PHP, and is superseded by active markup or is an obsolete closing-tag prototype. Two commented breadcrumb assignments in error.php were also removed; routing, breadcrumb includes and active values are unchanged. The preloader rollback block, dynamic service-panel labels and structural/explanatory comments remain protected.
+
+An allowlist transformer applied to the committed blobs reproduced every current changed PHP file byte-for-byte after deleting exactly the 41 selected HTML comments and two assignment comments. Net reduction: 144 source lines and 25,931 bytes. `php -l` passed all 13 files, and `git diff --check` passed.
+
+Before editing, the 89-route comment-token-stripped response baseline had 86 successful canonical routes, three expected 404 responses and aggregate SHA-256 `3f5d6393b6478ff5a392ca55b3fb4380a8ee5c1444f5d0ad55ef5c3b9fa2101d`. Post-cleanup statuses remained 86/3. Its raw aggregate changed because source deletion removes the entire comment line while token-only stripping leaves indentation/newline whitespace; this is expected response-byte cleanup, not active markup variance. The exact source transform is the semantic parity proof for this group.
+
+The post-cleanup scanner found 19 remaining markup-bearing comments: 16 isolated Blog-detail candidates plus the deliberately retained preloader and two PHP-generated service-panel structural labels.

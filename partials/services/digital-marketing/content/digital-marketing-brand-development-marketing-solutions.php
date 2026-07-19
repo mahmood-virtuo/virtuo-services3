@@ -48,7 +48,6 @@
                                         <p class="info-one">2. Strategy Blueprint – We design your integrated acquisition roadmap across search, paid media, B2B outreach, native distribution, CRO, content, and attribution.</p>
 
                                         <p class="info-one">3. Core Processing – Our strategists, media buyers, and demand generation experts build campaign structures, messaging, funnels, and tracking models.</p>
-                                        <!-- <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p> -->
                                         <p class="info-one">4. Verification &amp; Handover – We validate lead pathways, attribution dashboards, campaign compliance, and reporting before launch.</p>
 
                                     </div>

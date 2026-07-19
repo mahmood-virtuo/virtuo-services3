@@ -83,6 +83,8 @@ Phase 7 removed 68 current CSS comments only after confirming they contained act
 
 Phase 7 also removed only JavaScript comments whose live replacements or absent `data-src` ownership were proven. The preloader disable/rollback note remains protected as deliberate runtime documentation; active guarded initializers and absent-node handlers remain outside this cleanup scope.
 
+The shared PHP/HTML group removed only 41 line-isolated blocks with no embedded PHP plus two explicitly named inactive assignments. The preloader rollback block and the two PHP-generated service-panel boundary labels remain protected. Ordinary structural comments remain because they are navigation aids rather than disabled code.
+
 ## Phase 2 evidence closure
 
 - Browser DOM matching and interaction-state Coverage are now complete for the approved legacy candidates at representative desktop and mobile viewports.
