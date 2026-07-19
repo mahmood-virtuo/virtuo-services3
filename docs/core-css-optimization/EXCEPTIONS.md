@@ -99,6 +99,10 @@ The Government Relations markup contains three image filenames with spaces, alre
 
 The final 30-state restricted browser matrix had zero local request, HTTP, page, console and overflow failures. Thirty Google Analytics requests aborted only when their isolated browser contexts closed; they are out-of-scope telemetry rather than CSS or first-party asset failures. No product exception or CSS retention exception was added by Phase 10.
 
+## Phase 11 measurement interpretation
+
+The controlled local comparison proves byte, request-count, Coverage and measured lab-timing results only under its recorded Chrome conditions. FCP and LCP did not improve in the aggregate medians, and the task makes no PageSpeed or production paint-timing claim. The style-recalculation reduction is a measured local median, not a guarantee for every device, route or production visit.
+
 ## Phase 2 evidence closure
 
 - Browser DOM matching and interaction-state Coverage are now complete for the approved legacy candidates at representative desktop and mobile viewports.

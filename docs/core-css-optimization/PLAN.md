@@ -83,6 +83,10 @@ Retain in the safest current source and document in EXCEPTIONS.md. This includes
 
 No later phase begins when its checkpoint fails or when selector ownership remains uncertain.
 
+## Completion status
+
+Phases 0 through 10 are committed, pushed only to origin/testing and staging-validated. Phase 11's controlled comparison is complete and awaiting its final documentation checkpoint. The final measured result reduces core source/minified size by 47.16%/47.11% without adding stylesheet requests on the representative routes; exhaustive route/resource validation and the 30-state restricted browser matrix pass. Final acceptance still requires the Phase 11 checkpoint, green staging, clean worktree and HEAD equal to origin/testing.
+
 ## Validation requirements
 
 Every implementation checkpoint must include, as applicable:

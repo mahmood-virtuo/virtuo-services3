@@ -2,29 +2,29 @@
 
 ## Last completed checkpoint
 
-Phase 9 exhaustive route/resource validation is committed as b393ca26d4bef8552e4361c84ab85c79782f4732, pushed to origin/testing and green in staging run 29668183151. Phase 10 restricted browser regression is complete and awaiting its documentation checkpoint.
+Phase 10 restricted browser regression is committed as d9340718ee7e6de84f73bce4bdb70bc8438e7323, pushed to origin/testing and green in staging run 29668874067. Phase 11 controlled performance comparison is complete and awaiting its final documentation checkpoint.
 
 ## Repository state at this handoff
 
 - Current branch: testing
-- Starting commit for Phase 10: b393ca26d4bef8552e4361c84ab85c79782f4732
-- Last completed checkpoint: b393ca26d4bef8552e4361c84ab85c79782f4732
-- Last completed staging run: Deploy Virtuo Staging 29668183151 succeeded
-- Current HEAD: the Phase 10 documentation checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
-- Required remote equality: current HEAD must equal origin/testing before Phase 11 starts
+- Starting commit for Phase 11: d9340718ee7e6de84f73bce4bdb70bc8438e7323
+- Last completed checkpoint: d9340718ee7e6de84f73bce4bdb70bc8438e7323
+- Last completed staging run: Deploy Virtuo Staging 29668874067 succeeded
+- Current HEAD: the Phase 11 documentation checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
+- Required remote equality: current HEAD must equal origin/testing for final acceptance
 - Production/main state: untouched
 
-## Phase 10 restricted browser regression completed locally
+## Phase 11 controlled comparison completed locally
 
-- The representative matrix passed all 10 routes at desktop, mobile and tablet: 30/30 states.
-- Status, family/order, no-compatibility, layout geometry, phone initialization, sticky-header, visible-image and zero-overflow contracts passed in every state.
-- Mega/mobile navigation, Home slider, Contact form/phone, Services/Digital navigation, Blog listing load-more/taxonomy, Blog TOC/sticky behavior and Emirates interactives passed.
-- Local request/HTTP, page and console failures were zero. Analytics context-close aborts were classified separately.
-- Final aggregate SHA-256: `645345ced7318a09691902332614002f53b30b97578e801b8d2a51c628a01080`.
+- Core source/minified fell 47.16%/47.11%; core rules/selectors fell 46.24%/45.71%.
+- Full loaded CSS fell 21.10%–26.65% across Home, Services, Blog detail and Legal without changing stylesheet request count.
+- Coverage median-of-route medians improved from 8.18% to 10.38%.
+- FCP/LCP did not establish an improvement; TBT remained zero; style recalculation fell 27.20%; layout was effectively unchanged.
+- Controlled measurement SHA-256: `65ecc3808d0667d95195da03f1d2b2a5549f474b9f8e83722f4c221727ab86d5`.
 
 ## Next exact action
 
-Run the final explicit CSS build and diff checks, commit with message `Document restricted browser regression`, push only to testing and wait for staging. Then run the controlled Phase 11 before/after payload, Coverage and rendering-performance comparison.
+Run the final explicit CSS build and diff checks, commit with message `Document final CSS performance comparison`, push only to testing and wait for staging. Then verify the clean/ref/workflow/main safety gates and close the task.
 
 ## Outstanding phases
 
@@ -32,8 +32,8 @@ Run the final explicit CSS build and diff checks, commit with message `Document 
 - Phase 7: complete and staging-validated.
 - Phase 8: complete and staging-validated.
 - Phase 9: complete and staging-validated.
-- Phase 10: restricted desktop/mobile/tablet regression complete; checkpoint pending.
-- Phase 11: controlled performance comparison and final report.
+- Phase 10: complete and staging-validated.
+- Phase 11: controlled performance comparison and final report complete; checkpoint pending.
 
 ## Known risks
 

@@ -1447,3 +1447,75 @@ Unexpected local failed requests, local HTTP failures, page errors and console e
 The final canonical result object contained 30 passes and produced aggregate SHA-256 `645345ced7318a09691902332614002f53b30b97578e801b8d2a51c628a01080`.
 
 Before the final run, rejected harness assumptions were corrected against source and live DOM: Contact uses `#contact-quote-form`; Blog listing taxonomy belongs to the category/tag sidebars rather than cards; the mobile menu requires its real 300 ms transition and a fixed top-level toggle locator; Home has no semantic `main` wrapper; hidden mobile/tablet slider pagination and TOC controls require DOM activation for their underlying behavior contract; and the selected Service panel must be measured instead of the first now-hidden panel. These were harness corrections, not product failures.
+
+The Phase 10 documentation checkpoint was committed as d9340718ee7e6de84f73bce4bdb70bc8438e7323, pushed only to origin/testing, and staging run 29668874067 succeeded before Phase 11.
+
+## Phase 11 final controlled performance comparison
+
+The clean testing/remote gate passed at d9340718ee7e6de84f73bce4bdb70bc8438e7323 after staging run 29668874067.
+
+### Static size and structure comparison
+
+The syntax-aware scanner used for Phase 0 was rerun against the Phase 0 Git blob and current source. It reproduced the recorded Phase 0 core result exactly before computing the final result.
+
+| Metric | Phase 0 | Final | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 658,214 B | 347,786 B | -310,428 B / -47.16% |
+| core.min.css | 556,488 B | 294,299 B | -262,189 B / -47.11% |
+| Core normal rules | 4,643 | 2,496 | -2,147 / -46.24% |
+| Core selectors | 5,065 | 2,750 | -2,315 / -45.71% |
+| Core media queries | 1,213 | 658 | -555 |
+| Core keyframe blocks | 30 | 18 | -12 |
+| Core remote imports | 1 | 0 | -1 |
+| All editable CSS / main.css | 839,840 B | 629,549 B | -210,291 B / -25.04% |
+| Compatibility main.min.css | 716,409 B | 539,689 B | -176,720 B / -24.67% |
+| Core + family normal rules | 5,688 | 4,206 | -1,482 / -26.06% |
+| Core + family selectors | 6,436 | 4,922 | -1,514 / -23.52% |
+
+Family sources grew where proven exclusive rules moved from core; the overall configured CSS set shrank because unused and exact duplicate rules were removed.
+
+| Family | Source Phase 0 → final | Minified Phase 0 → final |
+| --- | ---: | ---: |
+| Home | 13,080 → 26,104 B | 11,472 → 22,431 B |
+| About | 15,046 → 18,785 B | 12,802 → 15,821 B |
+| Contact | 15,743 → 21,242 B | 13,516 → 18,342 B |
+| Services | 1,024 → 40,576 B | 853 → 35,360 B |
+| Blog listing | 12,660 → 13,505 B | 10,868 → 11,495 B |
+| Blog details | 122,887 → 160,365 B | 109,467 → 140,998 B |
+| Legal | 0 → 0 B | 50 → 50 B |
+| Error | 1,186 → 1,186 B | 943 → 943 B |
+
+The exact active project core-plus-family payload changed as follows: Home 567,960 to 316,730 bytes (-44.23%); Services 557,341 to 329,659 (-40.85%); Blog detail 665,955 to 435,297 (-34.64%); Legal 556,538 to 294,349 (-47.11%).
+
+### Controlled browser method
+
+The comparison held the current PHP-rendered DOM, JavaScript, images, fonts and all non-CSS assets constant. Browser interception substituted only the Phase 0 versus final minified core/family blobs. Baseline mode removed the final direct intl-tel-input link because the Phase 0 core blob contains the same pinned stylesheet as a nested import; final mode retained the direct link. The pinned remote CSS body was fetched once and fulfilled identically in both modes.
+
+Installed local Google Chrome ran headless at 1,440×900 with reduced motion, service workers blocked, browser cache disabled and Analytics blocked in both modes. Home, Services, Blog detail and Legal each received one warm-up followed by five measured cold-cache samples per mode in alternating order. The page settled for 2.5 seconds. CSS response bodies, stylesheet count and CSS Coverage came from Chromium; FCP/LCP/long-task data came from PerformanceObserver/timing entries; style-recalculation and layout durations came from CDP Performance metrics.
+
+### Payload and Coverage medians
+
+| Route | Full CSS Phase 0 | Full CSS final | Change | CSS requests | Coverage Phase 0 | Coverage final |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Home | 1,013,647 B | 762,417 B | -251,230 B / -24.79% | 12 → 12 | 8.55% | 11.15% |
+| Services | 984,593 B | 756,911 B | -227,682 B / -23.12% | 11 → 11 | 7.81% | 9.97% |
+| Blog detail | 1,093,207 B | 862,549 B | -230,658 B / -21.10% | 11 → 11 | 8.64% | 10.79% |
+| Legal | 983,790 B | 721,601 B | -262,189 B / -26.65% | 11 → 11 | 5.90% | 7.90% |
+
+The median of the four per-route Coverage medians improved from 8.18% to 10.38%, a 2.20 percentage-point increase. Request count did not increase on any representative route.
+
+### Rendering metric medians
+
+| Route | FCP ms Phase 0 → final | LCP ms Phase 0 → final | TBT ms Phase 0 → final | Style recalc ms Phase 0 → final | Layout ms Phase 0 → final |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Home | 656 → 896 | 688 → 932 | 0 → 0 | 204.54 → 160.21 | 19.66 → 24.62 |
+| Services | 576 → 588 | 592 → 620 | 0 → 0 | 149.16 → 115.71 | 35.21 → 29.77 |
+| Blog detail | 636 → 632 | 672 → 664 | 0 → 0 | 208.68 → 141.77 | 35.30 → 34.96 |
+| Legal | 496 → 556 | 512 → 588 | 0 → 0 | 56.36 → 42.59 | 14.15 → 14.74 |
+| Median of route medians | 606 → 610 | 632 → 642 | 0 → 0 | 176.85 → 128.74 | 27.44 → 27.20 |
+
+The aggregate style-recalculation median fell 27.20%. Aggregate layout time fell 0.87% and is effectively unchanged at this scale. FCP increased 4 ms and LCP increased 10 ms in the aggregate medians; route-level samples were noisy, so this run does not establish a paint-timing improvement. TBT remained zero. These are controlled local measurements, not a PageSpeed or production-performance guarantee.
+
+The canonical measurement summary SHA-256 is `65ecc3808d0667d95195da03f1d2b2a5549f474b9f8e83722f4c221727ab86d5`.
+
+Two final explicit `npm run build:css` executions reproduced identical SHA-256 hashes and byte sizes for all nine core/family bundles and both compatibility outputs. The final core hash remained `a177711f21b8ef0dca4100671fec933ee2ac5c017d787cb819386f7598b23e5d`; `git diff --check` passed and generated files remained outside the documentation-only diff.

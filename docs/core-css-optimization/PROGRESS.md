@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 10 restricted browser regression complete; checkpoint documentation in progress
-- Last completed phase: Phase 9 exhaustive route validation, committed and staging-validated
-- Next phase: Phase 11 controlled performance comparison after this checkpoint and green staging workflow
+- Current phase: Phase 11 controlled performance comparison complete; final documentation checkpoint in progress
+- Last completed phase: Phase 10 restricted browser regression, committed and staging-validated
+- Next phase: final acceptance verification after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1589,7 +1589,7 @@ No product source, generated output, route, redirect, server, sitemap, dependenc
 
 ## Phase 10 — Restricted browser regression
 
-Status: validation complete; documentation checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1616,16 +1616,57 @@ No product source, generated output, PHP, JavaScript, route, redirect, server, s
 ### Checkpoint
 
 - Intended message: Document restricted browser regression
+- Commit SHA: d9340718ee7e6de84f73bce4bdb70bc8438e7323
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29668874067 succeeded
+
+### Remaining risks
+
+- Browser evidence is a representative 30-state regression matrix, not pixel-by-pixel visual approval of all 91 routes.
+- The three pre-existing encoded-space Government Relations local-router exceptions remain outside this CSS task.
+- Phase 11 supplies the completed controlled before/after CSS payload, Coverage and rendering-timing medians.
+
+## Phase 11 — Final performance comparison
+
+Status: validation complete; final documentation checkpoint pending.
+
+### Files changed
+
+- Phase documentation under docs/core-css-optimization
+
+No product source, generated output, PHP, JavaScript, route, redirect, server, sitemap, dependency or workflow file changed. The temporary local measurement harness was removed after the controlled run.
+
+### Static architecture result
+
+- `core.css`: 658,214 to 347,786 bytes, down 310,428 bytes / 47.16%.
+- `core.min.css`: 556,488 to 294,299 bytes, down 262,189 bytes / 47.11%.
+- Core normal rules: 4,643 to 2,496, down 2,147 / 46.24%; core selectors: 5,065 to 2,750, down 2,315 / 45.71%.
+- Total configured editable CSS: 839,840 to 629,549 bytes, down 210,291 / 25.04%; compatibility minified output: 716,409 to 539,689 bytes, down 176,720 / 24.67%.
+- Family rules/selectors increased from 1,045/1,371 to 1,710/2,172 because exclusively owned rules moved out of core. Core plus all families still fell from 5,688/6,436 rules/selectors to 4,206/4,922 after proven-unused and exact-duplicate removal.
+
+### Controlled browser result
+
+- Same current DOM and route content in both modes; only Phase 0 versus final core/family CSS and baseline nested-import versus final direct-link architecture differed.
+- Installed local Chrome, 1,440×900, reduced motion, service workers blocked, browser cache disabled, Analytics blocked equally, 2.5-second settle, one warm-up and five alternating measured cold-cache runs per mode for Home, Services, Blog detail and Legal.
+- Median full loaded CSS fell 24.79% Home, 23.12% Services, 21.10% Blog detail and 26.65% Legal. Stylesheet request counts were unchanged at 12 for Home and 11 for each other route.
+- Median Coverage improved on every route; median-of-route medians was 8.18% to 10.38% (+2.20 percentage points).
+- Median-of-route medians: FCP 606 to 610 ms; LCP 632 to 642 ms; TBT 0 to 0 ms; style recalculation 176.85 to 128.74 ms; layout 27.44 to 27.20 ms.
+- FCP/LCP did not establish an improvement in this noisy local sample. The measured style-recalculation reduction was 27.20%; layout was effectively unchanged at -0.87%. No PageSpeed score or unmeasured production gain is claimed.
+- Evidence SHA-256: `65ecc3808d0667d95195da03f1d2b2a5549f474b9f8e83722f4c221727ab86d5`.
+- Two final explicit `npm run build:css` executions reproduced identical hashes and sizes for all 11 generated outputs; `git diff --check` passed.
+
+### Checkpoint
+
+- Intended message: Document final CSS performance comparison
 - Commit SHA: pending checkpoint
 - Push target: origin/testing only
 - Staging workflow status: pending checkpoint push
 
 ### Remaining risks
 
-- Browser evidence is a representative 30-state regression matrix, not pixel-by-pixel visual approval of all 91 routes.
-- The three pre-existing encoded-space Government Relations local-router exceptions remain outside this CSS task.
-- Phase 11 still must measure controlled before/after CSS payload, Coverage and rendering-timing medians before final acceptance.
+- Local cold-cache timing medians are sensitive to host/browser scheduling; production paint improvement was not established.
+- The pre-existing Government Relations encoded-space local-router exceptions and the external pinned intl-tel-input dependency remain unchanged and outside task scope.
 
 ## Next exact action
 
-Run the final explicit build/diff checks, commit this documentation-only checkpoint, push only to testing and wait for staging. Then run Phase 11's controlled Phase 0-versus-final performance comparison from a clean synchronized gate.
+Run the final explicit build/diff checks, commit this documentation-only checkpoint, push only to testing and wait for staging. Then verify a clean testing worktree, HEAD equal to origin/testing, the final staging workflow green, and main/production untouched.

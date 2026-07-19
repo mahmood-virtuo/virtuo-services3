@@ -28,6 +28,12 @@ Family sources total 181,626 bytes. Core plus all family sources total 839,840 b
 
 The parser ignored comments and preserved media ancestry. Core contains 88 active custom-property declarations representing 70 unique names, zero font-face blocks, 30 keyframe blocks representing 18 logical names, and 27 unique media-query texts.
 
+## Final Phase 11 inventory delta
+
+The same syntax-aware scanner reproduced the Phase 0 counts above and measured final core at 347,786 bytes, 2,496 normal rules, 2,750 selectors, 658 media queries, 18 keyframe blocks and zero imports. Relative to Phase 0, core source is 47.16% smaller, minified core is 47.11% smaller, normal rules fell 46.24% and selectors fell 45.71%.
+
+Family ownership movement raised the eight family sources from 1,045 to 1,710 normal rules and from 1,371 to 2,172 selectors. Across core plus all family sources, proven-unused deletion and exact-duplicate cleanup reduced the configured totals from 5,688 to 4,206 normal rules and from 6,436 to 4,922 selectors. The aggregate editable source fell from 839,840 to 629,549 bytes; its minified compatibility output fell from 716,409 to 539,689 bytes.
+
 ## Generated CSS sizes
 
 | Output | Bytes | Core plus family | Saving versus main.min.css |
