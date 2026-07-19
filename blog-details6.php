@@ -185,10 +185,6 @@
                                             <li><span class="num">5</span><div><strong>The talent and immigration environment.</strong> Foreign-born professionals who built careers in US tech, research and finance are reconsidering. Professionals who previously treated the US as the end goal are increasingly comparing the UAE because visa uncertainty, political climate and opportunity corridors are no longer theoretical concerns.</div></li>
                                         </ul>
 
-                                        <!-- <blockquote class="vt-callout">
-                                            <p>The challenge isn't the size of the tariffs. It's the environment they're delivered in — one of deliberate, sustained chaos that makes it effectively impossible to predict what you'll pay next month.</p>
-                                            <cite>East Asia Forum / Bloomberg, March 2026</cite>
-                                        </blockquote> -->
                                         <p class="vt-zone-reco">The challenge isn't the size of the tariffs. It's the environment they're delivered in — one of deliberate, sustained chaos that makes it effectively impossible to predict what you'll pay next month.<br/><span class="blog-source-note">East Asia Forum / Bloomberg, March 2026</span></p>
                                     </div>
 
@@ -350,10 +346,6 @@
                                             <div class="us-adv-card"><div class="us-adv-title">Cost of living: 15–25% below Manhattan</div><div class="us-adv-text">A 1BR in central Dubai runs $2,000–$3,500/month vs $3,500–$5,500 in Manhattan. Health insurance: $150–400/month vs $500–1,500 in the US. Full-time household staff costs $500–800/month. School fees are significant but lower than comparable private schools in major US cities.</div></div>
                                         </div>
 
-                                        <!-- <blockquote class="vt-callout">
-                                            <p>Dubai's openness makes it vulnerable to shocks in travel and confidence. Abu Dhabi's balance sheet gives the federation the capacity to absorb the blow.</p>
-                                            <cite>Institute of International Finance, May 2026 — and both parts of that sentence proved accurate</cite>
-                                        </blockquote> -->
                                         <p class="vt-zone-reco">Dubai's openness makes it vulnerable to shocks in travel and confidence. Abu Dhabi's balance sheet gives the federation the capacity to absorb the blow.<br/><span class="blog-source-note">Institute of International Finance, May 2026 — and both parts of that sentence proved accurate</span></p>
                                     </div>
 

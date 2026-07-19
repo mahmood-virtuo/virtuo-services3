@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 7 shared PHP/HTML commented-markup cleanup validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 7 JavaScript-comment cleanup, committed and staging-validated
-- Next phase: Phase 7 Blog-detail commented-markup cleanup after this checkpoint and green staging workflow
+- Current phase: Phase 7 Blog-detail commented-markup cleanup validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 7 shared PHP/HTML cleanup, committed and staging-validated
+- Next phase: Phase 8 build and watcher verification after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1426,7 +1426,7 @@ The two source files drop 28 lines and 1,072 bytes; generated runtime JavaScript
 
 ## Phase 7 — Shared PHP/HTML commented-markup cleanup
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1461,15 +1461,57 @@ CSS, JavaScript, routes, loader behavior, server, sitemap, dependencies and work
 ### Checkpoint
 
 - Intended message: Remove obsolete shared PHP comments
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 233b8f8e5f10373ebed443ef940af6a65b73b894
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29667744279 succeeded
 
 ### Remaining risks
 
 - The 16 Blog-detail comment groups remain for a separate PHP-syntax-checked checkpoint.
 - Whitespace-only response bytes shrink where removed comment lines previously appeared; browser DOM and layout are not expected to change.
 
+## Phase 7 — Blog-detail PHP/HTML commented-markup cleanup
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- blog-details.php
+- blog-details2.php
+- blog-details3.php
+- blog-details6.php
+- blog-details7.php
+- blog-details8.php
+- Phase documentation under docs/core-css-optimization
+
+CSS, JavaScript, shared PHP, routes, loader behavior, server, sitemap, dependencies and workflow files are unchanged.
+
+### Exact cleanup
+
+- Removed the 16 inventoried disabled article groups: 160 lines and 19,234 bytes.
+- Each selected comment was line-isolated and contained no PHP. Active article wrappers, headings, sections, calculators, callouts and CTAs remain unchanged.
+- The project-wide markup-bearing comment scan now contains only the protected preloader rollback block and two PHP-generated service-panel boundary labels.
+
+### Validation performed
+
+- Fresh synchronized gate passed at 233b8f8e5f10373ebed443ef940af6a65b73b894 after staging run 29667744279 succeeded.
+- An exact committed-source transform reproduced all six current Blog-detail files by deleting only the 16 allowlisted HTML comments.
+- `php -l` passed all six changed templates; `git diff --check` passed.
+- All 86 sitemap routes returned 200 and all three negative probes returned 404.
+- Post-cleanup token-stripped response aggregate: `1b53432536f22074579d4c0cdf312497505c33afbc50eb4de675e29ec996fffc`; the difference from earlier aggregates is comment-line whitespace removal only.
+
+### Checkpoint
+
+- Intended message: Remove obsolete Blog PHP comments
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Phase 7 intentionally retains the preloader rollback documentation and dynamic service-panel labels.
+- Response transfer bytes shrink on affected articles; active DOM/layout behavior is unchanged by source-transform proof and still receives final Phase 10 regression coverage.
+
 ## Next exact action
 
-Run the explicit CSS build and final shared-PHP checks, commit this checkpoint, push only to testing and wait for staging. Then remove the 16 already-inventoried Blog-detail groups from a fresh synchronized gate.
+Run the explicit CSS build and final Blog-PHP checks, commit this checkpoint, push only to testing and wait for staging. Then execute Phase 8 build/watcher verification from a clean synchronized gate.

@@ -65,18 +65,6 @@ $default_opex    = max(5, min(45, $default_opex));
     <?php include __DIR__ . '/partials/header.php'; ?>
 
     <main class="main-area fix">
-        <!-- <div class="hero">
-          <div class="wrap">
-            <div class="eyebrow">Virtuo Insight · UAE Strategy for U.S. Operators</div>
-            <h1 class="title">Why U.S. Wireless and ITAD Operators Are Looking at the UAE</h1>
-            <p class="subtitle">A second base for lower costs, new markets, faster payments, and stronger margins — built gradually, not overnight.</p>
-            <div class="hero-meta">
-              <span>Jun 27, 2026</span><span class="dot"></span>
-              <span>UAE Strategy · Wireless &amp; ITAD</span><span class="dot"></span>
-              <span>12 min read</span>
-            </div>
-          </div>
-        </div> -->
         <section class="slider__area blog-static-hero">
             <div class="slider__bg hero-image-styles"
                  data-background="/assets/img/slider/2ndBlog.webp"
@@ -133,7 +121,6 @@ $default_opex    = max(5, min(45, $default_opex));
                         <li><img src="/assets/img/icons/calendar.svg" alt="" class="injectable" /> Jun 27, 2026</li>
                       </ul>
                     </div>
-                    <!-- <div class="blog-details2-article"> -->
                       <div class="blog-details2-article vt-article">
                       <div class="wrap blog-details2-content">
           <section id="gap">
@@ -275,29 +262,6 @@ $default_opex    = max(5, min(45, $default_opex));
             <p class="blog-split-conclusion">You're not choosing between the U.S. and the UAE. You're assigning each one the job it's actually good at.</p>
           </section>
         
-          <!-- <section id="tariff">
-            <h2><span class="num"></span>Tariffs, crypto, and compliance — straight answers</h2>
-            <p>This is where most "Dubai" pitches get sloppy. We'd rather you click these open and read the real position.</p>
-        
-            <div class="acc-item">
-              <div class="acc-head">Does a UAE base make tariffs go away? <span class="plus">+</span></div>
-              <div class="acc-body">No. Operating through the UAE does not eliminate tariffs. Duties and import treatment still depend on origin, destination, HS code classification, and the import rules of the receiving country. What a second base genuinely provides is <strong>optionality</strong> — more routing flexibility and less dependence on a single trade lane — so one disruption doesn't take the whole pipeline down with it.</div>
-            </div>
-            <div class="acc-item">
-              <div class="acc-head">Can I get paid in crypto or stablecoins from international buyers? <span class="plus">+</span></div>
-              <div class="acc-body">Many international buyers, especially across LATAM and increasingly MENA, are comfortable with stablecoin settlement because of currency volatility and cross-border payment friction. That can be a real settlement-speed advantage — but only through regulated, compliant platforms with proper KYC, accounting, and documentation. Wallet-to-wallet shortcuts create more risk than they solve, and we don't structure around them.</div>
-            </div>
-            <div class="acc-item">
-              <div class="acc-head">Does the UAE eliminate my U.S. tax obligations? <span class="plus">+</span></div>
-              <div class="acc-body">No. Free Zone companies may qualify for preferential corporate tax treatment on qualifying income if specific rules are met — that's a real benefit, but it's conditional, not automatic. U.S. owners remain fully subject to U.S. tax obligations regardless of where the company sits, and that requires proper U.S. tax advice, not assumptions.</div>
-            </div>
-        
-            <div class="tag-row">
-              <span class="tag gold">Optionality, not avoidance</span>
-              <span class="tag gold">Compliant settlement only</span>
-              <span class="tag gold">U.S. tax advice required</span>
-            </div>
-          </section> -->
           <section id="tariff">
   <h2 class="title-two"><span class="num"></span>Tariffs, crypto, and compliance — straight answers</h2>
   <p>This is where most "Dubai" pitches get sloppy. We'd rather you click these open and read the real position.</p>
@@ -368,14 +332,6 @@ $default_opex    = max(5, min(45, $default_opex));
             </div>
           </section>
         
-          <!-- <section id="cta">
-            <div class="cta-box">
-              <h3>Build the structure once, correctly — and in the right order</h3>
-              <p>Virtuo helps U.S. wireless, ITAD, refurbishing, reverse-logistics, and device resale operators build a practical UAE platform, gradually — company formation, PRO services, residency planning, banking preparation, compliant crypto payment structuring, digital presence, and AI automation.</p>
-              <a class="btn" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo →</a>
-              <a class="btn ghost" href="https://virtuo.ae/contact" target="_blank" rel="noopener">Book a consultation</a>
-            </div>
-          </section> -->
           <div class="blog__details-bottom">
             <div class="row">
               <div class="col-md-7">

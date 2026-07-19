@@ -117,8 +117,6 @@
                                         <li><img src="/assets/img/icons/calendar.svg" alt="" class="injectable">Jul 2, 2026</li>
                                     </ul>
                                 </div>
-                                <!-- <h1 class="title">UAE Taxes Explained 2026: Every Tax, Who Pays It &amp; What You Don't Owe</h1> -->
-                                <!-- <p>The UAE is not tax-free. It never was. But it is one of the most tax-efficient jurisdictions in the world — if you know which taxes apply to you and which ones simply don't exist.</p> -->
 
 
 <!-- THE MYTH -->

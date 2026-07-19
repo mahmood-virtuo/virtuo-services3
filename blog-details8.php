@@ -289,27 +289,6 @@
                                                 </div>
                                             </div>
 
-                                            <!-- <div class="vt-costbox" aria-label="Indicative entry package comparison">
-                                                <div class="vt-ct">Indicative entry-package starting points</div>
-                                                <div class="vt-costrow active" data-ajman-key="ajman">
-                                                    <div class="vt-cl"><span>Ajman FZ</span><span>Dh4,166</span></div>
-                                                    <div class="vt-track"><div class="vt-fill" style="width: 12%;"></div></div>
-                                                </div>
-                                                <div class="vt-costrow" data-ajman-key="northern">
-                                                    <div class="vt-cl"><span>Northern zones</span><span>Dh~6k</span></div>
-                                                    <div class="vt-track"><div class="vt-fill" style="width: 18%;"></div></div>
-                                                </div>
-                                                <div class="vt-costrow" data-ajman-key="dubai">
-                                                    <div class="vt-cl"><span>Dubai (low)</span><span>Dh~12.5k</span></div>
-                                                    <div class="vt-track"><div class="vt-fill" style="width: 38%;"></div></div>
-                                                </div>
-                                                <div class="vt-costrow" data-ajman-key="dubai">
-                                                    <div class="vt-cl"><span>Dubai (premium)</span><span>Dh34k+</span></div>
-                                                    <div class="vt-track"><div class="vt-fill" style="width: 100%;"></div></div>
-                                                </div>
-                                                <div class="vt-axis"><span>Dh4.2k</span><span>Dh34k+</span></div>
-                                                <p class="vt-costnote">Indicative entry-package starting points (AED, 2026). Real quotes vary by activity, visas and facilities &mdash; treat this as directional, not a quote.</p>
-                                            </div> -->
                                             <div class="vt-costbox ajman-costbox" aria-label="Indicative entry package comparison">
     <div class="vt-ct">Indicative entry-package starting points</div>
 

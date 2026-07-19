@@ -103,8 +103,6 @@
 
                                     <div class="vt-panel vt-reveal">
                                         <div class="vt-eyebrow">Where this usually lands</div>
-                                        <!-- <div class="vt-ptitle">You need direct UAE market access — local clients, contracts, staff</div> -->
-                                        <!-- <p class="vt-psub">The current reason is stronger: a diversified, increasingly self-regulating economy proving it can absorb a shock without losing its institutions.</p> -->
                                         <div class="vt-check">
                                             <div class="ci"><span class="qn">01</span><span><b>Mainland:</b> You need direct UAE market access — local clients, contracts, staff, or a storefront.</span></div>
                                             <div class="ci"><span class="qn">02</span><span><b>Free Zone:</b> You're serving international clients from a UAE base</span></div>
@@ -141,58 +139,6 @@
                                     <h2 class="title-two" id="vt-structure-decision">Mainland, Free Zone, or Offshore — The Decision Matters More Now, Not Less</h2>
                                     <p>None of this changes the basic structuring decision. It raises the cost of getting it wrong. A mismatched activity, a free zone entity with no real substance, or an offshore vehicle being used to trade locally was always a problem — but in an environment where the FTA is running more detailed QFZP compliance checks and banks are more deliberate about who they onboard, the gap between a clean structure and a sloppy one shows up faster.</p>
 
-                                    <!-- <div class="vt-studio">
-                                        <div class="vt-chooser" hidden aria-hidden="true">
-                                            <div class="vt-chooser-top">What is the business actually doing?</div>
-                                            <div class="vt-goals">
-                                                <button class="vt-goal" type="button" data-goal="mainland" aria-pressed="true"><span class="gk">Goal A</span><br><span class="gt">Operating in the UAE market — local clients, contracts, staff</span></button>
-                                                <button class="vt-goal" type="button" data-goal="freezone" aria-pressed="false"><span class="gk">Goal B</span><br><span class="gt">Serving international or online revenue from a UAE base</span></button>
-                                                <button class="vt-goal" type="button" data-goal="offshore" aria-pressed="false"><span class="gk">Goal C</span><br><span class="gt">Holding equity, IP or assets — no local operations</span></button>
-                                            </div>
-                                        </div>
-
-                                        <p class="vt-reco" id="vt-reco">Most international founders still start in a Free Zone — but the right answer depends entirely on where your revenue and your customers actually sit, and how defensible your tax position needs to be.</p>
-
-                                        <div class="vt-tabs" role="tablist" aria-label="UAE company structures">
-                                            <button class="vt-tab" type="button" role="tab" aria-selected="true" data-key="mainland" id="vt-tab-mainland"><span class="tk">Instrument</span><br><span class="tn">Mainland</span><br><span class="te">Unrestricted UAE market access.</span></button>
-                                            <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="freezone" id="vt-tab-freezone"><span class="tk">Instrument</span><br><span class="tn">Free Zone</span><br><span class="te">The international operator's base.</span></button>
-                                            <button class="vt-tab" type="button" role="tab" aria-selected="false" data-key="offshore" id="vt-tab-offshore"><span class="tk">Instrument</span><br><span class="tn">Offshore</span><br><span class="te">Holding and structuring, not trading.</span></button>
-                                        </div>
-
-                                        <div class="vt-spanel" role="tabpanel" id="vt-spanel" aria-labelledby="vt-tab-mainland">
-                                            <div class="vt-pname" id="vt-pname">Mainland</div>
-                                            <div class="vt-best" id="vt-pbest">Best for — unrestricted UAE market access</div>
-                                            <p class="vt-pdesc" id="vt-pdesc">Licensed by the emirate's economic department to operate inside the UAE market without restriction: local clients, contracts, storefronts, and staff.</p>
-                                            <ul class="vt-facts" id="vt-pfacts">
-                                                <li><span class="k">Ownership</span><span class="v">Up to 100% foreign</span></li>
-                                                <li><span class="k">Market access</span><span class="v">Direct, unrestricted</span></li>
-                                                <li><span class="k">Tax</span><span class="v">9% above AED 375k; 0% below</span></li>
-                                                <li><span class="k">Visas</span><span class="v">Yes — staff &amp; family</span></li>
-                                            </ul>
-                                            <div class="vt-costbox" hidden aria-hidden="true">
-                                                <div class="vt-costrow" data-key="mainland"><div class="vt-cl"><span>Mainland</span><span>AED 18k – 35k+</span></div><div class="vt-track"><div class="vt-fill" data-low="18000" data-high="35000"></div></div></div>
-                                                <div class="vt-costrow" data-key="freezone"><div class="vt-cl"><span>Free Zone</span><span>AED 6k – 20k+</span></div><div class="vt-track"><div class="vt-fill" data-low="6000" data-high="20000"></div></div></div>
-                                                <div class="vt-costrow" data-key="offshore"><div class="vt-cl"><span>Offshore</span><span>AED 8k – 15k+</span></div><div class="vt-track"><div class="vt-fill" data-low="8000" data-high="15000"></div></div></div>
-                                            </div>
-                                        </div>
-
-                                        <h2 class="title-two" id="vt-matrix">Decision Matrix</h2>
-                                        <p>The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
-                                        <div class="vt-matrix-wrap">
-                                            <table class="vt-matrix">
-                                                <thead>
-                                                    <tr><th>Factor</th><th data-col="mainland" class="hl is-hl">Mainland</th><th data-col="freezone">Free Zone</th><th data-col="offshore">Offshore</th></tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr><th>Best for</th><td data-col="mainland" class="hl is-hl">Local clients, contracts, on-the-ground operations</td><td data-col="freezone">Global revenue, e-commerce, tech, IP, holding</td><td data-col="offshore">Equity &amp; asset holding, succession, structuring</td></tr>
-                                                    <tr><th>Tax position</th><td data-col="mainland" class="hl is-hl">9% above AED 375k; 0% below</td><td data-col="freezone">0% on qualifying income (QFZP, with substance)</td><td data-col="offshore">Substance-dependent; no automatic exemption</td></tr>
-                                                    <tr><th>2026 compliance reality</th><td data-col="mainland" class="hl is-hl">FTA filing mandatory regardless of income</td><td data-col="freezone">Detailed QFZP substance &amp; de-minimis checks</td><td data-col="offshore">Banking scrutiny rewards genuine substance</td></tr>
-                                                    <tr><th>Visa entitlement</th><td data-col="mainland" class="hl is-hl">Yes</td><td data-col="freezone">Yes</td><td data-col="offshore">Generally none</td></tr>
-                                                    <tr><th>Ownership</th><td data-col="mainland" class="hl is-hl">Up to 100% foreign</td><td data-col="freezone">100% foreign</td><td data-col="offshore">100% foreign</td></tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div> -->
 
                                     <!-- ----------------Tab Section Starts--------------- -->
                                     <div class="vt-studio">

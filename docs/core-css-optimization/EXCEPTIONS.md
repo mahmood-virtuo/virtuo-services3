@@ -85,6 +85,8 @@ Phase 7 also removed only JavaScript comments whose live replacements or absent 
 
 The shared PHP/HTML group removed only 41 line-isolated blocks with no embedded PHP plus two explicitly named inactive assignments. The preloader rollback block and the two PHP-generated service-panel boundary labels remain protected. Ordinary structural comments remain because they are navigation aids rather than disabled code.
 
+The final Blog-detail group removed all 16 inventoried line-isolated disabled article blocks with no embedded PHP. The final project-wide markup-bearing scan leaves only the three protected blocks above.
+
 ## Phase 2 evidence closure
 
 - Browser DOM matching and interaction-state Coverage are now complete for the approved legacy candidates at representative desktop and mobile viewports.

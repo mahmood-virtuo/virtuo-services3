@@ -1347,3 +1347,15 @@ An allowlist transformer applied to the committed blobs reproduced every current
 Before editing, the 89-route comment-token-stripped response baseline had 86 successful canonical routes, three expected 404 responses and aggregate SHA-256 `3f5d6393b6478ff5a392ca55b3fb4380a8ee5c1444f5d0ad55ef5c3b9fa2101d`. Post-cleanup statuses remained 86/3. Its raw aggregate changed because source deletion removes the entire comment line while token-only stripping leaves indentation/newline whitespace; this is expected response-byte cleanup, not active markup variance. The exact source transform is the semantic parity proof for this group.
 
 The post-cleanup scanner found 19 remaining markup-bearing comments: 16 isolated Blog-detail candidates plus the deliberately retained preloader and two PHP-generated service-panel structural labels.
+
+The shared PHP/HTML checkpoint was committed as 233b8f8e5f10373ebed443ef940af6a65b73b894, pushed only to origin/testing, and staging run 29667744279 succeeded before the Blog-detail group.
+
+## Phase 7 Blog-detail PHP/HTML commented-markup validation
+
+The clean testing/remote gate passed at 233b8f8e5f10373ebed443ef940af6a65b73b894 after staging run 29667744279.
+
+The final Phase 7 PHP selection contained exactly 16 disabled article groups across six Blog-detail templates. All were line-isolated and none contained PHP. An allowlist transformer applied to the committed blobs reproduced every current template byte-for-byte after deleting only those blocks. Net reduction: 160 lines and 19,234 bytes.
+
+`php -l` passed all six templates and `git diff --check` passed. The local route gate again returned 200 for all 86 sitemap routes and 404 for all three negative probes. The token-stripped response aggregate became `1b53432536f22074579d4c0cdf312497505c33afbc50eb4de675e29ec996fffc`; as in the shared group, deleting whole source lines also removes whitespace that token-only comment stripping leaves behind.
+
+A final first-party PHP scan found three markup-bearing comments project-wide: the deliberate preloader rollback block and two dynamic service-panel boundary labels. No obsolete markup candidate remains.

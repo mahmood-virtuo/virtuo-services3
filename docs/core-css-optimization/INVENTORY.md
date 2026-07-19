@@ -527,12 +527,12 @@ This is a review inventory, not a deletion list. License headers, structural com
 - about.php: Phase 7 removed the disabled story wrapper and five disabled WhatsApp/SVG blocks.
 - partials/header.php: Phase 7 removed seven superseded social/menu/off-canvas groups; the deliberate preloader rollback block remains.
 - partials/footer.php: Phase 7 removed the disabled tab navigation and four range-slider blocks.
-- Blog detail templates: 16 disabled HTML groups across blog-details.php, blog-details2.php, blog-details3.php, blog-details6.php, blog-details7.php, and blog-details8.php.
+- Blog detail templates: Phase 7 removed all 16 disabled HTML groups across blog-details.php, blog-details2.php, blog-details3.php, blog-details6.php, blog-details7.php, and blog-details8.php.
 - error.php: Phase 7 removed the disabled SVG image block and two commented breadcrumb assignments without changing active 404/breadcrumb behavior.
 - Service content/templates: Phase 7 removed seven disabled Digital Marketing paragraphs, one sidebar form fragment, and 12 superseded icons in uae-business-formation.php.
 - index.php: the Phase 7 boundary review discovered and removed two obsolete commented closing tags after confirming the active main-area `div` and image wrapper already close correctly.
 
-The automated Phase 0 scan produced 136 code-shaped candidates across 25 active first-party files. The 68 CSS blocks, JavaScript group and 41 shared/page HTML blocks plus two PHP assignment comments are now resolved. Sixteen Blog-detail groups remain; the preloader and two dynamic service-panel comments are intentional exclusions, not deletion candidates.
+The automated Phase 0 scan produced 136 code-shaped candidates across 25 active first-party files. The 68 CSS blocks, JavaScript group, 41 shared/page HTML blocks plus two PHP assignment comments, and 16 Blog-detail groups are now resolved. No obsolete code-shaped comment candidate remains; the preloader and two dynamic service-panel comments are intentional exclusions.
 
 ## Phase 3 Legal ownership review
 
