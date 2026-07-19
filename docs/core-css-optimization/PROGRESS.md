@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 9 exhaustive route validation complete; checkpoint documentation in progress
-- Last completed phase: Phase 8 build-system validation, committed and staging-validated
-- Next phase: Phase 10 restricted browser regression after this checkpoint and green staging workflow
+- Current phase: Phase 10 restricted browser regression complete; checkpoint documentation in progress
+- Last completed phase: Phase 9 exhaustive route validation, committed and staging-validated
+- Next phase: Phase 11 controlled performance comparison after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1552,7 +1552,7 @@ CSS/JavaScript sources, generated outputs, PHP, routes, loader, server, sitemap,
 
 ## Phase 9 — Exhaustive route and resource validation
 
-Status: validation complete; documentation checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1578,15 +1578,54 @@ No product source, generated output, route, redirect, server, sitemap, dependenc
 ### Checkpoint
 
 - Intended message: Document exhaustive route validation
+- Commit SHA: b393ca26d4bef8552e4361c84ab85c79782f4732
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29668183151 succeeded
+
+### Remaining risks
+
+- The three encoded-space Government Relations URLs remain a known local-router limitation outside this CSS task; their underlying image files are present.
+- Phase 10 supplies the completed tablet/mobile layout and representative interaction/console/network regression coverage.
+
+## Phase 10 — Restricted browser regression
+
+Status: validation complete; documentation checkpoint pending.
+
+### Files changed
+
+- Phase documentation under docs/core-css-optimization
+
+No product source, generated output, PHP, JavaScript, route, redirect, server, sitemap, dependency or workflow file changed. The temporary local regression harness was removed after the final run and is not part of the checkpoint.
+
+### Browser matrix and contracts
+
+- Installed Playwright with local Google Chrome covered 10 representative routes at 1,440×900, 390×844 and 768×1,024: 30/30 states passed.
+- Routes covered Home, About, Contact, standard Services, Digital Marketing deep navigation, Blog listing, standard Blog detail, interactive Blog detail, Legal and Error.
+- Every state had the expected document status, core plus exact family bundle order, one direct intl-tel-input stylesheet, no compatibility CSS, visible header/content/footer geometry, initialized phone UI, sticky header and zero horizontal overflow.
+- Local failed requests, unexpected local HTTP statuses, page errors and console errors were all zero. Thirty Analytics requests aborted when isolated contexts closed and were classified separately as out-of-scope telemetry.
+- Final result aggregate SHA-256: `645345ced7318a09691902332614002f53b30b97578e801b8d2a51c628a01080`.
+
+### Interaction and responsive result
+
+- Desktop Services mega-menu opening and Marketing panel activation passed; mobile/tablet menu open, fixed top-level Services submenu activation and close passed after the real 300 ms transition.
+- Home Swiper, About team grid, Contact intl country selection/normalization and name sanitization, standard Service tab/accordion, and asynchronous Digital navigation/URL/breadcrumb updates passed.
+- Blog listing category/tag navigation and load-more reveal passed. Both Blog details populated and activated the TOC, desktop sticky widgets reached fixed/absolute state, and mobile/tablet widgets remained non-sticky.
+- The interactive article initialized the Emirates map, selected Dubai, and activated the second business-selector panel at every viewport.
+- No screenshots were taken because no product regression remained.
+
+### Checkpoint
+
+- Intended message: Document restricted browser regression
 - Commit SHA: pending checkpoint
 - Push target: origin/testing only
 - Staging workflow status: pending checkpoint push
 
 ### Remaining risks
 
-- The three encoded-space Government Relations URLs remain a known local-router limitation outside this CSS task; their underlying image files are present.
-- Phase 10 still supplies tablet/mobile layout and representative interaction/console/network regression coverage.
+- Browser evidence is a representative 30-state regression matrix, not pixel-by-pixel visual approval of all 91 routes.
+- The three pre-existing encoded-space Government Relations local-router exceptions remain outside this CSS task.
+- Phase 11 still must measure controlled before/after CSS payload, Coverage and rendering-timing medians before final acceptance.
 
 ## Next exact action
 
-Run the final explicit build/diff checks, commit this documentation-only checkpoint, push only to testing and wait for staging. Then run Phase 10's restricted 10-route desktop/mobile/tablet interaction matrix from a clean synchronized gate.
+Run the final explicit build/diff checks, commit this documentation-only checkpoint, push only to testing and wait for staging. Then run Phase 11's controlled Phase 0-versus-final performance comparison from a clean synchronized gate.

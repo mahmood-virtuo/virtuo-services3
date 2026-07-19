@@ -2,36 +2,37 @@
 
 ## Last completed checkpoint
 
-Phase 8 build-system validation is committed as d0b255735cfd60d4552b408cf700117ef2f7bf1c, pushed to origin/testing and green in staging run 29667949386. Phase 9 exhaustive route/resource validation is complete and awaiting its documentation checkpoint.
+Phase 9 exhaustive route/resource validation is committed as b393ca26d4bef8552e4361c84ab85c79782f4732, pushed to origin/testing and green in staging run 29668183151. Phase 10 restricted browser regression is complete and awaiting its documentation checkpoint.
 
 ## Repository state at this handoff
 
 - Current branch: testing
-- Starting commit for Phase 9: d0b255735cfd60d4552b408cf700117ef2f7bf1c
-- Last completed checkpoint: d0b255735cfd60d4552b408cf700117ef2f7bf1c
-- Last completed staging run: Deploy Virtuo Staging 29667949386 succeeded
-- Current HEAD: the Phase 9 documentation checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
-- Required remote equality: current HEAD must equal origin/testing before Phase 10 starts
+- Starting commit for Phase 10: b393ca26d4bef8552e4361c84ab85c79782f4732
+- Last completed checkpoint: b393ca26d4bef8552e4361c84ab85c79782f4732
+- Last completed staging run: Deploy Virtuo Staging 29668183151 succeeded
+- Current HEAD: the Phase 10 documentation checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
+- Required remote equality: current HEAD must equal origin/testing before Phase 11 starts
 - Production/main state: untouched
 
-## Phase 9 exhaustive route/resource validation completed locally
+## Phase 10 restricted browser regression completed locally
 
-- All 86 canonical and five negative routes passed status, family and stylesheet-order contracts.
-- All 98 redirect probes returned the expected 301 target.
-- All 322 unique CSS/image/font resources passed except three documented encoded-space local-router exceptions whose decoded files exist.
-- Inline styles, active style blocks, mixed content, duplicate stylesheets and horizontal overflow across all 91 routes were zero.
+- The representative matrix passed all 10 routes at desktop, mobile and tablet: 30/30 states.
+- Status, family/order, no-compatibility, layout geometry, phone initialization, sticky-header, visible-image and zero-overflow contracts passed in every state.
+- Mega/mobile navigation, Home slider, Contact form/phone, Services/Digital navigation, Blog listing load-more/taxonomy, Blog TOC/sticky behavior and Emirates interactives passed.
+- Local request/HTTP, page and console failures were zero. Analytics context-close aborts were classified separately.
+- Final aggregate SHA-256: `645345ced7318a09691902332614002f53b30b97578e801b8d2a51c628a01080`.
 
 ## Next exact action
 
-Run the final explicit CSS build and diff checks, commit with message `Document exhaustive route validation`, push only to testing and wait for staging. Then run the restricted Phase 10 representative browser/interaction matrix at desktop, mobile and tablet viewports.
+Run the final explicit CSS build and diff checks, commit with message `Document restricted browser regression`, push only to testing and wait for staging. Then run the controlled Phase 11 before/after payload, Coverage and rendering-performance comparison.
 
 ## Outstanding phases
 
 - Phases 4–6: complete and staging-validated.
 - Phase 7: complete and staging-validated.
 - Phase 8: complete and staging-validated.
-- Phase 9: exhaustive route/resource validation complete; checkpoint pending.
-- Phase 10: restricted desktop/mobile regression.
+- Phase 9: complete and staging-validated.
+- Phase 10: restricted desktop/mobile/tablet regression complete; checkpoint pending.
 - Phase 11: controlled performance comparison and final report.
 
 ## Known risks

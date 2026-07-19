@@ -1407,3 +1407,43 @@ Rendered HTML and all discovered stylesheet dependencies produced 287 unique loc
 After inactive HTML comments were removed, active style attributes and style blocks were both zero. Mixed-content references and duplicate stylesheet links were zero.
 
 Installed Playwright/local Google Chrome loaded all 91 routes at 1,440×900 and compared document/body scroll width with client width after load. Maximum overflow was 0 pixels, route/status failures were zero, and no screenshot was needed.
+
+The Phase 9 documentation checkpoint was committed as b393ca26d4bef8552e4361c84ab85c79782f4732, pushed only to origin/testing, and staging run 29668183151 succeeded before Phase 10.
+
+## Phase 10 restricted browser regression
+
+The clean testing/remote gate passed at b393ca26d4bef8552e4361c84ab85c79782f4732 after staging run 29668183151.
+
+Installed Playwright used the locally installed Google Chrome with reduced motion and isolated contexts. The final matrix covered these routes at 1,440×900, 390×844 and 768×1,024:
+
+1. Home `/`
+2. About `/about`
+3. Contact `/contact`
+4. Standard Services `/uae-business-formation-structuring-and-compliance`
+5. Digital Marketing with the Analytics deep tab
+6. Blog listing `/blog`
+7. The standard Mainland/Free Zone/Offshore Blog detail
+8. The interactive seven-Emirates Blog detail
+9. Legal `/privacy-policy`
+10. Invalid `/definitely-not-a-real-route`
+
+All 30 states returned the expected status and loaded core plus exactly one expected family bundle after the single direct intl-tel-input stylesheet. Compatibility CSS and duplicate stylesheet links were zero. Header, route content and footer had nonzero geometry; the first phone input was inside an initialized intl wrapper with a correctly sized flag; marquees initialized where present; sticky headers activated; visible loaded images were valid; and maximum horizontal overflow was 0 pixels.
+
+The route-specific interaction matrix passed:
+
+- Home Swiper initialization and second pagination action.
+- About team grid with at least five members.
+- Contact `#contact-quote-form`, the full country dropdown, US selection, `+1 2025550123` normalized hidden value, `US` country value and `A1!lice` to `Alice` sanitization.
+- Standard Services free-zone panel and its first accordion.
+- Digital Marketing Analytics initial panel followed by asynchronous Paid Advertising content, active navigation, URL and breadcrumb updates.
+- Blog listing category/tag sidebars and one load-more reveal.
+- Both Blog-detail TOCs and desktop versus mobile/tablet sticky-widget behavior.
+- Interactive Blog Emirates-map readiness, Dubai selection and second business-selector tab/panel activation.
+- Legal and Error content contracts.
+- Desktop mega-menu Marketing activation and mobile/tablet Services submenu open/close behavior.
+
+Unexpected local failed requests, local HTTP failures, page errors and console errors were all zero. Thirty Google Analytics requests aborted as the 30 isolated contexts closed and were counted separately as out-of-scope telemetry, consistent with earlier browser checkpoints. Screenshots were unnecessary because the final matrix was clean.
+
+The final canonical result object contained 30 passes and produced aggregate SHA-256 `645345ced7318a09691902332614002f53b30b97578e801b8d2a51c628a01080`.
+
+Before the final run, rejected harness assumptions were corrected against source and live DOM: Contact uses `#contact-quote-form`; Blog listing taxonomy belongs to the category/tag sidebars rather than cards; the mobile menu requires its real 300 ms transition and a fixed top-level toggle locator; Home has no semantic `main` wrapper; hidden mobile/tablet slider pagination and TOC controls require DOM activation for their underlying behavior contract; and the selected Service panel must be measured instead of the first now-hidden panel. These were harness corrections, not product failures.

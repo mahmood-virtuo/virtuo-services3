@@ -95,6 +95,10 @@ Phase 8 confirmed deterministic, non-empty core/family/compatibility outputs, ro
 
 The Government Relations markup contains three image filenames with spaces, already present at the Phase 0 commit and explicitly excluded by the inline-style migration plan. The decoded files exist, but the current PHP development router checks the percent-encoded path and returns 404. Phase 9 records these three as pre-existing local-router exceptions; all other 319 unique CSS/image/font resources passed. This CSS task does not alter their paths, routing or server behavior.
 
+## Phase 10 browser diagnostics exception
+
+The final 30-state restricted browser matrix had zero local request, HTTP, page, console and overflow failures. Thirty Google Analytics requests aborted only when their isolated browser contexts closed; they are out-of-scope telemetry rather than CSS or first-party asset failures. No product exception or CSS retention exception was added by Phase 10.
+
 ## Phase 2 evidence closure
 
 - Browser DOM matching and interaction-state Coverage are now complete for the approved legacy candidates at representative desktop and mobile viewports.
