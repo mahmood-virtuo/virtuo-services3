@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 5 Home/Blog-details exact-duplicate consolidation validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 5 Services-family exact duplicates, committed and staging-validated
-- Next phase: Phase 6 remote intl-tel-input import optimization after this checkpoint and green staging workflow
+- Current phase: Phase 6 explicit intl-tel-input stylesheet loading validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 5 Home/Blog-details exact duplicates, committed and staging-validated
+- Next phase: Phase 7 dead commented-out first-party code review after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1210,7 +1210,7 @@ Services routes drop 1,693 minified family bytes; other route-family payloads ar
 
 ## Phase 5 — Home and Blog-details exact duplicate consolidation
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1257,15 +1257,69 @@ Home routes drop 419 minified family bytes and Blog-details routes drop 366; oth
 ### Checkpoint
 
 - Intended message: Consolidate exact Home and Blog CSS duplicates
+- Commit SHA: d0a01df2125cbe60aa5d74224c863148d10270c8
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29666760688 succeeded
+
+### Remaining risks
+
+- Phase 5 removes only proven exact copies; intentional same-declaration/different-selector patterns and non-identical cascade layers remain.
+- The remote intl-tel-input import remained unchanged until the isolated Phase 6 loader/order audit.
+
+## Phase 6 — Explicit intl-tel-input stylesheet loading
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/core.css
+- assets/css/bundles/core.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- partials/main-styles.php
+- Phase documentation under docs/core-css-optimization
+
+No family CSS, JavaScript, phone initializer, route, server, sitemap, dependency or workflow file changed.
+
+### Exact change
+
+- Removed the version 25.3.1 jsDelivr `@import` from the top of `core.css`.
+- Added one synchronous direct `<link>` for the identical URL immediately before core/compatibility CSS in the once-guarded main stylesheet loader.
+- The remote URL is not passed through local asset version/path validation.
+- Core remains after the library stylesheet, so all existing custom intl-tel-input overrides keep their order.
+
+### Before and after sizes
+
+| File | Before explicit loading | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/core.css | 352,390 | 352,295 | -95 |
+| assets/css/bundles/core.min.css | 298,806 | 298,715 | -91 |
+| assets/css/main.css | 637,046 | 636,951 | -95 |
+| assets/css/main.min.css | 546,984 | 546,893 | -91 |
+
+The browser still requests the same third-party stylesheet once; the benefit is direct HTML discovery rather than waiting for core CSS to reveal a nested import.
+
+### Validation performed
+
+- Fresh gate passed at d0a01df2125cbe60aa5d74224c863148d10270c8 after staging run 29666760688 succeeded.
+- `npm run build:css` passed without the former CleanCSS remote-import warning; no `@import` remains in core source, core bundle or compatibility outputs.
+- `php -l partials/main-styles.php` passed.
+- Home, Contact and sidebar-form Services routes passed at desktop/mobile: six states, one CSS request each initiated by `link`, 16×12 AE flags, 244-country desktop/mobile dropdowns, US selection, `+1 2025550123` synchronization, existing validation behavior and zero relevant console/network errors.
+- Settled same-DOM import-vs-link comparison matched all computed properties and rectangles for 989 phone/dropdown elements in every state; aggregate matrix SHA-256 `3a615321c1d291d3476212e6ab62358f6cfc1a1aad14d7ae566b618e256e47cf`.
+- All 89 probes rendered exactly one versioned intl-tel-input stylesheet immediately before core, one matching script and at least one phone field; all 17 local stylesheet paths/full URLs returned 200 and inline styles remained zero.
+
+### Checkpoint
+
+- Intended message: Load intl-tel-input CSS explicitly
 - Commit SHA: pending checkpoint
 - Push target: origin/testing only
 - Staging workflow status: pending checkpoint push
 
 ### Remaining risks
 
-- Phase 5 removes only proven exact copies; intentional same-declaration/different-selector patterns and non-identical cascade layers remain.
-- The remote intl-tel-input import remains unchanged until the Phase 6 loader/order audit.
+- The stylesheet and script still depend on the existing pinned jsDelivr availability; Phase 6 changes discovery, not hosting.
+- Phase 7 comment candidates require manual context review and syntax-checked small groups.
 
 ## Next exact action
 
-Run final deterministic build/diff checks, commit the Home/Blog-details duplicate checkpoint, push only to testing and wait for staging. Then begin the Phase 6 remote-import audit from a clean synchronized gate.
+Run final deterministic build/diff checks, commit the explicit intl-tel-input loading checkpoint, push only to testing and wait for staging. Then begin Phase 7 from a clean synchronized gate.

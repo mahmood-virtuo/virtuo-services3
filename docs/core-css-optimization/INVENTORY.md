@@ -500,24 +500,22 @@ First-party scripts explicitly add or toggle success, error, active, open, is-vi
 
 ## Remote imports
 
-core.css line 10 contains one remote import:
+Phase 6 removed the only remote `@import` from `core.css` and both generated compatibility paths. The same pinned stylesheet is now one synchronous direct HTML link emitted immediately before core by the once-guarded main stylesheet loader:
 
 https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css
 
-The import remains in generated core.min.css and main.min.css. The baseline build reports that CleanCSS skips remote import inlining, so the nested browser discovery chain remains. All 89 validated route probes render both the shared footer phone field and intlTelInput.min.js, which suggests explicit sitewide loading may remove serial discovery but may not reduce request count. Phase 6 must verify ordering, one-request maximum, flags/dropdown layout, and all phone states before changing it.
+All 89 route responses contain exactly one link and one matching script. Representative browser validation recorded one CSS request initiated directly by `link`, not by CSS, while preserving all custom override order and phone behavior.
 
 ## CSS URL references
 
-Comment-free core now contains nine url() occurrences and six unique values:
+Comment-free core now contains six `url()` occurrences and four unique values:
 
-- One remote intl-tel-input stylesheet URL.
-- /assets/img/images/about_mask_img.svg
 - /assets/img/images/faq_mask_img.svg
 - /assets/img/images/h5_choose_mask_img.svg
 - /assets/img/images/virtuo-footer-gradient.webp
 - /assets/img/services/footerBackgroundImage-1920x1105.webp
 
-Three SVG masks occur in both prefixed and unprefixed declarations, giving eight local core occurrences in total. In addition, home.css contains /assets/img/images/virtuo-footer-gradient-1920x908.webp and blog-details.css contains the fragment-only url(#emiratesMapGradient). Across all editable sources there are 11 active url() occurrences and eight unique values. The CSS builder verified that every local root-relative target exists; the SVG fragment does not resolve to a filesystem asset.
+The FAQ and Choose SVG masks occur in both prefixed and unprefixed declarations, giving four of the six local core occurrences. In addition, home.css contains the duplicated About mask and `/assets/img/images/virtuo-footer-gradient-1920x908.webp`; blog-details.css contains the fragment-only `url(#emiratesMapGradient)`. Across all editable sources there are 10 active `url()` occurrences and seven unique values. The CSS builder verified that every local root-relative target exists; the SVG fragment does not resolve to a filesystem asset.
 
 ## Commented-out first-party code inventory
 

@@ -27,6 +27,9 @@ if (isset($virtuoCssFamilies[$virtuoSelectedCssFamily])) {
     $virtuoStylesheets = array('/assets/css/main.min.css');
 }
 
+?>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css">
+<?php
 foreach (array_unique($virtuoStylesheets) as $virtuoStylesheet) {
     ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url($virtuoStylesheet), ENT_QUOTES, 'UTF-8'); ?>">

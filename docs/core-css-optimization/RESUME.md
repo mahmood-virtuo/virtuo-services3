@@ -2,34 +2,33 @@
 
 ## Last completed checkpoint
 
-The Phase 5 Services-family exact-duplicate cleanup is committed as c5e09ec91522f72be84ed511655a981e398fbed4, pushed to origin/testing and green in staging run 29666471751. Home/Blog-details exact-duplicate cleanup is implemented and validated, awaiting checkpoint commit/push/staging.
+The final Phase 5 Home/Blog-details exact-duplicate cleanup is committed as d0a01df2125cbe60aa5d74224c863148d10270c8, pushed to origin/testing and green in staging run 29666760688. Phase 6 explicit intl-tel-input stylesheet loading is implemented and validated, awaiting checkpoint commit/push/staging.
 
 ## Repository state at this handoff
 
 - Current branch: testing
-- Starting commit for Home/Blog-details duplicate cleanup: c5e09ec91522f72be84ed511655a981e398fbed4
-- Last completed checkpoint: c5e09ec91522f72be84ed511655a981e398fbed4
-- Last completed staging run: Deploy Virtuo Staging 29666471751 succeeded
-- Current HEAD: the Home/Blog-details duplicate checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
-- Required remote equality: current HEAD must equal origin/testing before Phase 6 starts
+- Starting commit for Phase 6: d0a01df2125cbe60aa5d74224c863148d10270c8
+- Last completed checkpoint: d0a01df2125cbe60aa5d74224c863148d10270c8
+- Last completed staging run: Deploy Virtuo Staging 29666760688 succeeded
+- Current HEAD: the Phase 6 checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
+- Required remote equality: current HEAD must equal origin/testing before Phase 7 starts
 - Production/main state: untouched
 
-## Home/Blog-details duplicate cleanup completed locally
+## Phase 6 completed locally
 
-- Removed four earlier Home and three earlier Blog-details copies; the last identical copy of each group remains.
-- `home.css`/`home.min.css` dropped 493/419 bytes; `blog-details.css`/`blog-details.min.css` dropped 426/366 bytes.
-- Six same-DOM Home/Blue Note/US-relocation desktop/mobile parity states passed with zero browser diagnostics.
-- All 89 probes and 17 stable stylesheet paths/URLs passed; active inline styles remained zero.
+- Removed the pinned version 25.3.1 nested import and emitted the identical URL once, synchronously and immediately before core.
+- Core/compatibility minified outputs dropped 91 bytes and build output no longer reports the skipped-import warning.
+- Six Home/Contact/sidebar desktop/mobile phone states passed request, flag, dropdown, selection, formatting, validation and same-DOM cascade/geometry checks.
+- All 89 probes contain one ordered stylesheet, one script and phone markup; all 17 stable local stylesheet paths/URLs passed.
 
 ## Next exact action
 
-Run final deterministic build/diff checks, commit with message `Consolidate exact Home and Blog CSS duplicates`, push only to testing and wait for staging. Then audit the Phase 6 remote intl-tel-input import from a clean synchronized gate.
+Run final deterministic build/diff checks, commit with message `Load intl-tel-input CSS explicitly`, push only to testing and wait for staging. Then begin Phase 7 dead commented-out first-party code review in small syntax-checked groups.
 
 ## Outstanding phases
 
-- Phase 4: complete and staging-validated.
-- Phase 5: final checkpoint implemented and validated; commit/push/staging pending.
-- Phase 6: remote intl-tel-input import optimization.
+- Phases 4–5: complete and staging-validated.
+- Phase 6: implementation and validation complete; commit/push/staging pending.
 - Phase 7: dead commented-code review/removal.
 - Phase 8: build/watcher verification.
 - Phase 9: exhaustive route/status/asset validation.
@@ -39,11 +38,11 @@ Run final deterministic build/diff checks, commit with message `Consolidate exac
 ## Known risks
 
 - `.virtuo-team__container` remains in core for verified cascade order.
-- The complete mixed Contact/footer field-font rule and shared Home/About/Contact eye selectors intentionally remain in core.
-- Core remains 298,806 minified bytes; Services is 35,376; Home is 22,996; Blog details is 142,223.
+- Shared Contact/footer field and eye rules intentionally remain in core.
+- Core is 298,715 minified bytes; the pinned intl-tel-input CSS/JS remains an external jsDelivr dependency.
 - Shop/coupon/quantity absent-node JavaScript remains for Phase 7 review.
 - Brand and Project/Testimonial absent-node Swiper initializers remain for Phase 7 review.
-- The remote intl-tel-input import remains unchanged.
+- Phase 7 comment candidates must retain licenses, tooling directives, compatibility/security notes and active explanatory comments.
 - The approved installed Playwright/local Chrome fallback remains necessary while the in-app browser bridge metadata is unavailable.
 
 ## Recovery rule

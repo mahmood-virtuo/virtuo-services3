@@ -1280,3 +1280,28 @@ The syntax-aware selector/declaration/media-context scan found four exact duplic
 The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles were zero. All 89 routes still rendered the footer phone field and intl-tel-input script. No screenshots were required because exact same-DOM parity passed.
 
 Final commands: `npm run build:css`, deterministic double-build hash comparison, Home/Blog-details exact-duplicate rescan, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The final Phase 5 checkpoint was committed as d0a01df2125cbe60aa5d74224c863148d10270c8, pushed only to origin/testing, and staging run 29666760688 succeeded before Phase 6.
+
+## Phase 6 explicit intl-tel-input stylesheet validation
+
+The clean testing/remote gate passed at d0a01df2125cbe60aa5d74224c863148d10270c8 after staging run 29666760688.
+
+The pinned version 25.3.1 jsDelivr import was removed from `core.css`. The once-guarded main stylesheet loader now emits the identical URL as one synchronous direct link immediately before core/compatibility CSS, without passing it through local asset-path versioning. This preserves the imported sheet's former position before every custom core override while moving discovery into HTML.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| core.css | 352,390 | 352,295 | -95 |
+| core.min.css | 298,806 | 298,715 | -91 |
+| main.css | 637,046 | 636,951 | -95 |
+| main.min.css | 546,984 | 546,893 | -91 |
+
+`npm run build:css` passed without the former CleanCSS remote-import warning. Searches confirmed no `@import` or embedded intl-tel-input CSS URL remains in core source, core bundle or compatibility outputs. `php -l partials/main-styles.php` passed.
+
+Installed Playwright/local Chrome exercised Home footer, Contact form and Services sidebar phone fields at 1,440×1,000 and 390×844. Every state made one successful stylesheet request initiated by `link`; rendered a 16×12 AE flag from the successful flags sprite; opened a 244-country desktop inline or mobile portal dropdown; selected US; retained the digits `2025550123`; synchronized `US`, `+1` and `+1 2025550123`; and preserved the existing invalid-submit behavior. Relevant console, page and network diagnostics were zero.
+
+A same-DOM architecture swap compared the explicit link with a legacy-position `@import` while the US selection and dropdown stayed open. After equal 500 ms settling, all computed properties and rectangles matched for 989 generated phone/dropdown elements in all six states. Aggregate matrix SHA-256: `3a615321c1d291d3476212e6ab62358f6cfc1a1aad14d7ae566b618e256e47cf`. One earlier short desktop capture was rejected because the focused search-input border transition was still interpolating; focused diagnosis found no geometry or settled cascade difference.
+
+The post-change validator passed all 86 canonical routes and three negative probes with the expected family/order/no-compatibility behavior. Every response contained exactly one intl-tel-input stylesheet immediately before core, one matching script and at least one phone field. All 17 local stylesheet paths/full URLs returned 200; the pinned remote stylesheet returned 200; active inline styles were zero.
+
+Final commands: `npm run build:css`, deterministic double-build hash comparison, `php -l partials/main-styles.php`, remote-import searches, `git diff --stat`, `git diff --check`, and `git status --short`.

@@ -60,7 +60,7 @@ Retain associated hover, focus, focus-visible, active, checked, disabled, target
 
 ## Remote intl-tel-input import
 
-Retain the current version 25.3.1 import until Phase 6 proves an explicit load can preserve order and every phone field. All 89 Phase 0 route probes render a footer phone field and the JavaScript library, so conditional route loading is not expected to reduce the request count on current active routes. Removing nested discovery may still improve the critical chain.
+Phase 6 replaced the version 25.3.1 import with one synchronous direct link immediately before core. Retain that URL, version, once-guard and ordering: all 89 routes render phone fields, and core contains the custom overrides. Do not make it asynchronous or move it after core without new flash/cascade evidence.
 
 ## Keyframes and custom properties
 
