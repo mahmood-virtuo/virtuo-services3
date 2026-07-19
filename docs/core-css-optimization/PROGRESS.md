@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 5 core exact-duplicate consolidation validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 4 Project/Testimonial deletion, committed and staging-validated
-- Next phase: Phase 5 Services-family exact duplicates after this checkpoint and green staging workflow
+- Current phase: Phase 5 Services-family exact-duplicate consolidation validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 5 core exact duplicates, committed and staging-validated
+- Next phase: Phase 5 Home/Blog-details exact duplicates after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1095,7 +1095,7 @@ Every route drops the same 50,901 minified core bytes.
 
 ## Phase 5 — Core exact duplicate consolidation
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1144,15 +1144,70 @@ Core keyframe blocks changed 23 to 18. Every route drops the same 1,655 minified
 ### Checkpoint
 
 - Intended message: Consolidate exact core CSS duplicates
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: 4c9f51a0e15cc392c7bff8268e73dc40ee61ce66
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29666121983 succeeded
 
 ### Remaining risks
 
 - Services, Home and Blog-details family sources retain exact duplicate groups for later isolated checkpoints.
 - Same-declaration rules with different selectors and non-identical repeated states remain intentionally untouched.
 
+## Phase 5 — Services-family exact duplicate consolidation
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/pages/services.css
+- assets/css/bundles/services.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+Core CSS, other family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency and workflow files did not change.
+
+### Exact duplicate copies removed
+
+- Normal rules: 19 earlier copies from 13 exact groups.
+- Groups: normal and `!important` `.service-tab-panel` visibility; Digital Marketing list/item/sub-list/arrow resets; active-panel animation; `digital-panel-changing`; `digital-panel-ready`.
+- Selectors/declarations/media conditions rewritten: 0.
+- Keyframes changed: 0.
+
+The last byte-identical copy of each group remains. Different `display` importance and different `digitalPanelFadeIn` durations remain separate by design.
+
+### Before and after sizes
+
+| File | Before Services duplicate cleanup | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/pages/services.css | 42,537 | 40,597 | -1,940 |
+| assets/css/bundles/services.min.css | 37,069 | 35,376 | -1,693 |
+| assets/css/main.css | 639,905 | 637,965 | -1,940 |
+| assets/css/main.min.css | 549,462 | 547,769 | -1,693 |
+
+Services routes drop 1,693 minified family bytes; other route-family payloads are unchanged.
+
+### Validation performed
+
+- Fresh gate passed at 4c9f51a0e15cc392c7bff8268e73dc40ee61ce66 after staging run 29666121983 succeeded.
+- Fresh syntax-aware scan found 13 exact duplicate groups and 19 removable earlier copies in `services.css`.
+- `npm run build:css` passed with the known remote-import notice.
+- Same-DOM style/geometry parity passed standard and Digital Marketing Services at desktop/mobile in initial, `digital-panel-changing` and `digital-panel-ready` modes: 12 states, matrix SHA-256 `a9eaa5be12ade63a3031fc039ff7146713cae6004c478eb00ca26b116e6d6565`, 986–3,451 elements, zero failures/state failures/diagnostics.
+- Captures settled for 400 ms on both sides, exceeding the retained 180/240 ms transitions; an earlier short capture was correctly rejected while interpolation was in flight.
+- All 89 probes and 17 stable local stylesheet paths/full URLs passed with zero inline styles.
+
+### Checkpoint
+
+- Intended message: Consolidate exact Services CSS duplicates
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- Home and Blog-details family sources retain seven exact groups for one final Phase 5 checkpoint.
+- Non-identical Services state rules remain intentionally layered and must not be normalized without separate behavior proof.
+
 ## Next exact action
 
-Run final deterministic build/diff checks, commit the core duplicate checkpoint, push only to testing and wait for staging. Then consolidate the proven Services-family exact duplicates.
+Run final deterministic build/diff checks, commit the Services duplicate checkpoint, push only to testing and wait for staging. Then consolidate the proven Home and Blog-details exact duplicates.

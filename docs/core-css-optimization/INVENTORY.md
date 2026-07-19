@@ -468,6 +468,12 @@ The first Phase 5 checkpoint removed only earlier byte-identical copies while re
 
 Core source fell 2,003 bytes and minified core fell 1,655 bytes. The remaining core contains one copy of every exact duplicate group found by the fresh syntax-aware scan and 18 keyframe blocks. Full same-DOM parity and the 89-route matrix passed.
 
+### Services-family exact duplicates
+
+The second Phase 5 checkpoint removed 19 earlier copies from 13 exact selector/declaration/context groups in `services.css`. The groups cover normal and `!important` tab visibility, Digital Marketing list/item/arrow resets, active-panel animation and the `digital-panel-changing`/`digital-panel-ready` transition states. Differing animation durations and differing visibility declarations were not combined.
+
+Services source fell 1,940 bytes and `services.min.css` fell 1,693 bytes. The retained last copies produced exact style and geometry parity on standard and Digital Marketing service routes at desktop/mobile in initial, changing and ready states after a 400 ms settle longer than the retained 240 ms maximum state transition.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

@@ -1236,3 +1236,24 @@ Core keyframe blocks changed 23 to 18. `npm run build:css` passed. Installed Pla
 The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles were zero. No screenshots were required because exact same-DOM parity passed.
 
 Final commands: `npm run build:css`, deterministic double-build hash comparison, exact duplicate rescan, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The core duplicate checkpoint was committed as 4c9f51a0e15cc392c7bff8268e73dc40ee61ce66, pushed only to origin/testing, and staging run 29666121983 succeeded before the Services-family gate.
+
+## Phase 5 Services-family exact-duplicate validation
+
+The clean testing/remote gate passed at 4c9f51a0e15cc392c7bff8268e73dc40ee61ce66 after staging run 29666121983.
+
+The syntax-aware selector/declaration/media-context scan found 13 exact duplicate groups in `services.css`. Nineteen earlier copies were removed and the last byte-identical copy of each group remains. The cleanup did not combine the normal and `!important` visibility groups, the 0.28/0.25-second active animations or any differing Digital Marketing declarations.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| services.css | 42,537 | 40,597 | -1,940 |
+| services.min.css | 37,069 | 35,376 | -1,693 |
+| main.css | 639,905 | 637,965 | -1,940 |
+| main.min.css | 549,462 | 547,769 | -1,693 |
+
+`npm run build:css` passed. Installed Playwright/local Chrome compared committed and consolidated Services bundles after the unchanged core. Standard and Digital Marketing routes were tested at desktop/mobile in initial, `digital-panel-changing` and `digital-panel-ready` modes. A 400 ms settle exceeded the retained 180/240 ms transitions. Aggregate matrix SHA-256: `a9eaa5be12ade63a3031fc039ff7146713cae6004c478eb00ca26b116e6d6565`; states 12; elements 986–3,451; failures/state failures/browser diagnostics 0.
+
+The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles were zero. No screenshots were required because exact same-DOM parity passed.
+
+Final commands: `npm run build:css`, deterministic double-build hash comparison, Services exact-duplicate rescan, `git diff --stat`, `git diff --check`, and `git status --short`.

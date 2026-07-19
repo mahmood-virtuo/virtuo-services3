@@ -19556,12 +19556,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
   -webkit-animation: dash_animation 3s linear forwards;
   animation: dash_animation 3s linear forwards;
 }
-.service-tab-panel {
-  display: none;
-}
-.service-tab-panel.is-active {
-  display: block;
-}
 .sidebar__cat-list .service-tab-link.is-active {
   background: var(--tg-theme-primary);
   border-color: var(--tg-theme-primary);
@@ -19570,12 +19564,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
 .sidebar__cat-list .service-tab-link.is-active span {
   background: var(--tg-color-white-default);
   color: var(--tg-theme-primary);
-}
-.service-tab-panel {
-  display: none;
-}
-.service-tab-panel.is-active {
-  display: block;
 }
 .digital-service-tabs ul {
   margin: 0;
@@ -19671,21 +19659,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
     font-size: 20px;
   }
 }
-.service-tab-panel {
-  display: none !important;
-}
-.service-tab-panel.is-active {
-  display: block !important;
-}
-.digital-service-tabs ul,
-.digital-service-tabs li {
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none !important;
-}
-.digital-service-tabs .digital-service-main-item {
-  margin-bottom: 9px !important;
-}
 .digital-service-tabs .digital-service-main-link,
 .digital-service-tabs .digital-service-sub-link {
   display: flex !important;
@@ -19758,18 +19731,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
   margin-top: 8px !important;
   margin-bottom: 9px !important;
 }
-.digital-service-tabs .digital-service-main-item.is-open > .digital-service-sub-list {
-  display: block !important;
-}
-.digital-service-tabs .digital-service-sub-list li {
-  margin-bottom: 8px !important;
-}
-.digital-service-tabs
-  .digital-service-main-item.is-open
-  > .digital-service-main-link
-  .digital-service-arrow {
-  transform: rotate(90deg) !important;
-}
 @media (max-width: 991.98px) {
   .digital-service-tabs .digital-service-main-link {
     min-height: 50px !important;
@@ -19783,11 +19744,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
     font-size: 14px !important;
   }
 
-  .digital-service-tabs .digital-service-arrow {
-    width: 38px !important;
-    height: 38px !important;
-    flex-basis: 38px !important;
-  }
 }
 .service-tab-panel {
   display: none !important;
@@ -19967,26 +19923,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
 .service-tab-panel.is-active {
   animation: digitalPanelFadeIn 0.28s ease both;
 }
-.service-tab-panel.digital-panel-changing {
-  opacity: 0.35 !important;
-  transform: translateY(6px) !important;
-  transition:
-    opacity 0.18s ease,
-    transform 0.18s ease !important;
-}
-.service-tab-panel.digital-panel-ready {
-  opacity: 1 !important;
-  transform: translateY(0) !important;
-  transition:
-    opacity 0.24s ease,
-    transform 0.24s ease !important;
-}
-.service-tab-panel {
-  display: none;
-}
-.service-tab-panel.is-active {
-  display: block;
-}
 .digital-service-tabs .digital-service-main-list,
 .digital-service-tabs .digital-service-sub-list {
   margin: 0 !important;
@@ -20069,23 +20005,6 @@ body.contact-page .contact-figma-social > a > img.my-social-links {
   color: var(--tg-theme-primary) !important;
   background: var(--tg-color-white-default) !important;
   transform: rotate(0deg) !important;
-}
-.service-tab-panel.is-active {
-  animation: digitalPanelFadeIn 0.25s ease both;
-}
-.service-tab-panel.digital-panel-changing {
-  opacity: 0.35 !important;
-  transform: translateY(6px) !important;
-  transition:
-    opacity 0.18s ease,
-    transform 0.18s ease !important;
-}
-.service-tab-panel.digital-panel-ready {
-  opacity: 1 !important;
-  transform: translateY(0) !important;
-  transition:
-    opacity 0.24s ease,
-    transform 0.24s ease !important;
 }
 @media (max-width: 991.98px) {
   .digital-service-tabs .digital-service-main-link,
