@@ -81,6 +81,8 @@ Phase 7 must retain:
 
 Phase 7 removed 68 current CSS comments only after confirming they contained actual disabled declarations/rules and proving canonical/browser equivalence. Remaining JavaScript and PHP/HTML candidates still require manual context review. No candidate is deletion-approved merely because it resembles code.
 
+Phase 7 also removed only JavaScript comments whose live replacements or absent `data-src` ownership were proven. The preloader disable/rollback note remains protected as deliberate runtime documentation; active guarded initializers and absent-node handlers remain outside this cleanup scope.
+
 ## Phase 2 evidence closure
 
 - Browser DOM matching and interaction-state Coverage are now complete for the approved legacy candidates at representative desktop and mobile viewports.

@@ -522,8 +522,8 @@ The FAQ and Choose SVG masks occur in both prefixed and unprefixed declarations,
 This is a review inventory, not a deletion list. License headers, structural comments, third-party/vendor files, generated files, minified files, and excluded backup/font-package content are not candidates.
 
 - Editable CSS: the Phase 0 scan found 66 candidates before later ownership moves. A fresh Phase 7 scan across the current editable sources found and removed 68 true disabled declaration/rule blocks: 35 core, 5 About, 16 Blog details, 2 Blog listing, 4 Contact, 5 Home and 1 Services. License, ownership, structural, responsive, compatibility and explanatory prose comments remain.
-- main.js: disabled preloader call, disabled testimonial Swiper implementation, and disabled IntersectionObserver image assignment. The preloader function remains live source but is currently uncalled.
-- virtuo-service-tabs-breadcrumb.js: seven commented statements/groups around superseded panel selection, hash replacement, and panel-update behavior.
+- main.js: Phase 7 removed the duplicate alternate Testimonial Swiper implementation and unused `data-src` assignment. The disabled preloader call/rollback note remains because it records a deliberate user-requested state; the uncalled function remains active source.
+- virtuo-service-tabs-breadcrumb.js: Phase 7 removed the superseded commented panel selection, hash replacement and panel-update statements. The active replacement logic and provenance markers remain.
 - about.php: one disabled story wrapper and five disabled WhatsApp/SVG blocks.
 - partials/header.php: eight disabled markup groups including the preloader, former social items, mega-menu prototypes, mobile submenu, and off-canvas image strip.
 - partials/footer.php: one disabled tab navigation block and four disabled range-slider blocks.

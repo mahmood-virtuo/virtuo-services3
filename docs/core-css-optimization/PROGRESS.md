@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 7 obsolete commented-out CSS cleanup validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 6 explicit intl-tel-input loading, committed and staging-validated
-- Next phase: Phase 7 JavaScript/PHP commented-code cleanup after this checkpoint and green staging workflow
+- Current phase: Phase 7 obsolete commented-out JavaScript cleanup validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 7 CSS-comment cleanup, committed and staging-validated
+- Next phase: Phase 7 PHP/HTML commented-markup cleanup after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1322,7 +1322,7 @@ The browser still requests the same third-party stylesheet once; the benefit is 
 
 ## Phase 7 — Obsolete commented-out CSS cleanup
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1372,15 +1372,58 @@ CleanCSS had preserved disabled comments and comment-only empty rules, so minifi
 ### Checkpoint
 
 - Intended message: Remove obsolete commented CSS code
+- Commit SHA: 75affdf5e834b6517832f845c134ba7a23bc2c7c
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29667359175 succeeded
+
+### Remaining risks
+
+- Commented JavaScript and PHP/HTML candidates remained for separate syntax-checked groups.
+- License, ownership, responsive, compatibility and active explanatory CSS comments remain intentionally.
+
+## Phase 7 — Obsolete commented-out JavaScript cleanup
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/js/main.js
+- assets/js/virtuo-service-tabs-breadcrumb.js
+- Phase documentation under docs/core-css-optimization
+
+All generated/minified JavaScript, CSS, PHP/HTML, routes, loader, server, sitemap, dependencies and workflow files are unchanged.
+
+### Exact cleanup
+
+- Removed the commented alternate `.testimonial-active-five` Swiper initializer because the live guarded initializer immediately above owns the same root.
+- Removed the commented IntersectionObserver `data-src` assignment after confirming active markup contains no `data-src` attribute; `.has-animation` class activation remains live.
+- Removed superseded Services-tab panel/history/fade statements beside their active replacements.
+- Retained the empty `history.replaceState` guards to preserve their staged property reads exactly.
+- Retained the preloader invocation/rollback note because it documents a deliberate user-requested disablement, not obsolete code.
+
+The two source files drop 28 lines and 1,072 bytes; generated runtime JavaScript drops zero bytes.
+
+### Validation performed
+
+- Fresh gate passed at 75affdf5e834b6517832f845c134ba7a23bc2c7c after staging run 29667359175 succeeded.
+- `npm run build:js` passed and regenerated all configured first-party outputs.
+- `node --check` passed both edited sources and both corresponding minified outputs.
+- `main.min.js` and `virtuo-service-tabs-breadcrumb.min.js` are byte-identical to the committed versions.
+- Aggressive canonical Terser output matched for both committed/current sources, proving the removed comments do not change executable JavaScript.
+- Searches found no remaining commented alternate Testimonial initializer, `data-src` assignment or superseded Services panel/history/fade statement.
+
+### Checkpoint
+
+- Intended message: Remove obsolete commented JavaScript code
 - Commit SHA: pending checkpoint
 - Push target: origin/testing only
 - Staging workflow status: pending checkpoint push
 
 ### Remaining risks
 
-- Commented JavaScript and PHP/HTML candidates remain for separate syntax-checked groups.
-- License, ownership, responsive, compatibility and active explanatory CSS comments remain intentionally.
+- PHP/HTML comment candidates remain and require tag-boundary/control-flow review plus `php -l` on every changed template.
+- Active but absent-node carousel/shop/pricing handlers remain outside the commented-code cleanup scope.
 
 ## Next exact action
 
-Run final deterministic build/diff checks, commit the CSS-comment cleanup checkpoint, push only to testing and wait for staging. Then review JavaScript and PHP/HTML comment candidates from a clean synchronized gate.
+Run final deterministic JavaScript build/diff checks, commit the JavaScript-comment cleanup checkpoint, push only to testing and wait for staging. Then review PHP/HTML comment candidates from a clean synchronized gate.

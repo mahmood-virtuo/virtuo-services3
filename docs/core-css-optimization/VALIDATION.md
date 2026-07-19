@@ -1321,3 +1321,15 @@ CleanCSS had retained disabled comments and comment-only empty rules, so generat
 The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200 and active inline styles remained zero.
 
 Final commands: `npm run build:css`, deterministic double-build hash comparison, disabled-code comment rescan, canonical comment-stripped comparison, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The CSS-comment checkpoint was committed as 75affdf5e834b6517832f845c134ba7a23bc2c7c, pushed only to origin/testing, and staging run 29667359175 succeeded before the JavaScript group.
+
+## Phase 7 obsolete commented-out JavaScript validation
+
+The clean testing/remote gate passed at 75affdf5e834b6517832f845c134ba7a23bc2c7c after staging run 29667359175.
+
+The cleanup removed the duplicate commented `.testimonial-active-five` Swiper implementation, one disabled IntersectionObserver `data-src` assignment with no active `data-src` markup, and superseded Services-tab panel/hash/fade statements beside their active replacements. Empty `history.replaceState` guards were retained after a canonical check showed that removing the guards would also remove native property reads. The deliberate preloader disable/rollback comments remain. Net source reduction: 20 lines/679 bytes in `main.js` and 8 lines/393 bytes in `virtuo-service-tabs-breadcrumb.js`.
+
+`npm run build:js` rebuilt all configured first-party outputs. `node --check` passed both edited sources and corresponding generated outputs. `main.min.js` and `virtuo-service-tabs-breadcrumb.min.js` remained byte-identical to the committed checkpoint. Aggressive canonical Terser output also matched for both committed/current sources, proving executable equivalence. Candidate searches returned zero for the removed statements.
+
+Final commands: deterministic double `npm run build:js`, source/output syntax checks, generated hash comparison, canonical Terser comparison, `git diff --stat`, `git diff --check`, and `git status --short`.
