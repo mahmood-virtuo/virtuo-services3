@@ -1389,3 +1389,21 @@ The builder revalidated 10 CSS `url()` occurrences: seven unique values, includi
 Watcher source review confirms `assets/css/src` recursion and both CSS configuration/build files are watched, while generated bundles and compatibility outputs are not. A fresh observation watcher completed its initial CSS/JS builds, then one `touch assets/css/src/pages/legal.css` event emitted one CSS change detection and exactly one successful CSS build. No JS build or follow-on rebuild appeared during an additional five-second observation. The temporary watcher stopped cleanly; the original PID 44048 remained active.
 
 For the negative path, a temporary Legal-source rule referenced `url(relative-phase8-missing.png)`. `npm run build:css` exited 1 with `Local CSS URL must be root-relative`, proving URL validation and genuine build failures propagate a nonzero process status. The probe was immediately removed; the final source content and generated hashes match the clean checkpoint.
+
+The Phase 8 documentation checkpoint was committed as d0b255735cfd60d4552b408cf700117ef2f7bf1c, pushed only to origin/testing, and staging run 29667949386 succeeded before Phase 9.
+
+## Phase 9 exhaustive route and resource validation
+
+The clean testing/remote gate passed at d0b255735cfd60d4552b408cf700117ef2f7bf1c after staging run 29667949386.
+
+The final HTTP matrix covered all 86 sitemap routes plus invalid category, invalid tag, generic invalid, invalid Blog-detail and explicit 404 probes. Canonical statuses were 86/86 at 200; negative statuses were 5/5 at 404. The family map was Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 5.
+
+Every response contained exactly one core and exactly one expected family stylesheet, with the pinned intl-tel-input link immediately before core and the family immediately after. No response contained `main.css`, `main.min.css` or another family bundle. Across 19 unique stylesheet URLs, duplicate rendered links were zero.
+
+The redirect matrix built from the current routing tables exercised 98 old-slug, old-service, Blog-detail filename and canonical trailing-slash cases. Every response was 301 and every Location target matched exactly.
+
+Rendered HTML and all discovered stylesheet dependencies produced 287 unique local and 35 external CSS/image/font requests. Unexpected failures were zero. Three encoded-space Government Relations image URLs return local-router 404s because `server.php` checks the encoded path; all three decoded `.webp` files exist, the same markup is present at the Phase 0 commit, and `docs/inline-style-migration/PLAN.md` already excludes this pre-existing issue. They remain explicitly counted as local-router exceptions.
+
+After inactive HTML comments were removed, active style attributes and style blocks were both zero. Mixed-content references and duplicate stylesheet links were zero.
+
+Installed Playwright/local Google Chrome loaded all 91 routes at 1,440×900 and compared document/body scroll width with client width after load. Maximum overflow was 0 pixels, route/status failures were zero, and no screenshot was needed.

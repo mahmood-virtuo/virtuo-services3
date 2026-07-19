@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 8 build and watcher verification complete; checkpoint documentation in progress
-- Last completed implementation phase: Phase 7 Blog-detail cleanup, committed and staging-validated
-- Next phase: Phase 9 exhaustive route validation after this checkpoint and green staging workflow
+- Current phase: Phase 9 exhaustive route validation complete; checkpoint documentation in progress
+- Last completed phase: Phase 8 build-system validation, committed and staging-validated
+- Next phase: Phase 10 restricted browser regression after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1514,7 +1514,7 @@ CSS, JavaScript, shared PHP, routes, loader behavior, server, sitemap, dependenc
 
 ## Phase 8 — Build system validation
 
-Status: validation complete; documentation checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1541,15 +1541,52 @@ CSS/JavaScript sources, generated outputs, PHP, routes, loader, server, sitemap,
 ### Checkpoint
 
 - Intended message: Document deterministic CSS build validation
-- Commit SHA: pending checkpoint
-- Push target: origin/testing only
-- Staging workflow status: pending checkpoint push
+- Commit SHA: d0b255735cfd60d4552b408cf700117ef2f7bf1c
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29667949386 succeeded
 
 ### Remaining risks
 
 - Watcher validation proves the configured CSS path and debounce behavior under one controlled event; it does not alter the retained watcher design.
 - Compatibility outputs remain intentionally generated for fallback use but are not rendered by active routes.
 
+## Phase 9 — Exhaustive route and resource validation
+
+Status: validation complete; documentation checkpoint pending.
+
+### Files changed
+
+- Phase documentation under docs/core-css-optimization
+
+No product source, generated output, route, redirect, server, sitemap, dependency or workflow file changed.
+
+### Route, redirect and stylesheet result
+
+- 86 sitemap routes returned 200; five invalid category/tag/generic/Blog/404 probes returned 404.
+- Family distribution was Home 1, About 1, Contact 1, Services 27, Blog listing 43, Blog details 11, Legal 2 and Error 5.
+- All 98 existing local redirect probes returned 301 with the exact expected target, including old Blog/service slugs, old Blog-detail filenames, trailing Blog/category/tag slashes and ordinary clean-page slashes.
+- Every rendered response loaded the pinned intl-tel-input stylesheet, core and exactly one correct family bundle in that order. Compatibility CSS, other family bundles and duplicate stylesheet links were zero.
+- Nineteen unique rendered stylesheets were found: 17 local and two remote.
+
+### Resource and markup result
+
+- 287 unique local and 35 external CSS/image/font resources were fetched; unexpected failures: 0.
+- Three Government Relations image URLs containing encoded spaces return 404 only through the existing local PHP router even though their decoded files exist. They are unchanged from the Phase 0 commit and already documented as out-of-scope; they are recorded as local-router exceptions, not asset regressions.
+- Active style attributes: 0; active style blocks: 0; mixed-content references: 0.
+- A route-wide installed-Chrome probe at 1,440×900 covered all 91 canonical/negative responses: maximum horizontal overflow 0 pixels, status failures 0. Screenshots were unnecessary.
+
+### Checkpoint
+
+- Intended message: Document exhaustive route validation
+- Commit SHA: pending checkpoint
+- Push target: origin/testing only
+- Staging workflow status: pending checkpoint push
+
+### Remaining risks
+
+- The three encoded-space Government Relations URLs remain a known local-router limitation outside this CSS task; their underlying image files are present.
+- Phase 10 still supplies tablet/mobile layout and representative interaction/console/network regression coverage.
+
 ## Next exact action
 
-Run the final explicit build/diff checks, commit this documentation-only checkpoint, push only to testing and wait for staging. Then execute the complete Phase 9 route/status/redirect/resource matrix from a clean synchronized gate.
+Run the final explicit build/diff checks, commit this documentation-only checkpoint, push only to testing and wait for staging. Then run Phase 10's restricted 10-route desktop/mobile/tablet interaction matrix from a clean synchronized gate.

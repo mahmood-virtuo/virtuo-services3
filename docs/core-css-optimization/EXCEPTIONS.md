@@ -91,6 +91,10 @@ The final Blog-detail group removed all 16 inventoried line-isolated disabled ar
 
 Phase 8 confirmed deterministic, non-empty core/family/compatibility outputs, root-relative local URL enforcement and nonzero failure propagation. Compatibility CSS remains generated but must remain absent from active route markup. The watcher continues to include editable CSS plus its manifest/builder and to exclude generated output paths; no watcher-source change was required.
 
+## Phase 9 local-router resource exception
+
+The Government Relations markup contains three image filenames with spaces, already present at the Phase 0 commit and explicitly excluded by the inline-style migration plan. The decoded files exist, but the current PHP development router checks the percent-encoded path and returns 404. Phase 9 records these three as pre-existing local-router exceptions; all other 319 unique CSS/image/font resources passed. This CSS task does not alter their paths, routing or server behavior.
+
 ## Phase 2 evidence closure
 
 - Browser DOM matching and interaction-state Coverage are now complete for the approved legacy candidates at representative desktop and mobile viewports.
