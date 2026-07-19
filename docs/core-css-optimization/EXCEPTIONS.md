@@ -87,6 +87,10 @@ The shared PHP/HTML group removed only 41 line-isolated blocks with no embedded 
 
 The final Blog-detail group removed all 16 inventoried line-isolated disabled article blocks with no embedded PHP. The final project-wide markup-bearing scan leaves only the three protected blocks above.
 
+## Build-system validation
+
+Phase 8 confirmed deterministic, non-empty core/family/compatibility outputs, root-relative local URL enforcement and nonzero failure propagation. Compatibility CSS remains generated but must remain absent from active route markup. The watcher continues to include editable CSS plus its manifest/builder and to exclude generated output paths; no watcher-source change was required.
+
 ## Phase 2 evidence closure
 
 - Browser DOM matching and interaction-state Coverage are now complete for the approved legacy candidates at representative desktop and mobile viewports.

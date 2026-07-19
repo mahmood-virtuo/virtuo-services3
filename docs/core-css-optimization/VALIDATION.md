@@ -1359,3 +1359,33 @@ The final Phase 7 PHP selection contained exactly 16 disabled article groups acr
 `php -l` passed all six templates and `git diff --check` passed. The local route gate again returned 200 for all 86 sitemap routes and 404 for all three negative probes. The token-stripped response aggregate became `1b53432536f22074579d4c0cdf312497505c33afbc50eb4de675e29ec996fffc`; as in the shared group, deleting whole source lines also removes whitespace that token-only comment stripping leaves behind.
 
 A final first-party PHP scan found three markup-bearing comments project-wide: the deliberate preloader rollback block and two dynamic service-panel boundary labels. No obsolete markup candidate remains.
+
+The Blog-detail PHP-comment checkpoint was committed as e71c6dcd6b0d102a08dbe1143b7b9849ba7a6dd7, pushed only to origin/testing, and staging run 29667810234 succeeded before Phase 8.
+
+## Phase 8 build-system validation
+
+The clean testing/remote gate passed at e71c6dcd6b0d102a08dbe1143b7b9849ba7a6dd7 after staging run 29667810234.
+
+Two consecutive explicit CSS builds produced the same size and SHA-256 for every generated output:
+
+| Output | Bytes | SHA-256 |
+| --- | ---: | --- |
+| core.min.css | 294,299 | a177711f21b8ef0dca4100671fec933ee2ac5c017d787cb819386f7598b23e5d |
+| home.min.css | 22,431 | ad428aaade9167df37f34e6ad3aadb7935455b43e85b2e0d02a4ff76c036eed5 |
+| about.min.css | 15,821 | 224edd5fb5666931b06f4b838f1e5c5121e290d260b5afd6fa3e98950a13a3f5 |
+| contact.min.css | 18,342 | 8175dc84a9d51b794a9a0935db610d1f5e949bb91f452dba57daf4d651877c56 |
+| services.min.css | 35,360 | eb8e5098d19b4e4f28ae629da7c18828998798f97a2e2521c2d418888320b533 |
+| blog-listing.min.css | 11,495 | f5f66fd320649973022edf862b6ca7655b439189869591ef7c1a89bcd41da0a5 |
+| blog-details.min.css | 140,998 | 7ffcb6ced54cf5d02d33d0000c9f35183298d9f81ef2e4a6e0d001a2df39acac |
+| legal.min.css | 50 | 67b6c5660d2ad0268b2efaa787cf90513d5e472a0ee6c2282bf297013cf8672f |
+| error.min.css | 943 | 55b41e8ccf7c4a8756724a6df2bef5eb0568f1a676f79f1e684354e5f1593750 |
+| main.css | 629,549 | a972a541cb0649356edd74777d242f59a2a259c3dcd5ea61ec834e7c2af9420d |
+| main.min.css | 539,689 | 0c865fa0e176e3e4901d8f2dbafd2a476158e404ef536a52a7e352e2dd6253a1 |
+
+Every output is non-empty. The unminified compatibility output matches the configured source concatenation byte-for-byte. Across all 89 rendered probes, compatibility stylesheet links were zero and core-count failures were zero.
+
+The builder revalidated 10 CSS `url()` occurrences: seven unique values, including six unique local asset paths and one SVG fragment. Every local target exists. The only current remote stylesheet URL remains the pinned intl-tel-input 25.3.1 direct link.
+
+Watcher source review confirms `assets/css/src` recursion and both CSS configuration/build files are watched, while generated bundles and compatibility outputs are not. A fresh observation watcher completed its initial CSS/JS builds, then one `touch assets/css/src/pages/legal.css` event emitted one CSS change detection and exactly one successful CSS build. No JS build or follow-on rebuild appeared during an additional five-second observation. The temporary watcher stopped cleanly; the original PID 44048 remained active.
+
+For the negative path, a temporary Legal-source rule referenced `url(relative-phase8-missing.png)`. `npm run build:css` exited 1 with `Local CSS URL must be root-relative`, proving URL validation and genuine build failures propagate a nonzero process status. The probe was immediately removed; the final source content and generated hashes match the clean checkpoint.

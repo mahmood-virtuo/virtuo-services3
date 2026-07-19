@@ -2,34 +2,34 @@
 
 ## Last completed checkpoint
 
-The Phase 7 shared PHP/HTML cleanup is committed as 233b8f8e5f10373ebed443ef940af6a65b73b894, pushed to origin/testing and green in staging run 29667744279. The Blog-detail cleanup is implemented and validated, awaiting checkpoint commit/push/staging.
+The Phase 7 Blog-detail cleanup is committed as e71c6dcd6b0d102a08dbe1143b7b9849ba7a6dd7, pushed to origin/testing and green in staging run 29667810234. Phase 8 build-system validation is complete and awaiting its documentation checkpoint.
 
 ## Repository state at this handoff
 
 - Current branch: testing
-- Starting commit for the Blog-detail group: 233b8f8e5f10373ebed443ef940af6a65b73b894
-- Last completed checkpoint: 233b8f8e5f10373ebed443ef940af6a65b73b894
-- Last completed staging run: Deploy Virtuo Staging 29667744279 succeeded
-- Current HEAD: the Blog-detail PHP-comment checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
-- Required remote equality: current HEAD must equal origin/testing before Phase 8 starts
+- Starting commit for Phase 8: e71c6dcd6b0d102a08dbe1143b7b9849ba7a6dd7
+- Last completed checkpoint: e71c6dcd6b0d102a08dbe1143b7b9849ba7a6dd7
+- Last completed staging run: Deploy Virtuo Staging 29667810234 succeeded
+- Current HEAD: the Phase 8 documentation checkpoint containing this file after commit; resolve exactly with `git rev-parse HEAD`
+- Required remote equality: current HEAD must equal origin/testing before Phase 9 starts
 - Production/main state: untouched
 
-## Phase 7 Blog-detail PHP/HTML group completed locally
+## Phase 8 build-system validation completed locally
 
-- Removed all 16 disabled article groups from six Blog-detail templates: 160 lines/19,234 bytes.
-- Exact allowlist transformation, `php -l`, 89-route status and final candidate-rescan checks passed.
-- Only the deliberate preloader rollback block and two dynamic service-panel boundary labels remain markup-bearing.
-- CSS, JavaScript, routing, server, sitemap and dependency behavior remain unchanged.
+- Two consecutive CSS builds produced identical hashes for nine core/family bundles and two compatibility outputs; all are non-empty.
+- Compatibility aggregate/order, CSS URL assets, route absence of compatibility CSS and exact one-core loading passed.
+- One controlled source event caused one CSS rebuild and no loop; the existing watcher remains active.
+- A reversible invalid local URL made the build exit 1, proving genuine errors fail the process.
 
 ## Next exact action
 
-Run the explicit CSS build and final diff/PHP checks, commit with message `Remove obsolete Blog PHP comments`, push only to testing and wait for staging. Then begin Phase 8 build/watcher verification from the clean synchronized checkpoint.
+Run the final explicit CSS build and diff checks, commit with message `Document deterministic CSS build validation`, push only to testing and wait for staging. Then run Phase 9's exhaustive canonical/redirect/invalid route and resource matrix.
 
 ## Outstanding phases
 
 - Phases 4–6: complete and staging-validated.
-- Phase 7: CSS, JavaScript and shared PHP/HTML groups complete; Blog-detail group validated.
-- Phase 8: build/watcher verification.
+- Phase 7: complete and staging-validated.
+- Phase 8: build/watcher validation complete; checkpoint pending.
 - Phase 9: exhaustive route/status/asset validation.
 - Phase 10: restricted desktop/mobile regression.
 - Phase 11: controlled performance comparison and final report.
@@ -41,6 +41,7 @@ Run the explicit CSS build and final diff/PHP checks, commit with message `Remov
 - The preloader disable/rollback comment remains intentionally.
 - Active but absent-node carousel/shop/pricing JavaScript remains outside the commented-code scope.
 - No obsolete markup-bearing comment candidate remains; three deliberate structural/rollback exclusions stay protected.
+- Compatibility outputs remain intentionally generated but absent from active route markup.
 - The pinned intl-tel-input CSS/JS remains an external jsDelivr dependency.
 
 ## Recovery rule
