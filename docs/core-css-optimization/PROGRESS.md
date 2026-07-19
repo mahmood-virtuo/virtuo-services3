@@ -4,9 +4,9 @@
 
 - Starting commit: 984720bb7f6ec6e406093b4adbfb9ce1b53e1a19
 - Branch: testing
-- Current phase: Phase 5 Services-family exact-duplicate consolidation validated; checkpoint documentation in progress
-- Last completed implementation phase: Phase 5 core exact duplicates, committed and staging-validated
-- Next phase: Phase 5 Home/Blog-details exact duplicates after this checkpoint and green staging workflow
+- Current phase: Phase 5 Home/Blog-details exact-duplicate consolidation validated; checkpoint documentation in progress
+- Last completed implementation phase: Phase 5 Services-family exact duplicates, committed and staging-validated
+- Next phase: Phase 6 remote intl-tel-input import optimization after this checkpoint and green staging workflow
 - Main and production: untouched
 
 ## Phase 0 — Baseline and inventory
@@ -1155,7 +1155,7 @@ Core keyframe blocks changed 23 to 18. Every route drops the same 1,655 minified
 
 ## Phase 5 — Services-family exact duplicate consolidation
 
-Status: implementation and validation complete; checkpoint pending.
+Status: complete; committed and staging-validated.
 
 ### Files changed
 
@@ -1199,15 +1199,73 @@ Services routes drop 1,693 minified family bytes; other route-family payloads ar
 ### Checkpoint
 
 - Intended message: Consolidate exact Services CSS duplicates
+- Commit SHA: c5e09ec91522f72be84ed511655a981e398fbed4
+- Push target: origin/testing only; push succeeded
+- Staging workflow status: Deploy Virtuo Staging run 29666471751 succeeded
+
+### Remaining risks
+
+- Home and Blog-details family sources retained seven exact groups for one final isolated Phase 5 checkpoint.
+- Non-identical Services state rules remain intentionally layered and must not be normalized without separate behavior proof.
+
+## Phase 5 — Home and Blog-details exact duplicate consolidation
+
+Status: implementation and validation complete; checkpoint pending.
+
+### Files changed
+
+- assets/css/src/pages/home.css
+- assets/css/src/pages/blog-details.css
+- assets/css/bundles/home.min.css
+- assets/css/bundles/blog-details.min.css
+- assets/css/main.css
+- assets/css/main.min.css
+- Phase documentation under docs/core-css-optimization
+
+Core CSS, other family CSS, PHP, JavaScript, route, server, sitemap, loader, dependency and workflow files did not change.
+
+### Exact duplicate copies removed
+
+- Home: 4 earlier copies under `@media (min-width: 992px)` covering nav-item flex, linked thumbnail sizing, thumbnail object-fit and content flex.
+- Blog details: 3 earlier copies covering the Blue Note marker body, its mobile width and the US-relocation warning metric color.
+- Selectors/declarations/media conditions rewritten: 0.
+- Keyframes changed: 0.
+
+The last byte-identical copy of each group remains at its existing cascade position.
+
+### Before and after sizes
+
+| File | Before final duplicate cleanup | After | Change |
+| --- | ---: | ---: | ---: |
+| assets/css/src/pages/home.css | 27,179 | 26,686 | -493 |
+| assets/css/bundles/home.min.css | 23,415 | 22,996 | -419 |
+| assets/css/src/pages/blog-details.css | 162,062 | 161,636 | -426 |
+| assets/css/bundles/blog-details.min.css | 142,589 | 142,223 | -366 |
+| assets/css/main.css | 637,965 | 637,046 | -919 |
+| assets/css/main.min.css | 547,769 | 546,984 | -785 |
+
+Home routes drop 419 minified family bytes and Blog-details routes drop 366; other route-family payloads are unchanged.
+
+### Validation performed
+
+- Fresh gate passed at c5e09ec91522f72be84ed511655a981e398fbed4 after staging run 29666471751 succeeded.
+- Fresh syntax-aware scans found four exact groups in `home.css` and three in `blog-details.css`; both sources rescan at zero exact groups after removing seven earlier copies.
+- `npm run build:css` passed with the known remote-import notice.
+- Same-DOM desktop/mobile parity passed Home, a Blue Note article and the US-relocation article: six states, 1,208–3,251 elements and zero browser diagnostics. The one moving Home hero Swiper was stopped for the broad desktop recapture; all 20 elements owned by the changed selectors also matched exact computed styles and geometry.
+- All 89 probes and 17 stable local stylesheet paths/full URLs passed with zero inline styles; all 89 still rendered the footer phone field and intl-tel-input script.
+
+### Checkpoint
+
+- Intended message: Consolidate exact Home and Blog CSS duplicates
 - Commit SHA: pending checkpoint
 - Push target: origin/testing only
 - Staging workflow status: pending checkpoint push
 
 ### Remaining risks
 
-- Home and Blog-details family sources retain seven exact groups for one final Phase 5 checkpoint.
-- Non-identical Services state rules remain intentionally layered and must not be normalized without separate behavior proof.
+- Phase 5 removes only proven exact copies; intentional same-declaration/different-selector patterns and non-identical cascade layers remain.
+- The remote intl-tel-input import remains unchanged until the Phase 6 loader/order audit.
 
 ## Next exact action
 
-Run final deterministic build/diff checks, commit the Services duplicate checkpoint, push only to testing and wait for staging. Then consolidate the proven Home and Blog-details exact duplicates.
+Run final deterministic build/diff checks, commit the Home/Blog-details duplicate checkpoint, push only to testing and wait for staging. Then begin the Phase 6 remote-import audit from a clean synchronized gate.

@@ -17031,10 +17031,6 @@ body.home-page .home-services-subtitle {
     margin: 0;
   }
 
-  body.home-page .home-services-section .services__item-wrap-two > .nav-tabs .nav-item {
-    flex: 1 1 0;
-  }
-
   body.home-page .home-services-section .services__item-wrap-two > .nav-tabs .nav-link {
     height: 100%;
     min-height: 0;
@@ -17061,20 +17057,6 @@ body.home-page .home-services-subtitle {
     min-height: 0;
   }
 
-  body.home-page .home-services-section .services__thumb-seven a,
-  body.home-page .home-services-section .services__thumb-seven img {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  body.home-page .home-services-section .services__thumb-seven img {
-    object-fit: cover;
-  }
-
-  body.home-page .home-services-section .services__content-nine {
-    flex: 0 0 auto;
-  }
 }
 
 /* Tablet: keep equal-height two-column layout, but slightly tighter */
@@ -24559,17 +24541,6 @@ body.blog-details-page .vt-article .vt-blue-note {
   overflow: hidden;
 }
 
-body.blog-details-page .vt-article .vt-blue-note::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px;
-  border-radius: 20px 0px 0px 20px !important;
-  height: 100%;
-  background: var(--tg-theme-primary);
-}
-
 body.blog-details-page .vt-article .vt-blue-note b,
 body.blog-details-page .vt-article .vt-blue-note strong {
   color: var(--tg-color-white-default);
@@ -24606,9 +24577,6 @@ body.blog-details-page .vt-article .vt-blue-note cite {
     font-size: 16px;
   }
 
-  body.blog-details-page .vt-article .vt-blue-note::before {
-    width: 20px;
-  }
 }
 /* =========================================================
    Blog Details — Reference-style blue callout / quote blocks
@@ -25186,10 +25154,6 @@ body.blog-details-page .blog-us-uae-relocation .us-metrics .mv {
 }
 
 body.blog-details-page .blog-us-uae-relocation .us-metrics .mv.good {
-  color: var(--tg-theme-primary);
-}
-
-body.blog-details-page .blog-us-uae-relocation .us-metrics .mv.warn {
   color: var(--tg-theme-primary);
 }
 

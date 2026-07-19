@@ -767,10 +767,6 @@ body.home-page .home-services-subtitle {
     margin: 0;
   }
 
-  body.home-page .home-services-section .services__item-wrap-two > .nav-tabs .nav-item {
-    flex: 1 1 0;
-  }
-
   body.home-page .home-services-section .services__item-wrap-two > .nav-tabs .nav-link {
     height: 100%;
     min-height: 0;
@@ -797,20 +793,6 @@ body.home-page .home-services-subtitle {
     min-height: 0;
   }
 
-  body.home-page .home-services-section .services__thumb-seven a,
-  body.home-page .home-services-section .services__thumb-seven img {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  body.home-page .home-services-section .services__thumb-seven img {
-    object-fit: cover;
-  }
-
-  body.home-page .home-services-section .services__content-nine {
-    flex: 0 0 auto;
-  }
 }
 
 /* Tablet: keep equal-height two-column layout, but slightly tighter */

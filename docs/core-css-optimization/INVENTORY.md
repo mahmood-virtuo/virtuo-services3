@@ -474,6 +474,12 @@ The second Phase 5 checkpoint removed 19 earlier copies from 13 exact selector/d
 
 Services source fell 1,940 bytes and `services.min.css` fell 1,693 bytes. The retained last copies produced exact style and geometry parity on standard and Digital Marketing service routes at desktop/mobile in initial, changing and ready states after a 400 ms settle longer than the retained 240 ms maximum state transition.
 
+### Home and Blog-details exact duplicates
+
+The final Phase 5 checkpoint removed four earlier copies from `home.css` and three from `blog-details.css`. Home retained the last desktop definitions for nav-item flex, linked thumbnail sizing, thumbnail object-fit and content flex. Blog details retained the last Blue Note marker body/mobile width and US-relocation warning-metric color.
+
+No selector, declaration or media condition changed. Home source/minified output fell 493/419 bytes; Blog-details source/minified output fell 426/366 bytes. Fresh syntax-aware scans now find zero exact selector/declaration/context groups in both sources.
+
 ## Dynamic-selector risks and initial allowlist
 
 The following selectors and state families must be retained until their runtime owner and applicable interactions are fully validated:

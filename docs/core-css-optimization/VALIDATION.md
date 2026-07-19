@@ -1257,3 +1257,26 @@ The syntax-aware selector/declaration/media-context scan found 13 exact duplicat
 The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles were zero. No screenshots were required because exact same-DOM parity passed.
 
 Final commands: `npm run build:css`, deterministic double-build hash comparison, Services exact-duplicate rescan, `git diff --stat`, `git diff --check`, and `git status --short`.
+
+The Services duplicate checkpoint was committed as c5e09ec91522f72be84ed511655a981e398fbed4, pushed only to origin/testing, and staging run 29666471751 succeeded before the Home/Blog-details gate.
+
+## Phase 5 Home/Blog-details exact-duplicate validation
+
+The clean testing/remote gate passed at c5e09ec91522f72be84ed511655a981e398fbed4 after staging run 29666471751.
+
+The syntax-aware selector/declaration/media-context scan found four exact duplicate groups in `home.css` and three in `blog-details.css`. Seven earlier copies were removed and the last byte-identical copy of each group remains. The cleanup changed no selector, declaration, media condition or keyframe.
+
+| Output | Before | After | Change |
+| --- | ---: | ---: | ---: |
+| home.css | 27,179 | 26,686 | -493 |
+| home.min.css | 23,415 | 22,996 | -419 |
+| blog-details.css | 162,062 | 161,636 | -426 |
+| blog-details.min.css | 142,589 | 142,223 | -366 |
+| main.css | 637,965 | 637,046 | -919 |
+| main.min.css | 547,769 | 546,984 | -785 |
+
+`npm run build:css` passed. Installed Playwright/local Chrome compared committed and consolidated family bundles after the unchanged core on Home, a Blue Note article and the US-relocation article at desktop/mobile. All six final states matched. The moving Home hero carousel caused one deliberately rejected whole-page geometry capture; diagnosis isolated only its active/prev/next and pagination states. After stopping its actual Swiper owner, the 2,188-element desktop computed-style capture matched exactly. Separately, all 20 elements owned by the changed Home selectors matched exact computed styles and rectangles. The other five states matched comprehensive computed styles, pseudo-elements and geometry directly. Evidence-ledger SHA-256: `4a91fc7dcf881fd9bf676981aedff2016ae404398dfd97bf1315461c997a22e4`; elements 1,208–3,251; browser diagnostics 0.
+
+The post-change validator passed all 86 canonical routes and three negative probes with expected status/family/order/no-compatibility behavior. All 17 local stylesheet paths/full URLs returned 200; active inline styles were zero. All 89 routes still rendered the footer phone field and intl-tel-input script. No screenshots were required because exact same-DOM parity passed.
+
+Final commands: `npm run build:css`, deterministic double-build hash comparison, Home/Blog-details exact-duplicate rescan, `git diff --stat`, `git diff --check`, and `git status --short`.
