@@ -204,7 +204,7 @@ preloader disabled end -->
                     <div class="tgmenu__action tgmenu__action-five">
                         <ul class="list-wrap">
                             <li class="header-contact">
-                                <a href="https://wa.me/971565151315" class="header-whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                <a href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" class="header-whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i>
                                 <span>WhatsApp</span>
                             </a>
                             </li>
@@ -269,7 +269,7 @@ preloader disabled end -->
                 <p><span>Office - BLV - 6F - SF60959<br>A Building - Ajman Blvd, Ajman Freezone<br>Sheikh Rashid Bin Saeed Al Maktoum St.<br>Ajman, United Arab Emirates</span></p>
             </div>
             <div class="contact-list">
-                <a href="https://wa.me/971565151315" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp offcanvas-whatsapp-icon" aria-hidden="true"></i><span>+971 56 515 1315</span></a>
+                <a href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener" aria-label="Chat with Virtuo on WhatsApp"><i class="fab fa-whatsapp offcanvas-whatsapp-icon" aria-hidden="true"></i><span>+971 56 515 1315</span></a>
             </div>
             <div class="contact-list">
                 <i class="flaticon-envelope"></i>

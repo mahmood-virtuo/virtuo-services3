@@ -108,7 +108,7 @@
                                     <div class="slider__content">
                                         <h1 class="title">Why <span class="blog-hero-highlight">Smart Americans</span> Are Moving<br />to the UAE in 2026</h1>
                                         <p>After the war. After the tariffs. After the chaos. Here's the honest case — property, tax, safety, business, and the numbers — for why the UAE is becoming the relocation decision serious operators keep making.</p>
-                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -423,7 +423,7 @@
                                         <div class="vt-ptitle">The move is a decision. The setup is an engineering problem. We handle the second one.</div>
                                         <p class="vt-psub">Virtuo works with international founders, US operators, investors, and families on UAE business formation, free zone and mainland licensing, Golden Visa applications, PRO services, banking preparation, immigration coordination, and compliance structuring. Not just the license. The platform.</p>
                                         <div class="blog-cta-actions blog-cta-actions--center">
-                                            <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315" target="_blank" rel="noopener">Start the conversation on WhatsApp</a>
+                                            <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener">Start the conversation on WhatsApp</a>
                                         </div>
                                         <div class="us-contact">Or email setup@virtuo.ae · +971 56 515 1315</div>
                                     </div>

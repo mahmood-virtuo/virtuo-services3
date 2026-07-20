@@ -84,7 +84,7 @@ $default_opex    = max(5, min(45, $default_opex));
                                     and stronger margins — built gradually, not overnight.
                                 </p>
 
-                                <a href="https://wa.me/971565151315"
+                                <a href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation"
                                    target="_blank"
                                    rel="noopener"
                                    class="tg-btn tg-btn-four">

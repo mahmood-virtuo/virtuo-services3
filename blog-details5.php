@@ -62,7 +62,7 @@
                                     <div class="slider__content">
                                         <h1 class="title">Freelance Visa or Green Residence?<br />The Independent <span class="blog-hero-highlight">Professional's Setup Decision</span></h1>
                                         <p>A "freelance visa" is never one document. Here's how the permit, the residency, and the income test actually fit together — and where founders quietly choose the wrong one.</p>
-                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +233,7 @@
                       <div class="vt-eyebrow">The bottom line</div>
                       <div class="vt-ptitle">A freelance visa was never just a residency stamp. It's a structuring decision — and it compounds at every renewal.</div>
                       <p class="vt-psub">The right route gives you legal clarity, working banking, defensible tax filings, and a clean path to whatever comes next — Green Residence, family sponsorship, or a full company. The wrong one just defers the same problems to your next renewal. Tell us what your work actually looks like, and we'll map the right setup.</p>
-                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary blog-cta-spaced" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
+                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary blog-cta-spaced" href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener">Talk to Virtuo Services</a>
                     </div>
 
                     <p class="vt-sources">Sources: Freelance and Green Residence permit volumes — GDRFA-Dubai statements via VisaHQ (Nov 2025). Freelancer growth — UAE Chamber of Commerce study, cited by Shuraa (2025-2026). Cost ranges — Rosemont Partners, BusinessLink UAE, and Citizen Remote freelance/Green Visa cost guides (2025). Corporate tax — Federal Tax Authority, Federal Decree-Law No. 47 of 2022. Compliance tightening — GDRFA-Dubai statement to Emarat Al Youm, reported by VisaHQ (Nov 2025); Affinitas DMCC (2025-2026). Figures current as of mid-2026 and subject to change. Educational only — not legal or immigration advice.</p>
