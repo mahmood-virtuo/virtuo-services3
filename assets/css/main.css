@@ -16690,6 +16690,17 @@ html {
   }
 }
 
+/* Phase 3: Remove First-Hero JavaScript Paint Dependency */
+.first-hero-slide {
+  background-image: url("/assets/img/slider/1st.webp");
+}
+
+@media (max-width: 767.98px) {
+  .first-hero-slide {
+    background-image: url("/assets/img/slider/1st_mobile.webp") !important;
+  }
+}
+
 body.home-page .home-hero-accent {
   color: var(--tg-theme-primary);
 }

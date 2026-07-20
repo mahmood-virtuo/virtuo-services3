@@ -72,7 +72,6 @@ For checking all PHP files when needed:
 
 For local testing, use the existing PHP local server setup for this project. Do not invent a new server setup without asking.
 
-
 ## Token-Saving / Browser Testing Rules
 
 - Do not use IAB, in-app browser, Playwright, browser automation, screenshot walkthroughs, visual browser testing, or end-to-end browser testing unless the user explicitly asks.
@@ -91,3 +90,38 @@ At the end of every task, provide:
 4. Validation/tests run
 5. Manual browser tests still needed
 6. Any remaining risk
+
+## Testing Branch Autonomous Workflow Exception
+
+When the user explicitly requests autonomous end-to-end work, the agent is authorized to:
+
+- Run read-only Git inspection commands.
+- Edit files inside the active workspace.
+- Run project build, syntax, lint and validation commands.
+- Run `git add`.
+- Run `git commit`.
+- Run `git push origin testing`.
+
+This authorization applies only when all of the following are true:
+
+1. The current branch is exactly `testing`.
+2. The initial working tree state has been recorded.
+3. `HEAD` equals `origin/testing` before implementation begins.
+4. All required builds and validations pass.
+5. `git diff --check` passes.
+6. The complete changed-file list has been reviewed.
+7. The push target is exactly `origin testing`.
+
+The agent must never:
+
+- Push to `main` or `master`.
+- Force-push any branch.
+- Merge or rebase.
+- Run `git reset --hard`.
+- Run `git clean`.
+- Switch branches.
+- Modify production deployment workflows.
+- Trigger or perform a production deployment.
+- Modify a database.
+
+If any safety condition fails, stop and report the blocker without committing or pushing.

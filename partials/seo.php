@@ -137,15 +137,15 @@ include_once dirname(__DIR__) . '/includes/schema.php';
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap">
-<?php if ($heroImage !== '' && $heroImageMobile !== '') : ?>
-<?php if ($heroImage === $heroImageMobile) : ?>
-<link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high">
+<?php if ($seo['heroImage'] !== '' && $seo['heroImageMobile'] !== '') : ?>
+<?php if ($seo['heroImage'] === $seo['heroImageMobile']) : ?>
+<link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImage']); ?>" fetchpriority="high">
 <?php else : ?>
-<link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high" media="(min-width: 768px)">
-<link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImageMobile); ?>" fetchpriority="high" media="(max-width: 767px)">
+<link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImage']); ?>" fetchpriority="high" media="(min-width: 768px)">
+<link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImageMobile']); ?>" fetchpriority="high" media="(max-width: 767px)">
 <?php endif; ?>
-<?php elseif ($heroImage !== '') : ?>
-<link rel="preload" as="image" href="<?php echo virtuo_seo_escape($heroImage); ?>" fetchpriority="high">
+<?php elseif ($seo['heroImage'] !== '') : ?>
+<link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImage']); ?>" fetchpriority="high">
 <?php endif; ?>
 <meta property="og:type" content="<?php echo virtuo_seo_escape($seo['type']); ?>">
 <meta property="og:title" content="<?php echo virtuo_seo_escape($seo['title']); ?>">
