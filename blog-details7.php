@@ -73,7 +73,7 @@
                                     <div class="slider__content">
                                         <h1 class="title">UAE <span class="tax-hero-accent">Taxes Explained</span> 2026: Every Tax, Who Pays It, and What You Don't Owe</h1>
                                         <p>The UAE is not tax-free. It never was. But it is one of the most tax-efficient jurisdictions in the world — if you know which taxes apply to you and which ones simply don't exist.</p>
-                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk To Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -384,7 +384,7 @@
   <div class="vt-eyebrow">Virtuo Services · UAE Compliance & Business Setup</div>
   <div class="vt-ptitle">Know what you owe. Build what you keep.</div>
   <p class="vt-psub">Virtuo helps businesses structure correctly from day one — so the right taxes apply, the wrong assumptions don't cost you, and your UAE platform holds up at every renewal and audit.</p>
-  <a class="vt-cta" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo on WhatsApp</a>
+  <a class="vt-cta" href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener">Talk to Virtuo on WhatsApp</a>
   <p class="vt-psub tax-cta-contact">info@virtuo.ae &nbsp;·&nbsp; +971 56 515 1315</p>
 </div>
 

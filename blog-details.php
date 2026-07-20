@@ -62,7 +62,7 @@
                                     <div class="slider__content">
                                         <h1 class="title"><span class="blog-hero-highlight">Mainland, Free Zone, or Offshore?</span><br />The UAE Structuring Decision Serious U.S. Founders Cannot Afford to Get Wrong</h1>
                                         <p>A strategic playbook for U.S. founders, investors, and family offices building a UAE base — from an American who has made the move.</p>
-                                        <a href="https://wa.me/971565151315" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk to Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
+                                        <a href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener" class="tg-btn tg-btn-four">Talk to Us<img src="/assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +232,7 @@
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">Structure before license</div>
                       <div class="vt-ptitle">Don't buy a license before you know what the structure has to do.</div>
-                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315" target="_blank" rel="noopener">Speak to Virtuo</a>
+                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener">Speak to Virtuo</a>
                     </div>
 
                     <h2 class="title-two" id="vt-mistakes">Where founders usually get it wrong</h2>
@@ -408,7 +408,7 @@
                     <div class="vt-panel vt-reveal">
                       <div class="vt-eyebrow">The bottom line</div>
                       <div class="vt-ptitle">Don't start with the license. Start with what the structure has to protect, enable, and survive.</div>
-                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315" target="_blank" rel="noopener">Talk to Virtuo Services</a>
+                      <a class="tg-btn blog-cta-btn blog-cta-btn--primary" href="https://wa.me/971565151315?text=Hi%20Virtuo!%20I'm%20interested%20in%20setting%20up%20a%20business%20in%20the%20UAE.%20I'd%20like%20to%20learn%20more%20about%20my%20options%20and%20schedule%20a%20free%20consultation" target="_blank" rel="noopener">Talk to Virtuo Services</a>
                     </div>
 
                     <p class="vt-sources">Sources: U.S. tax rates — Tax Foundation (2026); Tax Cuts and Jobs Act 2017. UAE corporate tax and QFZP — Federal Tax Authority, Federal Decree-Law No. 47 of 2022. Wealth migration — Henley Private Wealth Migration Report 2025. FDI — FT "fDi Markets" and Dubai Economy and Tourism FDI Monitor (2024). Free zone positioning — JAFZA / DP World, Dubai Airport Freezone (DAFZ) and Ajman Free Zone official materials. Golden Visa — UAE GDRFA / ICP and Dubai Land Department. Figures current as of mid-2026 and subject to change.</p>
