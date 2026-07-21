@@ -82,10 +82,6 @@
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider__bg hero-image-styles first-hero-slide">
-                        <picture class="hero-progressive-picture">
-                            <source media="(max-width: 767.98px)" srcset="/assets/img/slider/1st_mobile.webp">
-                            <img src="/assets/img/slider/1st.webp" alt="Build Your Business On a Strong Foundation" fetchpriority="high" loading="eager" decoding="async" class="hero-progressive-img" width="1920" height="900">
-                        </picture>
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">

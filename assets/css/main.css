@@ -16691,23 +16691,14 @@ html {
 }
 
 /* Phase 3: Remove First-Hero JavaScript Paint Dependency */
-.slider__bg.first-hero-slide {
-  background-image: none !important;
+.first-hero-slide {
+  background-image: url("/assets/img/slider/1st.webp");
 }
 
-/* First Hero Progressive Picture */
-.hero-progressive-picture {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.hero-progressive-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@media (max-width: 767.98px) {
+  .first-hero-slide {
+    background-image: url("/assets/img/slider/1st_mobile.webp") !important;
+  }
 }
 
 body.home-page .home-hero-accent {
@@ -17191,12 +17182,6 @@ body.home-page .blog__post-area-six .blog__post-content {
       rgba(255, 255, 255, 0) 88%
     );
   }
-}
-
-/* Protect hero container from picture overlay */
-.slider__bg .custom-container {
-  position: relative;
-  z-index: 1;
 }
 
 /* Phase 3: About-exclusive rules extracted from core.css. */
