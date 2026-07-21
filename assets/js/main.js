@@ -185,22 +185,35 @@
     return new Swiper(selector, options);
   }
 
-  var sliderSwiper = virtuoInitSwiper(".slider-active", {
-    spaceBetween: 0,
-    effect: "fade",
-    loop: true,
-    autoplay: {
-      delay: 6000,
-    },
-    navigation: {
-      nextEl: ".slider-button-next",
-      prevEl: ".slider-button-prev",
-    },
-    pagination: {
-      el: ".slider__bar-pagination",
-      clickable: true,
-    },
-  });
+  var sliderSwiper = null;
+  function initHomeSwiper() {
+    sliderSwiper = virtuoInitSwiper(".slider-active", {
+      spaceBetween: 0,
+      effect: "fade",
+      loop: true,
+      autoplay: {
+        delay: 6000,
+      },
+      navigation: {
+        nextEl: ".slider-button-next",
+        prevEl: ".slider-button-prev",
+      },
+      pagination: {
+        el: ".slider__bar-pagination",
+        clickable: true,
+      },
+    });
+  }
+
+  if (document.querySelector(".slider-active")) {
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(function() {
+        requestAnimationFrame(initHomeSwiper);
+      }, { timeout: 2000 });
+    } else {
+      setTimeout(initHomeSwiper, 100);
+    }
+  }
 
   /*=============================================
 	=        Slider Active		      =

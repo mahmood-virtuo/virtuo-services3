@@ -27,6 +27,15 @@ if (isset($virtuoCssFamilies[$virtuoSelectedCssFamily])) {
     $virtuoStylesheets = array('/assets/css/main.min.css');
 }
 
+$isHomePage = ($virtuoSelectedCssFamily === 'home');
+if ($isHomePage) {
+    $criticalCssPath = __DIR__ . '/../assets/css/bundles/home-critical.min.css';
+    if (file_exists($criticalCssPath)) {
+        echo '<style id="virtuo-home-critical-css">';
+        echo file_get_contents($criticalCssPath);
+        echo '</style>' . "\n";
+    }
+}
 ?>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css">
 <?php
