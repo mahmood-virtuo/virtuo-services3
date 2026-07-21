@@ -48,7 +48,7 @@ preloader disabled end -->
                                     <ul class="list-wrap">
                                         <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Facebook"><img src="/assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
                                         <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on Instagram"><img src="/assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                        <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="/assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                                        <li><a href="https://www.linkedin.com/company/virtuouae/" target="_blank" rel="noopener" aria-label="Visit Virtuo Services on LinkedIn"><img src="/assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -236,7 +236,7 @@ preloader disabled end -->
             </div>
             <div class="social-links">
                 <ul class="list-wrap">
-                <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <li><a href="https://www.linkedin.com/company/virtuouae/" target="_blank" rel="noopener" aria-label="LinkedIn">
                                     <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a></li>
                 <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
@@ -279,7 +279,7 @@ preloader disabled end -->
         <div class="offCanvas__social">
             <h6 class="title">Follow us</h6>
             <ul class="list-wrap">
-                <li><a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <li><a href="https://www.linkedin.com/company/virtuouae/" target="_blank" rel="noopener" aria-label="LinkedIn">
                                     <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a></li>
                 <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
