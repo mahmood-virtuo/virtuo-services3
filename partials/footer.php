@@ -36,7 +36,7 @@
                                  <p>Empowering businesses to establish, operate, and scale in the UAE. Virtuo delivers integrated solutions across business formation, government relations, immigration, digital marketing, and AI driven technology, providing everything ambitious companies need under one trusted partner.</p>
                                  <div class="footer-reference-left__social">
                                      <span>Follow Us :</span>
-                                     <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                     <a href="https://www.linkedin.com/company/virtuouae/" target="_blank" rel="noopener" aria-label="LinkedIn">
                                         <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                     </a>
                                     <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="LinkedIn">

@@ -118,7 +118,7 @@
 
                             <div class="footer-reference-left__social contact-figma-social">
                                 <span>Follow Us :</span><br/><br/>
-                                <a href="https://www.linkedin.com/in/jonaidamohammad" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <a href="https://www.linkedin.com/company/virtuouae/" target="_blank" rel="noopener" aria-label="LinkedIn">
                                     <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a>
                                 <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
