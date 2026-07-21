@@ -19,12 +19,6 @@ const bundles = [
     output: `${bundleRoot}/core.min.css`,
     allowEmpty: false,
   },
-  {
-    name: "home-critical",
-    source: `${sourceRoot}/critical/home-critical.css`,
-    output: `${bundleRoot}/home-critical.min.css`,
-    allowEmpty: false,
-  },
   ...families.map((name) => ({
     name,
     source: `${sourceRoot}/pages/${name}.css`,

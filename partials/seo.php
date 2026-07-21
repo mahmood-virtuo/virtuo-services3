@@ -142,7 +142,7 @@ include_once dirname(__DIR__) . '/includes/schema.php';
 <link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImage']); ?>" fetchpriority="high">
 <?php else : ?>
 <link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImage']); ?>" fetchpriority="high" media="(min-width: 768px)">
-<link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImageMobile']); ?>" fetchpriority="high" media="(max-width: 767.98px)">
+<link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImageMobile']); ?>" fetchpriority="high" media="(max-width: 767px)">
 <?php endif; ?>
 <?php elseif ($seo['heroImage'] !== '') : ?>
 <link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImage']); ?>" fetchpriority="high">

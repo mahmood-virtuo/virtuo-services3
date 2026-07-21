@@ -16058,187 +16058,6 @@ html {
   color: var(--tg-theme-primary);
   vertical-align: middle;
 }
-/* Critical CSS for Homepage */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #b0b4c8;
-  text-align: left;
-  background-color: #01061b;
-}
-
-/* Bootstrap Critical */
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 576px) { .container { max-width: 540px; } }
-@media (min-width: 768px) { .container { max-width: 720px; } }
-@media (min-width: 992px) { .container { max-width: 960px; } }
-@media (min-width: 1200px) { .container { max-width: 1140px; } }
-@media (min-width: 1500px) { .container { max-width: 1460px; } }
-.row {
-  display: -webkit-box; display: -ms-flexbox; display: flex;
-  -ms-flex-wrap: wrap; flex-wrap: wrap;
-  margin-right: -15px; margin-left: -15px;
-}
-.col-lg-8 {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-@media (min-width: 992px) {
-  .col-lg-8 { -webkit-box-flex: 0; -ms-flex: 0 0 66.666667%; flex: 0 0 66.666667%; max-width: 66.666667%; }
-}
-
-/* Header Critical */
-.tg-header__area {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
-}
-.tgmenu__wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 0;
-}
-.logo img {
-  max-width: 150px;
-  height: auto;
-}
-.mobile-nav-toggler {
-  display: none;
-}
-@media (max-width: 991.98px) {
-  .mobile-nav-toggler {
-    display: block;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  .tgmenu__wrap .navigation {
-    display: none;
-  }
-}
-
-/* Hero Critical */
-.slider__area {
-  position: relative;
-  z-index: 1;
-}
-.slider__bg {
-  min-height: 900px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-  padding: 200px 0 120px;
-  background-color: #01061b;
-}
-.slider__bg::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #01061b;
-  opacity: 0.6;
-  z-index: -1;
-}
-.slider__content {
-  margin-top: 80px;
-}
-@media (max-width: 991.98px) {
-  .slider__content {
-    margin-top: 0;
-    text-align: center;
-  }
-}
-.slider__content .title {
-  margin-bottom: 20px;
-  font-size: 36px;
-  font-weight: 600;
-  color: #fff;
-}
-@media (max-width: 1500px) {
-  .slider__content .title {
-    font-size: 30px;
-  }
-}
-@media (max-width: 767.98px) {
-  .slider__content .title {
-    font-size: 24px;
-  }
-}
-.slider__content p {
-  margin-bottom: 30px;
-  font-size: 18px;
-  color: #b0b4c8;
-  width: 95%;
-}
-@media (max-width: 1199.98px) {
-  .slider__content p { width: 100%; }
-}
-.tg-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 35px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  background-color: #14489b;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-/* Progressive Hero Image */
-.hero-progressive-picture {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -2;
-}
-.hero-progressive-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-/* Hero Button and Accent Critical */
-.home-hero-accent {
-  color: #ee4c01;
-}
-.tg-btn-four {
-  background: transparent;
-  border-radius: 8px;
-  border: 1px solid #fff;
-  padding: 17px 25px;
-}
 
 /* Phase 3: Home-exclusive rules extracted from core.css. */
 .section__title.white-title .sub-title {
@@ -16872,6 +16691,15 @@ body {
 }
 
 /* Phase 3: Remove First-Hero JavaScript Paint Dependency */
+.first-hero-slide {
+  background-image: url("/assets/img/slider/1st.webp");
+}
+
+@media (max-width: 767.98px) {
+  .first-hero-slide {
+    background-image: url("/assets/img/slider/1st_mobile.webp") !important;
+  }
+}
 
 body.home-page .home-hero-accent {
   color: var(--tg-theme-primary);

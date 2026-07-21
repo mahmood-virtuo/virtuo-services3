@@ -56,8 +56,7 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/swiper-bundle.min.css'), ENT_QUOTES, 'UTF-8'); ?>" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/swiper-bundle.min.css'), ENT_QUOTES, 'UTF-8'); ?>"></noscript>
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/swiper-bundle.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
@@ -83,10 +82,6 @@
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider__bg hero-image-styles first-hero-slide">
-                        <picture class="hero-progressive-picture">
-                            <source media="(max-width: 767.98px)" srcset="assets/img/slider/1st_mobile.webp">
-                            <img src="assets/img/slider/1st.webp" alt="Build Your Business On a Strong Foundation" fetchpriority="high" loading="eager" decoding="async" class="hero-progressive-img" width="1920" height="900">
-                        </picture>
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
