@@ -11,6 +11,7 @@
 
 @font-face {
     font-family: "tg_flaticon";
+    font-display: swap;
     src: url("../fonts/flat-icon/tg-flaticon.woff2.woff2?9e8d632884dc1231224de856e63972c4") format("woff2"),
     url("../fonts/flat-icon/tg-flaticon.woff?9e8d632884dc1231224de856e63972c4") format("woff"),
     url("../fonts/flat-icon/tg-flaticon.eot?9e8d632884dc1231224de856e63972c4#iefix") format("embedded-opentype"),
