@@ -45,7 +45,33 @@
     <?php $loadSwiperAssets = true; ?>
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php
+    $virtuoHomepageBootstrapStylesheet = 'assets/css/bootstrap.min.css';
+    $virtuoHomepageBootstrapStylesheetUrl = virtuo_asset_url($virtuoHomepageBootstrapStylesheet);
+    $virtuoHomepageCriticalCssPath = __DIR__ . '/assets/css/bundles/home-core-critical.min.css';
+    $virtuoHomepageCriticalCss = is_readable($virtuoHomepageCriticalCssPath)
+        ? file_get_contents($virtuoHomepageCriticalCssPath)
+        : false;
+    $virtuoCanDeferHomepageBootstrap = is_string($virtuoHomepageCriticalCss)
+        && trim($virtuoHomepageCriticalCss) !== '';
+    ?>
+    <?php if ($virtuoCanDeferHomepageBootstrap) : ?>
+    <link rel="preload" as="style" href="<?php echo htmlspecialchars($virtuoHomepageBootstrapStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="<?php echo htmlspecialchars($virtuoHomepageBootstrapStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>">
+    </noscript>
+    <?php else : ?>
+    <link rel="stylesheet" href="<?php echo htmlspecialchars($virtuoHomepageBootstrapStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
+    <?php
+    unset(
+        $virtuoHomepageBootstrapStylesheet,
+        $virtuoHomepageBootstrapStylesheetUrl,
+        $virtuoHomepageCriticalCssPath,
+        $virtuoHomepageCriticalCss,
+        $virtuoCanDeferHomepageBootstrap
+    );
+    ?>
     <?php if (!empty($loadWowAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php endif; ?>
