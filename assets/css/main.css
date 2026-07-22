@@ -1347,10 +1347,47 @@ textarea {
   opacity: 1;
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
-.scroll__top:hover {
+.scroll__top.scroll-to-target {
+  isolation: isolate;
+}
+.scroll__top.scroll-to-target > i {
+  position: relative;
+  z-index: 1;
+}
+.scroll__top.scroll-to-target::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background: var(--tg-theme-secondary);
+  -webkit-clip-path: circle(0% at 50% 100%);
+  clip-path: circle(0% at 50% 100%);
+  -webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: -1;
+}
+@media (hover: hover) and (pointer: fine) {
+  .scroll__top.scroll-to-target:hover {
+    background: var(--tg-theme-primary);
+    border-color: var(--tg-theme-secondary);
+    color: var(--tg-color-white-default);
+  }
+  .scroll__top.scroll-to-target:hover::before {
+    -webkit-clip-path: circle(150% at 50% 100%);
+    clip-path: circle(150% at 50% 100%);
+  }
+}
+.scroll__top.scroll-to-target:focus-visible {
+  background: var(--tg-theme-primary);
   border-color: var(--tg-theme-secondary);
   color: var(--tg-color-white-default);
+  outline: 2px solid var(--tg-theme-secondary);
+  outline-offset: 3px;
+}
+.scroll__top.scroll-to-target:focus-visible::before {
+  -webkit-clip-path: circle(150% at 50% 100%);
+  clip-path: circle(150% at 50% 100%);
 }
 
 /*=============================
@@ -16707,6 +16744,80 @@ body.home-page .home-hero-accent {
 
 body.home-page .slider__area > .slider__bar-pagination .swiper-pagination-bullet-active {
   background-color: #ee4c01;
+}
+
+/* Add the approved sweep without changing the homepage header button geometry. */
+body.home-page .transparent-header .header-whatsapp-btn {
+  --header-whatsapp-base-background: #fffdfd00;
+  --header-whatsapp-base-border: var(--tg-color-white-default);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--header-whatsapp-base-background);
+  border: 1px solid var(--header-whatsapp-base-border);
+}
+
+body.home-page .transparent-header #sticky-header.sticky-menu .header-whatsapp-btn {
+  --header-whatsapp-base-background: var(--tg-theme-primary);
+  --header-whatsapp-base-border: var(--tg-theme-primary);
+}
+
+body.home-page .transparent-header .header-whatsapp-btn > i,
+body.home-page .transparent-header .header-whatsapp-btn > span {
+  position: relative;
+  z-index: 1;
+}
+
+body.home-page .transparent-header .header-whatsapp-btn::before {
+  content: "";
+  position: absolute;
+  -webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
+  width: 200%;
+  height: 200%;
+  top: 110%;
+  left: 50%;
+  background: var(--tg-theme-primary);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+body.home-page .transparent-header .header-whatsapp-btn:focus {
+  background: var(--header-whatsapp-base-background);
+  border: 1px solid var(--header-whatsapp-base-border);
+  color: var(--tg-color-white-default);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body.home-page .transparent-header .header-whatsapp-btn:hover {
+    background: var(--header-whatsapp-base-background);
+    border: 1px solid var(--tg-theme-primary);
+    color: var(--tg-color-white-default);
+  }
+
+  body.home-page .transparent-header .header-whatsapp-btn:hover::before {
+    top: -40%;
+  }
+}
+
+body.home-page .transparent-header .header-whatsapp-btn:focus-visible {
+  background: var(--header-whatsapp-base-background);
+  border: 1px solid var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+body.home-page .transparent-header .header-whatsapp-btn:focus-visible::before {
+  top: -40%;
 }
 
 /* Match the approved base button sweep and horizontal arrow motion in the hero only. */
