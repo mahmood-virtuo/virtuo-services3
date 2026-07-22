@@ -654,6 +654,11 @@ body.home-page .slider__area .tg-btn-four {
   --arrow-hover-move-x: -110%;
 }
 
+body.home-page .slider__area .tg-btn-four:hover,
+body.home-page .slider__area .tg-btn-four:focus-visible {
+  background: transparent;
+}
+
 body.home-page .slider__area .tg-btn-four::before {
   display: block;
   background: var(--tg-theme-primary);
