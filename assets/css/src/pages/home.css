@@ -649,6 +649,34 @@ body.home-page .slider__area > .slider__bar-pagination .swiper-pagination-bullet
   background-color: #ee4c01;
 }
 
+/* Match the approved base button sweep and horizontal arrow motion in the hero only. */
+body.home-page .slider__area .tg-btn-four {
+  --arrow-hover-move-x: -110%;
+}
+
+body.home-page .slider__area .tg-btn-four::before {
+  display: block;
+  background: var(--tg-theme-primary);
+}
+
+body.home-page .slider__area .tg-btn-four svg path:nth-of-type(1) {
+  transform: translateX(0);
+}
+
+body.home-page .slider__area .tg-btn-four svg path:nth-of-type(2) {
+  transform: translateX(calc(1 * var(--arrow-hover-move-x)));
+}
+
+body.home-page .slider__area .tg-btn-four:hover svg path:nth-of-type(1),
+body.home-page .slider__area .tg-btn-four:focus-visible svg path:nth-of-type(1) {
+  transform: translateX(calc(-1 * var(--arrow-hover-move-x)));
+}
+
+body.home-page .slider__area .tg-btn-four:hover svg path:nth-of-type(2),
+body.home-page .slider__area .tg-btn-four:focus-visible svg path:nth-of-type(2) {
+  transform: translateX(0);
+}
+
 body.home-page .home-about-orbit {
   left: auto;
   right: -291px;
