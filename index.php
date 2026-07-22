@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
@@ -40,8 +41,6 @@
         return rtrim(substr($text, 0, $limit)) . '...';
     }
     ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <?php include __DIR__ . '/partials/favicon.php'; ?>
     <?php $loadSwiperAssets = true; ?>
 
