@@ -25,6 +25,12 @@ const bundles = [
     output: `${bundleRoot}/${name}.min.css`,
     allowEmpty: true,
   })),
+  {
+    name: "home-core-critical",
+    source: `${sourceRoot}/critical/home-core-critical.css`,
+    output: `${bundleRoot}/home-core-critical.min.css`,
+    allowEmpty: false,
+  },
 ];
 
 module.exports = Object.freeze({
@@ -33,7 +39,11 @@ module.exports = Object.freeze({
   families: Object.freeze(families),
   bundles: Object.freeze(bundles),
   compatibility: Object.freeze({
-    sources: Object.freeze(bundles.map((bundle) => bundle.source)),
+    sources: Object.freeze(
+      bundles
+        .filter((bundle) => bundle.name !== "home-core-critical")
+        .map((bundle) => bundle.source)
+    ),
     unminifiedOutput: "assets/css/main.css",
     minifiedOutput: "assets/css/main.min.css",
   }),
