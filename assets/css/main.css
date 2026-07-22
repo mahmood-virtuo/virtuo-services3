@@ -16760,6 +16760,10 @@ body.home-page .transparent-header .header-whatsapp-btn {
 body.home-page .transparent-header #sticky-header.sticky-menu .header-whatsapp-btn {
   --header-whatsapp-base-background: var(--tg-theme-primary);
   --header-whatsapp-base-border: var(--tg-theme-primary);
+  transition:
+    background-color 0.25s ease,
+    border-color 800ms ease,
+    color 0.25s ease;
 }
 
 body.home-page .transparent-header .header-whatsapp-btn > i,
@@ -16793,7 +16797,7 @@ body.home-page .transparent-header .header-whatsapp-btn::before {
 }
 
 body.home-page .transparent-header #sticky-header.sticky-menu .header-whatsapp-btn::before {
-  background: var(--tg-theme-secondary);
+  background: linear-gradient(90deg, #09194e 0%, #175ab1 100%);
   z-index: 0;
 }
 
@@ -16813,6 +16817,10 @@ body.home-page .transparent-header .header-whatsapp-btn:focus {
   body.home-page .transparent-header .header-whatsapp-btn:hover::before {
     top: -40%;
   }
+
+  body.home-page .transparent-header #sticky-header.sticky-menu .header-whatsapp-btn:hover {
+    border-color: #175ab1;
+  }
 }
 
 body.home-page .transparent-header .header-whatsapp-btn:focus-visible {
@@ -16826,7 +16834,8 @@ body.home-page .transparent-header .header-whatsapp-btn:focus-visible::before {
 }
 
 body.home-page .transparent-header #sticky-header.sticky-menu .header-whatsapp-btn:focus-visible {
-  outline-color: var(--tg-theme-secondary);
+  border-color: #175ab1;
+  outline-color: #175ab1;
 }
 
 /* Match the approved base button sweep and horizontal arrow motion in the hero only. */
