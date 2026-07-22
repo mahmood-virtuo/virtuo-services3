@@ -1452,3 +1452,168 @@ body.service-page .service-detail-work-icon {
 body.service-page .service-detail-choice-copy {
   margin: 100px;
 }
+
+/* Add the approved sweep only to inactive service navigation tabs. */
+body.service-page .services__details-area .sidebar__cat-list .service-tab-link {
+  --service-tab-inactive-background: var(--tg-color-gray-2);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  z-index: 0;
+  transition:
+    background-color 0.3s ease-out,
+    border-color 0.3s ease-out,
+    color 0.3s ease-out;
+}
+
+body.service-page .services__details-area .digital-service-tabs .digital-service-main-link,
+body.service-page .services__details-area .digital-service-tabs .digital-service-sub-link {
+  --service-tab-inactive-background: var(--tg-color-gray-2);
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+  z-index: 0;
+}
+
+body.service-page .services__details-area .sidebar__cat-list .service-tab-link::before,
+body.service-page .services__details-area .digital-service-tabs .digital-service-main-link::after,
+body.service-page .services__details-area .digital-service-tabs .digital-service-sub-link::after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 110%;
+  left: 50%;
+  background: var(--tg-theme-primary);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  pointer-events: none;
+  transition-duration: 800ms;
+  z-index: -1;
+}
+
+body.service-page .services__details-area .sidebar__cat-list .service-tab-link > span,
+body.service-page .services__details-area .digital-service-tabs .digital-service-arrow {
+  position: relative;
+  z-index: 1;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body.service-page
+    .services__details-area
+    .sidebar__cat-list
+    .service-tab-link:not(.is-active):hover {
+    background: var(--service-tab-inactive-background);
+    border-color: var(--tg-theme-primary);
+    color: var(--tg-color-white-default);
+  }
+
+  body.service-page
+    .services__details-area
+    .sidebar__cat-list
+    .service-tab-link:not(.is-active):hover::before {
+    top: -40%;
+  }
+
+  body.service-page
+    .services__details-area
+    .digital-service-tabs
+    .digital-service-main-item:not(.is-open)
+    > .digital-service-main-link:not(.is-active):hover,
+  body.service-page
+    .services__details-area
+    .digital-service-tabs
+    .digital-service-sub-link:not(.is-active):hover {
+    background: var(--service-tab-inactive-background) !important;
+    border-color: var(--tg-theme-primary) !important;
+    color: var(--tg-color-white-default) !important;
+  }
+
+  body.service-page
+    .services__details-area
+    .digital-service-tabs
+    .digital-service-main-item:not(.is-open)
+    > .digital-service-main-link:not(.is-active):hover::after,
+  body.service-page
+    .services__details-area
+    .digital-service-tabs
+    .digital-service-sub-link:not(.is-active):hover::after {
+    top: -40%;
+  }
+}
+
+body.service-page
+  .services__details-area
+  .sidebar__cat-list
+  .service-tab-link:not(.is-active):focus-visible {
+  background: var(--service-tab-inactive-background);
+  border-color: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+  outline: 2px solid var(--tg-theme-primary);
+  outline-offset: 2px;
+}
+
+body.service-page
+  .services__details-area
+  .sidebar__cat-list
+  .service-tab-link:not(.is-active):focus-visible::before {
+  top: -40%;
+}
+
+body.service-page
+  .services__details-area
+  .sidebar__cat-list
+  .service-tab-link:not(.is-active):focus-visible
+  > span,
+body.service-page
+  .services__details-area
+  .digital-service-tabs
+  .digital-service-main-item:not(.is-open)
+  > .digital-service-main-link:not(.is-active):focus-visible
+  .digital-service-arrow,
+body.service-page
+  .services__details-area
+  .digital-service-tabs
+  .digital-service-sub-link:not(.is-active):focus-visible
+  .digital-service-arrow {
+  background: var(--tg-color-white-default) !important;
+  color: var(--tg-theme-primary) !important;
+}
+
+body.service-page
+  .services__details-area
+  .digital-service-tabs
+  .digital-service-main-item:not(.is-open)
+  > .digital-service-main-link:not(.is-active):focus-visible,
+body.service-page
+  .services__details-area
+  .digital-service-tabs
+  .digital-service-sub-link:not(.is-active):focus-visible {
+  background: var(--service-tab-inactive-background) !important;
+  border-color: var(--tg-theme-primary) !important;
+  color: var(--tg-color-white-default) !important;
+  outline: 2px solid var(--tg-theme-primary);
+  outline-offset: 2px;
+}
+
+body.service-page
+  .services__details-area
+  .digital-service-tabs
+  .digital-service-main-item:not(.is-open)
+  > .digital-service-main-link:not(.is-active):focus-visible::after,
+body.service-page
+  .services__details-area
+  .digital-service-tabs
+  .digital-service-sub-link:not(.is-active):focus-visible::after {
+  top: -40%;
+}
+
+@media (max-width: 991.98px) {
+  body.service-page .services__details-area .digital-service-tabs .digital-service-main-link {
+    --service-tab-inactive-background: #eef2fb;
+  }
+
+  body.service-page .services__details-area .digital-service-tabs .digital-service-sub-link {
+    --service-tab-inactive-background: var(--tg-color-white-default);
+  }
+}
