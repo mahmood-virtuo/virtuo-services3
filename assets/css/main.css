@@ -16746,6 +16746,26 @@ body.home-page .slider__area > .slider__bar-pagination .swiper-pagination-bullet
   background-color: #ee4c01;
 }
 
+/* Replace the homepage-only Font Awesome menu glyph with the matching inline chevron. */
+body.home-page .tgmenu__main-menu .virtuo-mega-menu-trigger > a::after {
+  display: none;
+}
+
+body.home-page .tgmenu__main-menu .virtuo-mega-menu-trigger > a > .home-services-nav-chevron {
+  display: block;
+  width: 0.875em;
+  height: 1em;
+  flex: 0 0 auto;
+  margin-left: 6px;
+  color: inherit;
+  font-size: 12px;
+  transition: color 0.3s ease-out 0s;
+}
+
+body.home-page .tgmobile__menu .home-services-nav-chevron {
+  display: none;
+}
+
 /* Add the approved sweep without changing the homepage header button geometry. */
 body.home-page .transparent-header .header-whatsapp-btn {
   --header-whatsapp-base-background: #fffdfd00;
