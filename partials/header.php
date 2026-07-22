@@ -21,15 +21,9 @@ preloader disabled end -->
 
 <!-- header-area -->
 <header class="transparent-header">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1BKW1VKNBX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1BKW1VKNBX');
-</script>
+    <?php if (empty($loadGoogleAnalyticsAfterHero)) : ?>
+    <?php include __DIR__ . '/google-analytics.php'; ?>
+    <?php endif; ?>
     <div class="tg-header__top">
         <div class="container site-content-gutter custom-container virtuo-px-100">
             <div class="row align-items-center">

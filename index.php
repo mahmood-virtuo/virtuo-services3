@@ -70,6 +70,7 @@
 
     <?php
     $useInlineFontAwesomeIcons = true;
+    $loadGoogleAnalyticsAfterHero = true;
     include __DIR__ . '/partials/header.php';
     ?>
 
@@ -157,6 +158,9 @@
             include __DIR__ . '/partials/scroll-down.php';
             ?>
         </section>
+        <?php if (!empty($loadGoogleAnalyticsAfterHero)) : ?>
+        <?php include __DIR__ . '/partials/google-analytics.php'; ?>
+        <?php endif; ?>
         <!-- slider-area-end -->
 
         <!-- marquee-area -->
