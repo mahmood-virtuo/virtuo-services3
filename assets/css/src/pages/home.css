@@ -695,6 +695,11 @@ body.home-page .transparent-header .header-whatsapp-btn::before {
   z-index: -1;
 }
 
+body.home-page .transparent-header #sticky-header.sticky-menu .header-whatsapp-btn::before {
+  background: var(--tg-theme-secondary);
+  z-index: 0;
+}
+
 body.home-page .transparent-header .header-whatsapp-btn:focus {
   background: var(--header-whatsapp-base-background);
   border: 1px solid var(--header-whatsapp-base-border);
@@ -721,6 +726,10 @@ body.home-page .transparent-header .header-whatsapp-btn:focus-visible {
 
 body.home-page .transparent-header .header-whatsapp-btn:focus-visible::before {
   top: -40%;
+}
+
+body.home-page .transparent-header #sticky-header.sticky-menu .header-whatsapp-btn:focus-visible {
+  outline-color: var(--tg-theme-secondary);
 }
 
 /* Match the approved base button sweep and horizontal arrow motion in the hero only. */
