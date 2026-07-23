@@ -19,6 +19,7 @@ $virtuoCssFamilies = array(
 $virtuoSelectedCssFamily = isset($virtuoCssFamily) ? (string) $virtuoCssFamily : '';
 $virtuoCoreStylesheet = '/assets/css/bundles/core.min.css';
 $virtuoHomeCriticalStylesheet = '/assets/css/bundles/home-core-critical.min.css';
+$virtuoIntlTelStylesheetUrl = 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css';
 
 if (isset($virtuoCssFamilies[$virtuoSelectedCssFamily])) {
     $virtuoStylesheets = array(
@@ -30,7 +31,14 @@ if (isset($virtuoCssFamilies[$virtuoSelectedCssFamily])) {
 }
 
 ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css">
+<?php if ($virtuoSelectedCssFamily === 'home') : ?>
+<link rel="preload" as="style" href="<?php echo htmlspecialchars($virtuoIntlTelStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="<?php echo htmlspecialchars($virtuoIntlTelStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>">
+</noscript>
+<?php else : ?>
+<link rel="stylesheet" href="<?php echo htmlspecialchars($virtuoIntlTelStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>">
+<?php endif; ?>
 <?php
 foreach (array_unique($virtuoStylesheets) as $virtuoStylesheet) {
     if ($virtuoSelectedCssFamily === 'home' && $virtuoStylesheet === $virtuoCoreStylesheet) {
@@ -59,6 +67,7 @@ unset(
     $virtuoSelectedCssFamily,
     $virtuoCoreStylesheet,
     $virtuoHomeCriticalStylesheet,
+    $virtuoIntlTelStylesheetUrl,
     $virtuoStylesheets,
     $virtuoStylesheet,
     $virtuoCriticalCssPath,
