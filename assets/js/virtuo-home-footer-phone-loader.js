@@ -1,0 +1,159 @@
+(function () {
+  "use strict";
+
+  var loaderScript = document.currentScript;
+  var footer = document.querySelector(".footer__area-five");
+  var phoneInput = footer
+    ? footer.querySelector(".virtuo-footer-phone-input")
+    : null;
+
+  if (!loaderScript || !footer || !phoneInput) {
+    return;
+  }
+
+  var stylesheetUrl = loaderScript.dataset.phoneStylesheetUrl;
+  var libraryUrl = loaderScript.dataset.phoneLibraryUrl;
+  var initializerUrl = loaderScript.dataset.phoneInitializerUrl;
+  var observer = null;
+  var interactionEvents = ["pointerdown", "touchstart", "focus", "keydown"];
+
+  if (!stylesheetUrl || !libraryUrl || !initializerUrl) {
+    return;
+  }
+
+  function waitForResource(element) {
+    return new Promise(function (resolve, reject) {
+      if (
+        element.dataset.virtuoLoaded === "true" ||
+        (element.tagName === "LINK" && element.sheet)
+      ) {
+        resolve(element);
+        return;
+      }
+
+      element.addEventListener(
+        "load",
+        function () {
+          element.dataset.virtuoLoaded = "true";
+          resolve(element);
+        },
+        { once: true },
+      );
+      element.addEventListener(
+        "error",
+        function () {
+          reject(new Error("Unable to load deferred footer phone resource."));
+        },
+        { once: true },
+      );
+    });
+  }
+
+  function loadStylesheet() {
+    var existing = document.querySelector(
+      'link[data-virtuo-home-footer-phone="stylesheet"]',
+    );
+
+    if (existing) {
+      return waitForResource(existing);
+    }
+
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = stylesheetUrl;
+    link.dataset.virtuoHomeFooterPhone = "stylesheet";
+    document.head.appendChild(link);
+
+    return waitForResource(link);
+  }
+
+  function loadScript(url, resourceName) {
+    var existing = document.querySelector(
+      'script[data-virtuo-home-footer-phone="' + resourceName + '"]',
+    );
+
+    if (existing) {
+      return waitForResource(existing);
+    }
+
+    var script = document.createElement("script");
+    script.src = url;
+    script.async = false;
+    script.dataset.virtuoHomeFooterPhone = resourceName;
+    document.head.appendChild(script);
+
+    return waitForResource(script);
+  }
+
+  function removeTriggers() {
+    interactionEvents.forEach(function (eventName) {
+      phoneInput.removeEventListener(eventName, triggerLoad, true);
+    });
+
+    if (observer) {
+      observer.disconnect();
+      observer = null;
+    }
+  }
+
+  function loadPhoneAssets() {
+    if (window.virtuoHomeFooterPhonePromise) {
+      return window.virtuoHomeFooterPhonePromise;
+    }
+
+    window.virtuoHomeFooterPhonePromise = loadStylesheet()
+      .then(function () {
+        if (typeof window.intlTelInput === "function") {
+          return null;
+        }
+
+        return loadScript(libraryUrl, "library");
+      })
+      .then(function () {
+        if (phoneInput.dataset.itiReady === "true") {
+          return null;
+        }
+
+        return loadScript(initializerUrl, "initializer");
+      })
+      .then(function () {
+        if (phoneInput.dataset.itiReady !== "true") {
+          throw new Error("Deferred footer phone control did not initialize.");
+        }
+
+        removeTriggers();
+        return phoneInput;
+      });
+
+    return window.virtuoHomeFooterPhonePromise;
+  }
+
+  function triggerLoad() {
+    loadPhoneAssets().catch(function () {
+      footer.dataset.virtuoPhoneAssetsFailed = "true";
+    });
+  }
+
+  interactionEvents.forEach(function (eventName) {
+    phoneInput.addEventListener(eventName, triggerLoad, true);
+  });
+
+  if (typeof window.IntersectionObserver === "function") {
+    observer = new IntersectionObserver(
+      function (entries) {
+        if (
+          entries.some(function (entry) {
+            return entry.isIntersecting;
+          })
+        ) {
+          triggerLoad();
+        }
+      },
+      {
+        rootMargin: "1800px 0px",
+        threshold: 0,
+      },
+    );
+    observer.observe(footer);
+  }
+})();

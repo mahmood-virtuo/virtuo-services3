@@ -21,6 +21,7 @@ const jsSources = [
   "assets/js/main.js",
   "assets/js/virtuo-blog-interactives.js",
   "assets/js/virtuo-footer-phone.js",
+  "assets/js/virtuo-home-footer-phone-loader.js",
   "assets/js/virtuo-mega-menu.js",
   "assets/js/virtuo-performance.js",
   "assets/js/virtuo-service-tabs-breadcrumb.js",

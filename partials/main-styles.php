@@ -31,7 +31,11 @@ if (isset($virtuoCssFamilies[$virtuoSelectedCssFamily])) {
 }
 
 ?>
-<?php if ($virtuoSelectedCssFamily === 'home') : ?>
+<?php if ($virtuoSelectedCssFamily === 'home' && !empty($deferHomepageFooterPhoneAssets)) : ?>
+<noscript>
+    <link rel="stylesheet" href="<?php echo htmlspecialchars($virtuoIntlTelStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>">
+</noscript>
+<?php elseif ($virtuoSelectedCssFamily === 'home') : ?>
 <link rel="preload" as="style" href="<?php echo htmlspecialchars($virtuoIntlTelStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
     <link rel="stylesheet" href="<?php echo htmlspecialchars($virtuoIntlTelStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>">

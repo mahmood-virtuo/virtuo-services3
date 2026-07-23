@@ -43,8 +43,31 @@
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/main.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-performance.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-mega-menu.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php if (!empty($deferHomepageFooterPhoneAssets)) : ?>
+<?php
+$virtuoHomeFooterPhoneLoaderUrl = virtuo_asset_url('/assets/js/virtuo-home-footer-phone-loader.min.js');
+$virtuoIntlTelStylesheetUrl = 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css';
+$virtuoIntlTelScriptUrl = 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js';
+$virtuoFooterPhoneScriptUrl = virtuo_asset_url('/assets/js/virtuo-footer-phone.min.js');
+?>
+<script
+    src="<?php echo htmlspecialchars($virtuoHomeFooterPhoneLoaderUrl, ENT_QUOTES, 'UTF-8'); ?>"
+    data-phone-stylesheet-url="<?php echo htmlspecialchars($virtuoIntlTelStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>"
+    data-phone-library-url="<?php echo htmlspecialchars($virtuoIntlTelScriptUrl, ENT_QUOTES, 'UTF-8'); ?>"
+    data-phone-initializer-url="<?php echo htmlspecialchars($virtuoFooterPhoneScriptUrl, ENT_QUOTES, 'UTF-8'); ?>"
+></script>
+<?php
+unset(
+    $virtuoHomeFooterPhoneLoaderUrl,
+    $virtuoIntlTelStylesheetUrl,
+    $virtuoIntlTelScriptUrl,
+    $virtuoFooterPhoneScriptUrl
+);
+?>
+<?php else : ?>
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-footer-phone.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php endif; ?>
 <?php if (!empty($loadVirtuoServiceTabsBreadcrumb)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-service-tabs-breadcrumb.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
