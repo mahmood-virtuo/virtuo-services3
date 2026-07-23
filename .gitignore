@@ -10,3 +10,6 @@ test-results/
 
 # Backup folder
 _unused_pages_backup/
+
+/lighthouse-results/
+/.lighthouseci/
