@@ -631,6 +631,24 @@
 }
 
 /* Phase 3: Remove First-Hero JavaScript Paint Dependency */
+body.home-page
+  .slider__area
+  .slider-active:not(.swiper-initialized)
+  .first-hero-slide {
+  opacity: 1 !important;
+  visibility: visible;
+}
+
+body.home-page .slider__area .first-hero-slide .slider__content .title,
+body.home-page .slider__area .first-hero-slide .slider__content p,
+body.home-page .slider__area .first-hero-slide .slider__content .tg-btn {
+  -webkit-animation: none;
+  animation: none;
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+
 .first-hero-slide {
   background-image: url("/assets/img/slider/1st.webp");
 }
