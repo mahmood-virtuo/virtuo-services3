@@ -72,6 +72,7 @@
     <?php
     $useInlineFontAwesomeIcons = true;
     $loadGoogleAnalyticsAfterHero = true;
+    $delayGoogleAnalyticsOnHomepage = true;
     include __DIR__ . '/partials/header.php';
     ?>
 
