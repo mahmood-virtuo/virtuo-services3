@@ -19,6 +19,7 @@
         'heroImage' => '/assets/img/slider/1st.webp',
         'heroImageMobile' => '/assets/img/slider/1st_mobile.webp'
     );
+    $useHomepageLocalPoppins = true;
     include __DIR__ . '/partials/seo.php';
     require_once __DIR__ . '/partials/blog-taxonomy.php';
     $blogPosts = virtuo_get_blog_posts();

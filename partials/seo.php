@@ -134,9 +134,14 @@ include_once dirname(__DIR__) . '/includes/schema.php';
 <title><?php echo virtuo_seo_escape($seo['title']); ?></title>
 <meta name="description" content="<?php echo virtuo_seo_escape($seo['description']); ?>">
 <link rel="canonical" href="<?php echo virtuo_seo_escape($canonicalUrl); ?>">
+<?php if (!empty($useHomepageLocalPoppins)) : ?>
+<!-- Homepage only: preload the Poppins face used by the first hero heading. -->
+<link rel="preload" href="/assets/fonts/poppins/poppins-v24-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+<?php else : ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap">
+<?php endif; ?>
 <?php if ($seo['heroImage'] !== '' && $seo['heroImageMobile'] !== '') : ?>
 <?php if ($seo['heroImage'] === $seo['heroImageMobile']) : ?>
 <link rel="preload" as="image" type="image/webp" href="<?php echo virtuo_seo_escape($seo['heroImage']); ?>" fetchpriority="high">
