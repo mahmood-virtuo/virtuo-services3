@@ -32,26 +32,33 @@
 
     <?php include __DIR__ . '/partials/favicon.php'; ?>
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/bootstrap.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <?php if (!empty($loadWowAssets)) : ?>
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/animate.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <?php endif; ?>
-    <?php if (!empty($loadMagnificPopupAssets)) : ?>
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <?php endif; ?>
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <?php if (!empty($loadSwiperAssets)) : ?>
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/swiper-bundle.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <?php endif; ?>
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>" media="(hover: hover) and (pointer: fine)">
     <?php
+    // Only the root listing uses the reviewed critical-CSS delivery experiment.
+    $virtuoUseRootBlogCriticalCss = true;
+    $virtuoRootBlogPreMainStylesheets = array(
+        array('path' => '/assets/css/bootstrap.min.css'),
+    );
+    if (!empty($loadWowAssets)) {
+        $virtuoRootBlogPreMainStylesheets[] = array('path' => '/assets/css/animate.min.css');
+    }
+    if (!empty($loadMagnificPopupAssets)) {
+        $virtuoRootBlogPreMainStylesheets[] = array('path' => '/assets/css/magnific-popup.css');
+    }
+    $virtuoRootBlogPreMainStylesheets[] = array('path' => '/assets/css/fontawesome-all.min.css');
+    $virtuoRootBlogPreMainStylesheets[] = array('path' => '/assets/css/tg-flaticon.css');
+    if (!empty($loadSwiperAssets)) {
+        $virtuoRootBlogPreMainStylesheets[] = array('path' => '/assets/css/swiper-bundle.min.css');
+    }
+    $virtuoRootBlogPreMainStylesheets[] = array('path' => '/assets/css/default.css');
+    $virtuoRootBlogPreMainStylesheets[] = array('path' => '/assets/css/default-icons.css');
+    $virtuoRootBlogPreMainStylesheets[] = array('path' => '/assets/css/aos.css');
+    $virtuoRootBlogPreMainStylesheets[] = array(
+        'path' => '/assets/css/tg-cursor.css',
+        'media' => '(hover: hover) and (pointer: fine)',
+    );
     $virtuoCssFamily = 'blog-listing';
     include __DIR__ . '/partials/main-styles.php';
+    unset($virtuoUseRootBlogCriticalCss, $virtuoRootBlogPreMainStylesheets);
     ?>
 </head>
 
