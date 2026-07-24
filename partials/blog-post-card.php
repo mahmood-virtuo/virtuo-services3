@@ -3,6 +3,30 @@ $blogPostListingImage = trim((string) ($blogPost['listingImage'] ?? ''));
 $blogPostImage = (string) ($blogPost['image'] ?? '');
 $blogPostListingImagePath = $blogPostListingImage !== '' ? dirname(__DIR__) . '/' . ltrim($blogPostListingImage, '/') : '';
 $blogPostCardImage = (!empty($useBlogListingImage) && $blogPostListingImagePath !== '' && is_file($blogPostListingImagePath)) ? $blogPostListingImage : $blogPostImage;
+$blogPostCardImageSrcset = '';
+$blogPostCardImageSizes = '';
+$blogPostCardImageWidth = 900;
+$blogPostCardImageHeight = 643;
+
+if (!empty($useBlogListingImage) && $blogPostCardImage === $blogPostListingImage) {
+    $blogPostListingImageDirectory = dirname($blogPostListingImage);
+    $blogPostListingImageFilename = pathinfo($blogPostListingImage, PATHINFO_FILENAME);
+    $blogPostListingImageBase = $blogPostListingImageDirectory . '/' . $blogPostListingImageFilename;
+    $blogPostListingImageSmall = $blogPostListingImageBase . '-480.webp';
+    $blogPostListingImageLarge = $blogPostListingImageBase . '-960.webp';
+    $blogPostListingImageSmallPath = dirname(__DIR__) . '/' . ltrim($blogPostListingImageSmall, '/');
+    $blogPostListingImageLargePath = dirname(__DIR__) . '/' . ltrim($blogPostListingImageLarge, '/');
+
+    // Listing-only variants keep mobile cards from downloading the original multi-megabyte JPGs.
+    if (is_file($blogPostListingImageSmallPath) && is_file($blogPostListingImageLargePath)) {
+        $blogPostCardImage = $blogPostListingImageLarge;
+        $blogPostCardImageSrcset = $blogPostListingImageSmall . ' 480w, ' . $blogPostListingImageLarge . ' 960w';
+        $blogPostCardImageSizes = '(max-width: 575px) calc(100vw - 28px), (max-width: 991px) calc(100vw - 48px), 960px';
+        $blogPostCardImageWidth = 960;
+        $blogPostCardImageHeight = 450;
+    }
+}
+
 $blogPostOverlaySegments = array();
 
 if (!empty($blogPost['listingOverlaySegments']) && is_array($blogPost['listingOverlaySegments'])) {
@@ -49,10 +73,10 @@ if (empty($blogPostOverlaySegments)) {
 
 $blogPostShouldRenderOverlay = !empty($useBlogListingOverlay) && !empty($blogPostOverlaySegments);
 ?>
-<div class="blog__post-item-five"<?php if (!empty($blogLoadItemEnabled)) : ?> data-blog-load-item<?php endif; ?>>
+<div class="blog__post-item-five<?php if (!empty($blogLoadItemInitiallyHidden)) : ?> blog-load-hidden<?php endif; ?>"<?php if (!empty($blogLoadItemEnabled)) : ?> data-blog-load-item<?php endif; ?>>
     <div class="blog__post-thumb-five">
         <a href="<?php echo htmlspecialchars($blogPost['url'], ENT_QUOTES, 'UTF-8'); ?>"<?php if ($blogPostShouldRenderOverlay) : ?> class="blog-listing-image-link--overlay"<?php endif; ?>>
-            <img src="<?php echo htmlspecialchars($blogPostCardImage, ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="<?php echo !empty($blogPostPriorityHigh) ? 'eager' : 'lazy'; ?>"<?php if (!empty($blogPostPriorityHigh)) : ?> fetchpriority="high"<?php endif; ?> decoding="async" width="900" height="643">
+            <img src="<?php echo htmlspecialchars($blogPostCardImage, ENT_QUOTES, 'UTF-8'); ?>"<?php if ($blogPostCardImageSrcset !== '') : ?> srcset="<?php echo htmlspecialchars($blogPostCardImageSrcset, ENT_QUOTES, 'UTF-8'); ?>" sizes="<?php echo htmlspecialchars($blogPostCardImageSizes, ENT_QUOTES, 'UTF-8'); ?>"<?php endif; ?> alt="<?php echo htmlspecialchars($blogPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="<?php echo !empty($blogPostEager) ? 'eager' : 'lazy'; ?>" decoding="async" width="<?php echo htmlspecialchars((string) $blogPostCardImageWidth, ENT_QUOTES, 'UTF-8'); ?>" height="<?php echo htmlspecialchars((string) $blogPostCardImageHeight, ENT_QUOTES, 'UTF-8'); ?>">
             <?php if ($blogPostShouldRenderOverlay) : ?>
                 <span class="blog-listing-image-overlay" aria-hidden="true">
                     <span class="blog-listing-image-overlay__title">
