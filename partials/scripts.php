@@ -1,7 +1,17 @@
-<?php require_once __DIR__ . '/asset-helper.php'; ?>
+<?php
+require_once __DIR__ . '/asset-helper.php';
+
+$virtuoScriptFamily = isset($virtuoCssFamily) ? (string) $virtuoCssFamily : '';
+$virtuoFamiliesWithoutBootstrapJs = array('blog-listing', 'blog-details');
+
+// Blog families use their own interaction modules and do not use Bootstrap's JavaScript API.
+$virtuoLoadBootstrapJs = !in_array($virtuoScriptFamily, $virtuoFamiliesWithoutBootstrapJs, true);
+?>
 <!-- JS here -->
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/vendor/jquery-3.6.0.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php if ($virtuoLoadBootstrapJs) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/bootstrap.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php endif; ?>
 <?php if (!empty($loadMagnificPopupAssets)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.magnific-popup.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
@@ -98,3 +108,10 @@ unset(
 </script>
 
 <!-- for tabs  -->
+<?php
+unset(
+    $virtuoScriptFamily,
+    $virtuoFamiliesWithoutBootstrapJs,
+    $virtuoLoadBootstrapJs
+);
+?>
