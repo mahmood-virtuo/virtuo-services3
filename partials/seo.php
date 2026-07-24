@@ -127,6 +127,25 @@ $ogImage = virtuo_seo_resolve_image($seo);
 $ogImageAlt = $seo['ogImageAlt'] !== '' ? $seo['ogImageAlt'] : ($seo['imageAlt'] !== '' ? $seo['imageAlt'] : $seo['title']);
 $heroImage = !empty($seo['heroImage']) ? virtuo_seo_url($seo['heroImage']) : '';
 $heroImageMobile = !empty($seo['heroImageMobile']) ? virtuo_seo_url($seo['heroImageMobile']) : '';
+$usesHomepageCriticalPoppins = $seo['path'] === '/';
+$poppinsCssPath = dirname(__DIR__) . '/assets/css/src/shared/poppins-fonts.css';
+$poppinsCss = !$usesHomepageCriticalPoppins && is_readable($poppinsCssPath)
+    ? file_get_contents($poppinsCssPath)
+    : '';
+$poppinsCss = is_string($poppinsCss) ? trim($poppinsCss) : '';
+
+// Slider and article heroes use 600; breadcrumb-led page families use 700.
+$defaultCriticalPoppinsWeight = (
+    $usesHomepageCriticalPoppins ||
+    $seo['schemaType'] === 'Article'
+) ? 600 : 700;
+$criticalPoppinsWeight = array_key_exists('criticalPoppinsWeight', $seoPage)
+    ? (int) $seoPage['criticalPoppinsWeight']
+    : $defaultCriticalPoppinsWeight;
+$allowedCriticalPoppinsWeights = array(200, 300, 400, 500, 600, 700, 800);
+$criticalPoppinsHref = in_array($criticalPoppinsWeight, $allowedCriticalPoppinsWeights, true)
+    ? '/assets/fonts/poppins/poppins-v24-latin-' . $criticalPoppinsWeight . '.woff2'
+    : '';
 
 include_once dirname(__DIR__) . '/includes/schema-config.php';
 include_once dirname(__DIR__) . '/includes/schema.php';
@@ -134,13 +153,13 @@ include_once dirname(__DIR__) . '/includes/schema.php';
 <title><?php echo virtuo_seo_escape($seo['title']); ?></title>
 <meta name="description" content="<?php echo virtuo_seo_escape($seo['description']); ?>">
 <link rel="canonical" href="<?php echo virtuo_seo_escape($canonicalUrl); ?>">
-<?php if (!empty($useHomepageLocalPoppins)) : ?>
-<!-- Homepage only: preload the Poppins face used by the first hero heading. -->
-<link rel="preload" href="/assets/fonts/poppins/poppins-v24-latin-600.woff2" as="font" type="font/woff2" crossorigin>
-<?php else : ?>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap">
+<?php if ($criticalPoppinsHref !== '') : ?>
+<!-- Preload only the local Poppins face used by this page family's initial heading. -->
+<link rel="preload" href="<?php echo virtuo_seo_escape($criticalPoppinsHref); ?>" as="font" type="font/woff2" crossorigin>
+<?php endif; ?>
+<?php if ($poppinsCss !== '') : ?>
+<!-- Shared site-wide local Poppins definitions keep Google Fonts off the critical path. -->
+<style data-virtuo-fonts="poppins"><?php echo $poppinsCss; ?></style>
 <?php endif; ?>
 <?php if ($seo['heroImage'] !== '' && $seo['heroImageMobile'] !== '') : ?>
 <?php if ($seo['heroImage'] === $seo['heroImageMobile']) : ?>
