@@ -53,7 +53,7 @@ $virtuoLoadBootstrapJs = !in_array($virtuoScriptFamily, $virtuoFamiliesWithoutBo
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/main.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-performance.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-mega-menu.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-<?php if (!empty($deferHomepageFooterPhoneAssets)) : ?>
+<?php if (!empty($deferHomepageFooterPhoneAssets) || !empty($deferBlogFooterPhoneAssets)) : ?>
 <?php
 $virtuoHomeFooterPhoneLoaderUrl = virtuo_asset_url('/assets/js/virtuo-home-footer-phone-loader.min.js');
 $virtuoIntlTelStylesheetUrl = 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css';

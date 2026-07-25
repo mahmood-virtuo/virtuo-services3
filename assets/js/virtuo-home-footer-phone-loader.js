@@ -2,12 +2,11 @@
   "use strict";
 
   var loaderScript = document.currentScript;
-  var footer = document.querySelector(".footer__area-five");
-  var phoneInput = footer
-    ? footer.querySelector(".virtuo-footer-phone-input")
-    : null;
+  var phoneInputs = Array.prototype.slice.call(
+    document.querySelectorAll(".virtuo-footer-phone-input"),
+  );
 
-  if (!loaderScript || !footer || !phoneInput) {
+  if (!loaderScript || phoneInputs.length === 0) {
     return;
   }
 
@@ -86,8 +85,10 @@
   }
 
   function removeTriggers() {
-    interactionEvents.forEach(function (eventName) {
-      phoneInput.removeEventListener(eventName, triggerLoad, true);
+    phoneInputs.forEach(function (phoneInput) {
+      interactionEvents.forEach(function (eventName) {
+        phoneInput.removeEventListener(eventName, triggerLoad, true);
+      });
     });
 
     if (observer) {
@@ -110,19 +111,27 @@
         return loadScript(libraryUrl, "library");
       })
       .then(function () {
-        if (phoneInput.dataset.itiReady === "true") {
+        var allInputsReady = phoneInputs.every(function (phoneInput) {
+          return phoneInput.dataset.itiReady === "true";
+        });
+
+        if (allInputsReady) {
           return null;
         }
 
         return loadScript(initializerUrl, "initializer");
       })
       .then(function () {
-        if (phoneInput.dataset.itiReady !== "true") {
+        var allInputsReady = phoneInputs.every(function (phoneInput) {
+          return phoneInput.dataset.itiReady === "true";
+        });
+
+        if (!allInputsReady) {
           throw new Error("Deferred footer phone control did not initialize.");
         }
 
         removeTriggers();
-        return phoneInput;
+        return phoneInputs;
       });
 
     return window.virtuoHomeFooterPhonePromise;
@@ -130,12 +139,16 @@
 
   function triggerLoad() {
     loadPhoneAssets().catch(function () {
-      footer.dataset.virtuoPhoneAssetsFailed = "true";
+      phoneInputs.forEach(function (phoneInput) {
+        phoneInput.dataset.virtuoPhoneAssetsFailed = "true";
+      });
     });
   }
 
-  interactionEvents.forEach(function (eventName) {
-    phoneInput.addEventListener(eventName, triggerLoad, true);
+  phoneInputs.forEach(function (phoneInput) {
+    interactionEvents.forEach(function (eventName) {
+      phoneInput.addEventListener(eventName, triggerLoad, true);
+    });
   });
 
   if (typeof window.IntersectionObserver === "function") {
@@ -154,6 +167,8 @@
         threshold: 0,
       },
     );
-    observer.observe(footer);
+    phoneInputs.forEach(function (phoneInput) {
+      observer.observe(phoneInput);
+    });
   }
 })();
