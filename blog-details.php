@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>" media="(hover: hover) and (pointer: fine)">
     <?php
     $virtuoCssFamily = 'blog-details';
     include __DIR__ . '/partials/main-styles.php';
@@ -104,7 +104,6 @@
                   <div class="vt-article">
                     <p class="vt-lead">If you're reading this, you've probably already won once. You built something in the U.S. — revenue, a brand, an exit, a portfolio — and now you're looking at the UAE and wondering whether it belongs in the next chapter. For a growing number of American founders, the honest answer is yes. Not as a tax trick or an escape hatch — as infrastructure: a base built to carry global revenue, protect what you've accumulated, and give you room to expand, hold, or sell on your own terms.</p>
 
-                    <!-- <div class="vt-callout">The expensive mistake isn't picking the wrong license. It's picking one before you're clear on what the structure actually has to do.</div> -->
                      <div class="vt-blue-note">
   <p>The expensive mistake isn't picking the wrong license. It's picking one before you're clear on what the structure actually has to do.</p>
 </div>
@@ -183,13 +182,6 @@
                      <!-- --------Decision Matrix Ends------ -->
                     </div>
 
-                    <!-- <h2 class="title-two">The free zones we concentrate on</h2>
-                    <p>There are forty-plus free zones in the UAE, and we work across them. Three come up again and again with our American clients, because between them they cover almost every situation a U.S. founder walks in with.</p>
-                    <div class="vt-cards">
-                      <div class="vt-card"><div class="city">Cost-efficient · fast setup</div><div class="who">Ajman Free Zone</div><div class="pick">A legitimate UAE base without Dubai's overhead — fully digital incorporation, flexible workspace, and one of the lowest costs of entry in the country. <span>Fits lean operating companies, e-commerce, holding &amp; IP.</span></div></div>
-                      <div class="vt-card"><div class="city">Airport-side · regulated goods</div><div class="who">DAFZ</div><div class="pick">Set within Dubai International Airport and the Dubai Integrated Economic Zones — a premium address with fast, flexible licensing. <span>Fits aviation, electronics, pharma, high-value cargo.</span></div></div>
-                      <div class="vt-card"><div class="city">Bonded · trade &amp; logistics</div><div class="who">Jebel Ali · JAFZA</div><div class="pick">DP World's flagship at Jebel Ali Port and the largest bonded zone in the region — built for trade at scale. <span>Fits import/export, re-export, warehousing, manufacturing.</span></div></div>
-                    </div> -->
 
                     
 
@@ -250,10 +242,6 @@
 
                     <h2 class="title-two" id="vt-license">The license activity is the silent decision-maker</h2>
                     <p>Of every box you check in a UAE setup, the licensed activity is the one founders treat as paperwork and everyone else treats as the whole story. It's the lens your bank's compliance team, the regulator, your clients, and your own CPA use to understand what the business is. It decides whether the bank can map your incoming wires to a permitted purpose, whether your invoices hold up, and whether that 0% position is even on the table.</p>
-                    <!-- <blockquote>
-                      <p>Choose an activity that flatters the pitch deck instead of describing the actual revenue, and you haven't bought flexibility. You've handed the bank a reason to say no.</p>
-                      <cite>The activity-to-substance rule</cite>
-                    </blockquote> -->
                     <blockquote class="vt-blue-note">
   <p>Choose an activity that flatters the pitch deck instead of describing the actual revenue, and you haven't bought flexibility. You've handed the bank a reason to say no.</p>
   <cite>The activity-to-substance rule</cite>
@@ -320,25 +308,6 @@
                       </div>
                     </div>
 
-                    <!-- <h2 class="title-two" id="vt-matrix">Decision matrix</h2>
-                    <p>The three instruments, side by side. Selecting an instrument above highlights its column here.</p>
-                    <div class="vt-matrix-wrap">
-                      <table class="vt-matrix">
-                        <thead>
-                          <tr><th>Factor</th><th data-col="mainland">Mainland</th><th data-col="freezone">Free Zone</th><th data-col="offshore">Offshore</th></tr>
-                        </thead>
-                        <tbody>
-                          <tr><th>Best for</th><td data-col="mainland">Local clients, contracts, operations</td><td data-col="freezone">Global revenue, e-commerce, tech, IP</td><td data-col="offshore">Holding, succession, structuring</td></tr>
-                          <tr><th>UAE market access</th><td data-col="mainland">Direct, unrestricted</td><td data-col="freezone">Layered in separately</td><td data-col="offshore">None</td></tr>
-                          <tr><th>International trade</th><td data-col="mainland">Yes</td><td data-col="freezone">Yes — a core strength</td><td data-col="offshore">Holding / investment only</td></tr>
-                          <tr><th>Tax position</th><td data-col="mainland">9% above AED 375k; 0% below</td><td data-col="freezone">0% on qualifying income (QFZP)</td><td data-col="offshore">Substance-dependent</td></tr>
-                          <tr><th>Visa entitlement</th><td data-col="mainland">Yes</td><td data-col="freezone">Yes</td><td data-col="offshore">Generally none</td></tr>
-                          <tr><th>Banking</th><td data-col="mainland">Strong with matched activity</td><td data-col="freezone">Strong for most models</td><td data-col="offshore">Rewards genuine substance</td></tr>
-                          <tr><th>Ownership</th><td data-col="mainland">Up to 100% foreign</td><td data-col="freezone">100% foreign</td><td data-col="offshore">100% foreign</td></tr>
-                          <tr><th>Setup speed</th><td data-col="mainland">Moderate</td><td data-col="freezone">Fast</td><td data-col="offshore">Fast</td></tr>
-                        </tbody>
-                      </table>
-                    </div> -->
 
                     <h2 class="title-two" id="vt-profiles">Founder profiles</h2>
 <p>Illustrative starting points — your specifics decide the structure.</p>

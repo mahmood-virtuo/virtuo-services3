@@ -40,7 +40,6 @@
                                             <p class="info-one">2. Strategy Blueprint - We design your customized infrastructure maintenance roadmap, defining backup frequencies, security scanning routines, and response protocols.</p>
 
                                             <p class="info-one">3. Core Processing - Our technical engineering team links proactive monitoring scripts, deploys initial patch updates, and organizes secure sandbox testing environments.</p>
-                                            <!-- <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p> -->
                                             <p class="info-one">4. Verification &amp; Handover - We execute complete system restore diagnostics and validation checks before transitioning your platform into our continuous support cycle.</p>
 
                                         </div>

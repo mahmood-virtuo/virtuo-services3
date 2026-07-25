@@ -1,7 +1,17 @@
-<?php require_once __DIR__ . '/asset-helper.php'; ?>
+<?php
+require_once __DIR__ . '/asset-helper.php';
+
+$virtuoScriptFamily = isset($virtuoCssFamily) ? (string) $virtuoCssFamily : '';
+$virtuoFamiliesWithoutBootstrapJs = array('blog-listing', 'blog-details');
+
+// Blog families use their own interaction modules and do not use Bootstrap's JavaScript API.
+$virtuoLoadBootstrapJs = !in_array($virtuoScriptFamily, $virtuoFamiliesWithoutBootstrapJs, true);
+?>
 <!-- JS here -->
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/vendor/jquery-3.6.0.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php if ($virtuoLoadBootstrapJs) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/bootstrap.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php endif; ?>
 <?php if (!empty($loadMagnificPopupAssets)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/jquery.magnific-popup.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
@@ -43,8 +53,24 @@
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/main.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-performance.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
     <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-mega-menu.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
-<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
-<script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-footer-phone.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
+<?php
+$virtuoPhoneLoaderUrl = virtuo_asset_url('/assets/js/virtuo-phone-loader.min.js');
+$virtuoIntlTelStylesheetUrl = 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css';
+$virtuoIntlTelScriptUrl = 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js';
+?>
+<script
+    defer
+    src="<?php echo htmlspecialchars($virtuoPhoneLoaderUrl, ENT_QUOTES, 'UTF-8'); ?>"
+    data-phone-stylesheet-url="<?php echo htmlspecialchars($virtuoIntlTelStylesheetUrl, ENT_QUOTES, 'UTF-8'); ?>"
+    data-phone-library-url="<?php echo htmlspecialchars($virtuoIntlTelScriptUrl, ENT_QUOTES, 'UTF-8'); ?>"
+></script>
+<?php
+unset(
+    $virtuoPhoneLoaderUrl,
+    $virtuoIntlTelStylesheetUrl,
+    $virtuoIntlTelScriptUrl
+);
+?>
 <?php if (!empty($loadVirtuoServiceTabsBreadcrumb)) : ?>
 <script src="<?php echo htmlspecialchars(virtuo_asset_url('/assets/js/virtuo-service-tabs-breadcrumb.min.js'), ENT_QUOTES, 'UTF-8'); ?>"></script>
 <?php endif; ?>
@@ -75,3 +101,10 @@
 </script>
 
 <!-- for tabs  -->
+<?php
+unset(
+    $virtuoScriptFamily,
+    $virtuoFamiliesWithoutBootstrapJs,
+    $virtuoLoadBootstrapJs
+);
+?>

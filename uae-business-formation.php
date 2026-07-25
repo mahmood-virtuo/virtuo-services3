@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>" media="(hover: hover) and (pointer: fine)">
     <?php
     $virtuoCssFamily = 'services';
     include __DIR__ . '/partials/main-styles.php';
@@ -144,7 +144,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-health-insurance"></i> -->
                                                              <img src="assets/img/icons/business_activities.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -157,7 +156,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-growth"></i> -->
                                                              <img src="assets/img/icons/Partner_Details_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -170,7 +168,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/Legal_Type.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -194,7 +191,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/License_Type.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -207,7 +203,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/License_Details_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -220,7 +215,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/Final_Partner_Details_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -246,7 +240,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                             <img src="assets/img/icons/Initital_Approval_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -259,7 +252,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/Get_Business_Name_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -272,7 +264,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/Location_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -297,7 +288,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/Legal_Documents_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -310,7 +300,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/Final_License_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">
@@ -323,7 +312,6 @@
                                                 <div class="col-lg-4 col-md-6">
                                                     <div class="work__item-two text-center">
                                                         <div class="work__icon-two">
-                                                            <!-- <i class="flaticon-handshake"></i> -->
                                                              <img src="assets/img/icons/Additional_Approvals_Icon.svg" alt="" class="injectable service-detail-work-icon">
                                                         </div>
                                                         <div class="work__content-two">

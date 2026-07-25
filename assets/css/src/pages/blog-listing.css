@@ -1,4 +1,70 @@
 
+.blog__post-item-five {
+  margin-bottom: 40px;
+}
+.blog__post-thumb-five {
+  margin-bottom: 30px;
+}
+.blog__post-thumb-five img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  width: 100%;
+  height: 452px;
+  object-fit: cover;
+}
+@media (max-width: 1199.98px) {
+  .blog__post-thumb-five img {
+    height: 360px;
+  }
+}
+@media (max-width: 767.98px) {
+  .blog__post-thumb-five img {
+    height: 320px;
+  }
+}
+.blog__post-content-five .title {
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+@media (max-width: 1199.98px) {
+  .blog__post-content-five .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .blog__post-content-five .title {
+    font-size: 28px;
+  }
+}
+.blog__post-content-five .title a {
+  display: inline;
+  background-image:
+    linear-gradient(var(--tg-heading-color), var(--tg-heading-color)),
+    linear-gradient(var(--tg-heading-color), var(--tg-heading-color));
+  background-size:
+    0% 2px,
+    0 2px;
+  background-position:
+    100% 100%,
+    0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s linear;
+}
+.blog__post-content-five .title a:hover {
+  color: inherit;
+  background-size:
+    0 2px,
+    100% 2px;
+}
+.blog__post-content-five p {
+  margin-bottom: 25px;
+}
+
 body.blog-page .blog__post-thumb-five {
   position: relative;
   overflow: hidden;
@@ -34,15 +100,6 @@ body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay::befor
 
   /* The parent wrapper performs all clipping */
   border-radius: 0;
-  /* background: linear-gradient(
-    90deg,
-    var(--tg-color-white-default) 0%,
-    var(--tg-color-white-default) 26%,
-    rgba(255, 255, 255, 0.92) 38%,
-    rgba(255, 255, 255, 0.62) 50%,
-    rgba(255, 255, 255, 0.24) 60%,
-    rgba(255, 255, 255, 0) 66%
-  ); */
 }
 body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay > img {
   display: block;
@@ -98,14 +155,6 @@ body.blog-page .blog-listing-image-overlay__break {
   }}
 @media (max-width: 767.98px) {
   body.blog-page .blog__post-thumb-five > .blog-listing-image-link--overlay::before {
-    /* background: linear-gradient(
-      90deg,
-      var(--tg-color-white-default) 0%,
-      var(--tg-color-white-default) 36%,
-      rgba(255, 255, 255, 0.88) 52%,
-      rgba(255, 255, 255, 0.42) 72%,
-      rgba(255, 255, 255, 0) 86%
-    ); */
   }
   body.blog-page .blog-listing-image-overlay {
     width: 50%;

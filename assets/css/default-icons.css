@@ -1,5 +1,6 @@
 @font-face {
     font-family: "flaticon_tg_default";
+    font-display: swap;
     src: url("../fonts/beeko-icon/flaticon_tg_default.ttf?e3deef4d25a8a816ffcc2046eac5a266") format("truetype"),
 url("../fonts/beeko-icon/flaticon_tg_default.woff?e3deef4d25a8a816ffcc2046eac5a266") format("woff"),
 url("../fonts/beeko-icon/flaticon_tg_default.woff2?e3deef4d25a8a816ffcc2046eac5a266") format("woff2"),

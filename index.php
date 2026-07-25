@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <?php
     $seoPage = array(
@@ -40,8 +41,6 @@
         return rtrim(substr($text, 0, $limit)) . '...';
     }
     ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <?php include __DIR__ . '/partials/favicon.php'; ?>
     <?php $loadSwiperAssets = true; ?>
 
@@ -53,7 +52,6 @@
     <?php if (!empty($loadMagnificPopupAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/magnific-popup.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php endif; ?>
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/fontawesome-all.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-flaticon.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <?php if (!empty($loadSwiperAssets)) : ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/swiper-bundle.min.css'), ENT_QUOTES, 'UTF-8'); ?>">
@@ -61,7 +59,7 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>" media="(hover: hover) and (pointer: fine)">
     <?php
     $virtuoCssFamily = 'home';
     include __DIR__ . '/partials/main-styles.php';
@@ -70,7 +68,10 @@
 
 <body class="home-page">
 
-    <?php include __DIR__ . '/partials/header.php'; ?>
+    <?php
+    $useInlineFontAwesomeIcons = true;
+    include __DIR__ . '/partials/header.php';
+    ?>
 
 
     <!-- main-area -->
@@ -81,7 +82,7 @@
         <section class="slider__area">
             <div class="swiper-container slider-active">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__bg hero-image-styles" data-background="assets/img/slider/1st.webp" data-background-mobile="assets/img/slider/1st_mobile.webp">
+                    <div class="swiper-slide slider__bg hero-image-styles first-hero-slide">
                         <div class="container site-content-gutter custom-container">
                             <div class="row">
                                 <div class="col-lg-8">
@@ -190,7 +191,6 @@
                             </div>
 
 
-                            <!-- </div> -->
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -568,7 +568,6 @@
             </div>
         </section>
     </div>
-    <!-- </main> -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <?php include __DIR__ . '/partials/scripts.php'; ?>
 

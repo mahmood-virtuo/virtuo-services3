@@ -825,25 +825,6 @@
   });
 
   /*=============================================
-	=        testimonial Active		      =
-=============================================*/
-  // var testimonialSwiper = new Swiper('.testimonial-active-five', {
-  //     // Optional parameters
-  //     spaceBetween: 10,
-  //     loop: true,
-  //     direction: 'vertical',
-  //     autoHeight: true,
-  //     watchSlidesProgress: true,
-  //     watchSlidesVisibility: true,
-  //     mousewheel: true,
-  //     slidesPerView: 'auto',
-  //     navigation: {
-  //         nextEl: ".testimonial-button-next",
-  //         prevEl: ".testimonial-button-prev"
-  //     },
-  // });
-
-  /*=============================================
 	=        Shop Active		      =
 =============================================*/
   var shopSwiper = virtuoInitSwiper(".shop-active", {
@@ -934,7 +915,6 @@ Intersection Observer
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("active-animation");
-            //entry.target.src = entry.target.dataset.src;
             observer.unobserve(entry.target);
           }
         });

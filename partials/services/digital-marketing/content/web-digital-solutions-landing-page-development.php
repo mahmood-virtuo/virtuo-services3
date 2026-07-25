@@ -40,7 +40,6 @@
                                             <p class="info-one">2. Strategy Blueprint - We design the definitive wireframe layout, structure the informational layout flow, and map out backend data integration routes.</p>
 
                                             <p class="info-one">3. Core Processing - Our full-stack team builds clean visual elements, compiles responsive front-end code, and securely hooks up target data collection APIs.</p>
-                                            <!-- <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p> -->
                                             <p class="info-one">4. Verification &amp; Handover - We run rigorous multi-device compatibility audits and data routing validation checks before pushing your optimized campaign page live.</p>
 
                                         </div>

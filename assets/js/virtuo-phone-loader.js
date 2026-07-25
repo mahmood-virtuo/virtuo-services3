@@ -1,0 +1,421 @@
+(function () {
+  "use strict";
+
+  if (window.VirtuoPhoneLoader) {
+    return;
+  }
+
+  var loaderScript = document.currentScript;
+  var selector = ".virtuo-footer-phone-input";
+  var nameSelector = ".virtuo-name-input, #contact-form input[name='name']";
+  var phoneInputs = Array.prototype.slice.call(document.querySelectorAll(selector));
+
+  if (!loaderScript || phoneInputs.length === 0) {
+    return;
+  }
+
+  var stylesheetUrl = loaderScript.dataset.phoneStylesheetUrl;
+  var libraryUrl = loaderScript.dataset.phoneLibraryUrl;
+  var observer = null;
+  var state = "idle";
+  var assetsPromise = null;
+  var api = {};
+
+  if (!stylesheetUrl || !libraryUrl) {
+    return;
+  }
+
+  function setState(nextState) {
+    state = nextState;
+    api.state = state;
+  }
+
+  function cleanName(value) {
+    return value
+      .replace(/[^A-Za-z ]/g, "")
+      .replace(/\s{2,}/g, " ")
+      .replace(/^\s+/, "");
+  }
+
+  function cleanPhone(value) {
+    return value.replace(/\D/g, "").slice(0, 15);
+  }
+
+  function getFormField(input, selector) {
+    var form = input.closest("form");
+    return form ? form.querySelector(selector) : null;
+  }
+
+  function getFallbackFullPhone(input) {
+    var value = input.value.trim();
+
+    if (!value) {
+      return "";
+    }
+
+    if (value.charAt(0) === "+") {
+      return value.replace(/\s+/g, " ");
+    }
+
+    var digits = cleanPhone(value).replace(/^0+/, "");
+    return digits ? "+971 " + digits : value;
+  }
+
+  function syncFallbackPhone(input) {
+    var phoneInput = getFormField(input, 'input[type="hidden"][name="phone"]');
+
+    if (phoneInput) {
+      phoneInput.value = getFallbackFullPhone(input);
+    }
+  }
+
+  function initNameInputs() {
+    document.querySelectorAll(nameSelector).forEach(function (input) {
+      if (input.dataset.virtuoNameReady === "true") {
+        return;
+      }
+
+      input.dataset.virtuoNameReady = "true";
+      input.addEventListener("input", function () {
+        var cleanedValue = cleanName(input.value);
+
+        if (input.value !== cleanedValue) {
+          input.value = cleanedValue;
+        }
+
+        input.setCustomValidity("");
+      });
+
+      var form = input.closest("form");
+
+      if (form) {
+        form.addEventListener(
+          "submit",
+          function (event) {
+            input.value = cleanName(input.value).trim();
+
+            if (!/^[A-Za-z][A-Za-z ]{1,79}$/.test(input.value)) {
+              input.setCustomValidity("Please enter a valid name using letters only.");
+              input.reportValidity();
+              event.preventDefault();
+              event.stopImmediatePropagation();
+              return;
+            }
+
+            input.setCustomValidity("");
+          },
+          true,
+        );
+      }
+    });
+  }
+
+  function initFallbackPhoneInputs() {
+    phoneInputs.forEach(function (input) {
+      if (input.dataset.virtuoPhoneFallbackReady === "true") {
+        return;
+      }
+
+      input.dataset.virtuoPhoneFallbackReady = "true";
+      input.addEventListener("input", function () {
+        var cleanedValue = cleanPhone(input.value);
+
+        if (input.value !== cleanedValue) {
+          input.value = cleanedValue;
+        }
+
+        syncFallbackPhone(input);
+        input.setCustomValidity("");
+      });
+
+      var form = input.closest("form");
+
+      if (form) {
+        form.addEventListener(
+          "submit",
+          function (event) {
+            input.value = cleanPhone(input.value);
+
+            if (!/^[0-9]{5,15}$/.test(input.value)) {
+              input.setCustomValidity("Please enter numbers only.");
+              input.reportValidity();
+              event.preventDefault();
+              event.stopImmediatePropagation();
+              return;
+            }
+
+            syncFallbackPhone(input);
+            input.setCustomValidity("");
+          },
+          true,
+        );
+      }
+    });
+  }
+
+  function waitForResource(element) {
+    return new Promise(function (resolve, reject) {
+      if (
+        element.dataset.virtuoPhoneLoaded === "true" ||
+        (element.tagName === "LINK" && element.sheet) ||
+        (element.tagName === "SCRIPT" && typeof window.intlTelInput === "function")
+      ) {
+        resolve(element);
+        return;
+      }
+
+      element.addEventListener(
+        "load",
+        function () {
+          element.dataset.virtuoPhoneLoaded = "true";
+          resolve(element);
+        },
+        { once: true },
+      );
+      element.addEventListener(
+        "error",
+        function () {
+          reject(new Error("Unable to load deferred phone resource."));
+        },
+        { once: true },
+      );
+    });
+  }
+
+  function loadStylesheet() {
+    var existing = document.querySelector('link[data-virtuo-phone-resource="stylesheet"]');
+
+    if (existing) {
+      return waitForResource(existing);
+    }
+
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = stylesheetUrl;
+    link.dataset.virtuoPhoneResource = "stylesheet";
+    document.head.appendChild(link);
+
+    return waitForResource(link);
+  }
+
+  function loadLibrary() {
+    if (typeof window.intlTelInput === "function") {
+      return Promise.resolve();
+    }
+
+    var existing = document.querySelector('script[data-virtuo-phone-resource="library"]');
+
+    if (existing) {
+      return waitForResource(existing);
+    }
+
+    var script = document.createElement("script");
+    script.src = libraryUrl;
+    script.async = false;
+    script.dataset.virtuoPhoneResource = "library";
+    document.head.appendChild(script);
+
+    return waitForResource(script);
+  }
+
+  function getFullPhone(input, iti) {
+    var rawValue = input.value.trim();
+    var country = iti.getSelectedCountryData ? iti.getSelectedCountryData() : {};
+
+    if (!rawValue) {
+      return "";
+    }
+
+    if (rawValue.charAt(0) === "+") {
+      return rawValue.replace(/\s+/g, " ");
+    }
+
+    var digits = cleanPhone(rawValue).replace(/^0+/, "");
+
+    if (country && country.dialCode && digits) {
+      return "+" + country.dialCode + " " + digits;
+    }
+
+    return rawValue;
+  }
+
+  function syncCountry(input, iti) {
+    var countryInput = getFormField(input, 'input[name="phone_country"]');
+    var country = iti.getSelectedCountryData ? iti.getSelectedCountryData() : {};
+
+    if (countryInput && country && country.iso2) {
+      countryInput.value = country.iso2.toUpperCase();
+    }
+  }
+
+  function syncFullPhone(input, iti) {
+    var phoneInput = getFormField(input, 'input[type="hidden"][name="phone"]');
+
+    if (phoneInput) {
+      phoneInput.value = getFullPhone(input, iti);
+    }
+  }
+
+  function initPhoneInputs() {
+    if (typeof window.intlTelInput !== "function") {
+      throw new Error("intl-tel-input did not become available.");
+    }
+
+    phoneInputs.forEach(function (input) {
+      if (input.dataset.itiReady === "true") {
+        return;
+      }
+
+      var iti = window.intlTelInput(input, {
+        initialCountry: "ae",
+        separateDialCode: true,
+        nationalMode: true,
+        autoPlaceholder: "aggressive",
+        preferredCountries: ["ae", "sa", "qa", "om", "kw", "bh", "in", "pk", "gb", "us"],
+      });
+
+      input.dataset.itiReady = "true";
+      input.addEventListener("input", function () {
+        var cleanedValue = cleanPhone(input.value);
+
+        if (input.value !== cleanedValue) {
+          input.value = cleanedValue;
+        }
+
+        syncFullPhone(input, iti);
+        input.setCustomValidity("");
+      });
+      input.addEventListener("countrychange", function () {
+        syncCountry(input, iti);
+        syncFullPhone(input, iti);
+      });
+
+      var form = input.closest("form");
+
+      if (form) {
+        form.addEventListener(
+          "submit",
+          function (event) {
+            input.value = cleanPhone(input.value);
+
+            if (!/^[0-9]{5,15}$/.test(input.value)) {
+              input.setCustomValidity("Please enter numbers only.");
+              input.reportValidity();
+              event.preventDefault();
+              event.stopImmediatePropagation();
+              return;
+            }
+
+            syncFullPhone(input, iti);
+            syncCountry(input, iti);
+            input.setCustomValidity("");
+          },
+          true,
+        );
+      }
+
+      syncCountry(input, iti);
+      syncFullPhone(input, iti);
+    });
+  }
+
+  function stopDemandObservers() {
+    ["focusin", "pointerdown", "touchstart", "keydown"].forEach(function (eventName) {
+      document.removeEventListener(eventName, triggerLoad, true);
+    });
+    document.removeEventListener("virtuo:phone-init", triggerLoad);
+
+    if (observer) {
+      observer.disconnect();
+      observer = null;
+    }
+  }
+
+  function loadPhoneAssets() {
+    if (assetsPromise) {
+      return assetsPromise;
+    }
+
+    setState("loading-css");
+    assetsPromise = loadStylesheet()
+      .then(function () {
+        setState("loading-js");
+        return loadLibrary();
+      })
+      .then(function () {
+        initPhoneInputs();
+        setState("ready");
+        stopDemandObservers();
+        return phoneInputs;
+      })
+      .catch(function (error) {
+        setState("failed");
+        phoneInputs.forEach(function (input) {
+          input.dataset.virtuoPhoneAssetsFailed = "true";
+        });
+        throw error;
+      });
+
+    return assetsPromise;
+  }
+
+  function getPhoneTarget(target) {
+    if (!target || !target.closest) {
+      return null;
+    }
+
+    var phoneInput = target.closest(selector);
+    var phoneWrapper = target.closest(".iti");
+
+    return phoneInput || (phoneWrapper ? phoneWrapper.querySelector(selector) : null);
+  }
+
+  function triggerLoad(event) {
+    if (event && event.type !== "virtuo:phone-init" && !getPhoneTarget(event.target)) {
+      return;
+    }
+
+    loadPhoneAssets().catch(function () {
+      // The fallback listener keeps the ordinary telephone input usable.
+    });
+  }
+
+  api.state = state;
+  api.load = loadPhoneAssets;
+  api.initialize = loadPhoneAssets;
+  window.VirtuoPhoneLoader = api;
+
+  initNameInputs();
+  initFallbackPhoneInputs();
+
+  ["focusin", "pointerdown", "touchstart", "keydown"].forEach(function (eventName) {
+    document.addEventListener(eventName, triggerLoad, true);
+  });
+  document.addEventListener("virtuo:phone-init", triggerLoad);
+
+  if (typeof window.IntersectionObserver === "function") {
+    observer = new IntersectionObserver(
+      function (entries) {
+        if (entries.some(function (entry) { return entry.isIntersecting; })) {
+          triggerLoad();
+        }
+      },
+      {
+        rootMargin: "800px 0px",
+        threshold: 0,
+      },
+    );
+
+    phoneInputs.forEach(function (input) {
+      observer.observe(input.closest("form") || input);
+    });
+  } else {
+    window.addEventListener(
+      "load",
+      function () {
+        triggerLoad();
+      },
+      { once: true },
+    );
+  }
+})();

@@ -495,7 +495,6 @@
 
         mainLink.classList.add("is-active");
 
-        // const panel = showOnlyPanel(panelId);
         //NewlyAddedCodeStartsHere
         const panel = showOnlyPanel(panelId);
         restoreMainPanelContent(panelId);
@@ -505,7 +504,6 @@
         });
 
         if (history.replaceState) {
-          // history.replaceState(null, "", "#" + panelId);
         }
 
         if (shouldScroll && panel) {
@@ -524,7 +522,6 @@
 
       mainLink.classList.add("is-active");
 
-      //   const panel = showOnlyPanel(panelId);
       //NewlyAddedCodeStartsHere
       const panel = showOnlyPanel(panelId);
       restoreMainPanelContent(panelId);
@@ -534,7 +531,6 @@
       });
 
       if (history.replaceState) {
-        // history.replaceState(null, "", "#" + panelId);
       }
 
       if (shouldScroll && panel) {
@@ -569,10 +565,6 @@
 
       const panel = showOnlyPanel(parentPanelId);
 
-      //   fadePanel(panel, function () {
-      //     updatePanelContent(panel, mainTitle, subTitle);
-      //     updateServiceBreadcrumb(mainTitle, subTitle);
-      //   });
       //ReplaceOneStartshere
       fadePanel(panel, function () {
         const subHash = subLink.getAttribute("href") || "";

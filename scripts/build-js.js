@@ -43,8 +43,8 @@ const files = [
     output: "assets/js/virtuo-blog-interactives.min.js",
   },
   {
-    source: "assets/js/virtuo-footer-phone.js",
-    output: "assets/js/virtuo-footer-phone.min.js",
+    source: "assets/js/virtuo-phone-loader.js",
+    output: "assets/js/virtuo-phone-loader.min.js",
   },
   {
     source: "assets/js/virtuo-mega-menu.js",

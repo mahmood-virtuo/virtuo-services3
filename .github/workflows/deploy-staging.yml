@@ -50,7 +50,7 @@ jobs:
             DEPLOY_COMMIT="$(git rev-parse --short HEAD)"
             echo "Deploying testing commit: $DEPLOY_COMMIT"
 
-            rsync -av --delete \
+              rsync -av --delete \
               --exclude='.git' \
               --exclude='.github' \
               --exclude='.gitignore' \
@@ -59,6 +59,9 @@ jobs:
               --exclude='.gemini' \
               --exclude='.well-known/' \
               --exclude='AGENTS.md' \
+              --exclude='lighthouserc.cjs' \
+              --exclude='.lighthouseci/' \
+              --exclude='lighthouse-results/' \
               "$SOURCE/" "$TARGET/"
 
             printf 'User-agent: *\nDisallow: /\n' > "$TARGET/robots.txt"
@@ -78,3 +81,121 @@ jobs:
             echo "Staging Basic Authentication health check passed with HTTP 401."
 
             echo "Staging deployment completed successfully."
+  lighthouse-staging:
+    name: Lighthouse CI - Staging
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout deployed commit
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify authenticated staging response
+        shell: bash
+        env:
+          STAGING_BASIC_AUTH_USERNAME: ${{ secrets.STAGING_BASIC_AUTH_USERNAME }}
+          STAGING_BASIC_AUTH_PASSWORD: ${{ secrets.STAGING_BASIC_AUTH_PASSWORD }}
+        run: |
+          set -Eeuo pipefail
+
+          if [ -z "$STAGING_BASIC_AUTH_USERNAME" ]; then
+            echo "ERROR: STAGING_BASIC_AUTH_USERNAME is missing."
+            exit 1
+          fi
+
+          if [ -z "$STAGING_BASIC_AUTH_PASSWORD" ]; then
+            echo "ERROR: STAGING_BASIC_AUTH_PASSWORD is missing."
+            exit 1
+          fi
+
+          HTTP_STATUS="$(
+            curl \
+              -sS \
+              -o /dev/null \
+              -w '%{http_code}' \
+              --max-time 30 \
+              --user "${STAGING_BASIC_AUTH_USERNAME}:${STAGING_BASIC_AUTH_PASSWORD}" \
+              https://staging.virtuo.ae/
+          )"
+
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "ERROR: Authenticated staging request returned HTTP $HTTP_STATUS instead of HTTP 200."
+            exit 1
+          fi
+
+          echo "Authenticated staging health check passed with HTTP 200."
+
+      - name: Run Lighthouse CI
+        env:
+          STAGING_BASIC_AUTH_USERNAME: ${{ secrets.STAGING_BASIC_AUTH_USERNAME }}
+          STAGING_BASIC_AUTH_PASSWORD: ${{ secrets.STAGING_BASIC_AUTH_PASSWORD }}
+        run: |
+          npx --yes @lhci/cli@0.15.1 autorun \
+            --config=./lighthouserc.cjs
+
+      - name: Redact Basic Auth from Lighthouse reports
+        if: always()
+        env:
+          STAGING_BASIC_AUTH_USERNAME: ${{ secrets.STAGING_BASIC_AUTH_USERNAME }}
+          STAGING_BASIC_AUTH_PASSWORD: ${{ secrets.STAGING_BASIC_AUTH_PASSWORD }}
+        run: |
+          python3 - <<'PY'
+          import base64
+          import os
+          from pathlib import Path
+
+          report_directory = Path("lighthouse-results")
+
+          if not report_directory.exists():
+              raise SystemExit(0)
+
+          username = os.environ.get("STAGING_BASIC_AUTH_USERNAME", "")
+          password = os.environ.get("STAGING_BASIC_AUTH_PASSWORD", "")
+
+          encoded_credentials = base64.b64encode(
+              f"{username}:{password}".encode("utf-8")
+          ).decode("ascii")
+
+          authorization_header = f"Basic {encoded_credentials}"
+
+          for report_file in report_directory.rglob("*"):
+              if not report_file.is_file():
+                  continue
+
+              try:
+                  report_content = report_file.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  continue
+
+              sanitized_content = report_content.replace(
+                  authorization_header,
+                  "Basic [REDACTED]"
+              ).replace(
+                  encoded_credentials,
+                  "[REDACTED]"
+              )
+
+              if sanitized_content != report_content:
+                  report_file.write_text(
+                      sanitized_content,
+                      encoding="utf-8"
+                  )
+          PY
+
+      - name: Upload Lighthouse reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: staging-lighthouse-reports-${{ github.run_number }}-${{ github.run_attempt }}
+          path: lighthouse-results/
+          retention-days: 7
+          if-no-files-found: warn

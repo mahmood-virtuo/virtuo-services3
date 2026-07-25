@@ -40,7 +40,6 @@
                                             <p class="info-one">2. Strategy Blueprint - We construct your complete database mapping, defining catalog classification rules, third-party logistics integrations, and checkout parameters.</p>
 
                                             <p class="info-one">3. Core Processing - Our full-stack engineering team builds out your functional store layout, compiling secure code and connecting merchant payment APIs behind the scenes.</p>
-                                            <!-- <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p> -->
                                             <p class="info-one">4. Verification &amp; Handover - We run comprehensive payment collection testing and backend server load-capacity audits before delivering a fully activated, launch-ready retail asset.</p>
 
                                         </div>

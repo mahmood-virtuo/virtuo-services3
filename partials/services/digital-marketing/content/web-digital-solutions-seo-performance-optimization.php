@@ -40,7 +40,6 @@
                                             <p class="info-one">2. Strategy Blueprint - We design a comprehensive technical optimization roadmap, defining the exact code refactoring, structural schema maps, and content balance grids required.</p>
 
                                             <p class="info-one">3. Core Processing - Our technical performance team directly refactors site layouts, scripts clear server-side rules, links advanced metadata loops, and fixes deep system performance blocks.</p>
-                                            <!-- <p class="info-two">We prepare copy, visuals, page content, posts, campaigns, or brand assets suited to the channel.</p> -->
                                             <p class="info-one">4. Verification &amp; Handover - We execute post-optimization crawler testing and real-world page speed audits before delivering your fully accelerated, search-optimized platform.</p>
 
                                         </div>

@@ -49,7 +49,7 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/default-icons.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>" media="(hover: hover) and (pointer: fine)">
     <?php
     $virtuoCssFamily = 'blog-details';
     include __DIR__ . '/partials/main-styles.php';
@@ -117,8 +117,6 @@
                                         <li><img src="/assets/img/icons/calendar.svg" alt="" class="injectable">Jul 2, 2026</li>
                                     </ul>
                                 </div>
-                                <!-- <h1 class="title">UAE Taxes Explained 2026: Every Tax, Who Pays It &amp; What You Don't Owe</h1> -->
-                                <!-- <p>The UAE is not tax-free. It never was. But it is one of the most tax-efficient jurisdictions in the world — if you know which taxes apply to you and which ones simply don't exist.</p> -->
 
 
 <!-- THE MYTH -->
