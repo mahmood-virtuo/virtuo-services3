@@ -21,9 +21,7 @@ preloader disabled end -->
 
 <!-- header-area -->
 <header class="transparent-header">
-    <?php if (empty($loadGoogleAnalyticsAfterHero)) : ?>
     <?php include __DIR__ . '/google-analytics.php'; ?>
-    <?php endif; ?>
     <div class="tg-header__top">
         <div class="container site-content-gutter custom-container virtuo-px-100">
             <div class="row align-items-center">
