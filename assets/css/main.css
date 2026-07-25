@@ -16189,44 +16189,6 @@ html {
   vertical-align: middle;
 }
 
-@media (min-width: 992px) and (hover: hover) and (pointer: fine) {
-  body.home-page .slider__area + .marquee__area-three .marquee__item-two > a {
-    position: relative;
-  }
-
-  body.home-page .slider__area + .marquee__area-three .marquee__item-two > a::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #09194e 0%, #175ab1 100%);
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(50%);
-    transition:
-      transform 400ms cubic-bezier(0.37, 0.08, 0.42, 0.98),
-      opacity 400ms cubic-bezier(0.37, 0.08, 0.42, 0.98);
-  }
-
-  body.home-page .slider__area + .marquee__area-three .marquee__item-two > a > svg {
-    position: relative;
-    z-index: 1;
-    transition: color 400ms cubic-bezier(0.37, 0.08, 0.42, 0.98);
-  }
-
-  body.home-page .slider__area + .marquee__area-three .marquee__item-two > a:has(> svg:hover)::before {
-    opacity: 1;
-    transform: translateY(-50%);
-  }
-
-  body.home-page .slider__area + .marquee__area-three .marquee__item-two > a:has(> svg:hover) > svg {
-    color: var(--tg-color-white-default);
-  }
-}
-
 /* Phase 3: Home-exclusive rules extracted from core.css. */
 .section__title.white-title .sub-title {
   color: var(--tg-color-white-default);
