@@ -235,10 +235,10 @@ preloader disabled end -->
                 <li><a href="https://www.linkedin.com/company/virtuouae/" target="_blank" rel="noopener" aria-label="LinkedIn">
                                     <img src="/assets/img/icons/linkedin-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a></li>
-                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
                                     <img src="/assets/img/icons/Instagram-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a></li>
-                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
                                     <img src="/assets/img/icons/facebook-icon.svg" class="my-social-links" alt="" aria-hidden="true">
                                 </a></li>
             </ul>
