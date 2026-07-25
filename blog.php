@@ -50,7 +50,6 @@
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('assets/css/aos.css'), ENT_QUOTES, 'UTF-8'); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars(virtuo_asset_url('/assets/css/tg-cursor.css'), ENT_QUOTES, 'UTF-8'); ?>" media="(hover: hover) and (pointer: fine)">
     <?php
-    $deferBlogFooterPhoneAssets = true;
     $virtuoCssFamily = 'blog-listing';
     include __DIR__ . '/partials/main-styles.php';
     ?>
