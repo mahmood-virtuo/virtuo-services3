@@ -1086,7 +1086,7 @@ textarea {
   font-size: 17px;
 }
 .offCanvas__side-info .contact-list a {
-  font-weight: 500;
+  font-weight: 400;
 }
 .offCanvas__side-info .contact-list a:hover {
   color: var(--tg-theme-primary);
@@ -1198,7 +1198,6 @@ textarea {
   z-index: -1;
 }
 @media (max-width: 991.98px) {
-
   body.about-page .breadcrumb__area + .marquee__area,
   body.about-page .breadcrumb__area + .marquee__area-three,
   body.blog-page .breadcrumb__area + .marquee__area,
@@ -10963,7 +10962,6 @@ blockquote cite {
   user-select: none;
 }
 
-
 /*=============================
 	18. Marquee
 ===============================*/
@@ -11010,6 +11008,12 @@ blockquote cite {
 }
 .marquee-wrap-four {
   transform: rotate(0);
+}
+.marquee-wrap-two.marquee-wrap-four {
+  left: 0;
+  right: auto;
+  width: 100%;
+  max-width: 100%;
 }
 .marquee__area .slider__marquee,
 .marquee__area-three .slider__marquee {
@@ -11630,7 +11634,6 @@ blockquote cite {
   line-height: 1;
 }
 
-
 /*=============================
 	21. Work
 ===============================*/
@@ -12040,11 +12043,6 @@ blockquote cite {
   border: none;
   box-shadow: -807px 0 0 800px #6699ff;
 }
-
-
-
-
-
 
 /*=============================
 	23. Contact
@@ -13547,7 +13545,6 @@ select {
     flex-direction: column !important;
     padding: 25px !important;
   }
-
 }
 
 /* --Last one---------- */
@@ -13617,7 +13614,6 @@ select {
     grid-template-columns: 1fr !important;
     row-gap: 30px !important;
   }
-
 }
 
 .virtuo-services-mega {
@@ -13703,7 +13699,6 @@ select {
     grid-template-columns: 1fr !important;
     row-gap: 28px !important;
   }
-
 
   .virtuo-services-mega__panel.is-active {
     grid-template-columns: 1fr !important;
@@ -13845,7 +13840,6 @@ select {
   padding: 0 !important;
 }
 
-
 .tgmenu__navbar-wrap
   ul.navigation
   > li.virtuo-mega-menu-trigger
@@ -13858,7 +13852,6 @@ select {
   margin: 0 !important;
   padding: 0 !important;
 }
-
 
 /* Responsive */
 @media (max-width: 991px) {
@@ -14683,7 +14676,6 @@ select {
 /* ------------------------- */
 /* ===== Final Nested Tabs Visual + Toggle Fix ===== */
 
-
 /* Main Tabs */
 
 /* Sub Tabs Wrapper */
@@ -14714,7 +14706,6 @@ select {
 /* Smooth tab button feeling */
 
 /* Smooth content fade */
-
 
 .tgmenu__action .header-whatsapp-btn,
 .header-whatsapp-btn {
@@ -14933,7 +14924,6 @@ select {
 
 /* Smooth panel change */
 
-
 /* Breadcrumb hierarchy */
 #serviceBreadcrumbMain,
 #serviceBreadcrumbSub {
@@ -14946,7 +14936,6 @@ select {
 
 /* Mobile consistency */
 /* ===== Service Breadcrumb Dynamic Levels ===== */
-
 
 @keyframes digitalPanelFadeIn {
   from {
@@ -14965,7 +14954,6 @@ select {
 
 /* Add only vertical gap between work rows */
 /* -----------New Contact Page Code Starts Here---------------- */
-
 
 /* -----------New Contact Page Code Starts Here---------------- */
 /* ----------- Contact Page Code Starts Here ----------- */
@@ -15336,7 +15324,6 @@ select {
 }
 
 @media (max-width: 680px) {
-
   .blog-details-area .rc-post-item {
     align-items: flex-start;
     gap: 16px;
@@ -15369,7 +15356,6 @@ body.blog-details-page .blog-details-sidebar-stack {
 }
 
 @media (min-width: 992px) and (max-width: 1650px) {
-
   body.blog-page .blog-sidebar-stack .sidebar__widget,
   body.blog-details-page .blog-details-sidebar-stack .sidebar__widget {
     margin-bottom: 0;
@@ -16066,7 +16052,6 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-
   .footer__area-five .footer__bottom-two .row {
     align-items: flex-start;
   }
@@ -16090,7 +16075,6 @@ html {
 }
 /* Virtuo eye section: preserve desktop sizing, align tablet stacks to the content gutter */
 @media (min-width: 1200px) {
-
   body.home-page .virtuo-eye-section .virtuo-eye-visual,
   body.contact-page .virtuo-eye-section .virtuo-eye-visual {
     max-width: 680px;
@@ -16100,7 +16084,6 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-
   .virtuo-eye-section .virtuo-eye-media-col,
   .virtuo-eye-section .virtuo-eye-content-col {
     width: 100%;
