@@ -2,6 +2,31 @@
 // listingImage is only for large /blog listing cards; image remains for Recent Posts, sidebars, metadata, and existing image uses.
 return array(
     array(
+        'title' => "Your UAE Website Isn't a Brochure — It's a Credibility Asset",
+        'detail_title' => "Your UAE Website Isn't a Brochure — It's a Credibility Asset",
+        'slug' => 'your-uae-website-isnt-a-brochure-its-a-credibility-asset',
+        'url' => '/blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset',
+        'date' => 'Jul 8, 2026',
+        'date_sort' => '2026-07-08 09:00:00',
+        'category' => 'marketing-analysis',
+        'meta' => 'Web & Digital Solutions · Business Credibility',
+        'excerpt' => 'In 2026, UAE banks, compliance offices, clients and tender boards check your digital footprint before they trust you. Why a professional website is now part of your business substance — and what a credibility-ready site needs.',
+        'image' => '/assets/img/blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset.webp',
+        'listingImage' => '/assets/img/blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset.webp',
+        'listingOverlaySegments' => array(
+            array('text' => "Your UAE Website Isn't a Brochure.", 'tone' => 'accent'),
+            array('text' => "It's a Credibility Asset.", 'tone' => 'default'),
+        ),
+        'thumbnail' => '/assets/img/blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset-hero.webp',
+        'alt' => 'Virtuo website design shown on a laptop illustrating UAE business website credibility',
+        'thumbnail_alt' => 'Virtuo UAE business website displayed on a laptop representing a professional digital presence',
+        'hero_alt' => 'Virtuo UAE business website displayed on a laptop representing a professional digital presence',
+        'author' => 'Jonaid Ali Mohammad',
+        'author_image' => '/assets/img/team/jonaid_new.webp',
+        'tags' => array('banking-readiness', 'compliance', 'business-setup', 'uae-strategy'),
+        'file' => 'blog-details12.php',
+    ),
+    array(
         'title' => 'UAE ≠ Dubai: A Founder\'s Map of the 7 Emirates (2026)',
         'detail_title' => 'UAE ≠ Dubai: A Founder\'s Map of the 7 Emirates (2026)',
         'slug' => 'uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026',

@@ -7,9 +7,10 @@ $recentPosts = array_slice(virtuo_get_blog_posts(), 0, 5);
     <h4 class="sidebar__widget-title">Recent Posts</h4>
     <div class="rc-post-wrap">
         <?php foreach ($recentPosts as $recentPost) : ?>
+            <?php $recentPostAlt = $recentPost['thumbnail_alt'] ?? $recentPost['alt']; ?>
             <div class="rc-post-item">
                 <div class="thumb">
-                    <a href="<?php echo htmlspecialchars($recentPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($recentPost['thumbnail'] ?? $recentPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($recentPost['alt'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="300" height="300"></a>
+                    <a href="<?php echo htmlspecialchars($recentPost['url'], ENT_QUOTES, 'UTF-8'); ?>"><img src="<?php echo htmlspecialchars($recentPost['thumbnail'] ?? $recentPost['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($recentPostAlt, ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" decoding="async" width="300" height="300"></a>
                 </div>
                 <div class="content">
                     <span class="date">

@@ -12,6 +12,7 @@ $blogPostSlugs = array(
     "starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe",
     "how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide",
     "uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026",
+    "your-uae-website-isnt-a-brochure-its-a-credibility-asset",
 );
 
 $blogPostRoutes = array(
@@ -26,9 +27,11 @@ $blogPostRoutes = array(
     "/blog/starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe" => "blog-details9.php",
     "/blog/how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide" => "blog-details10.php",
     "/blog/uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026" => "blog-details11.php",
+    "/blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset" => "blog-details12.php",
 );
 
 $oldBlogPostRoutes = array(
+    "/blog/uae-business-website-credibility-asset" => "/blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset",
     "/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders" => "/blog/mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong",
     "/blog/why-us-wireless-itad-operators-are-looking-at-the-uae" => "/blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae",
     "/blog/uae-business-setup-geopolitics-2026" => "/blog/beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026",

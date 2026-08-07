@@ -17,6 +17,8 @@ $blogPosts = virtuo_blog_filter_posts_by_category($categorySlug);
 $pagedBlogPosts = $blogPosts;
 $blogListingTitle = $categoryLabel;
 $blogListingDescription = $categoryDescription;
+$useBlogListingImage = true;
+$useBlogListingOverlay = true;
 ?>
 <!doctype html>
 <html class="no-js" lang="en">

@@ -8,7 +8,7 @@ RewriteRule ^sitemap\.xml$ sitemap.php [L,QSA]
 RewriteRule ^blog/$ /blog [R=301,L]
 RewriteRule ^blog/(tag|category)/?$ /blog [R=301,L]
 RewriteRule ^blog/(tag|category)/([^/]+)/$ /blog/$1/$2 [R=301,L]
-RewriteRule ^blog/(mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong|why-us-wireless-and-itad-operators-are-looking-at-the-uae|beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026|the-uae-golden-visa-comparing-every-real-way-to-qualify|freelance-visa-or-green-residence-the-independent-professionals-setup-decision|why-americans-are-relocating-to-the-uae-in-2026|uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe|ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it|starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe|how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide|uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026)/$ /blog/$1 [R=301,L]
+RewriteRule ^blog/(mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong|why-us-wireless-and-itad-operators-are-looking-at-the-uae|beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026|the-uae-golden-visa-comparing-every-real-way-to-qualify|freelance-visa-or-green-residence-the-independent-professionals-setup-decision|why-americans-are-relocating-to-the-uae-in-2026|uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe|ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it|starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe|how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide|uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026|your-uae-website-isnt-a-brochure-its-a-credibility-asset)/$ /blog/$1 [R=301,L]
 
 RewriteRule ^blog/mainland-free-zone-or-offshore-uae-structuring-us-founders/?$ /blog/mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong [R=301,L]
 RewriteRule ^blog/why-us-wireless-itad-operators-are-looking-at-the-uae/?$ /blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae [R=301,L]
@@ -18,6 +18,7 @@ RewriteRule ^blog/freelance-visa-uae-guide/?$ /blog/freelance-visa-or-green-resi
 RewriteRule ^blog/why-americans-relocating-uae-2026/?$ /blog/why-americans-are-relocating-to-the-uae-in-2026 [R=301,L]
 RewriteRule ^blog/uae-taxes-explained-2026/?$ /blog/uae-taxes-explained-2026-every-tax-who-pays-it-and-what-you-dont-owe [R=301,L]
 RewriteRule ^blog/ajman-free-zone-2026/?$ /blog/ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-behind-it [R=301,L]
+RewriteRule ^blog/uae-business-website-credibility-asset/?$ /blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset [R=301,L]
 
 RewriteRule ^uae-business-formation/?$ /uae-business-formation-structuring-and-compliance [R=301,L]
 RewriteRule ^government-relations-pro-services/?$ /government-relations-and-pro-services [R=301,L]
@@ -62,6 +63,9 @@ RewriteRule ^blog-details10(?:\.php)?/?$ /blog/how-to-set-up-an-ai-company-in-a-
 RewriteCond %{THE_REQUEST} \s/+blog-details11(?:\.php)?[\s?] [NC]
 RewriteRule ^blog-details11(?:\.php)?/?$ /blog/uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026 [R=301,L]
 
+RewriteCond %{THE_REQUEST} \s/+blog-details12(?:\.php)?[\s?] [NC]
+RewriteRule ^blog-details12(?:\.php)?/?$ /blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset [R=301,L]
+
 RewriteCond %{DOCUMENT_ROOT}/$1.php -f
 RewriteRule ^(.+)/$ /$1 [R=301,L]
 
@@ -80,6 +84,7 @@ RewriteRule ^blog/ajman-free-zone-2026-cost-0-tax-and-the-10-billion-economy-beh
 RewriteRule ^blog/starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe/?$ blog-details9.php [L,QSA]
 RewriteRule ^blog/how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide/?$ blog-details10.php [L,QSA]
 RewriteRule ^blog/uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026/?$ blog-details11.php [L,QSA]
+RewriteRule ^blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset/?$ blog-details12.php [L,QSA]
 RewriteRule ^blog/category/([^/]+)/?$ blog-category.php?category=$1 [L,QSA]
 RewriteRule ^blog/tag/([^/]+)/?$ blog-tag.php?tag=$1 [L,QSA]
 

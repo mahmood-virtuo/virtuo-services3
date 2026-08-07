@@ -6137,7 +6137,8 @@ body.blog-details-page .blog-ai-company .ai-setup-list li b {
 
 body.blog-details-page .blog-real-estate-brokerage .vt-eyebrow + .title-two,
 body.blog-details-page .blog-ai-company .vt-eyebrow + .title-two,
-body.blog-details-page .blog-uae-emirates .vt-eyebrow + .title-two {
+body.blog-details-page .blog-uae-emirates .vt-eyebrow + .title-two,
+body.blog-details-page .blog-website-credibility .vt-eyebrow + .title-two {
   margin-top: 8px !important;
 }
 
@@ -6267,6 +6268,125 @@ body.blog-details-page .vt-article .blog-stats-followup {
 
 body.blog-details-page .vt-article .blog-cta-spaced {
   margin-top: 20px;
+}
+
+/* Website credibility article */
+body.blog-details12-page .blog-website-credibility .credibility-tldr {
+  margin: 30px 0;
+  padding: clamp(22px, 4vw, 32px);
+  border: 1px solid rgba(4, 4, 38, 0.14);
+  border-radius: 16px;
+  background: rgba(238, 76, 1, 0.05);
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-tldr .vt-eyebrow {
+  margin-top: 0;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-tldr .title-two {
+  margin: 0 0 16px;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-tldr ul,
+body.blog-details12-page .blog-website-credibility .credibility-checklist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-tldr li {
+  position: relative;
+  padding-left: 26px;
+  color: var(--tg-body-color);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-tldr li + li {
+  margin-top: 12px;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-tldr li::before,
+body.blog-details12-page .blog-website-credibility .credibility-checklist li::before {
+  position: absolute;
+  left: 0;
+  color: var(--tg-theme-primary);
+  font-weight: 700;
+  content: "✓";
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-stats {
+  margin-top: 0;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-card-grid {
+  margin-top: 26px;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 14px;
+  border-radius: 11px;
+  background: rgba(238, 76, 1, 0.1);
+  color: var(--tg-theme-primary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-card h3 {
+  margin: 0 0 8px;
+  color: var(--tg-heading-color);
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-card p {
+  margin: 0;
+  color: var(--tg-body-color);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-checklist ul {
+  margin-top: 22px;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-checklist li {
+  position: relative;
+  padding-left: 30px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-checklist li + li {
+  margin-top: 14px;
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-checklist li::before {
+  color: var(--tg-theme-primary);
+}
+
+body.blog-details12-page .blog-website-credibility .credibility-disclaimer {
+  margin-top: 32px;
+  padding: 18px 20px;
+  border-left: 3px solid var(--tg-theme-primary);
+  border-radius: 0 10px 10px 0;
+  background: rgba(4, 4, 38, 0.04);
+  color: var(--tg-body-color);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+@media (max-width: 767.98px) {
+  body.blog-details12-page .blog-website-credibility .credibility-tldr,
+  body.blog-details12-page .blog-website-credibility .credibility-disclaimer {
+    padding: 20px;
+  }
 }
 
 body.blog-details2-page .blog-details2-content .gap-fill-current--coverage {
