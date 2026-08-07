@@ -13,9 +13,11 @@ $blogPostSlugs = array(
     'starting-a-real-estate-brokerage-in-the-uae-why-the-numbers-beat-the-us-and-europe',
     'how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide',
     'uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026',
+    'your-uae-website-isnt-a-brochure-its-a-credibility-asset',
 );
 
 $oldBlogPostRoutes = array(
+    '/blog/uae-business-website-credibility-asset' => '/blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset',
     '/blog/mainland-free-zone-or-offshore-uae-structuring-us-founders' => '/blog/mainland-free-zone-or-offshore-the-uae-structuring-decision-serious-us-founders-cannot-afford-to-get-wrong',
     '/blog/why-us-wireless-itad-operators-are-looking-at-the-uae' => '/blog/why-us-wireless-and-itad-operators-are-looking-at-the-uae',
     '/blog/uae-business-setup-geopolitics-2026' => '/blog/beyond-company-formation-why-the-uae-is-becoming-a-strategic-business-base-in-2026',
@@ -107,6 +109,11 @@ if ($uri === '/blog/how-to-set-up-an-ai-company-in-a-uae-free-zone-2026-guide') 
 
 if ($uri === '/blog/uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026') {
     require __DIR__ . '/blog-details11.php';
+    return true;
+}
+
+if ($uri === '/blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset') {
+    require __DIR__ . '/blog-details12.php';
     return true;
 }
 
@@ -215,6 +222,11 @@ if ($uri === '/blog-details10' || $uri === '/blog-details10.php') {
 
 if ($uri === '/blog-details11' || $uri === '/blog-details11.php') {
     header('Location: /blog/uae-not-equal-to-dubai-a-founders-map-of-the-7-emirates-2026', true, 301);
+    exit;
+}
+
+if ($uri === '/blog-details12' || $uri === '/blog-details12.php') {
+    header('Location: /blog/your-uae-website-isnt-a-brochure-its-a-credibility-asset', true, 301);
     exit;
 }
 

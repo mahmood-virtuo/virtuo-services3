@@ -15,6 +15,8 @@ $tagDescription = 'Virtuo insights tagged with ' . $tagLabel . '.';
 $pagedBlogPosts = $blogPosts;
 $blogListingTitle = $tagLabel;
 $blogListingDescription = $tagDescription;
+$useBlogListingImage = true;
+$useBlogListingOverlay = true;
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
